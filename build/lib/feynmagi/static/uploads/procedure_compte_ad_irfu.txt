@@ -1,0 +1,128 @@
+Procédure et Processus de création des comptes utilisateurs à l'IRFU
+
+L'influx est le nom du procesuus au niveau CEA 
+Les RH du CEA font tout le nécessaire pour le recrutement et envoient un mail à la main 
+Le mail influx envoyé est reçu par les RH de l'Irfu, le Correspondant Informatique et le RSSI ?
+Le mail est envoyé le jour de la signature du contrat et la validation du compte sur SAP
+La mail contient les informations officielles CEA : Numéro du badge, Prénom et Nom, Département, Date début et date fin
+
+Ce mail influx est envoyé automtiquement/manuellement à helpirfu pour la création d'un ticket ?
+
+Le compte Intra est crée automatiquement PAR LE CEA le lendemain de la récpetion de l'influx et au plus tard 9 jours avant l'arrivée de l'utilisateurs
+
+par qui ? 
+qui gère cette partie si ça plante ?
+
+A ce stade pour voir le compte aller sur avec un compte xx123456-a sur DRFISRVWEB puis Gestion AD 
+
+dans l'OU "nouveaux utilisateurs"
+Un mail auomatique est envoyé à la liste AdminSysWindows avexc la liste des comptes créés
+A ce statde il faut vérifier que tout est bon avec l'influx et le nouevau utilisateur
+cad véifier si l'adresse de messagerie n'est pas en double
+et ?
+Si OK alors :
+	Avanat 10h00 (date d'exécution du script auto sur DRFISRVWEB  dans la tâche palnifiée "GAIA Création Compte Intra vers Extra" )
+	Sur Intra
+	Se connecter sur avec le compte xx123456-a 
+	Modifier la date de fin du compte (pourquoi ? en quoi ?)
+	extensionattribute2 = date de début de contrat mais qu’on mais à la date du jour au format 29/11/2023
+	Commentaire « Filled by GAIA »
+
+	à 10h00 exécution du script 
+	modification du compte INTRA
+	Création du compte Extra
+	Envoie mail à la loste RSSI institut
+	
+	13h à 16h00
+	Synchronisation FIM : de Extra vers Intra
+	
+	Modification via dsm-comptes après la synchrinisation FIM
+	Pour créer l’annuaire web
+	Pour remplir les champs bureaux….
+	Modifier la demande (en particulier date de fin)
+	Lancer création sans aller sur création intra/extra
+
+Si pas OK cad messagerie en double
+
+		Vérifie si pas de false positif : dand ce cas il s'agit d'un même utilisateur qui a change de badge, apr exemple en passant conseiller scirntifique
+		Vérifier si l'ancien compte peur être supprimer rapidement, le supprimer ou le faire supprimer (par qui?)
+		Sinon modifier la DAMI pour ajouter un 2 dans le champ mail
+		excpetion ici ? par exemple changer de prénom ou de deuxilème nom ?
+
+
+	
+Le script de création des comptes Extra depuis les comptes Intra crées automatiquemen est un powershell qui tourne dans une 
+tâche palnifiée sur DRFISRVWEB 
+on a un serveur de secours ?
+qui gére cette VM ? 
+
+la tâche est : GAIA Création Compte Intra vers Extra	
+Etapes réalisées par le script lors de la création côté INTRA
+	Recherche d’un utilisateur avec le champ Filled by GAIA ayant une date de prise de fonction < j+24h.
+	Nettoyage du champ description
+	Désactivation de la boite aux lettres INTRA
+	Affectation d’un mot de passe
+	Activation du compte
+	Remplissage des champs de ”Localisation”
+	Renommage du compte (Nom = Nom + EployeeID)
+	Déplacement dans la bonne OU
+	Détermination de la prochaine adresse email disponible 
+	Création d’un fichier CSV avec les attributs des utilisateurs à créer
+	Envoi du fichier CSV par une invoke sur DRFESRVWEBV ("https://drfesrvwebv.extra.cea.fr:8113/filledbygaia.php" )
+	
+
+A la réception du fichier CSV le script de création sur DRFESRVWEBV ce lance automatiquement
+Etapes réalisées après réception du CSV sur DRFESRVWEBV
+	Lancement du script de création sur DRFESRVWEBV
+	Lecture du CSV
+	Création des comptes reçus avec leurs attributs
+	Génération d’un mot de passe pour chaque compte
+	Activation des comptes
+	Affectation des groupes de sécurité en fonction du $departement
+	Création des répertoires personnels et du \home si nécessaire
+	Envoi des informations du compte à la liste de mail RSSI-$departement (Mot de passe, Login, Date de début de contrat, département, type de contrat (CDI...)...
+
+Une notifiaction par mail est envoyé à ? RSSI , helpirufu ,? CI depuis GAIA-DRF-e@cea.Fr
+Elle contient le mot de passe (du compte EXTRA)
+
+Pour visionner les logs INTRA (cad?) : Depuis DRFIADM/DRFIREBOND se rendre sur \\drfisrvweb\c$\Tachauto\GAIA\Logs 
+Pour visionner les logs EXTRA :  Depuis DRFEADMV se rendre sur \\drfesrvwebv\c$\inetpub\GAIA-Gestion\logs
+
+Si préparation manuelle alors
+Connexion RDP sur DRFIADM ou DRFIREBOND
+Ouverture de ”Active Directory Users and Computers”  avec un compte a-xxxxx
+Aller dans intra.cea.fr -> DSMSAC -> Utilisateurs et Groupes -> Nouveaux Utilisateurs
+Ouvrir l'utrilisateur en question et chnager les champs description, extensionAttribute2 et Date d’expiration 
+Exemple :
+Description 			= Filled by GAIA
+extensionAttribute1	= SAC ou DSMSAC
+extensionAttribute2 	= Date de début de contrat  ( date du jour pour accélérer)
+extensionAttribute14 	= Type de contrat (ex: CDI / CDD...)
+extensionAttribute15 	= Interne / Externe
+Date d’expiration (hors CDI) = xx/yy/XXXX   ?????????????????????
+
+et puis on fait quoi ?
+
+
+Chaque utilisateur Extra appartien à DSMAC  (l'autre grand goupe ?)
+Et aux groupes suivnats :
+DSM-SAC - OWAInternet pour l'accès à la messagerie web
+DSMSAC-IRFU-MOBIEtendu pour l'accès aux mobipas (il y a un mobi non étendu ? c'est quoi la différence ?)
+au groupe du departement
+au groupe du departement-labo 
+Les rpértoires suivants sont automatiquement créés:
+\\dapdc5\users\ab123456
+\\dapdc5\users\ab123456\public
+\\drfewindisk\scratch\ab123456
+ainsi que les liens (raccorcis )
+\\dapnia\data\users\ab123456\\dapnia\data\users\ab123456_pub (?? wtf ?)
+
+
+
+
+Gestion des privilèges et des accès aux partages et aux ressources applicatives
+
+Accès aux serveurs LINUX :
+Une synchronisation de l'AD extra est fait par XXXXX tous les XXXX
+
+

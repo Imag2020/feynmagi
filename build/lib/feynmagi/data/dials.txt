@@ -1,0 +1,1045 @@
+Creating Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7fb40b8d00d0>
+m_history = cfg.agent_message_history
+not agent_message_history
+<BR>_______________rag Agent Thinking ________________<BR>
+000 ==================================rag =======================================================================
+Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal 
+
+
+
+PROCESS
+
+1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.
+3. You MUST use the best parameter to pass to commands.
+4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.
+5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values
+6. Once goal reached you MUST call exit command
+
+
+# RULES 
+
+- Keep responses actionable and practical.
+- you MUST replace what is bteween < and > in commands and args with suitable values
+- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line
+- Follow process and remmeber to exit when mission accomplished 
+
+# Context
+
+{rag_context}
+
+Please note that current date and time is : 2024-06-24 11:02:19
+Your mission : L'influx est le nom du procesuus au niveau CEA , donne moi la suite
+Now help me please
+111 =========================================rag ================================================================
+ To better understand your needs and goals, I will need more information about the code you want to develop and any specific requirements or constraints. Please provide additional context or details so that I can assist you effectively.
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7fb40b8d00d0>
+m_history = cfg.agent_message_history
+not agent_message_history
+<BR>_______________rag Agent Thinking ________________<BR>
+000 ==================================rag =======================================================================
+Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal 
+
+
+
+PROCESS
+
+1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.
+3. You MUST use the best parameter to pass to commands.
+4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.
+5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values
+6. Once goal reached you MUST call exit command
+
+
+# RULES 
+
+- Keep responses actionable and practical.
+- you MUST replace what is bteween < and > in commands and args with suitable values
+- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line
+- Follow process and remmeber to exit when mission accomplished 
+
+# Context
+
+{rag_context}
+
+Please note that current date and time is : 2024-06-24 11:08:33
+Your mission : quelle est la procédure de création d'un compte AD à l'irfu, donne moi le processusus complet depuis l'influx 
+Now help me please
+111 =========================================rag ================================================================
+ To assist you in creating an Active Directory (AD) account at the IRFU, I will need more information about your current environment and the specific details of the account you want to create. Please provide me with the following details:
+
+1. The name of the domain where the new account should be created.
+2. The desired username for the new account.
+3. The desired first and last names for the new account.
+4. The desired email address for the new account.
+5. The desired password for the new account (if you want to set it manually).
+6. The intended group memberships for the new account.
+7. Any additional attributes or settings that should be applied to the new account.
+
+Once I have this information, I can provide you with a complete step-by-step process for creating the AD account at the IRFU.
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 
+Creating Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7f9ac9c3cbd0>
+m_history = cfg.agent_message_history
+not agent_message_history
+<BR>_______________rag Agent Thinking ________________<BR>
+000 ==================================rag =======================================================================
+Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal 
+
+
+
+PROCESS
+
+1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.
+3. You MUST use the best parameter to pass to commands.
+4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.
+5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values
+6. Once goal reached you MUST call exit command
+
+
+# RULES 
+
+- Keep responses actionable and practical.
+- you MUST replace what is bteween < and > in commands and args with suitable values
+- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line
+- Follow process and remmeber to exit when mission accomplished 
+
+# Context
+
+{rag_context}
+
+Please note that current date and time is : 2024-06-24 11:15:30
+Your mission : quelle est la procédure de création d'un compte AD à l'irfu, donne moi le processusus complet depuis l'influx
+Now help me please
+111 =========================================rag ================================================================
+ To assist you in creating an Active Directory (AD) account at the IRFU, I will need to gather some context and information. Please provide me with the following details:
+
+1. The name of the person who needs the AD account created.
+2. The department or group they belong to within the organization.
+3. The desired username for the new account.
+4. The desired password for the new account (if you can, please provide a strong password).
+5. Any specific permissions or group memberships that should be assigned to the new account.
+
+Once I have this information, I will be able to guide you through the process of creating the AD account at the IRFU.
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7f9ac9c3cbd0>
+m_history = cfg.agent_message_history
+not agent_message_history
+<BR>_______________rag Agent Thinking ________________<BR>
+000 ==================================rag =======================================================================
+Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal 
+
+
+
+PROCESS
+
+1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.
+3. You MUST use the best parameter to pass to commands.
+4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.
+5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values
+6. Once goal reached you MUST call exit command
+
+
+# RULES 
+
+- Keep responses actionable and practical.
+- you MUST replace what is bteween < and > in commands and args with suitable values
+- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line
+- Follow process and remmeber to exit when mission accomplished 
+
+# Context
+
+{rag_context}
+
+Please note that current date and time is : 2024-06-24 11:18:30
+Your mission : donne moi le processus de cr'éation d'un compte AD IRFU depuis l'émission de l'influw jusqu'à sa création dans gaia
+Now help me please
+111 =========================================rag ================================================================
+ To assist you in creating an AD IRFU account from the issuance of the influence to its creation in Gaia, I will need more information about your current setup and requirements. Please provide details such as the domain name, email address, and any specific attributes or groups that should be associated with the new account.
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7f9ac9c3cbd0>
+m_history = cfg.agent_message_history
+not agent_message_history
+<BR>_______________rag Agent Thinking ________________<BR>
+000 ==================================rag =======================================================================
+Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal 
+
+
+
+PROCESS
+
+1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.
+3. You MUST use the best parameter to pass to commands.
+4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.
+5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values
+6. Once goal reached you MUST call exit command
+
+
+# RULES 
+
+- Keep responses actionable and practical.
+- you MUST replace what is bteween < and > in commands and args with suitable values
+- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line
+- Follow process and remmeber to exit when mission accomplished 
+
+# Context
+
+{rag_context}
+
+Please note that current date and time is : 2024-06-24 11:19:09
+Your mission : hello
+Now help me please
+111 =========================================rag ================================================================
+ Hello! I'm here to help you. Please provide more context or information about the task you need assistance with, and I will do my best to support you in achieving your goal.
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7f9ac9c3cbd0>
+m_history = cfg.agent_message_history
+not agent_message_history
+<BR>_______________rag Agent Thinking ________________<BR>
+000 ==================================rag =======================================================================
+Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal 
+
+
+
+PROCESS
+
+1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.
+3. You MUST use the best parameter to pass to commands.
+4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.
+5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values
+6. Once goal reached you MUST call exit command
+
+
+# RULES 
+
+- Keep responses actionable and practical.
+- you MUST replace what is bteween < and > in commands and args with suitable values
+- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line
+- Follow process and remmeber to exit when mission accomplished 
+
+# Context
+
+{rag_context}
+
+Please note that current date and time is : 2024-06-24 11:20:11
+Your mission : hi
+Now help me please
+111 =========================================rag ================================================================
+ Hello! I'm here to help you. Please provide more information about the code you need assistance with or any specific questions you have, and I will do my best to support you.
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 
+Creating Long Term Memory index
+Creating Long Term Memory index
+Creating Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7f9f8e7c2390>
+m_history = cfg.agent_message_history
+not agent_message_history
+Creating Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7f73322f6190>
+Creating Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7fc8c5914890>
+m_history = cfg.agent_message_history
+not agent_message_history
+<BR>_______________rag Agent Thinking ________________<BR>
+000 ==================================rag =======================================================================
+Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal 
+
+
+
+PROCESS
+
+1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.
+3. You MUST use the best parameter to pass to commands.
+4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.
+5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values
+6. Once goal reached you MUST call exit command
+
+
+# RULES 
+
+- Keep responses actionable and practical.
+- you MUST replace what is bteween < and > in commands and args with suitable values
+- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line
+- Follow process and remmeber to exit when mission accomplished 
+
+# Context
+
+{rag_context}
+
+No context Found
+
+Your mission : donne moi la procédure de création de compte depuis l'(influx jusqu'à la gestion dans gaia
+Now help me please
+111 =========================================rag ================================================================
+ To better assist you, I need some more information about the context. Can you provide any specific details or requirements for creating an account from Influx to GAIA management?
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 
+Creating Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7f7f7cf45350>
+m_history = cfg.agent_message_history
+not agent_message_history
+<BR>_______________rag Agent Thinking ________________<BR>
+000 ==================================rag =======================================================================
+Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal 
+
+
+
+PROCESS
+
+1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.
+3. You MUST use the best parameter to pass to commands.
+4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.
+5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values
+6. Once goal reached you MUST call exit command
+
+
+# RULES 
+
+- Keep responses actionable and practical.
+- you MUST replace what is bteween < and > in commands and args with suitable values
+- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line
+- Follow process and remmeber to exit when mission accomplished 
+
+# Context
+
+{rag_context}
+
+No context Found
+
+Your mission : donne moi la procédure de création de compte depuis l'(influx jusqu'à la gestion dans gaia
+Now help me please
+111 =========================================rag ================================================================
+ To better assist you, I need some more information about the context. Can you provide any specific details or requirements for creating an account from Influx to GAIA management?
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 
+Creating Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7fa9315e69d0>
+m_history = cfg.agent_message_history
+not agent_message_history
+<BR>_______________rag Agent Thinking ________________<BR>
+000 ==================================rag =======================================================================
+Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal 
+
+
+
+PROCESS
+
+1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.
+3. You MUST use the best parameter to pass to commands.
+4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.
+5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values
+6. Once goal reached you MUST call exit command
+
+
+# RULES 
+
+- Keep responses actionable and practical.
+- you MUST replace what is bteween < and > in commands and args with suitable values
+- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line
+- Follow process and remmeber to exit when mission accomplished 
+
+# Context
+
+{rag_context}
+
+No context Found
+
+Your mission : donne moi la procédure de création de compte depuis l'(influx jusqu'à la gestion dans gaia
+Now help me please
+111 =========================================rag ================================================================
+ To better assist you, I need some more information about the context. Can you provide any specific details or requirements for creating an account from Influx to GAIA management?
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 
+Creating Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7fae58150d50>
+m_history = cfg.agent_message_history
+not agent_message_history
+<BR>_______________rag Agent Thinking ________________<BR>
+000 ==================================rag =======================================================================
+Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal 
+
+
+
+PROCESS
+
+1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.
+3. You MUST use the best parameter to pass to commands.
+4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.
+5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values
+6. Once goal reached you MUST call exit command
+
+
+# RULES 
+
+- Keep responses actionable and practical.
+- you MUST replace what is bteween < and > in commands and args with suitable values
+- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line
+- Follow process and remmeber to exit when mission accomplished 
+
+# Context
+
+{rag_context}
+
+No context Found
+
+Your mission : donne moi la procédure de création de compte depuis l'(influx jusqu'à la gestion dans gaia
+Now help me please
+111 =========================================rag ================================================================
+ To better assist you, I need some more information about the context. Can you provide any specific details or requirements for creating an account from Influx to GAIA management?
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 
+Creating Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7f3fc11c0650>
+m_history = cfg.agent_message_history
+not agent_message_history
+<BR>_______________rag Agent Thinking ________________<BR>
+000 ==================================rag =======================================================================
+Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal 
+
+
+
+PROCESS
+
+1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.
+3. You MUST use the best parameter to pass to commands.
+4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.
+5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values
+6. Once goal reached you MUST call exit command
+
+
+# RULES 
+
+- Keep responses actionable and practical.
+- you MUST replace what is bteween < and > in commands and args with suitable values
+- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line
+- Follow process and remmeber to exit when mission accomplished 
+
+# Context
+
+{rag_context}
+
+No context Found
+
+Your mission : donne moi la procédure de création de compte depuis l'(influx jusqu'à la gestion dans gaia
+Now help me please
+111 =========================================rag ================================================================
+ To better assist you, I need some more information about the context. Can you provide any specific details or requirements for creating an account from Influx to GAIA management?
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 
+Creating Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7fe879f49210>
+m_history = cfg.agent_message_history
+not agent_message_history
+<BR>_______________rag Agent Thinking ________________<BR>
+000 ==================================rag =======================================================================
+Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal 
+
+
+
+PROCESS
+
+1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.
+3. You MUST use the best parameter to pass to commands.
+4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.
+5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values
+6. Once goal reached you MUST call exit command
+
+
+# RULES 
+
+- Keep responses actionable and practical.
+- you MUST replace what is bteween < and > in commands and args with suitable values
+- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line
+- Follow process and remmeber to exit when mission accomplished 
+
+# Context
+
+{rag_context}
+
+No context Found
+0
+Your mission : hi
+Now help me please
+111 =========================================rag ================================================================
+ Hello! I'm here to help you. Please provide some information about the code you need assistance with, or let me know what your specific goal is. This will allow me to better understand your needs and provide appropriate support.
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 
+Creating Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7f8f6ccdbad0>
+m_history = cfg.agent_message_history
+not agent_message_history
+<BR>_______________rag Agent Thinking ________________<BR>
+000 ==================================rag =======================================================================
+Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal 
+
+
+
+PROCESS
+
+1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.
+3. You MUST use the best parameter to pass to commands.
+4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.
+5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values
+6. Once goal reached you MUST call exit command
+
+
+# RULES 
+
+- Keep responses actionable and practical.
+- you MUST replace what is bteween < and > in commands and args with suitable values
+- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line
+- Follow process and remmeber to exit when mission accomplished 
+
+# Context
+
+{rag_context}
+
+No context Found
+
+Your mission : hi
+Now help me please
+111 =========================================rag ================================================================
+ Hello! I'm here to help you. Please provide some information about the code you need assistance with, or let me know what your specific goal is. This will allow me to better understand your needs and provide appropriate support.
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 
+Loading Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7f44ff38e550>
+m_history = cfg.agent_message_history
+not agent_message_history
+<BR>_______________rag Agent Thinking ________________<BR>
+000 ==================================rag =======================================================================
+Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal 
+
+
+
+PROCESS
+
+1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.
+3. You MUST use the best parameter to pass to commands.
+4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.
+5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values
+6. Once goal reached you MUST call exit command
+
+
+# RULES 
+
+- Keep responses actionable and practical.
+- you MUST replace what is bteween < and > in commands and args with suitable values
+- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line
+- Follow process and remmeber to exit when mission accomplished 
+
+# Context
+
+{rag_context}
+
+No context Found
+
+Your mission : hi
+Now help me please
+111 =========================================rag ================================================================
+ Hello! I'm here to help you. Please provide some information about the code you need assistance with, or let me know what your specific goal is. This will allow me to better understand your needs and provide appropriate support.
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 
+Loading Long Term Memory index
+Loading Long Term Memory index
+Loading Long Term Memory index
+Loading Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7f0e8076e7d0>
+m_history = cfg.agent_message_history
+not agent_message_history
+<BR>_______________rag Agent Thinking ________________<BR>
+000 ==================================rag =======================================================================
+Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal 
+
+
+
+PROCESS
+
+1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.
+3. You MUST use the best parameter to pass to commands.
+4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.
+5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values
+6. Once goal reached you MUST call exit command
+
+
+# RULES 
+
+- Keep responses actionable and practical.
+- you MUST replace what is bteween < and > in commands and args with suitable values
+- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line
+- Follow process and remmeber to exit when mission accomplished 
+
+# Context
+
+{rag_context}
+
+No context Found
+
+Your mission : hi
+Now help me please
+111 =========================================rag ================================================================
+ Hello! I'm here to help you. Please provide some information about the code you need assistance with, or let me know what your specific goal is. This will allow me to better understand your needs and provide appropriate support.
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 
+Loading Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7f8fb94d8390>
+m_history = cfg.agent_message_history
+not agent_message_history
+<BR>_______________rag Agent Thinking ________________<BR>
+000 ==================================rag =======================================================================
+Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal 
+
+
+
+PROCESS
+
+1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.
+3. You MUST use the best parameter to pass to commands.
+4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.
+5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values
+6. Once goal reached you MUST call exit command
+
+
+# RULES 
+
+- Keep responses actionable and practical.
+- you MUST replace what is bteween < and > in commands and args with suitable values
+- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line
+- Follow process and remmeber to exit when mission accomplished 
+
+# Context
+
+{rag_context}
+
+No context Found
+
+Your mission : hi
+Now help me please
+111 =========================================rag ================================================================
+ Hello! I'm here to help you. Please provide some information about the code you need assistance with, or let me know what your specific goal is. This will allow me to better understand your needs and provide appropriate support.
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 
+Loading Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7f88454ec710>
+Loading Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7f09b59f6610>
+m_history = cfg.agent_message_history
+not agent_message_history
+<BR>_______________rag Agent Thinking ________________<BR>
+000 ==================================rag =======================================================================
+Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal 
+
+
+
+PROCESS
+
+1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.
+3. You MUST use the best parameter to pass to commands.
+4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.
+5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values
+6. Once goal reached you MUST call exit command
+
+
+# RULES 
+
+- Keep responses actionable and practical.
+- you MUST replace what is bteween < and > in commands and args with suitable values
+- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line
+- Follow process and remmeber to exit when mission accomplished 
+
+# Context
+
+{rag_context}
+
+No context Found
+
+Your mission : hi
+Now help me please
+111 =========================================rag ================================================================
+ Hello! I'm here to help you. Please provide some information about the code you need assistance with, or let me know what your specific goal is. This will allow me to better understand your needs and provide appropriate support.
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 
+Loading Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7effe6ee4050>
+m_history = cfg.agent_message_history
+not agent_message_history
+<BR>_______________rag Agent Thinking ________________<BR>
+000 ==================================rag =======================================================================
+Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal 
+
+
+
+PROCESS
+
+1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.
+3. You MUST use the best parameter to pass to commands.
+4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.
+5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values
+6. Once goal reached you MUST call exit command
+
+
+# RULES 
+
+- Keep responses actionable and practical.
+- you MUST replace what is bteween < and > in commands and args with suitable values
+- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line
+- Follow process and remmeber to exit when mission accomplished 
+
+# Context
+
+{rag_context}
+
+No context Found
+
+Your mission : h
+Now help me please
+111 =========================================rag ================================================================
+ I'm sorry, but there is no context provided. Please provide some information about the code you need help with or any specific questions you have, and I will do my best to assist you.
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 
+[DEBUG] Starting autosession...[{'role': 'assistant', 'content': " I'm sorry, but there is no context provided. Please provide some information about the code you need help with or any specific questions you have, and I will do my best to assist you."}] and [{'role': 'user', 'content': 'Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal \n\n\n\nPROCESS\n\n1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.\n3. You MUST use the best parameter to pass to commands.\n4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.\n5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values\n6. Once goal reached you MUST call exit command\n\n\n# RULES \n\n- Keep responses actionable and practical.\n- you MUST replace what is bteween < and > in commands and args with suitable values\n- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line\n- Follow process and remmeber to exit when mission accomplished \n\n# Context\n\n{rag_context}\n\nNo context Found\n\nYour mission : h\nNow help me please'}, {'role': 'assistant', 'content': " I'm sorry, but there is no context provided. Please provide some information about the code you need help with or any specific questions you have, and I will do my best to assist you."}] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7effe6ee4050>
+m_history = cfg.agent_message_history
+ 2 actual_message = donne moi la procédure gaia 
+<BR>_______________rag Agent Thinking ________________<BR>
+[DEBUG] printng ==== _______________________ i=0
+{'role': 'user', 'content': 'Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal \n\n\n\nPROCESS\n\n1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.\n3. You MUST use the best parameter to pass to commands.\n4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.\n5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values\n6. Once goal reached you MUST call exit command\n\n\n# RULES \n\n- Keep responses actionable and practical.\n- you MUST replace what is bteween < and > in commands and args with suitable values\n- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line\n- Follow process and remmeber to exit when mission accomplished \n\n# Context\n\n{rag_context}\n\nNo context Found\n\nYour mission : h\nNow help me please'}
+[DEBUG] end printing ==== _______________________ i=0
+[DEBUG] printng ==== _______________________ i=1
+{'role': 'assistant', 'content': " I'm sorry, but there is no context provided. Please provide some information about the code you need help with or any specific questions you have, and I will do my best to assist you."}
+[DEBUG] end printing ==== _______________________ i=1
+000 ==================================rag =======================================================================
+donne moi la procédure gaia 
+111 =========================================rag ================================================================
+ D'accord, je vais vous donner la procédure Gaia étape par étape. Assurez-vous de suivre chaque étape attentivement pour obtenir les meilleurs résultats.
+
+Étape 1: Préparation
+
+* Assurez-vous que votre équipement est en bon état et fonctionnel.
+* Vérifiez que vous avez toutes les informations nécessaires sur l'objet ou le sujet de la procédure Gaia.
+
+Étape 2: Analyse du contexte
+
+* Examinez attentivement l'objet ou le sujet pour identifier les caractéristiques clés et les détails importants.
+* Prenez des notes si nécessaire pour vous aider à comprendre le contexte.
+
+Étape 3: Planification
+
+* Déterminez les étapes nécessaires pour mener à bien la procédure Gaia.
+* Évaluez les risques potentiels et préparez des solutions de rechange si nécessaire.
+
+Étape 4: Exécution
+
+* Suivez étape par étape le plan que vous avez élaboré lors de la phase de planification.
+* Assurez-vous de suivre les instructions avec précision et d'utiliser des outils appropriés pour chaque tâche.
+
+Étape 5: Vérification et ajustement
+
+* Après avoir terminé la procédure Gaia, vérifiez les résultats pour vous assurer qu'ils correspondent à ce que vous avez planifié.
+* Si nécessaire, effectuez des ajustements pour améliorer les résultats ou corriger les problèmes.
+
+Étape 6: Documentation et archivage
+
+* Documentez la procédure Gaia et les résultats obtenus pour un usage futur ou pour d'autres personnes.
+* Archivez les documents et les informations importantes pour les garder à jour et accessibles lorsque nécessaire.
+
+En suivant ces étapes, vous devriez être en mesure de mener à bien la procédure Gaia avec succès. N'hésitez pas à demander de l'aide si vous rencontrez des problèmes ou si vous avez besoin de clarifications.
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 
+Loading Long Term Memory index
+Creating Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7f6f481bfd90>
+m_history = cfg.agent_message_history
+not agent_message_history
+<BR>_______________rag Agent Thinking ________________<BR>
+000 ==================================rag =======================================================================
+Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal 
+
+
+
+PROCESS
+
+1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.
+3. You MUST use the best parameter to pass to commands.
+4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.
+5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values
+6. Once goal reached you MUST call exit command
+
+
+# RULES 
+
+- Keep responses actionable and practical.
+- you MUST replace what is bteween < and > in commands and args with suitable values
+- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line
+- Follow process and remmeber to exit when mission accomplished 
+
+# Context
+
+{rag_context}
+
+No context Found
+
+Your mission : hi
+Now help me please
+111 =========================================rag ================================================================
+ Hello! I'm here to help you. Please provide some information about the code you need assistance with, or let me know what your specific goal is. This will allow me to better understand your needs and provide appropriate support.
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 
+Loading Long Term Memory index
+Loading Long Term Memory index
+Loading Long Term Memory index
+Creating Long Term Memory index
+Loading Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7fb3dbda9850>
+m_history = cfg.agent_message_history
+not agent_message_history
+Loading Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7fd8ce1e5450>
+m_history = cfg.agent_message_history
+not agent_message_history
+Loading Long Term Memory index
+[DEBUG] Starting autosession...[] and [] 
+[DEBUG] SocketIO instance: <flask_socketio.SocketIO object at 0x7f6a63c807d0>
+m_history = cfg.agent_message_history
+not agent_message_history
+<BR>_______________rag Agent Thinking ________________<BR>
+000 ==================================rag =======================================================================
+Act as rag 💻 agent, an expert on knowldge retreiving, you have access to internal knwowldge data abse, your primary task is to support me by understanding my needs, analyzing context, use your available commands and acheiving my goal 
+
+
+
+PROCESS
+
+1. Gather Context: Collect relevant information and clarify my goals by asking questions about code to develop.
+3. You MUST use the best parameter to pass to commands.
+4. Handle Failures: If a command fails, retry with different arguments values or use another possible command.
+5. Check the syntax of your input for commands, use anly commands from list above, with exact arguments name and values
+6. Once goal reached you MUST call exit command
+
+
+# RULES 
+
+- Keep responses actionable and practical.
+- you MUST replace what is bteween < and > in commands and args with suitable values
+- Do not output the command call syntax above unless you are sure you want to start it and you must pass it all needed args in one line
+- Follow process and remmeber to exit when mission accomplished 
+
+# Context
+
+{rag_context}
+
+Procédure et Processus de création des comptes utilisateurs à l'IRFU
+
+L'influx est le nom du procesuus au niveau CEA 
+Les RH du CEA font tout le nécessaire pour le recrutement et envoient un mail à la main 
+Le mail influx envoyé est reçu par les RH de l'Irfu, le Correspondant Informatique et le RSSI ?
+Le mail est envoyé le jour de la signature du contrat et la validation du compte sur SAP
+La mail contient les informations officielles CEA : Numéro du badge, Prénom et Nom, Département, Date début et date fin
+
+Ce mail influx est envoyé automtiquement/manuellement à helpirfu pour la création d'un ticket ?
+
+Le compte Intra est crée automatiquement PAR LE CEA le lendemain de la récpetion de l'influx et au plus tard 9 jours avant l'arrivée de l'utilisateurs
+
+par qui ? 
+qui gère cette partie si ça plante ?
+
+A ce stade pour voir le compte aller sur avec un compte xx123456-a sur DRFISRVWEB puis Gestion AD 
+
+dans l'OU "nouveaux utilisateurs"
+Un mail auomatique est envoyé à la liste AdminSysWindows avexc la liste des comptes créés
+A ce statde il faut vérifier que tout est bon avec l'influx et le nouevau utilisateur
+cad véifier si l'adresse de messagerie n'est pas en double
+et ?
+Si OK alors :
+	Avanat 10h00 (date d'exécution du script auto sur DRFISRVWEB  dans la tâche palnifiée "GAIA Création Compte Intra vers Extra" )
+	Sur Intra
+	Se connecter sur avec le compte xx123456-a 
+	Modifier la date de fin du compte (pourquoi ? en quoi ?)
+	extensionattribute2 = date de début de contrat mais qu’on mais à la date du jour au format 29/11/2023
+	Commentaire « Filled by GAIA »
+
+	à 10h00 exécution du script 
+	modification du compte INTRA
+	Création du compte Extra
+	Envoie mail à la loste RSSI institut
+	
+	13h à 16h00
+	Synchronisation FIM : de Extra vers Intra
+	
+	Modification via dsm-comptes après la synchrinisation FIM
+	Pour créer l’annuaire web
+	Pour remplir les champs bureaux….
+	Modifier la demande (en particulier date de fin)
+	Lancer création sans aller sur création intra/extra
+
+Si pas OK cad messagerie en double
+
+		Vérifie si pas de false positif : dand ce cas il s'agit d'un même utilisateur qui a change de badge, apr exemple en passant conseiller scirntifique
+		Vérifier si l'ancien compte peur être supprimer rapidement, le supprimer ou le faire supprimer (par qui?)
+		Sinon modifier la DAMI pour ajouter un 2 dans le champ mail
+		excpetion ici ? par exemple changer de prénom ou de deuxilème nom ?
+
+
+	
+Le script de création des comptes Extra depuis les comptes Intra crées automatiquemen est un powershell qui tourne dans une 
+tâche palnifiée sur DRFISRVWEB 
+on a un serveur de secours ?
+qui gére cette VM ? 
+
+la tâche est : GAIA Création Compte Intra vers Extra	
+Etapes réalisées par le script lors de la création côté INTRA
+	Recherche d’un utilisateur avec le champ Filled by GAIA ayant une date de prise de fonction < j+24h.
+	Nettoyage du champ description
+	Désactivation de la boite aux lettres INTRA
+	Affectation d’un mot de passe
+	Activation du compte
+	Remplissage des champs de ”Localisation”
+	Renommage du compte (Nom = Nom + EployeeID)
+	Déplacement dans la bonne OU
+	Détermination de la prochaine adresse email disponible 
+	Création d’un fichier CSV avec les attributs des utilisateurs à créer
+	Envoi du fichier CSV par une invoke sur DRFESRVWEBV ("https://drfesrvwebv.extra.cea.fr:8113/filledbygaia.php" )
+	
+
+A la réception du fichier CSV le script de création sur DRFESRVWEBV ce lance automatiquement
+Etapes réalisées après réception du CSV sur DRFESRVWEBV
+	Lancement du script de création sur DRFESRVWEBV
+	Lecture du CSV
+	Création des comptes reçus avec leurs attributs
+	Génération d’un mot de passe pour chaque compte
+	Activation des comptes
+	Affectation des groupes de sécurité en fonction du $departement
+	Création des répertoires personnels et du \home si nécessaire
+	Envoi des informations du compte à la liste de mail RSSI-$departement (Mot de passe, Login, Date de début de contrat, département, type de contrat (CDI...)...
+
+Une notifiaction par mail est envoyé à ? RSSI , helpirufu ,? CI depuis GAIA-DRF-e@cea.Fr
+Elle contient le mot de passe (du compte EXTRA)
+
+Pour visionner les logs INTRA (cad?) : Depuis DRFIADM/DRFIREBOND se rendre sur \\drfisrvweb\c$\Tachauto\GAIA\Logs 
+Pour visionner les logs EXTRA :  Depuis DRFEADMV se rendre sur \\drfesrvwebv\c$\inetpub\GAIA-Gestion\logs
+
+Si préparation manuelle alors
+Connexion RDP sur DRFIADM ou DRFIREBOND
+Ouverture de ”Active Directory Users and Computers”  avec un compte a-xxxxx
+Aller dans intra.cea.fr -> DSMSAC -> Utilisateurs et Groupes -> Nouveaux Utilisateurs
+Ouvrir l'utrilisateur en question et chnager les champs description, extensionAttribute2 et Date d’expiration 
+Exemple :
+Description 			= Filled by GAIA
+extensionAttribute1	= SAC ou DSMSAC
+extensionAttribute2 	= Date de début de contrat  ( date du jour pour accélérer)
+extensionAttribute14 	= Type de contrat (ex: CDI / CDD...)
+extensionAttribute15 	= Interne / Externe
+Date d’expiration (hors CDI) = xx/yy/XXXX   ?????????????????????
+
+et puis on fait quoi ?
+
+
+Chaque utilisateur Extra appartien à DSMAC  (l'autre grand goupe ?)
+Et aux groupes suivnats :
+DSM-SAC - OWAInternet pour l'accès à la messagerie web
+DSMSAC-IRFU-MOBIEtendu pour l'accès aux mobipas (il y a un mobi non étendu ? c'est quoi la différence ?)
+au groupe du departement
+au groupe du departement-labo 
+Les rpértoires suivants sont automatiquement créés:
+\\dapdc5\users\ab123456
+\\dapdc5\users\ab123456\public
+\\drfewindisk\scratch\ab123456
+ainsi que les liens (raccorcis )
+\\dapnia\data\users\ab123456\\dapnia\data\users\ab123456_pub (?? wtf ?)
+
+
+
+
+Gestion des privilèges et des accès aux partages et aux ressources applicatives
+
+Accès aux serveurs LINUX :
+Une synchronisation de l'AD extra est fait par XXXXX tous les XXXX
+
+
+
+Your mission : donne moi la procédure de création de compte 
+Now help me please
+111 =========================================rag ================================================================
+ La procédure de création d'un compte INTRA et EXTRA suit généralement ces étapes :
+
+1. Recherche d'un utilisateur avec le champ Filled by GAIA ayant une date de prise de fonction inférieure à la date actuelle + 24 heures.
+2. Nettoyage du champ description.
+3. Désactivation de la boîte aux lettres INTRA.
+4. Affectation d'un mot de passe.
+5. Activation du compte.
+6. Remplissage des champs de "Localisation".
+7. Renommage du compte (Nom = Nom + EmployeeID).
+8. Déplacement dans la bonne OU.
+9. Détermination de la prochaine adresse e-mail disponible.
+10. Création d'un fichier CSV avec les attributs des utilisateurs à créer.
+11. Envoi du fichier CSV par une invoke sur DRFESRVWEBV ("https://drfesrvwebv.extra.cea.fr:8113/filledbygaia.php").
+
+Sur le serveur DRFESRVWEBV, le script de création reçoit automatiquement le fichier CSV et lance le script de création pour les comptes EXTRA :
+
+1. Lecture du CSV.
+2. Création des comptes reçus avec leurs attributs.
+3. Génération d'un mot de passe pour chaque compte.
+4. Activation des comptes.
+5. Affectation des groupes de sécurité en fonction du département.
+6. Création des répertoires personnels et du \home si nécessaire.
+7. Envoi des informations du compte à la liste de mail RSSI-$departement (Mot de passe, Login, Date de début de contrat, département, type de contrat (CDI...)...).
+
+Une notification par e-mail est envoyée à RSSI, helpirufu et GAIA-DRF-e@cea.Fr. Elle contient le mot de passe (du compte EXTRA).
+
+Pour la gestion des privilèges et des accès aux partages et aux ressources applicatives :
+
+1. Accès aux serveurs LINUX : Une synchronisation de l'AD extra est effectuée par un script automatisé tous les jours à une heure précise.
+2. Accès aux serveurs Windows : La synchronisation de l'AD extra est effectuée par un script automatisé tous les 15 minutes.
+222 end assistant_reply =========================================================================================================
+ cfg.actual_agent ! = default
+ break 

@@ -1,0 +1,99 @@
+NomDuProjet/
+│
+├── nomduprojet/
+│   ├── static/
+│   │   ├── css/
+│   │   ├── js/
+│   │   └── images/
+│   │
+│   ├── templates/
+│   │   ├── base.html
+│   │   └── index.html
+│   │
+│   ├── __init__.py
+│   ├── views.py
+│   └── models.py
+│
+├── tests/
+│   ├── __init__.py
+│   └── test_basic.py
+│
+├── docs/
+│   └── ...
+│
+├── examples/
+│   └── ...
+│
+├── .gitignore
+├── setup.py
+├── requirements.txt
+├── README.md
+└── LICENSE
+
+
+tree -d -L 2 /chemin/vers/le/repertoire
+
+
+pipreqs ~/MagAgi/magagi/
+
+
+Pour pousser votre première version (0.1) de votre projet vers GitHub, suivez ces étapes. Cela suppose que vous avez déjà un compte GitHub et que vous avez git installé sur votre machine. Si ce n'est pas le cas, commencez par créer un compte sur GitHub et installer git.
+
+1. Créer un nouveau dépôt sur GitHub
+Connectez-vous à votre compte GitHub.
+Allez sur la page d'accueil de GitHub et cliquez sur le bouton "+", puis sur "New repository".
+Nommez votre dépôt, ajoutez une description (facultatif), choisissez si vous voulez qu'il soit public ou privé, et cliquez sur "Create repository". Ne cochez aucune des autres options proposées (comme l'ajout d'un fichier README, .gitignore, ou licence) si votre projet les contient déjà.
+2. Initialiser un dépôt git local
+Ouvrez un terminal ou une invite de commande et naviguez vers le répertoire de votre projet si ce n'est pas déjà fait.
+
+bash
+Copy code
+cd /chemin/vers/votre/projet
+Initialisez le répertoire comme un dépôt git :
+
+bash
+Copy code
+git init
+3. Ajouter vos fichiers au dépôt
+Ajoutez tous les fichiers de votre projet au dépôt :
+
+bash
+Copy code
+git add .
+Puis, committez vos fichiers :
+
+bash
+Copy code
+git commit -m "Premier commit, version 0.1"
+4. Lier votre dépôt local au dépôt GitHub
+GitHub vous fournira une URL pour votre nouveau dépôt. Cela ressemblera à quelque chose comme https://github.com/votre_nom_utilisateur/votre_nom_de_projet.git.
+
+Liez votre dépôt local à GitHub avec la commande suivante (remplacez l'URL par celle de votre dépôt) :
+
+bash
+Copy code
+git remote add origin https://github.com/votre_nom_utilisateur/votre_nom_de_projet.git
+5. Pousser votre code vers GitHub
+Poussez votre code vers GitHub avec :
+
+bash
+Copy code
+git push -u origin master
+Si vous utilisez une version de git où la branche principale est nommée main au lieu de master, utilisez :
+
+bash
+Copy code
+git push -u origin main
+Après avoir exécuté cette commande, votre code sera disponible sur votre dépôt GitHub.
+
+6. Taguer votre version
+Pour marquer cette version de votre code comme étant la version 0.1, utilisez les commandes git tag :
+
+bash
+Copy code
+git tag -a v0.1 -m "Version 0.1"
+git push origin v0.1
+Cela crée un tag nommé v0.1 pointant vers le commit actuel et le pousse vers GitHub.
+
+Félicitations !
+Vous avez maintenant poussé votre première version de projet vers GitHub. Cela rend non seulement votre projet disponible pour le public ou votre équipe, mais marque également un point spécifique dans l'historique de votre projet comme étant la version 0.1.

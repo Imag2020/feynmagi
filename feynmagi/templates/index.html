@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Feynmagi V 0.1.24 </title>
+    <link rel="icon" href="static/img/Feynmagi_64x64.png" type="image/png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/interllm2.css') }}">
+    <!-- Bootstrap CSS (si nécessaire) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"> 
+
+     <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <!-- Bootstrap JS (si nécessaire) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.socket.io/socket.io-3.0.5.js"></script>
+    <script src="{{ url_for('static', filename='js/interllm.js') }}"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div id="ishtar-icon">
+            <img id="ishtarconfigIcon" src="static/img/Feynmagi_64x64.png" alt="ishtar">
+        </div>
+        <div id="title">
+    <h1 style="display: inline-block; margin: 0;">FeynmAGI V0.1.24 </h1>
+    <h3 id="engine" style="display: inline-block; margin: 0; margin-left: 30px;">(llm)</h3>
+</div>
+        <div id="config-icon">
+            <img id="configIcon" src="/static/bootstrap/sliders-white.svg" alt="Config">
+        </div>
+    </div>
+
+    
+    <div id="left-panel">
+        <div>
+    <span><button id="new_llm" class="icon-btn" title="LLM chat"><span class="bi bi-chat-left-text"></span></button></span>
+        <span><button id="new_image" class="icon-btn" title="Image Chat"><span class="bi bi-file-image"></span></button></span>
+        <span><button id="new_document" class="icon-btn" title="Document Chat"><span class="bi bi-file-earmark-text"></span></button></span>
+        <span><button id="new_agent" class="icon-btn" title="FeynmAGI chat"><span class="bi bi-chat-right-text-fill"></span></button></span>
+        </div>
+       <div id="history" style="overflow-y: scroll; height: 500px;">
+        <!-- L'historique des sessions sera affiché ici -->
+    </div>
+        <div id="upload-panel">
+            
+            <div id="drop_zone">Drag&drop or click</div>
+            <input type="file" id="fileInput" style="display: none;" accept=".doc,.docx,.txt,.pdf">
+            <div>
+                <span><label for="tag">#</label>
+                <input type="text" id="tag" name="tag" size="15" placeholder="default"> </span>
+            </div>
+            <div>
+                <label for="field2">URL to scan</label>
+                <input type="text" id="urlid" name="urlid" size="20" placeholder="http://"> 
+            </div>
+            <div>
+                <label>Scrab</label>
+                <input type="radio" id="ScrabbingTrue" name="Scrabbing" value="true" checked>
+                <label for="option1True">True</label>
+                <input type="radio" id="ScrabbingFalse" name="Scrabbing" value="false">
+                <label for="option1False">False</label>
+            </div>
+            <button id="okBtn2">OK</button>
+            <button id="cancelBtn2">Cancel</button>
+        </div>
+    </div>
+    <div id="main-content">
+        <div id="output"></div>
+        <div id="side-panel">
+            <div id="fixed-select">
+                <div id="divllmconnect">
+                    <label>LLM Connect</label>
+                    <div><input type="radio" id="openai" name="llmconnect" value="openai"><label for="openai">OpenAI</label></div>
+                    <div><input type="radio" id="groq" name="llmconnect" value="groq"><label for="groq">Groq</label></div>
+                    <div><input type="radio" id="local" name="llmconnect" value="local" checked><label for="local">Local</label></div>
+                </div>
+                <select id="info-select">
+                    <option value="">--Select Model--</option>
+                    <!-- Les options seront ajoutées ici par jQuery -->
+                </select>
+            </div>
+            <div id="system-info">
+                <!-- Contenu de system-info -->
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="message-area">
+            <textarea id="message-textarea" placeholder="Message ..."></textarea>
+            <div id="button-group">
+                
+                    <button id="send-button" title="Send prompt"><span class="bi bi-send-fill"></span></button>
+                    <button id="startRecord" title="Voice Message"><span class="bi bi-mic-mute-fill"></span></button>
+                    <button id="stop-button" title="Stop"><span class="bi bi-stop-circle-fill"></span></button>
+                
+            </div>
+        </div>
+    </div>
+   
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p><div id="popuptext"></div></p>
+            <button id="yes">Yes</button>
+            <button id="no">No</button>
+            <button id="feed">F.B</button>
+            <input id="feedin"></input>
+        </div>
+    </div>
+  <!-- Modal Configuration -->
+    <div id="configModal" class="modal">
+        <div class="modal-content">
+            <span class="closeConfig">&times;</span>
+            <h2>Configuration</h2>
+            <div class="form-group">
+                <label>Continuous Mode</label>
+                <div class="input-group">
+                    <input type="radio" id="continuousmodeTrue" name="continuousmode" value="true">
+                    <label for="continuousmodeTrue">True</label>
+                    <input type="radio" id="continuousmodeFalse" name="continuousmode" value="false">
+                    <label for="continuousmodeFalse">False</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Speak Mode</label>
+                <div class="input-group">
+                    <input type="radio" id="speakmodeTrue" name="speakmode" value="true">
+                    <label for="speakmodeTrue">True</label>
+                    <input type="radio" id="speakmodeFalse" name="speakmode" value="false">
+                    <label for="speakmodeFalse">False</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="openaikey">OpenAI API Key</label>
+                <input type="text" id="openaikey" name="openaikey" size="50" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="openaiorganisation">OpenAI Organisation</label>
+                <input type="text" id="openaiorganisation" name="openaiorganisation" size="50" placeholder="orag-">
+            </div>
+            <div class="form-group">
+                <label for="openaiproject">OpenAI API Project</label>
+                <input type="text" id="openaiproject" name="openaiproject" size="50" placeholder="proj_">
+            </div>
+            <div class="form-group">
+                <label for="openaimodel">OpenAI Model</label>
+                <input type="text" id="openaimodel" name="openaimodel" size="50" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="groqkey">Groq API Key</label>
+                <input type="text" id="groqkey" name="groqkey" size="50" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="groqmodel">Groq Model</label>
+                <input type="text" id="groqmodel" name="groqmodel" size="50" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="apiendpoint">API End Point</label>
+                <input type="text" id="apiendpoint" name="apiendpoint" size="50" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="chatapiendpoint">Chat API End Point</label>
+                <input type="text" id="chatapiendpoint" name="chatapiendpoint" size="50" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="embedapiendpoint">Embedding API End Point</label>
+                <input type="text" id="embedapiendpoint" name="embedapiendpoint" size="50" placeholder="">
+            </div>
+            <div class="button-group">
+                <button id="okBtn">OK</button>
+                <button id="cancelBtn">Cancel</button>
+            </div>
+            <div class="form-group">
+                <label for="textFileBtn">Open Log File:</label>
+                <button id="textFileBtn"><i class="icon-text-file">Log</i></button>
+            </div>
+        </div>
+    </div>
+
+
+
+    </div>
+</body>
+</html>
+
+
+

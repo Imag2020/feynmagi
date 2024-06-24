@@ -1,0 +1,729 @@
+2024-06-24 11:02:17,059 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 11:02:17,059 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 11:02:19,821 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:02:19] "GET /socket.io/?EIO=4&transport=polling&t=P192mPw HTTP/1.1" 200 -
+2024-06-24 11:02:19,845 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:02:19] "GET /socket.io/?EIO=4&transport=polling&t=P192mQH&sid=9y7KTxZDCMTGHOzjAAAA HTTP/1.1" 200 -
+2024-06-24 11:02:19,903 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:02:19] "POST /socket.io/?EIO=4&transport=polling&t=P192mQG&sid=9y7KTxZDCMTGHOzjAAAA HTTP/1.1" 200 -
+2024-06-24 11:02:20,045 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:02:20] "GET / HTTP/1.1" 200 -
+2024-06-24 11:02:20,328 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:02:20] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:02:20,331 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:02:20] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:02:20,332 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:02:20] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:02:20,333 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:02:20] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:02:20,383 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:02:20] "GET /socket.io/?EIO=4&transport=polling&t=P19UrxT HTTP/1.1" 200 -
+2024-06-24 11:02:20,386 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:02:20] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:02:20,410 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:02:20] "GET /socket.io/?EIO=4&transport=polling&t=P19Urxo&sid=793m8gnVJVScedy2AAAC HTTP/1.1" 200 -
+2024-06-24 11:02:20,456 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:02:20] "POST /socket.io/?EIO=4&transport=polling&t=P19Urxn&sid=793m8gnVJVScedy2AAAC HTTP/1.1" 200 -
+2024-06-24 11:02:31,655 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:02:31] "GET /socket.io/?EIO=4&transport=websocket&sid=793m8gnVJVScedy2AAAC HTTP/1.1" 200 -
+2024-06-24 11:02:43,523 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:02:43] "GET /get-text-file HTTP/1.1" 200 -
+2024-06-24 11:15:19,664 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 11:15:19,664 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 11:15:20,233 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:15:20] "GET /socket.io/?EIO=4&transport=polling&t=P195kx8 HTTP/1.1" 200 -
+2024-06-24 11:15:20,260 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:15:20] "GET /socket.io/?EIO=4&transport=polling&t=P195kxY&sid=uLQ7fzSpj7nW-UoqAAAA HTTP/1.1" 200 -
+2024-06-24 11:15:20,321 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:15:20] "POST /socket.io/?EIO=4&transport=polling&t=P195kxX&sid=uLQ7fzSpj7nW-UoqAAAA HTTP/1.1" 200 -
+2024-06-24 11:15:22,527 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:15:22] "GET / HTTP/1.1" 200 -
+2024-06-24 11:15:22,787 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:15:22] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:15:22,794 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:15:22] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:15:22,795 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:15:22] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:15:22,798 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:15:22] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:15:22,868 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:15:22] "GET /socket.io/?EIO=4&transport=polling&t=P19Xqzn HTTP/1.1" 200 -
+2024-06-24 11:15:22,873 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:15:22] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:15:22,898 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:15:22] "GET /socket.io/?EIO=4&transport=polling&t=P19Xq-A&sid=OtQAqNf7f5T-E7vMAAAC HTTP/1.1" 200 -
+2024-06-24 11:15:22,944 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:15:22] "POST /socket.io/?EIO=4&transport=polling&t=P19Xq-9&sid=OtQAqNf7f5T-E7vMAAAC HTTP/1.1" 200 -
+2024-06-24 11:15:24,078 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:15:24] "GET /socket.io/?EIO=4&transport=websocket&sid=OtQAqNf7f5T-E7vMAAAC HTTP/1.1" 200 -
+2024-06-24 11:20:05,562 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:20:05] "GET / HTTP/1.1" 200 -
+2024-06-24 11:20:05,571 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:20:05] "GET /socket.io/?EIO=4&transport=websocket&sid=uLQ7fzSpj7nW-UoqAAAA HTTP/1.1" 200 -
+2024-06-24 11:20:05,584 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:20:05] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:20:05,588 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:20:05] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:20:05,591 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:20:05] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:20:05,592 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:20:05] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:20:05,618 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:20:05] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:20:05,618 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:20:05] "GET /socket.io/?EIO=4&transport=polling&t=P196qc1 HTTP/1.1" 200 -
+2024-06-24 11:20:05,631 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:20:05] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:20:05,641 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:20:05] "GET /socket.io/?EIO=4&transport=polling&t=P196qcP&sid=4xYaOib7XL3osNTKAAAE HTTP/1.1" 200 -
+2024-06-24 11:20:05,707 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:20:05] "POST /socket.io/?EIO=4&transport=polling&t=P196qcO&sid=4xYaOib7XL3osNTKAAAE HTTP/1.1" 200 -
+2024-06-24 11:20:27,699 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 11:20:27,700 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 11:20:30,556 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:20:30] "GET / HTTP/1.1" 200 -
+2024-06-24 11:20:30,683 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:20:30] "GET /socket.io/?EIO=4&transport=polling&t=P196wjc HTTP/1.1" 200 -
+2024-06-24 11:20:30,707 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:20:30] "GET /socket.io/?EIO=4&transport=polling&t=P196wjz&sid=7KyNwgZLIYp1SnC9AAAA HTTP/1.1" 200 -
+2024-06-24 11:20:30,768 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:20:30] "POST /socket.io/?EIO=4&transport=polling&t=P196wjy&sid=7KyNwgZLIYp1SnC9AAAA HTTP/1.1" 200 -
+2024-06-24 11:20:30,912 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:20:30] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:20:30,919 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:20:30] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:20:30,921 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:20:30] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:20:30,922 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:20:30] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:20:30,989 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:20:30] "GET /socket.io/?EIO=4&transport=polling&t=P19Z0C9 HTTP/1.1" 200 -
+2024-06-24 11:20:30,992 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:20:30] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:20:31,018 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:20:31] "GET /socket.io/?EIO=4&transport=polling&t=P19Z0CT&sid=-Fgr4ANTFofEdVPHAAAC HTTP/1.1" 200 -
+2024-06-24 11:20:31,055 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:20:31] "POST /socket.io/?EIO=4&transport=polling&t=P19Z0CS&sid=-Fgr4ANTFofEdVPHAAAC HTTP/1.1" 200 -
+2024-06-24 11:20:32,349 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:20:32] "GET /socket.io/?EIO=4&transport=websocket&sid=-Fgr4ANTFofEdVPHAAAC HTTP/1.1" 200 -
+2024-06-24 11:21:22,515 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 11:21:22,515 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 11:21:22,714 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:21:22] "GET /socket.io/?EIO=4&transport=polling&t=P1976-g HTTP/1.1" 200 -
+2024-06-24 11:21:22,742 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:21:22] "GET /socket.io/?EIO=4&transport=polling&t=P1977R2&sid=mMoyOJHpOpJuQkDfAAAA HTTP/1.1" 200 -
+2024-06-24 11:21:22,809 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:21:22] "POST /socket.io/?EIO=4&transport=polling&t=P1977R0&sid=mMoyOJHpOpJuQkDfAAAA HTTP/1.1" 200 -
+2024-06-24 11:21:25,394 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:21:25] "GET / HTTP/1.1" 200 -
+2024-06-24 11:21:25,666 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:21:25] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:21:25,676 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:21:25] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:21:25,677 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:21:25] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:21:25,679 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:21:25] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:21:25,770 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:21:25] "GET /socket.io/?EIO=4&transport=polling&t=P19ZDa6 HTTP/1.1" 200 -
+2024-06-24 11:21:25,775 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:21:25] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:21:25,799 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:21:25] "GET /socket.io/?EIO=4&transport=polling&t=P19ZDaV&sid=JhinU73sCXZf-gBLAAAC HTTP/1.1" 200 -
+2024-06-24 11:21:25,850 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:21:25] "POST /socket.io/?EIO=4&transport=polling&t=P19ZDaT&sid=JhinU73sCXZf-gBLAAAC HTTP/1.1" 200 -
+2024-06-24 11:21:27,027 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:21:27] "GET /socket.io/?EIO=4&transport=websocket&sid=JhinU73sCXZf-gBLAAAC HTTP/1.1" 200 -
+2024-06-24 11:27:29,220 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 11:27:29,220 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 11:27:29,290 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:27:29] "GET /socket.io/?EIO=4&transport=polling&t=P198Wrz HTTP/1.1" 200 -
+2024-06-24 11:27:29,310 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:27:29] "GET / HTTP/1.1" 200 -
+2024-06-24 11:27:29,319 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:27:29] "GET /socket.io/?EIO=4&transport=websocket&sid=vEw9Pz2uTk3HK_WJAAAA HTTP/1.1" 200 -
+2024-06-24 11:27:29,323 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:27:29] "GET /socket.io/?EIO=4&transport=polling&t=P198WwO&sid=vEw9Pz2uTk3HK_WJAAAA HTTP/1.1" 200 -
+2024-06-24 11:27:29,335 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:27:29] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:27:29,337 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:27:29] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:27:29,339 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:27:29] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:27:29,340 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:27:29] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:27:29,357 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:27:29] "POST /socket.io/?EIO=4&transport=polling&t=P198WwN&sid=vEw9Pz2uTk3HK_WJAAAA HTTP/1.1" 200 -
+2024-06-24 11:27:29,360 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:27:29] "GET /socket.io/?EIO=4&transport=polling&t=P198WxC HTTP/1.1" 200 -
+2024-06-24 11:27:29,367 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:27:29] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:27:29,369 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:27:29] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:27:29,379 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:27:29] "GET /socket.io/?EIO=4&transport=polling&t=P198WxU.0&sid=ZsFA0ZIx2E8S3uVAAAAC HTTP/1.1" 200 -
+2024-06-24 11:27:29,444 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:27:29] "POST /socket.io/?EIO=4&transport=polling&t=P198WxU&sid=ZsFA0ZIx2E8S3uVAAAAC HTTP/1.1" 200 -
+2024-06-24 11:27:32,185 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:27:32] "GET / HTTP/1.1" 200 -
+2024-06-24 11:27:32,474 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:27:32] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:27:32,481 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:27:32] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:27:32,482 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:27:32] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:27:32,482 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:27:32] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:27:32,549 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:27:32] "GET /socket.io/?EIO=4&transport=polling&t=P19ad71 HTTP/1.1" 200 -
+2024-06-24 11:27:32,553 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:27:32] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:27:32,581 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:27:32] "GET /socket.io/?EIO=4&transport=polling&t=P19ad7Q&sid=0qxHlM9Wel6tGr9nAAAE HTTP/1.1" 200 -
+2024-06-24 11:27:32,620 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:27:32] "POST /socket.io/?EIO=4&transport=polling&t=P19ad7P&sid=0qxHlM9Wel6tGr9nAAAE HTTP/1.1" 200 -
+2024-06-24 11:27:34,762 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:27:34] "GET /socket.io/?EIO=4&transport=websocket&sid=0qxHlM9Wel6tGr9nAAAE HTTP/1.1" 200 -
+2024-06-24 11:30:32,053 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 11:30:32,053 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 11:30:34,925 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:30:34] "GET / HTTP/1.1" 200 -
+2024-06-24 11:30:35,050 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:30:35] "GET / HTTP/1.1" 200 -
+2024-06-24 11:30:35,180 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:30:35] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:30:35,181 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:30:35] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:30:35,182 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:30:35] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:30:35,185 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:30:35] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:30:35,226 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:30:35] "GET /socket.io/?EIO=4&transport=polling&t=P199EJ3 HTTP/1.1" 200 -
+2024-06-24 11:30:35,228 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:30:35] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:30:35,232 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:30:35] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:30:35,256 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:30:35] "GET /socket.io/?EIO=4&transport=polling&t=P199EJW&sid=gNpXE1QHMmXfeRpsAAAA HTTP/1.1" 200 -
+2024-06-24 11:30:35,319 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:30:35] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:30:35,322 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:30:35] "POST /socket.io/?EIO=4&transport=polling&t=P199EJT&sid=gNpXE1QHMmXfeRpsAAAA HTTP/1.1" 200 -
+2024-06-24 11:30:35,328 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:30:35] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:30:35,329 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:30:35] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:30:35,329 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:30:35] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:30:35,386 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:30:35] "GET /socket.io/?EIO=4&transport=polling&t=P19bJlt HTTP/1.1" 200 -
+2024-06-24 11:30:35,391 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:30:35] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:30:35,420 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:30:35] "GET /socket.io/?EIO=4&transport=polling&t=P19bJmI&sid=Mt9R3jf1Xjrrn5HtAAAC HTTP/1.1" 200 -
+2024-06-24 11:30:35,470 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:30:35] "POST /socket.io/?EIO=4&transport=polling&t=P19bJmG&sid=Mt9R3jf1Xjrrn5HtAAAC HTTP/1.1" 200 -
+2024-06-24 11:30:36,712 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:30:36] "GET /socket.io/?EIO=4&transport=websocket&sid=Mt9R3jf1Xjrrn5HtAAAC HTTP/1.1" 200 -
+2024-06-24 11:31:57,137 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 11:31:57,137 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 11:32:00,023 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:32:00] "GET / HTTP/1.1" 200 -
+2024-06-24 11:32:00,300 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:32:00] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:32:00,309 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:32:00] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:32:00,310 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:32:00] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:32:00,311 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:32:00] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:32:00,371 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:32:00] "GET /socket.io/?EIO=4&transport=polling&t=P19beVl HTTP/1.1" 200 -
+2024-06-24 11:32:00,375 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:32:00] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:32:00,402 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:32:00] "GET /socket.io/?EIO=4&transport=polling&t=P19beW8&sid=tru_YmEoRkPre-QmAAAA HTTP/1.1" 200 -
+2024-06-24 11:32:00,440 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:32:00] "POST /socket.io/?EIO=4&transport=polling&t=P19beW7&sid=tru_YmEoRkPre-QmAAAA HTTP/1.1" 200 -
+2024-06-24 11:32:00,971 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:32:00] "GET /socket.io/?EIO=4&transport=polling&t=P199ZEt HTTP/1.1" 200 -
+2024-06-24 11:32:00,993 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:32:00] "GET /socket.io/?EIO=4&transport=polling&t=P199ZFB&sid=h3e5BQ5kxg40pgihAAAC HTTP/1.1" 200 -
+2024-06-24 11:32:01,051 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:32:01] "POST /socket.io/?EIO=4&transport=polling&t=P199ZF9&sid=h3e5BQ5kxg40pgihAAAC HTTP/1.1" 200 -
+2024-06-24 11:32:01,706 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:32:01] "GET /socket.io/?EIO=4&transport=websocket&sid=tru_YmEoRkPre-QmAAAA HTTP/1.1" 200 -
+2024-06-24 11:34:18,423 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 11:34:18,423 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 11:34:21,353 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:34:21] "GET / HTTP/1.1" 200 -
+2024-06-24 11:34:21,619 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:34:21] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:34:21,620 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:34:21] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:34:21,621 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:34:21] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:34:21,624 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:34:21] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:34:21,685 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:34:21] "GET /socket.io/?EIO=4&transport=polling&t=P19cA_n HTTP/1.1" 200 -
+2024-06-24 11:34:21,690 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:34:21] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:34:21,716 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:34:21] "GET /socket.io/?EIO=4&transport=polling&t=P19cB0B&sid=0H0XStipsUA1NF_HAAAA HTTP/1.1" 200 -
+2024-06-24 11:34:21,750 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:34:21] "POST /socket.io/?EIO=4&transport=polling&t=P19cB09&sid=0H0XStipsUA1NF_HAAAA HTTP/1.1" 200 -
+2024-06-24 11:34:22,483 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:34:22] "GET /socket.io/?EIO=4&transport=polling&t=P19A5ns HTTP/1.1" 200 -
+2024-06-24 11:34:22,506 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:34:22] "GET /socket.io/?EIO=4&transport=polling&t=P19A5oA&sid=m90sBGh661vtJ2NoAAAC HTTP/1.1" 200 -
+2024-06-24 11:34:22,572 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:34:22] "POST /socket.io/?EIO=4&transport=polling&t=P19A5o9&sid=m90sBGh661vtJ2NoAAAC HTTP/1.1" 200 -
+2024-06-24 11:34:22,930 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:34:22] "GET /socket.io/?EIO=4&transport=websocket&sid=0H0XStipsUA1NF_HAAAA HTTP/1.1" 200 -
+2024-06-24 11:36:12,197 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 11:36:12,197 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 11:36:15,186 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:36:15] "GET / HTTP/1.1" 200 -
+2024-06-24 11:36:15,480 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:36:15] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:36:15,490 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:36:15] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:36:15,491 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:36:15] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:36:15,494 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:36:15] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:36:15,571 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:36:15] "GET /socket.io/?EIO=4&transport=polling&t=P19ccp1 HTTP/1.1" 200 -
+2024-06-24 11:36:15,591 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:36:15] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:36:15,614 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:36:15] "GET /socket.io/?EIO=4&transport=polling&t=P19ccpd&sid=DwDJ2lg9qa1AERkFAAAA HTTP/1.1" 200 -
+2024-06-24 11:36:15,646 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:36:15] "POST /socket.io/?EIO=4&transport=polling&t=P19ccpb&sid=DwDJ2lg9qa1AERkFAAAA HTTP/1.1" 200 -
+2024-06-24 11:36:15,804 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:36:15] "GET /socket.io/?EIO=4&transport=polling&t=P19AXSQ HTTP/1.1" 200 -
+2024-06-24 11:36:15,824 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:36:15] "GET /socket.io/?EIO=4&transport=polling&t=P19AXSi&sid=FWpVzjCUSjIfDBIXAAAC HTTP/1.1" 200 -
+2024-06-24 11:36:15,893 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:36:15] "POST /socket.io/?EIO=4&transport=polling&t=P19AXSh&sid=FWpVzjCUSjIfDBIXAAAC HTTP/1.1" 200 -
+2024-06-24 11:36:17,121 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:36:17] "GET /socket.io/?EIO=4&transport=websocket&sid=DwDJ2lg9qa1AERkFAAAA HTTP/1.1" 200 -
+2024-06-24 11:37:42,061 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 11:37:42,061 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 11:37:43,033 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:37:43] "GET /socket.io/?EIO=4&transport=polling&t=P19AslH HTTP/1.1" 200 -
+2024-06-24 11:37:43,058 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:37:43] "GET /socket.io/?EIO=4&transport=polling&t=P19Asla&sid=E-dS5z1D91f7Q2tdAAAA HTTP/1.1" 200 -
+2024-06-24 11:37:43,127 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:37:43] "POST /socket.io/?EIO=4&transport=polling&t=P19AslZ&sid=E-dS5z1D91f7Q2tdAAAA HTTP/1.1" 200 -
+2024-06-24 11:37:45,085 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:37:45] "GET / HTTP/1.1" 200 -
+2024-06-24 11:37:45,392 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:37:45] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:37:45,393 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:37:45] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:37:45,394 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:37:45] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:37:45,394 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:37:45] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:37:45,464 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:37:45] "GET /socket.io/?EIO=4&transport=polling&t=P19cylr HTTP/1.1" 200 -
+2024-06-24 11:37:45,467 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:37:45] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:37:45,489 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:37:45] "GET /socket.io/?EIO=4&transport=polling&t=P19cymA&sid=1hGiTfHVeJEWV3cFAAAC HTTP/1.1" 200 -
+2024-06-24 11:37:45,496 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:37:45] "GET /socket.io/?EIO=4&transport=polling&t=P19cymM&sid=1hGiTfHVeJEWV3cFAAAC HTTP/1.1" 200 -
+2024-06-24 11:37:45,533 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:37:45] "POST /socket.io/?EIO=4&transport=polling&t=P19cym9&sid=1hGiTfHVeJEWV3cFAAAC HTTP/1.1" 200 -
+2024-06-24 11:37:48,027 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:37:48] "GET /socket.io/?EIO=4&transport=websocket&sid=1hGiTfHVeJEWV3cFAAAC HTTP/1.1" 200 -
+2024-06-24 11:39:16,839 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 11:39:16,840 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 11:39:19,090 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:39:19] "GET /socket.io/?EIO=4&transport=polling&t=P19BEC5 HTTP/1.1" 200 -
+2024-06-24 11:39:19,113 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:39:19] "GET /socket.io/?EIO=4&transport=polling&t=P19BECP&sid=QGSOCGS9eo2YUomSAAAA HTTP/1.1" 200 -
+2024-06-24 11:39:19,159 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:39:19] "POST /socket.io/?EIO=4&transport=polling&t=P19BECO&sid=QGSOCGS9eo2YUomSAAAA HTTP/1.1" 200 -
+2024-06-24 11:39:19,829 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:39:19] "GET / HTTP/1.1" 200 -
+2024-06-24 11:39:20,139 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:39:20] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:39:20,151 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:39:20] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:39:20,152 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:39:20] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:39:20,153 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:39:20] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:39:20,226 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:39:20] "GET /socket.io/?EIO=4&transport=polling&t=P19dJuV HTTP/1.1" 200 -
+2024-06-24 11:39:20,231 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:39:20] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:39:20,259 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:39:20] "GET /socket.io/?EIO=4&transport=polling&t=P19dJuv&sid=mHgpYK8OoV6kvy3hAAAC HTTP/1.1" 200 -
+2024-06-24 11:39:20,311 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:39:20] "POST /socket.io/?EIO=4&transport=polling&t=P19dJut&sid=mHgpYK8OoV6kvy3hAAAC HTTP/1.1" 200 -
+2024-06-24 11:39:22,936 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:39:22] "GET /socket.io/?EIO=4&transport=websocket&sid=mHgpYK8OoV6kvy3hAAAC HTTP/1.1" 200 -
+2024-06-24 11:42:42,535 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 11:42:42,535 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 11:42:42,542 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:42:42] "GET /socket.io/?EIO=4&transport=polling&t=P19B_kq HTTP/1.1" 200 -
+2024-06-24 11:42:42,564 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:42:42] "GET /socket.io/?EIO=4&transport=polling&t=P19B_t8&sid=0VJ4AwBIV6lzGhV2AAAA HTTP/1.1" 200 -
+2024-06-24 11:42:42,627 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:42:42] "POST /socket.io/?EIO=4&transport=polling&t=P19B_t7&sid=0VJ4AwBIV6lzGhV2AAAA HTTP/1.1" 200 -
+2024-06-24 11:42:45,536 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:42:45] "GET / HTTP/1.1" 200 -
+2024-06-24 11:42:45,808 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:42:45] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:42:45,822 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:42:45] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:42:45,823 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:42:45] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:42:45,824 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:42:45] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:42:45,908 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:42:45] "GET /socket.io/?EIO=4&transport=polling&t=P19e66H HTTP/1.1" 200 -
+2024-06-24 11:42:45,914 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:42:45] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:42:45,941 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:42:45] "GET /socket.io/?EIO=4&transport=polling&t=P19e66g&sid=9QqRdjl8Ht6P9KZQAAAC HTTP/1.1" 200 -
+2024-06-24 11:42:45,991 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:42:45] "POST /socket.io/?EIO=4&transport=polling&t=P19e66f&sid=9QqRdjl8Ht6P9KZQAAAC HTTP/1.1" 200 -
+2024-06-24 11:42:47,266 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:42:47] "GET /socket.io/?EIO=4&transport=websocket&sid=9QqRdjl8Ht6P9KZQAAAC HTTP/1.1" 200 -
+2024-06-24 11:45:20,564 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 11:45:20,564 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 11:45:23,447 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:45:23] "GET / HTTP/1.1" 200 -
+2024-06-24 11:45:23,729 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:45:23] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:45:23,734 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:45:23] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:45:23,735 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:45:23] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:45:23,737 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:45:23] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:45:23,785 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:45:23] "GET /socket.io/?EIO=4&transport=polling&t=P19eif6 HTTP/1.1" 200 -
+2024-06-24 11:45:23,788 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:45:23] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:45:23,815 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:45:23] "GET /socket.io/?EIO=4&transport=polling&t=P19eifR&sid=CQyWdmuTrOjgnN3hAAAA HTTP/1.1" 200 -
+2024-06-24 11:45:23,852 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:45:23] "POST /socket.io/?EIO=4&transport=polling&t=P19eifP&sid=CQyWdmuTrOjgnN3hAAAA HTTP/1.1" 200 -
+2024-06-24 11:45:24,057 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:45:24] "GET /socket.io/?EIO=4&transport=polling&t=P19CdIM HTTP/1.1" 200 -
+2024-06-24 11:45:24,079 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:45:24] "GET /socket.io/?EIO=4&transport=polling&t=P19CdIg&sid=fnjM0BumF1KqG2VOAAAC HTTP/1.1" 200 -
+2024-06-24 11:45:24,142 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:45:24] "POST /socket.io/?EIO=4&transport=polling&t=P19CdIf&sid=fnjM0BumF1KqG2VOAAAC HTTP/1.1" 200 -
+2024-06-24 11:45:26,537 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:45:26] "GET /socket.io/?EIO=4&transport=websocket&sid=CQyWdmuTrOjgnN3hAAAA HTTP/1.1" 200 -
+2024-06-24 11:49:23,543 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 11:49:23,543 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 11:49:26,391 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:49:26] "GET /socket.io/?EIO=4&transport=polling&t=P19DYTP HTTP/1.1" 200 -
+2024-06-24 11:49:26,415 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:49:26] "GET /socket.io/?EIO=4&transport=polling&t=P19DYTj&sid=KsmfNiY4zvKI-HzwAAAA HTTP/1.1" 200 -
+2024-06-24 11:49:26,471 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:49:26] "POST /socket.io/?EIO=4&transport=polling&t=P19DYTi&sid=KsmfNiY4zvKI-HzwAAAA HTTP/1.1" 200 -
+2024-06-24 11:49:26,650 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:49:26] "GET / HTTP/1.1" 200 -
+2024-06-24 11:49:26,930 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:49:26] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:49:26,940 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:49:26] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:49:26,943 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:49:26] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:49:26,945 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:49:26] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:49:27,002 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:49:27] "GET /socket.io/?EIO=4&transport=polling&t=P19fe1M HTTP/1.1" 200 -
+2024-06-24 11:49:27,008 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:49:27] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:49:27,030 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:49:27] "GET /socket.io/?EIO=4&transport=polling&t=P19fe1n&sid=4pgkxO_91tGYUEEQAAAC HTTP/1.1" 200 -
+2024-06-24 11:49:27,067 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:49:27] "POST /socket.io/?EIO=4&transport=polling&t=P19fe1l&sid=4pgkxO_91tGYUEEQAAAC HTTP/1.1" 200 -
+2024-06-24 11:49:35,834 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:49:35] "GET /socket.io/?EIO=4&transport=websocket&sid=4pgkxO_91tGYUEEQAAAC HTTP/1.1" 200 -
+2024-06-24 11:54:06,454 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 11:54:06,454 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 11:54:09,351 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:54:09] "GET / HTTP/1.1" 200 -
+2024-06-24 11:54:09,636 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:54:09] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:54:09,638 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:54:09] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:54:09,640 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:54:09] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:54:09,642 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:54:09] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:54:09,715 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:54:09] "GET /socket.io/?EIO=4&transport=polling&t=P19gj2l HTTP/1.1" 200 -
+2024-06-24 11:54:09,721 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:54:09] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:54:09,751 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:54:09] "GET /socket.io/?EIO=4&transport=polling&t=P19gj3C&sid=jfIyoeXLujo8j0_YAAAA HTTP/1.1" 200 -
+2024-06-24 11:54:09,800 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:54:09] "POST /socket.io/?EIO=4&transport=polling&t=P19gj3B&sid=jfIyoeXLujo8j0_YAAAA HTTP/1.1" 200 -
+2024-06-24 11:54:12,092 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:54:12] "GET /socket.io/?EIO=4&transport=polling&t=P19EeEL HTTP/1.1" 200 -
+2024-06-24 11:54:12,119 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:54:12] "GET /socket.io/?EIO=4&transport=polling&t=P19EeEm&sid=oIL3-FGwdIyfy_QRAAAC HTTP/1.1" 200 -
+2024-06-24 11:54:12,188 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:54:12] "POST /socket.io/?EIO=4&transport=polling&t=P19EeEk&sid=oIL3-FGwdIyfy_QRAAAC HTTP/1.1" 200 -
+2024-06-24 11:55:37,681 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 11:55:37,681 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 11:55:39,981 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:55:39] "GET / HTTP/1.1" 200 -
+2024-06-24 11:55:40,043 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:55:40] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:55:40,045 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:55:40] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:55:40,046 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:55:40] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:55:40,048 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:55:40] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:55:40,095 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:55:40] "GET /socket.io/?EIO=4&transport=polling&t=P19h36z HTTP/1.1" 200 -
+2024-06-24 11:55:40,107 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:55:40] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:55:40,158 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:55:40] "GET /socket.io/?EIO=4&transport=polling&t=P19h37H&sid=6tA2rLqTWVUfvs_4AAAA HTTP/1.1" 200 -
+2024-06-24 11:55:40,209 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:55:40] "POST /socket.io/?EIO=4&transport=polling&t=P19h37F&sid=6tA2rLqTWVUfvs_4AAAA HTTP/1.1" 200 -
+2024-06-24 11:55:40,264 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:55:40] "GET /socket.io/?EIO=4&transport=polling&t=P19h394&sid=6tA2rLqTWVUfvs_4AAAA HTTP/1.1" 200 -
+2024-06-24 11:55:41,039 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:55:41] "GET /socket.io/?EIO=4&transport=polling&t=P19h3Lh HTTP/1.1" 200 -
+2024-06-24 11:55:41,054 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:55:41] "GET /socket.io/?EIO=4&transport=polling&t=P19h3Ls&sid=POVEotllegxsXqx_AAAC HTTP/1.1" 200 -
+2024-06-24 11:55:41,109 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:55:41] "GET /socket.io/?EIO=4&transport=polling&t=P19EzzX HTTP/1.1" 200 -
+2024-06-24 11:55:41,116 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:55:41] "POST /socket.io/?EIO=4&transport=polling&t=P19h3Lp&sid=POVEotllegxsXqx_AAAC HTTP/1.1" 200 -
+2024-06-24 11:55:41,134 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:55:41] "GET /socket.io/?EIO=4&transport=polling&t=P19Ezzr&sid=Ud-ZEDZWmhwPAcU9AAAE HTTP/1.1" 200 -
+2024-06-24 11:55:41,184 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:55:41] "POST /socket.io/?EIO=4&transport=polling&t=P19Ezzp&sid=Ud-ZEDZWmhwPAcU9AAAE HTTP/1.1" 200 -
+2024-06-24 11:56:28,131 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 11:56:28,131 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 11:56:29,121 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:56:29] "GET /socket.io/?EIO=4&transport=polling&t=P19F9hr HTTP/1.1" 200 -
+2024-06-24 11:56:29,147 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:56:29] "GET /socket.io/?EIO=4&transport=polling&t=P19F9iD&sid=65pprUQcb4NggjqOAAAA HTTP/1.1" 200 -
+2024-06-24 11:56:29,214 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:56:29] "POST /socket.io/?EIO=4&transport=polling&t=P19F9iC&sid=65pprUQcb4NggjqOAAAA HTTP/1.1" 200 -
+2024-06-24 11:56:29,599 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:56:29] "GET /socket.io/?EIO=4&transport=polling&t=P19hFCS HTTP/1.1" 200 -
+2024-06-24 11:56:29,611 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:56:29] "GET /socket.io/?EIO=4&transport=polling&t=P19hFCa&sid=kf5_TTjYsdw1SHIfAAAC HTTP/1.1" 200 -
+2024-06-24 11:56:29,668 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:56:29] "POST /socket.io/?EIO=4&transport=polling&t=P19hFCZ&sid=kf5_TTjYsdw1SHIfAAAC HTTP/1.1" 200 -
+2024-06-24 11:56:30,037 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:56:30] "GET /socket.io/?EIO=4&transport=polling&t=P19hFJI HTTP/1.1" 200 -
+2024-06-24 11:56:30,051 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:56:30] "GET /socket.io/?EIO=4&transport=polling&t=P19hFJQ&sid=fE809fTwfTuuXDIPAAAE HTTP/1.1" 200 -
+2024-06-24 11:56:30,095 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:56:30] "POST /socket.io/?EIO=4&transport=polling&t=P19hFJN&sid=fE809fTwfTuuXDIPAAAE HTTP/1.1" 200 -
+2024-06-24 11:56:30,431 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:56:30] "GET / HTTP/1.1" 200 -
+2024-06-24 11:56:30,503 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:56:30] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:56:30,505 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:56:30] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:56:30,508 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:56:30] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:56:30,510 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:56:30] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:56:30,565 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:56:30] "GET /socket.io/?EIO=4&transport=polling&t=P19hFRZ HTTP/1.1" 200 -
+2024-06-24 11:56:30,569 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:56:30] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:56:30,601 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:56:30] "GET /socket.io/?EIO=4&transport=polling&t=P19hFRt&sid=3zE-cnu2jWlm95_LAAAG HTTP/1.1" 200 -
+2024-06-24 11:56:30,649 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:56:30] "POST /socket.io/?EIO=4&transport=polling&t=P19hFRs&sid=3zE-cnu2jWlm95_LAAAG HTTP/1.1" 200 -
+2024-06-24 11:56:30,719 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:56:30] "GET /socket.io/?EIO=4&transport=polling&t=P19hFT3&sid=3zE-cnu2jWlm95_LAAAG HTTP/1.1" 200 -
+2024-06-24 11:58:36,262 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 11:58:36,262 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 11:58:37,122 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:58:37] "GET /socket.io/?EIO=4&transport=polling&t=P19FeyG HTTP/1.1" 200 -
+2024-06-24 11:58:37,148 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:58:37] "GET /socket.io/?EIO=4&transport=polling&t=P19Feyc&sid=Xw9-WZDPV3x_Wz2vAAAA HTTP/1.1" 200 -
+2024-06-24 11:58:37,215 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:58:37] "POST /socket.io/?EIO=4&transport=polling&t=P19Feyb&sid=Xw9-WZDPV3x_Wz2vAAAA HTTP/1.1" 200 -
+2024-06-24 11:58:38,039 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:58:38] "GET /socket.io/?EIO=4&transport=polling&t=P19hkZJ HTTP/1.1" 200 -
+2024-06-24 11:58:38,054 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:58:38] "GET /socket.io/?EIO=4&transport=polling&t=P19hkZT&sid=kzTl44NBtp3l5_bxAAAC HTTP/1.1" 200 -
+2024-06-24 11:58:38,121 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:58:38] "POST /socket.io/?EIO=4&transport=polling&t=P19hkZR&sid=kzTl44NBtp3l5_bxAAAC HTTP/1.1" 200 -
+2024-06-24 11:58:38,472 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:58:38] "GET /socket.io/?EIO=4&transport=polling&t=P19hkg5 HTTP/1.1" 200 -
+2024-06-24 11:58:38,485 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:58:38] "GET /socket.io/?EIO=4&transport=polling&t=P19hkgC&sid=1Iw6LdBAOuPUClScAAAE HTTP/1.1" 200 -
+2024-06-24 11:58:38,545 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:58:38] "POST /socket.io/?EIO=4&transport=polling&t=P19hkgB&sid=1Iw6LdBAOuPUClScAAAE HTTP/1.1" 200 -
+2024-06-24 11:58:38,568 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:58:38] "GET / HTTP/1.1" 200 -
+2024-06-24 11:58:38,634 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:58:38] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 11:58:38,637 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:58:38] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 11:58:38,641 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:58:38] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 11:58:38,643 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:58:38] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 11:58:38,700 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:58:38] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 11:58:38,701 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:58:38] "GET /socket.io/?EIO=4&transport=polling&t=P19hkjS HTTP/1.1" 200 -
+2024-06-24 11:58:38,909 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:58:38] "GET /socket.io/?EIO=4&transport=polling&t=P19hklK&sid=apk6i5YpGiBmFPg8AAAG HTTP/1.1" 200 -
+2024-06-24 11:58:38,967 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:58:38] "POST /socket.io/?EIO=4&transport=polling&t=P19hklH&sid=apk6i5YpGiBmFPg8AAAG HTTP/1.1" 200 -
+2024-06-24 11:58:39,038 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:58:39] "GET /socket.io/?EIO=4&transport=polling&t=P19hkox HTTP/1.1" 200 -
+2024-06-24 11:58:39,051 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:58:39] "GET /socket.io/?EIO=4&transport=polling&t=P19hkp4&sid=O5YVdm4uMV9RWD8gAAAI HTTP/1.1" 200 -
+2024-06-24 11:58:39,103 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 11:58:39] "POST /socket.io/?EIO=4&transport=polling&t=P19hkp2&sid=O5YVdm4uMV9RWD8gAAAI HTTP/1.1" 200 -
+2024-06-24 11:59:24,596 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 11:59:24] "POST /fupload HTTP/1.1" 200 -
+2024-06-24 12:01:15,862 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 12:01:15,862 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 12:01:16,039 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:16] "GET /socket.io/?EIO=4&transport=polling&t=P19iL83 HTTP/1.1" 200 -
+2024-06-24 12:01:16,043 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:16] "GET /socket.io/?EIO=4&transport=polling&t=P19iL83 HTTP/1.1" 200 -
+2024-06-24 12:01:16,061 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:16] "GET /socket.io/?EIO=4&transport=polling&t=P19iL8D&sid=EhWkp5w4izqKi1TRAAAA HTTP/1.1" 200 -
+2024-06-24 12:01:16,063 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:16] "GET /socket.io/?EIO=4&transport=polling&t=P19iL8I&sid=7h6hPGB-HY3a8Da-AAAB HTTP/1.1" 200 -
+2024-06-24 12:01:16,071 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:16] "GET /socket.io/?EIO=4&transport=polling&t=P19iL8a&sid=7h6hPGB-HY3a8Da-AAAB HTTP/1.1" 200 -
+2024-06-24 12:01:16,128 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:16] "POST /socket.io/?EIO=4&transport=polling&t=P19iL8A&sid=EhWkp5w4izqKi1TRAAAA HTTP/1.1" 200 -
+2024-06-24 12:01:16,134 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:16] "POST /socket.io/?EIO=4&transport=polling&t=P19iL8G&sid=7h6hPGB-HY3a8Da-AAAB HTTP/1.1" 200 -
+2024-06-24 12:01:16,808 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:16] "GET /socket.io/?EIO=4&transport=polling&t=P19iLK4 HTTP/1.1" 200 -
+2024-06-24 12:01:16,823 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:16] "GET /socket.io/?EIO=4&transport=polling&t=P19iLKF&sid=7pJTb_Jo9Cf30ejzAAAE HTTP/1.1" 200 -
+2024-06-24 12:01:16,891 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:16] "POST /socket.io/?EIO=4&transport=polling&t=P19iLKC&sid=7pJTb_Jo9Cf30ejzAAAE HTTP/1.1" 200 -
+2024-06-24 12:01:17,719 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:01:17] "GET /socket.io/?EIO=4&transport=polling&t=P19GGA4 HTTP/1.1" 200 -
+2024-06-24 12:01:17,742 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:01:17] "GET /socket.io/?EIO=4&transport=polling&t=P19GGAR&sid=y9PpK9obWbcjiCDAAAAG HTTP/1.1" 200 -
+2024-06-24 12:01:17,804 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:01:17] "POST /socket.io/?EIO=4&transport=polling&t=P19GGAQ&sid=y9PpK9obWbcjiCDAAAAG HTTP/1.1" 200 -
+2024-06-24 12:01:18,184 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:18] "GET / HTTP/1.1" 200 -
+2024-06-24 12:01:18,271 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:18] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 12:01:18,275 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:18] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 12:01:18,276 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:18] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 12:01:18,276 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:18] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 12:01:18,381 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:18] "GET /socket.io/?EIO=4&transport=polling&t=P19iLhm HTTP/1.1" 200 -
+2024-06-24 12:01:18,386 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:18] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 12:01:18,403 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:18] "GET /socket.io/?EIO=4&transport=polling&t=P19iLiu&sid=9CFEFTOYXNwmyMbhAAAI HTTP/1.1" 200 -
+2024-06-24 12:01:18,461 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:18] "POST /socket.io/?EIO=4&transport=polling&t=P19iLir&sid=9CFEFTOYXNwmyMbhAAAI HTTP/1.1" 200 -
+2024-06-24 12:01:18,492 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:18] "GET /socket.io/?EIO=4&transport=polling&t=P19iLkP&sid=9CFEFTOYXNwmyMbhAAAI HTTP/1.1" 200 -
+2024-06-24 12:01:19,038 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:19] "GET /socket.io/?EIO=4&transport=polling&t=P19iLsx HTTP/1.1" 200 -
+2024-06-24 12:01:19,053 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:19] "GET /socket.io/?EIO=4&transport=polling&t=P19iLt5&sid=NrUxvG0pKUEU3Yq6AAAK HTTP/1.1" 200 -
+2024-06-24 12:01:19,121 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:01:19] "POST /socket.io/?EIO=4&transport=polling&t=P19iLt3&sid=NrUxvG0pKUEU3Yq6AAAK HTTP/1.1" 200 -
+2024-06-24 12:03:57,046 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 12:03:57,046 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 12:03:59,305 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:03:59] "GET / HTTP/1.1" 200 -
+2024-06-24 12:03:59,395 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:03:59] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 12:03:59,402 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:03:59] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 12:03:59,404 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:03:59] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 12:03:59,404 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:03:59] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 12:03:59,526 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:03:59] "GET /socket.io/?EIO=4&transport=polling&t=P19iz1I HTTP/1.1" 200 -
+2024-06-24 12:03:59,531 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:03:59] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 12:03:59,544 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:03:59] "GET /socket.io/?EIO=4&transport=polling&t=P19iz2n&sid=3lGncdLsRRYrma_VAAAA HTTP/1.1" 200 -
+2024-06-24 12:03:59,590 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:03:59] "POST /socket.io/?EIO=4&transport=polling&t=P19iz2j&sid=3lGncdLsRRYrma_VAAAA HTTP/1.1" 200 -
+2024-06-24 12:03:59,672 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:03:59] "GET /socket.io/?EIO=4&transport=polling&t=P19iz4r&sid=3lGncdLsRRYrma_VAAAA HTTP/1.1" 200 -
+2024-06-24 12:04:00,987 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:04:00] "GET /socket.io/?EIO=4&transport=polling&t=P19Gu1e HTTP/1.1" 200 -
+2024-06-24 12:04:01,011 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:04:01] "GET /socket.io/?EIO=4&transport=polling&t=P19Gu1z.0&sid=gN5Q-AI5kSztT3HNAAAC HTTP/1.1" 200 -
+2024-06-24 12:04:01,038 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:04:01] "GET /socket.io/?EIO=4&transport=polling&t=P19izQB HTTP/1.1" 200 -
+2024-06-24 12:04:01,041 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:04:01] "GET /socket.io/?EIO=4&transport=polling&t=P19izQB HTTP/1.1" 200 -
+2024-06-24 12:04:01,053 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:04:01] "GET /socket.io/?EIO=4&transport=polling&t=P19izQL&sid=rgRd7D28aDCo8ce3AAAE HTTP/1.1" 200 -
+2024-06-24 12:04:01,060 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:04:01] "GET /socket.io/?EIO=4&transport=polling&t=P19izQX&sid=rgRd7D28aDCo8ce3AAAE HTTP/1.1" 200 -
+2024-06-24 12:04:01,061 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:04:01] "GET /socket.io/?EIO=4&transport=polling&t=P19izQL&sid=RU26wdMMUiH7Anc7AAAF HTTP/1.1" 200 -
+2024-06-24 12:04:01,075 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:04:01] "GET /socket.io/?EIO=4&transport=polling&t=P19izQh&sid=RU26wdMMUiH7Anc7AAAF HTTP/1.1" 200 -
+2024-06-24 12:04:01,077 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:04:01] "POST /socket.io/?EIO=4&transport=polling&t=P19Gu1z&sid=gN5Q-AI5kSztT3HNAAAC HTTP/1.1" 200 -
+2024-06-24 12:04:01,111 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:04:01] "POST /socket.io/?EIO=4&transport=polling&t=P19izQI&sid=rgRd7D28aDCo8ce3AAAE HTTP/1.1" 200 -
+2024-06-24 12:04:01,115 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:04:01] "POST /socket.io/?EIO=4&transport=polling&t=P19izQK&sid=RU26wdMMUiH7Anc7AAAF HTTP/1.1" 200 -
+2024-06-24 12:04:02,039 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:04:02] "GET /socket.io/?EIO=4&transport=polling&t=P19izfp HTTP/1.1" 200 -
+2024-06-24 12:04:02,053 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:04:02] "GET /socket.io/?EIO=4&transport=polling&t=P19izfz&sid=JzsW1LmeVKVA27ZtAAAI HTTP/1.1" 200 -
+2024-06-24 12:04:02,116 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:04:02] "POST /socket.io/?EIO=4&transport=polling&t=P19izfx&sid=JzsW1LmeVKVA27ZtAAAI HTTP/1.1" 200 -
+2024-06-24 12:04:03,039 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:04:03] "GET /socket.io/?EIO=4&transport=polling&t=P19izvR HTTP/1.1" 200 -
+2024-06-24 12:04:03,043 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:04:03] "GET /socket.io/?EIO=4&transport=polling&t=P19izvR HTTP/1.1" 200 -
+2024-06-24 12:04:03,060 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:04:03] "GET /socket.io/?EIO=4&transport=polling&t=P19izvb&sid=zCRwqnT4Llq4FEYrAAAK HTTP/1.1" 200 -
+2024-06-24 12:04:03,068 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:04:03] "GET /socket.io/?EIO=4&transport=polling&t=P19izvi&sid=v3xplJiazjtTLt3GAAAL HTTP/1.1" 200 -
+2024-06-24 12:04:03,127 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:04:03] "POST /socket.io/?EIO=4&transport=polling&t=P19izvf&sid=v3xplJiazjtTLt3GAAAL HTTP/1.1" 200 -
+2024-06-24 12:04:03,140 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:04:03] "POST /socket.io/?EIO=4&transport=polling&t=P19izvZ&sid=zCRwqnT4Llq4FEYrAAAK HTTP/1.1" 200 -
+2024-06-24 12:05:57,301 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 12:05:57,302 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 12:05:58,039 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:05:58] "GET /socket.io/?EIO=4&transport=polling&t=P19jP-J HTTP/1.1" 200 -
+2024-06-24 12:05:58,044 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:05:58] "GET /socket.io/?EIO=4&transport=polling&t=P19jP-J HTTP/1.1" 200 -
+2024-06-24 12:05:58,060 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:05:58] "GET /socket.io/?EIO=4&transport=polling&t=P19jP-J HTTP/1.1" 200 -
+2024-06-24 12:05:58,069 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:05:58] "GET /socket.io/?EIO=4&transport=polling&t=P19jP-U&sid=_NfOX55NOBBjHi6BAAAA HTTP/1.1" 200 -
+2024-06-24 12:05:58,073 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:05:58] "GET /socket.io/?EIO=4&transport=polling&t=P19jP-c&sid=FV3phuGUS4WWZ_-wAAAB HTTP/1.1" 200 -
+2024-06-24 12:05:58,083 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:05:58] "GET /socket.io/?EIO=4&transport=polling&t=P19jP-v&sid=RZNInP2Us4mD2pBPAAAD HTTP/1.1" 200 -
+2024-06-24 12:05:58,093 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:05:58] "GET /socket.io/?EIO=4&transport=polling&t=P19jP_7&sid=FV3phuGUS4WWZ_-wAAAB HTTP/1.1" 200 -
+2024-06-24 12:05:58,098 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:05:58] "GET /socket.io/?EIO=4&transport=polling&t=P19jP_8&sid=RZNInP2Us4mD2pBPAAAD HTTP/1.1" 200 -
+2024-06-24 12:05:58,107 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:05:58] "GET /socket.io/?EIO=4&transport=polling&t=P19jP_O&sid=RZNInP2Us4mD2pBPAAAD HTTP/1.1" 200 -
+2024-06-24 12:05:58,146 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:05:58] "POST /socket.io/?EIO=4&transport=polling&t=P19jP-S&sid=_NfOX55NOBBjHi6BAAAA HTTP/1.1" 200 -
+2024-06-24 12:05:58,159 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:05:58] "POST /socket.io/?EIO=4&transport=polling&t=P19jP-Z&sid=FV3phuGUS4WWZ_-wAAAB HTTP/1.1" 200 -
+2024-06-24 12:05:58,161 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:05:58] "POST /socket.io/?EIO=4&transport=polling&t=P19jP-s&sid=RZNInP2Us4mD2pBPAAAD HTTP/1.1" 200 -
+2024-06-24 12:05:59,575 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:05:59] "GET / HTTP/1.1" 200 -
+2024-06-24 12:05:59,644 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:05:59] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 12:05:59,650 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:05:59] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 12:05:59,651 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:05:59] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 12:05:59,652 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:05:59] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 12:05:59,782 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:05:59] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 12:05:59,783 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:05:59] "GET /socket.io/?EIO=4&transport=polling&t=P19jQOE HTTP/1.1" 200 -
+2024-06-24 12:05:59,994 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:05:59] "POST /socket.io/?EIO=4&transport=polling&t=P19jQRy&sid=Fs6RcYpkM1SwvInMAAAG HTTP/1.1" 200 -
+2024-06-24 12:06:00,050 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:06:00] "GET /socket.io/?EIO=4&transport=polling&t=P19jQS0&sid=Fs6RcYpkM1SwvInMAAAG HTTP/1.1" 200 -
+2024-06-24 12:06:00,052 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:06:00] "GET /socket.io/?EIO=4&transport=polling&t=P19jQTY HTTP/1.1" 200 -
+2024-06-24 12:06:00,065 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:06:00] "POST /socket.io/?EIO=4&transport=polling&t=P19jQTx&sid=Fs6RcYpkM1SwvInMAAAG HTTP/1.1" 200 -
+2024-06-24 12:06:00,072 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:06:00] "GET /socket.io/?EIO=4&transport=polling&t=P19jQTz&sid=jEcrlSDmhycmDuyfAAAI HTTP/1.1" 200 -
+2024-06-24 12:06:00,077 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:06:00] "GET /socket.io/?EIO=4&transport=polling&t=P19jQU9&sid=Fs6RcYpkM1SwvInMAAAG HTTP/1.1" 200 -
+2024-06-24 12:06:00,123 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:06:00] "POST /socket.io/?EIO=4&transport=polling&t=P19jQTw&sid=jEcrlSDmhycmDuyfAAAI HTTP/1.1" 200 -
+2024-06-24 12:06:01,092 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:06:01] "GET /socket.io/?EIO=4&transport=polling&t=P19HLMd HTTP/1.1" 200 -
+2024-06-24 12:06:01,114 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:06:01] "GET /socket.io/?EIO=4&transport=polling&t=P19HLMy&sid=qLu_6UTHqaQQLXJKAAAK HTTP/1.1" 200 -
+2024-06-24 12:06:01,178 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:06:01] "POST /socket.io/?EIO=4&transport=polling&t=P19HLMx&sid=qLu_6UTHqaQQLXJKAAAK HTTP/1.1" 200 -
+2024-06-24 12:06:02,039 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:06:02] "GET /socket.io/?EIO=4&transport=polling&t=P19jQyp HTTP/1.1" 200 -
+2024-06-24 12:06:02,043 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:06:02] "GET /socket.io/?EIO=4&transport=polling&t=P19jQyp HTTP/1.1" 200 -
+2024-06-24 12:06:02,055 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:06:02] "GET /socket.io/?EIO=4&transport=polling&t=P19jQy-&sid=7EnBXUig-kW6la7yAAAM HTTP/1.1" 200 -
+2024-06-24 12:06:02,062 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:06:02] "GET /socket.io/?EIO=4&transport=polling&t=P19jQz4&sid=hXMaX6iCjiQZTf5PAAAN HTTP/1.1" 200 -
+2024-06-24 12:06:02,074 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:06:02] "GET /socket.io/?EIO=4&transport=polling&t=P19jQzL&sid=hXMaX6iCjiQZTf5PAAAN HTTP/1.1" 200 -
+2024-06-24 12:06:02,122 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:06:02] "POST /socket.io/?EIO=4&transport=polling&t=P19jQyx&sid=7EnBXUig-kW6la7yAAAM HTTP/1.1" 200 -
+2024-06-24 12:06:02,136 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:06:02] "POST /socket.io/?EIO=4&transport=polling&t=P19jQz2&sid=hXMaX6iCjiQZTf5PAAAN HTTP/1.1" 200 -
+2024-06-24 12:08:47,216 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 12:08:47,216 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 12:08:48,040 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:48] "GET /socket.io/?EIO=4&transport=polling&t=P19k3UZ HTTP/1.1" 200 -
+2024-06-24 12:08:48,057 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:48] "GET /socket.io/?EIO=4&transport=polling&t=P19k3Ul&sid=53DDed0MGdzIdmzqAAAA HTTP/1.1" 200 -
+2024-06-24 12:08:48,127 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:48] "POST /socket.io/?EIO=4&transport=polling&t=P19k3Ui&sid=53DDed0MGdzIdmzqAAAA HTTP/1.1" 200 -
+2024-06-24 12:08:49,039 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:49] "GET /socket.io/?EIO=4&transport=polling&t=P19k3kB HTTP/1.1" 200 -
+2024-06-24 12:08:49,043 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:49] "GET /socket.io/?EIO=4&transport=polling&t=P19k3kB HTTP/1.1" 200 -
+2024-06-24 12:08:49,060 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:49] "GET /socket.io/?EIO=4&transport=polling&t=P19k3kM&sid=N1mT_bKxS_yJ-IWWAAAC HTTP/1.1" 200 -
+2024-06-24 12:08:49,063 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:49] "GET /socket.io/?EIO=4&transport=polling&t=P19k3kR&sid=h9TZCkD_-Z0ehm5qAAAD HTTP/1.1" 200 -
+2024-06-24 12:08:49,076 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:49] "GET /socket.io/?EIO=4&transport=polling&t=P19k3km&sid=h9TZCkD_-Z0ehm5qAAAD HTTP/1.1" 200 -
+2024-06-24 12:08:49,126 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:49] "POST /socket.io/?EIO=4&transport=polling&t=P19k3kJ&sid=N1mT_bKxS_yJ-IWWAAAC HTTP/1.1" 200 -
+2024-06-24 12:08:49,131 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:49] "POST /socket.io/?EIO=4&transport=polling&t=P19k3kP&sid=h9TZCkD_-Z0ehm5qAAAD HTTP/1.1" 200 -
+2024-06-24 12:08:49,176 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:08:49] "GET /socket.io/?EIO=4&transport=polling&t=P19H-PN HTTP/1.1" 200 -
+2024-06-24 12:08:49,199 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:08:49] "GET /socket.io/?EIO=4&transport=polling&t=P19H-Pl&sid=3PfGRXYfRjDBe8RBAAAG HTTP/1.1" 200 -
+2024-06-24 12:08:49,268 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:08:49] "POST /socket.io/?EIO=4&transport=polling&t=P19H-Pk&sid=3PfGRXYfRjDBe8RBAAAG HTTP/1.1" 200 -
+2024-06-24 12:08:49,511 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:49] "GET / HTTP/1.1" 200 -
+2024-06-24 12:08:49,573 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:49] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 12:08:49,582 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:49] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 12:08:49,583 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:49] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 12:08:49,586 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:49] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 12:08:49,622 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:49] "GET /socket.io/?EIO=4&transport=polling&t=P19k3tK HTTP/1.1" 200 -
+2024-06-24 12:08:49,625 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:49] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 12:08:49,721 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:49] "GET /socket.io/?EIO=4&transport=polling&t=P19k3te&sid=fghwa7XctRB1WOQYAAAI HTTP/1.1" 200 -
+2024-06-24 12:08:49,776 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:49] "POST /socket.io/?EIO=4&transport=polling&t=P19k3tc&sid=fghwa7XctRB1WOQYAAAI HTTP/1.1" 200 -
+2024-06-24 12:08:49,831 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:49] "GET /socket.io/?EIO=4&transport=polling&t=P19k3wa&sid=fghwa7XctRB1WOQYAAAI HTTP/1.1" 200 -
+2024-06-24 12:08:52,039 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:52] "GET /socket.io/?EIO=4&transport=polling&t=P19k4T3 HTTP/1.1" 200 -
+2024-06-24 12:08:52,043 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:52] "GET /socket.io/?EIO=4&transport=polling&t=P19k4T3 HTTP/1.1" 200 -
+2024-06-24 12:08:52,060 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:52] "GET /socket.io/?EIO=4&transport=polling&t=P19k4TE&sid=yV587sbKMsJ4N3YbAAAK HTTP/1.1" 200 -
+2024-06-24 12:08:52,061 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:52] "GET /socket.io/?EIO=4&transport=polling&t=P19k4TI&sid=Q2UUAz4bGxH8-tGiAAAL HTTP/1.1" 200 -
+2024-06-24 12:08:52,081 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:52] "GET /socket.io/?EIO=4&transport=polling&t=P19k4Tj&sid=Q2UUAz4bGxH8-tGiAAAL HTTP/1.1" 200 -
+2024-06-24 12:08:52,137 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:52] "POST /socket.io/?EIO=4&transport=polling&t=P19k4TG&sid=Q2UUAz4bGxH8-tGiAAAL HTTP/1.1" 200 -
+2024-06-24 12:08:52,139 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:52] "POST /socket.io/?EIO=4&transport=polling&t=P19k4TB&sid=yV587sbKMsJ4N3YbAAAK HTTP/1.1" 200 -
+2024-06-24 12:08:53,039 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:53] "GET /socket.io/?EIO=4&transport=polling&t=P19k4ih HTTP/1.1" 200 -
+2024-06-24 12:08:53,043 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:53] "GET /socket.io/?EIO=4&transport=polling&t=P19k4ih HTTP/1.1" 200 -
+2024-06-24 12:08:53,055 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:53] "GET /socket.io/?EIO=4&transport=polling&t=P19k4ir&sid=8TzjTAUgo219i7AuAAAO HTTP/1.1" 200 -
+2024-06-24 12:08:53,063 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:53] "GET /socket.io/?EIO=4&transport=polling&t=P19k4iy&sid=0FIywZwJCrJOpbmJAAAP HTTP/1.1" 200 -
+2024-06-24 12:08:53,073 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:53] "GET /socket.io/?EIO=4&transport=polling&t=P19k4jC&sid=0FIywZwJCrJOpbmJAAAP HTTP/1.1" 200 -
+2024-06-24 12:08:53,086 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:53] "GET /socket.io/?EIO=4&transport=polling&t=P19k4jN&sid=0FIywZwJCrJOpbmJAAAP HTTP/1.1" 200 -
+2024-06-24 12:08:53,142 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:53] "POST /socket.io/?EIO=4&transport=polling&t=P19k4iv&sid=0FIywZwJCrJOpbmJAAAP HTTP/1.1" 200 -
+2024-06-24 12:08:53,144 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:08:53] "POST /socket.io/?EIO=4&transport=polling&t=P19k4ip&sid=8TzjTAUgo219i7AuAAAO HTTP/1.1" 200 -
+2024-06-24 12:09:48,570 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:09:48] "GET /get-text-file HTTP/1.1" 200 -
+2024-06-24 12:13:58,669 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 12:13:58,669 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 12:13:59,881 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:13:59] "GET /socket.io/?EIO=4&transport=polling&t=P19lFd4 HTTP/1.1" 200 -
+2024-06-24 12:13:59,897 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:13:59] "GET /socket.io/?EIO=4&transport=polling&t=P19lFdF&sid=EXWD0LKiKZCZYMuGAAAA HTTP/1.1" 200 -
+2024-06-24 12:13:59,963 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:13:59] "POST /socket.io/?EIO=4&transport=polling&t=P19lFdD&sid=EXWD0LKiKZCZYMuGAAAA HTTP/1.1" 200 -
+2024-06-24 12:14:00,039 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:00] "GET /socket.io/?EIO=4&transport=polling&t=P19lFfZ HTTP/1.1" 200 -
+2024-06-24 12:14:00,039 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:00] "GET /socket.io/?EIO=4&transport=polling&t=P19lFfY HTTP/1.1" 200 -
+2024-06-24 12:14:00,059 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:00] "GET /socket.io/?EIO=4&transport=polling&t=P19lFfk&sid=tsSInMLqI9N6W8a5AAAC HTTP/1.1" 200 -
+2024-06-24 12:14:00,059 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:00] "GET /socket.io/?EIO=4&transport=polling&t=P19lFfl&sid=3TdiIzT7TnJ8830QAAAD HTTP/1.1" 200 -
+2024-06-24 12:14:00,070 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:00] "GET /socket.io/?EIO=4&transport=polling&t=P19lFg1&sid=3TdiIzT7TnJ8830QAAAD HTTP/1.1" 200 -
+2024-06-24 12:14:00,122 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:00] "POST /socket.io/?EIO=4&transport=polling&t=P19lFfi&sid=3TdiIzT7TnJ8830QAAAD HTTP/1.1" 200 -
+2024-06-24 12:14:00,123 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:00] "POST /socket.io/?EIO=4&transport=polling&t=P19lFfi&sid=tsSInMLqI9N6W8a5AAAC HTTP/1.1" 200 -
+2024-06-24 12:14:00,953 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:00] "GET / HTTP/1.1" 200 -
+2024-06-24 12:14:01,044 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:01] "GET /socket.io/?EIO=4&transport=polling&t=P19lFvB HTTP/1.1" 200 -
+2024-06-24 12:14:01,058 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:01] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 12:14:01,060 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:01] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 12:14:01,066 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:01] "GET /socket.io/?EIO=4&transport=polling&t=P19lFvB HTTP/1.1" 200 -
+2024-06-24 12:14:01,067 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:01] "GET /socket.io/?EIO=4&transport=polling&t=P19lFvP&sid=yVm_xbWe5ep3poo1AAAG HTTP/1.1" 200 -
+2024-06-24 12:14:01,069 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:01] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 12:14:01,070 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:01] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 12:14:01,082 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:01] "GET /socket.io/?EIO=4&transport=polling&t=P19lFvp&sid=7NIXS22quK4MUXeKAAAH HTTP/1.1" 200 -
+2024-06-24 12:14:01,116 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:01] "POST /socket.io/?EIO=4&transport=polling&t=P19lFvO&sid=yVm_xbWe5ep3poo1AAAG HTTP/1.1" 200 -
+2024-06-24 12:14:01,122 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:01] "POST /socket.io/?EIO=4&transport=polling&t=P19lFvn&sid=7NIXS22quK4MUXeKAAAH HTTP/1.1" 200 -
+2024-06-24 12:14:01,206 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:01] "GET /socket.io/?EIO=4&transport=polling&t=P19lFwN HTTP/1.1" 200 -
+2024-06-24 12:14:01,209 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:01] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 12:14:01,361 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:01] "GET /socket.io/?EIO=4&transport=polling&t=P19lFyF&sid=9MqF7oPysM41gcyjAAAK HTTP/1.1" 200 -
+2024-06-24 12:14:01,422 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:01] "POST /socket.io/?EIO=4&transport=polling&t=P19lFyD&sid=9MqF7oPysM41gcyjAAAK HTTP/1.1" 200 -
+2024-06-24 12:14:02,038 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:02] "GET /socket.io/?EIO=4&transport=polling&t=P19lG8p HTTP/1.1" 200 -
+2024-06-24 12:14:02,043 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:02] "GET /socket.io/?EIO=4&transport=polling&t=P19lG8p HTTP/1.1" 200 -
+2024-06-24 12:14:02,060 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:02] "GET /socket.io/?EIO=4&transport=polling&t=P19lG8z&sid=q-esl3bKSqN2epfOAAAM HTTP/1.1" 200 -
+2024-06-24 12:14:02,061 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:02] "GET /socket.io/?EIO=4&transport=polling&t=P19lG93&sid=EB0cRRUuu_FkSTBZAAAN HTTP/1.1" 200 -
+2024-06-24 12:14:02,075 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:02] "GET /socket.io/?EIO=4&transport=polling&t=P19lG9O&sid=EB0cRRUuu_FkSTBZAAAN HTTP/1.1" 200 -
+2024-06-24 12:14:02,131 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:02] "POST /socket.io/?EIO=4&transport=polling&t=P19lG8x&sid=q-esl3bKSqN2epfOAAAM HTTP/1.1" 200 -
+2024-06-24 12:14:02,146 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:02] "POST /socket.io/?EIO=4&transport=polling&t=P19lG90&sid=EB0cRRUuu_FkSTBZAAAN HTTP/1.1" 200 -
+2024-06-24 12:14:03,038 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:03] "GET /socket.io/?EIO=4&transport=polling&t=P19lGOR HTTP/1.1" 200 -
+2024-06-24 12:14:03,053 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:03] "GET /socket.io/?EIO=4&transport=polling&t=P19lGOb&sid=A5YNzOXudtVNnGN0AAAQ HTTP/1.1" 200 -
+2024-06-24 12:14:03,122 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:14:03] "POST /socket.io/?EIO=4&transport=polling&t=P19lGOY&sid=A5YNzOXudtVNnGN0AAAQ HTTP/1.1" 200 -
+2024-06-24 12:14:03,203 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:14:03] "GET /socket.io/?EIO=4&transport=polling&t=P19JB4o HTTP/1.1" 200 -
+2024-06-24 12:14:03,226 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:14:03] "GET /socket.io/?EIO=4&transport=polling&t=P19JB56&sid=Snt3DB7Qn6YSMVEuAAAS HTTP/1.1" 200 -
+2024-06-24 12:14:03,296 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:14:03] "POST /socket.io/?EIO=4&transport=polling&t=P19JB55&sid=Snt3DB7Qn6YSMVEuAAAS HTTP/1.1" 200 -
+2024-06-24 12:14:14,672 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:14:14] "GET / HTTP/1.1" 200 -
+2024-06-24 12:14:14,683 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:14:14] "GET /socket.io/?EIO=4&transport=websocket&sid=Snt3DB7Qn6YSMVEuAAAS HTTP/1.1" 200 -
+2024-06-24 12:14:14,698 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:14:14] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 12:14:14,701 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:14:14] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 12:14:14,704 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:14:14] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 12:14:14,706 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:14:14] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 12:14:14,729 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:14:14] "GET /socket.io/?EIO=4&transport=polling&t=P19JDuu HTTP/1.1" 200 -
+2024-06-24 12:14:14,731 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:14:14] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 12:14:14,749 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:14:14] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 12:14:14,758 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:14:14] "GET /socket.io/?EIO=4&transport=polling&t=P19JDvE&sid=aryPoYU1M978SXzDAAAU HTTP/1.1" 200 -
+2024-06-24 12:14:14,824 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:14:14] "POST /socket.io/?EIO=4&transport=polling&t=P19JDvD&sid=aryPoYU1M978SXzDAAAU HTTP/1.1" 200 -
+2024-06-24 12:14:22,632 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:14:22] "POST /fupload HTTP/1.1" 200 -
+2024-06-24 12:17:20,091 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 12:17:20,091 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 12:17:20,257 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:17:20] "GET /socket.io/?EIO=4&transport=polling&t=P19JwiY HTTP/1.1" 200 -
+2024-06-24 12:17:20,285 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:17:20] "GET /socket.io/?EIO=4&transport=polling&t=P19JxCn&sid=hXE_ikTqVN9ht40LAAAA HTTP/1.1" 200 -
+2024-06-24 12:17:20,357 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:17:20] "POST /socket.io/?EIO=4&transport=polling&t=P19JxCl&sid=hXE_ikTqVN9ht40LAAAA HTTP/1.1" 200 -
+2024-06-24 12:17:21,039 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:21] "GET /socket.io/?EIO=4&transport=polling&t=P19m0kB HTTP/1.1" 200 -
+2024-06-24 12:17:21,043 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:21] "GET /socket.io/?EIO=4&transport=polling&t=P19m0kB HTTP/1.1" 200 -
+2024-06-24 12:17:21,063 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:21] "GET /socket.io/?EIO=4&transport=polling&t=P19m0kT&sid=ruNTUDd6SI97G0piAAAD HTTP/1.1" 200 -
+2024-06-24 12:17:21,064 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:21] "GET /socket.io/?EIO=4&transport=polling&t=P19m0kM&sid=RhN2cW8mw0RzKHL9AAAC HTTP/1.1" 200 -
+2024-06-24 12:17:21,074 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:21] "GET /socket.io/?EIO=4&transport=polling&t=P19m0kj&sid=ruNTUDd6SI97G0piAAAD HTTP/1.1" 200 -
+2024-06-24 12:17:21,118 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:21] "POST /socket.io/?EIO=4&transport=polling&t=P19m0kJ&sid=RhN2cW8mw0RzKHL9AAAC HTTP/1.1" 200 -
+2024-06-24 12:17:21,128 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:21] "POST /socket.io/?EIO=4&transport=polling&t=P19m0kQ&sid=ruNTUDd6SI97G0piAAAD HTTP/1.1" 200 -
+2024-06-24 12:17:22,000 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:22] "GET /socket.io/?EIO=4&transport=polling&t=P19m0zC HTTP/1.1" 200 -
+2024-06-24 12:17:22,015 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:22] "GET /socket.io/?EIO=4&transport=polling&t=P19m0zN&sid=QNNM0ftQjWV79iFxAAAG HTTP/1.1" 200 -
+2024-06-24 12:17:22,080 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:22] "POST /socket.io/?EIO=4&transport=polling&t=P19m0zK&sid=QNNM0ftQjWV79iFxAAAG HTTP/1.1" 200 -
+2024-06-24 12:17:22,409 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:22] "GET / HTTP/1.1" 200 -
+2024-06-24 12:17:22,510 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:22] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 12:17:22,513 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:22] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 12:17:22,515 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:22] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 12:17:22,517 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:22] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 12:17:22,553 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:22] "GET /socket.io/?EIO=4&transport=polling&t=P19m15s HTTP/1.1" 200 -
+2024-06-24 12:17:22,641 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:22] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 12:17:22,744 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:22] "GET /socket.io/?EIO=4&transport=polling&t=P19m17Q&sid=apjBCRYL-d2f8hGHAAAI HTTP/1.1" 200 -
+2024-06-24 12:17:22,804 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:22] "POST /socket.io/?EIO=4&transport=polling&t=P19m17N&sid=apjBCRYL-d2f8hGHAAAI HTTP/1.1" 200 -
+2024-06-24 12:17:24,039 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:24] "GET /socket.io/?EIO=4&transport=polling&t=P19m1T3 HTTP/1.1" 200 -
+2024-06-24 12:17:24,044 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:24] "GET /socket.io/?EIO=4&transport=polling&t=P19m1T3 HTTP/1.1" 200 -
+2024-06-24 12:17:24,057 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:24] "GET /socket.io/?EIO=4&transport=polling&t=P19m1T3 HTTP/1.1" 200 -
+2024-06-24 12:17:24,067 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:24] "GET /socket.io/?EIO=4&transport=polling&t=P19m1TF&sid=XjOPVnpMZla8Eql2AAAK HTTP/1.1" 200 -
+2024-06-24 12:17:24,068 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:24] "GET /socket.io/?EIO=4&transport=polling&t=P19m1TN&sid=Y4sjFxe2yibRkITYAAAL HTTP/1.1" 200 -
+2024-06-24 12:17:24,091 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:24] "GET /socket.io/?EIO=4&transport=polling&t=P19m1Te&sid=QukevFKGcdsgTQ8EAAAN HTTP/1.1" 200 -
+2024-06-24 12:17:24,092 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:24] "GET /socket.io/?EIO=4&transport=polling&t=P19m1Tn&sid=Y4sjFxe2yibRkITYAAAL HTTP/1.1" 200 -
+2024-06-24 12:17:24,108 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:24] "GET /socket.io/?EIO=4&transport=polling&t=P19m1U8&sid=QukevFKGcdsgTQ8EAAAN HTTP/1.1" 200 -
+2024-06-24 12:17:24,145 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:24] "POST /socket.io/?EIO=4&transport=polling&t=P19m1TC&sid=XjOPVnpMZla8Eql2AAAK HTTP/1.1" 200 -
+2024-06-24 12:17:24,153 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:24] "POST /socket.io/?EIO=4&transport=polling&t=P19m1TK&sid=Y4sjFxe2yibRkITYAAAL HTTP/1.1" 200 -
+2024-06-24 12:17:24,155 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:24] "POST /socket.io/?EIO=4&transport=polling&t=P19m1Ta&sid=QukevFKGcdsgTQ8EAAAN HTTP/1.1" 200 -
+2024-06-24 12:17:25,040 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:25] "GET /socket.io/?EIO=4&transport=polling&t=P19m1ig HTTP/1.1" 200 -
+2024-06-24 12:17:25,040 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:25] "GET /socket.io/?EIO=4&transport=polling&t=P19m1ih HTTP/1.1" 200 -
+2024-06-24 12:17:25,046 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:25] "GET /socket.io/?EIO=4&transport=polling&t=P19m1ih HTTP/1.1" 200 -
+2024-06-24 12:17:25,069 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:25] "GET /socket.io/?EIO=4&transport=polling&t=P19m1iu&sid=Mld8JC18hSsoLlXcAAAQ HTTP/1.1" 200 -
+2024-06-24 12:17:25,069 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:25] "GET /socket.io/?EIO=4&transport=polling&t=P19m1iu&sid=FcUlPVlLSHT8Hj6iAAAR HTTP/1.1" 200 -
+2024-06-24 12:17:25,071 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:25] "GET /socket.io/?EIO=4&transport=polling&t=P19m1j1&sid=fTYmYVi5VKC0UgCzAAAS HTTP/1.1" 200 -
+2024-06-24 12:17:25,088 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:25] "GET /socket.io/?EIO=4&transport=polling&t=P19m1jQ&sid=Mld8JC18hSsoLlXcAAAQ HTTP/1.1" 200 -
+2024-06-24 12:17:25,106 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:25] "GET /socket.io/?EIO=4&transport=polling&t=P19m1ja&sid=fTYmYVi5VKC0UgCzAAAS HTTP/1.1" 200 -
+2024-06-24 12:17:25,160 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:25] "POST /socket.io/?EIO=4&transport=polling&t=P19m1i-&sid=fTYmYVi5VKC0UgCzAAAS HTTP/1.1" 200 -
+2024-06-24 12:17:25,171 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:25] "POST /socket.io/?EIO=4&transport=polling&t=P19m1is&sid=FcUlPVlLSHT8Hj6iAAAR HTTP/1.1" 200 -
+2024-06-24 12:17:25,179 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:25] "POST /socket.io/?EIO=4&transport=polling&t=P19m1ir&sid=Mld8JC18hSsoLlXcAAAQ HTTP/1.1" 200 -
+2024-06-24 12:17:37,133 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:37] "GET /socket.io/?EIO=4&transport=websocket&sid=apjBCRYL-d2f8hGHAAAI HTTP/1.1" 200 -
+2024-06-24 12:17:37,139 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:37] "GET /socket.io/?EIO=4&transport=websocket&sid=QNNM0ftQjWV79iFxAAAG HTTP/1.1" 200 -
+2024-06-24 12:17:37,141 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:37] "GET /socket.io/?EIO=4&transport=websocket&sid=FcUlPVlLSHT8Hj6iAAAR HTTP/1.1" 200 -
+2024-06-24 12:17:37,146 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:37] "GET /socket.io/?EIO=4&transport=websocket&sid=ruNTUDd6SI97G0piAAAD HTTP/1.1" 200 -
+2024-06-24 12:17:37,146 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:37] "GET /socket.io/?EIO=4&transport=websocket&sid=Y4sjFxe2yibRkITYAAAL HTTP/1.1" 200 -
+2024-06-24 12:17:37,150 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:37] "GET /socket.io/?EIO=4&transport=websocket&sid=fTYmYVi5VKC0UgCzAAAS HTTP/1.1" 200 -
+2024-06-24 12:17:37,157 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:37] "GET /socket.io/?EIO=4&transport=websocket&sid=RhN2cW8mw0RzKHL9AAAC HTTP/1.1" 200 -
+2024-06-24 12:17:37,158 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:37] "GET /socket.io/?EIO=4&transport=websocket&sid=XjOPVnpMZla8Eql2AAAK HTTP/1.1" 200 -
+2024-06-24 12:17:37,158 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:37] "GET /socket.io/?EIO=4&transport=websocket&sid=Mld8JC18hSsoLlXcAAAQ HTTP/1.1" 200 -
+2024-06-24 12:17:37,159 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:37] "GET /socket.io/?EIO=4&transport=websocket&sid=QukevFKGcdsgTQ8EAAAN HTTP/1.1" 200 -
+2024-06-24 12:17:52,702 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 12:17:52,702 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 12:17:53,222 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:17:53] "GET /socket.io/?EIO=4&transport=polling&t=P19K3FO HTTP/1.1" 200 -
+2024-06-24 12:17:53,251 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:17:53] "GET /socket.io/?EIO=4&transport=polling&t=P19K3Fp&sid=NkzbGm7GU1yzmAbDAAAA HTTP/1.1" 200 -
+2024-06-24 12:17:53,318 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:17:53] "POST /socket.io/?EIO=4&transport=polling&t=P19K3Fn&sid=NkzbGm7GU1yzmAbDAAAA HTTP/1.1" 200 -
+2024-06-24 12:17:55,609 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:55] "GET / HTTP/1.1" 200 -
+2024-06-24 12:17:55,897 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:55] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 12:17:55,900 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:55] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 12:17:55,901 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:55] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 12:17:55,902 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:55] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 12:17:55,963 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:55] "GET /socket.io/?EIO=4&transport=polling&t=P19m9Fs HTTP/1.1" 200 -
+2024-06-24 12:17:55,966 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:55] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 12:17:55,990 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:55] "GET /socket.io/?EIO=4&transport=polling&t=P19m9GE&sid=EKXLUwScR7OubZ3PAAAC HTTP/1.1" 200 -
+2024-06-24 12:17:56,037 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:17:56] "POST /socket.io/?EIO=4&transport=polling&t=P19m9GD&sid=EKXLUwScR7OubZ3PAAAC HTTP/1.1" 200 -
+2024-06-24 12:18:02,595 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:18:02] "GET /socket.io/?EIO=4&transport=websocket&sid=EKXLUwScR7OubZ3PAAAC HTTP/1.1" 200 -
+2024-06-24 12:18:29,108 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 12:18:29,108 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 12:18:29,264 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:18:29] "GET /socket.io/?EIO=4&transport=polling&t=P19KBYv HTTP/1.1" 200 -
+2024-06-24 12:18:29,291 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:18:29] "GET /socket.io/?EIO=4&transport=polling&t=P19KC3A&sid=fYJsEI8G3r7s9zpdAAAA HTTP/1.1" 200 -
+2024-06-24 12:18:29,357 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:18:29] "POST /socket.io/?EIO=4&transport=polling&t=P19KC38&sid=fYJsEI8G3r7s9zpdAAAA HTTP/1.1" 200 -
+2024-06-24 12:18:31,992 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:18:31] "GET / HTTP/1.1" 200 -
+2024-06-24 12:18:32,271 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:18:32] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 12:18:32,280 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:18:32] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 12:18:32,281 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:18:32] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 12:18:32,283 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:18:32] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 12:18:32,344 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:18:32] "GET /socket.io/?EIO=4&transport=polling&t=P19mI8M HTTP/1.1" 200 -
+2024-06-24 12:18:32,349 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:18:32] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 12:18:32,377 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:18:32] "GET /socket.io/?EIO=4&transport=polling&t=P19mI8l&sid=9N6IBFQ5yOd22WAlAAAC HTTP/1.1" 200 -
+2024-06-24 12:18:32,423 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:18:32] "POST /socket.io/?EIO=4&transport=polling&t=P19mI8j&sid=9N6IBFQ5yOd22WAlAAAC HTTP/1.1" 200 -
+2024-06-24 12:18:35,749 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:18:35] "GET /socket.io/?EIO=4&transport=websocket&sid=9N6IBFQ5yOd22WAlAAAC HTTP/1.1" 200 -
+2024-06-24 12:18:48,497 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:18:48] "POST /fupload HTTP/1.1" 200 -
+2024-06-24 12:19:08,336 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 12:19:08,337 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 12:19:11,218 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:19:11] "GET / HTTP/1.1" 200 -
+2024-06-24 12:19:11,556 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:19:11] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 12:19:11,558 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:19:11] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 12:19:11,559 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:19:11] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 12:19:11,562 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:19:11] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 12:19:11,641 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:19:11] "GET /socket.io/?EIO=4&transport=polling&t=P19mRkL HTTP/1.1" 200 -
+2024-06-24 12:19:11,646 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:19:11] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 12:19:11,671 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:19:11] "GET /socket.io/?EIO=4&transport=polling&t=P19mRkl&sid=Izu0K3dtOOCpIJlWAAAA HTTP/1.1" 200 -
+2024-06-24 12:19:11,720 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:19:11] "POST /socket.io/?EIO=4&transport=polling&t=P19mRkk&sid=Izu0K3dtOOCpIJlWAAAA HTTP/1.1" 200 -
+2024-06-24 12:19:11,844 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:19:11] "GET /socket.io/?EIO=4&transport=polling&t=P19KMS6 HTTP/1.1" 200 -
+2024-06-24 12:19:11,865 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:19:11] "GET /socket.io/?EIO=4&transport=polling&t=P19KMSO&sid=8nFtTTxaTKJotZwTAAAC HTTP/1.1" 200 -
+2024-06-24 12:19:11,917 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:19:11] "POST /socket.io/?EIO=4&transport=polling&t=P19KMSN&sid=8nFtTTxaTKJotZwTAAAC HTTP/1.1" 200 -
+2024-06-24 12:19:15,516 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:19:15] "GET /socket.io/?EIO=4&transport=websocket&sid=Izu0K3dtOOCpIJlWAAAA HTTP/1.1" 200 -
+2024-06-24 12:21:54,895 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 12:21:54,896 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 12:21:57,839 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:21:57] "GET / HTTP/1.1" 200 -
+2024-06-24 12:21:58,136 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:21:58] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 12:21:58,145 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:21:58] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 12:21:58,145 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:21:58] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 12:21:58,146 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:21:58] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 12:21:58,224 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:21:58] "GET /socket.io/?EIO=4&transport=polling&t=P19n4PC HTTP/1.1" 200 -
+2024-06-24 12:21:58,229 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:21:58] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 12:21:58,254 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:21:58] "GET /socket.io/?EIO=4&transport=polling&t=P19n4Pc&sid=_UvtpkawU15FWDnEAAAA HTTP/1.1" 200 -
+2024-06-24 12:21:58,258 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:21:58] "GET /socket.io/?EIO=4&transport=polling&t=P19n4Pn&sid=_UvtpkawU15FWDnEAAAA HTTP/1.1" 200 -
+2024-06-24 12:21:58,289 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:21:58] "POST /socket.io/?EIO=4&transport=polling&t=P19n4Pb&sid=_UvtpkawU15FWDnEAAAA HTTP/1.1" 200 -
+2024-06-24 12:21:59,242 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:21:59] "GET /socket.io/?EIO=4&transport=polling&t=P19K_K5 HTTP/1.1" 200 -
+2024-06-24 12:21:59,265 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:21:59] "GET /socket.io/?EIO=4&transport=polling&t=P19K_KO&sid=6_055GFM4NjdRBq5AAAC HTTP/1.1" 200 -
+2024-06-24 12:21:59,326 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:21:59] "POST /socket.io/?EIO=4&transport=polling&t=P19K_KN&sid=6_055GFM4NjdRBq5AAAC HTTP/1.1" 200 -
+2024-06-24 12:22:01,434 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:22:01] "GET /socket.io/?EIO=4&transport=websocket&sid=_UvtpkawU15FWDnEAAAA HTTP/1.1" 200 -
+2024-06-24 12:23:14,254 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://132.166.15.96:5000
+2024-06-24 12:23:14,254 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-24 12:23:17,116 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:23:17] "GET / HTTP/1.1" 200 -
+2024-06-24 12:23:17,407 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:23:17] "[36mGET /static/css/interllm2.css HTTP/1.1[0m" 304 -
+2024-06-24 12:23:17,414 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:23:17] "[36mGET /static/js/interllm.js HTTP/1.1[0m" 304 -
+2024-06-24 12:23:17,414 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:23:17] "[36mGET /static/img/Feynmagi_64x64.png HTTP/1.1[0m" 304 -
+2024-06-24 12:23:17,415 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:23:17] "[36mGET /static/bootstrap/sliders-white.svg HTTP/1.1[0m" 304 -
+2024-06-24 12:23:17,482 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:23:17] "GET /socket.io/?EIO=4&transport=polling&t=P19nNld HTTP/1.1" 200 -
+2024-06-24 12:23:17,486 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:23:17] "GET /get_config HTTP/1.1" 200 -
+2024-06-24 12:23:17,507 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:23:17] "GET /socket.io/?EIO=4&transport=polling&t=P19nNlw&sid=vT5BiBlDX9IPdlCOAAAA HTTP/1.1" 200 -
+2024-06-24 12:23:17,556 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:23:17] "POST /socket.io/?EIO=4&transport=polling&t=P19nNlv&sid=vT5BiBlDX9IPdlCOAAAA HTTP/1.1" 200 -
+2024-06-24 12:23:18,256 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:23:18] "GET /socket.io/?EIO=4&transport=polling&t=P19LId2 HTTP/1.1" 200 -
+2024-06-24 12:23:18,280 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:23:18] "GET /socket.io/?EIO=4&transport=polling&t=P19LIdM&sid=EmxoPHm-BfrHg0u3AAAC HTTP/1.1" 200 -
+2024-06-24 12:23:18,341 - werkzeug - INFO - 132.166.29.172 - - [24/Jun/2024 12:23:18] "POST /socket.io/?EIO=4&transport=polling&t=P19LIdL&sid=EmxoPHm-BfrHg0u3AAAC HTTP/1.1" 200 -
+2024-06-24 12:23:19,252 - werkzeug - INFO - 127.0.0.1 - - [24/Jun/2024 12:23:19] "GET /socket.io/?EIO=4&transport=websocket&sid=vT5BiBlDX9IPdlCOAAAA HTTP/1.1" 200 -

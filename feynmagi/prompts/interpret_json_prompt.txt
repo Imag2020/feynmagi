@@ -1,0 +1,4 @@
+Act as a helpful agent, analyze following output of an AI assistant, it's a json string with thoughtd and command to excute, please help as you can to interpret it and output a human readable comprhensive response in html format.
+
+AI agent output :
+

@@ -1,0 +1,19 @@
+
+now determine the next command to use from list above, it can be exit command if goal is acheived, output only command in this valid json format nothing else
+
+```json
+{
+        "thoughts": {
+        "text": "Your thoughts here",
+        "reasoning": "Your reasoning here",
+        "criticism": "Your constructive self-criticism here",
+        "speak": "Summary of thoughts to communicate to the user"
+    },
+    "command": {
+        "name": "command name from the provided list",
+        "args": {
+            "arg name": "value"
+        }
+    }
+}
+```

@@ -1,0 +1,381 @@
+body {
+    margin: 0;
+    padding-top: 50px; /* Assurez-vous que cela correspond à la hauteur de votre #header */
+    padding-bottom: 120px; /* Assurez-vous que cela correspond à la hauteur de votre #footer */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #000;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000; /* Changement de couleur en noir */
+    padding: 2px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+#title {
+    flex-grow: 1;
+    text-align: center;
+    color: #FFF; /* Assurez-vous que le texte est visible sur fond noir */
+}
+
+#config-icon {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+#config-icon img {
+    width: 24px; /* Ajustez selon la taille souhaitée */
+    height: auto;
+}
+
+#main-content {
+    display: flex;
+    flex: 1;
+    margin-top: 24px; /* Pour éviter que le contenu soit caché sous l'entête */
+    overflow: auto;
+}
+
+#output {
+    flex-grow: 1;
+    overflow: auto;
+    padding-left: 240px;
+    border-right: 1px solid #ddd;
+}
+
+#side-panel {
+    width: 200px;
+    flex-shrink: 0;
+    background-color: #E2EDFC;
+    padding: 2px;
+    overflow-y: auto; /* Active uniquement le défilement vertical */
+    overflow-x: hidden; /* Désactive le défilement horizontal */
+}
+
+#side-panel * {
+    max-width: 100%;
+    box-sizing: border-box; /* Inclut le padding et la bordure dans la largeur totale */
+}
+
+#system-info {
+    width: 200px;
+    flex-shrink: 0;
+    background-color: #E2EDFC;
+    padding: 10px;
+    overflow: auto;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #E2EDFC;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+#message-area {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+#info-select
+{
+    width: 160px;
+}
+
+#urlid
+{
+    width: 160px;
+}
+textarea {
+    flex-grow: 1;
+    margin-right: 10px;
+    height: 100px; /* Ajustez la hauteur si nécessaire */
+}
+
+#button-group {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-bottom: 5px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#left-panel {
+    width: 234px;
+    background-color: #E2EDFC;
+    position: fixed;
+    top: 60px; /* Ajusté pour être en dessous de l'entête */
+    bottom: 120px; /* Ajusté pour être au-dessus du footer */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow-y: auto; /* Active uniquement le défilement vertical */
+    overflow-x: hidden; /* Désactive le défilement horizontal */
+}
+#left-panel * {
+    max-width: 100%;
+    box-sizing: border-box; /* Inclut le padding et la bordure dans la largeur totale */
+}
+
+#history{
+    flex-grow: 1;
+    background-color: #FFF;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#upload-panel {
+    background-color: #FFF;
+    padding: 10px;
+}
+
+#drop_zone {
+    border: 2px dashed #0087F7;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc
+}
+#drop_zone.dragover {
+        border-color: #000;
+        color: #000;
+    }
+/* Autres styles pour les boutons et inputs */
+button {
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    width: 50px;
+    height: 30px;
+}
+
+button:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+button:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+button:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+/* Style for modal */
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Style for modal content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 1% auto;
+    padding: 4px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px; /* Adjust the max width as needed */
+    max-height: 80vh; /* Adjust the max height as needed */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+/* Close button */
+.closeConfig {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closeConfig:hover,
+.closeConfig:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Form group styling */
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-group label {
+    flex: 1;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.form-group .input-group {
+    flex: 2;
+    display: flex;
+    gap: 2px;
+}
+
+.form-group input[type="text"] {
+    flex: 2;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.form-group .input-group {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    flex-wrap: nowrap;
+}
+
+.input-group label {
+    margin: 0;
+}
+
+.input-group input[type="radio"] {
+    margin: 0 5px 0 0;
+}
+.modal-content {
+    font-size: 12px; /* ajustez cette valeur selon vos besoins */
+}
+
+
+.session {
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            border-bottom: 1px solid #ccc;
+        }
+.delete-icon {
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+.icon-selected {
+        color: blue; /* Change the color to indicate selection */
+    }
+
+.helpdiv {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.helpdiv h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.helpdiv p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.inline-titles {
+            display: flex;
+            align-items: center;
+}
+.inline-titles h3 {
+            margin: 0;
+}
+.inline-titles h1 {
+            margin: 0;
+            margin-left: 10px;
+}
