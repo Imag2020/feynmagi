@@ -257,14 +257,126 @@ $(document).ready(function() {
     });
 
 
-    socket.on('response_token', function(data) {       
-    var currentContent = $("#output").html();
-    var tout=data.token;
-    let ftout = tout.replace(/\n/g, "<br>");
-    $("#output").html(currentContent + ftout);
+
+
+socket.on('response_token', function(data) {
+    // Accumuler le contenu dans un div spécifique
+    var ftout = data.token.replace(/\n/g, "<br>");
+    $("#output").append(ftout);
+
+    // S'assurer que le contenu est traité après un bref délai
+    setTimeout(function() {
+        processContent();
+    }, 0);
+
     var divHeight = $('#output').prop('scrollHeight');
     $('#output').scrollTop(divHeight);
-   });
+});
+
+function processContent() {
+    // Parcourir le contenu de #output
+    var html = $("#output").html();
+
+    // Traiter les équations Markdown avec KaTeX
+  html = html.replace(/```(\w+)\n([\s\S]*?)```/g, function(match, lang, code) {
+    // Clean up `<br>` tags inside the code
+    var cleanedCode = code.replace(/<br>/g, '\n');
+
+    // Check if the block is meant for code or just Markdown
+    if (lang.toLowerCase() === 'markdown') {
+        // Render using a Markdown renderer if it's meant to be Markdown
+        return new marked.Marked().parse(cleanedCode);
+    } else {
+        // Otherwise render as code block
+        try {
+            var markedInstance = new marked.Marked();
+            var renderedCode = markedInstance.parse('```' + lang + '\n' + cleanedCode.trim() + '\n```');
+             console.error('rendering markdown');
+            return `
+                <div class="code-container" style="background-color: black; padding: 20px; border-radius: 5px; margin-top: 20px;">
+                    <div class="code-header" style="display: flex; justify-content: space-between; align-items: center; padding-bottom: 5px; border-bottom: 1px solid grey; margin-bottom: 10px;">
+                        <span class="code-type" style="color: yellow;">${lang.toUpperCase()} Code</span>
+                        <button class="copy-button" style="background-color: white; color: black; border: none; padding: 10px; cursor: pointer;">Copy</button>
+                    </div>
+                    <pre class="code-block" style="background-color: #333; color: white; overflow-x: auto;">${renderedCode}</pre>
+                </div>`;
+        } catch (e) {
+            console.error('Markdown rendering error:', e);
+            return match;  // Return original text in case of an error
+        }
+    }
+});
+
+    // Traiter tous les blocs de code indiqués par les triple backticks
+    html = html.replace(/```([\w\W]*?)```/g, function(match, code) {
+        try {
+            // Clean up `<br>` tags inside the code
+            var cleanedCode = code.replace(/<br>/g, '\n');
+            
+            // Determine the language from the first line (if specified)
+            var firstNewLine = cleanedCode.indexOf('\n');
+            var firstLine = cleanedCode.substr(0, firstNewLine);
+            var language = firstLine.match(/^[a-z]+$/i) ? firstLine : 'plaintext';
+            cleanedCode = firstNewLine > -1 ? cleanedCode.substr(firstNewLine + 1) : cleanedCode;
+
+            // Create a Marked instance to parse the code
+            var markedInstance = new marked.Marked();
+            var renderedCode = markedInstance.parse('```' + language + '\n' + cleanedCode.trim() + '\n```');
+             console.error('rendering code');
+            // Returning the enhanced HTML structure
+            return `
+                <div class="code-container" style="background-color: black; padding: 20px; border-radius: 5px; margin-top: 20px;">
+                    <div class="code-header" style="display: flex; justify-content: space-between; align-items: center; padding-bottom: 5px; border-bottom: 1px solid grey; margin-bottom: 10px;">
+                        <span class="code-type" style="color: yellow;">${language.toUpperCase()} Code</span>
+                        <button class="copy-button" style="background-color: white; color: black; border: none; padding: 10px; cursor: pointer;">Copy</button>
+                    </div>
+                    <pre class="code-block" style="background-color: #333; color: white; overflow-x: auto;">${renderedCode}</pre>
+                </div>`;
+        } catch (e) {
+            console.error('Markdown rendering error:', e);
+            return match;  // Return original text in case of an error
+        }
+    });
+
+    // Mettre à jour le HTML de #output avec le contenu traité
+    $("#output").html(html);
+
+  $(document).on('click', '.copy-button', function() {
+    var codeBlock = $(this).closest('.code-container').find('.code-block').text();
+
+    if (navigator.clipboard && window.isSecureContext) {
+        // If the Clipboard API is available and the context is secure, use it
+        navigator.clipboard.writeText(codeBlock).then(function() {
+            console.log('Copying to clipboard was successful!');
+        }, function(err) {
+            console.error('Could not copy text:', err);
+        });
+    } else {
+        // Fallback: Copy text using a temporary textarea
+        var textArea = document.createElement("textarea");
+        textArea.value = codeBlock;
+        document.body.appendChild(textArea);
+        textArea.focus();
+        textArea.select();
+        try {
+            var successful = document.execCommand('copy');
+            var msg = successful ? 'successful' : 'unsuccessful';
+            console.log('Fallback: Copying text command was ' + msg);
+        } catch (err) {
+            console.error('Fallback: Could not copy text:', err);
+        }
+        document.body.removeChild(textArea);
+    }
+});
+
+
+    
+}
+
+
+
+
+    
 
     socket.on('audio_token', function(data) {       
     var currentContent = $("#message-textarea").html();
@@ -714,4 +826,3 @@ $("#fileInput").change(function() {
             });
 
 });
-

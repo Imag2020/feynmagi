@@ -116,7 +116,6 @@ def google_home_search(req,pages=1):
     # Initialize the WebDriver
     print(f"=================== google home search  {req}")
     # Initialize the WebDriver
-    print(f"=================== google home search  {req}")
     #say_text(f"Opening Chrome for {req}")
     chrome_options = Options()
     chrome_options.add_argument("--headless")

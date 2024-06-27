@@ -59,7 +59,7 @@ def serve_static(filename):
 @socketio.on('interllm')
 def handle_interllm_request(data):
     message = data['message']
-    print(f"[DEBUG] Received message: {message}")  # Log de diagnostic
+    print(f"[DEBUG] interllm Received message: {message}")  # Log de diagnostic
     socketio.start_background_task(target=thread_manager, message=message)
 
 '''
@@ -335,7 +335,7 @@ def handle_system_set_config_request(data):
     cfg.cfg.openai_model = data.get('openaimodel', cfg.cfg.openai_model)
     cfg.cfg.groq_model = data.get('groqmodel', cfg.cfg.groq_model)
     
-    cfg.save_config()
+    cfg.cfg.save_config()
 
     socketio.emit('config_updated', {'status': 'success'})
 
@@ -385,12 +385,12 @@ def handle_stop_message():
 # Function to handle incoming message and add it to the task queue
 # Function to handle incoming message and add it to the task queue
 def add_message_task(message):
-    print(f"[DEBUG] Received message: {message}")
+    print(f"[DEBUG] add_message_task  Received message: {message}")
     add_task(1, start_autosession_task, message)
     print("[DEBUG] Task added to queue")
 
 def add_rag_task(message,tag):
-    print(f"[DEBUG] Received message: {tag} / {message}")
+    print(f"[DEBUG] add_rag_task Received message: {tag} / {message}")
     add_task(1, start_rag_task, message,tag)
     print("[DEBUG] Task added to queue")
     
@@ -437,7 +437,7 @@ def handle_message(data):
         
     else:
         message = data['message']
-        print(f"[DEBUG] Received message: {message}")  # Log de diagnostic
+        print(f"[DEBUG] handle_message Received message: {message}")  # Log de diagnostic
         add_message_task(message)
         
 
