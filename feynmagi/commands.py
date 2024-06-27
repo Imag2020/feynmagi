@@ -138,27 +138,7 @@ def execute_command(command_name, arguments):
             
         elif command_name == "calculate" :
             return calculate(arguments["num1"],arguments["operator"],arguments["num2"])
-        elif command_name == "rag" :
-            return " Nothing found "
-        elif command_name == "agent" :
-            return " Agent started "
-        elif command_name == "memory" :
-            return " Memorized "
-        elif command_name == "developer" :
-            return " agent started "
-        elif command_name == "interpreter" :
-            return " started  "
-            
-        elif command_name == "start-agent":
-            logger.say_text(f"Starting agent {arguments['agent']} for {arguments['objective']}")
-            return start_agent(
-                arguments["agent"],
-                arguments["objective"])
-
-        elif command_name == "help":
-            message="Help" # arguments["file"]
-            return logger.say_text(message)
-            
+       
         elif command_name == "dev-code":
             objective=arguments["objective"]
             language = arguments["language"]
@@ -204,22 +184,20 @@ def execute_command(command_name, arguments):
         # TODO: Change these to take in a file rather than pasted code, if
         # non-file is given, return instructions "Input should be a python
         # filepath, write your code to file and try again"
-        elif command_name == "evaluate-code":
-            return ai.evaluate_code(arguments["code"])
-        elif command_name == "improve-code":
-            return ai.improve_code(arguments["suggestions"], arguments["code"])
-        elif command_name == "write-tests":
-            return ai.write_tests(arguments["code"], arguments.get("focus"))
-        elif command_name == "execute_python_file":  # Add this command
-            return execute_python_file(arguments["file"])
-        elif command_name == "generate-image":
-            return generate_image(arguments["prompt"])
-        elif command_name == "do-nothing":
-            return "No action performed."
-        elif command_name == "task-complete":
-            shutdown()
+        elif command_name == "memorize":
+            data = arguments["data"]
+            cfg.radd_data(data, ref="internal",tag="internal")
+            return "data added to memory"
+
+        elif command_name == "retrieve":
+            query_text = arguments["query"]
+            info = cfg.ragdb.find_similar_d(query_text, n=1, min_similarity=0.6,tag="internal")
+            if info == [] or info is None:
+                return "No relevant data found"
+            return info[0][0]
+            
         else:
-            return f"Unknown command '{command_name}'. Please refer to the 'COMMANDS' list for available commands and only respond in the specified JSON format."
+            return f"Unknown command '{command_name}'"
     # All errors, return "Error: + error message"
     except Exception as e:
         return "Error: " + str(e)

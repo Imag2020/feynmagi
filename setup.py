@@ -17,7 +17,7 @@ def parse_requirements(filename):
 
 setup(
     name='feynmagi',
-    version='0.1.24',
+    version='0.1.25',
     packages=find_packages(),
     include_package_data=True,
     install_requires=parse_requirements('requirements.txt'),

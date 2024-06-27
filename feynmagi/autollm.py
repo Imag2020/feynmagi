@@ -36,9 +36,9 @@ def set_global_variable(var_name, value):
         print(f"[DEBUG] Setting global variable {var_name} to: {value}")
 
 def parse_agent(response):
-    print("[DEBUG] ----- parsing -----")
+    print("[DEBUG] parse agent ----- parsing -----")
     print(response)
-    print("[DEBUG] end ----- parsing -----")
+    print("[DEBUG] parse agent  end ----- parsing -----")
     
     command_pattern = re.compile(r"""
     ###\s*AGENT\s*###\s*      # Match the COMMAND header
@@ -71,9 +71,9 @@ def parse_agent(response):
     return None, None
 
 def parse_command(response):
-    print("[DEBUG] ----- parsing -----")
+    print("[DEBUG] parse command ----- parsing -----")
     print(response)
-    print("[DEBUG] end ----- parsing -----")
+    print("[DEBUG] parse command end ----- parsing -----")
     
     command_pattern = re.compile(r"""
     ###\s*COMMAND\s*###\s*      # Match the COMMAND header
@@ -142,6 +142,28 @@ def check_command_name(command_name):
     if command_name in ['default','web','memory','rag','interpreter']:
         return command_name
     return "na"
+
+def manage_prompt_length(dialogues, max_tokens, tokens_count):
+    """
+    Supprime les dialogues les plus anciens de la liste jusqu'à ce que le nombre total de tokens soit inférieur à max_tokens.
+
+    :param dialogues: Liste de dictionnaires contenant les dialogues. Chaque dictionnaire a une structure comme {'role': 'user', 'content': 'text'}.
+    :param max_tokens: Le nombre maximum de tokens autorisés.
+    :param tokens_count: Fonction qui calcule le nombre de tokens d'une chaîne de caractères.
+    :return: La liste mise à jour des dialogues.
+    """
+    # Calcul du nombre total de tokens dans la liste actuelle
+    total_tokens = sum(tokens_count(dialogue['content']) for dialogue in dialogues)
+
+    # Suppression des dialogues les plus anciens si le total de tokens dépasse max_tokens
+    while total_tokens > max_tokens and dialogues:
+        # Suppression du dialogue le plus ancien
+        removed_tokens = tokens_count(dialogues.pop(0)['content'])
+        # Mise à jour du total de tokens
+        total_tokens -= removed_tokens
+
+    return dialogues
+    
     
 def start_autosession(user_input,tag=None):
     logger.write_log(f"[DEBUG] Starting autosession...{cfg.session_message_history} and {cfg.agent_message_history} ")  # Log de diagnostic
@@ -149,9 +171,8 @@ def start_autosession(user_input,tag=None):
     logger.write_log(f"[DEBUG] SocketIO instance: {socketio}")  # Log de diagnostic
     context = get_context(user_input,tag)
     print(f"-----------____{tag}____________ context=",context)
-    print(cfg.ragdb.get_stats())
-    print("==================")
-    
+    print("cfg.ragdb.get_stats() ", cfg.ragdb.get_stats())
+    thread_id = threading.get_ident()
     # m_history = []
 
     if cfg.actual_agent == "default":
@@ -168,7 +189,7 @@ def start_autosession(user_input,tag=None):
                 file_path=pkg_resources.resource_filename('feynmagi', 'prompts/system_rag.txt')
                 system_prompt = open(file_path, 'r', encoding='utf-8').read()
                 # got context here 
-                actual_message = system_prompt + context + '\nuser input : ' + user_input
+                actual_message = system_prompt.format(user_input=user_input,context=context) 
                 
             
             
@@ -189,16 +210,11 @@ def start_autosession(user_input,tag=None):
             actual_message = user_input
 
     while True:
-        logger.send_text(f"<BR>_______________{cfg.actual_agent} Agent Thinking ________________<BR>")
-        logger.write_log(f"<BR>_______________{cfg.actual_agent} Agent Thinking ________________<BR>")
+        logger.send_text(f"<BR>______{thread_id} 1  _________{cfg.actual_agent} Agent Thinking ________________<BR>")
+        logger.write_log(f"<BR>_____{thread_id} 2   __________{cfg.actual_agent} Agent Thinking ________________<BR>")
+        print(f"<BR>____________{cfg.actual_agent} Agent Thinking ________________<BR>")
         
-        for i, h in enumerate(m_history):
-            print(f"[DEBUG]  ==== _______________________ i={i}")
-            logger.write_log(f"[DEBUG] printng ==== _______________________ i={i}")
-            print(h)
-            logger.write_log(str(h))
-            print(f"[DEBUG] ==== _______________________ i={i}")
-            logger.write_log(f"[DEBUG] end printing ==== _______________________ i={i}")
+        
         
 
         logger.write_log(f"000 =================================={cfg.actual_agent} =======================================================================")
@@ -206,6 +222,16 @@ def start_autosession(user_input,tag=None):
         update_session_history(m_history, {"role": "user", "content": actual_message}, actual_max_tokens)
         logger.write_log(f"111 ========================================={cfg.actual_agent} ================================================================")
 
+        print(f"_______{thread_id} _________start pinting m_history")
+        for i, h in enumerate(m_history):
+            print(f"[DEBUG]  ==== ________{thread_id} _______________ i={i}")
+            logger.write_log(f"[DEBUG] printng ==== _________{thread_id} ______________ i={i}")
+            print(h)
+            logger.write_log(str(h))
+            print(f"[DEBUG] ==== __________{thread_id} _____________ fin i={i}")
+            logger.write_log(f"[DEBUG] end printing ==== fin _____{thread_id} __________________ i={i}")
+        
+        print(f"________{thread_id} ________ end pinting m_history") 
         assistant_reply = ""
         for response_text in llmsapis.llmchatgenerator(m_history, temperature=0., stream=True, raw=False):
             assistant_reply += response_text
@@ -222,7 +248,7 @@ def start_autosession(user_input,tag=None):
             "role": "assistant",
             "content": assistant_reply
         }
-        cfg.session_message_history.append(new_message)
+        #cfg.session_message_history.append(new_message)
         update_session_history(m_history, new_message, actual_max_tokens)
 
         if cfg.actual_agent == "default":
@@ -233,21 +259,24 @@ def start_autosession(user_input,tag=None):
 
         if cfg.actual_agent == "default":
             logger.write_log(" cfg.actual_agent = default")
+            print(f"  {thread_id} cfg.actual_agent = default")
             if command_name:
-                print(f"[DEBUG] calling agent ....{command_name}.{arguments}")
-                logger.write_log(f"[DEBUG] calling agent ....{command_name}.{arguments}")
+                print(f"_==========   >>>>>>> [DEBUG] {thread_id} calling agent ....{command_name}.{arguments}")
+                logger.write_log(f" {thread_id} [DEBUG] calling agent ....{command_name}.{arguments}")
                 command_name=check_command_name(command_name)
                 if command_name=="na":
                     result = f"Agent {command_name} does not exit !  " 
                     print(result)
                     logger.write_log(f" result = {result}")
+                    print(f"  {thread_id} result = {result}")
                     break
                     
                 cfg.actual_agent= command_name
-                threaded_autosession(arguments)  # Relancer start_autosession avec les arguments
-                logger.write_log(f" ---------------   1111 ")
-                logger.write_log(f" restart_autosession arguments = {arguments}  and continue")
-                logger.write_log(f" ---------------   2222  ")
+                thread = threaded_autosession(arguments)  # Relancer start_autosession avec les arguments
+                if thread:
+                    thread.join()  # Wait for the autosession thread to complete
+                    print(f"[DEBUG] {thread_id} Autosession thread has completed")
+                cfg.actual_agent="default"
                 break
             else:
                 print("[DEBUG] no agent name provided")
@@ -255,38 +284,48 @@ def start_autosession(user_input,tag=None):
                 break
         else:
             logger.write_log(" cfg.actual_agent ! = default")
+            print(f"  {thread_id} cfg.actual_agent ! = default")
             if command_name:
                 print("[DEBUG] calling command ....")
                 logger.write_log("[DEBUG] calling command ....")
                 if command_name == "exit":
                     logger.say_text(f"{cfg.actual_agent} exiting to default agent")
-                    logger.write_log(f" ---------------   333 ")
-                    logger.write_log(f"{cfg.actual_agent} exiting to default agent by break ")
+                    print(f" {thread_id} __ 555 __ {cfg.actual_agent} exiting to default agent by break ")
                     logger.write_log(f" ---------------   444 ")
+                    connect_message = { 'role' : 'user', 'content' : f" {cfg.actual_agent} exited with context : {arguments}"}
+                    update_session_history(cfg.session_message_history, connect_message, actual_max_tokens)
+                    cfg.agent_message_history=[]
                     cfg.actual_agent= "default"
-                    break
-                logger.write_log(f"ret_cmd=cmd.execute_command {command_name} artgs={arguments} ")
+                    break 
+                logger.write_log(f" {thread_id} ret_cmd=cmd.execute_command {command_name} artgs={arguments} ")
                 ret_cmd=cmd.execute_command(command_name, arguments)
                 
                 if ret_cmd is not None:
-                    result = f"Command {command_name} returned : " + ret_cmd
+                    result = f" {thread_id} Command {command_name} returned : " + ret_cmd
                     logger.write_log(f"resule = {result} append and break ")
-                    print(result)
-                    threaded_autosession(result)  # Relancer start_autosession avec le résultat
-                    logger.write_log(f" -------append user result to session --------   5555 ")
-                    cfg.session_message_history.append({"role": "user", "content": result})
-                    logger.write_log(f" ---------------   6666 continue ")
+                    print(f" ret_cmd = {result} maj actual_message and continue")
+                    actual_message = result
                     continue
             else:
                 logger.write_log(" break ")
                 break
 
+'''
 
 def threaded_autosession(message,tag=None):
     # Démarrer un thread pour la session automatique
-    
+    thread_id = threading.get_ident() 
     thread = threading.Thread(target=start_autosession, args=(message,tag))
     thread.start()
-    print("[DEBUG] Thread for autosession started")
+    print(f"[DEBUG] threaded_autosession {thread_id} == > Thread for autosession started")
+'''
+
+def threaded_autosession(message, tag=None):
+    # Démarrer un thread pour la session automatique
+    thread = threading.Thread(target=start_autosession, args=(message, tag))
+    thread.start()
+    thread_id = thread.ident
+    print(f"[DEBUG] threaded_autosession {thread_id} == > Thread for autosession started")
+    return thread
 
         
