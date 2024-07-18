@@ -1,0 +1,50 @@
+How to Create a TXT File?
+Create TEXT Files on Windows
+For creating a TXT file on Windows, you need to follow the simple steps:
+
+Right-click on a blank space and select "New > Text Document."
+select creating a new text document
+Rename the TXT file and press enter twice to open it.
+Type something and press Ctrl+S to save it.
+rename the txt file
+Congratulations! You've created a TXT file that includes your Text.
+Create TEXT Files on macOS
+If you are a Mac user, then follow these steps for creating a TXT file on your Mac computer:
+
+Find and open TextEdit app.
+Open the File Menu and create a new text file.
+Type something and choose "File > Save."
+Good Job! You've created a TXT file on your Mac.
+How to Open a TXT File?
+Open a TEXT File on Windows PC
+For opening a TXT file in Windows, just double-click it with the LMB (Left Mouse Button) of your mouse. You can also right-click on the TXT file you want to open and select "Open." Highlighting the TEXT file with the left mouse button and pressing Enter will also open your text file.
+
+Open a TEXT File on macOS
+If you press Command-I on your TXT file, then you will have Open With options.
+You can select the TextEdit App or some other app to open the TXT file.
+Open a TEXT File on a Mobile Phone
+Every mobile phone has a built-in application for opening text files. But you can still install other applications for opening text files. WPS Office Lite is a famous app nowadays that supports multiple formats of TEXT files.
+
+Unable to Open a TXT File?
+If you are having problems opening TXT files, then you should consider the followings:
+
+Lest the extension of the TXT file should be changed. In this case, just rename the file and type .txt in the end, i.e., my Text File.txt.
+You might be trying to open the .txt file in an app that does not support TXT files.
+The app for opening TXT files may be corrupted and need reinstallation.
+How to Convert a TXT File?
+By converting a TXT file, you can open it in other advanced applications like Microsoft Office and WPS Office. There are plenty of online and offline methods for converting a TXT file into other formats such as DOC, DOCX, PDF, etc.:
+
+https://www.sodapdf.com/txt-to-pdf/ (TXT to PDF Converter)
+https://www.zamzar.com/convert/doc-to-txt/ (Word to TXT)
+Just follow the given procedure to convert your TEXT or TXT file into a PDF:
+
+Go to the link on the top and choose your TXT file after pressing the "CHOOSE FILE" button.
+add txt file to the txt to pdf converter
+Select your TXT file and press the "Open" button to open it.
+open txt file
+Your file will be converted in seconds. Just press the "DOWNLOAD FILE" button to have it on your computer.
+covert txt file to pdf
+How to Recover Deleted or Unsaved TXT Files?
+Sometimes you lose your precious files on your computer and regret it. Wondershare Recoverit is a simple and easy solution to recover your permanently deleted and lost files. Just download and install it. With the help of this app, you can not only recover your TXT files, but you can also recover the files in other 1000+ formats. You can get other 6 methods to recover deleted TXT files here.
+
+Wondershare Recoverit has a user-friendly UI. It automatically detects the storage media attached to your laptop or PC as you open it. There is a variety of media that it can perform scanning on such as SSDs, Memory Cards, HDDs, Hybrid Drives, etc. No matter how you lost your files, Recoverit can help.

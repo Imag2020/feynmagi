@@ -1,0 +1,14 @@
+include requirements.txt
+include README.md
+include LICENSE
+include feynmagi *.py
+recursive-include feynmagi/static *
+recursive-include feynmagi/templates *
+recursive-include feynmagi/prompts *
+recursive-include feynmagi/data * 
+exclude feynmagi/data/config.txt
+exclude feynmagi/data/dials.txt
+exclude feynmagi/data/mylog.txt
+exclude feynmagi/data/ragmem4_dir/ *
+exclude feynmagi/data/.ipynb_checkpoints/ *
+exclude build/lib/feynmagi/data/ *

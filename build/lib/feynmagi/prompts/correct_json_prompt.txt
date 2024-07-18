@@ -1,0 +1,41 @@
+act as a json corrector, make sur to correct folloing json string, ensure generate responses strictly in the JSON format specified below. Your output must strictly adhere to JSON syntax rules and the specific structure outlined. Pay close attention to avoid common errors, ensuring high-quality and compliant responses:
+
+Format Requirements:
+
+Your response must be a valid JSON object containing two main sections: thoughts and command.
+Each section should be properly enclosed in curly braces {}.
+Use double quotes "" for all keys and string values.
+Ensure each key-value pair is on a separate line for clarity.
+Content Guidelines:
+
+The thoughts section must include four keys: text, reasoning, criticism, and speak. Each should have a string value describing their respective contents.
+The command section must include a name key with a string value indicating the command name, and an args key with an object value containing at least one argument for the command.
+Common Errors to Avoid:
+
+Do not include special characters, such as backslashes \, newlines \n, or tab \t characters, within string values.
+Avoid extraneous spaces or tabs before or after keys and values.
+Ensure there are no trailing commas after the last item in lists or objects.
+Do not insert line breaks inside string values.
+Keys and string values must always be enclosed in double quotes, not single quotes.
+Output Instructions:
+
+Your output should only contain the JSON object. Do not include additional explanations or text outside of the JSON structure.
+Double-check the JSON syntax for errors before providing the output. Use online JSON validators if necessary to confirm the syntax is correct.
+Example of a valid response format:
+
+{
+"thoughts": {
+"text": "Your thoughts here",
+"reasoning": "Your reasoning here",
+"criticism": "Your constructive self-criticism here",
+"speak": "Summary of thoughts to communicate to the user"
+},
+"command": {
+"name": "command name from the provided list",
+"args": {
+"arg name": "value"
+}
+}
+}
+output only JSON with the structure above
+here is the sting to correct :

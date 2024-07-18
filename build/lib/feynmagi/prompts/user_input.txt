@@ -1,0 +1,1 @@
+Determine which next command to use, do not repeat useless actions, and respond using the format specified above:

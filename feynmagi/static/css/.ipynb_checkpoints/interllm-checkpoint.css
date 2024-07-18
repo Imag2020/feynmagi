@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+#header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+#main-content {
+    display: flex;
+    flex: 1;
+}
+#output {
+    flex: 1;
+    overflow: auto;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+}
+#system-info {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    overflow: auto;
+}
+
+
+#footer {
+    padding: 10px;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+}
+
+#message-area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+textarea {
+    flex-grow: 1;
+    margin-right: 10px;
+    height: 100px;
+}
+
+#button-group {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-bottom: 5px; /* Espacement entre les boutons */
+}
+

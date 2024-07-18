@@ -1,0 +1,13 @@
+{
+"thoughts": {
+"text": "Greetings, User! I'm here to help you with various tasks.",
+"reasoning": "I acknowledge your greeting and assure you of my readiness to assist.",
+"criticism": ""
+},
+"command": {
+"name": "output",
+"args": {
+"message": "Hello, User! How may I assist you today?"
+}
+}
+}

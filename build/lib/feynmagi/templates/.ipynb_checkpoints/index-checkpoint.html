@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Interllm 0.1 </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/interllm2.css') }}">
+    <!-- Bootstrap CSS (si nécessaire) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div id="header">
+    <div id="title">
+        <h1>InterLLMs V0.1</h1>
+    </div>
+    <div id="config-icon">
+        <img id="configIcon" src="/static/bootstrap/sliders-white.svg" alt="Config">
+    </div>
+    </div>
+    <div id="main-content">
+        <div id="output"></div>
+        <div id="system-info"></div>
+    </div>
+
+    <div id="footer">
+    <div id="message-area">
+        <textarea id="message-textarea" placeholder="Message ..."></textarea>
+        <div id="button-group">
+            <button id="send-button">Envoyer</button>
+            <button id="stop-button">Stop</button>
+            <button id="interllm">InterLLM</button>
+            <button id="info">Info</button>
+        </div>
+    </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <!-- Bootstrap JS (si nécessaire) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.socket.io/socket.io-3.0.5.js"></script>
+    <script src="{{ url_for('static', filename='js/interllm.js') }}"></script>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p><div id="popuptext"></div></p>
+    <button id="yes">Oui</button>
+    <button id="no">Non</button>
+    <button id="feed">Feed Back</button>
+    <input id="feedin"></input>
+  </div>
+</div>
+
+
+    <!-- Modal Configuration -->
+<div id="configModal" class="modal">
+  <div class="modal-content">
+    <span class="closeConfig">&times;</span>
+    <h2>Configuration</h2>
+    <!-- Champs texte -->
+    <div>
+      <label for="field1">LLM API END POINT </label>
+      <input type="text" id="endpoint" name="endpoint" size="50" placeholder="http://127.0.0.1:8080/completion">
+    </div>
+    <div>
+      <label for="field2">LLM Tokenizer API END POINT </label>
+      <input type="text" id="tendpoint" name="tendpoint" size="50" placeholder="http://127.0.0.1:8080/tokenize"> 
+    </div>
+
+      <!-- Option 1 -->
+<div>
+  <label>Continuous Mode</label>
+  <input type="radio" id="continuousmodeTrue" name="continuousmode" value="true" checked>
+  <label for="option1True">True</label>
+  <input type="radio" id="continuousmodeFalse" name="continuousmode" value="false">
+  <label for="option1False">False</label>
+</div>
+
+<!-- Option 2 -->
+<div>
+  <label>Speak Mode</label>
+  <input type="radio" id="speakmodeTrue" name="speakmode" value="true" checked>
+  <label for="option2True">True</label>
+  <input type="radio" id="speakmodeFalse" name="speakmode" value="false">
+  <label for="option2False">False</label>
+</div>
+
+    <!-- Boutons OK et Cancel -->
+    <button id="okBtn">OK</button>
+    <button id="cancelBtn">Cancel</button>
+
+    <div>
+    <label for="textField">Open Log File:</label>
+    <button id="textFileBtn"><i class="icon-text-file">Log File</i></button>
+    </div>
+
+  </div>
+</div>
+
+    
+</body>
+</html>
+

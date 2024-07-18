@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+recursive-include feynmagi/static *
+recursive-include feynmagi/templates *
+recursive-include feynmagi *.py
+recursive-include feynmagi/data * 
