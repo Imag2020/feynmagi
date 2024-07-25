@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Feynmagi V 0.1.28 </title>
+    <title>Feynmagi V 0.1.29 </title>
     <link rel="icon" href="static/img/Feynmagi_64x64.png" type="image/png">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/interllm2.css') }}">
     <!-- Bootstrap CSS (si nécessaire) -->
@@ -18,9 +18,11 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
-    
+    <script src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
+
     
 </head>
 <body>
@@ -29,7 +31,7 @@
             <img id="ishtarconfigIcon" src="static/img/Feynmagi_64x64.png" alt="ishtar">
         </div>
         <div id="title">
-    <h1 style="display: inline-block; margin: 0;">FeynmAGI V0.1.28 </h1>
+    <h1 style="display: inline-block; margin: 0;">FeynmAGI V0.1.29 </h1>
     <h3 id="engine" style="display: inline-block; margin: 0; margin-left: 30px;">(llm)</h3>
 </div>
         <div id="config-icon">
@@ -42,6 +44,7 @@
         <div>
         <span><button id="new_llm" class="icon-btn" title="LLM chat"><span class="bi bi-chat-left-text"></span></button></span>
         <span><button id="new_agent" class="icon-btn" title="FeynmAGI chat"><span class="bi bi-robot"></span></button></span>
+        <span><button id="openModal" class="icon-btn" title="Agents"><span class="bi bi-building-fill-gear"></span></button></span>
         </div>
        <div id="history" style="overflow-y: scroll; height: 500px;">
         <!-- L'historique des sessions sera affiché ici -->
@@ -189,8 +192,93 @@
         </div>
     </div>
 
+     <!-- Modal Configuration -->
+    <!-- Modal pour la configuration des agents -->
+
+    <!-- Modal Père pour la gestion des agents -->
+<div id="agentManager" class="modal">
+    
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Agents Management</h5>
+                <span><button id="newAgent" class="icon-btn" title="FeynmAGI chat"><span class="bi bi-pen-fill"></span></button></span>
+                 <span><button id="closeManageAgent" class="icon-btn" title="FeynmAGI chat"><span class="close bi bi-escape"></span></button></span>
+            </div>
+            
+            <div class="modal-body">
+
+                
+            </div>
+        </div>
+    
+</div>
+
+    
+<div id="agentConfigModal" class="modal">
+    
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Agent Configuration</h5>
+              
+                <span><button id="saveAgent" class="icon-btn" title="Save"><span class="bi bi-save2-fill"></span></button></span>
+                <span><button id="playAgent" class="icon-btn" title="Upload"><span class="bi  bi-collection-play-fill"></span></button></span>
+                <span><button id="closeagentConfigModal" class="icon-btn" title="Close"><span class="close bi bi-escape"></span></button></span>
+                
+            </div>
+            <div  id="agentDetails" class="modal-body row">
+                <div class="col-md-8">
+                    <!-- Nom de l'agent -->
+                    <div class="form-group">
+                        <label for="agentName">Name</label>
+                        <input type="text" id="agentName" name="agentName" class="form-control">
+                    </div>
+
+                    <!-- Planification -->
+                    <div class="form-group">
+                        <label>Planification:</label>
+                        <div class="checkbox">
+                            <label><input type="checkbox" id="daily" name="scheduler"> Daily</label>
+                            <label><input type="checkbox" id="weekly" name="scheduler"> Weekly</label>
+                            <label><input type="checkbox" id="monthly" name="scheduler"> Monthly</label>
+                        </div>
+                        <label for="timeExecution">When:</label>
+                        <input type="time" id="timeExecution" name="timeExecution" class="form-control">
+                    </div>
+
+                    <!-- Textarea pour prompts -->
+                    <div class="form-group">System</label>
+                        <textarea id="systemPrompt" name="systemPrompt"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="mainPrompt">Prompt</label>
+                        <textarea id="mainPrompt" name="mainPrompt" ></textarea>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!-- Liste des tools -->
+                    <div class="form-group">
+                        <label>Tools</label>
+                       
+                        <div id="toolslist" class="checkbox">
+                            <label><input type="checkbox" name="tools" value="tool1"> calculate</label>
+                            <label><input type="checkbox" name="tools" value="tool2"> google</label>
+                            <label><input type="checkbox" name="tools" value="tool3"> web-links</label>
+                        </div>
+                       </div>
+                    
+                </div>
+            </div>
+        </div>
+    
+</div>
 
 
+     <!-- Modal Configuration -->
+
+
+
+
+    
     </div>
 </body>
 </html>

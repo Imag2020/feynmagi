@@ -93,6 +93,7 @@ $(document).ready(function() {
     socket.on('connect', function() {
         socket.emit('maj_info'); // Demander les infos système à la connexion
         socket.emit('get_config'); // Demander les infos système à la connexion
+        socket.emit('get_agents'); // Demander les infos système à la connexion
     });
 
     socket.on('update_system_info', function(data) {
@@ -448,6 +449,7 @@ function processContent() {
     socket.on('popup', function(data) {  
 
     $("#popuptext").html(data.message);
+        
     $("#myModal").show();
      });
     
@@ -668,6 +670,25 @@ function processContent() {
                 }
             }
         });
+
+    // Gestionnaire d'événements pour le retour de l'agent
+socket.on('output_agent', function(data) {
+    // Convertit Markdown en HTML si nécessaire
+    var converter = new showdown.Converter();
+    var htmlContent = converter.makeHtml(data.token);
+
+    // Vérifie si la fenêtre popup est déjà ouverte
+    if (popupWindow && !popupWindow.closed) {
+        // La fenêtre popup existe déjà, affiche le contenu reçu
+        popupWindow.document.body.insertAdjacentHTML('beforeend', "<p>" + htmlContent + "</p>");
+    } else {
+        // La fenêtre popup n'existe pas, il faut la créer
+        popupWindow = window.open("", "Popup", "width=800,height=600");
+        popupWindow.document.write("<html><head><title>Agent Output</title></head><body><p>" + htmlContent + "</p></body></html>");
+        popupWindow.document.close(); // Termine l'écriture dans le document
+    }
+});
+
 
 
 
@@ -941,5 +962,219 @@ $("#fileInput").change(function() {
                     socket.emit('connect_llm', {api : "local" }); 
                 }
             });
+
+
+
+    // modal agents
+
+   
+     $('#agentManager').modal({
+        show: false,
+        backdrop: 'static',  // empêche la fermeture en cliquant en dehors du modal
+        keyboard: false  // empêche la fermeture avec la touche ESC
+    });
+
+    $('#agentConfigModal').modal({
+        show: false,
+        backdrop: 'static',
+        keyboard: false
+    });
+
+    // Initialisations des modaux
+    $('#agentManager, #agentConfigModal').modal({
+        show: false
+    });
+
+    // Gestionnaires pour ouvrir le modal principal
+    $('#agentManager').modal({
+        backdrop: 'static', // empêche de fermer en cliquant à l'extérieur
+        keyboard: false, // empêche la fermeture avec la touche ESC
+        show: false // n'affiche pas le modal automatiquement
+    });
+    
+    $("#openModal").click(function() {
+       
+        $("#agentManager").modal('show');
+    });
+
+    // Gestionnaires pour fermer les modaux
+    $(".close").click(function() {
+        // Assurez-vous que c'est le bon modal qui est fermé
+        var modalId = $(this).closest('.modal').attr('id');
+        $("#" + modalId).modal('hide');
+    });
+
+    $("#newAgent").click(function(event) {
+        
+
+    // Générer un nouvel ID pour le nouvel agent, basé sur le nombre actuel d'agents
+    var newAgentId = $(".card").length ; // Cela suppose que chaque carte ajoutée représente un nouvel agent
+    let new_agent={'name': 'Agent '+newAgentId, 'schedule': ['Daily'], 'when': '22:15', 'system': "", 'prompt': '', 'tools': ['calculate']}
+    agentsData.push(new_agent);
+    // alert(JSON.stringify(agentsData, null, 2));
+    // Créer la structure HTML de la carte pour le nouvel agent
+    var newCardHtml = `
+                    <div class="card" style="width: 18rem;" data-toggle="modal" data-target="#agentConfigModal" data-index="${newAgentId}">
+                        <div class="card-body">
+                        <span><button class="btn-close float-right" title="Del" data-index="${newAgentId}"><span class="bi bi-trash"></span></button></span>
+                        <h5 class="card-title">Agent ${newAgentId}</h5>
+                        <p class="card-text">Description de l'agent ${newAgentId}.</p>
+                        </div>
+                        </div>
+                            `;
+       // Ajouter la nouvelle carte au modal-body
+       $("#agentManager .modal-body").append(newCardHtml);
+      
+});
+
+ 
+    // Lorsque l'on revient au modal principal après fermeture du modal enfant
+    $('#agentConfigModal').on('hidden.bs.modal', function() {
+    
+        $('#agentManager').modal('show');
+    });
+    
+
+    $("#saveAgent").click(function() {
+   
+    var agentData = {
+        name: $("#agentName").val(),
+        schedule: $("input[name='scheduler']:checked").map(function() { return $(this).val(); }).get(),
+        when: $("#timeExecution").val(),
+        system: $("#systemPrompt").val(),
+        prompt: $("#mainPrompt").val(),
+        tools: $("input[name='tools']:checked").map(function() { return $(this).val(); }).get()
+    };
+
+    socket.emit('add_agent', agentData);
+   });
+
+    // Annuler et fermer le modal
+    $("#cancelBtn").click(function(){
+        $("#agentConfigModal").hide();
+    });
+
+
+   // -----------------------------
+     var agentsData = [];  // Store the agents data here
+
+     socket.on('update_agents', function(data) {
+        agentsData = data;  // Update the global variable with new data
+         // alert(JSON.stringify(agentsData, null, 2));
+        $('#agentManager .modal-body').empty(); // Clear the existing cards
+        data.forEach(function(agent,index) {
+            var newCardHtml = `
+            <div class="card" style="width: 18rem;" data-toggle="modal" data-target="#agentConfigModal" data-index="${index}">
+                <div class="card-body">
+                    <span><button class="btn-close float-right" title="Del" data-index="${index}"><span style="width:10px;wigth:10px"class="bi bi-trash"></span></button></span>
+                    <h5 class="card-title">Agent ${agent.name}</h5>
+                    <p class="card-text">Description de l'agent ${agent.name}.</p>
+                </div>
+            </div>
+        `;
+
+                        // Ajouter la nouvelle carte au modal-body
+                        $("#agentManager .modal-body").append(newCardHtml);                 
+        });  
+    });  
+    
+
+   var availableTools = [];
+
+socket.on('update_tools', function(data) {
+    availableTools = Object.keys(data); // Stocke seulement les clés
+    $('#toolslist').empty(); // Vide la liste existante
+    availableTools.forEach(function(tool) {
+        var description = data[tool]; // Accède à la description ou autre détail
+        var toolLabel = `<label><input type="checkbox" name="tools" value="${tool}"> ${tool} - ${description}</label>`;
+        $("#toolslist").append(toolLabel);
+    });
+});
+
+   
+        
+
+       // Déplacer le gestionnaire d'événements hors de la socket.on pour éviter de le réattacher
+$("#agentManager .modal-body").on("click", ".card", function() {
+    var index = $(this).data('index');
+   
+    var agent = agentsData[index];
+   
+    loadAgentDetails(agent);
+    $('#agentModal').modal('show');
+    });
+
+         $("#agentManager .modal-body").on("click", ".btn-close", function(event) {
+    event.stopPropagation();  // Stop propagation to prevent opening the modal
+    var index = $(this).data('index');
+    agent_to_drop=agentsData[index];
+             alert("dropping "+agent_to_drop.name);
+    socket.emit('remove_agent', agent_to_drop);
+    agentsData.splice(index, 1);  // Remove the agent from the array
+    $(this).closest('.card').remove();  // Remove the card from the DOM
+    });
+
+        // });
+function loadAgentDetails(agent) {
+    // Générer les cases à cocher pour les outils en utilisant availableTools
+    var toolsHtml = availableTools.map(tool => {
+        return `<label><input type="checkbox" name="tools" value="${tool}" ${agent.tools.includes(tool) ? "checked" : ""}> ${tool}</label>`;
+    }).join('');
+
+    var detailsHtml = `
+        <div id="agentDetails" class="modal-body row">
+            <div class="col-md-8">
+                <div class="form-group">
+                    <label for="agentName">Name</label>
+                    <input type="text" id="agentName" name="agentName" class="form-control" value="${agent.name}">
+                </div>
+                <div class="form-group">
+                    <label>Planification:</label>
+                    <div class="checkbox">
+                        <label><input type="radio" id="daily" name="scheduler" value="Daily" ${agent.schedule.includes("Daily") ? "checked" : ""}> Daily</label>
+                        <label><input type="radio" id="weekly" name="scheduler" value="Weekly" ${agent.schedule.includes("Weekly") ? "checked" : ""}> Weekly</label>
+                        <label><input type="radio" id="monthly" name="scheduler" value="Monthly" ${agent.schedule.includes("Monthly") ? "checked" : ""}> Monthly</label>
+                    </div>
+                    <label for="timeExecution">When:</label>
+                    <input type="time" id="timeExecution" name="timeExecution" class="form-control" value="${agent.when}">
+                </div>
+                <div class="form-group">
+                    <label>System (optional)</label>
+                    <textarea id="systemPrompt" name="systemPrompt" class="form-control">${agent.system}</textarea>
+                </div>
+                <div class="form-group">
+                    <label for="mainPrompt">Prompt</label>
+                    <textarea id="mainPrompt" name="mainPrompt" class="form-control">${agent.prompt}</textarea>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label>Tools</label>
+                <div class="checkbox">${toolsHtml}</div>
+            </div>
+        </div>
+    `;
+    $('#agentDetails').html(detailsHtml);
+}
+
+
+    
+    $("#playAgent").click(function(){
+    // Récupération des valeurs des champs
+    var name = $("#agentName").val();         // Récupère la valeur de l'input du nom de l'agent
+    var system = $("#systemPrompt").val();    // Récupère le texte de la zone de texte "System"
+    var prompt = $("#mainPrompt").val();      // Récupère le texte de la zone de texte "Prompt"
+
+    // Construction de l'objet data avec les valeurs récupérées
+    var data = {
+        name: name,
+        system: system,
+        prompt: prompt
+    };
+
+    // Envoi de l'objet data au serveur via socket
+    socket.emit('play_agent', data);
+   });
+        
+    
 
 });

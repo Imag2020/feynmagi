@@ -39,9 +39,9 @@ def thread_manager():
                 print(f" ======== [DEBUG] Task {function.__name__} done")
         time.sleep(0.1)  # Prevent busy-waiting
 
-def start_autosession_task(message):
+def start_autosession_task(message,tag=None):
     print(f"[DEBUG] Starting auto session with message: {message}")
-    autollm.threaded_autosession(message)
+    autollm.threaded_autosession(message,tag)
 
 def start_rag_task(message, tag):
     print(f"[DEBUG] Starting rag with message: {tag} / {message}")

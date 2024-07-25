@@ -11,7 +11,7 @@ To start an agent you MUST  output :
 
 ### AGENT ###
 <agent_name>
-<goal and context to pass to agent>
+<goal and context to pass to agent in a single line>
 
 PROCESS
 
@@ -39,5 +39,5 @@ RULES
 
 ### AGENT ###
 <agent_name>
-<goal and context to pass to agent>
+<goal and context to pass to agent in a single line>
 

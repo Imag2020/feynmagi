@@ -6,6 +6,7 @@
 #
 #########################################################################################
 from flask import Flask, render_template, request, jsonify, send_from_directory
+from datetime import datetime, timedelta
 from .socketio_instance import init_socketio, set_socketio
 from  . import config as cfg
 from . import autollm  # Importer votre module
@@ -32,7 +33,7 @@ import os
 from . import digest
 from jinja2 import Environment, FileSystemLoader, select_autoescape, Template
 
-from .tasks import add_task, thread_manager, start_autosession_task, start_digest_url_task,start_digest_doc_task, start_rag_task
+from .tasks import add_task, thread_manager, start_autosession_task, start_digest_url_task,start_digest_doc_task
 import webbrowser
 import torch
 from . import interpreter as ex
@@ -41,16 +42,24 @@ import pkg_resources
 
 import cv2
 from .videoops import caption_image,od_image,ask_image
+from .agents import AgentManager
+from .CronManager import CronManager
+from .Job import Job
+from .playAgent import play
+from .tools import tools
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 app = Flask(__name__, static_folder=os.path.join(os.path.dirname(__file__), 'static'))
 app.config['UPLOAD_FOLDER'] = os.path.join(os.path.dirname(__file__), 'static', 'uploads')
-
-app = Flask(__name__, static_folder=os.path.join(os.path.dirname(__file__), 'static'))
-app.config['UPLOAD_FOLDER'] = os.path.join(os.path.dirname(__file__), 'static', 'uploads')
 print("Static folder set to:", app.static_folder)
 print("Upload folder set to:", app.config['UPLOAD_FOLDER'])
+
+
+
+agent_manager = AgentManager()
+# scheduler = Scheduler(agent_manager)
+cron_manager = CronManager()
 
 socketio = init_socketio(app)
 set_socketio(socketio)  # Passer l'instance socketio à autollm
@@ -58,14 +67,15 @@ set_socketio(socketio)  # Passer l'instance socketio à autollm
 @app.route('/static/<path:filename>')
 def serve_static(filename):
     return send_from_directory(app.static_folder, filename)
-    
+
+'''
 @socketio.on('interllm')
 def handle_interllm_request(data):
     message = data['message']
     print(f"[DEBUG] interllm Received message: {message}")  # Log de diagnostic
     socketio.start_background_task(target=thread_manager, message=message)
 
-'''
+
 
 def thread_manager(message):
     print(f"[DEBUG] Starting thread manager with message: {message}")  # Log de diagnostic
@@ -108,8 +118,8 @@ def help():
 
     model_msg=""
     if not retcode:
-        if "phi3:latest" not in  options:
-            model_msg="For best local LLM experience please pull phi3 model : ollama run phi3 <button id='installphi3' class='icon-btn' title='pull phi3'><span class='bi bi-microsoft-fill'></span></button>"
+        if "gemma2:latest" not in  options:
+            model_msg="For best local LLM experience please pull gemma2 model : ollama run gemma2 <button id='installgemma2' class='icon-btn' title='pull gemma2'><span class='bi bi-microsoft-fill'></span></button>"
 
 
     my_platform=ex.get_platform()
@@ -145,8 +155,8 @@ def handle_connect():
     socketio.emit('update_select', {'options': options})
     
     socketio.emit('history', cfg.session_history.list_sessions())
-    if 'phi3:latest' in options:
-        socketio.emit('set_select', {'model': "phi3:latest"})
+    if 'gemma2:latest' in options:
+        socketio.emit('set_select', {'model': "gemma2:latest"})
     else:
         cfg.actual_model=options[0]
         
@@ -203,7 +213,7 @@ def pull_model():
     socketio.emit('error', {'message': 'Pulling model please wait few minutes'})
     try:
         print("trying")
-        result,status = ex.execute_command("ollama pull phi3")
+        result,status = ex.execute_command("ollama pull gemma2")
         # Capture du code de retour et de la sortie
         ret=result
         print(ret)
@@ -382,14 +392,10 @@ def handle_stop_message():
 # Function to handle incoming message and add it to the task queue
 # Function to handle incoming message and add it to the task queue
 def add_message_task(message):
-    print(f"[DEBUG] add_message_task  Received message: {message}")
+    print(f"[DEBUG] add_message_task  Received message: {message} adding a task with")
     add_task(1, start_autosession_task, message)
-    print("[DEBUG] Task added to queue")
+    print("[DEBUG] Task added to queue exit add_message_task")
 
-def add_rag_task(message,tag):
-    print(f"[DEBUG] add_rag_task Received message: {tag} / {message}")
-    add_task(1, start_rag_task, message,tag)
-    print("[DEBUG] Task added to queue")
     
 @socketio.on('send_message')
 def handle_message(data):
@@ -401,7 +407,7 @@ def handle_message(data):
         tag="default"
     prompt=f"{message}"
 
-    print("))))))))))))))))))))))))))))))))=",cfg.actual_engine)
+    print("handle_message _________ ",cfg.actual_engine)
     # Traitement du message ici, par exemple en utilisant votre fonction llm
     # Ensuite, envoyez les réponses au client caractère par caractère
     if cfg.actual_engine == "llm":
@@ -414,27 +420,9 @@ def handle_message(data):
                 break
         cfg.session_message_history.append({"role": "assistant", "content": ret})
         socketio.emit('end_message', {'token': '<br>'})
-        
-    elif cfg.actual_engine == "image":
-        
-        if base64_string == "":
-            logger.send_popup("Please upload image first !")
-            return 
-        response_text=ask_image(prompt,base64_string)
-        socketio.emit('response_token', {'token': response_text})
-        
-    elif cfg.actual_engine == "rag":
-
-        message = data['message']
-        tag = data['tag']
-        if tag =="":
-            tag="default"
-        print(f"[DEBUG]  engine rag Received message tag : {tag} / {message}")  # Log de diagnostic
-        add_rag_task(message,tag)        
-        
     else:
         message = data['message']
-        print(f"[DEBUG] handle_message Received message: {message}")  # Log de diagnostic
+        print(f"[DEBUG] handle_message Received message: {message} engine != llm _________")  # Log de diagnostic
         add_message_task(message)
         
 
@@ -644,6 +632,47 @@ def upload_file_and_convert():
     else:
         return jsonify({'error': 'File not allowed'})
 
+###########################################################################################################
+@socketio.on('add_agent')
+def handle_add_agent(data):
+    print(data)
+    agent_manager.add_agent(data)
+    agent = agent_manager.find_agent_by_name(data['name'])
+    if agent:
+        job = Job(agent)
+        # Calculer la prochaine exécution
+        hour, minute = map(int, agent.when.split(':'))
+        next_run = datetime.now().replace(hour=hour, minute=minute, second=0, microsecond=0)
+        if next_run < datetime.now():
+            next_run += timedelta(days=1)  # Prochaine exécution demain si déjà passé
+        cron_manager.add_job(job, next_run)
+        print(f"Agent {agent.name} added and scheduled")
+        #socketio.emit('update_agents', [agent.to_dict() for agent in agent_manager.get_agents()], broadcast=True)
+
+@socketio.on('remove_agent')
+def handle_remove_agent(data):
+    agent_name = data.get('name')
+    agent_manager.remove_agent(agent_name)
+    cron_manager.remove_job(agent_name)
+    print(f"Agent {agent_name} removed")
+    #socketio.emit('update_agents', [agent.to_dict() for agent in agent_manager.get_agents()], broadcast=True)
+
+@socketio.on('get_agents')
+def get_agent():
+    agents = [agent.to_dict() for agent in agent_manager.get_agents()]
+    #print("sending agents", agents)
+    socketio.emit('update_agents', agents)
+    socketio.emit('update_tools', tools)
+
+@socketio.on('play_agent')
+def handle_remove_agent(data):
+    agent_name = data.get('name')
+    agent_system = data.get('system')
+    agent_prompt = data.get('prompt')
+    print(f"Playing Agent {agent_name} system={agent_system} prompt={agent_prompt}")
+    play(agent_name,agent_system,agent_prompt)
+    #socketio.emit('update_agents', [agent.to_dict() for agent in agent_manager.get_agents()], broadcast=True)
+########################################################################################################
 save_path=""
 @app.route('/fupload', methods=['POST'])
 def upload_file():
@@ -682,12 +711,35 @@ def start_process_in_thread(file_path,tag):
     add_task(2, start_digest_doc_task, file_path,tag)
     print("[DEBUG] Task digest doc added to queue")   
 
+'''
+class Agent:
+    def __init__(self, name, schedule, when):
+        self.name = name
+        self.schedule = schedule
+        self.when = when
+
+class Job:
+    def __init__(self, agent):
+        self.agent = agent
+
+    def run(self):
+        # Logique pour exécuter la tâche
+        print(f"Executing job for {self.agent.name} at {datetime.now()}")
+'''
+count = 0
 def background_thread():
-    """Exemple de thread qui envoie un message aux clients toutes les minutes."""
-    count = 0
-    print("thread OK")
-    while True:
-        time.sleep(60)  # Attendre 60 secondes
+    cron_manager = CronManager()
+    # Créer des agents et des jobs
+    agent = Agent("Agent1", ["daily"], "15:52")
+    job = Job(agent)
+    # Planifier la première exécution en fonction de 'when'
+    hour, minute = map(int, agent.when.split(':'))
+    first_run = datetime.now().replace(hour=hour, minute=minute, second=0, microsecond=0)
+    if first_run < datetime.now():
+        first_run += timedelta(days=1)  # S'assurer que le premier run est dans le futur
+
+    cron_manager.add_job(job, first_run)
+    cron_manager.run()
 
 def check_ollama_installed():
     try:
@@ -705,18 +757,23 @@ def open_browser():
     webbrowser.open('http://localhost:5000')
 
 def main():
+    # Démarrer le planificateur en premier
+
     # Lancer le thread en arrière-plan pour le gestionnaire de tâches
+    '''
     t = threading.Thread(target=background_thread)
     t.daemon = True  # Permet au thread de s'arrêter avec le programme
     t.start()
-
+    '''
+    cron_thread = threading.Thread(target=cron_manager.run)
+    cron_thread.start()
     # Démarrer le gestionnaire de tâches
     socketio.start_background_task(thread_manager)
 
     # Lancer l'application Flask dans un thread
     flask_thread = threading.Thread(target=lambda: socketio.run(app, host='0.0.0.0', debug=False))
     flask_thread.start()
-
+   
     open_browser()
 
 if __name__ == '__main__':

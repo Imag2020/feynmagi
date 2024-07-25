@@ -124,40 +124,21 @@ button {
     margin-bottom: 5px;
 }
 
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
+
+
+
+/* Ajustez les zones de texte pour qu'elles utilisent mieux l'espace disponible */
+textarea {
+    width: 100%; /* Utilise toute la largeur disponible dans leur conteneur */
+    height: 100px; /* Hauteur ajustée pour plus de visibilité */
 }
 
-.modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
+/* Assurez-vous que les colonnes s'adaptent bien dans le modal */
+.col-md-8, .col-md-4 {
+    padding-right: 0;
+    padding-left: 0;
 }
 
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
 
 #left-panel {
     width: 234px;
@@ -248,35 +229,46 @@ button:active {
 }
 
 /* Style for modal */
+
+
 .modal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: none; /* Masquer le modal par défaut */
     position: fixed;
     z-index: 1;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%; /* Couvre toute la largeur de la fenêtre */
+    height: 100%; /* Couvre toute la hauteur de la fenêtre */
+    overflow: auto; /* Permet le défilement si le contenu est plus grand que l'écran */
+    background-color: rgba(0,0,0,0.4); /* Assombrissement du fond */
+    margin: 5% auto;
 }
 
-/* Style for modal content */
+.modal-dialog {
+    margin: 5% auto;
+    width: 90%; /* Augmentez la largeur du modal pour éviter le défilement horizontal */
+    overflow: auto; /* Permet le défilement si le contenu est plus grand que l'écran */
+}
+
 .modal-content {
     background-color: #fefefe;
-    margin: 1% auto;
-    padding: 4px;
+    padding: 20px;
     border: 1px solid #888;
-    width: 80%;
-    max-width: 600px; /* Adjust the max width as needed */
-    max-height: 80vh; /* Adjust the max height as needed */
-    overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
 }
 
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
 /* Close button */
 .closeConfig {
     color: #aaa;
@@ -387,4 +379,33 @@ button:active {
 .inline-titles h1 {
             margin: 0;
             margin-left: 10px;
+}
+
+#mainPrompt {
+
+ height: 100px;
+ width: 100%;
+    
+}
+#systemPrompt {
+
+ height: 300px;
+ width: 100%;
+    
+}
+
+.modal-body {
+    flex-grow: 1; /* Le corps prend tout l'espace restant */
+    overflow-y: auto; /* Permet le défilement vertical si nécessaire */
+    padding: 10px;
+    margin: 10px;
+    display: flex; /* Utilisation de Flexbox */
+    flex-wrap: wrap; /* Les cartes peuvent se positionner en lignes */
+    align-items: flex-start; /* Alignement au début du container */
+    justify-content: space-around; /* Espacement autour des éléments */
+}
+
+.card {
+    width: 18rem; /* Largeur fixe pour les cartes */
+    margin: 10px; /* Espacement entre les cartes */
 }

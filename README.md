@@ -1,6 +1,6 @@
 <p align="center">
   <img src="feynmagi/static/img/Feynmagi_64x64.png" align="left" />
-  <h1 align="center">Feynmagi V 0.1.28 </h1>
+  <h1 align="center">Feynmagi V 0.1.29 </h1>
 </p>
 
 

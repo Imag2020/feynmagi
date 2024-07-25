@@ -7,7 +7,8 @@
 #########################################################################################
 from .config import *
 # import fitz  # PyMuPDF
-from pdfminer.high_level import extract_text
+# from pdfminer.high_level import extract_text
+import pdfplumber
 import threading
 from selenium.webdriver.common.by import By
 from selenium import webdriver
@@ -28,7 +29,12 @@ import time
 from urllib.parse import urlparse
 import pkg_resources
 
-
+def extract_text(pdf_path):
+    text = ""
+    with pdfplumber.open(pdf_path) as pdf:
+        for page in pdf.pages:
+            text += page.extract_text()
+    return text
 
 def split_text_into_chunks(text, chunk_size=1024):
     """Split text into chunks of approximately `chunk_size` words without breaking sentences."""

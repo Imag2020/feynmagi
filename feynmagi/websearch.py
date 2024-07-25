@@ -19,6 +19,12 @@ from .config import stop_event,logger
 from .helper import *
 from . import logger 
 
+import pdfplumber
+import os
+import hashlib
+
+
+
 def search(query: str, pages=4) -> str:
     logger.say_text(f"quick_search on google home page for :  {query}")
     ret = google_home_search(query)
@@ -163,34 +169,70 @@ def google_urls_search(req,pages=1):
 
 
     
-def scrap( url: str ):
-    # response = requests.post(post_url, headers=headers, data=data_json)
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")
-  
-    driver = webdriver.Chrome(options=chrome_options)
-    #driver = webdriver.Chrome()
+def extract_text_from_pdf(pdf_path, output_dir, base_name):
+    text = ""
+    page_texts = []
+    with pdfplumber.open(pdf_path) as pdf:
+        for i, page in enumerate(pdf.pages):
+            page_text = page.extract_text()
+            page_texts.append(page_text)
+            text += page_text
+            with open(os.path.join(output_dir, f"{i}.txt"), 'w', encoding='utf-8') as f:
+                f.write(page_text or "")
+    with open(os.path.join(output_dir, f"{base_name}.pdf"), 'wb') as f:
+        f.write(open(pdf_path, 'rb').read())
+    return text, page_texts
     
-    # Navigate to Google Search
-    text=""
-    try:
-        driver.get(url)
-        time.sleep(2.0)  # adjust time as needed
-        pageSource = driver.page_source
-        soup = BeautifulSoup(pageSource, "html.parser")
+def url_to_basename(url):
+    # Remplacer les caractères non désirés par des underscores
+    safe_chars = set("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_")
+    clean_url = ''.join(char if char in safe_chars else '_' for char in url)
     
-        for script in soup(["script", "style"]):
-            script.decompose()
-        text = soup.get_text()
-        #print("CONTENTTTTTT:", text)
-    except:
-        print(f"url expetion {url}")
-        
-    print("Closing Chrome")
-    driver.quit()
-    
-    return text
+    # Limiter la longueur du nom pour éviter les problèmes de système de fichiers
+    return clean_url[:255]
 
+    
+def scrap(url: str):
+    base_name = url_to_basename(url)
+    output_dir = os.path.join(os.getcwd(), base_name)
+    os.makedirs(output_dir, exist_ok=True)
+    
+    response = requests.head(url)
+    content_type = response.headers.get('Content-Type', '')
+
+    if 'application/pdf' in content_type:
+        pdf_response = requests.get(url)
+        pdf_path = os.path.join(output_dir, f"{base_name}.pdf")
+        with open(pdf_path, "wb") as f:
+            f.write(pdf_response.content)
+        
+        text, page_texts = extract_text_from_pdf(pdf_path, output_dir, base_name)
+        os.remove(pdf_path)  # Optional: Remove the temporary PDF file if no longer needed
+        return "PDF file downloaded,"+str(len(page_texts))+" pages\nfile_path="+pdf_path+"\ncontent summary:\n"+text[:2000]  # Returning a summary of the text
+    else:
+        # Traitement pour les pages HTML
+        chrome_options = Options()
+        chrome_options.add_argument("--headless")
+        driver = webdriver.Chrome(options=chrome_options)
+        text = ""
+        try:
+            driver.get(url)
+            time.sleep(2.0)
+            page_source = driver.page_source
+            soup = BeautifulSoup(page_source, "html.parser")
+    
+            for script in soup(["script", "style"]):
+                script.decompose()
+            text = soup.get_text()
+            with open(os.path.join(output_dir, f"{base_name}.txt"), 'w', encoding='utf-8') as f:
+                f.write(text)
+        except Exception as e:
+            print(f"url exception {url}: {str(e)}")
+        
+        print("Closing Chrome")
+        driver.quit()
+        return "HTML file downloaded\nfile_path="+os.path.join(output_dir, f"{base_name}.txt")+"\ncontent summary:\n"+text[:2000]  # Returning a summary of the text
+        
 def segment_text_semantically(text, approx_max_word_count):
     # Utilisez la ponctuation pour trouver les fins de phrases possibles.
     sentence_endings = re.compile(r'[.!?]\s')

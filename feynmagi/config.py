@@ -29,7 +29,7 @@ session_message_history = []
 agent_message_history = []
 actual_agent="default"
 actual_session_id=0
-actual_model="phi3:latest"
+actual_model="gemma2:latest"
 actual_engine = "llm"
 llm_connect="local"
 

@@ -15,7 +15,7 @@ from . import commands as cmd
 
 from . import llmsapis 
 from . import config as cfg
-from .tasks import add_task, thread_manager
+from .tasks import add_task, thread_manager, start_autosession_task
 
 import pkg_resources
 import json
@@ -340,8 +340,8 @@ def threaded_autosession(message,tag=None):
     thread = threading.Thread(target=start_autosession, args=(message,tag))
     thread.start()
     print(f"[DEBUG] threaded_autosession {thread_id} == > Thread for autosession started")
-'''
 
+'''
 def threaded_autosession(message, tag=None):
     # Démarrer un thread pour la session automatique
     thread = threading.Thread(target=start_autosession, args=(message, tag))
