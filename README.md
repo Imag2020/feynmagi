@@ -1,6 +1,6 @@
 <p align="center">
   <img src="feynmagi/static/img/Feynmagi_64x64.png" align="left" />
-  <h1 align="center">Feynmagi V 0.1.29 </h1>
+  <h1 align="center">Feynmagi V 0.1.30 </h1>
 </p>
 
 
@@ -21,7 +21,14 @@
 - You can access it from any browser at localhost:5000
 
 ## 🌟 Feynmagi is a multi-modal tool for  MLLM interactive agents that integrates all the latest AI technologies into a single application, capable of running models locally on CPU or GPU (via Ollama). It incorporates proprietary code for embedding, RAG, and interactive AI, designed to model intelligent AIs with the goal of experimenting with AGI.
-
+In this alpha test version 0.1.30, we add:
+- Agents management with live run and cron scheduler 
+- swicth to gemma2 default local llm
+- test tolls and fucntion calling with groq
+- use of florence-2 for images
+- send mail via smtp server (todo ==> use gmail OAuth)
+- NB : mail config json under data dir, rename config_mail_to_do.json to config_mail.json
+  
 In this alpha test version 0.1.26, we have:
 - Integration with OpenAI and Groq clients for external and faster inference, alongside local inference using Ollama.
 - Chat capabilities with LLMs, images, documents, or AI agents.

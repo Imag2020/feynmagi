@@ -7,6 +7,7 @@ recursive-include feynmagi/templates *
 recursive-include feynmagi/prompts *
 recursive-include feynmagi/data * 
 exclude feynmagi/data/config.txt
+exclude feynmagi/data/config_mail.json
 exclude feynmagi/data/dials.txt
 exclude feynmagi/data/mylog.txt
 exclude feynmagi/data/ragmem4_dir/ *

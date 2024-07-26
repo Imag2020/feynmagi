@@ -13,6 +13,7 @@ feynmagi/helper.py
 feynmagi/interpreter.py
 feynmagi/llmsapis.py
 feynmagi/logger.py
+feynmagi/mailing.py
 feynmagi/playAgent.py
 feynmagi/scheduler.py
 feynmagi/sessions.py
@@ -30,6 +31,7 @@ feynmagi.egg-info/entry_points.txt
 feynmagi.egg-info/requires.txt
 feynmagi.egg-info/top_level.txt
 feynmagi/data/2303.18223
+feynmagi/data/config_mail_to_do.json
 feynmagi/data/mylog.log
 feynmagi/data/.ipynb_checkpoints/config-checkpoint.txt
 feynmagi/data/ragmem4_dir/0.txt

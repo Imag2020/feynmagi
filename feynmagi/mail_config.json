@@ -1,0 +1,6 @@
+{
+  "smtp_server": "mx.extra.cea.fr",
+  "smtp_port": 25,
+  "email_from": "Feynmagi@cea.fr",
+  "email_password": "votre_mot_de_passe"
+}

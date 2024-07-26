@@ -7,5 +7,6 @@ tools = {
 'dev_code' : 'dev_code\ne.g dev-code : "objective" : "<objective of the code>", "language": "<language>", "framework": "<framework>", "file_name" : "<file_name>" \nenerate simple module code to achieve an elementary task',
 'execute_code' : 'execute_code\ne.g execute-code :  "file_name" : "<file_name>", "input": "<input data>", "environment": "<environment>"\nexcute code in file',
 'calculate' : 'calculate\ne.g. calculate: 4 * 7 / 3\nRuns a calculation and returns the number - uses Python so be sure to use floating point syntax if necessary',
-'get_planet_mass' : 'get_planet_mass:\ne.g. get_planet_mass: Earth\nreturns weight of the planet in kg'
+'get_planet_mass' : 'get_planet_mass:\ne.g. get_planet_mass: Earth\nreturns weight of the planet in kg',
+'email' : 'email\ne.g email : "to" : "user@domain.com", "subject" : "subject", "body" : "text or html code", "attachment_path" : "(optional) path to file"\nSend an email"'
 }

@@ -18,6 +18,9 @@ from .tools import tools
 from . import commands as cmd
 from . import websearch as webs
 from . import agentdev as dev
+from .mailing import send_email
+import pkg_resources
+
 
 class PAgent:
     def __init__(self, system: str = "") -> None:
@@ -40,7 +43,7 @@ class PAgent:
             ret += response_text
         print(f"______ llm return : {repr(ret)}______")
         return ret.replace("\\n","\n")
-
+'''
 def play(agent_name, agent_system,agent_prompt, max_iterations=10):
     global tools
     socketio = get_socketio()
@@ -109,6 +112,82 @@ def play(agent_name, agent_system,agent_prompt, max_iterations=10):
             break
     print(f"End Agent result={result}")
     socketio.emit('output_agent', {"token" : result } )
+'''
+
+import re
+
+
+def extraire_param(texte):
+    # Utilisation d'une expression régulière pour chercher le motif "chaine 1" : "chaine 2"
+    match = re.match(r'^"([^"]+)"\s*:\s*"([^"]+)"$', texte)
+    if match:
+        # Si le motif est trouvé, retourner 'chaine 2'
+        return match.group(2)
+    else:
+        # Sinon, retourner le texte original
+        return texte
+
+    
+def play(agent_name, agent_system, agent_prompt, max_iterations=10):
+    global tools
+    socketio = get_socketio()
+    agent_manager = AgentManager()
+    aagent = agent_manager.find_agent_by_name(agent_name)
+    if aagent and aagent.tools:
+        tools_str = "\nYour available actions are:\n\n"
+        for tool in aagent.tools:
+            if tool in tools:
+                tools_str += f"{tools[tool]}\n\n"
+        agent_system = agent_system.format(tools=tools_str)
+        print(f"__________ final system={agent_system} ______")
+    
+    agent = PAgent(system=agent_system)
+    next_prompt = agent_prompt
+    socketio.emit('output_agent', {"token": next_prompt})
+    i = 0
+  
+    while i < max_iterations:
+        i += 1
+        result = agent(next_prompt)
+        print(result)
+        socketio.emit('output_agent', {"token": f"{result}"})
+
+        if "PAUSE" in result and "Action" in result:
+            actions = re.findall(r"Action\s*:?\s*([a-z_]+)\s*:\s*(.+)", result, re.IGNORECASE)
+            if not actions:
+                next_prompt = "Observation: Action syntax is wrong"
+                socketio.emit('output_agent', {"token": next_prompt})
+                continue
+            
+            chosen_tool, args = actions[0][0], actions[0][1].split(", ")
+            
+            # Appliquer 'extraire_chaine' à chaque argument
+            args_list = [extraire_param(arg) for arg in args]
+            print(f"tool=___{chosen_tool}___")
+            print(f"args=___{args_list}___")
+            if chosen_tool in aagent.tools:
+                args_list = [arg.replace('\'', '\\\'') for arg in args_list]  # escape single quotes
+                try:
+                    result_tool = eval(f"{chosen_tool}(*args_list)")
+                    next_prompt = f"Observation: {result_tool}"
+                except Exception as e:
+                    result_tool = str(e)
+                    next_prompt = f"Observation: {result_tool}"
+            else:
+                next_prompt = "Observation: Tool not found"
+                
+            print(next_prompt)
+            socketio.emit('output_agent', {"token": next_prompt})
+            continue
+
+        if "Answer" in result:
+            break
+    print(f"End Agent result={result}")
+    socketio.emit('output_agent', {"token": result})
+
+
+
+
 
 def google(query):
     return webs.search(query)
@@ -136,6 +215,23 @@ def dev_code(objective,language,framework,file_name):
 
 def exec_code(environment,file_name,input):
     return dev.exec_code_in_conda_env(environment,file_name,input)
+'''
+def email(to_email, subject, body, attachment_path=None):
+    to= extraire_param(to_email)
+    attach=extraire_param(attachment_path)
+    
+    if attach is not None and attach != "None":
+        send_email(to_email, subject, body, attach)
+    else:
+    
+        send_email(to, extraire_param(subject), extraire_param(body),attach)
+'''
+def email(to, subject, body, attachment_path=None):
+    print("________________________ attachment_path = ", attachment_path, "_____end")
+    if attachment_path is not None and "none" not in attachment_path.lower():
+        send_email(to, subject, body, attachment_path)
+    else:
+        send_email(to, subject, body,attachment_path)
 
 
 def calculate(operation: str) -> float:

@@ -1,6 +1,8 @@
 from  datetime import datetime
 import time
 import os
+from .playAgent import play
+
 class Job:
     def __init__(self, agent):
         self.agent = agent
@@ -10,6 +12,7 @@ class Job:
         # Logique d'exécution du prompt
         current_time = datetime.now()
         print(f"Executing job for agent {self.agent.name} at {current_time}\n{self.agent.prompt}")
+        play(self.agent.name, self.agent.system, self.agent.prompt, max_iterations=20)
         # Ajouter un enregistrement dans un fichier de log
         self.log_to_file(f"Executing job for agent {self.agent.name} at {current_time}")
 

@@ -671,7 +671,24 @@ def handle_remove_agent(data):
     agent_prompt = data.get('prompt')
     print(f"Playing Agent {agent_name} system={agent_system} prompt={agent_prompt}")
     play(agent_name,agent_system,agent_prompt)
-    #socketio.emit('update_agents', [agent.to_dict() for agent in agent_manager.get_agents()], broadcast=True)
+
+def start_scheduler():
+    print("_______________  start_scheduler")
+    for agent in agent_manager.get_agents():
+        print(f"agent {agent.name}")
+        job = Job(agent)
+        # Calculer la prochaine exécution
+        hour, minute = map(int, agent.when.split(':'))
+        next_run = datetime.now().replace(hour=hour, minute=minute, second=0, microsecond=0)
+        if next_run < datetime.now():
+            next_run += timedelta(days=1)  # Prochaine exécution demain si déjà passé
+        cron_manager.add_job(job, next_run)
+        print(f"Agent {agent.name} scheduled")
+    print("end start_scheduler _____________")
+    
+        
+    
+    
 ########################################################################################################
 save_path=""
 @app.route('/fupload', methods=['POST'])
@@ -730,7 +747,7 @@ count = 0
 def background_thread():
     cron_manager = CronManager()
     # Créer des agents et des jobs
-    agent = Agent("Agent1", ["daily"], "15:52")
+    agent = Agent("Agent1", ["daily"], "12:30")
     job = Job(agent)
     # Planifier la première exécution en fonction de 'when'
     hour, minute = map(int, agent.when.split(':'))
@@ -750,7 +767,7 @@ def check_ollama_installed():
         return result,ret
     except FileNotFoundError:
         # Si la commande n'est pas trouvée, retourner False
-        return result,ret
+        return False,0
     
 def open_browser():
     time.sleep(2)  # Attendre une seconde pour s'assurer que le serveur est démarré
@@ -773,7 +790,7 @@ def main():
     # Lancer l'application Flask dans un thread
     flask_thread = threading.Thread(target=lambda: socketio.run(app, host='0.0.0.0', debug=False))
     flask_thread.start()
-   
+    start_scheduler()
     open_browser()
 
 if __name__ == '__main__':

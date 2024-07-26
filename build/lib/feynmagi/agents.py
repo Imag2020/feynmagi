@@ -1,5 +1,6 @@
 import json
 
+
 class Agent:
     def __init__(self, name, schedule, when, system, prompt, tools):
         self.name = name
