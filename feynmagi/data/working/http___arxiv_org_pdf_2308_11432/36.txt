@@ -1,0 +1,52 @@
+LeiWangetal. ASurveyonLargeLanguageModelbasedAutonomousAgents 37
+Representations. 2023 LiY. S3: Social-networksimulationsystemwithlarge
+64. ChenPL,ChangCS. Interact: Exploringthepoten- language model-empowered agents. arXiv preprint
+tialsofchatgptasacooperativeagent. arXivpreprint arXiv:2307.14984,2023
+arXiv:2308.01552,2023 78. Ahn M, Brohan A, Brown N, Chebotar Y, Cortes O,
+65. ChenZ,ZhouK,ZhangB,GongZ,ZhaoWX,Wen DavidB,FinnC,FuC,GopalakrishnanK,HausmanK,
+J R. Chatcot: Tool-augmented chain-of-thought rea- others.Doasican,notasisay:Groundinglanguagein
+soningon\\chat-basedlargelanguagemodels. arXiv roboticaffordances. arXivpreprintarXiv:2204.01691,
+preprintarXiv:2305.14323,2023 2022
+66. NakanoR,HiltonJ,BalajiS,WuJ,OuyangL,Kim 79. Park J S, Popowski L, Cai C, Morris M R, Liang P,
+C, Hesse C, Jain S, Kosaraju V, Saunders W, others BernsteinMS. Socialsimulacra: Creatingpopulated
+. Webgpt: Browser-assistedquestion-answeringwith prototypesforsocialcomputingsystems. In: Proceed-
+human feedback. arXiv preprint arXiv:2112.09332, ings of the 35th Annual ACM Symposium on User
+2021 InterfaceSoftwareandTechnology. 2022,1–18
+67. RuanJ,ChenY,ZhangB,XuZ,BaoT,DuG,ShiS, 80. Li G, Hammoud H A A K, Itani H, Khizbullin D,
+MaoH,ZengX,ZhaoR. TPTU:Taskplanningand GhanemB. Camel: Communicativeagentsfor"mind"
+tool usage of large language model-based AI agents. exploration of large scale language model society.
+arXivpreprintarXiv:2308.03427,2023 arXivpreprintarXiv:2303.17760,2023
+68. Patil S G, Zhang T, Wang X, Gonzalez J E. Gorilla: 81. al. e T. Auto-GPT. https://github.com/
+Large language model connected with massive apis. Significant-Gravitas/Auto-GPT,2023
+arXivpreprintarXiv:2305.15334,2023 82. LiuR,YangR,JiaC,ZhangG,ZhouD,DaiAM,Yang
+69. LiM,SongF,YuB,YuH,LiZ,HuangF,LiY. Api- D, Vosoughi S. Training socially aligned language
+bank: A benchmark for tool-augmented llms. arXiv models in simulated human society. arXiv preprint
+preprintarXiv:2304.08244,2023 arXiv:2305.16960,2023
+70. Song Y, Xiong W, Zhu D, Li C, Wang K, Tian Y, 83. ChenL,WangL,DongH,DuY,YanJ,YangF,LiS,
+LiS. Restgpt: Connectinglargelanguagemodelswith ZhaoP,QinS,RajmohanS,others. Introspectivetips:
+real-worldapplicationsviarestfulapis. arXivpreprint Largelanguagemodelforin-contextdecisionmaking.
+arXiv:2306.06624,2023 arXivpreprintarXiv:2305.11598,2023
+71. Liang Y, Wu C, Song T, Wu W, Xia Y, Liu Y, Ou Y, 84. Liu H, Sferrazza C, Abbeel P. Chain of hindsight
+LuS,JiL,MaoS,others. Taskmatrix.ai: Completing alignslanguagemodelswithfeedback.In:TheTwelfth
+tasksbyconnectingfoundationmodelswithmillions InternationalConferenceonLearningRepresentations.
+ofapis. IntelligentComputing,2024,3: 0063 2023
+72. Karpas E, Abend O, Belinkov Y, Lenz B, Lieber O, 85. Yao S, Chen H, Yang J, Narasimhan K. Webshop:
+RatnerN,ShohamY,BataH,LevineY,Leyton-Brown Towards scalable real-world web interaction with
+K,others. Mrklsystems: Amodular,neuro-symbolic groundedlanguageagents. AdvancesinNeuralInfor-
+architecturethatcombineslargelanguagemodels,ex- mationProcessingSystems,2022,35: 20744–20757
+ternalknowledgesourcesanddiscretereasoning. arXiv 86. DanY,LeiZ,GuY,LiY,YinJ,LinJ,YeL,TieZ,Zhou
+preprintarXiv:2205.00445,2022 Y,WangY,others. Educhat: Alarge-scalelanguage
+73. GeY,HuaW,MeiK,TanJ,XuS,LiZ,ZhangY,others model-basedchatbotsystemforintelligenteducation.
+. Openagi: Whenllmmeetsdomainexperts. Advances arXivpreprintarXiv:2308.02773,2023
+inNeuralInformationProcessingSystems,2024,36 87. LinBY,FuY,YangK,BrahmanF,HuangS,Bhaga-
+74. SurísD,MenonS,VondrickC. Vipergpt: Visualinfer- vatulaC,AmmanabroluP,ChoiY,RenX. Swiftsage:
+enceviapythonexecutionforreasoning.arXivpreprint Agenerativeagentwithfastandslowthinkingforcom-
+arXiv:2303.08128,2023 plexinteractivetasks. AdvancesinNeuralInformation
+75. Bran A M, Cox S, White A D, Schwaller P. Chem- ProcessingSystems,2024,36
+crow: Augmentinglarge-languagemodelswithchem- 88. EvansJSB,StanovichKE. Dual-processtheoriesof
+istrytools. arXivpreprintarXiv:2304.05376,2023 highercognition: Advancingthedebate. Perspectives
+76. YangZ,LiL,WangJ,LinK,AzarnasabE,AhmedF, onpsychologicalscience,2013,8(3): 223–241
+LiuZ,LiuC,ZengM,WangL. Mm-react: Prompting 89. Deng X, Gu Y, Zheng B, Chen S, Stevens S, Wang
+chatgpt for multimodal reasoning and action. arXiv B, Sun H, Su Y. Mind2web: Towards a generalist
+preprintarXiv:2303.11381,2023 agent for the web. Advances in Neural Information
+77. Gao C, Lan X, Lu Z, Mao J, Piao J, Wang H, Jin D, ProcessingSystems,2024,36

@@ -1,0 +1,50 @@
+5
+The cryogenic portion of the Spitzer mission ended in 2009. The Spitzer infrared spectrograph
+(Houck et al. 2004) provided exquisite mid-infrared spectra of T dwarfs as cool as T ≈ 600 K (e.g.
+eff
+Cushing et al. 2006; Leggett et al. 2009). Since that date, only limited spectra have been obtained
+at wavelengths longer than λ ≈ 2.5 µm, wavelengths where cool brown dwarfs emit significant flux.
+While progress has been made using the mid-infrared photometric data from Spitzer and WISE, and
+some λ ≈ 4 µm data from the ground, the community has been anxiously awaiting the first JWST
+data for Y dwarfs (Marley & Leggett 2009).
+Beileretal.(2023)publishedthefirstJWSTspectrumofaYdwarf,togetherwithlongerwavelength
+photometry. The object is WISE J035934.06-540154.6 (herafter WISE 0359), which is classified as
+a Y0 dwarf (Kirkpatrick et al. 2021) and appears to be typical of its type (see Section 4). Figure 1
+shows the observational data, with the best fit Sonora spectrum from Beiler et al., and a fit using
+the ATMO 2020++ models. A fit with a disequilibrium metal-poor Sonora model reproduces the
+observations quite well (Figure 1) however the required low surface gravity implies an unlikely very
+young age and low mass (Beiler et al. 2023).
+We find that an “off-the-shelf” ATMO 2020++ model with T = 450 K, log g = 4.5, and [m/H]
+eff
+= 0 produces an excellent fit to the data, as shown in Figure 1. An increase or decrease in T by
+eff
+50 K changes the luminosity significantly, and the flux levels at 4.5 µm and 12.0 µm would increase
+or decrease by 40%, meaning the 400 K and 500 K models do not match the observations. Figure 6 of
+Leggett et al. (2021) illustrates the dependency of the SED on the other atmospheric parameters. For
+this observed spectrum, we found that the relative heights of the 4.5 µm and 10 µm flux peaks, the
+height and shape of the 8 – 9 µm shoulder, and the depths of the CO and NH absorption features,
+3
+allowed us to constrain log g and [m/H], and to select the best fit from our available grid by eye.
+The near-infrared spectral region was not considered in the fitting process, because very little
+flux emerges there (5% of the total flux). However Figure 1 shows that the ATMO2020++ model
+produces an excellent match to the near-infrared observations. For reference, Appendix B presents a
+comparison of the JWST spectrum to a 450 K BT-Settl model spectrum (Allard 2014, 2016) as the
+BT-Settl grid is commonly used for warmer brown dwarfs. The BT-Settl model produces an inferior
+fit compared to Sonora or ATMO2020++, at these temperatures. Appendix B also compares the
+spectrumtoa450Kdisequilibriumcloud-freespectrumfromLacy&Burrows(2023). Theagreement
+is again inferior, although we find in the next Section that the Lacy & Burrows (2023) disequilibrium
+spectra which include water clouds may agree better with the observations of Y dwarfs cooler than
+350 K (Figure 2).
+Beiler et al. (2023) determine F = 6.89±0.16×10−17 W m−2 for WISE 0359, by integrating over
+bol
+theobserved1–12µmspectrum,applyingalinearinterpolationoverthe12–21µmphotometricdata
+points, and adopting a Rayleigh-Jean tail for the longest wavelengths. Our adopted ATMO2020++
+model integrates to 7.41 × 10−17 W m−2, and is within ≈ 3 σ of the measured value. The over-
+luminosity seen in Figure 1 for our model at 14 ≲ λ µm ≲ 21 likely contributes to the difference,
+however we note that, at this early stage in the JWST pipeline, small errors in the MIRI flux
+calibration cannot be excluded and these may contribute to the apparent over-luminosity. The
+models indicates that a Rayleigh-Jean tail is a good approximation for λ > 21 µm.
+Beiler et al. (2023) use the bolometric luminosity and evolutionary models to determine T =
+eff
+467+16 K. The T for both the Sonora and ATMO2020++ model fits agree with this value,
+−18 eff

@@ -1,0 +1,63 @@
+11
+TABLE III. Comparison between the calculated shot noise on results, subspace selection introduces mi-
+Tr{ρlnρ} using the method described in this paper nor biases to the outcomes. As an example, we apply
+and its theoretical value
+both methods to compute the von Neumann entropy of
+a randomly generated quantum state. It is worth noting
+Tr{Gm} Tvalue Mvalue RE
+that these algorithms can be used not only for comput-
+m=2 6.600 -0.600 -0.569 5.17%
+ing the power function of the density matrix but also for
+m=3 5.914 -0.600 -0.543 9.50%
+evaluatingnonlinearfunctionsofphysicalquantitiessuch
+m=4 6.066 -0.600 -0.574 4.30% as Tr{Oρm}.
+m=5 5.814 -0.600 -0.573 4.50%
+m=6 5.830 -0.600 -0.582 3.00%
+m=7 5.726 -0.600 -0.583 2.83%
+m=8 5.710 -0.600 -0.586 2.33%
+*Note: T-value represents the theoretical value of Tr{ρlnρ},
+ACKNOWLEDGMENTS
+andM-valuerepresentsthemeasuredvalueofTr{ρlnρ}.RE
+representstherelativeerror.ThevalueofTr{Gm}ismeasured
+usingthemethoddescribedinthisarticle. Themeasuredvalue This work is supported by National Natural Science
+ofTr(ρlnρ)canbecalculatedusingTr{Gm}. Foundation of China (Grant No. 12225507, 12088101)
+and NSAF (Grant No. U1930403).
+[1] B.Swingle,G.Bentsen,M.Schleier-Smith, andP.Hay- [20] J.W.Z.Lau,K.H.Lim,H.Shrotriya, andL.C.Kwek,
+den, Physical Review A 94, 040302 (2016). AAPPS Bulletin 32, 27 (2022).
+[2] F. G. Branda˜o, W. Chemissany, N. Hunter-Jones, [21] Y. Ding and F. T. Chong, Quantum computer systems:
+R. Kueng, and J. Preskill, PRX Quantum 2, 030316 Researchfornoisyintermediate-scalequantumcomputers
+(2021). (Springer Nature, 2022).
+[3] P.HaydenandJ.Preskill,Journalofhighenergyphysics [22] Y. Zhou and Z. Liu, arXiv preprint arXiv:2208.08416
+2007, 120 (2007). (2022).
+[4] J. Kudler-Flam, Physical Review Letters 126, 171603 [23] F. A. Bovino, G. Castagnoli, A. Ekert, P. Horodecki,
+(2021). C.M.Alves, andA.V.Sergienko,Physicalreviewletters
+[5] Z.Holmes,N.J.Coble,A.T.Sornborger, andY.Suba¸sı, 95, 240407 (2005).
+Physical Review Research 5, 013105 (2023). [24] P. Horodecki, Physical review letters 90, 167901 (2003).
+[6] S.SubramanianandM.-H.Hsieh,PhysicalreviewA104, [25] A. K. Ekert, C. M. Alves, D. K. Oi, M. Horodecki,
+022428 (2021). P. Horodecki, and L. C. Kwek, Physical review letters
+[7] K. Zyczkowski and I. Bengtsson, arXiv preprint quant- 88, 217901 (2002).
+ph/0606228 (2006). [26] S. H. Sack, R. A. Medina, A. A. Michailidis, R. Kueng,
+[8] A.Rath,C.Branciard,A.Minguzzi, andB.Vermersch, and M. Serbyn, PRX Quantum 3, 020365 (2022).
+Physical Review Letters 127, 260501 (2021). [27] T. Zhang, J. Sun, X.-X. Fang, X.-M. Zhang, X. Yuan,
+[9] R. Jozsa, Journal of modern optics 41, 2315 (1994). andH.Lu,PhysicalReviewLetters127,200501(2021).
+[10] B. Koczor, Physical Review X 11, 031057 (2021). [28] A.Seif,Z.-P.Cian,S.Zhou,S.Chen, andL.Jiang,PRX
+[11] Q.Wang,J.Guan,J.Liu,Z.Zhang, andM.Ying,arXiv Quantum 4, 010303 (2023).
+preprint arXiv:2203.13522 (2022). [29] A. Elben, S. T. Flammia, H.-Y. Huang, R. Kueng,
+[12] A. Kandala, A. Mezzacapo, K. Temme, M. Takita, J.Preskill,B.Vermersch, andP.Zoller,NatureReviews
+M. Brink, J. M. Chow, and J. M. Gambetta, nature Physics 5, 9 (2023).
+549, 242 (2017). [30] T. Brydges, A. Elben, P. Jurcevic, B. Vermersch,
+[13] H.A.Carteret,Physicalreviewletters94,040502(2005). C. Maier, B. P. Lanyon, P. Zoller, R. Blatt, and C. F.
+[14] M. Lubasch, J. Joo, P. Moinier, M. Kiffner, and Roos, Science 364, 260 (2019).
+D. Jaksch, Physical Review A 101, 010301 (2020). [31] A.Elben,B.Vermersch,C.F.Roos, andP.Zoller,Phys-
+[15] B. Georgeot and D. L. Shepelyansky, Physical Review ical Review A 99, 052323 (2019).
+Letters 86, 2890 (2001). [32] A. Elben, R. Kueng, H.-Y. R. Huang, R. van Bij-
+[16] A. Elben, J. Yu, G. Zhu, M. Hafezi, F. Pollmann, nen, C. Kokail, M. Dalmonte, P. Calabrese, B. Kraus,
+P. Zoller, and B. Vermersch, Science advances 6, J.Preskill,P.Zoller,etal.,PhysicalReviewLetters125,
+eaaz3666 (2020). 200501 (2020).
+[17] J. Braumu¨ller, A. H. Karamlou, Y. Yanay, B. Kannan, [33] R. O’Donnell and J. Wright, in Proceedings of the forty-
+D. Kim, M. Kjaergaard, A. Melville, B. M. Niedzielski, eighth annual ACM symposium on Theory of Computing
+Y. Sung, A. Vepsa¨la¨inen, et al., Nature Physics 18, 172 (2016) pp. 899–912.
+(2022). [34] G. M. D’Ariano, M. G. Paris, and M. F. Sacchi, Ad-
+[18] N. A. of Sciences Engineering, Medicine, et al., (2019). vances in imaging and electron physics 128, 206 (2003).
+[19] J. Preskill, Quantum 2, 79 (2018). [35] R. Yang and Y. Li, Physical Review A 103, 032421
+(2021).

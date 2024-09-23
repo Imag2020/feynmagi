@@ -1,0 +1,84 @@
+2
+retrieval, while sensitive private data can be securely stored such as agriculture [26], [27], biology [28], healthcare [29],
+in the private cloud. geography [30], [31], and so on, especially after OpenAI’s
+Based on the above paradigm, IoT devices have become recent introduction of ChatGPT [32]. In fact, we believe the
+omnipresentineverydaylife,particularlyduetotheflourishing technologicaladvancementofAGIshouldnotbelinkedsolely
+of AI techniques. For example, connected appliances [7], to a particular entity; rather, it embodies a collaborative en-
+such as smart thermostats, refrigerators, and washing ma- deavor between academia and industry over recent years. The
+chines, are equipped with sensors that provide data about triumph of AGI, notably concerning large language models
+theirstatusandperformance.Wearabledeviceswithhealthcare (LLMs),findsitsoriginsintheintroductionoftheTransformer
+applications [8], [9], such as Fitbit and Apple watch, are architecture [25] by Google in 2017. This innovative architec-
+able to monitor various health metrics such as heart rate, ture, which revolves around parallelizable self-attention based
+steps taken, and sleep patterns, while synchronizing the data sequential neural networks, was conceived as a substitute for
+with smartphones or medical institutions, allowing users or the RNN. Subsequently, a milestone in the history of the
+doctors to track the physiological indicators in a real-time LLMs and AGI is the development of BERT (Bidirectional
+manner. Smart cameras [10] are widely used for home secu- Encoder Representations from Transformers) [33]. Through
+rity purposes, which are integrated with multiple sensors for theprocessofpre-trainingonextensiveunsupervisedtextdata
+motion detection, two-way audio communication, and facial followed by supervised fine-tuning on labeled data, BERT
+recognition. The IoT devices are also used for connected accomplished groundbreaking results across eleven natural
+vehicles [11], [12] for features like GPS navigation, remote language processing (NLP) tasks.
+diagnostics, and even self-driving capabilities. These devices The success of BERT started a new era of AI, i.e., AGI
+communicatewitheachotherandexternalsystemstoenhance – instead of training task-specific AI models, an increasing
+driver safety and convenience. number of researchers started to seek ways to first pre-train a
+large model on internet-scale data in a task-agnostic manner
+B. AI in IoT and then adapt this model to various downstream tasks via
+fine-tuning,few-shotlearning,orevenzero-shotlearning.This
+In recent times, artificial intelligence (AI) has exhibited
+genre of large-scale task-agnostic models, later on, is called
+remarkable achievements across various domains of IoT. AI’s
+foundationmodels[34],[35],[36],[32],[37],[38],[37].Large
+success has resonated strongly in IoT applications, power-
+language models are examples of foundation models: GPT-
+ing tasks that encompass areas like sensor data analysis
+3 [39], InstructGPT [36], ChatGPT [32], GLaM [40], PaLM
+[13], [14], predictive maintenance [15], [16], and real-time
+[41], LLaMA [42], Alpaca [43], Claude2 1, LLaMA 2 [44],
+decision-making [17], [14]. For instance, deep neural net-
+and so on.
+works, including advanced architectures like Convolutional
+ThedevelopmentofLLMsintheNLPdomainalsoinspired
+NeuralNetworks(CNNs)[18]andRecurrentNeuralNetworks
+the development of foundation models in other domains such
+(RNNs) [19], have propelled IoT systems to autonomously
+as reinforcement learning (RL) [45] and computer vision
+process and interpret complex visual and textual data streams.
+(CV) [46], [38]. For example, many diffusion-based models
+These networks enable smart devices to excel in intricate
+such as DALL·E·2 [47], Imagen [48], Stable Diffusion [46]
+tasks such as anomaly detection in manufacturing processes
+are visual foundation models. They were trained in a task-
+[20] and natural language understanding for voice-controlled
+agnostic manner but can be adapted to many vision tasks
+homeautomation[21].Additionally,AImodelslikeRoBERTa
+such as style transfer [47], image editing [49], [48], image
+[22]havedemonstratedtheirprowessinenhancinghuman-like
+denoising [50], [51], image super-resolution [52], image in-
+comprehension of IoT-generated textual data. It is important
+painting [50], [47], [46], image colorization [50], [51], [46],
+to note that while many AI advancements have traditionally
+image compression [51], and so on. Most of the current
+focused on surpassing human performance in single cognitive
+diffusion-based visual foundation models focus on the image-
+abilities,theconvergenceofdeeplearningandIoTushersina
+to-imagetranslationproblem.Recently,theSegmentAnything
+new era where foundational models, pre-trained on expansive
+Model (SAM) [38] has been proposed as a visual foundation
+multimodal datasets, can be swiftly adapted to a diverse array
+model for various segmentation tasks in remote sensing [53]
+of downstream cognitive tasks, marking a significant stride
+and the medical [54] domain.
+towards achieving Artificial General Intelligence (AGI) in the
+In addition, instead of limiting foundation models to one
+context of IoT.
+data modality, one rising trend in foundation model research
+isdevelopingmultimodalfoundationmodelswhichcansimul-
+C. AGI Background
+taneously handle various data modalities such as text, images,
+The fast development of AI in the past ten years can be video,audio,andsoon.AnearlypioneeringworkisCLIP[55]
+attributedtothreemajorreasons:theincreasingavailabilityof whichpre-trainedatextencoderandanimageencoderjointly
+training data, enhanced support from AI infrastructures, and with a self-supervised contrastive learning objective based on
+theadvancementofAImodelssuchasGenerativeAdversarial a paired text-image dataset. The benefits include knowledge
+Networks (GAN) [23], diffusion models [24], and Transform- sharing across data modalities and the ability to enable tasks
+ers [25]. that require multiple data modalities. This practice inspired
+Recently, AGI has become an increasingly popular topic,
+not only within the realm of AI but also across diverse fields 1https://www.anthropic.com/index/claude-2

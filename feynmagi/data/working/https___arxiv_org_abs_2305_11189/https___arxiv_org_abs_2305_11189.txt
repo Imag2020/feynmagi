@@ -1,0 +1,571 @@
+ [2305.11189] Taxonomy of AISecOps Threat Modeling for Cloud Based Medical Chatbots
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+Grab your spot at the free arXiv Accessibility Forum
+Forum Schedule
+
+We gratefully acknowledge support fromthe Simons Foundation, Stockholm University, and all contributors. Donate
+
+
+
+
+
+ > cs > arXiv:2305.11189
+  
+
+
+
+
+
+Help | Advanced Search
+
+
+
+
+All fields
+Title
+Author
+Abstract
+Comments
+Journal reference
+ACM classification
+MSC classification
+Report number
+arXiv identifier
+DOI
+ORCID
+arXiv author ID
+Help pages
+Full text
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+open search
+
+
+
+
+
+
+GO
+
+
+
+open navigation menu
+
+
+quick links
+
+Login
+Help Pages
+About
+
+
+
+
+
+
+
+
+
+
+
+
+Computer Science > Distributed, Parallel, and Cluster Computing
+
+
+arXiv:2305.11189 (cs)
+    
+
+
+
+
+  [Submitted on 18 May 2023]
+Title:Taxonomy of AISecOps Threat Modeling for Cloud Based Medical Chatbots
+Authors:Ruby Annette J, Aisha Banu, Sharon Priya S, Subash Chandran View a PDF of the paper titled Taxonomy of AISecOps Threat Modeling for Cloud Based Medical Chatbots, by Ruby Annette J and 3 other authors
+View PDF
+
+Abstract:Artificial Intelligence (AI) is playing a vital role in all aspects of technology including cyber security. Application of Conversational AI like the chatbots are also becoming very popular in the medical field to provide timely and immediate medical assistance to patients in need. As medical chatbots deal with a lot of sensitive information, the security of these chatbots is crucial. To secure the confidentiality, integrity, and availability of cloud-hosted assets like these, medical chatbots can be monitored using AISecOps (Artificial Intelligence for Secure IT Operations). AISecOPs is an emerging field that integrates three different but interrelated domains like the IT operation, AI, and security as one domain, where the expertise from all these three domains are used cohesively to secure the cyber assets. It considers cloud operations and security in a holistic framework to collect the metrics required to assess the security threats and train the AI models to take immediate actions. This work is focused on applying the STRIDE threat modeling framework to model the possible threats involved in each component of the chatbot to enable the automatic threat detection using the AISecOps techniques. This threat modeling framework is tailored to the medical chatbots that involves sensitive data sharing but could also be applied for chatbots used in other sectors like the financial services, public sector, and government sectors that are concerned with security and compliance.
+    
+
+
+
+Subjects:
+
+Distributed, Parallel, and Cluster Computing (cs.DC); Artificial Intelligence (cs.AI); Human-Computer Interaction (cs.HC); Machine Learning (cs.LG)
+
+Cite as:
+arXiv:2305.11189 [cs.DC]
+
+
+ 
+(or 
+arXiv:2305.11189v1 [cs.DC] for this version)
+          
+ 
+ 
+
+https://doi.org/10.48550/arXiv.2305.11189
+
+
+
+Focus to learn more
+
+
+
+
+                arXiv-issued DOI via DataCite
+              
+
+
+
+
+
+
+
+Submission history From: Ruby Annette [view email]       [v1]
+        Thu, 18 May 2023 02:30:24 UTC (152 KB)
+
+
+
+ 
+
+Full-text links:
+Access Paper:
+
+
+View a PDF of the paper titled Taxonomy of AISecOps Threat Modeling for Cloud Based Medical Chatbots, by Ruby Annette J and 3 other authorsView PDFTeX SourceOther Formats
+
+
+view license
+
+
+ 
+    Current browse context: cs.DC
+
+
+< prev
+
+  |   
+next >
+
+
+new
+ | 
+recent
+ | 2023-05
+
+    Change to browse by:
+    
+cs
+cs.AI
+cs.HC
+cs.LG
+
+
+
+
+References & Citations
+
+NASA ADSGoogle Scholar
+Semantic Scholar
+
+
+
+
+a
+export BibTeX citation
+Loading...
+
+
+
+
+BibTeX formatted citation
+×
+
+
+loading...
+
+
+Data provided by: 
+
+
+
+
+Bookmark
+
+
+
+
+
+ 
+
+
+
+
+Bibliographic Tools
+
+Bibliographic and Citation Tools
+
+
+
+
+
+
+Bibliographic Explorer Toggle
+
+
+
+Bibliographic Explorer (What is the Explorer?)
+
+
+
+
+
+
+
+Litmaps Toggle
+
+
+
+Litmaps (What is Litmaps?)
+
+
+
+
+
+
+
+scite.ai Toggle
+
+
+
+scite Smart Citations (What are Smart Citations?)
+
+
+
+
+
+
+
+
+Code, Data, Media
+
+Code, Data and Media Associated with this Article
+
+
+
+
+
+
+Links to Code Toggle
+
+
+
+CatalyzeX Code Finder for Papers (What is CatalyzeX?)
+
+
+
+
+
+
+
+DagsHub Toggle
+
+
+
+DagsHub (What is DagsHub?)
+
+
+
+
+
+
+
+GotitPub Toggle
+
+
+
+Gotit.pub (What is GotitPub?)
+
+
+
+
+
+
+
+Links to Code Toggle
+
+
+
+Papers with Code (What is Papers with Code?)
+
+
+
+
+
+
+
+ScienceCast Toggle
+
+
+
+ScienceCast (What is ScienceCast?)
+
+
+
+
+
+
+
+
+
+
+
+Demos
+
+Demos
+
+
+
+
+
+
+Replicate Toggle
+
+
+
+Replicate (What is Replicate?)
+
+
+
+
+
+
+
+Spaces Toggle
+
+
+
+Hugging Face Spaces (What is Spaces?)
+
+
+
+
+
+
+
+Spaces Toggle
+
+
+
+TXYZ.AI (What is TXYZ.AI?)
+
+
+
+
+
+
+
+
+Related Papers
+
+Recommenders and Search Tools
+
+
+
+
+
+
+Link to Influence Flower
+
+
+
+Influence Flower (What are Influence Flowers?)
+
+
+
+
+
+
+
+Connected Papers Toggle
+
+
+
+Connected Papers (What is Connected Papers?)
+
+
+
+
+
+
+
+Core recommender toggle
+
+
+
+CORE Recommender (What is CORE?)
+
+
+
+
+
+Author
+Venue
+Institution
+Topic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        About arXivLabs
+      
+
+
+
+arXivLabs: experimental projects with community collaborators
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.
+
+
+
+
+
+
+
+
+
+
+Which authors of this paper are endorsers? |
+    Disable MathJax (What is MathJax?)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+About
+Help
+
+
+
+
+
+contact arXivClick here to contact arXiv
+ Contact
+
+
+subscribe to arXiv mailingsClick here to subscribe
+ Subscribe
+
+
+
+
+
+
+
+
+
+
+
+Copyright
+Privacy Policy
+
+
+
+
+Web Accessibility Assistance
+
+
+arXiv Operational Status 
+                    Get status notifications via
+                    email
+                    or slack
+
+
+
+
+
+ 
+
+
+
+
+

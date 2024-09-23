@@ -1,0 +1,40 @@
+Table 8. Optimal designs with a 𝟏×𝟏.𝟓 km2 service region
+Uniform line and stop Uniform line and stop
+Variable Heterogeneous design Uniform stop spacing
+spacing spacing, and headway
+𝐾, pax 6 6 9 12
+𝐵∗(𝑥,𝑦), km [0.10, 1.00] (0.20) 0.12 0.11 0.13
+𝑆(𝑥), km [0.17, 1.50] (0.35) [0.17, 1.50] (0.36) 0.37 0.29
+𝐼
+𝐻 (𝑥), min [3.6, 30.0] (10.7) [3.9, 30.0] (11.0) [3.0, 30.0] (12.8) 4.4
+𝐼𝑝
+𝐻 (𝑥), min [5.0, 30.0] (11.2) [5.0, 30.0] (11.4) [5.0, 30.0] (13.6) 5.8
+𝐼𝑑
+𝐴𝐶, h 17.78 18.90 15.68 28.18
+𝑈𝐶, h 85.23 86.35 93.91 108.09
+𝐺𝐶, h 103.01 105.25 109.60 136.27
+𝐺𝐶 gap 2.13% 3.97% 19.57% –
+4.4.4 Sensitivity to the feeder line layout
+In this subsection, we compare two alternative feeder line layouts: (i) feeder buses travel along the 𝑦-
+direction for patron pick-up or drop-off and move along the 𝑥 -direction to and from the terminal
+without stopping; and (ii) feeder buses load and unload passengers along the 𝑥-direction and perform
+𝑊
+nonstop travel along the 𝑦-direction. We let the rectangular service region’s aspect ratio, , vary from
+𝐿
+0.1 to 2, and plot the generalized costs per patron for the two layouts in Fig. 8. The service region’s area
+𝐿×𝑊 and other parameter values are kept consistent with those in Section 4.3 (with 𝜃 = 20 $/h).
+The figure reveals that the generalized cost is consistently lower when buses make stops along the
+shorter side of the service region. In this configuration, more bus lines are deployed along the longer
+side, resulting in each bus carrying fewer patrons and reduced boarding delays. The cost gap between
+𝑊
+the two layouts is substantial when the service region is “slim.” For example, with = 2 or 0.5, the
+𝐿
+more efficient layout outperforms the alternative by 6.49% in generalized cost. This finding highlights
+the importance of selecting the appropriate layout, particularly when the service region is more oblong
+than square. Notably, this straightforward result has not been previously documented in the literature;
+for example, Sivakumaran et al. (2012) arranged the feeder lines along the longer side of the service
+region, which our analysis indicates is a suboptimal design.
+Fig. 8 Comparison between two alternative feeder line layouts
+4.5 Benefits of schedule coordination
+We now explore the benefits of schedule coordination. The feeder network is reoptimized considering
+22

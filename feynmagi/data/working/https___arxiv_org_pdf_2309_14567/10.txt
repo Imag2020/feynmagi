@@ -1,0 +1,50 @@
+11
+Table 2. JWST Magnitudes and Estimated Photometric T for Three Y Dwarf Systems
+eff
+WISE Name Parallaxa F162M F360M F480M Tb
+eff
+RA/Dec. mas mag mag mag K
+J033605.05-014350.4Ac 99.8± 2.1 21.23± 0.10 17.35± 0.07 14.71+0.02 440± 24d
+−0.05
+J033605.05-014350.4Bc 99.8± 2.1 23.95+0.18 16.51+0.12 295± 10d
+−0.30 −0.26
+J035934.06-540154.6e 73.6± 2.0 21.32± 0.05 17.82± 0.05 15.36± 0.05 463± 28f
+J182831.08+265037.8g 100.3± 2.0 22.25± 0.10 17.19± 0.10 14.21± 0.10 364± 19h
+a All parallaxes are from Kirkpatrick et al. (2021).
+b T is estimated from the photometry only, by calculating the average value determined from
+eff
+the color relationships of Table 1, for the adopted gravity and metallicity. The quoted uncertainty
+neglects any systematic errors in the models.
+c For the WISE 0336 system, F480M is from Calissendorff et al. (2023), and F162M and F360M
+are estimated here, see Section 4. Quoted uncertainty is the sum of the squares of measurement
+error and color transformation uncertainty.
+d The model sequences imply surface gravities for the primary and secondary components of the
+WISE 0336 system of log g ≈ 4.5 and log g ∼ 4.0 respectively, and solar metallicity. For the A
+component T was estimated using Table 1 with both colors and M . For the B component the
+eff F480M
+estimate uses M only due to the divergence between the models and the observed F162M −
+F480M
+F480M color at the lowest temperatures (Figure 2). The gravities and temperatures are consistent
+with a coeval system with an age of a few Gyr and a mass ratio around 2 (Marley et al. 2021).
+e For WISE 0359, magnitudes and uncertainties are from Beiler et al. (2023).
+f The photometric temperature estimate adopts log g = 4.5 and solar metallicity. The result is
+consistent with the spectral fit presented in Section 3; the latter is the preferred value.
+g For WISE 1828, magnitudes and uncertainties are from De Furio et al. (2023).
+h The photometric temperature estimate assumes that WISE 1828 is an equal-mass binary system,
+with log g = 4.5 and [m/H] = −1.0. The result is consistent with the spectral-fit temperature
+presented by Leggett et al. (2021).
+De Furio et al. (2023) present JWST imaging observations of the Y dwarf WISEP
+J182831.08+265037.8 (hereafter WISE 1828), observed with NIRCam and NIRISS filters: F090W,
+F115W, F162M, F335M, F360M, F470M, and F480M. WISE 1828 is known to be unusual, being very
+bright and red in mid-infrared colors. The red colors suggest metal paucity (Figure 2 and Leggett
+et al. 2021) and the brightness suggests that the system is multiple. However De Furio et al. exclude
+a similarly bright companion at distances greater than 0.5 AU. WISE 1828 continues to be very red
+and bright in Figure 2. Leggett et al. (2021) determine T = 375 K, log g = 4.0, and [m/H] = −0.5
+eff
+from a spectral fit, assuming the system is an equal-mass binary. We estimated T from the F162M,
+eff
+F380M, and F480M colors using the log g = 4.5 [m/H] = −1 relationships in Table 1, adopting the
+binary solution so that the value inferred from M was consistent with that inferred from the
+F480M
+other two colors. The value of T = 364±19 K agrees well with the Leggett et al. (2021) value.
+eff

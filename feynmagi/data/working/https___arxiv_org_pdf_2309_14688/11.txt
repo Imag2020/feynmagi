@@ -1,0 +1,73 @@
+3. Solution method
+For brevity, this section only focuses on the solution approach for (15a)–(15f). The model involving
+schedule coordination (i.e., Eq. (18) and (19)) can be solved in a highly similar fashion. Section 3.1
+derives the properties characterizing a globally optimal solution. Section 3.2 furnishes a heuristic
+solution algorithm built upon these optimality properties.
+3.1 Optimality properties
+To simplify the presentation, we begin by defining the following aggregate demand quantities and
+functions:
+Λ = Λ +Λ ; (20a)
+𝑝 𝑑
+𝐿 𝑊
+Λ = ∫ ∫ 𝜆 (𝑥,𝑦)𝑑𝑦𝑑𝑥; (20b)
+𝑝 𝑥=0 𝑦=0 𝑝
+𝐿 𝑊
+Λ = ∫ ∫ 𝜆 (𝑥,𝑦)𝑑𝑦𝑑𝑥; (20c)
+𝑑 𝑥=0 𝑦=0 𝑑
+𝑊
+Λ (𝑥)= ∫ 𝜆 (𝑥,𝑦)𝑑𝑦, 0 ≤ 𝑥 ≤ 𝐿; (20d)
+𝑝𝑥 𝑦=0 𝑝
+𝑊
+Λ (𝑥)= ∫ 𝜆 (𝑥,𝑦)𝑑𝑦, 0 ≤ 𝑥 ≤ 𝐿; (20e)
+𝑑𝑥 𝑦=0 𝑑
+𝑊
+Λ (𝑥,𝑦)= ∫ 𝜆 (𝑥,𝑧)𝑑𝑧,0 ≤ 𝑥 ≤ 𝐿,0 ≤ 𝑦 ≤ 𝑊; (20f)
+𝑝𝑥𝑦 𝑧=𝑦 𝑝
+𝑊
+Λ (𝑥,𝑦)= ∫ 𝜆 (𝑥,𝑧)𝑑𝑧,0 ≤ 𝑥 ≤ 𝐿,0 ≤ 𝑦 ≤ 𝑊; (20g)
+𝑑𝑥𝑦 𝑧=𝑦 𝑑
+𝑊
+𝛭 (𝑥)= ∫ 𝜆 (𝑥,𝑦)Λ (𝑥,𝑦)𝑑𝑦,0 ≤ 𝑥 ≤ 𝐿; (20h)
+𝑝𝑥 𝑦=0 𝑝 𝑝𝑥𝑦
+𝑊
+𝛭 (𝑥)= ∫ 𝜆 (𝑥,𝑦)Λ (𝑥,𝑦)𝑑𝑦,0 ≤ 𝑥 ≤ 𝐿. (20i)
+𝑑𝑥 𝑦=0 𝑑 𝑑𝑥𝑦
+where Λ, Λ , and Λ represent the total hourly demand for both directions combined, the collection
+𝑝 𝑑
+direction, and the distribution direction, respectively; Λ (𝑥) and Λ (𝑥) the demand densities
+𝑝𝑥 𝑑𝑥
+integrated over the 𝑦-direction at location 𝑥 for collection and distribution travels, respectively; and
+Λ (𝑥,𝑦) and Λ (𝑥,𝑦) the demand densities at location 𝑥, integrated from 𝑦 to the top edge of
+𝑝𝑥𝑦 𝑑𝑥𝑦
+Ω , for collection and distribution travels, respectively (note that Λ (𝑥,0) = Λ (𝑥) and
+𝑝𝑥𝑦 𝑝𝑥
+Λ (𝑥,0)= Λ (𝑥)). The Λ (𝑥,𝑦) and Λ (𝑥,𝑦) are utilized to calculate the onboard patron
+𝑑𝑥𝑦 𝑑𝑥 𝑝𝑥𝑦 𝑑𝑥𝑦
+numbers at 𝑦 for a bus on a line located at 𝑥. Lastly, 𝛭 (𝑥) and 𝛭 (𝑥) are employed to calculate
+𝑝𝑥 𝑑𝑥
+the total dwell time loss for all patrons combined.
+The following functions are defined for further simplification of the optimality properties:
+𝛼(𝑥)=
+1
+(𝜋
+(𝑊+𝑥)+𝜋𝑚(𝑊+𝑥)
++𝜋 𝜏
+∫𝑊 1
+𝑑𝑦),0 ≤ 𝑥 ≤ 𝐿; (21a)
+𝜃 𝑣 𝑣𝐼 𝑚 0 𝑦=0𝐵(𝑥,𝑦)
+2
+𝛽 (𝑥)= 𝜏 [Λ (𝑥)] +2𝜏 𝛭 (𝑥),0 ≤ 𝑥 ≤ 𝐿; (21b)
+𝑝 𝑎 𝑝𝑥 𝑏 𝑝𝑥
+𝛽 (𝑥)= 2𝜏 𝛭 (𝑥),0 ≤ 𝑥 ≤ 𝐿; (21c)
+𝑑 𝑎 𝑑𝑥
+1 𝑊 1
+𝛾(𝑥)= 𝜋 ∫ 𝑑𝑦,0 ≤ 𝑥 ≤ 𝐿. (21d)
+𝜃 𝑠 𝑦=0𝐵(𝑥,𝑦)
+Here 𝛼(𝑥) denotes the agency cost rate per bus on a line located at 𝑥 , excluding the agency cost
+associated with boarding and alighting patrons; 𝛽 (𝑥) and 𝛽 (𝑥) are related to the boarding and
+𝑝 𝑑
+alighting time loss in the collection and distribution travel directions, respectively; and 𝛾(𝑥) represents
+the stop infrastructure cost rate for a line located at 𝑥.
+Note that Λ (𝑥,𝑦), Λ (𝑥,𝑦), 𝛭 (𝑥), 𝛭 (𝑥), 𝛽 (𝑥), and 𝛽 (𝑥) are needed because the
+𝑝𝑥𝑦 𝑑𝑥𝑦 𝑝𝑥 𝑑𝑥 𝑝 𝑑
+12

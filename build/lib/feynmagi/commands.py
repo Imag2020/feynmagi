@@ -225,7 +225,7 @@ def get_datetime():
         datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 
-def display_file(file_path):
+def display_file(file_path,page=1):
     """
     Reads the contents of a file and displays them in a black background box with buttons to copy and download.
     
@@ -265,26 +265,39 @@ def display_file(file_path):
     send_textfile(html_content)
     return("File Displyed")
 
-def read_file(file_path):
-    dir_path=pkg_resources.resource_filename('feynmagi', 'data/working/')
-    file_path=dir_path+file_path
+def read_file(file_path, page=1):
     """
-    Reads the contents of a file and returns them.
+    Reads the contents of a file and returns the content of the specified page.
     
     :param file_path: Path to the file to be read
-    :return: Contents of the file
+    :param page: Page number to be returned (default is 1)
+    :return: Contents of the specified page of the file
     """
     if not os.path.exists(file_path):
         return f"Error: File '{file_path}' does not exist."
     
-    with open(file_path, 'r',encoding='utf-8') as file:
+    with open(file_path, 'r', encoding='utf-8') as file:
         contents = file.read()
-    return f"\n\n--start\n{contents}\n--end"
+    
+    words = contents.split()
+    words_per_page = 1000
+    total_pages = (len(words) + words_per_page - 1) // words_per_page  # Calculate total pages
+
+    if page > total_pages:
+        page = total_pages  # Set to the last page if requested page is greater than total pages
+    
+    start_index = (page - 1) * words_per_page
+    end_index = start_index + words_per_page
+    page_content = ' '.join(words[start_index:end_index])
+    
+    return f"\n\n--{file_path} page : {page}/{total_pages} content :\n{page_content}\n--end page content"
+
 
 def write_to_file(file_path, text):
+    """
     dir_path=pkg_resources.resource_filename('feynmagi', 'data/working/')
     file_path=dir_path+file_path
-    """
+    
     Writes text to a file, overwriting any existing content.
     
     :param file_path: Path to the file to be written to
@@ -298,9 +311,10 @@ def write_to_file(file_path, text):
     return f"Successfully wrote to '{file_path}'."
 
 def append_to_file(file_path, text):
+    """
     dir_path=pkg_resources.resource_filename('feynmagi', 'data/working/')
     file_path=dir_path+file_path
-    """
+    
     Appends text to a file.
     
     :param file_path: Path to the file to append to

@@ -1,0 +1,586 @@
+ [2305.11190] Statistical and Observation Comparison of Weyl-Type $f(Q,T)$ Models with the $Λ$CDM Paradigm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+Grab your spot at the free arXiv Accessibility Forum
+Forum Schedule
+
+We gratefully acknowledge support fromthe Simons Foundation, Stockholm University, and all contributors. Donate
+
+
+
+
+
+ > gr-qc > arXiv:2305.11190
+  
+
+
+
+
+
+Help | Advanced Search
+
+
+
+
+All fields
+Title
+Author
+Abstract
+Comments
+Journal reference
+ACM classification
+MSC classification
+Report number
+arXiv identifier
+DOI
+ORCID
+arXiv author ID
+Help pages
+Full text
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+open search
+
+
+
+
+
+
+GO
+
+
+
+open navigation menu
+
+
+quick links
+
+Login
+Help Pages
+About
+
+
+
+
+
+
+
+
+
+
+
+
+General Relativity and Quantum Cosmology
+
+
+arXiv:2305.11190 (gr-qc)
+    
+
+
+
+
+  [Submitted on 18 May 2023 (v1), last revised 5 Oct 2023 (this version, v4)]
+Title:Statistical and Observation Comparison of Weyl-Type f(Q,T) Models with the ΛCDM Paradigm
+Authors:Gaurav N. Gadbail, Himanshu Chaudhary, Amine Bouali, P.K. Sahoo View a PDF of the paper titled Statistical and Observation Comparison of Weyl-Type $f(Q,T)$ Models with the $\Lambda$CDM Paradigm, by Gaurav N. Gadbail and 3 other authors
+View PDF
+
+Abstract:We study the f(Q,T) gravity in the framework of Weyl geometry (known as Weyl-type f(Q,T) gravity), where Q denotes the non-metricity scalar, and T denotes the energy-momentum tensor trace. In this work, we consider the f(Q,T) model, which is defined as f(Q,T)=αQm+1+β6κ2T and investigating two scenarios: (I) m=0 (linear model) and (II) m≠0 (nonlinear model). For both scenarios, we find the explicit solution for the field equations by using the barotropic equation of state as p=ωρ, where ω is the equation-of-state (EoS) parameter. Further, we study the obtained solutions statistically using the Pantheon+ dataset with 1701 data points. For both models, the best-fit values of model parameters for 1−σ and 2−σ confidence level are mentioned in table 1 and 2. We statistically compare our models to the ΛCDM model using χ2min, χ2red, AIC and ΔAIC. We also examined the current values of cosmological parameters such as deceleration and EoS parameters to determine the current acceleration expansion of the universe. Furthermore, we test our model using Om diagnostic and compare it to the ΛCDM model to determine its dark energy profile. Finally, we draw the conclusion that, statistically speaking, Weyl f(Q,T) model I (linear model) is more compatible with the ΛCDM model than Weyl f(Q,T) model II (nonlinear model).
+    
+
+
+ 
+Comments:
+13 pages, 5 figures
+
+
+Subjects:
+
+General Relativity and Quantum Cosmology (gr-qc)
+
+Cite as:
+arXiv:2305.11190 [gr-qc]
+
+
+ 
+(or 
+arXiv:2305.11190v4 [gr-qc] for this version)
+          
+ 
+ 
+
+https://doi.org/10.48550/arXiv.2305.11190
+
+
+
+Focus to learn more
+
+
+
+
+                arXiv-issued DOI via DataCite
+              
+
+
+
+
+
+
+
+Submission history From: Himanshu Chaudhary [view email]       [v1]
+        Thu, 18 May 2023 03:27:59 UTC (714 KB)
+[v2]
+Wed, 13 Sep 2023 17:52:57 UTC (1 KB) (withdrawn)
+[v3]
+        Wed, 4 Oct 2023 08:25:54 UTC (718 KB)
+[v4]
+        Thu, 5 Oct 2023 08:10:45 UTC (716 KB)
+
+
+
+ 
+
+Full-text links:
+Access Paper:
+
+
+View a PDF of the paper titled Statistical and Observation Comparison of Weyl-Type $f(Q,T)$ Models with the $\Lambda$CDM Paradigm, by Gaurav N. Gadbail and 3 other authorsView PDFTeX SourceOther Formats
+view license
+
+ 
+    Current browse context: gr-qc
+
+
+< prev
+
+  |   
+next >
+
+
+new
+ | 
+recent
+ | 2023-05
+
+
+
+References & Citations
+
+
+INSPIRE HEP
+
+NASA ADSGoogle Scholar
+Semantic Scholar
+
+
+
+
+a
+export BibTeX citation
+Loading...
+
+
+
+
+BibTeX formatted citation
+×
+
+
+loading...
+
+
+Data provided by: 
+
+
+
+
+Bookmark
+
+
+
+
+
+ 
+
+
+
+
+Bibliographic Tools
+
+Bibliographic and Citation Tools
+
+
+
+
+
+
+Bibliographic Explorer Toggle
+
+
+
+Bibliographic Explorer (What is the Explorer?)
+
+
+
+
+
+
+
+Litmaps Toggle
+
+
+
+Litmaps (What is Litmaps?)
+
+
+
+
+
+
+
+scite.ai Toggle
+
+
+
+scite Smart Citations (What are Smart Citations?)
+
+
+
+
+
+
+
+
+Code, Data, Media
+
+Code, Data and Media Associated with this Article
+
+
+
+
+
+
+Links to Code Toggle
+
+
+
+CatalyzeX Code Finder for Papers (What is CatalyzeX?)
+
+
+
+
+
+
+
+DagsHub Toggle
+
+
+
+DagsHub (What is DagsHub?)
+
+
+
+
+
+
+
+GotitPub Toggle
+
+
+
+Gotit.pub (What is GotitPub?)
+
+
+
+
+
+
+
+Links to Code Toggle
+
+
+
+Papers with Code (What is Papers with Code?)
+
+
+
+
+
+
+
+ScienceCast Toggle
+
+
+
+ScienceCast (What is ScienceCast?)
+
+
+
+
+
+
+
+
+
+
+
+Demos
+
+Demos
+
+
+
+
+
+
+Replicate Toggle
+
+
+
+Replicate (What is Replicate?)
+
+
+
+
+
+
+
+Spaces Toggle
+
+
+
+Hugging Face Spaces (What is Spaces?)
+
+
+
+
+
+
+
+Spaces Toggle
+
+
+
+TXYZ.AI (What is TXYZ.AI?)
+
+
+
+
+
+
+
+
+Related Papers
+
+Recommenders and Search Tools
+
+
+
+
+
+
+Link to Influence Flower
+
+
+
+Influence Flower (What are Influence Flowers?)
+
+
+
+
+
+
+
+Connected Papers Toggle
+
+
+
+Connected Papers (What is Connected Papers?)
+
+
+
+
+
+
+
+Core recommender toggle
+
+
+
+CORE Recommender (What is CORE?)
+
+ 
+
+
+
+
+IArxiv recommender toggle
+
+
+
+IArxiv Recommender
+(What is IArxiv?)
+
+
+
+
+
+
+Author
+Venue
+Institution
+Topic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        About arXivLabs
+      
+
+
+
+arXivLabs: experimental projects with community collaborators
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.
+
+
+
+
+
+
+
+
+
+
+Which authors of this paper are endorsers? |
+    Disable MathJax (What is MathJax?)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+About
+Help
+
+
+
+
+
+contact arXivClick here to contact arXiv
+ Contact
+
+
+subscribe to arXiv mailingsClick here to subscribe
+ Subscribe
+
+
+
+
+
+
+
+
+
+
+
+Copyright
+Privacy Policy
+
+
+
+
+Web Accessibility Assistance
+
+
+arXiv Operational Status 
+                    Get status notifications via
+                    email
+                    or slack
+
+
+
+
+
+ 
+
+
+
+
+

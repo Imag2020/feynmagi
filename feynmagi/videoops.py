@@ -11,13 +11,14 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 #model_id = 'microsoft/Florence-2-large'
 model_id = 'microsoft/Florence-2-base'
+'''
 model = AutoModelForCausalLM.from_pretrained(model_id, trust_remote_code=True).eval().cuda()
 '''
 if device =='cuda':
     model.cuda()
 '''   
 processor = AutoProcessor.from_pretrained(model_id, trust_remote_code=True)
-
+'''
 def run_example(image, task_prompt, text_input=None):
     if text_input is None:
         prompt = task_prompt

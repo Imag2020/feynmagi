@@ -1,0 +1,52 @@
+LeiWangetal. ASurveyonLargeLanguageModelbasedAutonomousAgents 39
+ding,andgenomics. arXivpreprintarXiv:2307.02502, 131. ZhangC,YangK,HuS,WangZ,LiG,SunY,ZhangC,
+2023 ZhangZ,LiuA,ZhuSC,others. Proagent: Building
+118. DroriI,ZhangS,ShuttleworthR,TangL,LuA,KeE, proactive cooperative ai with large language models.
+Liu K, Chen L, Tran S, Cheng N, others . A neural arXivpreprintarXiv:2308.11339,2023
+networksolves,explains,andgeneratesuniversitymath 132. HuB,ZhaoC,others.Enablingintelligentinteractions
+problemsbyprogramsynthesisandfew-shotlearning betweenanagentandanllm:Areinforcementlearning
+athumanlevel. ProceedingsoftheNationalAcademy approach. arXiv:2306.03604,2023
+ofSciences,2022,119(32): e2123433119 133. Wu Y, Min S Y, Bisk Y, Salakhutdinov R, Azaria A,
+119. Chen M, Tworek J, Jun H, Yuan Q, Pinto H P d O, LiY,MitchellT,PrabhumoyeS. Plan,eliminate,and
+KaplanJ,EdwardsH,BurdaY,JosephN,Brockman track–languagemodelsaregoodteachersforembodied
+G,others. Evaluatinglargelanguagemodelstrained agents. arXivpreprintarXiv:2305.02412,2023
+oncode. arXivpreprintarXiv:2107.03374,2021 134. Zhang D, Chen L, Zhang S, Xu H, Zhao Z, Yu K.
+120. LiffitonM,SheeseBE,SavelkaJ,DennyP. Codehelp: Largelanguagemodelsaresemi-parametricreinforce-
+Usinglargelanguagemodelswithguardrailsforscal- mentlearningagents. AdvancesinNeuralInformation
+ablesupportinprogrammingclasses. In: Proceedings ProcessingSystems,2024,36
+ofthe23rdKoliCallingInternationalConferenceon 135. DiPaloN,ByravanA,HasencleverL,WulfmeierM,
+ComputingEducationResearch. 2023,1–11 HeessN,RiedmillerM. Towardsaunifiedagentwith
+121. Matelsky J K, Parodi F, Liu T, Lange R D, Kording foundation models. In: Workshop on Reincarnating
+KP. Alargelanguagemodel-assistededucationtool ReinforcementLearningatICLR2023. 2023
+toprovidefeedbackonopen-endedresponses. arXiv 136. XiangJ,TaoT,GuY,ShuT,WangZ,YangZ,HuZ.
+preprintarXiv:2308.02439,2023 Languagemodelsmeetworldmodels: Embodiedexpe-
+122. GrossmannI,FeinbergM,ParkerDC,ChristakisNA, riencesenhancelanguagemodels. Advancesinneural
+Tetlock P E, Cunningham W A. Ai and the trans- informationprocessingsystems,2024,36
+formation of social science research. Science, 2023, 137. WuJ,AntonovaR,KanA,LepertM,ZengA,SongS,
+380(6650): 1108–1109 BohgJ,RusinkiewiczS,FunkhouserT. Tidybot: Per-
+123. HeZ,WuH,ZhangX,YaoX,ZhengS,ZhengH,YuB. sonalizedrobotassistancewithlargelanguagemodels.
+Chateda:Alargelanguagemodelpoweredautonomous arXivpreprintarXiv:2305.05658,2023
+agentforeda. In: 2023ACM/IEEE5thWorkshopon 138. Mehta N, Teruel M, Sanz P F, Deng X, Awadallah
+MachineLearningforCAD(MLCAD). 2023,1–6 AH,KiselevaJ. Improvinggroundedlanguageunder-
+124. HuangX,LianJ,LeiY,YaoJ,LianD,XieX. Rec- standinginacollaborativeenvironmentbyinteracting
+ommenderaiagent: Integratinglargelanguagemod- with agents through help feedback. arXiv preprint
+els for interactive recommendations. arXiv preprint arXiv:2304.10750,2023
+arXiv:2308.16505,2023 139. LiH,HaoY,ZhaiY,QianZ. Thehitchhiker’sguide
+125. DengG,LiuY,Mayoral-VilchesV,LiuP,LiY,XuY, to program analysis: A journey with large language
+ZhangT,LiuY,PinzgerM,RassS.Pentestgpt:Anllm- models. arXivpreprintarXiv:2308.00245,2023
+empoweredautomaticpenetrationtestingtool. arXiv 140. Dasgupta I, Kaeser-Chen C, Marino K, Ahuja A,
+preprintarXiv:2308.06782,2023 BabayanS,HillF,FergusR. Collaboratingwithlan-
+126. al. e S. Smolmodels. https://github.com/ guagemodelsforembodiedreasoning. arXivpreprint
+smol-ai/developer,2023 arXiv:2302.00763,2023
+127. al. e M U. DemoGPT. https://github.com/ 141. ZhouW,PengX,RiedlM. Dialogueshaping: Empow-
+melih-unsal/DemoGPT,2023 ering agents through npc interaction. arXiv preprint
+128. al.eAO. GPTengineer. https://github.com/ arXiv:2307.15833,2023
+AntonOsika/gpt-engineer,2023 142. NottinghamK,AmmanabroluP,SuhrA,ChoiY,Ha-
+129. XiaY,ShenoyM,JazdiN,WeyrichM. Towardsau- jishirziH,SinghS,FoxR. Doembodiedagentsdream
+tonomoussystem: flexiblemodularproductionsystem ofpixelatedsheep?: Embodieddecisionmakingusing
+enhanced with large language model agents. arXiv languageguidedworldmodelling. In: Workshopon
+preprintarXiv:2304.14721,2023 ReincarnatingReinforcementLearningatICLR2023.
+130. OgundareO,MadasuS,WigginsN. Industrialengi- 2023
+neeringwithlargelanguagemodels: Acasestudyof 143. Wu Z, Wang Z, Xu X, Lu J, Yan H. Embodied task
+chatgpt’sperformanceonoil&gasproblems. arXiv planningwithlargelanguagemodels. arXivpreprint
+preprintarXiv:2304.14354,2023 arXiv:2307.01848,2023

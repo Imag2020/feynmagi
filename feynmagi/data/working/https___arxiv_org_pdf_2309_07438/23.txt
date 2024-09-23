@@ -1,0 +1,103 @@
+24
+augmentation,” Advances in neural information processing systems, [161] G. Richard, A. d. Mathelin, G. He´brail, M. Mougeot, and N. Vay-
+vol.31,2018. atis,“Unsupervisedmulti-sourcedomainadaptationforregression,”in
+[139] K. Zhou, Y. Yang, T. Hospedales, and T. Xiang, “Deep domain- MachineLearningandKnowledgeDiscoveryinDatabases:European
+adversarial image generation for domain generalisation,” in Proceed- Conference, ECML PKDD 2020, Ghent, Belgium, September 14–18,
+ings of the AAAI Conference on Artificial Intelligence, vol. 34, 2020,Proceedings,PartI,pp.395–411,Springer,2021.
+pp.13025–13032,2020. [162] J. Ye, A. Giani, A. Elasser, S. K. Mazumder, C. Farnell, H. A.
+[140] F.Qiao,L.Zhao,andX.Peng,“Learningtolearnsingledomaingen- Mantooth, T. Kim, J. Liu, B. Chen, G.-S. Seo, W. Song, M. D. R.
+eralization,”inProceedingsoftheIEEE/CVFConferenceonComputer Greidanus, S. Sahoo, F. Blaabjerg, J. Zhang, L. Guo, B. Ahn, M. B.
+VisionandPatternRecognition,pp.12556–12565,2020. Shadmand, N. R. Gajanur, and M. A. Abbaszada, “A review of
+[141] L. Zhao, T. Liu, X. Peng, and D. Metaxas, “Maximum-entropy ad- cyber–physical security for photovoltaic systems,” IEEE Journal of
+versarial data augmentation for improved generalization and robust- Emerging and Selected Topics in Power Electronics, vol. 10, no. 4,
+ness,” Advances in Neural Information Processing Systems, vol. 33, pp.4879–4901,2022.
+pp.14435–14447,2020. [163] D. Zhang, G. Feng, Y. Shi, and D. Srinivasan, “Physical safety and
+cyber security analysis of multi-agent systems: A survey of recent
+[142] R. Zhu and S. Li, “Crossmatch: Cross-classifier consistency regular-
+advances,” IEEE/CAA Journal of Automatica Sinica, vol. 8, no. 2,
+ization for open-set single domain generalization,” in International
+pp.319–333,2021.
+ConferenceonLearningRepresentations,2022.
+[164] B.Yang,L.Guo,F.Li,J.Ye,andW.Song,“Vulnerabilityassessments
+[143] Z. Xu, D. Liu, J. Yang, C. Raffel, and M. Niethammer, “Robust and
+of electric drive systems due to sensor data integrity attacks,” IEEE
+generalizablevisualrepresentationlearningviarandomconvolutions,”
+TransactionsonIndustrialInformatics,vol.16,no.5,pp.3301–3310,
+arXivpreprintarXiv:2007.13003,2020.
+2020.
+[144] K. Zhou, C. C. Loy, and Z. Liu, “Semi-supervised domain general-
+[165] J. Ye, L. Guo, B. Yang, F. Li, L. Du, L. Guan, and W. Song,
+ization with stochastic stylematch,” arXiv preprint arXiv:2106.00592,
+“Cyber–physical security of powertrain systems in modern electric
+2021.
+vehicles:Vulnerabilities,challenges,andfuturevisions,”IEEEJournal
+[145] F. C. Borlino, A. D’Innocente, and T. Tommasi, “Rethinking domain
+of Emerging and Selected Topics in Power Electronics, vol. 9, no. 4,
+generalization baselines,” in 2020 25th International Conference on
+pp.4639–4657,2021.
+PatternRecognition(ICPR),pp.9227–9233,IEEE,2021.
+[166] K.A.T.Lasagani,Acommunicationmethodforremotecontrolofgrid-
+[146] K.Zhou,Y.Yang,T.Hospedales,andT.Xiang,“Learningtogenerate tied converters. PhD thesis, Memorial University of Newfoundland,
+noveldomainsfordomaingeneralization,”inComputerVision–ECCV 2018.
+2020:16thEuropeanConference,Glasgow,UK,August23–28,2020, [167] L. K. A. Terashmila, T. Iqbal, and G. Mann, “A comparison of low
+Proceedings,PartXVI16,pp.561–578,Springer,2020. cost wireless communication methods for remote control of grid-tied
+[147] K.Zhou,Y.Yang,Y.Qiao,andT.Xiang,“Domaingeneralizationwith converters,”in2017IEEE30thCanadianConferenceonElectricaland
+mixstyle,”arXivpreprintarXiv:2104.02008,2021. ComputerEngineering(CCECE),pp.1–4,2017.
+[148] K. Zhou, Y. Yang, Y. Qiao, and T. Xiang, “Mixstyle neural net- [168] Q.Yang,J.A.Barria,andT.C.Green,“Communicationinfrastructures
+works for domain generalization and adaptation,” arXiv preprint fordistributedcontrolofpowerdistributionnetworks,”IEEETransac-
+arXiv:2107.02053,2021. tionsonIndustrialInformatics,vol.7,no.2,pp.316–327,2011.
+[149] A. Ben-Tal, D. Den Hertog, A. De Waegenaere, B. Melenberg, and [169] S. Sahoo, T. Dragicˇevic´, and F. Blaabjerg, “Cyber security in control
+G. Rennen, “Robust solutions of optimization problems affected by ofgrid-tiedpowerelectronicconverters–challengesandvulnerabilities,”
+uncertainprobabilities,”ManagementScience,vol.59,no.2,pp.341– IEEEJournalofEmergingandSelectedTopicsinPowerElectronics,
+357,2013. 2019.
+[150] J.C.Duchi,P.W.Glynn,andH.Namkoong,“Statisticsofrobustopti- [170] N. F. Roslan, A. Luna, J. Rocabert, J. I. Candela, and P. Rodriguez,
+mization: A generalized empirical likelihood approach,” Mathematics “Remote power control injection of grid-connected power converters
+ofOperationsResearch,vol.46,no.3,pp.946–969,2021. basedonvirtualflux,”Energies,vol.11,no.3,p.488,2018.
+[151] Y.Oren,S.Sagawa,T.B.Hashimoto,andP.Liang,“Distributionally [171] S.-K. Kim, J.-H. Jeon, C.-H. Cho, J.-B. Ahn, and S.-H. Kwon,
+robustlanguagemodeling,”arXivpreprintarXiv:1909.02060,2019. “Dynamicmodelingandcontrolofagrid-connectedhybridgeneration
+[152] S. Shafieezadeh Abadeh, P. M. Mohajerin Esfahani, and D. Kuhn, systemwithversatilepowertransfer,”IEEEtransactionsonindustrial
+“Distributionally robust logistic regression,” Advances in Neural In- electronics,vol.55,no.4,pp.1677–1688,2008.
+formationProcessingSystems,vol.28,2015. [172] M. R. Habibi, H. R. Baghaee, T. Dragiˇcevi´c, and F. Blaabjerg,
+“Detectionoffalsedatainjectioncyber-attacksindcmicrogridsbased
+[153] H. Namkoong and J. C. Duchi, “Variance-based regularization with
+onrecurrentneuralnetworks,”IEEEJournalofEmergingandSelected
+convexobjectives,”Advancesinneuralinformationprocessingsystems,
+TopicsinPowerElectronics,pp.1–1,2020.
+vol.30,2017.
+[173] S. Sahoo, S. Mishra, J. C.-H. Peng, and T. Dragicˇevic´, “A stealth
+[154] J. Duchi and H. Namkoong, “Learning models with uniform per-
+cyber-attackdetectionstrategyfordcmicrogrids,”IEEETransactions
+formance via distributionally robust optimization,” arXiv preprint
+onPowerElectronics,vol.34,no.8,pp.8162–8174,2019.
+arXiv:1810.08750,2018.
+[174] S. Liu, S. You, H. Yin, Z. Lin, Y. Liu, W. Yao, and L. Sundaresh,
+[155] S.HajifarandH.Sun,“Onlinedomainadaptationforcontinuouscross-
+“Model-freedataauthenticationforcybersecurityinpowersystems,”
+subjectliverviabilityevaluationbasedonirregularthermaldata,”IISE
+IEEETransactionsonSmartGrid,vol.11,no.5,pp.4565–4568,2020.
+Transactions,vol.54,no.9,pp.869–880,2022.
+[175] L. Haghnegahdar and Y. Wang, “A whale optimization algorithm-
+[156] M. A. A. H. Khan, N. Roy, and A. Misra, “Scaling human activity
+trained artificial neural network for smart grid cyber intrusion detec-
+recognitionviadeeplearning-baseddomainadaptation,”in2018IEEE
+tion,” Neural computing and applications, vol. 32, no. 13, pp. 9427–
+internationalconferenceonpervasivecomputingandcommunications
+9441,2020.
+(PerCom),pp.1–9,IEEE,2018.
+[176] M. R. Habibi, H. R. Baghaee, T. Dragicˇevic´, and F. Blaabjerg, “De-
+[157] J. Wang, V. W. Zheng, Y. Chen, and M. Huang, “Deep transfer tectionoffalsedatainjectioncyber-attacksindcmicrogridsbasedon
+learning for cross-domain activity recognition,” in proceedings of the recurrent neural networks,” IEEE Journal of Emerging and Selected
+3rd International Conference on Crowd Science and Engineering, TopicsinPowerElectronics,vol.9,no.5,pp.5294–5310,2021.
+pp.1–8,2018. [177] F. Li, Q. Li, J. Zhang, J. Kou, J. Ye, W. Song, and A. H. Mantooth,
+[158] Y.Ganin,E.Ustinova,H.Ajakan,P.Germain,H.Larochelle,F.Lavi- “Detectionanddiagnosisofdataintegrityattacksinsolarfarmsbased
+olette,M.Marchand,andV.Lempitsky,“Domain-adversarialtraining on multi-layer long short-term memory network,” IEEE Transactions
+ofneuralnetworks,”Thejournalofmachinelearningresearch,vol.17, onPowerElectronics,2020.
+no.1,pp.2096–2030,2016. [178] Q.Li,F.Li,J.Zhang,J.Ye,W.Song,andA.Mantooth,“Data-driven
+[159] G. Wilson, J. R. Doppa, and D. J. Cook, “Multi-source deep domain cyberattackdetectionforphotovoltaic(pv)systemsthroughanalyzing
+adaptation with weak supervision for time-series sensor data,” in micro-pmu data,” in 2020 IEEE Energy Conversion Congress and
+Proceedings of the 26th ACM SIGKDD international conference on Exposition(ECCE),pp.431–436,2020.
+knowledgediscovery&datamining,pp.1768–1778,2020. [179] F. Li, R. Xie, B. Yang, L. Guo, P. Ma, J. Shi, J. Ye, and W. Song,
+[160] A. Mazankiewicz, K. Bo¨hm, and M. Berge´s, “Incremental real-time “Detection and identification of cyber and physical attacks on distri-
+personalization in human activity recognition using domain adaptive bution power grids with pvs: An online high-dimensional data-driven
+batchnormalization,”ProceedingsoftheACMonInteractive,Mobile, approach,” IEEE Journal of Emerging and Selected Topics in Power
+WearableandUbiquitousTechnologies,vol.4,no.4,pp.1–20,2020. Electronics,2019.

@@ -1,0 +1,39 @@
+comprehensive CA models to explore the optimal fixed-route feeder design problem under spatially
+heterogeneous demand. The models aim to minimize the sum of the feeder system’s operating cost and
+the feeder patrons’ travel cost, as well as their transfer cost at the rail terminal. They account for the
+impacts of boarding and alighting passengers on dwell times and transfer times, and optimize the
+spatially varied stop spacings for each feeder line1, as well as the line spacings, headways, and vehicle
+size. Additionally, our models can effectively harness the greater potential of schedule coordination by
+incorporating coordination efforts in both patron collection and distribution directions.
+The models are solved by combining the first-order condition results with an iterative search
+algorithm. Extensive numerical analyses are performed to examine: (i) the accuracy of the CA models;
+(ii) the properties of the optimal design; (iii) the sensitivity of cost savings to the value of time, demand
+pattern, demand rate, service region size, and alternative feeder line layouts; and (iv) the effects of
+schedule coordination for each service direction individually, as well as for both directions
+simultaneously. The results unveil new insights with practical implications.
+The main contributions of this paper are summarized as follows:
+(i) To our best knowledge, we are the first to model the optimal fixed-route feeder network design
+with heterogeneous stop spacings under heterogeneous demand by incorporating more realistic
+dwell time and transfer delay models and the vehicle capacity constraint. Our results indicate
+that the system cost reduction by considering heterogeneous stop spacings is moderate but
+consistent, and is larger when the demand is more heterogeneous.
+(ii) We explore the fuller benefit of schedule coordination between trunk and feeder services in
+both service directions, acknowledging the asymmetry in schedule coordination between the
+two service directions.
+(iii) Through numerical analyses, we demonstrate how various operating factors (e.g., the demand’s
+spatial pattern, demand rate, and service region size) affect the optimal feeder network design
+and the cost savings compared to homogeneous designs and designs not considering
+heterogeneous stop spacings.
+In addition, we compare two alternative feeder line layouts and find that it consistently results in
+lower costs for feeder buses to travel along the shorter side of the service region to make stops and
+along the longer side to the rail station without stopping.
+The rest of the paper is structured as follows. Section 2 presents the problem setup and the CA
+model formulation. Analytical properties of the optimal solution and the solution algorithm are furnished
+in Section 3. Section 4 discusses the numerical case study results and findings. Finally, conclusions and
+future work are outlined in Section 5.
+2. Methodology
+Assumptions and settings of our feeder design problem are presented in Section 2.1. The cost models
+1 Incorporating the optimization of heterogeneous stop spacing increases the modeling complexity, as our CA models involve
+a bivariate decision function (i.e., stop spacing is a function of two spatial coordinates, 𝑥 and 𝑦) and double integrals of that
+decision function; see Section 2.
+5

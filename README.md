@@ -1,6 +1,6 @@
 <p align="center">
   <img src="feynmagi/static/img/Feynmagi_64x64.png" align="left" />
-  <h1 align="center">Feynmagi V 0.1.30 </h1>
+  <h1 align="center">Feynmagi V 0.1.31 </h1>
 </p>
 
 
@@ -21,6 +21,10 @@
 - You can access it from any browser at localhost:5000
 
 ## 🌟 Feynmagi is a multi-modal tool for  MLLM interactive agents that integrates all the latest AI technologies into a single application, capable of running models locally on CPU or GPU (via Ollama). It incorporates proprietary code for embedding, RAG, and interactive AI, designed to model intelligent AIs with the goal of experimenting with AGI.
+In this alpha test version 0.1.30, we add:
+- Agents management with next agent call
+- UI messages I/O display update with atatch button
+  
 In this alpha test version 0.1.30, we add:
 - Agents management with live run and cron scheduler 
 - swicth to gemma2 default local llm

@@ -1,0 +1,71 @@
+We chose Gazebo as our target robot simulation envi- Hardware Reality Realization
+ronment that we intend to extend with new function- Input/Output
+alities to make it capable of being applied as a CPS. Actuators
+Servos, etc.
+Gazebo (Gazebo 2017) offers the ability to accurately
+and efficiently simulate populations of robots in com- Encoders Embedded Controllers
+Sensors on the E.g., PID loop to follow
+plex indoor and outdoor environments. It has a robust real robot effort setpoint TCP port 30003 TCP port 30001
+Robot status Robot control messages
+physics engine, high-quality graphics, and convenient hardware_interface::RobotHW via Polyscope
+programmatic and graphical interfaces. Gazebo is free Provides b P eo ts wit eio en n, rV oe sl _o cc oit ny t, r oan l hd a E rf df wor at r I enterfaces Change network characteristics
+and widely used among robotic experts. Forward State Joint Limits
+Transmission Enforce limits (optional)
+The mainchallengewiththe designprinciple ofGazebo Account for special
+mechanisms Effort Transmissions Network emulator
+isthatthecontrolofactuatorsisdeployedandrunprac- Account for special
+mechanisms ur_modern_driver
+tically locally to the actuators. In this case, there is no
+need to consider the effects of a non-ideal link between Hardware Resource Interface Layer effort velocity
+the actuator and the controller. Considering the CPS Joint State Interface Joint Command Interface ROS Interface
+JointStateInterface VelocityInterface joint_trajectory
+context, as controllers are moved away from actuators, ROS Interface
+it becomes natural and even necessary to analyze the C Loo an dt sr , o ul nl le or a dM s,a an na dg ce ar lls updates to controllers velocity joint_states
+effects of the network link between them. jC oo inn tt _ro stll ae tr e: _publisher Controller: PID Loops update()
+Publishes /joint_states topic for joint_trajectory_controller
+Gazebo has a plugin system that we target to use to robot_publisher Send a trajectory from MoveIT
+provide us an interface to our modular network simula-
+Figure 1: Target architecture to be realized with simu-
+tion environment. The goalof this paper is to show the
+lator
+design principles of the network plugin and provide the
+research community with a tool for further research in
+CPS.
+some limitations. The limitation of this solution is that
+THEMEASUREMENTSETUP THATWEGO it is capable to simulate only one robot. There is no
+FOR chance to integrate the robot in complex environments
+as you can configure with Gazebo e.g., interacting with
+other mechanical elements in the workspace, check col-
+The CPS that we address to measure is a robotic arm
+lisions with the environment, etc.
+(UR5 (UR5 2017)) controlled remotely with velocity
+commands. ThemaingoalistomeasureQualityofCon-
+MOTIVATION AND RELATED WORK
+trol (QoC) e.g., cumulated PID error during trajectory
+execution, cumulated difference in joint space between
+COMPETITIONS
+the executed and calculated trajectories, etc. related
+KPIs during various network conditions in this setup.
+Figure 1 shows the use case with real hardware that A frontier method to push researchgroups to their lim-
+we target to simulate in Gazebo. The left side of the its is to organize competitions. DARPA, a research
+figure (Hardware) shows the same data elements de- group in the U.S. Department of Defense, announced
+scribed in (roscontrol 2017), whereas the right side of the DARPA Robotics Challenge with a US $2 million
+the picture (Realization) uses the same colors for the dollar prize for the team that could produce a first re-
+boxes to describe a specific realization. In the spe- sponder robot performing a set of tasks required in an
+cific case, the UR5 can be accessed via TCP/IP ports emergency situation. During the DARPA Trials of De-
+50001 to send command messages and port 50003 to cember 2013, a restrictive device was inserted into the
+read the robot status messages. The trajectories are controlcomputersofeachcompetingteamandthecom-
+computed by MoveIt (MoveIt 2017). MoveIt sends tra- puter that formed the ’brain’ of the robot. The intent
+jectoriesto the controllermanagerwhichstartsa veloc- of the network degradationwas to roughly simulate the
+ity controller (yellow), a specific type of ros control. kindoflessthanperfectcommunicationsthatmightex-
+Theur modern driver(Andersen2015)implementsthe istduringthosekindsofemergencyordisastersituations
+hardwareresourceinterface layerby simply copyingthe in which these robots would be deployed. The restric-
+velocity control packets to the proper TCP sockets. A tive device –, a Mini Maxwell network emulator from
+middle node can be deployed between the robot driver InterWorking Labs – alternated between a ’good’ mode
+and the robot (green) that can alter the network char- anda’bad’modeofnetworkcommunication,everysixty
+acteristics. seconds. ’Good’ minutes permitted communications at
+A trivia approach to setup the above architecture arateof1Mbps(ineitherdirection)andabasedelayof
+in a simulation environment is provided by Universal 50ms(ineachdirection.) ’Bad’minutespermittedcom-
+Robots. Universal Robots simulator software (URSim munications at a rate of 100 Kbps (in either direction)
+2017) is a java software package that makes it possible and a base delay of 500 ms (in each direction.) At the
+to create and run programs on a simulated robot, with end of each minute, a transition occurred from bad-to-

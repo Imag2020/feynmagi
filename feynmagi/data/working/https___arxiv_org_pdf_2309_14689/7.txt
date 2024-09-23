@@ -1,0 +1,106 @@
+8
+3.45 3.5 3.55 3.6 3.65 3.7
+M (GeV/c2)
+K s0K±π±
+)2c/VeG
+200.0(
+/
+stnevE
+104 Combined
+γχ
+γηc (J 2S)
+c
+KKπ
+103 π0s KKπ
+s
+Other bkg
+Continuum bkg
+102
+10
+1
+3.45 3.5 3.55 3.6 3.65 3.7
+M
+K+K π0
+(GeV/c2)
+)2c/VeG
+200.0(
+/
+stnevE
+104
+Combined
+γχ
+γηc (J 2S)
+c
+103 KKπ0π0
+KKπ0
+Other bkg
+Continuum bkg
+102
+10
+1
+3.58 3.6 3.62 3.64 3.66 3.68 3.7
+M (GeV/c2)
+K s0K±π±
+)2c/VeG
+200.0(
+/
+stnevE
+140
+Combined γχ
+120 γηc (J 2S)
+c
+KKπ
+s
+100 π0KKπ
+s
+Other bkg
+80 Continuum bkg
+60
+40
+20
+0
+3.58 3.6 3.62 3.64 3.66 3.68 3.7
+M
+K+K π0
+(GeV/c2)
+)2c/VeG
+200.0(
+/
+stnevE
+(a) (b)
+140
+(c) (d) C γχombined
+120 γηc (J 2S)
+c
+KKπ0π0
+100 KKπ0
+Other bkg
+80 Continuum bkg
+60
+40
+20
+0
+FIG. 2. The distributions of the invariant mass spectra of KK¯π. The fit results in the whole fit range (a,b) and in the
+range only containing ηc(2S) signal (c,d). (a) and (c) are for the K S0K±π∓ mode, (b) and (d) are for the K+K−π0 mode.
+Dots with error bars are data, blue solid curves are the best results from the simultaneous fits. The blue dashed lines are the
+ηc(2S)signals,andtheotherdashedlinesarebackgrounds,amongwhichthepink,red,black,greenandcyanonesarefromthe
+ψ(3686) π0+KK¯π events, the ψ(3686) KK¯π events, the ψ(3686) γχc1,2 events, other contributions, and continuum
+→ → →
+contribution, respectively. For plots (a) and (c), thedata statistics is summed overthe two charge conjugated modes.
+The line-shapes of the χ are described with the fromMCsimulation,withtheFSRandnon-FSRcompo-
+c1,2
+simulated MC shapes convoluted with a single Gaussian nentsreweightedbycorrectedf . Weaddthecontinu-
+FSR
+functionforthedifferenceinresolutionofM KK¯π between umbackgroundscontributionwithshiftedmassspectrum
+data andMC simulation,and their parametersarefloat- shape, and the numbers of continuum backgrounds are
+ed in the fit. fixed. We describe all other smooth backgrounds with
+the shape fixed to that from the inclusive MC sample
+WeuseaNovosibirskfunction[27]toparameterizethe
+while the number of events are floated.
+backgrounds of ψ(3686) π0KK¯π events from data,
+→
+with the shape of the function and the number of back- The yields of the η (2S) signal are 692 42 in the
+c
+ground events fixed. For the background of ψ(3686) K+K−π0 mode and 963 58 in the K0K±±π∓ mode.
+KK¯π with and without γ , the shape is extract→ ed From the signal MC sim± ulations, we oS btain the effi-
+FSR

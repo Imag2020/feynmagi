@@ -1,0 +1,48 @@
+20 Front. Comput. Sci.,2024,0(0): 1–42
+examples in the prompt. Similar techniques are if an action fails, the explainer generates specific
+also used in CoT-SC [49] and ToT [50]. In So- details explaining the cause of the failure. This
+cialAGI [30], in order to enhance the agent self- information is then incorporated by the agent to
+awareness capability in conversation, the authors redesigntheplan. InRoCo[93],theagentfirstpro-
+promptLLMswiththeagentbeliefsaboutthemen- poses a sub-task plan and a path of 3D waypoints
+talstatesofthelistenersanditself,whichmakesthe for each robot in a multi-robot collaboration task.
+generatedutterancemoreengagingandadaptive. In Theplanandwaypointsarethenvalidatedbya set
+addition,theauthorsalsoincorporatethetargetmen- ofenvironmentchecks,suchascollisiondetection
+talstatesofthelisteners,whichenablestheagents andinversekinematics. Ifanyofthechecksfail,the
+to make more strategic plans. Retroformer [91] feedbackisappendedtoeachagent’spromptandan-
+presentsaretrospectivemodelthatenablestheagent otherroundofdialogbegins. TheagentsuseLLMs
+to generate reflections on its past failures. The re- to discuss and improve their plan and waypoints
+flectionsareintegratedintothepromptofLLMsto untiltheypassallvalidations. InPREFER[94],the
+guidetheagent’sfutureactions. Additionally,this agentfirstevaluatesitsperformanceonasubsetof
+model utilizes reinforcement learning to iteratively data. If it fails to solve certain examples, LLMs
+improve the retrospective model, thereby refining areleveragedtogeneratefeedbackinformationre-
+theLLMprompt. flectingonthereasonsofthefailure. Basedonthis
+•MechanismEngineering. Unlikemodelfine- feedback, the agent improves itself by iteratively
+refiningitsactions.
+tuning and prompt engineering, mechanism engi-
+neeringisauniquestrategytoenhanceagentcapa- (2) Crowd-sourcing. In [95], theauthors design
+bility. Inthefollowing,wepresentseveralrepresen- a debating mechanism that leverages the wisdom
+tativemethodsofmechanismengineering. of crowds to enhance agent capabilities. To begin
+with,differentagentsprovideseparateresponsesto
+(1)Trial-and-error. Inthismethod,theagentfirst
+a given question. If their responses are not consis-
+performsanaction,andsubsequently,apre-defined
+tent,they willbepromptedtoincorporate thesolu-
+criticisinvokedtojudgetheaction. Iftheactionis
+tionsfromotheragentsandprovideanupdatedre-
+deemedunsatisfactory,thentheagentreactsbyin-
+sponse. Thisiterativeprocesscontinuesuntilreach-
+corporatingthecritic’sfeedback. InRAH[92],the
+ing a final consensus answer. In this method, the
+agentservesasauserassistantinrecommendersys-
+capabilityofeachagentisenhancebyunderstand-
+tems. Oneoftheagent’scrucialrolesistosimulate
+ingandincorporatingtheotheragents’opinions.
+humanbehaviorandgenerateresponsesonbehalf
+of the user. To fulfill this objective, the agent first (3)ExperienceAccumulation. InGITM[16],the
+generatesapredictedresponseandthencompares agentdoesnotknowhowtosolveataskinthebegin-
+it with the real human feedback. If the predicted ning. Then, it makes explorations, and once it has
+response and the real human feedback differ, the successfully accomplisheda task, theactions used
+criticgenerates failureinformation, whichis subse- inthistaskarestoredintotheagentmemory. Inthe
+quentlyincorporatedintotheagent’snextaction. In future, if the agent encounters a similar task, then
+DEPS[33],theagentfirstdesignsaplantoaccom- the relevant memories are extracted to complete the
+plish a given task. In the plan execution process, currenttask. In thisprocess, theimprovedagent ca-

@@ -1,0 +1,59 @@
+13
+learning by minimizing predicted domain labels, while others b) Individual vehicle: On top of powertrain control, a
+aim to minimize the discrepancy between learned features vehiclecanbebettercontrolledbyleveragingCVinformation.
+from the source and target domains [117]. First, vehicle speed can be optimized based on predicted
+2) Connected and Autonomous Vehicles: Emerging smart future traffic conditions. For example, a CAV can receive
+transportation technologies such as connected and automated future SPaT to arrive at an intersection during green light
+vehicles (CAVs) provide new opportunities to improve safety, and avoid waste due to braking. This is referred to as Eco-
+energy efficiency, sustainability, and mobility of the automo- approach applications [319], [320], [321]. Second, vehicle
+tive and transportation sector [297], [298], [299]. Connected routingcanbeplannedtoreducetraveltimebasedonreal-time
+vehicles (CVs) are essentially edge IoT devices that can con- information of the traffic flow speed [322], [323].
+nect to the internet or other edge devices such as surrounding c) Multi-vehicle cooperative driving automation (CDA):
+CVs, smart infrastructures (e.g., traffic signal lights), and An individual vehicle-based vehicle control strategy can be
+other connected road users (e.g., pedestrians, cyclists). CVs selfish and compromise the performance of other vehicles.
+are equipped with onboard communication devices that are CDAstrategiescanbedevelopedtooptimizemultiplevehicles
+enabled by communication technologies [300], [301] such as to achieve global optimality for both the overall traffic and
+5G,C-V2X,ordedicatedshort-rangecommunication(DSRC). eachvehicle(agent).Applicationssuchascooperativeadaptive
+Thus, real-time communication can be established to obtain cruise control [324], [325], [326], [327], cooperative merging
+information on other vehicles’ position and speed, signal [328], [329], [330], [331], speed harmonization [332], [333]
+phase and timing (SPaT), routing and road curvatures, etc. have been proposed in the literature. In addition, when con-
+In addition to connectivity, a CV equipped with vehicle au- sideringmultipleCAVs,cooperativeperception[334]becomes
+tomationtechnologiesbecomesaCAVwhosereal-timevehicle possiblewhereCAVscollaborativelyperceivetheenvironment
+states and motions can be precisely controlled. SAE has to extend perception beyond local sensing capability, improve
+defined different levels of automation [302], from advanced safety, and reduce the computational power needed.
+driver assistance systems (ADAS) such as adaptive cruise d) Traffic infrastructure: In addition to vehicle-centered
+control (ACC), lane keeping, to fully automated vehicles. control strategies, traffic infrastructures can be further opti-
+CAV technologies not only leverage real-time communication mized as CVs provide real-time traffic information regarding
+to significantly extend the line-of-sight of a human driver arrival time, demand, routing, etc. The literature has studied
+or traditional onboard sensors to receive traffic information various applications, including smart signal control strategies
+hundreds of meters away [303], but also bring in new control [335], [336], [337], variable speed limit [338], [339], ramp
+means through vehicle automation. Therefore, future traffic metering [340], [341], etc. Also, because of IoT, CVs or con-
+conditions can be predicted more precisely to provide oppor- nected infrastructures can be used as remote sensing devices
+tunitiesforproactivevehiclesortrafficcontrolstrategies[297]. to provide real-time traffic data. Proactive traffic management
+ManyCAVtechnologieshavebeenstudiedintheliterature. strategies [342], [343] can be designed to improve overall
+It is necessary to give an introduction to the state-of-the-art traffic performance, such as lane management, incident and
+CAV applications before discussing how AGI can potentially emergency response, and provision of information and guid-
+address challenges in the current literature. CAV technologies ance.
+can be categorized into the following levels based on control It is anticipated that combining the above categories can
+means: introduce further benefits. For example, both individual and
+a) Powertrain: A vehicle’s powertrain control includes multi-vehicle control strategies can be integrated with power-
+energy management strategy (EMS) and transmission gear train level control to improve performance for CAVs [307],
+shifting control. EMS determines the battery-engine power- [319].Co-optimizedvehiclesandtrafficinfrastructurecontrol,
+split of hybrid electric vehicles (HEVs), power-split of hy- such as integrated vehicle speed and signal light control,
+draulic hybrid vehicles (HHVs), and multi-motor power-split can avoid conflicts between the two systems and maximize
+of electric vehicles (EVs). Transmission gear shifting control energy efficiency and mobility [344], [345]. Recently, the
+changes the torque and speed ratios between the engine and electrificationofvehiclesandtransportationhasattractedmore
+thedriveline[304].Powertraincontrolstrategiesinproduction attention,andseveralnewopportunitieshavebeenproposedin
+vehiclesareoftentunedconservativelyforthemostdemanding the literature. EVs have different powertrain architectures and
+conditions to balance between efficiency and drivability. They can be controlled to improve powertrain efficiency. Electrified
+are mostly rule-based and cannot adapt to varying driving vehicles generally have a faster response time to effectively
+conditions [305], [306]. Many smart powertrain control ap- control and actuate the vehicles in highly dynamic driving
+proaches have been studied in literature to leverage better conditions. EVs also have more electrical power onboard
+predicted future conditions from CVs. Therefore, powertrain to support increased computational capabilities for complex
+efficiency can be improved by proactively controlling gear driving tasks.
+shiftingofconventionalvehiclesorpower-splitofHEVs[307], AGI can be a promising solution for the above CAV and
+[308],[309],[310],[311],HHVs[312],[313],[314],andEVs smarttransportationapplicationsintheliterature.Alltheabove
+[315], [316], [317]. For example, EMS can use more battery applications require an effective prediction of future traffic
+power when it anticipates a HEV will decelerate during an conditions, which relies on the modeling and understanding
+intersection as the battery power will be replenished from of the overall system. The system can include several vehicle
+regenerative braking [318]. types with clearly different driving behaviors: human-driven

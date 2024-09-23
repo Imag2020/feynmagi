@@ -1,0 +1,35 @@
+satellite city connected to a trunk transit system (e.g., the city of Langfang connected to the intercity
+high-speed rail network, and cities in the San Francisco Bay Area connected to the BART system). The
+relationships between 𝜋 , 𝜋 and 𝐾, 𝜃 are obtained using empirical data; see Appendix D for
+𝑣 𝑚
+details.
+Regarding the hyperparameters of the solution algorithm, we find that 𝑚 = 30 and 𝑛 = 20
+yield sufficiently accurate numerical solutions. Further increasing 𝑚 or 𝑛 renders a relative
+percentage change in the generalized cost of less than 0.5%. Thus, the values of 𝑚 and 𝑛 are set to
+30 and 20, respectively. The error tolerance 𝜀 is set to 0.0001. Each numerical instance is solved using
+various combinations of initial values, consistently converging to the same optimal solution. A typical
+instance’s solution is found within 30 seconds.
+4.2 Validating the accuracy of the CA cost functions
+To examine the accuracy of the CA cost functions, we first convert the optimal CA solution, which
+comprises continuous functions for headways, line and stop spacings, into a specific feeder system
+design. This is done using the method described in Appendix C. Following this, we recalculate the
+generalized cost and each cost component for comparison. We apply a demand pattern with Λ = Λ =
+𝑝 𝑑
+1200 patrons/h, 𝜇 = 𝜇 = 0 , 𝜇 = 𝜇 = 0 , 𝜎 = 𝜎 = 𝐿⁄4 , and 𝜎 = 𝜎 = 𝑊⁄4 .
+𝑥𝑝 𝑥𝑑 𝑦𝑝 𝑦𝑑 𝑥𝑝 𝑥𝑑 𝑦𝑝 𝑦𝑑
+These parameter values suggest that the demand is concentrated near the terminal, a common scenario
+where the trunk transit station is located in an area with high neighboring demand. The spatial
+distribution of the demand is illustrated in Fig. 4. We set the bus capacity at 𝐾 = 10 (e.g., a 10-
+passenger Ford Transit Van). The converted feeder network, comprising the layout of feeder lines and
+the locations of stops (denoted by square markers), is illustrated in Fig. 5. The figure reveals that the
+bus lines and stops are more densely clustered near the terminal, reflecting the demand distribution
+shown in Fig. 4. It is worth noting that the line and stop locations can be fine-tuned to align with the
+local street network. For a case study on adapting a conceptual design to a local city street network,
+please refer to Estrada et al. (2011).
+Fig. 4 The demand densities (patron/km2/h) in the collection direction for a terminal-centered demand
+Percentage errors are computed between the recalculated cost terms and those of the CA cost
+functions. The results are displayed in Table 3. Note that the error in generalized cost is only 0.73%,
+and the error in each cost component remains consistently below 2%. This demonstrates the accuracy
+of our CA cost functions.8
+8 The error can be further reduced by an improved method for generating the specific network design; see the details in
+16

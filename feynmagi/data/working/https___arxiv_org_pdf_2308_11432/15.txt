@@ -1,0 +1,65 @@
+16 Front. Comput. Sci.,2024,0(0): 1–42
+MM-REACT [76] integrates various externalmod- the surroundingenvironment, and summarize high-
+els, such as VideoBERT for video summarization, levelideasbasedonbasicobservations. Withoutthe
+X-decoderforimagegeneration,andSpeechBERT commonsense understandingcapability ofLLMs,
+for audio processing, enhancing its capability in thesebehaviorscannotbereliablysimulated. Sim-
+diversemultimodalscenarios. ilar conclusions may also apply to RecAgent [21]
+andS3[77],wheretheagentsaimtosimulateuser
+•InternalKnowledge. Inadditiontoutilizing
+recommendationandsocialbehaviors.
+externaltools,manyagentsrelysolelyontheinter-
+ActionImpact: Actionimpactreferstothecon-
+nalknowledgeofLLMstoguidetheiractions. We
+sequences of the action. In fact, the action impact
+now present several crucial capabilities of LLMs
+canencompassnumerousinstances,butforbrevity,
+that can support the agent to behave reasonably
+weonlyprovideafewexamples. (1)ChangingEn-
+and effectively. (1) Planning Capability. Previ-
+vironments. Agentscandirectlyalterenvironment
+ous workhas demonstrated thatLLMs can be used
+states by actions, such as moving their positions,
+asdecentplanerstodecomposecomplextaskinto
+collecting items, constructing buildings, etc. For
+simpler ones [45]. Such capability of LLMs can
+instance,inGITM[16]andVoyager[38],theenvi-
+be even triggered without incorporating examples
+ronmentsarechangedbytheactionsoftheagents
+in the prompts [46]. Based on the planning capa-
+intheirtaskcompletionprocess. Forexample,ifthe
+bility of LLMs, DEPS [33] develops a Minecraft
+agent minesthree woods, thenthey may disappear
+agent, which can solve complex task via sub-goal
+in the environments. (2) Altering Internal States.
+decomposition. SimilaragentslikeGITM[16]and
+Actionstakenbytheagentcanalsochangetheagent
+Voyager [38] also heavily rely on the planning ca-
+itself, including updating memories, forming new
+pability of LLMs to successfully complete differ-
+plans,acquiringnovelknowledge,andmore. Forex-
+enttasks. (2)ConversationCapability. LLMscan
+ample, inGenerativeAgents [20], memorystreams
+usually generate high-quality conversations. This
+areupdatedafterperformingactionswithinthesys-
+capability enables the agent to behave more like
+tem. SayCan [78] enables agents to take actions
+humans. In the previous work, many agents take
+to update understandings of the environment. (3)
+actionsbasedonthestrongconversationcapability
+TriggeringNewActions. Inthetaskcompletionpro-
+ofLLMs. Forexample,inChatDev [18],different
+cess, one agent action can be triggered by another
+agentscan discussthe softwaredevelopingprocess,
+one. For example, Voyager [38] constructs build-
+andevencanmakereflectionsontheirownbehav-
+ingsonceithasgatheredallthenecessaryresources.
+iors. InRLP[30],theagentcancommunicatewith
+thelistenersbasedontheirpotentialfeedbackonthe
+2.2 AgentCapabilityAcquisition
+agent’sutterance. (3)CommonSenseUnderstand-
+ing Capability. Another important capability of In the above sections, we mainly focus on how
+LLMsisthattheycanwellcomprehendhumancom- to design the agent architecture to better inspire
+mon sense. Based on this capability, many agents thecapabilityofLLMstomakeitqualifiedforac-
+cansimulatehumandailylifeandmakehuman-like complishing tasks like humans. The architecture
+decisions. For example, in Generative Agent, the functions as the“hardware” of theagent. However,
+agent can accurately understand its current state, relying solely on the hardware is insufficient for

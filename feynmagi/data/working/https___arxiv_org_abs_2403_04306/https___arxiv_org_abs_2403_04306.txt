@@ -1,0 +1,577 @@
+ [2403.04306] Effectiveness Assessment of Recent Large Vision-Language Models
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+Grab your spot at the free arXiv Accessibility Forum
+Forum Schedule
+
+We gratefully acknowledge support fromthe Simons Foundation, Stockholm University, and all contributors. Donate
+
+
+
+
+
+ > cs > arXiv:2403.04306
+  
+
+
+
+
+
+Help | Advanced Search
+
+
+
+
+All fields
+Title
+Author
+Abstract
+Comments
+Journal reference
+ACM classification
+MSC classification
+Report number
+arXiv identifier
+DOI
+ORCID
+arXiv author ID
+Help pages
+Full text
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+open search
+
+
+
+
+
+
+GO
+
+
+
+open navigation menu
+
+
+quick links
+
+Login
+Help Pages
+About
+
+
+
+
+
+
+
+
+
+
+
+
+Computer Science > Computer Vision and Pattern Recognition
+
+
+arXiv:2403.04306 (cs)
+    
+
+
+
+
+  [Submitted on 7 Mar 2024 (v1), last revised 11 Jun 2024 (this version, v4)]
+Title:Effectiveness Assessment of Recent Large Vision-Language Models
+Authors:Yao Jiang, Xinyu Yan, Ge-Peng Ji, Keren Fu, Meijun Sun, Huan Xiong, Deng-Ping Fan, Fahad Shahbaz Khan View a PDF of the paper titled Effectiveness Assessment of Recent Large Vision-Language Models, by Yao Jiang and 7 other authors
+View PDF
+
+Abstract:The advent of large vision-language models (LVLMs) represents a remarkable advance in the quest for artificial general intelligence. However, the model's effectiveness in both specialized and general tasks warrants further investigation. This paper endeavors to evaluate the competency of popular LVLMs in specialized and general tasks, respectively, aiming to offer a comprehensive understanding of these novel models. To gauge their effectiveness in specialized tasks, we employ six challenging tasks in three different application scenarios: natural, healthcare, and industrial. These six tasks include salient/camouflaged/transparent object detection, as well as polyp detection, skin lesion detection, and industrial anomaly detection. We examine the performance of three recent open-source LVLMs, including MiniGPT-v2, LLaVA-1.5, and Shikra, on both visual recognition and localization in these tasks. Moreover, we conduct empirical investigations utilizing the aforementioned LVLMs together with GPT-4V, assessing their multi-modal understanding capabilities in general tasks including object counting, absurd question answering, affordance reasoning, attribute recognition, and spatial relation reasoning. Our investigations reveal that these LVLMs demonstrate limited proficiency not only in specialized tasks but also in general tasks. We delve deep into this inadequacy and uncover several potential factors, including limited cognition in specialized tasks, object hallucination, text-to-image interference, and decreased robustness in complex problems. We hope that this study can provide useful insights for the future development of LVLMs, helping researchers improve LVLMs for both general and specialized applications.
+    
+
+
+ 
+Comments:
+Accepted by Visual Intelligence
+
+
+Subjects:
+
+Computer Vision and Pattern Recognition (cs.CV); Artificial Intelligence (cs.AI); Machine Learning (cs.LG)
+
+Cite as:
+arXiv:2403.04306 [cs.CV]
+
+
+ 
+(or 
+arXiv:2403.04306v4 [cs.CV] for this version)
+          
+ 
+ 
+
+https://doi.org/10.48550/arXiv.2403.04306
+
+
+
+Focus to learn more
+
+
+
+
+                arXiv-issued DOI via DataCite
+              
+
+
+
+
+
+
+
+Submission history From: Yao Jiang [view email]       [v1]
+        Thu, 7 Mar 2024 08:25:27 UTC (1,677 KB)
+[v2]
+        Mon, 18 Mar 2024 07:21:01 UTC (1,677 KB)
+[v3]
+        Sat, 4 May 2024 02:55:09 UTC (1,683 KB)
+[v4]
+        Tue, 11 Jun 2024 07:42:51 UTC (1,228 KB)
+
+
+
+ 
+
+Full-text links:
+Access Paper:
+
+
+View a PDF of the paper titled Effectiveness Assessment of Recent Large Vision-Language Models, by Yao Jiang and 7 other authorsView PDFTeX SourceOther Formats
+view license
+
+ 
+    Current browse context: cs.CV
+
+
+< prev
+
+  |   
+next >
+
+
+new
+ | 
+recent
+ | 2024-03
+
+    Change to browse by:
+    
+cs
+cs.AI
+cs.LG
+
+
+
+
+References & Citations
+
+NASA ADSGoogle Scholar
+Semantic Scholar
+
+
+
+
+a
+export BibTeX citation
+Loading...
+
+
+
+
+BibTeX formatted citation
+×
+
+
+loading...
+
+
+Data provided by: 
+
+
+
+
+Bookmark
+
+
+
+
+
+ 
+
+
+
+
+Bibliographic Tools
+
+Bibliographic and Citation Tools
+
+
+
+
+
+
+Bibliographic Explorer Toggle
+
+
+
+Bibliographic Explorer (What is the Explorer?)
+
+
+
+
+
+
+
+Litmaps Toggle
+
+
+
+Litmaps (What is Litmaps?)
+
+
+
+
+
+
+
+scite.ai Toggle
+
+
+
+scite Smart Citations (What are Smart Citations?)
+
+
+
+
+
+
+
+
+Code, Data, Media
+
+Code, Data and Media Associated with this Article
+
+
+
+
+
+
+Links to Code Toggle
+
+
+
+CatalyzeX Code Finder for Papers (What is CatalyzeX?)
+
+
+
+
+
+
+
+DagsHub Toggle
+
+
+
+DagsHub (What is DagsHub?)
+
+
+
+
+
+
+
+GotitPub Toggle
+
+
+
+Gotit.pub (What is GotitPub?)
+
+
+
+
+
+
+
+Links to Code Toggle
+
+
+
+Papers with Code (What is Papers with Code?)
+
+
+
+
+
+
+
+ScienceCast Toggle
+
+
+
+ScienceCast (What is ScienceCast?)
+
+
+
+
+
+
+
+
+
+
+
+Demos
+
+Demos
+
+
+
+
+
+
+Replicate Toggle
+
+
+
+Replicate (What is Replicate?)
+
+
+
+
+
+
+
+Spaces Toggle
+
+
+
+Hugging Face Spaces (What is Spaces?)
+
+
+
+
+
+
+
+Spaces Toggle
+
+
+
+TXYZ.AI (What is TXYZ.AI?)
+
+
+
+
+
+
+
+
+Related Papers
+
+Recommenders and Search Tools
+
+
+
+
+
+
+Link to Influence Flower
+
+
+
+Influence Flower (What are Influence Flowers?)
+
+
+
+
+
+
+
+Connected Papers Toggle
+
+
+
+Connected Papers (What is Connected Papers?)
+
+
+
+
+
+
+
+Core recommender toggle
+
+
+
+CORE Recommender (What is CORE?)
+
+
+
+
+
+Author
+Venue
+Institution
+Topic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        About arXivLabs
+      
+
+
+
+arXivLabs: experimental projects with community collaborators
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.
+
+
+
+
+
+
+
+
+
+
+Which authors of this paper are endorsers? |
+    Disable MathJax (What is MathJax?)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+About
+Help
+
+
+
+
+
+contact arXivClick here to contact arXiv
+ Contact
+
+
+subscribe to arXiv mailingsClick here to subscribe
+ Subscribe
+
+
+
+
+
+
+
+
+
+
+
+Copyright
+Privacy Policy
+
+
+
+
+Web Accessibility Assistance
+
+
+arXiv Operational Status 
+                    Get status notifications via
+                    email
+                    or slack
+
+
+
+
+
+ 
+
+
+
+
+

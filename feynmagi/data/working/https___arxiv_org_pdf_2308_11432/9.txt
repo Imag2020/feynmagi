@@ -1,0 +1,45 @@
+10 Front. Comput. Sci.,2024,0(0): 1–42
+approachesareintroducedfortheagenttoacquire step-by-step manner. In this method, the plans are
+reflection. Firstly, the agentcompares successful or created basedon the inspiration fromthe examples
+failed trajectories within the same task. Secondly, intheprompts. Zero-shot-CoT[46]enablesLLMs
+theagentlearnsfromacollectionofsuccessful tra- to generate task reasoning processes by prompt-
+jectoriestogainexperiences. ingthem withtrigger sentenceslike "thinkstep by
+AsignificantdistinctionbetweentraditionalLLMs step". Unlike CoT, this method does not incorpo-
+andtheagentsisthatthelattermustpossesstheca- ratereasoningstepsasexamplesintheprompts. Re-
+pabilitytolearnandcompletetasksindynamicen- Prompting[47]involvescheckingwhethereachstep
+vironments. Ifweconsiderthememorymoduleas meetsthenecessaryprerequisitesbeforegenerating
+responsibleformanagingtheagents’pastbehaviors, a plan. If a step fails to meet the prerequisites, it
+itbecomesessentialtohaveanothersignificantmod- introducesaprerequisiteerrormessageandprompts
+ulethatcanassisttheagentsinplanningtheirfuture theLLMtoregeneratetheplan. ReWOO[48]intro-
+actions. In the following, we present an overview duces aparadigm of separatingplans fromexternal
+ofhowresearchersdesigntheplanningmodule. observations,wheretheagentsfirstgenerateplans
+and obtain observations independently, and then
+2.1.3 PlanningModule combine them together to derive the final results.
+HuggingGPT [13] first decomposes the task into
+When faced with a complex task, humans tend to
+manysub-goals,andthensolveseachofthembased
+deconstructitintosimplersubtasksandsolvethem
+onHuggingface. DifferentfromCoTandZero-shot-
+individually. Theplanningmoduleaimstoempower
+CoT, which outcome all the reasoning steps in a
+the agents with such human capability, which is
+one-shot manner, ReWOO and HuggingGPT pro-
+expectedtomaketheagentbehavemorereasonably,
+ducetheresultsbyaccessingLLMsmultiplytimes.
+powerfully,andreliably. Inspecific,wesummarize
+existing studies based on whether the agent can • Multi-path Reasoning. In this strategy, the
+receive feedback in theplaning process, which are reasoning steps for generating the final plans are
+detailedasfollows: organizedintoatree-likestructure. Eachintermedi-
+PlanningwithoutFeedback: Inthismethod,the atestepmayhavemultiplesubsequentsteps. This
+agentsdonotreceivefeedbackthatcaninfluenceits approach is analogous to human thinking, as indi-
+futurebehaviorsaftertakingactions. Inthefollow- vidualsmayhavemultiplechoicesateachreasoning
+ing,wepresentseveralrepresentativestrategies. step. Inspecific,Self-consistentCoT(CoT-SC)[49]
+• Single-path Reasoning. In this strategy, the believes that each complex problem has multiple
+finaltaskisdecomposedintoseveralintermediate waysofthinkingtodeducethefinalanswer. Thus,it
+steps. Thesestepsareconnectedinacascadingman- startsbyemployingCoTtogeneratevariousreason-
+ner,witheachstepleadingtoonlyonesubsequent ingpathsandcorrespondinganswers. Subsequently,
+step. LLMs follow these steps to achieve the final the answer with the highest frequency is chosen
+goal. Specifically, Chain of Thought (CoT) [45] as the final output. Tree of Thoughts (ToT) [50]
+proposes inputting reasoning steps for solving com- is designed to generate plans using a tree-like rea-
+plex problems into the prompt. These steps serve soning structure. In this approach, each node in
+as examples to inspire LLMs to plan and act in a the tree represents a "thought," which corresponds

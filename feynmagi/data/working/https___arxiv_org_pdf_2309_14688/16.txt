@@ -1,0 +1,36 @@
+Fig. 5 The specific feeder system layout
+Table 3. Percentage errors in cost terms
+Cost terms CA Specific plan Percentage error
+𝐴𝐶, h 98.58 97.85 0.75%
+𝐶 , h 85.96 85.38 0.68%
+𝐴
+𝐶 , h 254.80 254.05 0.30%
+𝑊
+𝐶 , h 125.33 123.29 1.65%
+𝑇
+𝑈𝐶, h 466.10 462.73 0.73%
+𝐺𝐶, h 564.68 560.58 0.73%
+4.3 Optimal feeder system designs without schedule coordination
+We use the same terminal-centered demand pattern as described in Section 4.2 and analyze two
+scenarios with distinct time values: 𝜃 = 5 $/h for a low-wage city and 𝜃 = 20 $/h for a high-wage
+city.
+First, we examine how the optimal generalized cost varies with bus capacity 𝐾 in the two
+scenarios, as depicted in Figs. 6a–b. These figures reveal that the generalized cost is sensitive to 𝐾
+when 𝐾 is small, but becomes less sensitive for larger 𝐾 values. The high-wage city exhibits lower
+sensitivity since the agency cost is associated with a smaller weight. For the same reason, the high-wage
+city favors a slightly smaller vehicle.9
+Throughout the remainder of Section 4, we will focus on the optimal feeder designs using the
+optimal 𝐾 obtained through exhaustive search.
+Figs. 7a and b plot the optimal line spacings and collection-direction headways against the location
+of lines (𝑥 ) under the two scenarios, respectively. In each scenario, the distributions of spatially-
+heterogeneous line spacings and headways match the demand distribution (see Fig. 4); that is, greater
+transit service frequencies and line densities are observed in areas with higher demand densities near
+the terminal. The high-wage city features higher line densities and service frequencies, as patron costs
+carry a larger weight. Nonetheless, the discrepancy between low- and high-wage cities remains
+relatively small. This can be attributed to the fact that 90% of the agency cost, specifically the cost
+Appendix C.
+9 Actual values of 𝐾 depend on the available bus models on the market. In addition, the costs of different vehicles might
+deviate from the unified cost functions derived in Appendix D. Thus, the optimal bus capacity discussed in this study should
+be viewed as a guideline rather than a definitive solution. Transit agencies are advised to consider vehicles with a size
+approximate to, but not necessarily equal to, the optimal 𝐾.
+17

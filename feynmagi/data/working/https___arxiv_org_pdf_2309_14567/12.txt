@@ -1,0 +1,11 @@
+13
+T ≲ 325 K. It would not be surprising that the structure of the atmosphere changes for the coldest
+eff
+Y dwarfs, where water clouds may form within the photosphere (Lacy & Burrows 2023, and Figure
+2). There may also be dynamical changes — Leggett et al. (2021) find that the 260 K WISE 0855 is
+undergoing vigorous mixing with K = 8.7, and that the deviation from a standard adiabat occurs
+zz
+deeper in the atmosphere at P = 50 bar, at temperatures where the nitrogen chemistry is changing
+and the chlorides and sulfides are condensing.
+We look forward to additional JWST data for the coldest Y dwarfs, which will enable exploration
+of this next frontier in the story of cold planetary-mass brown dwarfs.

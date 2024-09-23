@@ -1,0 +1,4 @@
+16
+Figure 5. Color transformations calculated from the ATMO2020++ grid, with surface gravity and metal-
+licity as in the legend. Colors corresponding to x : y are identified in the colored legends. Approximate
+spectral types are indicated along the top axis.

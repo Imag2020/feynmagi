@@ -1,0 +1,100 @@
+23
+[95] J.Cho,J.Lei,H.Tan,andM.Bansal,“Unifyingvision-and-language [118] A. Creswell, T. White, V. Dumoulin, K. Arulkumaran, B. Sengupta,
+tasks via text generation,” in International Conference on Machine and A. A. Bharath, “Generative adversarial networks: An overview,”
+Learning,pp.1931–1942,PMLR,2021. IEEEsignalprocessingmagazine,vol.35,no.1,pp.53–65,2018.
+[96] K. Zhou, Z. Liu, Y. Qiao, T. Xiang, and C. C. Loy, “Domain [119] P. Liao, J. Yan, J. M. Sellier, and Y. Zhang, “Divergence-based
+generalization:Asurvey,”IEEETransactionsonPatternAnalysisand transferabilityanalysisforself-adaptivesmartgridintrusiondetection
+MachineIntelligence,2022. withtransferlearning,”IEEEAccess,vol.10,pp.68807–68818,2022.
+[97] J. Wang, C. Lan, C. Liu, Y. Ouyang, T. Qin, W. Lu, Y. Chen, [120] Y.ZhangandJ.Yan,“Domain-adversarialtransferlearningforrobust
+W. Zeng, and P. Yu, “Generalizing to unseen domains: A survey on intrusion detection in the smart grid,” in 2019 IEEE International
+domain generalization,” IEEE Transactions on Knowledge and Data ConferenceonCommunications,Control,andComputingTechnologies
+Engineering,2022. forSmartGrids(SmartGridComm),pp.1–6,2019.
+[98] J. Mu¨ller, R. Schmier, L. Ardizzone, C. Rother, and U. Ko¨the, [121] X.Li,W.Zhang,Q.Ding,andX.Li,“Diagnosingrotatingmachines
+“Learning robust models using the principle of independent causal with weakly supervised data using deep transfer learning,” IEEE
+mechanisms,” in Pattern Recognition: 43rd DAGM German Confer- TransactionsonIndustrialInformatics,vol.16,no.3,pp.1688–1697,
+ence,DAGMGCPR2021,Bonn,Germany,September28–October1, 2020.
+2021,Proceedings,pp.79–110,Springer,2022. [122] Y.Li,X.Tian,M.Gong,Y.Liu,T.Liu,K.Zhang,andD.Tao,“Deep
+[99] J. Peters, P. Bu¨hlmann, and N. Meinshausen, “Causal inference by domaingeneralizationviaconditionalinvariantadversarialnetworks,”
+using invariant prediction: identification and confidence intervals,” inProceedingsoftheEuropeanconferenceoncomputervision(ECCV),
+Journal of the Royal Statistical Society. Series B (Statistical Method- pp.624–639,2018.
+ology),pp.947–1012,2016. [123] M. M. Rahman, C. Fookes, M. Baktashmotlagh, and S. Sridharan,
+[100] J.Pearl,Causality. Cambridgeuniversitypress,2009. “Correlation-awareadversarialdomainadaptationandgeneralization,”
+[101] M.Arjovsky,L.Bottou,I.Gulrajani,andD.Lopez-Paz,“Invariantrisk PatternRecognition,vol.100,p.107124,2020.
+minimization,”arXivpreprintarXiv:1907.02893,2019. [124] Z. Deng, F. Ding, C. Dwork, R. Hong, G. Parmigiani, P. Patil, and
+[102] K.Ahuja,K.Shanmugam,K.Varshney,andA.Dhurandhar,“Invariant P. Sur, “Representation via representations: Domain generalization
+risk minimization games,” in International Conference on Machine via adversarially learned invariant representations,” arXiv preprint
+Learning,pp.145–155,PMLR,2020. arXiv:2006.11478,2020.
+[103] M. Pezeshki, O. Kaba, Y. Bengio, A. C. Courville, D. Precup, and
+[125] S.Aslani,V.Murino,M.Dayan,R.Tam,D.Sona,andG.Hamarneh,
+G. Lajoie, “Gradient starvation: A learning proclivity in neural net-
+“Scanner invariant multiple sclerosis lesion segmentation from mri,”
+works,”AdvancesinNeuralInformationProcessingSystems,vol.34,
+in 2020 IEEE 17th International Symposium on Biomedical Imaging
+pp.1256–1272,2021. (ISBI),pp.781–785,IEEE,2020.
+[104] D.Krueger,E.Caballero,J.-H.Jacobsen,A.Zhang,J.Binas,D.Zhang,
+[126] C. Finn, P. Abbeel, and S. Levine, “Model-agnostic meta-learning
+R. Le Priol, and A. Courville, “Out-of-distribution generalization via
+for fast adaptation of deep networks,” in International conference on
+risk extrapolation (rex),” in International Conference on Machine
+machinelearning,pp.1126–1135,PMLR,2017.
+Learning,pp.5815–5826,PMLR,2021.
+[127] Y. Zhao, Z. Zhong, F. Yang, Z. Luo, Y. Lin, S. Li, and N. Sebe,
+[105] A.Robey,G.J.Pappas,andH.Hassani,“Model-baseddomaingeneral-
+“Learning to generalize unseen domains via memory-based multi-
+ization,”AdvancesinNeuralInformationProcessingSystems,vol.34,
+sourcemeta-learningforpersonre-identification,”inProceedingsofthe
+pp.20210–20229,2021.
+IEEE/CVF Conference on Computer Vision and Pattern Recognition,
+[106] D. Zhang, K. Ahuja, Y. Xu, Y. Wang, and A. Courville, “Can
+pp.6277–6286,2021.
+subnetworkstructurebethekeytoout-of-distributiongeneralization?,”
+[128] Y. Du, X. Zhen, L. Shao, and C. G. Snoek, “Metanorm: Learning to
+in International Conference on Machine Learning, pp. 12356–12367,
+normalizefew-shotbatchesacrossdomains,”inInternationalConfer-
+PMLR,2021.
+enceonLearningRepresentations,2021.
+[107] M. Rojas-Carulla, B. Scho¨lkopf, R. Turner, and J. Peters, “Invariant
+[129] Q. Dou, D. Coelho de Castro, K. Kamnitsas, and B. Glocker, “Do-
+modelsforcausaltransferlearning,”TheJournalofMachineLearning
+maingeneralizationviamodel-agnosticlearningofsemanticfeatures,”
+Research,vol.19,no.1,pp.1309–1342,2018.
+AdvancesinNeuralInformationProcessingSystems,vol.32,2019.
+[108] M.KoyamaandS.Yamaguchi,“Out-of-distributiongeneralizationwith
+[130] D.Li,Y.Yang,Y.-Z.Song,andT.Hospedales,“Learningtogeneralize:
+maximalinvariantpredictor,”2020.
+Meta-learningfordomaingeneralization,”inProceedingsoftheAAAI
+[109] K. Ahuja, E. Caballero, D. Zhang, J.-C. Gagnon-Audet, Y. Bengio,
+conferenceonartificialintelligence,vol.32,2018.
+I. Mitliagkas, and I. Rish, “Invariance principle meets information
+bottleneck for out-of-distribution generalization,” Advances in Neural [131] Y.Li,Y.Yang,W.Zhou,andT.Hospedales,“Feature-criticnetworks
+InformationProcessingSystems,vol.34,pp.3438–3450,2021.
+forheterogeneousdomaingeneralization,”inInternationalConference
+onMachineLearning,pp.3915–3924,PMLR,2019.
+[110] K. Muandet, D. Balduzzi, and B. Scho¨lkopf, “Domain generalization
+via invariant feature representation,” in International conference on [132] D.Li,Y.Yang,Y.-Z.Song,andT.Hospedales,“Sequentiallearningfor
+machinelearning,pp.10–18,PMLR,2013. domain generalization,” in Computer Vision–ECCV 2020 Workshops:
+[111] S.Erfani,M.Baktashmotlagh,M.Moshtaghi,X.Nguyen,C.Leckie, Glasgow,UK,August23–28,2020,Proceedings,PartI,pp.603–619,
+J.Bailey,andR.Kotagiri,“Robustdomaingeneralisationbyenforcing Springer,2021.
+distribution invariance,” in Proceedings of the Twenty-Fifth Interna- [133] Q. Liu, Q. Dou, and P.-A. Heng, “Shape-aware meta-learning for
+tionalJointConferenceonArtificialIntelligence(IJCAI-16),pp.1455– generalizing prostate mri segmentation to unseen domains,” in Med-
+1461,AAAIPress,2016. ical Image Computing and Computer Assisted Intervention–MICCAI
+[112] Y.Li,M.Gong,X.Tian,T.Liu,andD.Tao,“Domaingeneralization 2020:23rdInternationalConference,Lima,Peru,October4–8,2020,
+viaconditionalinvariantrepresentations,”inProceedingsoftheAAAI Proceedings,PartII23,pp.475–485,Springer,2020.
+conferenceonartificialintelligence,vol.32,2018. [134] T. Hospedales, A. Antoniou, P. Micaelli, and A. Storkey, “Meta-
+[113] X. Jin, C. Lan, W. Zeng, and Z. Chen, “Feature alignment and learninginneuralnetworks:Asurvey,”IEEEtransactionsonpattern
+restoration for domain generalization and adaptation,” arXiv preprint analysisandmachineintelligence,vol.44,no.9,pp.5149–5169,2021.
+arXiv:2006.12009,2020. [135] R. Volpi and V. Murino, “Addressing model vulnerability to distribu-
+[114] S.Motiian,M.Piccirilli,D.A.Adjeroh,andG.Doretto,“Unifieddeep tional shifts over image transformation sets,” in Proceedings of the
+supervised domain adaptation and generalization,” in Proceedings of IEEE/CVF International Conference on Computer Vision, pp. 7980–
+theIEEEinternationalconferenceoncomputervision,pp.5715–5725, 7989,2019.
+2017. [136] L. Zhang, X. Wang, D. Yang, T. Sanford, S. Harmon, B. Turkbey,
+[115] D. Mahajan, S. Tople, and A. Sharma, “Domain generalization using B. J. Wood, H. Roth, A. Myronenko, D. Xu, et al., “Generalizing
+causal matching,” in International Conference on Machine Learning, deeplearningformedicalimagesegmentationtounseendomainsvia
+pp.7313–7324,PMLR,2021. deepstackedtransformation,”IEEEtransactionsonmedicalimaging,
+[116] Z.Wang,M.Loog,andJ.VanGemert,“Respectingdomainrelations: vol.39,no.7,pp.2531–2540,2020.
+Hypothesisinvariancefordomaingeneralization,”in202025thInter- [137] Y. Shi, X. Yu, K. Sohn, M. Chandraker, and A. K. Jain, “Towards
+national Conference on Pattern Recognition (ICPR), pp. 9756–9763, universal representation learning for deep face recognition,” in Pro-
+IEEE,2021. ceedingsoftheIEEE/CVFConferenceonComputerVisionandPattern
+[117] L. Wen, L. Gao, and X. Li, “A new deep transfer learning based on Recognition,pp.6817–6826,2020.
+sparseauto-encoderforfaultdiagnosis,”IEEETransactionsonSystems, [138] R. Volpi, H. Namkoong, O. Sener, J. C. Duchi, V. Murino, and
+Man,andCybernetics:Systems,vol.49,no.1,pp.136–144,2019. S. Savarese, “Generalizing to unseen domains via adversarial data

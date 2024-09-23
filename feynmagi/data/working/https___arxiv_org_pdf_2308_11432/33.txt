@@ -1,0 +1,66 @@
+34 Front. Comput. Sci.,2024,0(0): 1–42
+movies beforehand. Based on the above example, China, fund for building world-class universities
+we mayconclude that forbuilding believableagent (disciplines)ofRenminUniversityofChina,Intelli-
+simulation environment, an important problem is gentSocialGovernancePlatform.
+how to constrain the utilization of user-unknown
+knowledgeofLLM.
+References
+6.6 Efficiency 1. MnihV,KavukcuogluK,SilverD,RusuAA,Veness
+J,BellemareMG,GravesA,RiedmillerM,Fidjeland
+Duetotheirautoregressivearchitecture,LLMstyp- AK,OstrovskiG,others.Human-levelcontrolthrough
+deepreinforcementlearning. nature,2015,518(7540):
+ically have slow inference speeds. However, the
+529–533
+agent may need to query LLMs for each action
+2. Lillicrap T P, Hunt J J, Pritzel A, Heess N, Erez
+multipletimes,suchasextractinginformationfrom T, Tassa Y, Silver D, Wierstra D. Continuous con-
+trolwithdeepreinforcementlearning. arXivpreprint
+memory, make plans before taking actions and so
+arXiv:1509.02971,2015
+on. Consequently,theefficiencyofagentactionsis
+3. SchulmanJ,WolskiF,DhariwalP,RadfordA,Klimov
+greatlyaffectedbythespeedofLLMinference. O. Proximal policy optimization algorithms. arXiv
+preprintarXiv:1707.06347,2017
+4. HaarnojaT,ZhouA,AbbeelP,LevineS. Softactor-
+7 Conclusion critic: Off-policy maximum entropy deep reinforce-
+mentlearningwithastochasticactor. In: International
+Inthissurvey,wesystematicallysummarizeexist- conferenceonmachinelearning. 2018,1861–1870
+5. BrownT,MannB,RyderN,SubbiahM,KaplanJD,
+ingresearchinthefieldofLLM-basedautonomous
+DhariwalP,NeelakantanA,ShyamP,SastryG,Askell
+agents. We present and review these studies from
+A, others . Language models are few-shot learners.
+threeaspectsincludingtheconstruction,application, Advances in neural information processing systems,
+2020,33: 1877–1901
+and evaluation of the agents. For each of these as-
+6. Radford A, Wu J, Child R, Luan D, Amodei D,
+pects, weprovidea detailedtaxonomy todraw con-
+Sutskever I, others . Language models are unsuper-
+nectionsamongthe existing research,summarizing vised multitask learners. OpenAI blog, 2019, 1(8):
+9
+the major techniques and their development histo-
+7. AchiamJ,AdlerS,AgarwalS,AhmadL,AkkayaI,
+ries. Inadditiontoreviewingthepreviouswork,we Aleman F L, Almeida D, Altenschmidt J, Altman S,
+alsoproposeseveralchallengesinthisfield,which Anadkat S, others . Gpt-4 technical report. arXiv
+preprintarXiv:2303.08774,2023
+areexpectedtoguidepotentialfuturedirections.
+8. Anthropic . Model card and evaluations for
+claude models. https://www-files.
+anthropic.com/production/images/
+Acknowledgement
+Model-Card-Claude-2.pdf?ref=
+maginative.com,2023
+This work is supported in part by National Natu-
+9. TouvronH,LavrilT,IzacardG,MartinetX,Lachaux
+ral Science Foundation of China (No. 62102420),
+MA,LacroixT,RozièreB,GoyalN,HambroE,Azhar
+BeijingOutstandingYoungScientistProgramNO. F,others. Llama: Openandefficientfoundationlan-
+guagemodels. arXivpreprintarXiv:2302.13971,2023
+BJJWZYJH012019100020098, Intelligent Social
+10. TouvronH,MartinL,StoneK,AlbertP,AlmahairiA,
+Governance Platform, Major Innovation & Plan- BabaeiY,BashlykovN,BatraS,BhargavaP,Bhosale
+ning Interdisciplinary Platform for the "Double- S,others. Llama2: Openfoundationandfine-tuned
+chatmodels. arXivpreprintarXiv:2307.09288,2023
+FirstClass"Initiative,RenminUniversityofChina,
+11. Chen X, Li S, Li H, Jiang S, Qi Y, Song L. Genera-
+Public Computing Cloud, Renmin University of tiveadversarialusermodelforreinforcementlearning

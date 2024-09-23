@@ -1,0 +1,97 @@
+29
+[344] Z. Yang, Y. Feng, and H. X. Liu, “A cooperative driving framework three-dimensional printing,” Journal of Manufacturing Science and
+forurbanarterialsinmixedtrafficconditions,”TransportationResearch Engineering,vol.142,no.6,p.061003,2020.
+PartC:EmergingTechnologies,vol.124,p.102918,2021. [366] J. Huang, L. J. Segura, T. Wang, G. Zhao, H. Sun, and C. Zhou,
+[345] B. Xu, X. J. Ban, Y. Bian, W. Li, J. Wang, S. E. Li, and K. Li, “Unsupervisedlearningforthedropletevolutionpredictionandprocess
+“Cooperative method of traffic signal optimization and speed control dynamics understanding in inkjet printing,” Additive Manufacturing,
+ofconnectedvehiclesatisolatedintersections,”IEEETransactionson vol.35,p.101197,2020.
+IntelligentTransportationSystems,vol.20,no.4,pp.1390–1403,2019. [367] L.J.Segura,G.Zhao,C.Zhou,andH.Sun,“Nearestneighborgaussian
+[346] Y. Shao, A. Cook, C. Wang, J. Chen, A. Zhou, D. Deter, N. Perry, processemulationformulti-dimensionalarrayresponsesinfreezenano
+B.Thompson,andUSDOEOfficeofEnergyEfficiencyandRenewable 3dprintingofenergydevices,”JournalofComputingandInformation
+Energy,“Real-simflexibleinterfaceforx-in-the-loopsimulation(fixs),” ScienceinEngineering,vol.20,no.4,p.041005,2020.
+72023. [368] L.J.Segura,Z.Li,C.Zhou,andH.Sun,“Dropletevolutionprediction
+[347] Y. Hu, J. Yang, L. Chen, K. Li, C. Sima, X. Zhu, S. Chai, S. Du, inmaterialjettingviatensortimeseriesanalysis,”AdditiveManufac-
+T. Lin, W. Wang, L. Lu, X. Jia, Q. Liu, J. Dai, Y. Qiao, and turing,vol.66,p.103461,2023.
+H.Li,“Planning-orientedautonomousdriving,”inProceedingsofthe [369] P.KamatandR.Sugandhi,“Anomalydetectionforpredictivemainte-
+IEEE/CVF Conference on Computer Vision and Pattern Recognition nanceinindustry4.0-asurvey,”inE3Swebofconferences,vol.170,
+(CVPR),pp.17853–17862,June2023. p.02007,EDPSciences,2020.
+[348] M. Bojarski, D. D. Testa, D. Dworakowski, B. Firner, B. Flepp, [370] B. Lindemann, F. Fesenmayr, N. Jazdi, and M. Weyrich, “Anomaly
+P. Goyal, L. D. Jackel, M. Monfort, U. Muller, J. Zhang, X. Zhang, detection in discrete manufacturing using self-learning approaches,”
+J. Zhao, and K. Zieba, “End to end learning for self-driving cars,” ProcediaCIRP,vol.79,pp.313–318,2019.
+CoRR,vol.abs/1604.07316,2016. [371] L.J.Segura,T.Wang,C.Zhou,andH.Sun,“Onlinedropletanomaly
+[349] A.Prakash,K.Chitta,andA.Geiger,“Multi-modalfusiontransformer detectionfromstreamingvideosininkjetprinting,”AdditiveManufac-
+forend-to-endautonomousdriving,”inProceedingsoftheIEEE/CVF turing,vol.38,p.101835,2021.
+Conference on Computer Vision and Pattern Recognition (CVPR), [372] S. Hajifar, H. Sun, F. M. Megahed, L. A. Jones-Farmer, E. Rashedi,
+pp.7077–7087,June2021. andL.A.Cavuoto,“Aforecastingframeworkforpredictingperceived
+[350] J. Klender, “Tesla full self-driving to feature ”end-to-end ai“ with fatigue: Using time series methods to forecast ratings of perceived
+groundbreakingv12release,”2023. exertion with features from wearable sensors,” Applied Ergonomics,
+[351] H.Lasi,P.Fettke,H.-G.Kemper,T.Feld,andM.Hoffmann,“Industry vol.90,p.103262,2021.
+4.0,” Business & information systems engineering, vol. 6, no. 4, [373] S.K.Kheiri,Z.Vahedi,H.Sun,F.M.Megahed,andL.A.Cavuoto,
+pp.239–242,2014. “Human reliability modeling in occupational environments toward a
+safe and productive operator 4.0,” International Journal of Industrial
+[352] T.Zheng,M.Ardolino,A.Bacchetti,andM.Perona,“Theapplications
+Ergonomics,vol.97,p.103479,2023.
+ofindustry4.0technologiesinmanufacturingcontext:asystematiclit-
+[374] Z.Vahedi,S.KazemiKheiri,S.Hajifar,S.RaganiLamooki,H.Sun,
+eraturereview,”InternationalJournalofProductionResearch,vol.59,
+F.M.Megahed,andL.A.Cavuoto,“Therelationshipbetweenratings
+no.6,pp.1922–1954,2021.
+ofperceivedexertion(rpe)andrelativestrengthforafatiguingdynamic
+[353] L. Bu, Y. Zhang, H. Liu, X. Yuan, J. Guo, and S. Han, “An iiot-
+upper extremity task: A consideration of multiple cycles and condi-
+driven and ai-enabled framework for smart manufacturing system
+tions,” Journal of Occupational and Environmental Hygiene, vol. 20,
+basedonthree-terminalcollaborativeplatform,”AdvancedEngineering
+no.3-4,pp.136–142,2023.
+Informatics,vol.50,p.101370,2021.
+[375] S.R.Lamooki,S.Hajifar,J.Kang,H.Sun,F.M.Megahed,andL.A.
+[354] S. Badini, S. Regondi, E. Frontoni, and R. Pugliese, “Assessing the
+Cavuoto, “A data analytic end-to-end framework for the automated
+capabilitiesofchatgpttoimproveadditivemanufacturingtroubleshoot-
+quantification of ergonomic risk factors across multiple tasks using
+ing,”AdvancedIndustrialandEngineeringPolymerResearch,2023.
+a single wearable sensor,” Applied ergonomics, vol. 102, p. 103732,
+[355] D.C.Montgomery,Statisticalqualitycontrol,vol.7.WileyNewYork,
+2022.
+2009.
+[376] S. Hajifar, S. R. Lamooki, L. A. Cavuoto, F. M. Megahed, and
+[356] J. Shi, Stream of variation modeling and analysis for multistage
+H. Sun, “Investigation of heterogeneity sources for occupational task
+manufacturingprocesses. CRCpress,2006.
+recognition via transfer learning,” Sensors, vol. 21, no. 19, p. 6677,
+[357] J. F. Arinez, Q. Chang, R. X. Gao, C. Xu, and J. Zhang, “Artificial
+2021.
+intelligence in advanced manufacturing: Current status and future
+[377] J. Prinsloo, S. Sinha, and B. von Solms, “A review of industry 4.0
+outlook,”JournalofManufacturingScienceandEngineering,vol.142,
+manufacturingprocesssecurityrisks,”AppliedSciences,vol.9,no.23,
+no.11,p.110804,2020.
+p.5105,2019.
+[358] H. Sun, G. Pedrielli, G. Zhao, C. Zhou, W. Xu, and R. Pan, “Cyber [378] U.P.D.Ani,H.He,andA.Tiwari,“Reviewofcybersecurityissuesin
+coordinatedsimulationfordistributedmulti-stageadditivemanufactur- industrialcriticalinfrastructure:manufacturinginperspective,”Journal
+ing systems,” Journal of manufacturing systems, vol. 57, pp. 61–71, ofCyberSecurityTechnology,vol.1,no.1,pp.32–74,2017.
+2020. [379] T.Murphy,S.Garg,B.Sniderman,andB.Natasha,“Ethicaltechnology
+[359] Q. Huang, J. Zhang, A. Sabbaghi, and T. Dasgupta, “Optimal offline useinthefourthindustrialrevolution,”Deloitte,2019.
+compensation of shape shrinkage for three-dimensional printing pro- [380] O.Mokgoantle,“Ethicsandmoralityinthefourthindustrialrevolution:
+cesses,”Iietransactions,vol.47,no.5,pp.431–441,2015. Rethinkingethics,valuesandinnovationinthedigitalage,”Information
+[360] H.Sun,K.Wang,Y.Li,C.Zhang,andR.Jin,“Qualitymodelingof SystemsAuditandControlAssociation,2021.
+printedelectronicsinaerosoljetprintingbasedonmicroscopicimages,” [381] M.U.Hassan,M.H.Rehmani,andJ.Chen,“Differentialprivacytech-
+Journal of Manufacturing Science and Engineering, vol. 139, no. 7, niques for cyber physical systems: a survey,” IEEE Communications
+p.071012,2017. Surveys&Tutorials,vol.22,no.1,pp.746–789,2019.
+[361] H. Sun, P. K. Rao, Z. J. Kong, X. Deng, and R. Jin, “Functional [382] T. T. Huong, T. P. Bac, D. M. Long, T. D. Luong, N. M. Dan,
+quantitativeandqualitativemodelsforqualitymodelinginafusedde- B.D.Thang,K.P.Tran,etal.,“Detectingcyberattacksusinganomaly
+positionmodelingprocess,”IEEETransactionsonAutomationScience detectioninindustrialcontrolsystems:Afederatedlearningapproach,”
+andEngineering,vol.15,no.1,pp.393–403,2017. ComputersinIndustry,vol.132,p.103509,2021.
+[362] Y.Li,H.Sun,X.Deng,C.Zhang,H.-P.Wang,andR.Jin,“Manufactur- [383] Y. Liu, S. Garg, J. Nie, Y. Zhang, Z. Xiong, J. Kang, and M. S.
+ingqualitypredictionusingsmoothspatialvariableselectionestimator Hossain, “Deep anomaly detection for time-series data in industrial
+with applications in aerosol jet® printed electronics manufacturing,” iot:Acommunication-efficienton-devicefederatedlearningapproach,”
+IISETransactions,vol.52,no.3,pp.321–333,2020. IEEEInternetofThingsJournal,vol.8,no.8,pp.6348–6358,2020.
+[363] H.Sun,X.Deng,K.Wang,andR.Jin,“Logisticregressionforcrystal [384] X.Wang,S.Garg,H.Lin,J.Hu,G.Kaddoum,M.J.Piran,andM.S.
+growth process modeling through hierarchical nonnegative garrote- Hossain,“Towardaccurateanomalydetectioninindustrialinternetof
+basedvariableselection,”IieTransactions,vol.48,no.8,pp.787–796, thingsusinghierarchicalfederatedlearning,”IEEEInternetofThings
+2016. Journal,vol.9,no.10,pp.7110–7119,2021.
+[364] H. Sun, R. Jin, and Y. Luo, “Supervised subgraph augmented non- [385] C. R. Go´mez Rodr´ıguez and E. G. Barrantes S, “Using differential
+negativematrixfactorizationforinterpretablemanufacturingtimeseries privacyfortheinternetofthings,”PrivacyandIdentityManagement.
+dataanalytics,”IISETransactions,vol.52,no.1,pp.120–131,2020. Facing up to Next Steps: 11th IFIP WG 9.2, 9.5, 9.6/11.7, 11.4,
+[365] J. Huang, H. Sun, T.-H. Kwok, C. Zhou, and W. Xu, “Geometric 11.6/SIG 9.2. 2 International Summer School, Karlstad, Sweden, Au-
+deep learning for shape correspondence in mass customization by gust21-26,2016,RevisedSelectedPapers11,pp.201–211,2016.

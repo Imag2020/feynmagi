@@ -1,0 +1,597 @@
+ [2402.12398] Primary and Secondary Factor Consistency as Domain Knowledge to Guide Happiness Computing in Online Assessment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+Grab your spot!
+Want to see access to research regardless of disability? Sign up for the arXiv Accessibility Forum in September and Learn more.
+
+
+Sign Up
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+Grab your spot at the free arXiv Accessibility Forum
+Forum Schedule
+
+We gratefully acknowledge support fromthe Simons Foundation, Stockholm University, and all contributors. Donate
+
+
+
+
+
+ > cs > arXiv:2402.12398
+  
+
+
+
+
+
+Help | Advanced Search
+
+
+
+
+All fields
+Title
+Author
+Abstract
+Comments
+Journal reference
+ACM classification
+MSC classification
+Report number
+arXiv identifier
+DOI
+ORCID
+arXiv author ID
+Help pages
+Full text
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+open search
+
+
+
+
+
+
+GO
+
+
+
+open navigation menu
+
+
+quick links
+
+Login
+Help Pages
+About
+
+
+
+
+
+
+
+
+
+
+
+
+Computer Science > Machine Learning
+
+
+arXiv:2402.12398 (cs)
+    
+
+
+
+
+  [Submitted on 17 Feb 2024]
+Title:Primary and Secondary Factor Consistency as Domain Knowledge to Guide Happiness Computing in Online Assessment
+Authors:Xiaohua Wu, Lin Li, Xiaohui Tao, Frank Xing, Jingling Yuan View a PDF of the paper titled Primary and Secondary Factor Consistency as Domain Knowledge to Guide Happiness Computing in Online Assessment, by Xiaohua Wu and Lin Li and Xiaohui Tao and Frank Xing and Jingling Yuan
+View PDF
+
+Abstract:Happiness computing based on large-scale online web data and machine learning methods is an emerging research topic that underpins a range of issues, from personal growth to social stability. Many advanced Machine Learning (ML) models with explanations are used to compute the happiness online assessment while maintaining high accuracy of results. However, domain knowledge constraints, such as the primary and secondary relations of happiness factors, are absent from these models, which limits the association between computing results and the right reasons for why they occurred. This article attempts to provide new insights into the explanation consistency from an empirical study perspective. Then we study how to represent and introduce domain knowledge constraints to make ML models more trustworthy. We achieve this through: (1) proving that multiple prediction models with additive factor attributions will have the desirable property of primary and secondary relations consistency, and (2) showing that factor relations with quantity can be represented as an importance distribution for encoding domain knowledge. Factor explanation difference is penalized by the Kullback-Leibler divergence-based loss among computing models. Experimental results using two online web datasets show that domain knowledge of stable factor relations exists. Using this knowledge not only improves happiness computing accuracy but also reveals more significative happiness factors for assisting decisions well.
+    
+
+
+ 
+Comments:
+12 pages
+
+
+Subjects:
+
+Machine Learning (cs.LG)
+
+Cite as:
+arXiv:2402.12398 [cs.LG]
+
+
+ 
+(or 
+arXiv:2402.12398v1 [cs.LG] for this version)
+          
+ 
+ 
+
+https://doi.org/10.48550/arXiv.2402.12398
+
+
+
+Focus to learn more
+
+
+
+
+                arXiv-issued DOI via DataCite
+              
+
+
+
+
+
+
+
+Submission history From: Lin Li [view email]       [v1]
+        Sat, 17 Feb 2024 05:39:48 UTC (488 KB)
+
+
+
+ 
+
+Full-text links:
+Access Paper:
+
+
+View a PDF of the paper titled Primary and Secondary Factor Consistency as Domain Knowledge to Guide Happiness Computing in Online Assessment, by Xiaohua Wu and Lin Li and Xiaohui Tao and Frank Xing and Jingling YuanView PDFTeX SourceOther Formats
+view license
+
+ 
+    Current browse context: cs.LG
+
+
+< prev
+
+  |   
+next >
+
+
+new
+ | 
+recent
+ | 2024-02
+
+    Change to browse by:
+    
+cs
+
+
+
+
+References & Citations
+
+NASA ADSGoogle Scholar
+Semantic Scholar
+
+
+
+
+a
+export BibTeX citation
+Loading...
+
+
+
+
+BibTeX formatted citation
+×
+
+
+loading...
+
+
+Data provided by: 
+
+
+
+
+Bookmark
+
+
+
+
+
+ 
+
+
+
+
+Bibliographic Tools
+
+Bibliographic and Citation Tools
+
+
+
+
+
+
+Bibliographic Explorer Toggle
+
+
+
+Bibliographic Explorer (What is the Explorer?)
+
+
+
+
+
+
+
+Litmaps Toggle
+
+
+
+Litmaps (What is Litmaps?)
+
+
+
+
+
+
+
+scite.ai Toggle
+
+
+
+scite Smart Citations (What are Smart Citations?)
+
+
+
+
+
+
+
+
+Code, Data, Media
+
+Code, Data and Media Associated with this Article
+
+
+
+
+
+
+Links to Code Toggle
+
+
+
+CatalyzeX Code Finder for Papers (What is CatalyzeX?)
+
+
+
+
+
+
+
+DagsHub Toggle
+
+
+
+DagsHub (What is DagsHub?)
+
+
+
+
+
+
+
+GotitPub Toggle
+
+
+
+Gotit.pub (What is GotitPub?)
+
+
+
+
+
+
+
+Links to Code Toggle
+
+
+
+Papers with Code (What is Papers with Code?)
+
+
+
+
+
+
+
+ScienceCast Toggle
+
+
+
+ScienceCast (What is ScienceCast?)
+
+
+
+
+
+
+
+
+
+
+
+Demos
+
+Demos
+
+
+
+
+
+
+Replicate Toggle
+
+
+
+Replicate (What is Replicate?)
+
+
+
+
+
+
+
+Spaces Toggle
+
+
+
+Hugging Face Spaces (What is Spaces?)
+
+
+
+
+
+
+
+Spaces Toggle
+
+
+
+TXYZ.AI (What is TXYZ.AI?)
+
+
+
+
+
+
+
+
+Related Papers
+
+Recommenders and Search Tools
+
+
+
+
+
+
+Link to Influence Flower
+
+
+
+Influence Flower (What are Influence Flowers?)
+
+
+
+
+
+
+
+Connected Papers Toggle
+
+
+
+Connected Papers (What is Connected Papers?)
+
+
+
+
+
+
+
+Core recommender toggle
+
+
+
+CORE Recommender (What is CORE?)
+
+ 
+
+
+
+
+IArxiv recommender toggle
+
+
+
+IArxiv Recommender
+(What is IArxiv?)
+
+
+
+
+
+
+Author
+Venue
+Institution
+Topic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        About arXivLabs
+      
+
+
+
+arXivLabs: experimental projects with community collaborators
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.
+
+
+
+
+
+
+
+
+
+
+Which authors of this paper are endorsers? |
+    Disable MathJax (What is MathJax?)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+About
+Help
+
+
+
+
+
+contact arXivClick here to contact arXiv
+ Contact
+
+
+subscribe to arXiv mailingsClick here to subscribe
+ Subscribe
+
+
+
+
+
+
+
+
+
+
+
+Copyright
+Privacy Policy
+
+
+
+
+Web Accessibility Assistance
+
+
+arXiv Operational Status 
+                    Get status notifications via
+                    email
+                    or slack
+
+
+
+
+
+ 
+
+
+
+
+

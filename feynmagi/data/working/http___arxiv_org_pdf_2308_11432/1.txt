@@ -1,0 +1,44 @@
+2 Front. Comput. Sci.,2024,0(0): 1–42
+2021-1 2022-1 2023-2 2023-4 2023-6 2023-8
+Time（Year-Month）
+）detalumuc（srepaPforebmuN
+General Agent
+ChatDev 2023-7
+Tool Agent
+DEPS2023-2 Generative Agent2023-4 Voyager 2023-5
+Simulation Agent
+Embodied Agent
+Toolformer2023-2
+Game Agent WebShop2022-7 GITM2023-5 CO-LLM 2023-7
+Web Agent MIND2WEB2023-6
+Assistant Agent
+InnerMonologue2022-7 AutoGPT2023-3
+AgentSims 2023-8
+ToT2023-5
+CoT 2022-1 HuggingGPT2023-3
+WebGPT
+2021-12
+TALM2022-5 AgentGPT2023-4 RecAgent 2023-6 ToolBench 2023-7
+Fig.1 IllustrationofthegrowthtrendinthefieldofLLM-basedautonomousagents. Wepresentthecumulativenumberof
+paperspublishedfromJanuary2021toAugust2023. Weassigndifferentcolorstorepresentvariousagentcategories. For
+example,agameagentaimstosimulateagame-player,whileatoolagentmainlyfocusesontoolusing. Foreachtimeperiod,
+weprovideacuratedlistofstudieswithdiverseagentcategories.
+complish tasksthrough self-directed planningand research area that employs LLMs as central con-
+actions. Inpreviousstudies,theagentsareassumed trollers to construct autonomous agents to obtain
+to act based on simple and heuristic policy func- human-likedecision-makingcapabilities[11–17].
+tions, and learned in isolated and restricted envi- Comparing with reinforcement learning, LLM-
+ronments [1–6]. Such assumptions significantly based agents have more comprehensive internal
+differsfromthehumanlearningprocess,sincethe world knowledge, whichfacilitates more informed
+humanmindishighlycomplex,andindividualscan agentactionsevenwithouttrainingonspecificdo-
+learn from a much wider variety of environments. main data. Additionally, LLM-based agents can
+Because of these gaps, the agents obtained from provide naturallanguage interfacesto interactwith
+the previous studies are usually far from replicat- humans,whichismoreflexibleandexplainable.
+ing human-level decision processes, especially in Alongthisdirection,researchershavedeveloped
+unconstrained,open-domainsettings. numerous promising models (see Figure 1 for an
+In recent years, large language models (LLMs) overviewofthisfield),wherethekeyideaistoequip
+haveachievednotablesuccesses,demonstratingsig- LLMswithcrucialhumancapabilitieslikememory
+nificant potential in attaining human-like intelli- and planning to make them behave like humans
+gence [5–10]. This capability arises from lever- andcompletevarioustaskseffectively. Previously,
+aging comprehensive training datasets alongside a these models were proposed independently, with
+substantial number of model parameters. Build- limited efforts made to summarize and compare
+ing upon this capability, there has been a growing themholistically. However,webelieveasystematic

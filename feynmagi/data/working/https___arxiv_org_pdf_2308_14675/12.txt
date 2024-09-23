@@ -1,0 +1,36 @@
+13
+ρ (θ)̸=ρ . Following the same approach as before, we prepare the quantum states:
+s s
+1.ρ =U |0⟩⟨0|⊗nU†,
+s s s
+2.ρ =U |0⟩⟨0|⊗nU†,
+s′ s′ s′
+3.ρ =(I−2ρ )ρ (I−2ρ )
+ss′ s′ s s′
+=ρ −2ρ ρ −2ρ ρ +4ρ ρ ρ , (A4)
+s s′ s s s′ s′ s s′
+4.ρ (θ)=G (θ)ρ G (θ)†
+s′s s s′ s
+=(I−ρ (θ))ρ (I−ρ (θ))
+s s′ s
+=ρ −ρ ρ (θ)−ρ (θ)ρ +ρ (θ)ρ ρ (θ).
+s′ s′ s s s′ s s′ s
+From the above equation, we observe that rotating the quantum gate G by an arbitrary angle θ ̸=kπ,k =0,1,2···
+0
+changes the originally linearly dependent quantum states, prepared using G , into linearly independent ones.
+0
+By using similar methods, it is possible to prepare the remaining d(d−1) quantum states and ensure that they
+are linearly independent. This allows us to construct a complete d2-dimensional linear space for performing a full
+tomography of the PTM under study.
+Appendix B: More Numerical Simulation
+For the Hadamard Test procedure, we incorporate noise simulation into its measurement process by injecting
+randomnumbersdrawnfromaGaussiandistributionwithastandarddeviationof0.01. Thegraphicalrepresentation
+below illustrates the outcomes prior to and subsequent to the integration of these random numbers:
+FIG. 6. This figure presents numerical results for Tr{ρ2} and Tr{ρ3}, taking into account noise, using the Hadamard Test
+method. Subfigure(a)displaysthenumericalresultsforTr{ρ2},andsubfigure(b)showsthenumericalresultsforTr{ρ3}. The
+black lines represent the results after adding random numbers, while the red lines represent the results before adding random
+gates.
+ForTomography,weintroducenoisesimulationbyaddingrandomnumberstoitsPTMelementsaswellasg-matrix
+elements. Since the singular values of the g-matrix are small, we choose random numbers sampled from a Gaussian
+distributionwithastandarddeviationof0.0001tosimulatethenoise. Theresultsbeforeandafteraddingtherandom
+numbers are shown in the graph below:

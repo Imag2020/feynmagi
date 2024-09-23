@@ -1,0 +1,60 @@
+18
+such as physical layer (PHY). While the transmission of when scheduling becomes complicated when IoT users scale.
+electromagnetic signals from transmitters (TX) to receivers As a more generic approach, the powerful AGI tools can
+(RX)involvesintricatephysicalinteractionswiththesurround- remedy this problem. Specifically, we envision that AGI can
+ing environment (e.g., reflection, diffraction, and diffusion), effectively tackle the non-linear binary optimization problem
+ML tools exhibit remarkable prowess in effectively managing involved with user scheduling, and it should scale well as
+these random behaviors. Furthermore, ML-driven approaches indicated by existing ML tools [476].
+possess the unique ability to bypass the traditional 5-step 3) AGI for IP and Network Layer: IP and network layer
+process and engage in end-to-end optimization. One factor process routing and network-specific traffics, respectively.
+that may hinder the traditional ML-based wireless system is Recently, it has become a research hotspot since it mainly
+the generalizability. tackles network anomaly activities [477]. In [478], anomaly
+Given the recent introduction of more robust AGI models, detectionhasemergedasaprimarychallengeinIoTnetworks,
+it’s not beyond reason to anticipate that AGI could even and several techniques were proposed, with a focus on tradi-
+deviseefficientIoTwirelesscommunicationsystemsthathave tional fingerprint-based detection. Usually, packet IP address,
+hitherto remained unexplored. For example, a model that may length, protocol type, etc, can be applied to identify if the
+workwellinanindoorsettingbutcannotworkwelloutdoors; incoming packet is normal or abnormal. However, such rule-
+or a model can optimize laptop communication but cannot based methods cannot be generalized as the communication
+handle IoT devices. The contributing factors are not only becomes more complicated and diverse. The past decade has
+comingfromthelimitationoftraditionalmodels(CNN,RNN, witnessedsomenovelanomalydetectionarchitects,especially
+LSTM), but also insufficient datasets. Fortunately, in the age those in ML domain. For example, in [479], common ML
+of massive IoT, we foresee the formal can be solved with a classifiers, such as KNN and random forest, have proved to
+more powerful AGI model, while the latter can be addressed be very effective in a more dynamic setting. Moving forward,
+by a huge volume of data from pervasive IoT devices. as communication between IoTs and servers becomes more
+Inthefollowingsection,westillfollowOSIlayermodeland frequent, it is essential to have a more generic detector,
+provide a brief literature review, each with our observation which has the capability to not only detect based on past
+and remark. Different from existing literature reviews and patterns,butalsoevolveasthecommunicationpacketsbecome
+insights[466],[467],ouremphasisistheimpactthatnewAGI complicated. We believe the AGI has such capability.
+models can bring to large-scale IoT wireless communication.
+1) AGI for Physical Layer: PHY layer mainly handles raw
+C. Security and Privacy
+signals, such as analog-to-digital (ADC) and digital-to-analog
+(DAC)conversion,radiofrequency(RF),signalestimationand The resource-constrained, distributed, and heterogeneous
+detection, etc. As mentioned above, PHY layer is the most nature of IoT not only impedes the deployment of AI algo-
+active area that has been applied with ML. There have been rithms but also entails acute security and privacy issues that
+extensivereviewsonML-basedPHYtechniques,suchasthose were never seen before. This section first provides insights
+summarizedin[468].However,theseworksmainlyfocusedon abouthowtosafeguardAIworkloadonIoTdevicesatsystem
+aspecifictask.Forexample,[469],[470]discussedapproaches level. Then, we discuss algorithm-level security and privacy
+forchannelestimation,and[471],[472]introducedML-based concerns. Finally, we elaborate on the legitimate use of AGI
+coding/decoding. These works may work well under their in addressing IoT security/privacy problems.
+proposed scenarios but can hardly extend to a more general 1) Safeguarding AI Workload on IoT: IoT devices gener-
+setting, for example, the IoT scenario. What makes IoT PHY ally run on less powerful hardware and lack many modern
+different from other communication applications is that IoT securitymitigationmechanisms,makingthemmorevulnerable
+communication reveals scalability and heterogeneity. A plau- than traditional computing platforms [480]. Worse, some IoT
+sible solution is AGI-based one. The idea is to collect enough devices are deployed in ambient or unattended environments.
+IoT wireless data, which can be relatively easy to obtain due This opens a door for adversaries to launch more powerful
+totheirubiquity,andthenusefoundationmodelstotrain.The physical attacks such as cold-boot attacks to directly dump
+objective here is to accurately predict PHY parameters, such device memory [481], [482], leading to the theft of user
+as transmit power, bandwidth allocation, coding scheme, etc. privacy or manipulation of machine learning models. We
+2) AGI for MAC Layer: MAC layer handles user coor- envision three technological paths to mitigate these threats.
+dination, such that when multiple users try to access the 1) Bug elimination: Cyber attacks leverage firmware vulner-
+shared medium, it can efficiently coordinate resources, such abilities to cause unintended behaviors. Therefore, extensive
+as spectrum bandwidth, power, time, etc. MAC is of criti- in-house firmware testing becomes essential to reduce cy-
+cal importance, especially for wireless communication, since ber exploitation. A promising technique, known as firmware
+wireless signals can cause interference (hence unsuccessful rehosting, tries to build a general IoT hardware model and
+transmission)ifnotcoordinatedproperly.Inthepast,schedul- emulate firmware execution on a virtualized hardware [483],
+ing is usually formulated as an optimization problem, usually [484], making it possible to test thousands of instances si-
+non-convex [473], [474]. Solving the problem is challenging multaneously. 2) Attack Mitigation: Firmware testing can
+and in most scenarios, the optimal solution is not possible. In never eliminate all bugs. Therefore, firmware hardening can
+recent years, ML-based methods, such as deep reinforcement serve as the second line of defense to detect and thwart
+learning (DRL) [475], prove to be very effective, especially ongoing attacks. The idea is to instrument the firmware so

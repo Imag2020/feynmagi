@@ -1,0 +1,60 @@
+TAHAKOM
+ModelName Basic Router Sub Text2SQL Pydantic Data
+Query Query Question Programs Agents
+Engines Engine Query
+Engine
+gpt-3.5-turbo ✓ ✓ ✓ ✓ ✓ ✓
+gpt-3.5-turbo-instruct ✓ ✓ ✓ ✓ ✓
+△
+gpt-4 ✓ ✓ ✓ ✓ ✓ ✓
+claude-2 ✓ ✓ ✓ ✓ ✓
+△
+claude-instant-1.2 ✓ ✓ ✓ ✓ ✓
+△
+Legend:
+✓-Supported,•
+-NotSupported,△-PartiallySupported
+Table1: PaidLLMsBenchmark[14]
+ModelName Basic Router Sub Text2SQL Pydantic Data
+Query Query Question Programs Agents
+Engines Engine Query En-
+gine
+llama2-chat-7b4bit ✓
+• • • •
+△
+llama2-13b-chat ✓ ✓ ✓
+• • •
+llama2-70b-chat ✓ ✓ ✓ ✓
+•
+△
+Mistral-7B-instruct-v0.14bit ✓
+• •
+△ △ △
+zephyr-7b-alpha ✓ ✓ ✓ ✓ ✓
+△
+zephyr-7b-beta ✓ ✓ ✓ ✓ ✓
+•
+Legend:
+✓-Supported,•
+-NotSupported,△-PartiallySupported
+Table2: Open-SourceLLMsBenchmark[14]
+themodeldistinguishbetweentaskinstructionsandimproveitslearningefficiency. Themodelundergoesathree-stage
+trainingprocess. ExperimentalresultsdemonstratethatMiniGPT-v2outperformsothervision-languagegeneralist
+modelsinvariousbenchmarks. ThearchitectureofMiniGPT-v2includesavisualbackbone,alinearprojectionlayer,
+and a large language model. To reduce ambiguity across tasks, the authors introduce task-specific tokens in their
+multi-taskinstructiontemplate. Themodelalsorepresentsspatiallocationsusingtextualformattingofboundingboxes.
+Zhaoetal.[16],introducesLAVILA,anewapproachtolearningvideo-languagerepresentationsbyleveragingLarge
+LanguageModels. Thepaperrepurposepre-trainedLLMstobeconditionedonvisualinputandfine-tunethemto
+create automatic video narrators. The auto-generated narrations offer advantages such as dense coverage of long
+videos,bettertemporalsynchronizationofvisualinformationandtext,andhigherdiversityoftext. Thevideo-language
+embeddinglearnedwiththesenarrationsoutperformspreviousstate-of-the-artonmultiplevideotasks. LAVILAobtains
+significantgainsinclassificationandretrievalbenchmarks. Themethodshowspositivescalingbehaviorwithincreasing
+pre-trainingdataandmodelsize.
+Dovehetal.[17],addressthechallengeofenhancingVLMs’understandingofcomplexlanguagestructures. They
+introducetheconceptofStructuredVisionandLanguageConcepts(SVLC),whichencompassesobjectattributes,
+relations,andstatespresentinbothtextandimages. Thenovelcontributionofthisworkisadata-drivenapproach
+thatleveragestheinherentstructureoflanguage. BymanipulatingthetextualcomponentsofexistingVLMdatasets,
+theauthorsemphasizeSVLCsinVLMtraining. Theygeneratealternativenegativeorpositivetexts,whichinstruct
+themodelaboutSVLCs. TheyutilizeLLMsfor"unmasking"tasks,wheregivenasentencewithamissingword,the
+modelsuggestscontextuallyappropriatealternatives. Thispropertyisemployedtocreateplausiblenegativeexamples,
+6

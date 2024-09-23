@@ -1,0 +1,103 @@
+21
+[8] N.L.Kazanskiy,M.A.Butt,andS.N.Khonina,“Recentadvancesin [31] G. Mai, W. Huang, J. Sun, S. Song, D. Mishra, N. Liu, S. Gao,
+wearableopticalsensorautomationpoweredbybatteryversusskin-like T.Liu,G.Cong,Y.Hu,etal.,“Ontheopportunitiesandchallengesof
+battery-freedevicesforpersonalhealthcare—areview,”Nanomaterials, foundationmodelsforgeospatialartificialintelligence,”arXivpreprint
+vol.12,no.3,p.334,2022. arXiv:2304.06798,2023.
+[9] Y.-M.FangandC.-C.Chang,“Users’psychologicalperceptionandper- [32] OpenAI,“Introducingchatgpt,”2022.
+ceived readability of wearable devices for elderly people,” Behaviour [33] J.D.M.-W.C.KentonandL.K.Toutanova,“Bert:Pre-trainingofdeep
+&InformationTechnology,vol.35,no.3,pp.225–232,2016. bidirectionaltransformersforlanguageunderstanding,”inProceedings
+[10] J. Pierce, “Smart home security cameras and shifting lines of creepi- ofNAACL-HLT,pp.4171–4186,2019.
+ness:Adesign-ledinquiry,”inProceedingsofthe2019CHIConference [34] R.Bommasani,D.A.Hudson,E.Adeli,R.Altman,S.Arora,S.von
+onHumanFactorsinComputingSystems,pp.1–14,2019. Arx, M. S. Bernstein, J. Bohg, A. Bosselut, E. Brunskill, et al.,
+[11] K.-H. N. Bui and J. J. Jung, “Aco-based dynamic decision making “Ontheopportunitiesandrisksoffoundationmodels,”arXivpreprint
+forconnectedvehiclesiniotsystem,”IEEETransactionsonIndustrial arXiv:2108.07258,2021.
+Informatics,vol.15,no.10,pp.5648–5655,2019. [35] J. Wei, X. Wang, D. Schuurmans, M. Bosma, E. Chi, Q. Le, and
+[12] Z.Mahmood,“Connectedvehiclesintheinternetofthings,”Springer D. Zhou, “Chain of thought prompting elicits reasoning in large
+NatureSwitzerlandAG,2020. languagemodels,”arXivpreprintarXiv:2201.11903,2022.
+[13] S. Balakrishna, M. Thirumaran, and V. K. Solanki, “Iot sensor data [36] L.Ouyang,J.Wu,X.Jiang,D.Almeida,C.Wainwright,P.Mishkin,
+integration in healthcare using semantics and machine learning ap- C. Zhang, S. Agarwal, K. Slama, A. Ray, et al., “Training language
+proaches,” A handbook of internet of things in biomedical and cyber models to follow instructions with human feedback,” Advances in
+physicalsystem,pp.275–300,2020. Neural Information Processing Systems, vol. 35, pp. 27730–27744,
+[14] M. Syafrudin, G. Alfian, N. L. Fitriyani, and J. Rhee, “Performance 2022.
+analysisofiot-basedsensor,bigdataprocessing,andmachinelearning [37] G.Mai,C.Cundy,K.Choi,Y.Hu,N.Lao,andS.Ermon,“Towardsa
+modelforreal-timemonitoringsysteminautomotivemanufacturing,” foundation model for geospatial artificial intelligence (vision paper),”
+Sensors,vol.18,no.9,p.2946,2018. in Proceedings of the 30th International Conference on Advances in
+[15] A.KanawadayandA.Sane,“Machinelearningforpredictivemainte-
+GeographicInformationSystems,pp.1–4,2022.
+nanceofindustrialmachinesusingiotsensordata,”in20178thIEEE [38] A. Kirillov, E. Mintun, N. Ravi, H. Mao, C. Rolland, L. Gustafson,
+international conference on software engineering and service science T. Xiao, S. Whitehead, A. C. Berg, W.-Y. Lo, et al., “Segment
+(ICSESS),pp.87–90,IEEE,2017. anything,”arXivpreprintarXiv:2304.02643,2023.
+[39] T.Brown,B.Mann,N.Ryder,M.Subbiah,J.D.Kaplan,P.Dhariwal,
+[16] J.C.Cheng,W.Chen,K.Chen,andQ.Wang,“Data-drivenpredictive
+A.Neelakantan,P.Shyam,G.Sastry,A.Askell,etal.,“Languagemod-
+maintenance planning framework for mep components based on bim
+elsarefew-shotlearners,”Advancesinneuralinformationprocessing
+and iot using machine learning algorithms,” Automation in Construc-
+systems,vol.33,pp.1877–1901,2020.
+tion,vol.112,p.103087,2020.
+[40] N.Du,Y.Huang,A.M.Dai,S.Tong,D.Lepikhin,Y.Xu,M.Krikun,
+[17] M. Andronie, G. La˘za˘roiu, M. Iatagan, C. Uta˘, R. Stefa˘nescu, and
+, , Y. Zhou, A. W. Yu, O. Firat, et al., “Glam: Efficient scaling of
+M.Cocosatu,“Artificialintelligence-baseddecision-makingalgorithms,
+, languagemodelswithmixture-of-experts,”inInternationalConference
+internet of things sensing networks, and deep learning-assisted smart
+onMachineLearning,pp.5547–5569,PMLR,2022.
+processmanagementincyber-physicalproductionsystems,”Electron-
+[41] A.Chowdhery,S.Narang,J.Devlin,M.Bosma,G.Mishra,A.Roberts,
+ics,vol.10,no.20,p.2497,2021.
+P.Barham,H.W.Chung,C.Sutton,S.Gehrmann,etal.,“Palm:Scaling
+[18] K. O’Shea and R. Nash, “An introduction to convolutional neural
+languagemodelingwithpathways,”arXivpreprintarXiv:2204.02311,
+networks,”arXivpreprintarXiv:1511.08458,2015.
+2022.
+[19] L. R. Medsker and L. Jain, “Recurrent neural networks,” Design and
+[42] H. Touvron, T. Lavril, G. Izacard, X. Martinet, M.-A. Lachaux,
+Applications,vol.5,pp.64–67,2001.
+T.Lacroix,B.Rozie`re,N.Goyal,E.Hambro,F.Azhar,etal.,“Llama:
+[20] L.ScimeandJ.Beuth,“Anomalydetectionandclassificationinalaser
+Open and efficient foundation language models,” arXiv preprint
+powder bed additive manufacturing process using a trained computer
+arXiv:2302.13971,2023.
+visionalgorithm,”AdditiveManufacturing,vol.19,pp.114–126,2018.
+[43] R.Taori,I.Gulrajani,T.Zhang,Y.Dubois,X.Li,C.Guestrin,P.Liang,
+[21] P.J.Rani,J.Bakthakumar,B.P.Kumaar,U.P.Kumaar,andS.Kumar,
+and T. B. Hashimoto, “Alpaca: A strong, replicable instruction-
+“Voice controlled home automation system using natural language
+followingmodel,”StanfordCenterforResearchonFoundationModels.
+processing (nlp) and internet of things (iot),” in 2017 Third Interna-
+https://crfm.stanford.edu/2023/03/13/alpaca.html,vol.3,no.6,p.7,
+tionalConferenceonScienceTechnologyEngineering&Management
+2023.
+(ICONSTEM),pp.368–373,IEEE,2017.
+[44] H. Touvron,L. Martin, K.Stone, P.Albert, A. Almahairi,Y. Babaei,
+[22] Z. Liu, W. Lin, Y. Shi, and J. Zhao, “A robustly optimized bert pre-
+N. Bashlykov, S. Batra, P. Bhargava, S. Bhosale, et al., “Llama
+training approach with post-training,” in China National Conference
+2: Open foundation and fine-tuned chat models,” arXiv preprint
+onChineseComputationalLinguistics,pp.471–484,Springer,2021.
+arXiv:2307.09288,2023.
+[23] I. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu, D. Warde-Farley, [45] S. Reed, K. Zolna, E. Parisotto, S. G. Colmenarejo, A. Novikov,
+S. Ozair, A. Courville, and Y. Bengio, “Generative adversarial net- G. Barth-Maron, M. Gimenez, Y. Sulsky, J. Kay, J. T. Springenberg,
+works,” Communications of the ACM, vol. 63, no. 11, pp. 139–144, etal.,“Ageneralistagent,”arXivpreprintarXiv:2205.06175,2022.
+2020. [46] R. Rombach, A. Blattmann, D. Lorenz, P. Esser, and B. Ommer,
+[24] J. Ho, A. Jain, and P. Abbeel, “Denoising diffusion probabilistic “High-resolution image synthesis with latent diffusion models,” in
+models,”AdvancesinNeuralInformationProcessingSystems,vol.33, Proceedings of the IEEE/CVF Conference on Computer Vision and
+pp.6840–6851,2020. PatternRecognition,pp.10684–10695,2022.
+[25] A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. [47] A.Ramesh,P.Dhariwal,A.Nichol,C.Chu,andM.Chen,“Hierarchi-
+Gomez, Ł. Kaiser, and I. Polosukhin, “Attention is all you need,” caltext-conditionalimagegenerationwithcliplatents,”arXivpreprint
+Advancesinneuralinformationprocessingsystems,vol.30,2017. arXiv:2204.06125,2022.
+[26] G.Lu,S.Li,G.Mai,J.Sun,D.Zhu,L.Chai,H.Sun,X.Wang,H.Dai, [48] C. Saharia, W. Chan, S. Saxena, L. Li, J. Whang, E. L. Denton,
+N.Liu,etal.,“Agiforagriculture,”arXivpreprintarXiv:2304.06136, K. Ghasemipour, R. Gontijo Lopes, B. Karagol Ayan, T. Salimans,
+2023. et al., “Photorealistic text-to-image diffusion models with deep lan-
+[27] S. Rezayi, Z. Liu, Z. Wu, C. Dhakal, B. Ge, H. Dai, G. Mai, guage understanding,” Advances in Neural Information Processing
+N.Liu,C.Zhen,T.Liu,etal.,“Exploringnewfrontiersinagricultural Systems,vol.35,pp.36479–36494,2022.
+nlp: Investigating the potential of large language models for food [49] C. Meng, Y. He, Y. Song, J. Song, J. Wu, J.-Y. Zhu, and S. Ermon,
+applications,”arXivpreprintarXiv:2306.11892,2023. “Sdedit:Guidedimagesynthesisandeditingwithstochasticdifferential
+[28] J.MaandB.Wang,“Towardsfoundationmodelsofbiologicalimage equations,” in International Conference on Learning Representations,
+segmentation,”NatureMethods,vol.20,no.7,pp.953–955,2023. 2021.
+[29] E. Lehman, E. Hernandez, D. Mahajan, J. Wulff, M. J. Smith, [50] C.Saharia,W.Chan,H.Chang,C.Lee,J.Ho,T.Salimans,D.Fleet,
+Z.Ziegler,D.Nadler,P.Szolovits,A.Johnson,andE.Alsentzer,“Do andM.Norouzi,“Palette:Image-to-imagediffusionmodels,”inACM
+westillneedclinicallanguagemodels?,”2023. SIGGRAPH2022ConferenceProceedings,pp.1–10,2022.
+[30] G.Mai,N.Lao,Y.He,J.Song,andS.Ermon,“Csp:Self-supervised [51] B. Kawar, M. Elad, S. Ermon, and J. Song, “Denoising diffusion
+contrastivespatialpre-trainingforgeospatial-visualrepresentations,”in restoration models,” in Advances in Neural Information Processing
+InternationalConferenceonMachineLearning,PMLR,2023. Systems,2022.

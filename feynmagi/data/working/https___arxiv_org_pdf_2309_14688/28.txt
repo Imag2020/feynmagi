@@ -1,0 +1,45 @@
+References
+Badia, H., Jenelius, E., 2020. Feeder transit services in different development stages of automated buses:
+Comparing fixed routes versus door-to-door trips. Transp. Res. Procedia 47, 521–528.
+Badia, H., Jenelius, E., 2021. Design and operation of feeder systems in the era of automated and electric
+buses. Transport. Res. Part A 152, 146–172.
+Chang, S. K., Schonfeld, P., 1991. Optimization models for comparing conventional and subscription
+bus feeder services. Transport. Sci. 25 (4), 281–298.
+Chen, H., Gu, W., Cassidy, M. J., Daganzo, C. F., 2015. Optimal transit service atop ring-radial and
+grid street networks: A continuum approximation design method and comparisons. Transport. Res.
+Part B 81, 755–774.
+Chen, J., Liu, Z., Wang, S., Chen, X., 2018. Continuum approximation modeling of transit network
+design considering local route service and short-turn strategy. Trans. Res. Part E 119, 165–188.
+Chen, P. W., Nie, Y. M., 2017. Analysis of an idealized system of demand adaptive paired-line hybrid
+transit. Transport. Res. Part B 102, 38–54.
+Cheng, H., Madanat, S., Horvath, A., 2016. Planning hierarchical urban transit systems for reductions
+in greenhouse gas emissions. Transp. Res. Part D 49, 44–58.
+Chien, S., Schonfeld, P., 1997. Optimization of grid transit system in heterogeneous urban environment.
+J. Transp. Eng. 123(1), 28-35.
+Ciaffi, F., Cipriani, E., Petrelli, M., 2012. Feeder bus network design problem: A new metaheuristic
+procedure and real size applications. Procedia Soc. Behav. Sci. 54(2290), 798–807.
+Daganzo, C. F., 2010. Structure of competitive transit networks. Transport. Res. Part B 44(4), 434–446.
+Daganzo, C. F., Ouyang, Y., 2019. Public transportation systems: Principles of system design,
+operations planning and real-time control. World Scientific Publishing Co. Pte. Ltd.
+Estrada, M., Roca-Riu, M., Badia, H., Robuste, F., Daganzo, C., 2011. Design and implementation of
+efficient transit networks: Procedure, case study and validity test. Transport. Res. Part A 45(9),
+935-950.
+Fan, W., Mei, Y., Gu, W., 2018. Optimal design of intersecting bimodal transit networks in a grid city.
+Transport. Res. Part B 111, 203–226.
+Fan, W., Ran, Y., 2021. Planning skip-stop services with schedule coordination. Trans. Res. Part E 145,
+102119.
+Gu, W., Amini, Z., Cassidy, M. J., 2016. Exploring alternative service schemes for busy transit corridors.
+Transport. Res. Part B 93, 126–145.
+Guo, Q. W., Chow, G., Schonfeld, P., 2018. Stochastic dynamic switching in fixed and flexible transit
+services as market entry-exit real options. Transport. Res. Part C 94, 288–306.
+Horrox, J., Casale, M., 2019. Electric buses in America: Lessons from cities pioneering clean
+transportation. U.S. PIRG Education Fund, Environment America Research and Policy Center and
+Frontier Group.
+Jaiswal, S., 2010. Busway platform bus capacity analysis. Queensland University of Technology.
+Kim, M. E., Schonfeld, P., 2012. Conventional, flexible, and variable-type bus services. J. Transp. Eng.
+138(3), 263–273.
+Kim, M. E., Schonfeld, P., 2013. Integrating bus services with mixed fleets. Transp. Res. Part B 55,
+227–244.
+Kim, M. E., Schonfeld, P., 2014. Integration of conventional and flexible bus services with timed
+transfers. Trans. Res. Part B 68, 76–97.
+29

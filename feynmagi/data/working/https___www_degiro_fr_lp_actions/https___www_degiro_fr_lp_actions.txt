@@ -1,0 +1,1536 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Actions - Achète des actions à des frais incroyablement bas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Powered by CookiebotConsentementDétails[#IABV2SETTINGS#]À propos des cookiesCe site web utilise des cookies.Les cookies nous permettent de personnaliser le contenu et les annonces, d'offrir des fonctionnalités relatives aux médias sociaux et d'analyser notre trafic. Nous partageons également des informations sur l'utilisation de notre site avec nos partenaires de médias sociaux, de publicité et d'analyse, qui peuvent combiner celles-ci avec d'autres informations que vous leur avez fournies ou qu'ils ont collectées lors de votre utilisation de leurs services.Consent SelectionNécessaires Préférences Statistiques Marketing Modifier les préférences de cookiesNécessaires  140 Les cookies nécessaires contribuent à rendre un site web utilisable en activant des fonctions de base comme la navigation de page et l'accès aux zones sécurisées du site web. Le site web ne peut pas fonctionner correctement sans ces cookies.Google1En savoir plus sur ce fournisseurSome of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness.test_cookieUtilisé pour vérifier si le navigateur de l'utilisateur accepte les cookies.Expiration: 1 jourType: Cookie HTTPLinkedIn1En savoir plus sur ce fournisseurli_gcStocke l'autorisation d'utilisation de cookies pour le domaine actuel par l'utilisateur Expiration: 180 joursType: Cookie HTTPdegiro.atdegiro.chdegiro.co.nodegiro.comdegiro.czdegiro.dedegiro.dkdegiro.esdegiro.fidegiro.frdegiro.grdegiro.hudegiro.iedegiro.itdegiro.nldegiro.pldegiro.ptdegiro.se54d_campaign [x18]En attenteExpiration: SessionType: Cookie HTTPd_content [x18]En attenteExpiration: SessionType: Cookie HTTPd_source [x18]En attenteExpiration: SessionType: Cookie HTTPdegiro.atdegiro.chdegiro.comdegiro.czdegiro.dedegiro.dkdegiro.esdegiro.fidegiro.frwww.degiro.grdegiro.hudegiro.iedegiro.itwww.degiro.nldegiro.pldegiro.ptdegiro.se17d_medium [x17]En attenteExpiration: SessionType: Cookie HTTPimg.sct.eu1.usercentrics.euimgsct.cookiebot.com21.gif [x2]Utilisé pour compter le nombre de sessions sur le site web, nécessaire pour optimiser la livraison des produits CMP. Expiration: SessionType: Pixel de suiviregistration.degiro.nltrader.degiro.nl2AppboyServiceWorkerAsyncStorage#optOut [x2]Ce cookie d'abstention identifie si le visiteur a ou non désélectionné des cookies, pisteurs et autres outils de ciblage d'audience.Expiration: PersistantType: IndexedDBwtk.infrontservices.com1JSESSIONIDConserve la configuration des paramètres des utilisateurs à travers les demandes de page.Expiration: SessionType: Cookie HTTPwww.degiro.chwww.degiro.comwww.degiro.czwww.degiro.dewww.degiro.dkwww.degiro.eswww.degiro.fiwww.degiro.frwww.degiro.grwww.degiro.iewww.degiro.itwww.degiro.nlwww.degiro.plwww.degiro.ptwww.degiro.seregistration.degiro.nltrader.degiro.nlconsent.cookiebot.eu35CookieConsent [x35]Stocke l'autorisation d'utilisation de cookies pour le domaine actuel par l'utilisateur Expiration: 1 annéeType: Cookie HTTPwww.degiro.chwww.degiro.czwww.degiro.dewww.degiro.dkwww.degiro.eswww.degiro.fiwww.degiro.frwww.degiro.grwww.degiro.iewww.degiro.itwww.degiro.nlwww.degiro.plwww.degiro.ptwww.degiro.se14M1R4X [x14]Cookie de contrôle utilisé en relation avec le réseau de diffusion de contenu (CDN) du site web.Expiration: SessionType: Cookie HTTPwww.degiro.chwww.degiro.dewww.degiro.dkwww.degiro.eswww.degiro.fiwww.degiro.frwww.degiro.grwww.degiro.iewww.degiro.itwww.degiro.nlwww.degiro.plwww.degiro.ptwww.degiro.se13d_term [x13]En attenteExpiration: SessionType: Cookie HTTPPréférences  64 Les cookies de préférences permettent à un site web de retenir des informations qui modifient la manière dont le site se comporte ou s’affiche, comme votre langue préférée ou la région dans laquelle vous vous situez.Company Webcast2En savoir plus sur ce fournisseur#-#-#-#-#.progressEn attenteExpiration: PersistantType: Stockage local HTMLremembermeEn attenteExpiration: PersistantType: Stockage local HTMLLinkedIn2En savoir plus sur ce fournisseurlidcEnregistre quel groupe de serveurs sert le visiteur. Ceci est utilisé dans le contexte de l'équilibrage de charge afin d'optimiser l'expérience utilisateur.Expiration: 1 jourType: Cookie HTTPbscookieCe cookie est utilisé pour identifier l'internaute via une application. Cela permet au visiteur de se connecter à un site web via son application LinkedIn, par exemple.Expiration: 1 annéeType: Cookie HTTPReddit1En savoir plus sur ce fournisseurrp.gifNécessaire pour la mise en œuvre de la fonction de partage de Reddit.com.Expiration: SessionType: Pixel de suivisc-static.net18_screload [x18]Utilisé par Snapchat pour mettre en œuvre le contenu des publicités sur le site web - Le cookie détecte l'efficacité des annonces et collecte des données pour une segmentation plus raffinée des internautes. Expiration: SessionType: Cookie HTTPwtk.infrontservices.com1com.goinfront.wtk.stateEn attenteExpiration: PersistantType: Stockage local HTMLwww.degiro.chwww.degiro.czwww.degiro.dewww.degiro.dkwww.degiro.eswww.degiro.frwww.degiro.grwww.degiro.iewww.degiro.itwww.degiro.nlwww.degiro.plwww.degiro.ptwww.degiro.se13current-lesson [x13]En attenteExpiration: 1 jourType: Cookie HTTPwww.degiro.dewww.degiro.iewww.degiro.nlwww.degiro.chwww.degiro.eswww.degiro.frwww.degiro.grwww.degiro.itwww.degiro.pt27cookie-disclaimerFinancingCost [x9]En attenteExpiration: SessionType: Cookie HTTPcookie-disclaimerStampDuty [x9]En attenteExpiration: SessionType: Cookie HTTPcookie-disclaimerTransactionCosts [x9]En attenteExpiration: SessionType: Cookie HTTPStatistiques  144 Les cookies statistiques aident les propriétaires du site web, par la collecte et la communication d'informations de manière anonyme, à comprendre comment les visiteurs interagissent avec les sites web.Company Webcast6En savoir plus sur ce fournisseurfingerprintUtilisé pour détecter et enregistrer les erreurs potentielles de suivi.Expiration: PersistantType: Stockage local HTMLflatexdegiroesEn attenteExpiration: PersistantType: Stockage local HTMLflatexdegirofrEn attenteExpiration: PersistantType: Stockage local HTMLflatexdegiroitEn attenteExpiration: PersistantType: Stockage local HTMLflatexdegironlEn attenteExpiration: PersistantType: Stockage local HTMLflatexdegiroptEn attenteExpiration: PersistantType: Stockage local HTMLGoogle39En savoir plus sur ce fournisseurSome of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness._ga [x19]Enregistre un identifiant unique utilisé pour générer des données statistiques sur la façon dont le visiteur utilise le site.Expiration: 2 annéesType: Cookie HTTP_ga_# [x19]Utilisé par Google Analytics our recueillir des données sur le nombre de fois qu'un utilisateur a visité le site web ainsi que les dates de la première et de la plus récente visite. Expiration: 2 annéesType: Cookie HTTPgtmBrowserIdCe cookie est utilisé pour déterminer si le visiteur a visité le site auparavant ou s'il s'agit d'un nouveau visiteur sur le site.Expiration: PersistantType: Stockage local HTMLLinkedIn1En savoir plus sur ce fournisseurAnalyticsSyncHistoryUtilisé dans le cadre de la synchronisation des données avec un service d'analyse tiers.Expiration: 30 joursType: Cookie HTTPMicrosoft18En savoir plus sur ce fournisseurc.gifCollecte des données concernant la navigation et le comportement de l'utilisateur sur le site web - Cela est utilisé pour compiler des rapports statistiques et des cartes thermiques pour le propriétaire du site web.Expiration: SessionType: Pixel de suivi_clck [x8]Collecte des données concernant la navigation et le comportement de l'utilisateur sur le site web - Cela est utilisé pour compiler des rapports statistiques et des cartes thermiques pour le propriétaire du site web.Expiration: 1 annéeType: Cookie HTTP_clsk [x7]Enregistre des données statistiques sur le comportement des internautes sur le site web. Utilisé pour les analyses internes par l'opérateur du site web.Expiration: 1 jourType: Cookie HTTP_cltkEnregistre des données statistiques sur le comportement des internautes sur le site web. Utilisé pour les analyses internes par l'opérateur du site web.Expiration: SessionType: Stockage local HTMLCLIDCollecte des données concernant la navigation et le comportement de l'utilisateur sur le site web - Cela est utilisé pour compiler des rapports statistiques et des cartes thermiques pour le propriétaire du site web.Expiration: 1 annéeType: Cookie HTTPOmnyStudio1En savoir plus sur ce fournisseursentryReplaySessionEnregistre des données sur le comportement des visiteurs sur le site Web . Ceci est utilisé pour l'analyse interne et l'optimisation du site.Expiration: SessionType: Stockage local HTMLVWO2En savoir plus sur ce fournisseureu01/v.gifCe cookie est utilisé par l’opérateur du site web dans le cadre de tests multi-variables. C'est un outil utilisé pour combiner ou modifier le contenu du site. Cela permet au site web de trouver la meilleure variation / édition du site.Expiration: SessionType: Pixel de suivivwo_apm_sentEn attenteExpiration: PersistantType: Stockage local HTMLdegiro.atdegiro.chdegiro.co.nodegiro.comdegiro.czdegiro.dedegiro.dkdegiro.esdegiro.fidegiro.frdegiro.grdegiro.hudegiro.iedegiro.itdegiro.nldegiro.pldegiro.ptdegiro.se36FPID [x18]Enregistre des données statistiques sur le comportement des internautes sur le site web. Utilisé pour les analyses internes par l'opérateur du site web.Expiration: 400 joursType: Cookie HTTPFPLC [x18]Enregistre un identifiant unique utilisé pour générer des données statistiques sur la façon dont le visiteur utilise le site.Expiration: 1 jourType: Cookie HTTPdegiro.chdegiro.dedegiro.esdegiro.iedegiro.itdegiro.nl6FPAU [x6]Attribue un identifiant spécifique au visiteur - Cela permet au site Web de déterminer le nombre de visites d'utilisateurs spécifiques à des fins d'analyse et de statistique.Expiration: 3 moisType: Cookie HTTPdegiro.co.nodegiro.hudegiro.nl3_vwo_uuid_v2 [x3]Ce cookie est installé pour faire des tests A/B sur le site afin d'optimiser la pertinence du site pour le visiteur. Ce cookie peut également être installé pour améliorer l'expérience du visiteur sur le site.Expiration: 1 annéeType: Cookie HTTPdegiro.nl1ab._gdAttribue un identifiant spécifique au visiteur - Cela permet au site Web de déterminer le nombre de visites d'utilisateurs spécifiques à des fins d'analyse et de statistique.Expiration: SessionType: Cookie HTTPregistration.degiro.nltrader.degiro.nl14AppboyServiceWorkerAsyncStorage#cardUpdates [x2]Collecte des données concernant la navigation et le comportement de l'utilisateur sur le site web - Cela est utilisé pour compiler des rapports statistiques et des cartes thermiques pour le propriétaire du site web.Expiration: PersistantType: IndexedDBAppboyServiceWorkerAsyncStorage#data [x2]Collecte des données concernant la navigation et le comportement de l'utilisateur sur le site web - Cela est utilisé pour compiler des rapports statistiques et des cartes thermiques pour le propriétaire du site web.Expiration: PersistantType: IndexedDBAppboyServiceWorkerAsyncStorage#fallbackDevice [x2]Collecte des données concernant la navigation et le comportement de l'utilisateur sur le site web - Cela est utilisé pour compiler des rapports statistiques et des cartes thermiques pour le propriétaire du site web.Expiration: PersistantType: IndexedDBAppboyServiceWorkerAsyncStorage#pendingData [x2]Collecte des données concernant la navigation et le comportement de l'utilisateur sur le site web - Cela est utilisé pour compiler des rapports statistiques et des cartes thermiques pour le propriétaire du site web.Expiration: PersistantType: IndexedDBAppboyServiceWorkerAsyncStorage#pushClicks [x2]Détecte combien de fois un visiteur a visité le site, afin de déterminer si une notification sur la page doit être affichée.Expiration: PersistantType: IndexedDBAppboyServiceWorkerAsyncStorage#pushSubscribed [x2]Collecte des données concernant la navigation et le comportement de l'utilisateur sur le site web - Cela est utilisé pour compiler des rapports statistiques et des cartes thermiques pour le propriétaire du site web.Expiration: PersistantType: IndexedDBAppboyServiceWorkerAsyncStorage#sdkAuthenticationSignature [x2]Collecte des données concernant la navigation et le comportement de l'utilisateur sur le site web - Cela est utilisé pour compiler des rapports statistiques et des cartes thermiques pour le propriétaire du site web.Expiration: PersistantType: IndexedDBsc-static.net2u_scsidEnregistre des données sur le comportement des visiteurs sur le site Web . Ceci est utilisé pour l'analyse interne et l'optimisation du site.Expiration: SessionType: Stockage local HTMLX-ABCe cookie est utilisé par l’opérateur du site web dans le cadre de tests multi-variables. C'est un outil utilisé pour combiner ou modifier le contenu du site. Cela permet au site web de trouver la meilleure variation / édition du site.Expiration: 1 jourType: Cookie HTTPwww.degiro.chwww.degiro.comwww.degiro.czwww.degiro.dewww.degiro.dkwww.degiro.eswww.degiro.fiwww.degiro.frwww.degiro.grwww.degiro.iewww.degiro.itwww.degiro.nlwww.degiro.plwww.degiro.ptwww.degiro.se15__utmz [x15]Recueille des données sur la provenance de l'utilisateur, le moteur de recherche, le lien cliqué et le critère de recherche utilisés. Utilisé par Google Analytics.Expiration: 180 joursType: Cookie HTTPMarketing  255 Les cookies marketing sont utilisés pour effectuer le suivi des visiteurs au travers des sites web. Le but est d'afficher des publicités qui sont pertinentes et intéressantes pour l'utilisateur individuel et donc plus précieuses pour les éditeurs et annonceurs tiers. Meta Platforms, Inc.21En savoir plus sur ce fournisseur_fbp [x19]Utilisé par Facebook pour fournir une série de produits publicitaires tels que les offres en temps réel d'annonceurs tiers.Expiration: 3 moisType: Cookie HTTPlastExternalReferrerDétecte comment l'utilisateur a atteint le site web en enregistrant sa dernière adresse URL.Expiration: PersistantType: Stockage local HTMLlastExternalReferrerTimeDétecte comment l'utilisateur a atteint le site web en enregistrant sa dernière adresse URL.Expiration: PersistantType: Stockage local HTMLGoogle23En savoir plus sur ce fournisseurSome of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness._gcl_au [x19]Utilisé par Google AdSense pour expérimenter l'efficacité de la publicité sur de divers sites Web en utilisant leurs services.Expiration: 3 moisType: Cookie HTTPIDEUtilisé par Google DoubleClick pour enregistrer et signaler les actions de l'utilisateur du site après qu'il ait vu ou cliqué sur une des pubs de l'annonceur dans le but de mesurer l'efficacité et de présenter des annonces publicitaires ciblées à l'utilisateur.Expiration: 400 joursType: Cookie HTTPpagead/landingCollecte des données sur le comportement des visiteurs à partir de plusieurs sites web afin de présenter des publicités plus pertinentes. Cela permet également au site web de limiter le nombre de fois où la même publicité est présentée au visiteur.Expiration: SessionType: Pixel de suiviNIDEnregistre un identifiant qui identifie l'appareil de l'utilisateur récurrent. Cet identifiant est utilisé pour des annonces ciblées.Expiration: 6 moisType: Cookie HTTPpagead/1p-user-list/#Repère si l'internaute a montré de l'intérêt pour des produits ou des événements spécifiques sur plusieurs sites web et détecte la façon dont l'internaute navigue entre les sites. Cela est utilisé pour mesurer les efforts publicitaires et facilite le paiement des frais de référence entre les sites web.Expiration: SessionType: Pixel de suiviLinkedIn3En savoir plus sur ce fournisseurbcookieUtilisé par le service de réseau social, LinkedIn, pour le suivi de l'utilisation des services intégrés.Expiration: 1 annéeType: Cookie HTTPli_sugrCollecte des données sur le comportement et l'interaction des internautes, pour optimiser le site web et rendre la publicité sur le site plus pertinente.Expiration: 3 moisType: Cookie HTTPUserMatchHistoryUtilisé pour suivre les visiteurs sur plusieurs sites Web, afin de présenter des publicités pertinentes en fonction des préférences du visiteur. Expiration: 30 joursType: Cookie HTTPMeta Platforms, Inc.1En savoir plus sur ce fournisseurfrUtilisé par Facebook pour fournir une série de produits publicitaires tels que les offres en temps réel d'annonceurs tiers.Expiration: 3 moisType: Cookie HTTPMicrosoft49En savoir plus sur ce fournisseur_uetsidUtilisé pour suivre les visiteurs sur plusieurs sites Web, afin de présenter des publicités pertinentes en fonction des préférences du visiteur.Expiration: PersistantType: Stockage local HTML_uetsid_expContient la date d'expiration du cookie avec le nom correspondant.Expiration: PersistantType: Stockage local HTML_uetvidUtilisé pour suivre les visiteurs sur plusieurs sites Web, afin de présenter des publicités pertinentes en fonction des préférences du visiteur.Expiration: PersistantType: Stockage local HTML_uetvid_expContient la date d'expiration du cookie avec le nom correspondant.Expiration: PersistantType: Stockage local HTMLMR [x2]Utilisé pour suivre les visiteurs sur plusieurs sites Web, afin de présenter des publicités pertinentes en fonction des préférences du visiteur.Expiration: 7 joursType: Cookie HTTPMSPTCCe cookie enregistre des données sur le visiteur. Les informations sont utilisées pour optimiser la pertinence des annonces.Expiration: 1 annéeType: Cookie HTTPMUID [x2]Largement utilisé par Microsoft comme un identifiant utilisateur unique. Ce cookie permet le suivi des utilisateurs en synchronisant l'identifiant dans de nombreux domaines Microsoft.Expiration: 1 annéeType: Cookie HTTPSRM_BSuit l'interaction de l'utilisateur avec la fonction de barre de recherche du site web. Ces données peuvent être utilisées pour présenter à l'utilisateur des produits ou des services pertinents.Expiration: 1 annéeType: Cookie HTTPANONCHKEnregistre des données sur les visiteurs de plusieurs visites et sur plusieurs sites Web. Cette information est utilisée pour mesurer l'efficacité de la publicité sur les sites Web.Expiration: 1 jourType: Cookie HTTPSMEnregistre un identifiant unique qui reconnaît l'appareil de l'utilisateur au cours des visites récurrentes de sites web utilisant le même réseau de publicité. L'identifiant est utilisé pour permettre des annonces ciblées.Expiration: SessionType: Cookie HTTP_uetsid [x19]Collecte des données sur le comportement des visiteurs à partir de plusieurs sites web afin de présenter des publicités plus pertinentes. Cela permet également au site web de limiter le nombre de fois où la même publicité est présentée au visiteur.Expiration: 1 jourType: Cookie HTTP_uetvid [x18]Utilisé pour suivre les visiteurs sur plusieurs sites Web, afin de présenter des publicités pertinentes en fonction des préférences du visiteur.Expiration: 1 annéeType: Cookie HTTPReddit38En savoir plus sur ce fournisseur_rdt_uuid [x38]Utilisé pour suivre les visiteurs sur plusieurs sites Web, afin de présenter des publicités pertinentes en fonction des préférences du visiteur.Expiration: 3 moisType: Cookie HTTPSnap Inc.2En savoir plus sur ce fournisseursc_atUtilisé par Snapchat pour mettre en œuvre le contenu des publicités sur le site web - Le cookie détecte l'efficacité des annonces et collecte des données pour une segmentation plus raffinée des internautes. Expiration: 1 annéeType: Cookie HTTPpUtilisé pour suivre les visiteurs sur plusieurs sites Web, afin de présenter des publicités pertinentes en fonction des préférences du visiteur.Expiration: SessionType: Pixel de suiviTwitter Inc.7En savoir plus sur ce fournisseur1/i/adsct [x2]Collecte des données sur le comportement et l'interaction des internautes, pour optimiser le site web et rendre la publicité sur le site plus pertinente.Expiration: SessionType: Pixel de suivimuc_adsCollecte des données sur le comportement et l'interaction des internautes, pour optimiser le site web et rendre la publicité sur le site plus pertinente.Expiration: 400 joursType: Cookie HTTPguest_idRecueille des données relatives aux visites de l'utilisateur du site web, telles que le nombre de visites, le temps moyen passé sur le site et les pages qui ont été chargées, afin de personnaliser et d'améliorer le service Twitter.Expiration: 400 joursType: Cookie HTTPguest_id_adsRecueille des informations sur le comportement des internautes sur plusieurs sites web. Ces informations sont utilisées sur le site afin d'optimiser la pertinence des publicités.Expiration: 400 joursType: Cookie HTTPguest_id_marketingRecueille des informations sur le comportement des internautes sur plusieurs sites web. Ces informations sont utilisées sur le site afin d'optimiser la pertinence des publicités.Expiration: 400 joursType: Cookie HTTPpersonalization_idCe cookie est défini par Twitter - Le cookie permet a l'internaute de partager le contenu du site web sur son profil Twitter.Expiration: 400 joursType: Cookie HTTPYouTube33En savoir plus sur ce fournisseur#-#Utilisé pour suivre l'interaction de l'utilisateur avec le contenu intégré.Expiration: SessionType: Stockage local HTML-4ca4a366-86936En attenteExpiration: SessionType: Stockage local HTML4e5c0c37-8babc0En attenteExpiration: SessionType: Stockage local HTML-560736ba-420960En attenteExpiration: SessionType: Stockage local HTML5b5fc1f6f430En attenteExpiration: SessionType: Stockage local HTML5b5fc-327ff84dEn attenteExpiration: SessionType: Stockage local HTML-807571-317ab0b7En attenteExpiration: SessionType: Stockage local HTMLc8e8d5-5f4f2bc6En attenteExpiration: SessionType: Stockage local HTMLcd245e-5470bc78En attenteExpiration: SessionType: Stockage local HTMLd7307a-23ede745En attenteExpiration: SessionType: Stockage local HTMLdf4043-1cb3f918En attenteExpiration: SessionType: Stockage local HTMLf562b9-4cdb83ebEn attenteExpiration: SessionType: Stockage local HTMLf562b9-5e587d6aEn attenteExpiration: SessionType: Stockage local HTMLiU5q-!O9@$Enregistre un identifiant unique pour conserver des statistiques sur les vidéos de YouTube vues par l'utilisateur.Expiration: SessionType: Stockage local HTMLLAST_RESULT_ENTRY_KEYUtilisé pour suivre l'interaction de l'utilisateur avec le contenu intégré.Expiration: SessionType: Cookie HTTPLogsDatabaseV2:V#||LogsRequestsStoreUtilisé pour suivre l'interaction de l'utilisateur avec le contenu intégré.Expiration: PersistantType: IndexedDBnextIdUtilisé pour suivre l'interaction de l'utilisateur avec le contenu intégré.Expiration: SessionType: Cookie HTTPremote_sidNécessaire pour la mise en place et le fonctionnement du contenu vidéo de YouTube sur le site web.Expiration: SessionType: Cookie HTTPrequestsUtilisé pour suivre l'interaction de l'utilisateur avec le contenu intégré.Expiration: SessionType: Cookie HTTPServiceWorkerLogsDatabase#SWHealthLogNécessaire pour la mise en place et le fonctionnement du contenu vidéo de YouTube sur le site web.Expiration: PersistantType: IndexedDBTESTCOOKIESENABLEDUtilisé pour suivre l'interaction de l'utilisateur avec le contenu intégré.Expiration: 1 jourType: Cookie HTTPVISITOR_INFO1_LIVETente d'estimer la bande passante des utilisateurs sur des pages avec des vidéos YouTube intégrées.Expiration: 180 joursType: Cookie HTTPYSCEnregistre un identifiant unique pour conserver des statistiques sur les vidéos de YouTube vues par l'utilisateur.Expiration: SessionType: Cookie HTTPyt.innertube::nextIdEnregistre un identifiant unique pour conserver des statistiques sur les vidéos de YouTube vues par l'utilisateur.Expiration: PersistantType: Stockage local HTMLytidb::LAST_RESULT_ENTRY_KEYStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: PersistantType: Stockage local HTMLYtIdbMeta#databasesUtilisé pour suivre l'interaction de l'utilisateur avec le contenu intégré.Expiration: PersistantType: IndexedDByt-remote-cast-availableStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: SessionType: Stockage local HTMLyt-remote-cast-installedStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: SessionType: Stockage local HTMLyt-remote-connected-devicesStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: PersistantType: Stockage local HTMLyt-remote-device-idStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: PersistantType: Stockage local HTMLyt-remote-fast-check-periodStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: SessionType: Stockage local HTMLyt-remote-session-appStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: SessionType: Stockage local HTMLyt-remote-session-nameStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: SessionType: Stockage local HTMLdegiro.nl2ab.storage.deviceId.#-#-#-#-#Recueille des informations sur le comportement des internautes sur plusieurs sites web. Ces informations sont utilisées sur le site afin d'optimiser la pertinence des publicités.Expiration: 400 joursType: Cookie HTTPab.storage.sessionId.#-#-#-#-#Recueille des informations sur le comportement des internautes sur plusieurs sites web. Ces informations sont utilisées sur le site afin d'optimiser la pertinence des publicités.Expiration: 400 joursType: Cookie HTTPregistration.degiro.nltrader.degiro.nl18ab.storage.device.#-#-#-#-# [x2]Recueille des informations sur le comportement des internautes sur plusieurs sites web. Ces informations sont utilisées sur le site afin d'optimiser la pertinence des publicités.Expiration: PersistantType: Stockage local HTMLab.storage.deviceId.#-#-#-#-# [x2]Recueille des informations sur le comportement des internautes sur plusieurs sites web. Ces informations sont utilisées sur le site afin d'optimiser la pertinence des publicités.Expiration: PersistantType: Stockage local HTMLab.storage.messagingSessionStart.#-#-#-#-# [x2]Recueille des informations sur le comportement des internautes sur plusieurs sites web. Ces informations sont utilisées sur le site afin d'optimiser la pertinence des publicités.Expiration: PersistantType: Stockage local HTMLab.storage.sdk_metadata.48ef29a6-8098-447b-84fd-73dcf7ca322a [x2]En attenteExpiration: PersistantType: Stockage local HTMLab.storage.serverConfig.#-#-#-#-# [x2]Recueille des informations sur le comportement des internautes sur plusieurs sites web. Ces informations sont utilisées sur le site afin d'optimiser la pertinence des publicités.Expiration: PersistantType: Stockage local HTMLab.storage.session_id_for_cached_metadata.48ef29a6-8098-447b-84fd-73dcf7ca322a [x2]En attenteExpiration: PersistantType: Stockage local HTMLab.storage.sessionId.#-#-#-#-# [x2]Recueille des informations sur le comportement des internautes sur plusieurs sites web. Ces informations sont utilisées sur le site afin d'optimiser la pertinence des publicités.Expiration: PersistantType: Stockage local HTMLab.storage.triggers.#-#-#-#-# [x2]Recueille des informations sur le comportement des internautes sur plusieurs sites web. Ces informations sont utilisées sur le site afin d'optimiser la pertinence des publicités.Expiration: PersistantType: Stockage local HTMLab.storage.triggers.ts.#-#-#-#-# [x2]Recueille des informations sur le comportement des internautes sur plusieurs sites web. Ces informations sont utilisées sur le site afin d'optimiser la pertinence des publicités.Expiration: PersistantType: Stockage local HTMLsc-static.net58_schn1 [x18]Définit un identifiant unique pour le visiteur, qui permet aux annonceurs tiers de cibler le visiteur avec une publicité pertinente. Ce service de couplage est fourni par des centres publicitaires tiers, ce qui facilite les enchères en temps réel pour les annonceurs.Expiration: 1 jourType: Cookie HTTP_scid [x18]Définit un identifiant unique pour le visiteur, qui permet aux annonceurs tiers de cibler le visiteur avec une publicité pertinente. Ce service de couplage est fourni par des centres publicitaires tiers, ce qui facilite les enchères en temps réel pour les annonceurs.Expiration: 13 moisType: Cookie HTTP_scid_r [x18]Définit un identifiant unique pour le visiteur, qui permet aux annonceurs tiers de cibler le visiteur avec une publicité pertinente. Ce service de couplage est fourni par des centres publicitaires tiers, ce qui facilite les enchères en temps réel pour les annonceurs.Expiration: 13 moisType: Cookie HTTP_schn2Définit un identifiant unique pour le visiteur, qui permet aux annonceurs tiers de cibler le visiteur avec une publicité pertinente. Ce service de couplage est fourni par des centres publicitaires tiers, ce qui facilite les enchères en temps réel pour les annonceurs.Expiration: 1 jourType: Cookie HTTPu_sclidDéfinit un identifiant unique pour le visiteur, qui permet aux annonceurs tiers de cibler le visiteur avec une publicité pertinente. Ce service de couplage est fourni par des centres publicitaires tiers, ce qui facilite les enchères en temps réel pour les annonceurs.Expiration: PersistantType: Stockage local HTMLu_sclid_rDéfinit un identifiant unique pour le visiteur, qui permet aux annonceurs tiers de cibler le visiteur avec une publicité pertinente. Ce service de couplage est fourni par des centres publicitaires tiers, ce qui facilite les enchères en temps réel pour les annonceurs.Expiration: PersistantType: Stockage local HTMLu_scsid_rDéfinit un identifiant unique pour le visiteur, qui permet aux annonceurs tiers de cibler le visiteur avec une publicité pertinente. Ce service de couplage est fourni par des centres publicitaires tiers, ce qui facilite les enchères en temps réel pour les annonceurs.Expiration: SessionType: Stockage local HTMLNon classés  0Les cookies non classés sont les cookies qui sont en cours de classification, ainsi que les fournisseurs de cookies individuels.Nous n'utilisons pas de cookies de ce type.Consentement inter-domaines20 Votre consentement s'applique aux domaines suivants :Liste des domaines auxquels s'applique votre consentement : registration.degiro.nl trader.degiro.nl degiro.com degiro.de degiro.fr degiro.es degiro.pt degiro.gr degiro.pl degiro.it degiro.cz degiro.hu degiro.dk degiro.fi degiro.co.no degiro.se degiro.ch degiro.at degiro.ie degiro.nlDéclaration relative aux cookies mise à jour le 7/28/24 par Cookiebot[#IABV2_TITLE#][#IABV2_BODY_INTRO#][#IABV2_BODY_LEGITIMATE_INTEREST_INTRO#][#IABV2_BODY_PREFERENCE_INTRO#][#IABV2_LABEL_PURPOSES#][#IABV2_BODY_PURPOSES_INTRO#][#IABV2_BODY_PURPOSES#][#IABV2_LABEL_FEATURES#][#IABV2_BODY_FEATURES_INTRO#][#IABV2_BODY_FEATURES#][#IABV2_LABEL_PARTNERS#][#IABV2_BODY_PARTNERS_INTRO#][#IABV2_BODY_PARTNERS#]Les cookies sont des petits fichiers textes qui peuvent être utilisés par les sites web pour rendre l'expérience utilisateur plus efficace. La loi stipule que nous ne pouvons stocker des cookies sur votre appareil que s’ils sont strictement nécessaires au fonctionnement de ce site. Pour tous les autres types de cookies, nous avons besoin de votre permission.Ce site utilise différents types de cookies. Certains cookies sont placés par les services tiers qui apparaissent sur nos pages.À tout moment, vous pouvez modifier ou retirer votre consentement dès la Déclaration relative aux cookies sur notre site web.En savoir plus sur qui nous sommes, comment vous pouvez nous contacter et comment nous traitons les données personnelles veuillez voir notre Politique confidentialité.Veuillez indiquer l'identifiant de votre consentement et la date à laquelle vous nous avez contactés concernant votre consentement. Ne pas vendre ou partager mes informations personnellesUtiliser uniquement les cookies nécessaires  Autoriser la sélection Personnaliser Tout accepterPowered by Cookiebot by Usercentrics
+
+
+ For a better user experience and secure browsing, please upgrade to the newest version of Internet Explorer or other alternative.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Accès client
+
+
+
+
+
+Ouvrir un compte
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tarifs
+
+
+
+
+
+Tarifs
+
+
+
+
+Sélection principale d’ETF
+
+
+
+
+Calculateur de frais
+
+
+
+
+
+
+
+Investir
+
+
+
+
+
+
+Investir
+
+
+
+
+
+
+ETF
+
+Actions
+
+Obligations
+
+Contrats Futures
+
+Options
+
+Produits de bourse
+
+Fonds d'investissement
+
+Trackers crypto
+
+Matières premières
+
+
+
+
+
+
+
+
+Plateforme
+
+
+
+
+
+
+Webtrader
+
+App
+
+Récompenses
+
+Solide et fiable
+
+
+
+
+
+
+
+
+Marchés
+
+
+
+
+
+
+Marchés
+
+Heures d'ouverture de la bourse
+
+Calendrier boursier 2024
+
+
+
+
+
+
+
+Emprunt d'argent
+
+
+
+
+
+
+
+Académie
+
+
+
+
+
+Académie
+
+
+
+
+
+Académie des investisseurs
+
+
+
+
+
+
+Académie des investisseurs
+
+Quel type d’investisseur êtes-vous?
+
+Qu’est-ce qu’un courtier?
+
+Produits financiers simples
+
+Produits financiers complexes
+
+Qu’est-ce qui détermine le prix d’une action?
+
+Choisir votre première action
+
+Types d'ordres : Ordres à cours limité, ordres au marché, stoploss et stoplimit
+
+L’essentielle répartition du risque
+
+Impact de l’investissement long terme
+
+Quel est votre plan d’investissement ?
+
+
+
+
+
+
+
+
+Produits
+
+
+
+
+
+
+Actions
+
+Obligations
+
+Fonds d'investissement
+
+ETF / Tracker
+
+Options
+
+Contrats futures
+
+Produits de bourse
+
+
+
+
+
+
+
+
+Strategies
+
+
+
+
+
+
+L'analyse technique
+
+L’analyse fondamentale
+
+Le trading sur options
+
+Les intérêts composés
+
+Le Dollar Cost Averaging
+
+Vente à découvert
+
+
+
+
+
+
+
+Blog
+
+
+
+
+
+Indices et Cotations
+
+
+
+
+
+
+NYSE
+
+NASDAQ
+
+S&P500
+
+DOW JONES
+
+EURO STOXX 50 
+
+
+
+
+
+
+
+Série
+
+
+
+
+Webinaires
+
+
+
+
+PINK CHIP
+
+
+
+
+
+
+
+À propos de DEGIRO
+
+
+
+
+
+À propos de DEGIRO
+
+
+
+
+Presse et Résultats
+
+
+
+
+Gouvernance
+
+
+
+
+Avis
+
+
+
+
+Partenaires
+
+
+
+
+
+
+Des questions ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            Tarifs
+                                            
+
+
+
+
+
+
+
+                                            Investir
+                                            
+
+
+
+
+
+
+
+                                            Académie
+                                            
+
+
+
+
+
+
+
+                                            À propos de DEGIRO
+                                            
+
+
+
+
+Des questions ?
+
+
+
+
+
+
+
+Accès client
+
+
+
+
+
+Ouvrir un compte
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        Home
+                                                    
+Tarifs
+
+
+
+
+Tarifs
+
+
+
+Sélection principale d’ETF
+
+
+
+Calculateur de frais
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        Home
+                                                    
+Investir
+
+
+
+
+
+Investir
+
+
+
+
+
+
+
+Plateforme
+
+
+
+
+
+
+
+Marchés
+
+
+
+
+
+
+Emprunt d'argent
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        Home
+                                                    
+Académie
+
+
+
+
+Académie
+
+
+
+
+Académie des investisseurs
+
+
+
+
+
+
+
+Produits
+
+
+
+
+
+
+
+Strategies
+
+
+
+
+
+
+Blog
+
+
+
+
+Indices et Cotations
+
+
+
+
+
+
+Série
+
+
+
+Webinaires
+
+
+
+PINK CHIP
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        Home
+                                                    
+À propos de DEGIRO
+
+
+
+
+À propos de DEGIRO
+
+
+
+Presse et Résultats
+
+
+
+Gouvernance
+
+
+
+Avis
+
+
+
+Partenaires
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Investir
+                                                            
+Investir
+
+
+
+ETF
+
+Actions
+
+Obligations
+
+Contrats Futures
+
+Options
+
+Produits de bourse
+
+Fonds d'investissement
+
+Trackers crypto
+
+Matières premières
+
+
+
+
+
+
+
+
+
+
+
+                                                                Investir
+                                                            
+Plateforme
+
+
+
+Webtrader
+
+App
+
+Récompenses
+
+Solide et fiable
+
+
+
+
+
+
+
+
+
+
+
+                                                                Investir
+                                                            
+Marchés
+
+
+
+Marchés
+
+Heures d'ouverture de la bourse
+
+Calendrier boursier 2024
+
+
+
+
+
+
+
+
+
+
+
+                                                                Académie
+                                                            
+Académie des investisseurs
+
+
+
+Académie des investisseurs
+
+Quel type d’investisseur êtes-vous?
+
+Qu’est-ce qu’un courtier?
+
+Produits financiers simples
+
+Produits financiers complexes
+
+Qu’est-ce qui détermine le prix d’une action?
+
+Choisir votre première action
+
+Types d'ordres : Ordres à cours limité, ordres au marché, stoploss et stoplimit
+
+L’essentielle répartition du risque
+
+Impact de l’investissement long terme
+
+Quel est votre plan d’investissement ?
+
+
+
+
+
+
+
+
+
+
+
+                                                                Académie
+                                                            
+Produits
+
+
+
+Actions
+
+Obligations
+
+Fonds d'investissement
+
+ETF / Tracker
+
+Options
+
+Contrats futures
+
+Produits de bourse
+
+
+
+
+
+
+
+
+
+
+
+                                                                Académie
+                                                            
+Strategies
+
+
+
+L'analyse technique
+
+L’analyse fondamentale
+
+Le trading sur options
+
+Les intérêts composés
+
+Le Dollar Cost Averaging
+
+Vente à découvert
+
+
+
+
+
+
+
+
+
+
+
+                                                                Académie
+                                                            
+Indices et Cotations
+
+
+
+NYSE
+
+NASDAQ
+
+S&P500
+
+DOW JONES
+
+EURO STOXX 50 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100
+PRIX DES COURTIERSINTERNATIONAUX
+
+
+
+Achète des actions à des frais incroyablement bas
+Investis dans des actions du monde entier. Et découvre pourquoi plus de  2,5 millions  de clients choisissent notre plateforme de trading.
+
+
+
+
+Ouvrir un compte
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notre plateforme conviviale et nos frais réduits rendent l'investissement en actions clair et abordable. Nous offrons un accès à des actions du monde entier, ce qui peut contribuer à diversifier ton portefeuille. Les avis d'experts et outils t'aident à faire des choix d'investissement avisés et à libérer ton potentiel de croissance financière. Commence à investir dans des actions aujourd'hui !
+
+
+
+
+
+
+Investir implique un risque de perte et de fluctuations monétaires. Il ne s'agit pas d'un conseil en investissement.
+
+
+
+
+
+
+DEGIRO TARIFS
+La bourse, désormais accessible à tous.
+Nos tarifs jamais vus auparavant ont révolutionné l’industrie du trading en ligne.
+
+
+
+
+
+
+
+
+
+Actions Françaises 
+
+
+COURTAGE
+1 €
+
++
+
+GESTION
+1 €
+
+
+
+PAR ORDRE
+
+
+
+
+
+Actions Ètats-Unis 
+
+
+COURTAGE
+1 €
+
++
+
+GESTION
+1 €
+
+
+
+PAR ORDRE
+
+
+
+
+
+
+Sélection principale d'ETF 🌎
+
+
+COURTAGE
+0 €
+
++
+
+GESTION
+1 €
+
+
+
+PAR ORDRE
+
+
+
+
+
+ETF International 🌎
+
+
+COURTAGE
+2 €
+
++
+
+GESTION
+1 €
+
+
+
+PAR ORDRE
+
+
+
+
+
+
+
+Des frais de change, de connectivité ou de produits externes et de spread peuvent s'appliquer. Des frais de gestion de 1 € s'appliquent à tous les produits, à l'exception de notre produit à effet de levier et warrants OTC BNP & Société Générale, de Tradegate (Actions) et des Options & Futures (sauf OMX Nordics). La Sélection Principale d'ETF est susceptible d'être modifiée et relève d'une politique d'utilisation équitable.
+
+
+
+
+
+
+
+Ouvrir un compte
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LES AVANTAGES DE DEGIRO
+Plus que des frais bas
+Découvre les nombreux avantages à investir avec nous.
+
+
+
+
+
+
+
+
+Investissements mondiaux
+L'investissement n'est plus limité à ton marché national. Accéde à plus de 50 bourses réparties dans 30 pays pour un véritable investissement mondial et des possibilités de diversification exceptionnelles.
+
+
+
+Une plateforme innovante
+Notre plateforme d'investissement est à la pointe du secteur, mais nous essayons toujours d'être meilleurs. Grâce à vos retours, nous améliorons constamment notre service.
+
+
+
+Sécurisé
+Nous nous engageons à te fournir un environnement sécurisé pour tes transactions. Nos systèmes sont axés sur la protection des données et la conservation de tes actifs.
+
+
+
+Rien de caché
+Nous croyons à la transparence et à l'absence de coûts cachés. Nos tarifs sont clairs et nos conditions générales sont simples.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Es-tu prêt à rejoindre plus de 2,5 millions d'investisseurs ?
+
+
+
+
+
+
+Ouvrir un compte
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PRIX DEGIRO
+Plus de 100 prix internationaux
+Nous nous efforçons d'offrir le meilleur produit en étant innovants et à la pointe de la sûreté et de la sécurité. Ces prix sont la preuve de ce travail acharné et la raison pour laquelle nous sommes l'un des principaux courtiers européens.
+
+
+
+
+
+
+
+
+Courtier le plus juste
+NTV 2020
+
+
+
+MEILLEUR COURTIER
+Cash Cow 2023
+
+
+
+Meilleur courtier bas prix
+FT & IC 2022
+
+
+
+Meilleur courtier pour les actions
+Rankia 2022
+
+
+
+Courtier le plus juste
+NTV 2020
+
+
+
+MEILLEUR COURTIER
+Cash Cow 2023
+
+
+
+Meilleur courtier bas prix
+FT & IC 2022
+
+
+
+Meilleur courtier pour les actions
+Rankia 2022
+
+
+
+Courtier le plus juste
+NTV 2020
+
+
+
+
+
+
+1234
+Voir notre palmarès 
+
+
+
+
+
+
+
+
+Ton parcours d'investissement commence ici
+Ouvre un compte gratuitement et rejoins plus de 2,5 millions d'investisseurs sur notre plateforme conviviale.
+
+
+
+
+Ouvrir un compte
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Partners & Providers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Note : Investir comporte des risques. Vous pouvez perdre (une partie) de vos fonds investis. Nous vous conseillons d'investir uniquement dans des produits financiers qui correspondent à vos connaissances et à votre expérience. Il ne s'agit pas d'un conseil en investissement.
+
+
+
+
+
+
+
+Investir comporte des risques.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Choisis un pays
+
+
+France
+                            
+
+
+République Tchèque
+                                
+
+Suisse
+                                
+
+Danemark
+                                
+
+Allemagne
+                                
+
+Espagne
+                                
+
+Grèce
+                                
+
+France
+                                
+
+Irlande
+                                
+
+Italie
+                                
+
+Pays-Bas
+                                
+
+Norvège
+                                
+
+Hongrie
+                                
+
+Autriche
+                                
+
+Pologne
+                                
+
+Portugal
+                                
+
+Finlande
+                                
+
+Suède
+                                
+
+Royaume-Uni
+                                
+
+
+
+
+
+
+
+Accueil
+>
+
+>
+>
+
+
+
+
+
+Aller à
+
+
+
+                        Aller à
+                        
+
+
+
+
+
+
+Ouvrir un compte
+Tarifs
+Produits et Marchés
+Accès client
+Application de trading
+
+
+
+
+
+
+A propos de DEGIRO
+
+
+
+                        A propos de DEGIRO
+                        
+
+
+
+
+
+
+Webtrader
+A propos de DEGIRO
+Solide et fiable
+Meilleur Courtier
+Carrières
+Affiliates
+
+
+
+
+
+
+Connaissances
+
+
+
+                        Connaissances
+                        
+
+
+
+
+
+
+Connaissances
+Académie des investisseurs
+Blog
+
+
+
+
+
+
+Centre d'aide
+
+
+
+                        Centre d'aide
+                        
+
+
+
+
+
+
+Centre de documents
+FAQ
+Salle des marchés
+Contact
+
+
+
+
+
+
+Suivez-nous sur
+
+
+
+                        Suivez-nous sur
+                        
+
+
+
+
+
+
+X
+Facebook
+LinkedIn
+Instagram
+TikTok
+
+
+
+
+
+
+Accueil
+>
+
+>
+>
+
+
+
+
+
+
+Copyright © 2024 DEGIRO. Tous droits réservés
+
+Cookies
+Mentions légales
+Plan du site
+
+
+
+
+
+
+
+
+Nous donnons à tous les moyens de devenir les investisseurs autonomes et indépendants les plus brillants possible. En offrant un univers de possibilités et de choix sur notre plateforme conviviale, nous supprimons les obstacles pour rendre l'investissement accessible à tous : débutants ou experts. Tu as accès à une grande variété de produits sur plus de 50 places boursières pour avoir la liberté d'investir comme tu le souhaites. Dans notre univers, tu bénéficies également d'un excellent rapport qualité-prix. Ainsi, sans compromettre la qualité, la sécurité et la gamme de nos services d'investissement, nous proposons des frais incroyablement bas. Prioriser tes besoins nous a permis de devenir le courtier européen parmi les plus importants. Nos plus de 2,5 millions de clients et plus de 100 récompenses internationales sont la preuve de notre succès.
+flatexDEGIRO Bank Dutch Branch, une succursale étrangère de flatexDEGIRO Bank AG | Amstelplein 1, 1096HA Amsterdam | Téléphone: +33 9 75 18 73 18 | e-mail: clients@degiro.fr | flatexDEGIRO Bank Dutch Branch est enregistrée à la Chambre de commerce néerlandaisesous le numéro 82510245. | flatexDEGIRO Bank Dutch Branch, operant sous le nom de DEGIRO, est la succursale néerlandaise de flatexDEGIRO Bank AG. flatexDEGIRO Bank AG est principalement supervisée par le régulateur financier allemand (BaFin) Aux Pays-Bas, flatexDEGIRO Bank Dutch Branch est enregistrée auprès de la DNB et supervisée par l'AFM et la DNB. | flatexDEGIRO Bank AG est une banque allemande agréée, supervisée par le régulateur financier allemand et enregistrée auprès de la Chambre de commerce allemande sous le numéro HRB 105687.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Conditions de l'offre de remboursement des frais de transaction à hauteur de 100 €
+Si tu actives ton compte d'investissement DEGIRO avant le 1er septembre 2024, DEGIRO remboursera tes frais de transaction à hauteur de 100 €. Les conditions suivantes s'appliquent à cette offre :
+
+L'offre est valable jusqu'au 31 août 2024 inclus.
+Pendant la période de l'offre, les nouveaux clients qui ont activé un compte se verront rembourser à hauteur de 100 € de frais de transaction.
+Pendant la période allant jusqu'au 31 septembre 2024, les premiers frais de courtage et les frais de gestion externes à hauteur de 100 € seront remboursés.
+Les frais de conversion (Auto FX et Manual FX) ne peuvent pas être remboursés dans le cadre de cette promotion.
+Nous te rembourserons les frais de courtage et les frais de gestion externes que tu as dépensés (jusqu'à un maximum de 100 €) sur ton compte DEGIRO début octobre 2024.
+Cette offre n'est valable que pour les nouveaux clients disposant d'un compte DEGIRO français.
+Une fois que tu as signé le Contrat Client, ton compte est activé et la période de l'offre commence.
+Pour commencer à négocier et donc utiliser le bon d'achat de 100 €, le nouveau client doit effectuer un premier dépôt (le montant minimum est de 0,01 €).
+Les nouveaux clients qui ont commencé leur inscription avant la période de l'offre, mais qui activent leur compte DEGIRO pendant la période de l'offre, sont également éligibles à cette offre.
+Si un compte existant est déjà lié à l'adresse du nouveau client, la participation est exclue.
+Chaque nouveau client ne peut prétendre qu'une seule fois au remboursement de 100 €.
+La loi néerlandaise est applicable à cette promotion.
+
+Acceptation des conditions de l'offre
+En participant à l'offre, le client accepte automatiquement les conditions de l'offre. DEGIRO peut mettre fin à la campagne à tout moment avant son expiration ou modifier les conditions de la campagne. DEGIRO communiquera toute modification sur le site internet.
+Participation à l'offre
+La participation à l'offre est ouverte à tous les clients qui ont activé un compte chez DEGIRO au plus tard le 30 août 2024.
+
+
+
+
+
+
+
+

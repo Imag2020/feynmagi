@@ -1,0 +1,73 @@
+𝐻 (𝑥) Feeder bus headway in the patron-collection direction at location 𝑥 h
+𝐼𝑝
+𝐻 (𝑥) Feeder bus headway in the patron-distribution direction at location 𝑥 h
+𝐼𝑑
+𝐾 The patron-carrying capacity of a feeder bus patrons/vehicle
+Cost terms and parameters (all cost terms are per hour of operations)
+𝐴𝐶 Total agency cost h
+𝑈𝐶 Total user cost h
+𝐺𝐶 Generalized cost h
+𝐶 Total access and egress time h
+𝐴
+𝐶 Total wait and transfer time h
+𝑊
+𝐶 Wait and transfer time in the collection direction h
+𝑊𝑝
+𝐶 Wait and transfer time in the distribution direction h
+𝑊𝑑
+𝐶 Total in-vehicle travel time h
+𝑇
+𝐶 In-vehicle travel time to overcome the distance h
+𝑇1
+𝐶 Patrons’ time loss due to bus deceleration, acceleration, door opening and h
+𝑇2
+closing
+𝐶 Patrons’ time loss due to boarding and alighting behavior h
+𝑇3
+𝐶 Stop infrastructure cost h
+𝑠
+𝐶 Operating cost associated with bus-km traveled h
+𝑣𝑘
+𝐶 Operating cost related to bus fleet size h
+𝑣ℎ
+𝑉 Bus fleet size
+ℎ
+𝑉 Number of buses that are actively travelling between stops
+ℎ1
+𝑉 Number of buses needed due to deceleration, acceleration, door opening
+ℎ2
+and closing at stops
+𝑉 Number of buses required for passenger boarding and alighting
+ℎ3
+𝜋 The amortized unit cost of feeder stop infrastructure per operation hour $/stop/h
+𝑠
+𝜋 The unit cost per bus-km traveled $/vehicle⋅km
+𝑣
+𝜋 The unit cost per bus hour $/vehicle⋅h
+𝑚
+Other parameters and variables
+𝜆 (𝑥,𝑦) Demand density in the patron-collection direction at location (𝑥,𝑦) patrons/km2/h
+𝑝
+𝜆 (𝑥,𝑦) Demand density in the patron-distribution direction at location (𝑥,𝑦) patrons/km2/h
+𝑑
+Λ Total demand in the patron-collection direction patrons/h
+𝑝
+Λ Total demand in the patron-distribution direction patrons/h
+𝑑
+Λ ′ Total demand in the collection direction after removing walking patrons patrons/h
+𝑝
+Λ ′ Total demand in the distribution direction after removing walking patrons patrons/h
+𝑑
+𝜃 Value of time $/h
+𝑊 Width of the service region km
+𝐿 Length of the service region km
+𝑣 Walking speed km/h
+𝑊
+𝑣 Feeder bus cruise speed km/h
+𝐼
+𝜏 Time loss per stop due to bus deceleration, acceleration, door opening and h/stop
+0
+closing
+𝜏 Alighting time per patron h/patron
+𝑎
+25

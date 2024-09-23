@@ -1,0 +1,570 @@
+ [2306.08641] Towards AGI in Computer Vision: Lessons Learned from GPT and Large Language Models
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+Grab your spot at the free arXiv Accessibility Forum
+Forum Schedule
+
+We gratefully acknowledge support fromthe Simons Foundation, Stockholm University, and all contributors. Donate
+
+
+
+
+
+ > cs > arXiv:2306.08641
+  
+
+
+
+
+
+Help | Advanced Search
+
+
+
+
+All fields
+Title
+Author
+Abstract
+Comments
+Journal reference
+ACM classification
+MSC classification
+Report number
+arXiv identifier
+DOI
+ORCID
+arXiv author ID
+Help pages
+Full text
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+open search
+
+
+
+
+
+
+GO
+
+
+
+open navigation menu
+
+
+quick links
+
+Login
+Help Pages
+About
+
+
+
+
+
+
+
+
+
+
+
+
+Computer Science > Computer Vision and Pattern Recognition
+
+
+arXiv:2306.08641 (cs)
+    
+
+
+
+
+  [Submitted on 14 Jun 2023]
+Title:Towards AGI in Computer Vision: Lessons Learned from GPT and Large Language Models
+Authors:Lingxi Xie, Longhui Wei, Xiaopeng Zhang, Kaifeng Bi, Xiaotao Gu, Jianlong Chang, Qi Tian View a PDF of the paper titled Towards AGI in Computer Vision: Lessons Learned from GPT and Large Language Models, by Lingxi Xie and 6 other authors
+View PDF
+
+Abstract:The AI community has been pursuing algorithms known as artificial general intelligence (AGI) that apply to any kind of real-world problem. Recently, chat systems powered by large language models (LLMs) emerge and rapidly become a promising direction to achieve AGI in natural language processing (NLP), but the path towards AGI in computer vision (CV) remains unclear. One may owe the dilemma to the fact that visual signals are more complex than language signals, yet we are interested in finding concrete reasons, as well as absorbing experiences from GPT and LLMs to solve the problem. In this paper, we start with a conceptual definition of AGI and briefly review how NLP solves a wide range of tasks via a chat system. The analysis inspires us that unification is the next important goal of CV. But, despite various efforts in this direction, CV is still far from a system like GPT that naturally integrates all tasks. We point out that the essential weakness of CV lies in lacking a paradigm to learn from environments, yet NLP has accomplished the task in the text world. We then imagine a pipeline that puts a CV algorithm (i.e., an agent) in world-scale, interactable environments, pre-trains it to predict future frames with respect to its action, and then fine-tunes it with instruction to accomplish various tasks. We expect substantial research and engineering efforts to push the idea forward and scale it up, for which we share our perspectives on future research directions.
+    
+
+
+ 
+Comments:
+17 pages, 14 figures, technical report, expected to be updated in the near future
+
+
+Subjects:
+
+Computer Vision and Pattern Recognition (cs.CV); Artificial Intelligence (cs.AI)
+
+Cite as:
+arXiv:2306.08641 [cs.CV]
+
+
+ 
+(or 
+arXiv:2306.08641v1 [cs.CV] for this version)
+          
+ 
+ 
+
+https://doi.org/10.48550/arXiv.2306.08641
+
+
+
+Focus to learn more
+
+
+
+
+                arXiv-issued DOI via DataCite
+              
+
+
+
+
+
+
+
+Submission history From: Lingxi Xie [view email]       [v1]
+        Wed, 14 Jun 2023 17:15:01 UTC (4,761 KB)
+
+
+
+ 
+
+Full-text links:
+Access Paper:
+
+
+View a PDF of the paper titled Towards AGI in Computer Vision: Lessons Learned from GPT and Large Language Models, by Lingxi Xie and 6 other authorsView PDFTeX SourceOther Formats
+view license
+
+ 
+    Current browse context: cs.CV
+
+
+< prev
+
+  |   
+next >
+
+
+new
+ | 
+recent
+ | 2023-06
+
+    Change to browse by:
+    
+cs
+cs.AI
+
+
+
+
+References & Citations
+
+NASA ADSGoogle Scholar
+Semantic Scholar
+
+
+
+
+a
+export BibTeX citation
+Loading...
+
+
+
+
+BibTeX formatted citation
+×
+
+
+loading...
+
+
+Data provided by: 
+
+
+
+
+Bookmark
+
+
+
+
+
+ 
+
+
+
+
+Bibliographic Tools
+
+Bibliographic and Citation Tools
+
+
+
+
+
+
+Bibliographic Explorer Toggle
+
+
+
+Bibliographic Explorer (What is the Explorer?)
+
+
+
+
+
+
+
+Litmaps Toggle
+
+
+
+Litmaps (What is Litmaps?)
+
+
+
+
+
+
+
+scite.ai Toggle
+
+
+
+scite Smart Citations (What are Smart Citations?)
+
+
+
+
+
+
+
+
+Code, Data, Media
+
+Code, Data and Media Associated with this Article
+
+
+
+
+
+
+Links to Code Toggle
+
+
+
+CatalyzeX Code Finder for Papers (What is CatalyzeX?)
+
+
+
+
+
+
+
+DagsHub Toggle
+
+
+
+DagsHub (What is DagsHub?)
+
+
+
+
+
+
+
+GotitPub Toggle
+
+
+
+Gotit.pub (What is GotitPub?)
+
+
+
+
+
+
+
+Links to Code Toggle
+
+
+
+Papers with Code (What is Papers with Code?)
+
+
+
+
+
+
+
+ScienceCast Toggle
+
+
+
+ScienceCast (What is ScienceCast?)
+
+
+
+
+
+
+
+
+
+
+
+Demos
+
+Demos
+
+
+
+
+
+
+Replicate Toggle
+
+
+
+Replicate (What is Replicate?)
+
+
+
+
+
+
+
+Spaces Toggle
+
+
+
+Hugging Face Spaces (What is Spaces?)
+
+
+
+
+
+
+
+Spaces Toggle
+
+
+
+TXYZ.AI (What is TXYZ.AI?)
+
+
+
+
+
+
+
+
+Related Papers
+
+Recommenders and Search Tools
+
+
+
+
+
+
+Link to Influence Flower
+
+
+
+Influence Flower (What are Influence Flowers?)
+
+
+
+
+
+
+
+Connected Papers Toggle
+
+
+
+Connected Papers (What is Connected Papers?)
+
+
+
+
+
+
+
+Core recommender toggle
+
+
+
+CORE Recommender (What is CORE?)
+
+
+
+
+
+Author
+Venue
+Institution
+Topic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        About arXivLabs
+      
+
+
+
+arXivLabs: experimental projects with community collaborators
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.
+
+
+
+
+
+
+
+
+
+
+Which authors of this paper are endorsers? |
+    Disable MathJax (What is MathJax?)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+About
+Help
+
+
+
+
+
+contact arXivClick here to contact arXiv
+ Contact
+
+
+subscribe to arXiv mailingsClick here to subscribe
+ Subscribe
+
+
+
+
+
+
+
+
+
+
+
+Copyright
+Privacy Policy
+
+
+
+
+Web Accessibility Assistance
+
+
+arXiv Operational Status 
+                    Get status notifications via
+                    email
+                    or slack
+
+
+
+
+
+ 
+
+
+
+
+

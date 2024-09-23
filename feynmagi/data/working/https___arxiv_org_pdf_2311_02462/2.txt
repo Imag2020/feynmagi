@@ -1,0 +1,70 @@
+LevelsofAGI
+ize that value, whereas a focuson capabilities mightonly worldtasksisnoteworthy,sincesuchtasksmayhavemore
+requirethepotentialforanAGItoexecuteatask. Wemay ecologicalvaliditythanmanycurrentAIbenchmarks;Mar-
+develop systems that are technically capable of perform- cus’ aforementionedfive tests of flexibility and generality
+ingeconomicallyimportanttasksbutdon’trealizethateco- (Marcus,2022a)seemwithinthespiritofACI,aswell.
+nomicvalueforvariedreasons(legal,ethical,social,etc.).
+Case Study 9: SOTA LLMs as Generalists. Agu¨era y
+CaseStudy7:FlexibleandGeneral–The“CoffeeTest” Arcas and Norvig (Agu¨erayArcas&Norvig, 2023) sug-
+and Related Challenges. Marcus suggests that AGI is gested that state-of-the-art LLMs (e.g. mid-2023 deploy-
+“shorthandforanyintelligence(theremightbemany)that ments of GPT-4, Bard, Llama 2, and Claude) already are
+isflexibleandgeneral,withresourcefulnessandreliability AGIs, arguing that generality is the key property of AGI,
+comparable to (or beyond) human intelligence” (Marcus, andthatbecauselanguagemodelscandiscussawiderange
+2022b). This definition captures both generality and per- of topics, execute a wide range of tasks, handle multi-
+formance (via the inclusion of reliability); the mention of modal inputs and outputs, operate in multiple languages,
+“flexibility”isnoteworthy,since,liketheShanahanformu- and“learn”fromzero-shotorfew-shotexamples,theyhave
+lation,thissuggeststhatmetacognitivecapabilities,suchas achieved sufficient generality. While we agree that gen-
+theabilitytolearnnewskills,arenecessarytomakeanAI erality is a crucial characteristic of AGI, we posit that it
+systemsufficientlygeneral. Further,Marcusproposesfive must also be paired with a measure of performance (i.e.,
+taskstogaugesuccess(understandingamovie,understand- ifanLLMcanwritecodeorperformmath,butisnotreli-
+inganovel,cookinginanarbitrarykitchen,writingabug- ably correct, then its generality is not yet sufficiently per-
+free10,000lineprogram,andconvertingnaturallanguage formant).
+mathematicalproofsintosymbolicform)(Marcus,2022a).
+Accompanyinga definition with a benchmarkis valuable; 3. Defining AGI:Six Principles
+however,moreworkwouldberequiredtomakethisbench-
+mark comprehensive. While failing some of these tasks Reflectingonthese nineexampleformulationsof AGI(or
+mayindicateasystemisnotanAGI,itisunclearthatpass- AGI-adjacent concepts), we identify properties and com-
+ingthemissufficientforAGIstatus. InSection5, wefur- monalitiesthatwefeelcontributetoa clear,operationaliz-
+therdiscussthechallengeindevelopingasetoftasksthat abledefinitionofAGI.WearguethatanydefinitionofAGI
+isbothnecessaryandsufficientforcapturingthegenerality shouldmeetthefollowingsixcriteria:
+of AGI. We also note that one of Marcus’proposedtasks,
+1. FocusonCapabilities,notProcesses. Themajorityof
+“workasacompetentcookinanarbitrarykitchen”(avari-
+definitions focus on what an AGI can accomplish, not on
+antofSteveWozniak’s“CoffeeTest”(Wozniak,2010)),re-
+themechanismbywhichitaccomplishestasks. Thisisim-
+quires robotic embodiment; this differs from other defini-
+portantforidentifyingcharacteristicsthatarenotnecessar-
+tionsthatfocusonnon-physicaltasks2.
+ily a prerequisitefor achievingAGI (butmay nonetheless
+CaseStudy8:ArtificialCapableIntelligence.Suleyman be interesting research topics). This focus on capabilities
+proposed the concept of “Artificial Capable Intelligence impliesthatAGIsystemsneednotnecessarilythinkorun-
+(ACI)”(MustafaSuleymanandMichaelBhaskar,2023)to derstand in a human-like way (since this focuses on pro-
+refer to AI systems with sufficient performance and gen- cesses); similarly, it is not a necessary precursor for AGI
+erality to accomplish complex, multi-step tasks in the that systems possess qualities such as consciousness(sub-
+open world. More specifically, Suleyman proposed an jective awareness) (Butlinetal., 2023) or sentience (the
+economically-baseddefinitionofACIskillthathedubbed ability to have feelings), since these qualities have a pro-
+the “Modern Turing Test,” in which an AI would be cessfocus.
+given$100,000ofcapitalandtaskedwithturningthatinto
+2. Focus on Generality and Performance. All of the
+$1,000,000overaperiodofseveralmonths. Thisframing
+abovedefinitionsemphasizegeneralitytovaryingdegrees,
+is more narrow than OpenAI’s definition of economically
+butsomeexcludeperformancecriteria. Wearguethatboth
+valuable work and has the additional downside of poten-
+generalityandperformancearekeycomponentsofAGI.In
+tially introducingalignmentrisks (Kentonetal., 2021) by
+Section 4 we introducea leveledtaxonomythatconsiders
+only targeting fiscal profit. However, a strength of Suley-
+theinterplaybetweenthesedimensions.
+man’sconceptisthefocusonperformingacomplex,multi-
+steptaskthathumansvalue. Construedmorebroadlythan 3. Focus on Cognitive and Metacognitive, but not
+makingamilliondollars,ACI’semphasisoncomplex,real- Physical, Tasks. Whether to require robotic embodiment
+(Royetal.,2021)asacriterionforAGIisamatterofsome
+2ThoughroboticsmightalsobeimpliedbytheOpenAIchar-
+debate.Mostdefinitionsfocusoncognitivetasks,bywhich
+ter’sfocuson“economicallyvaluablework,”OpenAIshutdown
+we mean non-physical tasks. Despite recent advances in
+itsroboticsresearchdivisionin2021(Wiggers,2021),suggesting
+thisisnottheirintendedinterpretation. robotics(Brohanetal., 2023), physicalcapabilitiesforAI
+3

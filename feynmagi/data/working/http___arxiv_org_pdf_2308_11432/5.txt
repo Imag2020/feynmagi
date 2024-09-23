@@ -1,0 +1,38 @@
+6 Front. Comput. Sci.,2024,0(0): 1–42
+Profile Memory Planning Action
+ProfileContents MemoryStructure ActionTarget
+Planningw/oFeedback
+Ø DemographicInformation Ø Unified Memory Ø Task Completion Ø Exploration
+Ø Hybrid Memory Ø Single-path Reasoning Ø Communication
+Ø PersonalityInformation MemoryFormats Ø Multi-path Reasoning ActionProduction
+Ø SocialInformation Ø External Planner Ø Memory Recollection
+Ø Languages Ø Databases Ø Plan Following
+GenerationStrategy Ø Embeddings Ø Lists Planningw/Feedback ActionSpace
+Ø HandcraftingMethod MemoryOperation Ø EnvironmentFeedback Ø Tools Ø Self-Knowledge
+Ø LLM-GenerationMethod Ø Memory Reading Ø Human Feedback ActionImpact
+Ø Dataset AlignmentMethod Ø Memory Writing Ø Model Feedback Ø Environments Ø New Actions
+Ø Memory Reflection Ø Internal States
+Fig.2 AunifiedframeworkforthearchitecturedesignofLLM-basedautonomousagent.
+agent’sshort-term memory. SayPlan [31]isan em- Therefore, many researchers resortto hybrid mem-
+bodiedagentspecificallydesignedfortaskplanning. orytoalleviatethisquestion. However,thelimited
+In this agent, the scene graphs and environment context window of LLMs restricts incorporating
+feedback serve as the agent’s short-term memory, comprehensivememoriesintoprompts,whichcan
+guidingitsactions. CALYPSO[32]isanagentde- impair agent performance. This challenge neces-
+signed for the game Dungeons & Dragons, which sitatesLLMswithlargercontextwindowsandthe
+canassistDungeonMasters inthecreationandnar- abilitytohandleextendedcontexts. Consequently,
+ration of stories. Its short-term memory is built numerous researchers turn to hybrid memory sys-
+upon scene descriptions, monster information, and temstomitigatethisissue.
+previous summaries. DEPS [33] is also a game • Hybrid Memory. This structure explicitly
+agent,butitisdevelopedforMinecraft. Theagent modelsthehumanshort-termandlong-termmem-
+initially generates task plans and then utilizes them ories. Theshort-term memorytemporarily buffers
+topromptLLMs,whichinturnproduceactionsto recent perceptions, while long-term memory con-
+complete the task. These plans can be deemed as solidates important information over time. For in-
+theagent’sshort-termmemory. Inpractice,imple- stance, Generative Agent [20] employs a hybrid
+mentingshort-termmemoryisstraightforwardand memorystructure tofacilitateagentbehaviors. The
+canenhanceanagent’sabilitytoperceiverecentor short-term memory contains the context informa-
+contextually sensitive behaviors and observations. tion about the agent current situations, while the
+However,due to the limitation of context window long-termmemorystorestheagentpastbehaviors
+ofLLMs,it’shardtoputallmemoriesintoprompt, andthoughts, whichcanbe retrievedaccordingto
+whichmaydegradetheperformanceofagents.This thecurrentevents. AgentSims[34]alsoimplements
+methodhashighrequirementsonthewindowlength ahybridmemoryarchitecture. Theinformationpro-
+of LLMs and the ability to handle long contexts. videdinthepromptcanbeconsideredasshort-term

@@ -1,0 +1,78 @@
+LeiWangetal. ASurveyonLargeLanguageModelbasedAutonomousAgents 25
+Table2 RepresentativeapplicationsofLLM-basedau- seekclarification,andincorporatehumanfeedback,
+tonomousagents.
+showing the potential for human-AI collaboration
+Domain Work
+inengineeringdesign.
+TE[102],Akataetal.[103],Ziems
+Psychology
+etal.[105],Maetal.[104]
+Computer Science & Software Engineering:
+Out of One [29], Horton [106],
+Political
+Ziemsetal.[105] Inthefieldofcomputerscienceandsoftwareengi-
+Scienceand
+Social
+neering, LLM-based agents offer potential for au-
+Economy
+Science
+Social Simulacra [79], Gen-
+tomating coding, testing, debugging, anddocumen-
+erative Agents [20], SocialAI
+tation generation [14,18,23,24,126–128]. Chat-
+Social School [109], AgentSims [34],
+Simulation S3 [77],Williamsetal.[110],Li Dev[18]proposesanend-to-endframework,where
+etal.[107],Chaoetal.[108]
+multiple agent roles communicateand collaborate
+ChatLaw [112], Blind Judge-
+Jurisprudence
+ment[113] through natural language conversations to complete
+Research Ziemsetal[105],Bailetal.[114]
+the software development life cycle. This frame-
+Assistant
+workdemonstratesefficientandcost-effectivegener-
+Documentation ChemCrow[75],Boikoetal.[115]
+andData ationofexecutablesoftwaresystems. ToolBench[14]
+Management
+canbeusedfortaskssuchascodeauto-completion
+ChemCrow[75],Boikoetal.[115],
+Experiment
+Natural Grossmannetal.[122] andcoderecommendation. MetaGPT[23]abstracts
+Assistant
+Science
+ChemCrow[75],CodeHelp[120], multipleroles,suchasproductmanagers,architects,
+Natural Boiko et al. [115], MathA- projectmanagers,andengineers,tosupervisecode
+Science gent[117],Drorietal.[118]
+generation process and enhance the quality of the
+Education
+RestGPT [70], Self- final output code. This enables low-cost software
+collaboration [24], SQL-
+development. [24] presents a self-collaboration
+PALM [90], RAH [92], DB-
+framework for code generation using LLMs. In
+GPT [41], RecMind [51],
+CS&SE ChatEDA [123], InteRecA- thisframework,multipleLLMsareassumedtobe
+gent [124], PentestGPT [125],
+distinct "experts" for specific sub-tasks. They col-
+Engineering CodeHelp [120], SmolMod-
+laborateandinteractaccordingtospecifiedinstruc-
+els [126], DemoGPT [127],
+GPTEngineer[128] tions, forming a virtual team that facilitates each
+GPT4IA [129], IELLM [130],
+Industrial other’swork. Ultimately,thevirtualteamcollabo-
+TaskMatrix.AI[71]
+Automation
+ratively addresses code generation tasks without re-
+ProAgent [131], LLM4RL [132],
+PET[133],REMEMBERER[134], quiringhumanintervention. LLIFT[139]employs
+Robotics& DEPS [33], Unified Agent [135], LLMsto assistinconductingstaticanalysis, specif-
+Embodied SayCan[78],LMMWM[136],Tidy-
+icallyforidentifyingpotentialcodevulnerabilities.
+AI Bot[137],RoCo[93],SayPlan[31]
+This approacheffectivelymanages the trade-offbe-
+complexstructuressuchasbuildings,bridges,dams, tweenaccuracyandscalability. ChatEDA[123]is
+roads,etc.[138]proposesaninteractiveframework anagentdevelopedforelectronicdesignautomation
+where human architects and agents collaborate to (EDA)tostreamline thedesignprocess byintegrat-
+constructstructuresina3Dsimulationenvironment. ingtask planning,scriptgeneration, andexecution.
+The interactive agent can understand natural lan- CodeHelp [120] is an agent designed to assist stu-
+guage instructions, place blocks, detectconfusion, dentsanddevelopersindebuggingandtestingtheir

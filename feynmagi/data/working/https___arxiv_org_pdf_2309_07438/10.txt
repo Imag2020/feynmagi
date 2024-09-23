@@ -1,0 +1,59 @@
+11
+speeddataprocessingandtransmissioncapabilitiesofferedby irrigation systems have been developed, such as sprinkler irri-
+5G or even 6G wireless connections. gation [256], [257], drip irrigation [258], [259] and capillary
+The interconnectivity solutions address key biotic and abi- irrigation [260]. Kumar et al. [261] developed an IoT-based
+otic factors influencing farming systems, offering solutions drip irrigation system comprising of capacitive soil moisture
+across various applications. This entails integrating thermal sensor, DHT11 ambient temperature and humidity sensor,
+camerasystemsandsoilmoisturesensorstodetectwaterstress DS18B20 soil temperature sensor, ESP-32 microcontroller,
+for informed irrigation management [249]. Automated insect ESP8266Wi-Fimodule,pump,solenoidvalveandsolarpanel.
+trapcamerasystemswillbeemployedtomonitorpestpressure Similarly, Jenitha et al. developed a Deep Bi-directional Long
+and guide control strategies. Multispectral sensors will aid Short-TermMemory(DBLS-TM)algorithmtopredictthesoil
+in identifying nutrient deficiencies and detecting weeds. All moisture and rainfall status according to the air temperature,
+these elements can be linked to a cutting-edge 5G or 6G humidity, soil moisture, rainfall status, and wind speed col-
+wireless system. Furthermore, multiple sensor platforms can lected by IoT sensors [262]. The volume of irrigation can
+incorporate sensors onto fixed mounts, as well as multi-robot be calculated by predicted soil moisture, rainfall status and
+ground and aerial platforms [250]. evapotranspiration level.
+The adoption of multi-robot collaborative Simultaneous 2) Fertilizers and Pesticides management: Fertilizers can
+Localization and Mapping (SLAM) [251][252] technology provide all nutrient requirements of plants, crops, and soil
+holdsimmensepromise,particularlyinagriculturalproduction fertility [263]. Farmers can precisely know the exact amount
+and environmental monitoring. In agriculture, diverse robots of nutrients required for their crops to save fertilizers and
+can be equipped with distinct sensors to perform specific minimizeharmtotheecosystemcausedbyexcessfertilization
+monitoring tasks, enhancing overall efficiency. For effective usingIoT-basedfertilizationsystem.Swaminathanetal.[264]
+collaboration, real-time communication among robots (both collected the data from optical sensors, weather measuring
+groundandaerial)isessential,necessitatingswiftinterconnec- sensorsandnitrogenphosphorusandpotassium(NPK)sensors
+tivity. For instance, aerial robots can capture imagery to build to predict fertilizer recommendation. The trained Bi-LSTM
+crop field maps and plan paths for ground robots, boosting prediction model performs effectively and produces better
+efficiency in large fields. This entails efficient communication outcomes, which is close to the expert’s advice. At the same
+infrastructure to cater to multiple users, including robots and time, pesticides are also important during crop management,
+humanoperators.Roboticarmsmountedonaerialandground which can reduce the impact of weeds and pests and improve
+robots can be used for specialized actions such as harvesting. crop productivity . To achieve precision weed spraying, Mary
+In essence, IoT in agriculture is to establish robust, high- et al. [265] developed an IoT-based weeding robot equipped
+speed, and responsive interconnectivity systems, fostering with an ESP32 AI camera to capture the photo in the field,
+multi-sensor and multi-platform communication across farms. a NodeMCU to detect the weed and a servo motor to control
+Thisconnectedsmartfarmingconceptencompassesdatafrom the pump of the nozzle for precision spraying. TFL Classify,
+various sensors, algorithms translating data into actionable a Real time image classification powered by TensorFlow Lite,
+decisions,androboticplatformsimplementingthesedecisions was adopted to detect weeds. For pest control, Azfar et al.
+for profitable, sustainable, and efficient farm management. [266]setinfrared(IR)lightwallaroundthecottonplant.Once
+This holistic approach is underpinned by an interconnected the insect obstructed the light, the position-sensitive detector
+IoT system that facilitates data transmission, processing, in- can catch the light deviation. The detection coordinates were
+telligence, and the management of robotic fleets. sent to the drone to respond by spraying pesticide in the
+Smart agriculture is a management concept implemented detection region.
+with advanced technology, such as big data, the cloud com- 3) Microclimate management: Greenhouse production is
+puting,artificialintelligence,roboticsandtheinternetofthings consideredasanultimatesolutionforincreasingfooddemands
+(IoT) for monitoring, tracking, automating, and analyzing spurred by the growing population. Greenhouse offers a year-
+agricultural operations [253]. The IoT is one of the important round production environment for fresh vegetables, boasting
+technologiesinsmartagriculturethatcancollectdataandcon- a production rate approximately 50% higher than open-air
+nect devices. It can provide a diverse set of tools for farmers cultivation [267]. Compared to other agricultural industries,
+to address several challenges in the field [254]. Farmers can the commercial greenhouse consumed largest energy [268].
+remotely access and manage their farms from anywhere at Therefore, it is important to manage the microclimate pre-
+any time using IoT technologies. The utilization of cameras cisely in the greenhouse to save energy and cost. Ullah et
+and sensors first collects valuable data and then uploads it to al. [267] collected temperature, humidity, CO2 concentration,
+the cloud. After data analyzing on the cloud, actuators are solar radiation and wind speed using sensors to monitor the
+used to regulate farming processes automatically. Farmers can microclimate in the greenhouse. The developed optimization
+achieve these data using smart phone or PC to monitor the scheme can be used to control seven greenhouse actuators
+farm. Many IoT applications in smart agriculture have been (heater, chiller, dehumidifier, fogging system, CO2 generator
+studied in literature. and forced and natural ventilation) and achieve a tradeoff
+1) Irrigation management: The irrigation system collects between energy consumption and plant growth rate.
+the data from soil, climate and plant using IoT technology 4) Plant stress detection: Detection of plant stress at early
+to calculate the water requirements of crops and adjust the stage is important for improving the crop production because
+water flow to avoid water waste [255]. Several IoT-based plant stress can lead to crop diseases and death [269]. The

@@ -1,0 +1,93 @@
+20
+oftenbattery-poweredorhavelimitedaccesstopowersources. onthedesign,andthetargetuserdemographic[506].Crafting
+Local computing tasks must be optimized to minimize energy interfacesthatarebothintuitiveandfunctionalacrossdifferent
+consumption and extend device battery life [498]. Some IoT devices and user groups is a complex challenge [507], [508],
+applications require real-time processing of data for timely [509], [510]. Moreover, ethical concerns about how data col-
+decision-making. Ensuring that local computations meet the lectedbyIoTdevicesisusedcanarise,includingissuesrelated
+requiredresponsetimeswithoutintroducinglatencyiscrucial. tosurveillanceordiscriminationbasedondataanalytics[511].
+Therefore, the complexities of algorithms in local computing Ensuring ethical use while maintaining utility is a challenge
+would be limited, therefore potentially restricting the comput- that has social, cultural, and political implications.
+ing accuracy. Nevertheless, it is expected that with improved Addressing these challenges in IoT will require a multi-
+algorithm optimization efficiency and more advanced power- disciplinary approach, involving contributions from various
+supplying devices, the challenges in data storage and comput- fields including cybersecurity, legal studies, environmental
+ing can be effectively mitigated or resolved. science, and social sciences. While these challenges present
+In the realm of security and privacy, one of the pressing significant obstacles, they also open avenues for innovation
+concerns is data encryption. As IoT devices proliferate, creat- and advancements in technology and policy.
+ing secure methods to encrypt data across a network becomes
+increasinglycomplex[499].Traditionalencryptiontechniques V. CONCLUSION
+may not be applicable, given that many IoT devices have
+Inthissurvey,wediscusshowArtificialGeneralIntelligence
+resourceconstraints.Deviceauthenticationfurthercompounds
+(AGI) can revolutionize the Internet-of-Things (IoT) systems
+this issue. In a sprawling IoT network, establishing trust
+and frameworks, and at the same time introduce unique
+between various devices and central servers is complex and
+challenges. AGI can be used to apply knowledge gained
+critical. A single unauthenticated or compromised device can
+in one domain in the heterogeneous data collected in IoT
+becomeagatewayfornetwork-widevulnerabilities.Alongside
+systems to new domains, integrate and contextualize data
+this is the question of user privacy. IoT devices often collect
+from diverse sensory inputs, understand causes and effects in
+and transmit personal information, from health data to geolo-
+events, discover, communicate, and interact with humans on
+cation.Howthissensitivedataisstored,accessed,andutilized
+dynamicandcomplexsystems,andlearnandapplynewskills
+is a subject that demands careful consideration, both from a
+to unseen tasks. AGI-powered IoT systems have a wide range
+technical and ethical standpoint [500].
+of applications including smart grids, home, agriculture, man-
+Scalability and interoperability pose another set of chal-
+ufacturing, healthcare, and transportation. In the meantime,
+lenges [501]. With IoT devices coming from a plethora of
+those applications require significant new research in AGI to
+manufacturers, each with its own set of standards and pro-
+be adapted to resource-limited scenarios in IoT. Data privacy
+tocols, achieving seamless interoperability is a daunting task.
+and security also need to be considered in designing AGI-
+This lack of standardization is not merely a technical obstacle
+powered IoT systems.
+but a barrier to scaling IoT networks to accommodate the
+While this article summarizes the diverse opportunities and
+exponential increase in devices. In the absence of universal
+applications enabled by AGI, we expect to see new and
+protocols, interoperability, and scalable architectures become
+exciting applications powered by AGI in IoT with the rapid
+significant hurdles, inhibiting the efficient growth and func-
+evolution of technology in AI and machine learning. We hope
+tionality of IoT ecosystems.
+this survey can inspire researchers from both the AI as well
+Environmental and social challenges are often overlooked
+as the IoT communities to develop and explore the limitless
+but are no less significant [502]. While IoT devices offer
+possibilities of AGI+IoT.
+potential solutions for environmental monitoring, they them-
+selves can be quite energy-intensive, thus contributing to the
+very problems they aim to solve. This irony underscores the
+REFERENCES
+need for designing more energy-efficient devices. The rapid [1] K. Lakhwani, H. K. Gianey, J. K. Wireko, and K. K. Hiran, Internet
+development and turnover of IoT technology also lead to of Things (IoT): Principles, paradigms and applications of IoT. Bpb
+Publications,2020.
+another concern: electronic waste [503]. The limited lifespan
+[2] J.H.Nord,A.Koohang,andJ.Paliszkiewicz,“Theinternetofthings:
+of these devices exacerbates existing environmental issues Reviewandtheoreticalframework,”ExpertSystemswithApplications,
+related to e-waste, a challenge yet to be fully tackled. vol.133,pp.97–108,2019.
+[3] A. A. Laghari, K. Wu, R. A. Laghari, M. Ali, and A. A. Khan,
+Regulation and governance in IoT are largely nascent and
+“A review and state of art of internet of things (iot),” Archives of
+nebulous[504].Despitetherapidtechnologicaladvancements, ComputationalMethodsinEngineering,pp.1–19,2021.
+the legal framework governing IoT remains ambiguous, creat- [4] L. Farhan, S. T. Shukur, A. E. Alissa, M. Alrweg, U. Raza, and
+R.Kharel,“Asurveyonthechallengesandopportunitiesoftheinternet
+ing challenges for accountability and compliance [505]. This
+ofthings(iot),”in2017EleventhInternationalConferenceonSensing
+isparticularlycriticalwhenIoTtechnologiesareimplemented Technology(ICST),pp.1–5,IEEE,2017.
+in sectors with stringent regulations, such as healthcare [494] [5] R.LohiyaandA.Thakkar,“Applicationdomains,evaluationdatasets,
+andresearchchallengesofiot:Asystematicreview,”IEEEInternetof
+and transportation. The absence of clear regulatory guidance
+ThingsJournal,vol.8,no.11,pp.8774–8798,2020.
+canleadtoethicalandlegalgreyareas,puttingbothusersand [6] L.Atzori,A.Iera,andG.Morabito,“Theinternetofthings:Asurvey,”
+providers in precarious positions. Computernetworks,vol.54,no.15,pp.2787–2805,2010.
+[7] K.-H. N. Bui, J. J. Jung, and D. Camacho, “Consensual negotiation-
+Last but not least, human factors should not be underesti-
+baseddecisionmakingforconnectedappliancesinsmarthomeman-
+mated.TheusabilityofIoTdevicescanvarywidelydepending agementsystems,”Sensors,vol.18,no.7,p.2206,2018.

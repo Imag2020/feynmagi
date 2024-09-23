@@ -1,0 +1,49 @@
+42 Front. Comput. Sci.,2024,0(0): 1–42
+Zhi-Yuan Chen is pursuing his WayneXinZhaoreceivedhisPh.D.
+Ph.D. in Gaoling school of Arti- inComputerSciencefromPeking
+ficialIntelligence,RenminUniver- University in 2014. His research
+sityofChina. Hisresearchmainly interestsincludedatamining,natu-
+focusesonlanguagemodelreason- rallanguageprocessingandinfor-
+ing and agent based on large lan- mation retrieval in general. The
+guagemodel. maingoalistostudyhowtoorga-
+JiakaiTangiscurrentlypursuinga nize,analyzeandmineusergener-
+Master’sdegreeatRenminUniver- ateddataforimprovingtheservice
+sityofChina,Beijing,China. His ofreal-worldapplications.
+research interests include recom-
+mendersystem.
+XuChenobtainedhisPhDdegree
+ZheweiWeireceivedhisPh.D.of
+from Tsinghua University, China.
+Computer Science and Engineer-
+BeforejoiningRenminUniversity
+ingfromHongKongUniversityof
+of China, he was a postdoc re-
+Science and Technology. He did
+searcheratUniversityCollegeLon-
+postdoctoral research in Aarhus
+don,UK.IntheperiodfromMarch
+Universityfrom2012to2014,and
+to September of 2017, he was
+joinedRenminUniversityofChina
+studying at Georgia Institute of
+in2014.
+Technology, USA, as a visiting scholar. His research
+mainlyfocusesontherecommendersystem,reinforce-
+mentlearningandcausalinference.
+Yankai Lin received his B.E. and
+Ph.D.degreesfromTsinghuaUni-
+versity in 2014 and 2019. Af-
+ter that, he worked as a senior re-
+searcher in Tencent WeChat, and
+Ji-RongWenisafullprofessor,the
+joinedRenminUniversityofChina
+executivedeanofGaolingSchool
+in2022asatenure-trackassistantprofessor. Hismain
+of Artificial Intelligence, and the
+researchinterestsarepretrainedmodelsandnaturallan-
+dean of School of Information at
+guageprocessing.
+Renmin University of China. He
+has been working in the big data
+andAIareasformanyyears,andpublishingextensively
+onprestigiousinternationalconferencesandjournals.

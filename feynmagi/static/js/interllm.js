@@ -30,6 +30,10 @@ $(document).ready(function() {
         $('#fileInput').click();
     });
 
+    $('#attach-button').on('click', function() {
+        $('#fileInput').click();
+    });
+
     $('#fileInput').change(function() {
         var files = this.files;
         handleFiles(files);
@@ -179,70 +183,38 @@ $(document).ready(function() {
     });
     
     $('#send-button').click(function() {
-        var msg = $("#message-textarea").val();
-        var tag=$("#tag").val();
-        if(msg=='')
-         {
-             alert("What?");
-             return false;
-         }
-     $(this).hide(); // Cache le bouton send
-     $('#stop-button').show(); // Montre le bouton stop
+    var msg = $("#message-textarea").val();
+    var tag = $("#tag").val(); // Assurez-vous que cet élément existe et est pertinent pour votre usage
+    if (msg == '') {
+        alert("Please enter a message.");
+        return false;
+    }
+    $(this).hide(); // Cache le bouton send
+    $('#stop-button').show(); // Montre le bouton stop
+
     var msg = $("#message-textarea").val();
     socket.emit('send_message', {message: msg, tag: tag});
-    var currentContent = $("#output").html();        
-    let ftout = msg.replace(/\n/g, "<br>");
-    var newContent='<BR><span style="color:blue"><b>'+ftout+'</b></span><BR>';
-    $("#output").html(currentContent + newContent);
-    $("#message-textarea").val("");
-     var divHeight = $('#output').prop('scrollHeight');
-    $('#output').scrollTop(divHeight);
-    });
+        
+    var ftout = msg.replace(/\n/g, "<br>");
+    // var newContent = '<div class="user-text"><span style="color:blue;"><b>' + ftout + '</b></span></div>';
 
-     $("#send-formatted").on('click', function() {
+          var newContent = '<div class="message user-message"><div class="message-bubble"> <div class="message-text">'+ftout+'</div><div class="user-triangle"></div> </div> </div>'
 
-     var msg = $("#message-textarea").val();
-        if(msg=='')
-         {
-             alert("What?");
-             return false;
-         }
-         $(this).hide(); // Cache le bouton send
-     $('#stop-button').show(); // Montre le bouton stop
-    socket.emit('send_fmessage', {message: msg});
-    var currentContent = $("#output").html();        
-    let ftout = msg.replace(/\n/g, "<br>");
-    var newContent='<BR><span style="color:blue"><b>'+ftout+'</b></span><BR>';
-    $("#output").html(currentContent + newContent);
-    $("#message-textarea").val("");
+    $("#output").append(newContent); // Utiliser append pour ajouter directement à la fin
+    $("#message-textarea").val(""); // Nettoie le textarea après l'envoi
+    
     var divHeight = $('#output').prop('scrollHeight');
-    $('#output').scrollTop(divHeight);
+    $('#output').scrollTop(divHeight); // Fait défiler vers le bas pour montrer le dernier message
+    
     });
+
+
+     
    
       socket.on('get_tag', function() {
             var tag = document.getElementById('tag').value;
             socket.emit('response_tag', { tag: tag });
         });
-    
-
-
-     $('#interllm').click(function() {
-         var msg = $("#message-textarea").val();
-         if(msg=='')
-         {
-             alert("What?");
-             return false;
-         }
-        socket.emit('interllm', {message: msg});  
-
-         var currentContent = $("#output").html();        
-    let ftout = msg.replace(/\n/g, "<br>");
-    var newContent='<BR><span style="color:blue"><b>'+ftout+'</b></span><BR>';
-    $("#output").html(currentContent + newContent);
-    $("#message-textarea").val("");
-     var divHeight = $('#output').prop('scrollHeight');
-    $('#output').scrollTop(divHeight);
-    });
 
 
     $('#imagequestion').click(function() {
@@ -267,26 +239,108 @@ $(document).ready(function() {
     });
 
 
+function formatCode(text) {
+    var regex = /```python([\s\S]*?)```/g; // Regex to find code blocks
+    return text.replace(regex, function(match, p1) {
+        return '<span class="code-text">' + p1.replace(/<br>/g, "\n") + '</span>';
+    });
+}
+    
+var isNewMessage = true;  // Contrôle si un nouveau message commence
+var currentMessageId = 0;  // Identifiant unique pour chaque bulle de message
 
+var isCodeBlock = false;  // Flag to indicate if currently inside a code block
+var codeBuffer = "";  // Buffer to hold code text until the block ends
+/*
 
 socket.on('response_token', function(data) {
-    // Accumuler le contenu dans un div spécifique
     var ftout = data.token.replace(/\n/g, "<br>");
-    $("#output").append(ftout);
 
-    // S'assurer que le contenu est traité après un bref délai
-    setTimeout(function() {
-        processContent();
-    }, 0);
+    
+    if (isNewMessage) {  // S'il s'agit d'un nouveau message, créez une bulle
+        currentMessageId++; // Incrémenter pour un nouvel identifiant unique
+        var messageContainer = '<div class="llm-text" id="current-message-' + currentMessageId + '">' + ftout + '</div>';
+        $("#output").append(messageContainer);
+        isNewMessage = false;  // Marquer comme pas un nouveau message jusqu'à 'end_message'
+    } else {
+        $("#current-message-" + currentMessageId).append(ftout); // Ajouter du texte à la bulle existante
+    }
 
     var divHeight = $('#output').prop('scrollHeight');
     $('#output').scrollTop(divHeight);
 });
 
-    socket.on('end_message', function(data) {
-     $('#send-button').show(); // Montre le bouton send
-     $('#stop-button').hide(); // Montre le bouton stop
+*/
+
+
+// Variables globales
+var isCodeBlock = false;
+var codeBuffer = "";
+var currentMessageId = 0;
+var isNewMessage = true;
+var messageBuffer = ""; // Buffer pour stocker les tokens temporairement
+
+socket.on('response_token', function(data) {
+    var token = data.token;
+    var formattedToken = token.replace(/\n/g, "<br>");
+
+    // Gestion des blocs de code
+    if (token === "```python") {
+        isCodeBlock = true;
+        codeBuffer += formattedToken;
+        return;
+    }
+
+    if (token === "```" && isCodeBlock) {
+        isCodeBlock = false;
+        codeBuffer += "<br>";
+        messageBuffer += '<div class="code-text">' + codeBuffer + '</div>';
+        $("#current-message-" + currentMessageId + " .message-text").append(messageBuffer);
+        codeBuffer = "";
+        messageBuffer = "";
+        return;
+    }
+
+    if (isCodeBlock) {
+        codeBuffer += formattedToken + "<br>";
+        return;
+    }
+
+    // Création d'une nouvelle bulle de message au premier token reçu
+    if (isNewMessage) {
+        currentMessageId++;
+        // Créer la bulle de message initiale
+        var messageContainer = `
+            <div class="message llm-message" id="current-message-` + currentMessageId + `">
+                <div class="message-bubble">
+                    <div class="message-text"></div>
+                    <div class="message-triangle llm-triangle"></div>
+                </div>
+            </div>`;
+        $("#output").append(messageContainer);
+        isNewMessage = false;
+    }
+
+    // Ajouter le token formaté dans la bulle de message en cours
+    $("#current-message-" + currentMessageId + " .message-text").append(formattedToken);
+
+    // Faire défiler automatiquement vers le bas
+    var divHeight = $('#output').prop('scrollHeight');
+    $('#output').scrollTop(divHeight);
 });
+
+socket.on('end_message', function(data) {
+    isNewMessage = true; // Réinitialiser pour le prochain message
+
+    // Réinitialiser le buffer de message
+    messageBuffer = "";
+
+    // Montrer le bouton send et cacher le bouton stop
+    $('#send-button').show();
+    $('#stop-button').hide();
+});
+
+    
 
 
 function processContent() {
@@ -627,50 +681,7 @@ function processContent() {
             };
         }
 
-        $("#startCamera").on('click', function() {
-            var $iconSpan = $(this).find('span');
-            if (!isRecording) {
-                 
-                $iconSpan.removeClass('bi-camera-video-off-fill').addClass('bi-camera-video-fill');
-                navigator.mediaDevices.getUserMedia({ video: true, audio: true })
-                .then(stream => {
-                    openPopup();
-                    video.srcObject = stream;
-                    isRecording = true;
-                    captureFrame();
-                    socket.emit('startrecord');
-                })
-                .catch(error => console.log(error));
-            } else {
-                
-                $iconSpan.removeClass('bi-camera-video-fill').addClass('bi-camera-video-off-fill');
-                isRecording = true;
-                if (video.srcObject) {
-                    const tracks = video.srcObject.getTracks();
-                    tracks.forEach(track => track.stop());
-                    video.srcObject = null;
-                }
-                if (popupWindow) {
-                    popupWindow.close();
-                    popupWindow = null;
-                }
-            }
-        });
-
-        socket.on('processed_frame', function(data) {
-            if (popupWindow) {
-                const popupCanvas = popupWindow.document.getElementById('popupCanvas');
-                if (popupCanvas) {
-                    const contextPopup = popupCanvas.getContext('2d');
-                    const image = new Image();
-                    image.onload = function() {
-                        contextPopup.drawImage(image, 0, 0, popupCanvas.width, popupCanvas.height);
-                    };
-                    image.src = 'data:image/jpeg;base64,' + data.frame;
-                }
-            }
-        });
-
+        
     // Gestionnaire d'événements pour le retour de l'agent
 socket.on('output_agent', function(data) {
     // Convertit Markdown en HTML si nécessaire
@@ -692,77 +703,7 @@ socket.on('output_agent', function(data) {
 
 
 
-    // -----------------------------------------------------------------
-
-   var mediaRecorder;
-   var audioChunks = [];
-   let isAudioRecording = false;
-
-function startRecording(stream) {
-    mediaRecorder = new MediaRecorder(stream);
-    mediaRecorder.start();
-    isAudioRecording = true;
-
-    mediaRecorder.ondataavailable = function(event) {
-        if (event.data.size > 0) {
-            event.data.arrayBuffer().then(arrayBuffer => {
-                socket.emit('audio', arrayBuffer);
-            });
-        }
-    };
-
-    // Arrête l'enregistrement après 1 seconde, puis le redémarre
-    setTimeout(function() {
-        if (isAudioRecording) {
-            mediaRecorder.stop(); // Arrête l'enregistrement
-            mediaRecorder.start(); // Redémarre immédiatement l'enregistrement pour la prochaine tranche d'1 seconde
-            startRecording(stream); // Appel récursif pour continuer le processus
-        }
-    }, 3000); // 1000 millisecondes = 1 seconde
-}
-
-if (navigator.mediaDevices === undefined) {
-  navigator.mediaDevices = {};
-  navigator.mediaDevices.getUserMedia = function(constraints) {
-    // Use old syntax for older browsers
-    var getUserMedia = navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
-    if (!getUserMedia) {
-      return Promise.reject(new Error('getUserMedia is not implemented in this browser'));
-    }
-    return new Promise(function(resolve, reject) {
-      getUserMedia.call(navigator, constraints, resolve, reject);
-    });
-  }
-}
     
-$("#startRecord").on('click', function() {
-
-    var $iconSpan = $(this).find('span');
-    if (!isAudioRecording) {
-            
-           $iconSpan.removeClass('bi-mic-mute-fill').addClass('bi-mic-fill');
-            navigator.mediaDevices.getUserMedia({ audio: true })
-            .then(stream => {
-            startRecording(stream);
-            // send message to app
-             socket.emit('startrecord')    
-           })
-           .catch(error => console.log(error));
-            
-        } else {
-             $iconSpan.removeClass('bi-mic-fill').addClass('bi-mic-mute-fill');
-            
-            if (mediaRecorder && mediaRecorder.state !== "inactive") {
-             mediaRecorder.stop(); // Arrête l'enregistrement
-            }
-            isAudioRecording = false; // Met à jour le contrôle d'état pour arrêter la boucle d'enregistrement
-        } 
-    
-    
-});
-
-
-
 
     // 
 
@@ -1043,7 +984,8 @@ $("#fileInput").change(function() {
         when: $("#timeExecution").val(),
         system: $("#systemPrompt").val(),
         prompt: $("#mainPrompt").val(),
-        tools: $("input[name='tools']:checked").map(function() { return $(this).val(); }).get()
+        tools: $("input[name='tools']:checked").map(function() { return $(this).val(); }).get(),
+        nextagent : $("#nextAgent").val(),
     };
 
     socket.emit('add_agent', agentData);
@@ -1146,6 +1088,10 @@ function loadAgentDetails(agent) {
                     <label for="mainPrompt">Prompt</label>
                     <textarea id="mainPrompt" name="mainPrompt" class="form-control">${agent.prompt}</textarea>
                 </div>
+                 <div class="form-group">
+                        <label for="NextAgent">Next Agent</label>
+                        <input type="text" id="nextAgent" ame="nextAgent" value="${agent.nextagent}" /> 
+                    </div>
             </div>
             <div class="col-md-4">
                 <label>Tools</label>

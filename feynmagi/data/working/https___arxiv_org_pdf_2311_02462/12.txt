@@ -1,0 +1,66 @@
+LevelsofAGI
+Ra¨uker, T., Ho, A., Casper, S., and Hadfield-Menell, D. Sheridan, T. B. and Parasuraman, R. Human-
+Toward Transparent AI: A Survey on Interpreting the automation interaction. Reviews of Human
+Inner Structures of Deep Neural Networks. CoRR, Factors and Ergonomics, 1(1):89–129, 2005.
+abs/2207.13243,2023.doi:10.48550/arXiv.2207.13243. doi: 10.1518/155723405783703082. URL
+URLhttps://arxiv.org/abs/2207.13243. https://doi.org/10.1518/155723405783703082.
+Richmond,J.Y.andMcKinney,R.W. Biosafetyinmicro- Sheridan, T. B., Verplank, W. L., and Brooks, T. Hu-
+biologicalandbiomedicallaboratories,2009. man/computer control of undersea teleoperators. In
+NASA. Ames Res. Center The 14th Ann. Conf. on Man-
+Roy, N., Posner, I., Barfoot, T., Beaudoin, P., Ben-
+ualControl,1978.
+gio, Y., Bohg, J., Brock, O., Depatie, I., Fox, D.,
+Koditschek, D., Lozano-Perez,T., Mansinghka, V., Pal, Shevlane, T., Farquhar, S., Garfinkel, B., Phuong, M.,
+C., Richards, B., Sadigh, D., Schaal, S., Sukhatme, Whittlestone, J., Leung, J., Kokotajlo, D., Marchal,
+G., Therien, D., Toussaint, M., and de Panne, M. V. N., Anderljung, M., Kolt, N., Ho, L., Siddarth, D.,
+From Machine Learning to Robotics: Challenges Avin, S., Hawkins, W., Kim, B., Gabriel, I., Bolina,
+and Opportunities for Embodied Intelligence. CoRR, V., Clark, J., Bengio, Y., Christiano, P., and Dafoe,
+abs/2110.15245,2021.doi:10.48550/arXiv.2110.15245. A. Model evaluation for extreme risks. CoRR,
+URLhttps://arxiv.org/abs/2110.15245. abs/2305.15324,2023.doi:10.48550/arXiv.2305.15324.
+URLhttps://arxiv.org/abs/2305.15324.
+SAE International. Taxonomy and Definitions for
+Terms Related to Driving Automation Systems Shneiderman, B. Human-centered artificial intelli-
+for On-Road Motor Vehicles, April 2021. URL gence: Reliable, safe & trustworthy, 2020. URL
+https://www.sae.org/standards/content/j3016h_t2t0p2s1:0/4/.arxiv.org/abs/2002.04087v1.
+AccessedOctober12,2023.
+Silver,D.,Huang,A.,Maddison,C.J.,Guez,A.,Sifre,L.,
+Saharia,C., Chan,W., Saxena,S., Li, L., Whang,J., Den- vandenDriessche,G., Schrittwieser,J., Antonoglou,I.,
+ton, E., Ghasemipour, S. K. S., Ayan, B. K., Mahdavi, Panneershelvam,V., Lanctot, M., Dieleman, S., Grewe,
+S. S., Lopes, R. G., Salimans, T., Ho, J., Fleet, D. J., D., Nham, J., Kalchbrenner,N., Sutskever, I., Lillicrap,
+and Norouzi, M. Photorealistic Text-to-Image Diffu- T., Leach, M., Kavukcuoglu,K., Graepel, T., and Hass-
+sionModelswithDeepLanguageUnderstanding.CoRR, abis, D. Mastering the Game of Go with Deep Neural
+abs/2205.11487,2022.doi:10.48550/arXiv.2205.11487. NetworksandTreeSearch. Nature,529:484–489,2016.
+URLhttps://arxiv.org/abs/2205.11487. doi:10.1038/nature16961.
+Schoenegger,P.andPark,P.S. Largelanguagemodelpre- Silver,D.,Schrittwieser,J.,Simonyan,K.,Antonoglou,I.,
+dictioncapabilities:Evidencefromareal-worldforecast- Huang, A., Guez, A., Hubert, T., Baker, L., Lai, M.,
+ingtournament,2023. Bolton, A., Chen, Y., Lillicrap, T., Hui, F., Sifre, L.,
+van den Driessche, G., Graepel, T., and Hassabis, D.
+Searle, J. R. Minds, Brains, and Programs. Behavioral
+MasteringtheGameofGoWithoutHumanKnowledge.
+and Brain Sciences, 3:417–424, 1980. doi: 10.1017/
+Nature,550:354–359,2017. doi:10.1038/nature24270.
+S0140525X00005756.
+Silver, D., Hubert, T., Schrittwieser, J., Antonoglou,
+Serapio-Garc´ıa, G., Safdari, M., Crepy, C., Sun, L., Fitz,
+I., Lai, M., Guez, A., Lanctot, M., Sifre, L., Ku-
+S., Romero, P., Abdulhai, M., Faust, A., and Mataric´,
+maran, D., Graepel, T., Lillicrap, T., Simonyan,
+M. PersonalityTraitsinLargeLanguageModels.CoRR,
+K., and Hassabis, D. A General Reinforcement
+abs/2307.00184,2023.doi:10.48550/arXiv.2307.00184.
+Learning Algorithm that Masters Chess, Shogi, and
+URLhttps://arxiv.org/abs/2307.00184.
+Go through Self-play. Science, 362(6419):1140–
+Shah, R., Freire, P., Alex, N., Freedman, R., Krashenin- 1144, 2018. doi: 10.1126/science.aar6404. URL
+nikov, D., Chan, L., Dennis, M. D., Abbeel, P., https://www.science.org/doi/abs/10.1126/science.aar
+Dragan, A., and Russell, S. Benefits of As-
+Srivastava, A., Rastogi, A., Rao, A., and et al. Be-
+sistance over Reward Learning, 2021. URL
+yond the Imitation Game: Quantifying and Extrapo-
+https://openreview.net/forum?id=DFIoGDZejIB.
+lating the Capabilities of Language Models. CoRR,
+Shanahan, M. Embodiment and the Inner Life. Oxford abs/2206.04615,2023.doi:10.48550/arXiv.2206.04615.
+UniversityPress,2010. URLhttps://arxiv.org/abs/2206.04615.
+Shanahan,M. The TechnologicalSingularity. MITPress, Stockfish. Stockfish - Open Source Chess Engine, 2023.
+August2015. URLhttps://stockfishchess.org/.
+13

@@ -1,0 +1,47 @@
+Next, we compare our heterogeneous design against three benchmark designs, including: (ⅰ) an
+optimal design with heterogeneous line spacings and headways but uniform stop spacing; (ⅱ) an optimal
+design featuring spatially-heterogeneous headways with uniform line and stop spacings; and (ⅲ) an
+optimal design with a uniform line spacing, stop spacing, and headway. All four optimal designs use
+the same demand pattern and a value of time set at 20 $/h. Results are presented in Table 4, where the
+range of optimal values for each heterogeneous decision variable is shown in brackets, followed by the
+average value in parentheses.
+Table 4. Optimal heterogeneous, partially-homogeneous, and homogeneous designs under terminal-centered demand
+Uniform line and Uniform line and stop
+Variable Heterogeneous design Uniform stop spacing
+stop spacings spacings, and headway
+𝐾∗ 9 9 12 22
+𝐵∗(𝑥,𝑦), km [0.12, 2.00] (0.23) 0.16 0.15 0.16
+𝑆∗(𝑥), km [0.08, 3.00] (0.24) [0.09, 3.00] (0.25) 0.20 0.22
+𝐼
+𝐻∗ (𝑥), min [3.9, 30.0] (10.7) [4.0, 30.0] (11.0) [3.0, 30.0] (14.2) 5.2
+𝐼𝑝
+𝐻∗ (𝑥), min [5.0, 30.0] (11.1) [5.0, 30.0] (11.3) [5.0, 30.0] (14.8) 5.2
+𝐼𝑑
+𝐴𝐶, h 98.51 102.02 94.23 139.89
+𝑈𝐶, h 465.89 470.19 487.80 507.19
+𝐺𝐶, h 564.39 572.20 582.04 647.09
+1.36% (compared to 1.68% (compared to 10.05% (compared
+𝐺𝐶 saving design with uniform design with uniform line to the homogeneous –
+stop spacing) and stop spacings) design)
+The last row of Table 4 demonstrates that, compared to the homogeneous design, heterogenizing
+the headway results in a cost saving of 10.05%. Additionally, further heterogenizing the line spacing
+yields an extra saving of 1.68%, while heterogenizing the stop spacing contributes an added saving of
+1.36%. Note that each number is computed by comparing the 𝐺𝐶 against a “more homogeneous”
+design, which is the one in the column immediately to the right of the current design in Table 4. The
+last number is a conservative estimate, as it is derived from a design with optimized (though uniform)
+stop spacing. Should stop spacing be disregarded or assumed constant in the model, as in previous
+studies such as Chang and Schonfeld (1991) and Yang et al. (2020), even greater savings would be
+realized. For example, compared to using a fixed stop spacing of 500 m, the cost saving stemmed from
+our heterogeneous design amounts to 11.37%. Furthermore, larger savings are also observed under
+alternative demand patterns, as will be discussed shortly.
+Lastly, we compare the generalized cost of the heterogeneous design to the cost of the optimal
+design without accounting for the impacts of boarding and alighting passengers on dwell times and
+transfer times (details are omitted in the interest of brevity). In the latter design, the bus dwell time is
+set at 30 seconds, as in Gu et al. (2016). Numerical results across various demand levels reveal that the
+relative percentage error lies between 2–5%. This underscores the importance of incorporating
+passenger boarding and alighting processes in the model.
+4.4 Sensitivity analyses
+In this section, we examine the sensitivity of the optimal heterogeneous design and cost savings in
+comparison to the benchmark designs. Sensitivity analyses concerning the demand patterns, demand
+rates, service region sizes, and feeder line layouts are furnished in subsections 4.4.1–4.4.4, respectively.
+19

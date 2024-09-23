@@ -1,0 +1,80 @@
+4
+of Eastern Piedmont, I-15121, Alessandria, Italy; (C)INFN, I-10125, Turin, Italy
+75 Uppsala University, Box 516, SE-75120 Uppsala, Sweden
+76 Wuhan University, Wuhan 430072, People’s Republic of China
+77 Xinyang Normal University, Xinyang 464000, People’s Republic of China
+78 Yantai University, Yantai 264005, People’s Republic of China
+79 Yunnan University, Kunming 650500, People’s Republic of China
+80 Zhejiang University, Hangzhou 310027, People’s Republic of China
+81 Zhengzhou University, Zhengzhou 450001, People’s Republic of China
+a Also at the Moscow Institute of Physics and Technology, Moscow 141700, Russia
+b Also at the Novosibirsk State University, Novosibirsk, 630090, Russia
+c Also at the NRC ”Kurchatov Institute”, PNPI, 188300, Gatchina, Russia
+d Also at Goethe University Frankfurt, 60323 Frankfurt am Main, Germany
+e Also at Key Laboratory for Particle Physics, Astrophysics and Cosmology, Ministry
+of Education; Shanghai Key Laboratory for Particle Physics and Cosmology; Institute
+of Nuclear and Particle Physics, Shanghai 200240, People’s Republic of China
+f Also at Key Laboratory of Nuclear Physics and Ion-beam Application (MOE) and Institute
+of Modern Physics, Fudan University, Shanghai 200443, People’s Republic of China
+g Also at State Key Laboratory of Nuclear Physics and Technology,
+Peking University, Beijing 100871, People’s Republic of China
+h Also at School of Physics and Electronics, Hunan University, Changsha 410082, China
+i Also at Guangdong Provincial Key Laboratory of Nuclear Science, Institute of
+Quantum Matter, South China Normal University, Guangzhou 510006, China
+j AlsoatFrontiersScienceCenterforRareIsotopes, LanzhouUniversity, Lanzhou 730000, People’s RepublicofChina
+k Also at Lanzhou Center for Theoretical Physics, Lanzhou University, Lanzhou 730000, People’s Republic of China
+l Also at the Department of Mathematical Sciences, IBA, Karachi 75270, Pakistan
+(Dated: September27, 2023)
+Based on a data sample of (27.08 0.14) 108 ψ(3686) events collected with the BESIII de-
+tector at the BEPCII collider, the M± 1 trans× ition ψ(3686) γηc(2S) with ηc(2S) KK¯π is
+studied, where KK¯π is K+K−π0 or K S0K±π∓. The mass→ and width of the ηc(2S→ ) are mea-
+sured to be (3637.8 0.8(stat) 0.2(syst)) MeV/c2 and (10.5 1.7(stat) 3.5(syst)) MeV, re-
+spectively. The prod± uct branchi± ng fraction (ψ(3686) γηc(2S± )) (ηc(2± S) KK¯π) is deter-
+mined to be (0.97 ±0.06(stat) ±0.09(syst))B ×10−5. U→ sing B(ηc(2× S)B
+→
+KK¯π→ ) = (1.86+ −0 0. .6 48 9)%,
+we obtain the branching fraction of the radiative transition to be (ψ(3686) γηc(2S)) =
+(5.2 0.3(stat) 0.5(syst)+1.9(extr)) 10−4, where the third uncertB ainty is due→ to the quoted
+(ηc±
+(2S)
+KK¯±
+π).
+−1.4 ×
+B →
+I. INTRODUCTION served by the Belle collaboration in the B meson decay,
+B± K±η (2S),withη (2S) K0K±π∓ in2002[10].
+→ c c → S
+However,knowledgeaboutthisparticleisstillverylimit-
+Charmonia, comprising bound states of a charmed
+ed. Forexample,thesumofitsbranchingfractions(BFs)
+quarkanditsantiquark(cc¯),provideauniqueopportuni-
+measuredexperimentallyisonlyabout3%[11]. Sincethe
+tytostudythestronginteractionsintheτ-charmenergy
+η (2S)isapseudo-scalarparticlewithquantumnumbers
+regime,wherenon-perturbativecontributionsarecompa- c
+JPC =0−+, it cannotbe produceddirectly via electron-
+rable to perturbative ones. In the low energy region,the
+positron annihilation. The production of the η (2S)
+large coupling of the strong interaction (α ) makes first- c
+s
+throughψ(3686)radiativetransitionrequiresacharmed-
+principle calculations extremely difficult. Thus, various
+quark spin-flip and, thus, proceeds via a magnetic tran-
+theoretical models have been developed [1–4], and good
+sition. The partial width Γ(ψ(3686) γη (2S)) [1–
+agreement has been achieved for the mass spectrum of → c
+3] and the BF (ψ(3686) γη (2S)) [12] have been
+charmonia below the open-charm threshold. However, B → c
+calculated in different theoretical frameworks, as shown
+long-standing puzzles in charmonium physics still exist,
+such as the ρ π puzzle [5–7] and substantial non-DD¯ in Table I. These include the non-relativistic potential
+− model (NR model) [1, 2], the Godfrey-Isgur relativized
+decays of the ψ(3770)[8, 9]. Further studies of the char-
+potential model (GI model) [1, 2], the light-front quark
+moniumsystemaredesired,both theoreticalandexperi-
+model [3], and effective field theory [12], among others.
+mental, to resolve these puzzles and consequently better
+Significant discrepancies exist among the predictions.
+understand the strong interaction.
+Thecharmoniumspin-singletstateη (2S)wasfirstob- On the experimental side, the first observation of the
+c

@@ -1,0 +1,2045 @@
+
+BoursoBank - Informations et tarifs; cartes et avantages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Powered by CookiebotConsentementDétails[#IABV2SETTINGS#]À propos des cookiesCe site web utilise des cookies.Les cookies nous permettent de personnaliser le contenu et les annonces, d'offrir des fonctionnalités relatives aux médias sociaux et d'analyser notre trafic. Nous partageons également des informations sur l'utilisation de notre site avec nos partenaires de médias sociaux, de publicité et d'analyse, qui peuvent combiner celles-ci avec d'autres informations que vous leur avez fournies ou qu'ils ont collectées lors de votre utilisation de leurs services.Consent SelectionNécessaires Préférences Statistiques Marketing Afficher les détailsNécessaires  15 Les cookies nécessaires contribuent à rendre un site web utilisable en activant des fonctions de base comme la navigation de page et l'accès aux zones sécurisées du site web. Le site web ne peut pas fonctionner correctement sans ces cookies.Cookiebot2En savoir plus sur ce fournisseur1.gifUtilisé pour compter le nombre de sessions sur le site web, nécessaire pour optimiser la livraison des produits CMP. Expiration: SessionType: Pixel de suiviCookieConsentStocke l'autorisation d'utilisation de cookies pour le domaine actuel par l'utilisateur Expiration: 1 annéeType: Cookie HTTPGoogle2En savoir plus sur ce fournisseurSome of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness.test_cookieUtilisé pour vérifier si le navigateur de l'utilisateur accepte les cookies.Expiration: 1 jourType: Cookie HTTP_GRECAPTCHACe cookie est utilisé pour distinguer les humains des robots. Ceci est bénéfique pour le site web afin de créer des rapports valides sur l'utilisation du leur site.Expiration: 180 joursType: Cookie HTTPHubspot6En savoir plus sur ce fournisseurembed/v3/counters.gifUtilisé pour mettre en œuvre les formulaires sur le site web.Expiration: SessionType: Pixel de suivirc::aCe cookie est utilisé pour distinguer les humains des robots. Ceci est bénéfique pour le site web afin de créer des rapports valides sur l'utilisation du leur site.Expiration: PersistantType: Stockage local HTMLrc::bCe cookie est utilisé pour distinguer les humains des robots.Expiration: SessionType: Stockage local HTMLrc::cCe cookie est utilisé pour distinguer les humains des robots.Expiration: SessionType: Stockage local HTML_cfuvid [x2]Ce cookie fait partie des services fournis par Cloudflare - notamment l’équilibrage de la charge, la fourniture du contenu du site web et la connexion DNS au service des exploitants de sites web.Expiration: SessionType: Cookie HTTPLecomparateur Assurance1En savoir plus sur ce fournisseurASP.NET_SessionIdConserve la configuration des paramètres des utilisateurs à travers les demandes de page.Expiration: SessionType: Cookie HTTPhsforms.comlecomparateurassurance.com4__cf_bm [x4]Ce cookie est utilisé pour distinguer les humains des robots. Ceci est bénéfique pour le site web afin de créer des rapports valides sur l'utilisation du leur site.Expiration: 1 jourType: Cookie HTTPPréférences  0 Les cookies de préférences permettent à un site web de retenir des informations qui modifient la manière dont le site se comporte ou s’affiche, comme votre langue préférée ou la région dans laquelle vous vous situez.Nous n'utilisons pas de cookies de ce type.Statistiques  7 Les cookies statistiques aident les propriétaires du site web, par la collecte et la communication d'informations de manière anonyme, à comprendre comment les visiteurs interagissent avec les sites web.Google2En savoir plus sur ce fournisseurSome of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness._gaEnregistre un identifiant unique utilisé pour générer des données statistiques sur la façon dont le visiteur utilise le site.Expiration: 2 annéesType: Cookie HTTP_ga_#Utilisé par Google Analytics our recueillir des données sur le nombre de fois qu'un utilisateur a visité le site web ainsi que les dates de la première et de la plus récente visite. Expiration: 2 annéesType: Cookie HTTPHubspot4En savoir plus sur ce fournisseur__hsscIdentifie si les données du navigateur doivent être mises à jour.Expiration: 1 jourType: Cookie HTTP__hssrcUtilisé pour reconnaître le navigateur de l'internaute lors de son retour sur le site.Expiration: SessionType: Cookie HTTP__hstcDéfinit un identifiant unique pour la session. Cela permet au site Web d'obtenir des données sur le comportement des visiteurs à des fins statistiques.Expiration: 180 joursType: Cookie HTTPhubspotutkDéfinit un identifiant unique pour la session. Cela permet au site Web d'obtenir des données sur le comportement des visiteurs à des fins statistiques.Expiration: 180 joursType: Cookie HTTPwww.datadoghq-browser-agent.com1dd_cookie_test_#Enregistre des données sur le comportement des visiteurs sur le site Web . Ceci est utilisé pour l'analyse interne et l'optimisation du site.Expiration: 1 jourType: Cookie HTTPMarketing  27 Les cookies marketing sont utilisés pour effectuer le suivi des visiteurs au travers des sites web. Le but est d'afficher des publicités qui sont pertinentes et intéressantes pour l'utilisateur individuel et donc plus précieuses pour les éditeurs et annonceurs tiers. Meta Platforms, Inc.3En savoir plus sur ce fournisseurlastExternalReferrerDétecte comment l'utilisateur a atteint le site web en enregistrant sa dernière adresse URL.Expiration: PersistantType: Stockage local HTMLlastExternalReferrerTimeDétecte comment l'utilisateur a atteint le site web en enregistrant sa dernière adresse URL.Expiration: PersistantType: Stockage local HTML_fbpUtilisé par Facebook pour fournir une série de produits publicitaires tels que les offres en temps réel d'annonceurs tiers.Expiration: 3 moisType: Cookie HTTPGoogle5En savoir plus sur ce fournisseurSome of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness.IDEUtilisé par Google DoubleClick pour enregistrer et signaler les actions de l'utilisateur du site après qu'il ait vu ou cliqué sur une des pubs de l'annonceur dans le but de mesurer l'efficacité et de présenter des annonces publicitaires ciblées à l'utilisateur.Expiration: 400 joursType: Cookie HTTPpagead/landingCollecte des données sur le comportement des visiteurs à partir de plusieurs sites web afin de présenter des publicités plus pertinentes. Cela permet également au site web de limiter le nombre de fois où la même publicité est présentée au visiteur.Expiration: SessionType: Pixel de suiviNIDEn attenteExpiration: 6 moisType: Cookie HTTPpagead/1p-user-list/#Repère si l'internaute a montré de l'intérêt pour des produits ou des événements spécifiques sur plusieurs sites web et détecte la façon dont l'internaute navigue entre les sites. Cela est utilisé pour mesurer les efforts publicitaires et facilite le paiement des frais de référence entre les sites web.Expiration: SessionType: Pixel de suivi_gcl_auUtilisé par Google AdSense pour expérimenter l'efficacité de la publicité sur de divers sites Web en utilisant leurs services.Expiration: 3 moisType: Cookie HTTPHubspot2En savoir plus sur ce fournisseurrc::fCe cookie est utilisé pour distinguer les humains des robots.Expiration: PersistantType: Stockage local HTML__ptq.gifSends data to the marketing platform Hubspot about the visitor's device and behaviour. Tracks the visitor across devices and marketing channels.Expiration: SessionType: Pixel de suiviYouTube17En savoir plus sur ce fournisseur#-#Utilisé pour suivre l'interaction de l'utilisateur avec le contenu intégré.Expiration: SessionType: Stockage local HTMLiU5q-!O9@$Enregistre un identifiant unique pour conserver des statistiques sur les vidéos de YouTube vues par l'utilisateur.Expiration: SessionType: Stockage local HTMLLAST_RESULT_ENTRY_KEYUtilisé pour suivre l'interaction de l'utilisateur avec le contenu intégré.Expiration: SessionType: Cookie HTTPLogsDatabaseV2:V#||LogsRequestsStoreUtilisé pour suivre l'interaction de l'utilisateur avec le contenu intégré.Expiration: PersistantType: IndexedDBremote_sidNécessaire pour la mise en place et le fonctionnement du contenu vidéo de YouTube sur le site web.Expiration: SessionType: Cookie HTTPTESTCOOKIESENABLEDUtilisé pour suivre l'interaction de l'utilisateur avec le contenu intégré.Expiration: 1 jourType: Cookie HTTPVISITOR_INFO1_LIVETente d'estimer la bande passante des utilisateurs sur des pages avec des vidéos YouTube intégrées.Expiration: 180 joursType: Cookie HTTPYSCEnregistre un identifiant unique pour conserver des statistiques sur les vidéos de YouTube vues par l'utilisateur.Expiration: SessionType: Cookie HTTPytidb::LAST_RESULT_ENTRY_KEYStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: PersistantType: Stockage local HTMLYtIdbMeta#databasesUtilisé pour suivre l'interaction de l'utilisateur avec le contenu intégré.Expiration: PersistantType: IndexedDByt-remote-cast-availableStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: SessionType: Stockage local HTMLyt-remote-cast-installedStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: SessionType: Stockage local HTMLyt-remote-connected-devicesStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: PersistantType: Stockage local HTMLyt-remote-device-idStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: PersistantType: Stockage local HTMLyt-remote-fast-check-periodStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: SessionType: Stockage local HTMLyt-remote-session-appStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: SessionType: Stockage local HTMLyt-remote-session-nameStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: SessionType: Stockage local HTMLNon classés  5Les cookies non classés sont les cookies qui sont en cours de classification, ainsi que les fournisseurs de cookies individuels.Lecomparateur Assurance1En savoir plus sur ce fournisseurPixeoUserEn attenteExpiration: SessionType: Cookie HTTPcdn.appconsent.io2appconsentEn attenteExpiration: PersistantType: Stockage local HTMLt2.gifEn attenteExpiration: SessionType: Pixel de suivicollector.appconsent.io1appconsentEn attenteExpiration: 1 annéeType: Cookie HTTPwww.nouvelle-epargne.fr1(innomé)En attenteExpiration: SessionType: Cookie HTTPConsentement inter-domaines[#BULK_CONSENT_DOMAINS_COUNT#] [#BULK_CONSENT_TITLE#]Liste des domaines auxquels s'applique votre consentement : [#BULK_CONSENT_DOMAINS#]Déclaration relative aux cookies mise à jour le 7/26/24 par Cookiebot[#IABV2_TITLE#][#IABV2_BODY_INTRO#][#IABV2_BODY_LEGITIMATE_INTEREST_INTRO#][#IABV2_BODY_PREFERENCE_INTRO#][#IABV2_LABEL_PURPOSES#][#IABV2_BODY_PURPOSES_INTRO#][#IABV2_BODY_PURPOSES#][#IABV2_LABEL_FEATURES#][#IABV2_BODY_FEATURES_INTRO#][#IABV2_BODY_FEATURES#][#IABV2_LABEL_PARTNERS#][#IABV2_BODY_PARTNERS_INTRO#][#IABV2_BODY_PARTNERS#]Les cookies sont des petits fichiers textes qui peuvent être utilisés par les sites web pour rendre l'expérience utilisateur plus efficace. La loi stipule que nous ne pouvons stocker des cookies sur votre appareil que s’ils sont strictement nécessaires au fonctionnement de ce site. Pour tous les autres types de cookies, nous avons besoin de votre permission.Ce site utilise différents types de cookies. Certains cookies sont placés par les services tiers qui apparaissent sur nos pages.À tout moment, vous pouvez modifier ou retirer votre consentement dès la Déclaration relative aux cookies sur notre site web.En savoir plus sur qui nous sommes, comment vous pouvez nous contacter et comment nous traitons les données personnelles veuillez voir notre Politique confidentialité.Veuillez indiquer l'identifiant de votre consentement et la date à laquelle vous nous avez contactés concernant votre consentement. Ne pas vendre ou partager mes informations personnellesRefuser Autoriser la sélection Personnaliser Tout autoriserPowered by Cookiebot by Usercentrics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LES BANQUES
+
+
+Les banques en ligne
+
+BforBank
+BoursoBank
+Fortuneo
+Hello bank!
+Monabanq
+Comparatif : banques en ligne
+
+
+
+Les comptes sans banque
+
+Comparatif : comptes sans banque
+
+
+
+Les néo banques
+
+N26
+Comparatif : néo banques
+
+
+Les meilleures banques en ligne
+Les meilleures cartes bancaires
+La meilleure banque pour jeunes mineurs
+Banques Sans conditions de revenus
+→ Mon comparatif personnalisé
+
+
+
+LES BANQUES PRO
+
+Qonto
+Shine
+Comparatif : banques auto-entrepreneurs
+Comparatif : banques sociétés
+Comparatif : banques associations
+
+
+
+EPARGNE
+
+
+Assurances-vie
+
+Goodvest
+Le guide de l'assurance-vie
+Les meilleures assurances-vie en ligne (fonds en euros)
+Les meilleures assurances-vie en ligne (unités de compte)
+
+
+
+Comptes à termes
+
+Raisin
+
+
+
+Livrets
+
+Le guide du livret A
+
+
+
+SCPI
+
+Le guide de la SCPI
+Comparatif : Les meilleurs SCPI
+
+
+
+Trading
+
+eToro
+Freedom Finance
+Les meilleures plateformes de trading en ligne
+
+
+
+
+
+ASSURANCE
+
+Comparatif assurance animaux
+Comparatif assurance auto
+Comparatif assurance moto
+Comparatif assurance habitation
+Comparatif assurance santé
+
+
+Blog
+
+En savoir plus
+
+A propos
+Contactez nous
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BoursoBank
+La banque en ligne proposant les meilleures tarifs et coûtant le moins cher. Elle fait partie des banques digitales préférées des Français.
+
+
+
+
+
+
+
+
+
+
+
+✔️ Les points positifs
+
+
+
+
+
+			      					Un compte bancaire 100% Gratuit disponible
+			      				
+
+			      					Un compte accessible à tous sans conditions
+			      				
+
+			      					Des produits d’épargne performants + Accès Bourse très simple
+			      				
+
+			      					Un compte pour les étrangers
+			      				
+
+			      					Un compte courant pour les jeunes (sous conditions)
+			      				
+
+			      					Carte Visa Ultim Boursorama Gratuite
+			      				
+
+			      					Carte Visa Metal à 9,90 € / mois (remplace la Visa premier)
+			      				
+
+			      					Aucuns frais sur les paiements en france ou à l’étranger (toutes cartes)
+			      				
+
+			      					3 retraits gratuits / mois à l’étranger avec visa Ultim
+			      				
+
+			      					Retraits sans frais et illimités à l’étranger avec Ultim Metal
+			      				
+
+
+
+
+
+
+
+❌ Les points négatifs
+
+
+
+
+
+			      					Compte jeune uniquement pour les enfants des clients Boursorama
+			      				
+
+			      					Assurance-vie pour votre bébé/enfant mineur (si les 2 parents sont clients)
+			      				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BoursoBank – Des tarifs attractifs  !
+
+						Depuis plus de 13 années consécutives, cette banque en ligne a été élue par les comparateurs bancaires comme étant « « la banque en ligne la moins chère ».
+						 Au cœur de l’innovation bancaire et technologique, et avec plus de 2 millions de clients, elle est également la banque internet préférée des Français. Enfin, elle est accessible à tous et propose un compte courant 100% gratuit et accessible sans conditions de revenus.
+					
+
+
+
+
+
+Profiter de l'offre BoursoBank
+
+
+
+
+
+
+
+A lire avant d’ouvrir votre compte chez BoursoBank
+
+				Si Boursorama se positionne comme l’une des banque en ligne favorite des consommateurs Français, c’est parce qu’elle est toujours pionnière et au cœur de l’innovation technologique ; n’oublions pas qu’elle propose aussi des tarifs très avantageux aussi bien sur ses cartes bancaires (aucuns frais sur les paiements et les retraits lors de voyages à l’étranger), que sur ses différents frais liés aux opérations bancaires.
+			
+
+				Boursorama propose aujourd’hui 2 cartes bancaires : la Visa Ultim (100% gratuite) qui est l’une des meilleures cartes bancaires du marché français des banques en ligne, et la carte Visa Ultim Metal (à 9,90 € / mois) qui propose de petits plus non négligeables !
+			
+
+				Découvrez ci-dessous l’ensemble des tarifs compétitifs que la banque digitale du groupe Société Générale propose.
+			
+
+
+
+
+
+
+1 – Coûts et Tarifs des cartes et des comptes chez BoursoBank
+
+
+
+
+
+
+ 
+La carte visa Welcome
+Sans conditions de revenus
+
+
+
+
+ 
+Versement initial
+100 €
+
+ 
+0 € / mois
+
+
+
+
+
+
+
+
+
+ 
+La carte visa Ultim
+Sans conditions de revenus
+
+
+
+
+ 
+Versement initial
+300 €
+
+ 
+0 € / an
+
+
+
+
+
+
+
+
+
+ 
+La carte visa Ultim Metal
+Sans conditions de revenus
+
+
+
+
+ 
+Versement initial
+500 €
+
+ 
+9,90 € / mois
+
+
+
+
+
+
+
+
+Chez BoursoBank, toutes les cartes sont gratuites sous conditions d’utilisation. Cela signifie que pour qu’elle reste gratuite, vous devrez l’utiliser au minimum 1 fois par mois pour effectuer un paiement chez un commerçant.
+
+
+Si vous n’effectuez pas votre paiement chaque mois, vous serez facturé de 15 € / mois pour la carte visa Ultim et 5 € / mois pour la carte visa Welcome. Les cartes visa Classic et visa Premier ne sont pas soumises à conditions d’utilisation.
+
+
+
+
+
+
+2 – Les spécificités du compte courant
+
+
+
+
+
+
+ 
+Compte sans conditions de revenus
+
+ 
+Oui
+
+
+
+
+
+
+
+
+
+ 
+Compte jeunes – 12/17 ans (Kador)
+
+ 
+Oui
+
+
+
+
+
+
+
+
+
+ 
+Compte pour les étrangers / non résidents
+
+ 
+Oui
+
+
+
+
+
+
+
+
+
+ 
+Compte pour les ressortissants Américains
+
+ 
+Non
+
+
+
+
+
+
+
+
+Boursorama s’adresse à plusieurs types de clients, avec des profils spécifiques, en plus des clients résidents Français.
+
+
+
+
+
+
+3 – Les conditions tarifaires et les frais à l’étranger
+
+Conditions d’ouvertures et d’accès aux comptes bancaires
+
+
+Pour ouvrir un compte dans une banque en ligne vous devez justifier de revenus minimums perçus chaque mois ou posséder une épargne d’un montant minimum dans cette banque (encours).
+
+
+
+
+
+
+Cartes bancaires
+
+Carte Visa Welcome
+
+
+Carte Visa Ultim
+
+
+Carte Visa Ultim Metal
+
+
+
+
+
+
+Compte Individuel
+
+Visa Welcome
+
+
+						Sans conditions de revenu minimum
+					
+
+Visa Ultim
+
+
+						Sans conditions de revenu minimum
+					
+
+Visa Ultim Metal
+
+
+						Sans conditions de revenu minimum
+					
+
+
+
+Compte Joint
+
+Visa Welcome
+
+
+						Sans conditions de revenu minimum
+					
+
+Visa Ultim
+
+
+						Sans conditions de revenu minimum
+					
+
+Visa Ultim
+
+
+						Sans conditions de revenu minimum
+					
+
+
+
+
+
+*Le revenu est le revenu minimum mensuel. Il représente le minimum de salaire mensuel minimum que vous devez percevoir chaque mois pour pouvoir ouvrir ce type de compte.
+
+
+L’encours signifie « l’argent que vous avez sur un plan d’épargne chez la banque en ligne Boursorama ». Pour ouvrir un compte, vous devez soit avoir le revenu mensuel minimum, soit posséder un investissement dans cette banque (encours).
+
+
+
+
+Ouverture et tenue de compte courant
+
+
+
+
+
+Compte courant
+
+Carte Visa Welcome
+
+
+Carte Visa Ultim
+
+
+Carte Visa Ultim Metal
+
+
+
+
+
+
+Ouverture de compte
+
+Visa Welcome
+
+
+Gratuit
+
+
+Visa Ultim
+
+
+Gratuit
+
+
+Visa Ultim Metal
+
+
+Gratuit
+
+
+
+
+Tenue de compte
+
+Visa Welcome
+
+
+Gratuit
+
+
+Visa Ultim
+
+
+Gratuit
+
+
+Visa Ultim Metal
+
+
+Gratuit
+
+
+
+
+Clôture de compte
+
+Visa Welcome
+
+
+Gratuit
+
+
+Visa Ultim
+
+
+Gratuit
+
+
+Visa Ultim Metal
+
+
+Gratuit
+
+
+
+
+
+
+
+Les cartes bancaires disponibles chez BoursoBank
+
+
+
+
+
+Les cartes
+
+Carte Visa Welcome
+
+
+
+Carte Visa Ultim
+
+
+
+Carte Visa Ultim Metal
+
+
+
+
+
+
+
+Coûts mensuels
+
+Visa Welcome
+
+
+
+0 € sous réserve d’un paiement / mois – Sinon 5 € / mois
+					
+
+Visa Ultim
+
+
+
+0 € sous réserve d’un paiement / mois – Sinon 15 € / mois
+					
+
+Visa Ultim Metal
+
+
+
+						9,90 € / sans conditions d’utilisation
+					
+
+
+
+Types de cartes
+
+Visa Welcome
+
+
+
+						Classic
+					
+
+Visa Ultim
+
+
+
+						Premium
+					
+
+Visa Ultim MEtal
+
+
+
+						Premium Metal
+					
+
+
+
+Types de débits
+
+Visa Welcome
+
+
+
+						Immédiat*
+					
+
+Visa Ultim
+
+
+
+						Immédiat*
+					
+
+Visa Ultim
+
+
+
+						Immédiat ou différé**
+					
+
+
+
+
+
+*Les cartes Ultim et Welcome sont des cartes à débit immédiat (autorisation systématique). Le solde disponible sur le compte est vérifié avant une opération bancaire.
+			Concernant le coût mensuel des cartes. Elles sont gratuites à condition que vous effectuiez au moins une opération par mois avec = 1 paiement chez un commerçant.
+
+
+** Pour la carte Visa Ultim Métal, le débit différé est disponible à partir du moment ou vous versez tous les mois 2500 € sur le compte, ou alors si vous possédez 5000 € d’encours - argent investi sur un plan d’épargne Boursorama. Sinon vous serez en débit immédiat.
+
+
+
+
+Les plafonds de retraits et de paiements
+
+
+
+
+
+Les cartes
+
+Carte Visa Welcome
+
+
+Carte Visa Ultim
+
+
+Carte Visa Ultim Metal
+
+
+
+
+
+
+Plafonds de retrait (7j)
+
+Visa Welcome
+
+
+						Jusqu’à 400 € / semaine
+					
+
+Visa Ultim
+
+
+						Jusqu’à 2 000 € / semaine
+					
+
+Visa Ultim Metal
+
+
+						Jusqu’à 3 000 € / semaine
+					
+
+
+
+Plafond de paiements (30j)
+
+Visa Welcome
+
+
+						Jusqu’à 5 000 € / mois
+					
+
+Visa Ultim
+
+
+						Jusqu’à 20 000 € / mois
+					
+
+Visa Ultim Metal
+
+
+						Jusqu’à 50 000 € / mois
+					
+
+
+
+Découvert autorisé
+
+Visa Welcome
+
+
+						0 € modifiable à 100 €
+					
+
+Visa Ultim
+
+
+						0 € modifiable à 100 €
+					
+
+Visa Ultim Metal
+
+
+						0 € modifiable à 100 €
+					
+
+
+
+
+
+Le plafond de retrait signifie que vous pouvez retirer au maximum la somme affiché ci-dessus, au niveau de la carte bancaire concernée, pendant 7 jours. Le plafond de paiement signifie que vous pouvez payer jusqu’à la somme ci-dessus par période de 30 jours.
+
+
+
+
+Les coûts en France et en zone Euro
+
+
+
+
+
+Compte courant
+
+Carte Visa Welcome
+
+
+Carte Visa Ultim
+
+
+Carte Visa Ultim Metal
+
+
+
+
+
+
+Paiements en Euros
+
+Visa Welcome
+
+
+Gratuit
+
+
+Visa Ultim
+
+
+Gratuit
+
+
+Visa Ultim Metal
+
+
+Gratuit
+
+
+
+
+Retraits en Euros
+
+Visa Welcome
+
+
+Gratuit
+
+
+Visa Ultim
+
+
+Gratuit
+
+
+Visa Ultim Metal
+
+
+Gratuit
+
+
+
+
+
+
+
+Les frais sur les paiements et les retraits à l’étranger – hors zone Euro
+
+
+
+
+
+Compte courant
+
+Carte Visa Welcome
+
+
+Carte Visa Ultim
+
+
+Carte Visa Ultim Metal
+
+
+
+
+
+
+Paiements en devise
+
+Visa Welcome
+
+
+Gratuit
+
+
+Visa Ultim
+
+
+Gratuit
+
+
+Visa Ultim Metal
+
+
+Gratuit
+
+
+
+
+Retraits en devise
+
+Visa Welcome
+
+
+1 Gratuit / mois puis 1,69% par opération
+					
+
+Visa Ultim
+
+
+3 Gratuit / mois puis 1,69% par opération
+					
+
+Visa Ultim Metal
+
+
+Gratuit
+
+
+
+
+
+
+
+Tarifs par opérations courantes
+
+
+
+
+
+Les cartes
+
+Carte Visa Welcome
+
+
+Carte Visa Ultim
+
+
+Carte Visa Ultim Metal
+
+
+
+
+
+
+Découvert autorisé
+
+Visa Welcome
+
+
+						0 € modifiable à 100 €
+					
+
+Visa Ultim
+
+
+						0 € modifiable à 100 €
+					
+
+Visa Ultim Metal
+
+
+						0 € modifiable à 100 €
+					
+
+
+
+Frais sur découvert
+
+Visa Welcome
+
+
+						7 %
+					
+
+Visa Ultim
+
+
+						7 %
+					
+
+Visa Ultim Metal
+
+
+						7 %
+					
+
+
+
+Paiement sans contact
+
+Visa Welcome
+
+
+Oui
+
+
+Visa Ultim
+
+
+Oui
+
+
+Visa Ultim Metal
+
+
+Oui
+
+
+
+
+Chéquier disponible
+
+Visa Welcome
+
+
+Oui
+
+
+Visa Ultim
+
+
+Oui
+
+
+Visa Ultim Metal
+
+
+Oui
+
+
+
+
+Paiement mobile (Apple Pay, Google Pay, etc.)
+
+Visa Welcome
+
+
+Oui
+
+
+Visa Ultim
+
+
+Oui
+
+
+Visa Ultim Metal
+
+
+Oui
+
+
+
+
+Virement instantané (jusqu’à 2000 €)
+
+Visa Welcome
+
+
+Oui
+
+
+Visa Ultim
+
+
+Oui
+
+
+Visa Ultim Metal
+
+
+Oui
+
+
+
+
+Assurance voyage
+
+Visa Welcome
+
+
+						Assurance et Assistance Visa Classic jusqu’à 46 000 €
+					
+
+Visa Ultim
+
+
+						Assurance et Assistance Visa Premier jusqu’à 2 001 600 €
+					
+
+Visa Ultim Metal
+
+
+						Assurance et Assistance Visa Premier jusqu’à 2 001 600 €
+					
+
+
+
+Smart delay – accès aux salons des aéroports en cas de retard de votre vol
+
+Visa Welcome
+
+
+						-
+					
+
+Visa Ultim
+
+
+						-
+					
+
+Visa Ultim Metal
+
+
+Oui et Gratuit
+
+
+
+
+Boursorama Protection : Moyen de paiement et effets personnels jusqu’à 4 500 € de couverture
+
+Visa Welcome
+
+
+						En option - 0,99 € / mois
+					
+
+Visa Ultim
+
+
+						En option - 0,99 € / mois
+					
+
+Visa Ultim Metal
+
+
+Gratuit et inclus
+
+
+
+
+Boursorama Protection : Téléphone et tablettes (neufs ou reconditionnés), protection de l'identité numérique Jusqu'à 16 400€ de couverture
+
+Visa Welcome
+
+
+						En option - 1,51 € / mois
+					
+
+Visa Ultim
+
+
+						En option - 1,51 € / mois
+					
+
+Visa Ultim Metal
+
+
+Gratuit et inclus
+
+
+
+
+
+
+
+
+
+4 – Les placements et les crédits chez BoursoBank
+
+Les plans d’épargnes et prêts disponibles
+
+
+
+
+
+
+Produits disponibles
+
+
+
+ 
+Prêts à la consommation
+
+ 
+Oui
+
+
+
+
+
+
+
+
+
+ 
+Prêts immobilier
+
+ 
+OUi
+
+
+
+
+
+
+
+
+
+
+
+
+Produits disponibles
+
+
+
+ 
+Livret A
+
+ 
+Oui
+
+
+
+
+
+
+
+
+
+ 
+Assurance Vie
+
+ 
+Oui
+
+
+
+
+
+
+
+
+
+ 
+Bourse
+
+ 
+Oui
+
+
+
+
+
+
+
+
+
+ 
+LDD
+
+ 
+Oui
+
+
+
+
+
+
+
+
+
+ 
+LEP
+
+ 
+Non
+
+
+
+
+
+
+
+
+
+ 
+Livret Jeune
+
+ 
+Non
+
+
+
+
+
+
+
+
+
+ 
+Logement : PEL et CEL
+
+ 
+Oui
+
+
+
+
+
+
+
+
+Ouvrir un compte BoursoBank
+
+
+
+
+
+
+
+Les 4 avantages du compte BoursoBank
+Pourquoi y ouvrir un compte courant ?
+
+
+
+
+Un compte pour chacun (étudiants, sans emplois, salariés, étrangers, etc.)
+
+
+
+Banque la moins chère depuis 13 années consécutives
+
+
+
+Carte visa Ultim 100% Gratuite
+
+
+
+L’innovation au service des clients
+
+
+
+
+
+
+
+
+5 – BoursoBank – Avis et Test
+
+Pour tout savoir avant d’ouvrir un compte
+
+
+
+Sommaire
+
+
+En savoir plus sur l'histoire de BoursoBank
+
+
+Quels sont les avantages à ouvrir un compte Boursorama ?
+
+
+Quels sont les principaux services supplémentaires ?
+
+
+A qui s'adresse cette banque ? Pour qui est-elle faite ?
+
+
+Peut-on y ouvrir un compte commun ?
+
+
+Que penser de l'application mobile ?
+
+
+Quelle offre à l'ouverture de compte ?
+
+
+Quelles sont les cartes bancaires disponibles avec le compte Boursorama ?
+
+
+Comment est le service client chez Boursorama
+
+
+Comment changer de compte facilement ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+En savoir plus sur l'histoire de BoursoBank
+
+
+
+
+
+
+
+
+
+						      			Avant de devenir la banque en ligne que tous les Français connaissent, Boursorama était positionnée sur le marché de la bourse et proposait un portail d’informations financières. En 2002, elle appartient déjà en partie à la Société Générale. En savoir plus
+
+
+						      			Ce n’est qu’en décembre 2005 que cette institution bancaire deviendra BoursoBank. Depuis ce jour, les particuliers ont la possibilité de profiter d’un compte courant en constante évolution. En effet, au-delà d’être positionnée comme leader de la banque en ligne en France, en volume de clients, c’est aussi une des banques digital les plus innovante.
+						      		
+
+						      			Si vous cherchez une banque sécuritaire, gratuite et à la pointe de la technologie et de l’innovation bancaire, vous êtes au bon endroit !
+						      		
+
+						      			Fin 2019, en France, elle avait déjà conquis plus de 2 millions de clients.
+						      		
+
+
+
+
+
+
+
+
+
+
+
+
+
+Quels sont les avantages à ouvrir un compte chez BoursoBank ?
+
+
+
+
+
+
+
+
+
+						      			BoursoBank est élue « banque en ligne la moins chère » depuis plus de 13 années consécutives. Et c’est encore le cas aujourd’hui.
+						      		
+
+						      			Cette banque 100% digitale est sans condition de revenus; cela signifie que tout le monde sans exception peut y ouvrir un compte courant gratuitement. Elle est accessible à distance ; elle est gratuite et vous propose un compte bancaire, une carte visa classic, premium ou Metal  (sans conditions de revenus - Cf tableau des cartes bancaires en haut de cette page).
+						      		
+
+						      			Si vous êtes étrangers, vous pouvez aussi ouvrir un compte (cependant, c’est encore impossible pour les ressortissants américains – Sauf chez Monabanq).
+						      		
+
+						      			Chez BoursoBank, vous pourrez, si vous le souhaitez, profiter d’un placement car tous les plans d’épargne sont disponibles : assurance-vie, bourse, PEA, livret A et livret d’épargne, PEL, etc.
+						      		
+
+						      			Si vous cherchez une banque qui innove constamment et qui positionne ses clients au cœur de ses préoccupations, alors celle-ci est faite pour vous.
+						      		
+
+
+
+
+
+
+
+
+
+
+
+
+
+Quels sont les principaux services supplémentaires ?
+
+
+
+
+
+
+
+
+
+						      			✔️ Boursorama propose le service Easy-chèque qui vous permettra d’envoyer un chèque à la personne votre choix de façon 100 % dématérialisée. Vous complétez le chèque et les informations du destinataire directement en ligne (ou depuis votre application mobile). Le chèque est alors imprimé et envoyé par voie postale à votre destinataire.
+						      		
+
+						      			✔️ L’offre Cli€ est une solution de financement instantané. Depuis votre espace personnel, et en quelques clics, vous pourrez faire la demande d’un prêt compris entre 200 € et de 2000 €. Si ce prêt est accepté, il sera crédité quasiment instantanément sur votre compte. Vous devrez le rembourser en 3 mensualités (que vous déclencherez à 30, 60 ou 90 jours après la date de demande du prêt).
+						      		
+
+						      			✔️ Le compte courant accompagné de la carte Ultim est en lui-même un service complémentaire ; proposant des assurances et des assistances visa Premium, une carte de paiement visa Premium et un compte accessible à tous sans conditions et sans frais sur les paiements et retraits en zone euro et à l’étranger est unique en son genre.
+						      		
+
+						      			✔️ En plus du compte et de la carte gratuite vous aurez également accès à différents plans d’épargne pour faire des économies et/ou vous constituer un capital ou un patrimoine; préparer votre retraite. À votre choix vous pourrez ouvrir un livret A (si vous n’en possédez pas déjà un dans une autre banque), un livret d’épargne, une assurance-vie, un PEA ou un compte titres, un PEL, etc. Bien entendu les conseillers sont disponibles pour vous accompagner dans ces démarches (une fois que vous êtes client).
+						      		
+
+						      			✔️ BoursoBank propose également un crédit immobilier à taux fixe pour financer facilement l’acquisition d’un bien immobilier ou pour démarrer un investissement locatif.
+						      		
+
+
+
+
+
+
+
+
+
+
+
+
+
+A qui s'adresse cette banque ? Pour qui est-elle faire ?
+
+
+
+
+
+
+				      			BoursoBank est accessible à tous les portefeuilles. Que vous ayez des revenus modestes, irréguliers ou au contraire plus importants ; cette banque en ligne saura vous fournir le compte courant et la carte bancaire adaptée à votre situation personnelle.
+				      		
+
+				      			Elle se destine essentiellement :
+				      		
+
+
+				      				Aux grands voyageurs qui souhaitent profiter d’une carte bancaire Premium sans frais sur les retraits et sur les paiements dans le monde entier.
+				      			
+
+				      				Aux individus de nationalité étrangère souhaitant profiter d’un compte courant en France, sans condition de revenus.
+
+				      				À tous ceux qui sont sans revenus réguliers, ou sans revenus tout court mais qui souhaitent néanmoins profiter d’une des meilleures banques en ligne.
+				      			
+
+				      				Aux jeunes de 12 à 17 ans dont les parents ont déjà un compte ouvert chez Boursorama.
+				      			
+
+				      				Aux individus qui souhaitent ouvrir un 2e compte bancaire totalement gratuit et sans conditions.
+				      			
+
+				      				Ou encore, à ceux qui veulent profiter une banque en ligne ultra innovante, primée et récompensée chaque année pour les services fournis à ses clients.
+				      			
+
+
+				      			Vous l’aurez compris, cette banque Internet s’adresse vraiment à tous les profils « type » de consommateurs ; peu importent vos habitudes, ni même vos exigences, vous trouverez forcément un compte courant et une carte bancaire adaptée, à votre besoin de dépenses. En lire plus.
+				      		
+
+
+
+
+
+
+
+
+
+Peut-on y ouvrir un compte commun ?
+
+
+
+
+
+
+
+
+
+						      			Il est possible d’ouvrir un compte commun chez BoursoBank. Pour ça, vous ne devez pas déjà être clients ni même posséder un compte courant (ouvert seul) dans cette banque en ligne.
+						      		
+
+						      			Comme expliqué dans le tableau de cette page « conditions d’ouvertures et d’accès aux comptes bancaires » vous devez justifier de certains revenus minimums à 2 pour pouvoir ouvrir un compte joint.
+						      		
+
+
+						      				Pour obtenir 2 cartes Welcome ou 2 cartes Ultim, il ne vous sera pas demandé de minimums mensuels ;
+						      			
+
+
+						      			Vous pouvez aussi bien ouvrir un compte commun avec votre conjoint(e), avec un membre de votre famille, avec un ami ou un colocataire ; il n’y a pas de limites. En savoir plus. Vous devrez simplement être en capacité de fournir un justificatif de domicile chacun (si vous vivez avec la personne avec qui vous souhaitez ouvrir ce compte, vous fournirez bien entendu le même document justificatif).
+						      		
+
+
+
+
+
+
+
+
+
+
+
+
+
+Que penser de l'application mobile ?
+
+
+
+
+
+
+				      			BoursoBank propose une application mobile très innovante. Elle est disponible gratuitement sur Android et IOS. Elle est très simple d’utilisation et vous permettra d’effectuer toutes les opérations bancaires courantes dont vous avez besoin au quotidien directement depuis votre Smartphone ou depuis votre tablette.
+				      		
+
+				      			Vous aurez bien entendu accès un espace personnel privé et sécurisé directement accessible depuis votre PC, sur Internet.
+				      		
+
+				      			Depuis l’application mobile :
+				      		
+
+Vous pourrez gérer vos comptes,
+Consulter votre solde en direct,
+				      			
+Effectuer des virements instantanés ou mettre en place des virements programmés,
+				      			
+Garder un œil sur votre épargne,
+				      			
+Bloquer et débloquer les paiements sans contact, ou sur Internet,
+				      			
+Vous pourrez bien entendu contacter le service client (par e-mail ou par téléphone),
+				      			
+Modifier vos plafonds de cartes bancaires,
+				      			
+Et encore bien d’autres opérations classiques …
+				      			
+Disponible également sur Apple PAY, Android PAY, Google PAY, etc.
+				      			
+
+
+
+
+
+
+
+
+
+
+Quelle offre à l'ouverture de compte ?
+
+
+
+
+
+
+				      			Pour toute nouvelle ouverture de compte (et si vous n’êtes pas déjà clients chez BoursoBank) vous pourrez profiter d’un cadeau de bienvenue.
+				      		
+
+				      			Cela consiste à vous offrir une somme d’une valeur de 80 € minimums. Cela signifie que dès que votre compte courant sera ouvert, la banque vous créditera cet argent directement sur celui-ci. Vous pourrez en faire ce que vous voulez.
+				      		
+
+Selon la période de l’année, l’offre à l’ouverture de compte est susceptible d’évoluer. En passant par nouvelle épargne vous aurez toujours accès à la meilleure offre actualisée.
+
+
+
+
+
+
+ 
+Jusqu'à 150 € Offerts
+ pour un premier versement lors d'une 1ère ouverture de compte
+
+
+
+
+ 
+Gratuite
+sous conditions d'utilisations
+
+
+											 
+
+ → Voir l'offre
+En savoir plus
+
+
+
+
+
+
+
+
+
+
+
+
+
+Quelles sont les cartes bancaires disponibles avec le compte BoursoBank?
+
+
+
+
+
+
+
+
+
+
+La carte bancaire visa Welcome
+
+										La carte bancaire visa Welcome est 100 % gratuite à condition que vous l’utilisiez au moins une fois par mois pour effectuer un paiement chez un commerçant. Elle est accessible à tous sans condition de revenus et c’est une carte à débit immédiat.
+									
+
+										Les paiements et les retraits en euros sont gratuits et illimités. Les paiements en devises étrangères sont sans frais. Pour ce qui est des retraits à l’étranger vous aurez 1 retrait par mois gratuit puis les suivants seront facturés 1,69 % par opération.
+									
+
+										Vous aurez accès à un découvert de 100 € par mois. Le plafond de retrait est de 400 € par semaine et celui des paiements de 5 000 € sur 30 jours glissants.
+									
+
+
+
+
+
+
+
+
+La carte bancaire visa Ultim
+
+										La carte bancaire visa Ultim est une carte Visa Premium (presque équivalente à une carte visa premier). Elle vous proposera donc quasiment les mêmes assurances et assistances de façon 100 % gratuite.
+									
+
+										C’est une carte bancaire 100 % gratuite à condition que vous l’utilisiez au moins une fois par mois pour effectuer un paiement (également chez un commerçant physique).
+									
+
+										La visa Ultim est à débit immédiat. Et à la différence de la visa premier elle est accessible sans condition de revenus minimums. Cela signifie que si vous n’avez pas de revenus réguliers minimums, vous pourrez quand même ouvrir un compte visa Ultim.
+									
+
+										Les paiements sont gratuits et illimités en France, en zone euro et à l’étranger. Pour ce qui est des retraits, ils sont 100% gratuits en France et en zone euro. A l’étranger vous pourrez effectuer 3 retraits gratuits par mois et à partir du 4ème vous paierez 1,69% par opération.
+									
+
+										Enfin, avec cette carte vous pourrez bénéficier d’un découvert autorisé de 100 € par mois. Les plafonds de retraits sont de 2 000 € par semaine et le plafond de paiement est de 20 000 € pour 30 jours glissants.
+									
+
+Tous les comptes courants chez BoursoBank vous donnent accès à un chéquier gratuit. Vous pourrez en faire la demande une fois votre compte soit ouvert ; la demande faite directement depuis votre espace personnel (ou depuis votre application smartphone ou tablette).
+
+
+Pour l’encaissement de chèques, vous devrez faire la demande en ligne d’un bordereau de remise de chèques, le compléter, puis envoyer le chèque et le bordereau par courrier postal chez Boursorama.
+
+
+
+
+
+
+
+
+
+La carte bancaire visa Ultim Metal
+
+										La visa Ultim Metal est une carte visa Premium en Metal (Premium signifie qu’elle possède les mêmes avantages qu’une visa premier - pour information : il n’y a plus de visa premier chez BoursoBank).
+									
+
+										Cette carte bancaire est accessible à 9,90 € / mois. Elle vous offrira des assurances et assistances supérieures à celles de la carte Ultim (virements internationaux gratuits et illimités alors que la Ultim black vous facture 0,10% du montant par virement international. Vous aurez accès aux salons d’aéroports en cas de retard de vol, à la protection des moyens de paiements qui est incluse, etc.). Bien entendu, elle est sans conditions de revenus et sans conditions d’utilisation.
+									
+
+										Avec la Carte Ultim Métal, les paiements et les retraits sont 100% sans frais (gratuits) et illimités aussi bien en France qu’en zone euro et à l’étranger.
+									
+
+										Le découvert autorisé est de 100 € par mois (mais celui-ci est modulable sur demande au service client et sous conditions d’encours - argent présent sur le compte régulièrement). Les plafonds de retraits sont de 3000 € / semaine et de 50 000 € / mois. Vous aurez accès à un chéquier.
+									
+
+										La carte Visa Ultim Métal vous offre des avantages en termes de retraits illimités à l’étranger. Vous avez des assurances “moyen de paiement” “protection téléphone et tablettes” en plus. Enfin, vous pourrez accéder aux salons lounge privés d’aéroports en cas de retard de vol.
+									
+
+
+
+
+
+
+
+
+
+Comment est le service client chez Boursorama ?
+
+
+
+
+
+
+
+
+
+						      			Le service client est très bon. Les conseillers bancaires sont disponibles et bien formés. Ils vous accompagnent et répondent à vos questions, aussi bien au sujet de votre compte courant qu’à propos de votre plan d’épargne.
+						      		
+
+						      			Les conseillers sont basés à Boulogne-Billancourt, dans les Hauts-de-Seine. Vous pourrez les joindre du lundi au vendredi de 8H00 à 22H00. Et le samedi de 8H45 à 16H30.
+						      		
+
+						      			Vos conseillers du service client sont disponibles par téléphone et par e-mail ; mais vous pourrez aussi les contacter par tchat, sur Facebook ou encore sur Twitter.
+						      		
+
+						      			Rien à ajouter au sujet de ce corps de métier qui est accessible et très professionnel. Et pour en lire d’avantage sur le service d’assistance.
+						      		
+
+
+
+
+
+
+
+
+
+
+
+
+
+Comment changer de compte facilement ?
+
+
+
+
+
+
+
+
+
+						      			Par ailleurs, si vous avez déjà un compte dans une autre banque, sachez que vous pouvez en posséder plusieurs pour répartir vos dépenses ou encore pour mieux gérer certains budgets. Aucun blocage à en posséder plusieurs.
+						      		
+
+						      			Enfin, si vous souhaitez changer de banque pour ouvrir un compte chez Boursorama, vous pourrez le faire facilement grâce à la loi macron sur la mobilité bancaire : vous êtes accompagné dans votre changement de compte, et sur simple demande de votre part, les conseillers bancaires de votre future banque effectuent pour vous tous les transferts de « prélèvements automatiques actuellement en place ».
+						      		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6 – Le mot de Nouvelle Epargne
+
+
+				Le volume de clients parle de lui-même, et nous sommes d’accord avec les plus de 2 millions de clients qui ont ouvert un compte chez BoursoBank en France. Le compte courant, les services associés et les cartes bancaires disponibles sont très satisfaisants.
+			
+
+				Tous les services sont très intuitifs et donc très simples à utiliser. Nous pensons notamment à l’application mobile qui conviendra aussi bien aux utilisateurs expérimentés qu’à ceux qui le sont moins.
+			
+
+				Nous apprécions énormément l’innovation constante que propose cette banque en ligne. Nous sommes chaque année agréablement surpris par les efforts que fournit cette banque pour rester au cœur de l’innovation bancaire.
+			
+
+				De plus, BoursoBank a été élue depuis plus de 13 années consécutives « banque en ligne la moins chère » ; un argument qui est toujours très important à prendre en compte.
+			
+
+				Enfin, mention coups de cœur pour la carte Ultim qui est la carte bancaire idéale à utiliser tous les jours pour vous accompagner dans vos achats quotidiens ; mais qui sait aussi se montrer très utile lors de nos déplacements à l’étranger.
+			
+
+
+
+
+
+
+ 
+Jusqu'à 150 € Offerts
+ pour un premier versement lors d'une 1ère ouverture de compte
+
+
+
+
+ 
+Gratuite
+sous conditions d'utilisations
+
+
+					 
+
+ → Voir l'offre
+En savoir plus
+
+
+
+
+
+
+
+
+
+
+Personnalisez votre comparaison des banques en ligne
+
+
+
+Gratuit et anonyme; trouvez en 5 questions votre nouvelle banque en ligne
+
+
+
+ Comparer les meilleures banques en ligne en 5 clics
+
+
+🔎 A quelques clics de votre nouvelle banque
+
+
+
+
+
+
+
+
+
+
+                    Nouvelle Épargne s'adresse à tous ceux qui veulent comprendre comment fonctionnent l'épargne et la finance d'aujourd'hui. Comment investir ? Comment choisir son plan d'épargne ? Faut-il souscrire en ligne ? Dois-je diversifier mes investissements ?   Bonne lecture sur Nouvelle Épargne
+                  
+
+
+
+
+Comparatif
+
+Les meilleures banques en ligne
+La meilleure banque pour jeunes mineurs
+→ Le comparateur de banques
+
+Epargne
+
+Assurances-vie en ligne (fonds en euros)
+Assurances-vie en ligne (unités de comptes)
+Les meilleures plateformes de trading en ligne
+Les meilleures SCPI
+
+
+
+
+
+Assurance
+
+Comparatif assurance auto jeune conducteur
+Comparatif assurance chien
+Comparatif assurance chat
+
+
+
+
+
+Les banques pro
+
+Banques pour les auto-entrepreneurs
+Banques Pro(s) pour les sociétés
+Banques Pro(s) - Associations
+
+
+
+
+
+
+
+Newsletter Mensuel
+E-mail
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+® Nouvelle-Épargne.fr 2023 tous droits réservés
+
+
+
+Mentions Légales
+Contact
+A propos
+Paramétrer les cookies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

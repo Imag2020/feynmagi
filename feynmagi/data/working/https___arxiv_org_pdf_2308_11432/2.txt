@@ -1,0 +1,61 @@
+LeiWangetal. ASurveyonLargeLanguageModelbasedAutonomousAgents 3
+summaryonthisrapidlydevelopingfieldisofgreat alsoencouragefurthergroundbreakingstudies.
+significanceto comprehensivelyunderstandit and
+benefittoinspirefutureresearch.
+2 LLM-based Autonomous Agent Con-
+In this paper, we conduct a comprehensive sur-
+struction
+vey of the fieldof LLM-based autonomous agents.
+LLM-basedautonomousagentsareexpectedtoef-
+Specifically, we organize our survey based on three
+fectively perform diverse tasks by leveraging the
+aspectsincludingtheconstruction,application,and
+human-likecapabilitiesofLLMs. Inordertoachieve
+evaluationofLLM-basedautonomousagents. For
+this goal, there are two significant aspects, that is,
+theagentconstruction,wefocusontwoproblems,
+(1)whicharchitecture shouldbedesignedtobetter
+that is, (1) how to design the agent architecture to
+use LLMs and (2) give the designed architecture,
+better leverage LLMs, and (2) how to inspire and
+enhancetheagentcapabilitytocompletedifferent how to enable the agent to acquire capabilities for
+accomplishing specific tasks. Within the context
+tasks. Intuitively,thefirstproblemaimstobuildthe
+of architecture design, we contribute a systematic
+hardwarefundamentalsfortheagent,whilethesec-
+synthesisofexistingresearch,culminatinginacom-
+ondproblemfocusonprovidingtheagentwithsoft-
+prehensiveunifiedframework. Asforthesecondas-
+ware resources. For the first problem, we present
+pect,we summarizethestrategiesforagentcapabil-
+a unified agent framework, which can encompass
+ityacquisitionbased onwhethertheyfine-tune the
+most of the previous studies. For the second prob-
+LLMs. WhencomparingLLM-basedautonomous
+lem,weprovideasummaryonthecommonly-used
+agents to traditional machine learning, designing
+strategiesforagents’capabilityacquisition. Inaddi-
+theagentarchitectureisanalogoustodetermining
+tion to discussing agent construction, we also pro-
+the network structure, while the agent capability
+videansystematicoverviewoftheapplicationsof
+acquisition is similar to learning the network pa-
+LLM-based autonomous agents in social science,
+rameters. Inthefollowing,weintroducethesetwo
+naturalscience,andengineering. Finally,wedelve
+aspectsmoreindetail.
+into the strategies for evaluating LLM-based au-
+tonomousagents,focusingonbothsubjectiveand
+2.1 AgentArchitectureDesign
+objectivestrategies.
+In summary, this survey conducts a systematic RecentadvancementsinLLMshavedemonstrated
+review and establishes comprehensive taxonomies their great potential to accomplish a wide range
+forexistingstudiesintheburgeoningfieldofLLM- of tasks in the form of question-answering (QA).
+basedautonomousagents. Ourfocusencompasses However, building autonomous agents is far from
+three primary areas: construction of agents, their QA, since they need to fulfill specific roles and
+applications,andmethodsofevaluation. Drawing autonomously perceiveand learnfrom the environ-
+fromawealthofpreviousstudies,weidentifyvar- menttoevolvethemselveslikehumans. Tobridge
+ious challenges in this field and discuss potential thegap betweentraditionalLLMsand autonomous
+futuredirections. Weexpectthatoursurveycanpro- agents, a crucial aspect is to design rational agent
+videnewcomersofLLM-basedautonomousagents architecturestoassistLLMsinmaximizingtheirca-
+with acomprehensive background knowledge, and pabilities. Along thisdirection, previous workhas

@@ -1,0 +1,58 @@
+−1 −1
+2𝛼(𝑥)((𝐻∗ (𝑥)) +(𝐻∗ (𝑥)) )+2𝛾(𝑥)
+𝑆∗(𝑥)= min √ 𝐼𝑝 𝐼𝑑 , 𝐾 , 𝐾 (B4)
+𝐼 Λ𝑝𝑥(𝑥 2) 𝑣+ 𝑊Λ𝑑𝑥(𝑥) +𝜏𝑏[Λ𝑑𝑥(𝑥)]2𝐻𝑡+𝛽𝑝(𝑥)𝐻 𝐼∗ 𝑝(𝑥)+𝛽𝑑(𝑥)𝐻 𝐼∗ 𝑑(𝑥) Λ𝑝𝑥(𝑥)𝐻 𝐼∗ 𝑝(𝑥) Λ 𝑑𝑥(𝑥)𝐻 𝐼∗ 𝑑(𝑥)
+{ }
+𝐵∗(𝑥,𝑦) =
+√4𝑣𝑤[ 𝜇𝑆𝐼∗1 (𝑥)(𝜋𝑠+ 𝐻𝜋 𝐼∗𝑚 𝑝(𝜏 𝑥0 )+ 𝐻𝜋 𝐼∗𝑚 𝑑(𝜏 𝑥0 ))+𝜏0(Λ𝑝𝑥𝑦(𝑥,𝑦)+Λ𝑑𝑥𝑦(𝑥,𝑦))]
+(B5)
+𝜆𝑝(𝑥,𝑦)+𝜆𝑑(𝑥,𝑦)
+where function 𝑚𝑖𝑑{𝑧 ,𝑧 ,𝑧 } returns the middle one of the three arguments.
+1 2 2
+Appendix C. Generating a specific feeder system design
+Given 𝑆 ∗(𝑥 ) and 𝐵∗(𝑥 ,𝑦 ) (𝑖 =1,2,…,𝑛 ; 𝑗 = 1,2,…,𝑚 ), we use the following three steps to
+𝐼 𝑖 𝑖 𝑗
+generate line and stop locations. Step 1 generates line locations that closely match 𝑆 ∗(𝑥 ) . Step 2
+𝐼 𝑖
+determines the continuous stop spacing function for each line generated in Step 1. Step 3 generates the
+stop locations for each line.
+Step 1. Apply the spline curve fitting method to fit a cubic spline function 𝑆 (𝑥) to 𝑆 ∗(𝑥 ) (𝑖 =
+𝐼 𝐼 𝑖
+𝑥 𝑑𝑧
+1,2,…,𝑛). Next, place one line at every 𝑥 where ∫ = 𝑘+0.5,𝑘 = 1,2,…. Here, 0.5 is added
+𝑧=0𝑆𝐼(𝑥)
+to the RHS to ensure the first line’s catchment zone resides on both sides of that line. The resulting line
+location set is denoted by Ω = {𝑥 :𝑝 = 1,2,…,𝑁𝑆}, where 𝑁𝑆 is the number of lines, and 𝑥𝑆 the
+𝑆 𝑝 𝑝
+location of the 𝑝-th line satisfying 0 < 𝑥 < 𝑥 < ⋯ < 𝑥 < 𝐿.
+1 2 𝑁𝑆
+Step 2. Use the gridded data interpolation method to fit a piecewise cubic function 𝐵(𝑥,𝑦) to
+𝐵∗(𝑥 ,𝑦 ) (𝑖 = 1,2,…,𝑛;𝑗 = 1,2,…,𝑚 ). The continuous stop spacing function on the 𝑝-th line is
+𝑖 𝑗
+𝐵(𝑥 ,𝑦).
+𝑝
+Step 3. For each line 𝑝 ∈{1,2,…,𝑁𝑆}, place one stop at every 𝑦 where ∫𝑦 𝑑𝑧 = 𝑘+0.5,
+𝑧=0𝐵(𝑥𝑝,𝑦)
+𝑘 = 1,2,…. The resulting stop location set is denoted by Ω𝐵 = {(𝑥 ,𝑦 ):𝑞 = 1,2,…,𝑁𝐵 }, where 𝑁𝐵
+𝑝 𝑝 𝑞 𝑝 𝑝
+is the number of stops on the 𝑝-th line. Coordinates 𝑦 satisfy 0 < 𝑦 < 𝑦 < ⋯ < 𝑦 < 𝑊.
+𝑞 1 2 𝑁𝑝𝐵
+Finally, the headways of each line are obtained from 𝐻∗ (𝑥) and 𝐻∗ (𝑥) at 𝑥 ∈Ω .
+𝐼𝑝 𝐼𝑑 𝑝 𝑆
+𝐿 1
+Note that the CA solution renders ∫ 𝑑𝑥 feeder lines, and this number is not always close
+𝑥=0𝑆∗(𝑥)
+𝐼
+to an integer. The above method guarantees finding the nearest integer number of lines. However, when
+−1
+𝐿 1
+that number is small, the percentage error could be relatively large (capped by 0.5(∫ 𝑑𝑥) ).
+𝑥=0𝑆∗(𝑥)
+𝐼
+To further reduce this error and improve the converted specific design, we can evenly allocate the
+fractional residual number of lines (positive or negative) to all lines by proportionally increasing or
+decreasing the line spacings. Similarly, stop spacings on each line can also be adjusted to eliminate the
+fractional residuals. In addition, one can reoptimize stop spacings and headways using the CA model
+after line locations are determined by Step 1 of the above method. This will make the specific design
+more efficient. For simplicity, these fine-tuning steps are not included in our numerical case studies.
+27

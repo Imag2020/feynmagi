@@ -1,0 +1,85 @@
+2
+beginbyintroducingtheHadamardtest-basedalgorithm In the region denoted as A, the quantum state of the
+inSectionII.Subsequently,weexplaintheapplicationof circuit at this point is given by:
+the GST method in Section III for extracting relevant
+|0⟩⟨0|⊗ρ. (1)
+information from the subspace. Section IV is devoted to
+erroranalysisandcomplexities. InSectionV,wepresent
+In the B region, after applying the Hadamard gate, the
+computational results garnered from the preparation of
+state of the ancillary qubit is transformed as Eq.(2):
+therandomquantumstateρandthesubsequentapplica-
+tion of both algorithms. Notably, we compare the varia- 1
+H|0⟩⟨0|H† = (|0⟩⟨0|+|0⟩⟨1|+|1⟩⟨0|+|1⟩⟨1|). (2)
+tionsincalculationsfortheidenticalquantumstatewhen 2
+utilizingthetwodistinctalgorithms. Aconcisesummary
+The overall state of the circuit is given by:
+of this article is offered in Section VI.
+In the appendix, we explore into specific scenarios, 1
+(|0⟩⟨0|+|0⟩⟨1|+|1⟩⟨0|+|1⟩⟨1|)⊗ρ. (3)
+enabling the applicability of our algorithms to various 2
+instances of solving nonlinear functions within random
+Then, the state undergoes the action of the controlled G
+quantum states. Additionally, we conduct result mod- gate CGk :
+eling under the presence of noise to clarify the impact
+of noise-induced uncertainty on outcomes. Furthermore, CGk =|0⟩⟨0|⊗I+|1⟩⟨1|⊗Gk. (4)
+we also investigate the dimensions of the subspaces that
+Thus, the state in the region C is:
+needtobestudiedwhenapplyingouralgorithmstomore
+general functions. 1 1
+(|0⟩⟨0|⊗ρ)+ |0⟩⟨1|⊗ρ(Gk)†)+
+2 2
+(5)
+1 1
+|1⟩⟨0|⊗Gkρ)+ |1⟩⟨1|Gkρ(Gk)†.
+II. TRACE ESTIMATION OF HADAMARD 2 2
+TEST
+Subsequently, the auxiliary qubit undergoes another
+Hadamard gate operation. Consequently, the state
+A. Theoretical Part of Hadamard Test within the region D is then given by:
+Inthissection,weshowhowtocalculateTr{ρm}using
+1(cid:2)
+(H|0⟩⟨0|H†)⊗ρ+(H|0⟩⟨1|H†)⊗ρ(Gk)†
+2
+HT[36–39]. Firstly, we show how the quantum state is
+encoded in a quantum channel.
++(H|1⟩⟨0|H†)⊗Gkρ+(H|1⟩⟨1|H†)⊗Gkρ(Gk)†(cid:3)
+.
+Suppose the n-qubits random quantum state is given (6)
+by ρ=Pα p U |0⟩⟨0|⊗nU† =Pα p |ψ ⟩⟨ψ |, where α
+i=1 i i i i=1 i i i Expanding each term results as:
+random unitary gates U and probabilities p are known.
+i i
+Define the G gate as: G=Pα j=1p jU jG 0U j†, where G 0 = 1 |0⟩⟨0|⊗[ρ+ρ(Gk)†+(Gk)ρ+(Gk)ρ(Gk)†],
+I − 2|0⟩⟨0|⊗n is the Grover operator. Then we can 4
+2n
+express the quantum channel as G=I 2n−2ρ, and Gk = 1 |0⟩⟨1|⊗[ρ−ρ(Gk)†+(Gk)ρ−(Gk)ρ(Gk)†],
+(I 2n −2ρ)k. In this way, We encode the state ρ into a 4 (7)
+1
+non-unitary quantum channel G. |1⟩⟨0|⊗[ρ+ρ(Gk)†−(Gk)ρ−(Gk)ρ(Gk)†],
+Next, we show how HT works. In general, one ancilla 4
+1
+qubit is required for HT. The quantum circuit has been |1⟩⟨1|⊗[ρ−ρ(Gk)†−(Gk)ρ+(Gk)ρ(Gk)†].
+shown in Fig 1. The computation process is as follows. 4
+The expression above can be denoted as follows:
+ρ′ =|0⟩⟨0|⊗a +|0⟩⟨1|⊗a +|1⟩⟨0|⊗a +|1⟩⟨1|⊗a
+11 12 21 22
+(8)
+Under the computational basis measurement in re-
+gion E, the measurement operators are defined as M =
+0
+|0⟩⟨0|⊗I and M =|1⟩⟨1|⊗I. The probability distribu-
+1
+tion over the outcomes of the measurement are :
+P(0)=Tr{M ρ′M†}=|a |2
+0 0 11
+1 1 (9)
+= + Tr{Gkρ},
+2 2
+FIG. 1. Illustrative diagram of the Hadamard Test circuit.
+The diagram features two distinct paths, which have been
+divided into five segments for ease of computation. The first P(1)=Tr{M ρ′M†}=|a |2
+1 1 22
+pathencompassestwoHgatesandasinglemeasurementgate, 1 1 (10)
+while the second path incorporates a controlled−G gate. = − Tr{Gkρ}.
+2 2

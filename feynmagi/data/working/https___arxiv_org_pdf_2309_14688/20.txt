@@ -1,0 +1,54 @@
+Table 6. Optimal designs when demand is centered at the remote end
+Uniform line and stop Uniform line and stop
+Variable Heterogeneous design Uniform stop spacing
+spacing spacing, and headway
+𝐾, pax 11 11 12 22
+𝐵∗(𝑥,𝑦), km [0.08, 2.00] (0.28) 0.24 0.24 0.25
+𝑆(𝑥), km [0.10, 2.29] (0.19) [0.10, 2.41] (0.19) 0.18 0.20
+𝐼
+𝐻 (𝑥), min [4.4, 30.0] (10.1) [4.5, 30.0] (10.2) [3.1, 30.0] (14.1) 5.2
+𝐼𝑝
+𝐻 (𝑥), min [5.0, 30.0] (10.3) [5.0, 30.0] (10.5) [5.0, 30.0] (14.6) 5.3
+𝐼𝑑
+𝐴𝐶, h 122.23 122.72 117.34 145.66
+𝑈𝐶, h 813.40 853.58 862.96 877.85
+𝐺𝐶, h 935.62 976.30 980.30 1023.50
+𝐺𝐶 gap 4.17% 0.41% 4.22% –
+4.4.2 Sensitivity to the demand rate
+In this subsection, we examine the terminal-centered demand pattern with Λ = Λ taking a smaller
+𝑝 𝑑
+value (400 patrons/h). The results are provided in Table 7. Comparing the cost savings with those in
+Table 4 reveals that the percentage cost savings of the optimal heterogeneous design increase
+moderately as demand diminishes. In addition, lower demand entails fewer lines served by smaller
+vehicles operating at lower frequencies, which is a logical outcome. However, the stop spacings remain
+largely unaffected by the demand rate.
+4.4.3 Sensitivity to the service region’s size
+In this analysis, we continue to use the terminal-centered demand pattern but examine a smaller service
+region with 𝐿 = 1.5 km and 𝑊 = 1 km. To ensure a fair comparison, we keep the average demand
+density (i.e., Λ /𝐿𝑊 and Λ /𝐿𝑊) consistent with the instance in Table 4. The results are summarized
+𝑝 𝑑
+in Table 8. The table indicates that the percentage cost savings of the heterogeneous design increase as
+the service region shrinks, especially the cost saving resulting from spatially-heterogenizing headways.
+This time, the headways and stop spacings demonstrate relative insensitivity to changes in service
+region size, while the average line spacing increases significantly as the service region contracts. The
+optimal 𝐾 also decreases, since the demand carried by each line is lower.
+Table 7. Optimal designs under terminal-centered demand with lower rates
+Uniform line and stop Uniform line and stop
+Variable Heterogeneous design Uniform stop spacing
+spacing spacing, and headway
+𝐾, pax 7 7 8 18
+𝐵∗(𝑥,𝑦), km [0.13, 2.00] (0.25) 0.17 0.16 0.17
+𝑆(𝑥), km [0.22, 3.00] (0.49) [0.22, 3.00] (0.49) 0.40 0.42
+𝐼
+𝐻 (𝑥), min [4.4, 30.0] (13.3) [4.6, 30.0] (13.5) [3.2, 30.0] (15.4) 6.7
+𝐼𝑝
+𝐻 (𝑥), min [5.0, 30.0] (13.5) [5.0, 30.0] (13.7) [5.0, 30.0] (15.8) 6.7
+𝐼𝑑
+𝐴𝐶, h 43.77 40.62 40.10 54.89
+𝑈𝐶, h 173.70 175.65 182.58 195.01
+𝐺𝐶, h 212.74 216.27 222.68 249.90
+𝐺𝐶 gap 1.63% 2.88% 10.89% –
+The results in Tables 4–8 reveal that spatially-heterogenizing headways always yields the largest
+benefit. Nevertheless, heterogenizing stop spacings also contributes to moderate yet consistent
+improvements.
+21

@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Feynmagi V 0.1.30 </title>
+    <title>Feynmagi V 0.1.31 </title>
     <link rel="icon" href="static/img/Feynmagi_64x64.png" type="image/png">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/interllm2.css') }}">
     <!-- Bootstrap CSS (si nécessaire) -->
@@ -31,7 +31,7 @@
             <img id="ishtarconfigIcon" src="static/img/Feynmagi_64x64.png" alt="ishtar">
         </div>
         <div id="title">
-    <h1 style="display: inline-block; margin: 0;">FeynmAGI V0.1.30 </h1>
+    <h1 style="display: inline-block; margin: 0;">FeynmAGI V0.1.31 </h1>
     <h3 id="engine" style="display: inline-block; margin: 0; margin-left: 30px;">(llm)</h3>
 </div>
         <div id="config-icon">
@@ -98,19 +98,29 @@
             </div>
         </div>
     </div>
-    <div id="footer">
-        <div id="message-area">
+
+
+   <div id="footer">
+    <div id="message-area">
+        <button id="attach-button" title="Attach">
+            <span class="bi bi-paperclip"></span>
+        </button> <!-- Bouton pour attacher des fichiers -->
+        <div id="textarea-container">
             <textarea id="message-textarea" placeholder="Message ..."></textarea>
-            <div id="button-group">
-                
-                    <button id="send-button" title="Send prompt"><span class="bi bi-send-fill"></span></button>
-                    <button id="startRecord" title="Voice Message"><span class="bi bi-mic-mute-fill"></span></button>
-                    <button id="startCamera" title="Video Message"><span class="bi bi-camera-video-off-fill"></span></button>
-                    <button id="stop-button" title="Stop"><span class="bi bi-stop-circle-fill"></span></button>
-                
-            </div>
+            <button id="send-button" title="Send">
+                <span class="bi bi-send-fill"></span>
+            </button> <!-- Bouton d'envoi -->
+            <button id="stop-button" title="Stop">
+                <span class="bi bi-stop-circle-fill"></span>
+            </button>
         </div>
     </div>
+</div>
+
+
+    
+    
+    
    
     <div id="myModal" class="modal">
         <div class="modal-content">
@@ -221,7 +231,8 @@
                 <h5 class="modal-title">Agent Configuration</h5>
               
                 <span><button id="saveAgent" class="icon-btn" title="Save"><span class="bi bi-save2-fill"></span></button></span>
-                <span><button id="playAgent" class="icon-btn" title="Upload"><span class="bi  bi-collection-play-fill"></span></button></span>
+                <span><button id="playAgent" class="icon-btn" title="Run"><span class="bi  bi-collection-play-fill"></span></button></span>
+                <span><button id="playAgent2" class="icon-btn" title="MCTS Run"><span class="bi  bi-collection-play"></span></button></span>
                 <span><button id="closeagentConfigModal" class="icon-btn" title="Close"><span class="close bi bi-escape"></span></button></span>
                 
             </div>
@@ -253,6 +264,13 @@
                         <label for="mainPrompt">Prompt</label>
                         <textarea id="mainPrompt" name="mainPrompt" ></textarea>
                     </div>
+                    <div class="form-group">
+                        <label for="NextAgent">Next Agent</label>
+                        <input type="text" id="netxAgent" ame="nextAgent" ></textarea>
+                    </div>
+
+                    
+                    
                 </div>
                 <div class="col-md-4">
                     <!-- Liste des tools -->
@@ -264,9 +282,18 @@
                             <label><input type="checkbox" name="tools" value="tool2"> google</label>
                             <label><input type="checkbox" name="tools" value="tool3"> web-links</label>
                         </div>
-                       </div>
-                    
+                          <hr> <!-- Barre horizontale ajoutée ici -->
+                    <div class="form-group">
+                            <label for="nextagentName">N?ext Agent name</label>
+                            <input type="text" id="nextagentName" name="nextagentName" class="form-control">
+                    </div> 
+                    </div>
+
+                  
+                   
                 </div>
+
+                
             </div>
         </div>
     

@@ -1,0 +1,52 @@
+38 Front. Comput. Sci.,2024,0(0): 1–42
+90. Sun R, Arik S O, Nakhost H, Dai H, Sinha R, MachineLearning. 2023,337–371
+Yin P, Pfister T. Sql-palm: Improved large lan- 103. AkataE,SchulzL,Coda-FornoJ,OhSJ,BethgeM,
+guagemodeladaptationfortext-to-sql. arXivpreprint SchulzE. Playingrepeatedgameswithlargelanguage
+arXiv:2306.00739,2023 models. arXivpreprintarXiv:2305.16867,2023
+91. YaoW,HeineckeS,NieblesJC,LiuZ,FengY,Xue 104. Ma Z, Mei Y, Su Z. Understanding the benefits and
+L, Murthy R, Chen Z, Zhang J, Arpit D, Xu R, Mui challengesofusinglargelanguagemodel-basedcon-
+P,WangH,XiongC,SavareseS. Retroformer: Ret- versationalagentsformentalwell-beingsupport. In:
+rospectivelargelanguageagentswithpolicygradient AMIAAnnualSymposiumProceedings. 2023,1105
+optimization,2023 105. ZiemsC,HeldW,ShaikhO,ChenJ,ZhangZ,YangD.
+92. Shu Y, Gu H, Zhang P, Zhang H, Lu T, Li D, Gu N. Canlargelanguagemodelstransformcomputational
+Rah! recsys-assistant-human: A human-central rec- socialscience? arXivpreprintarXiv:2305.03514,2023
+ommendationframeworkwithlargelanguagemodels. 106. HortonJJ. Largelanguagemodelsassimulatedeco-
+arXivpreprintarXiv:2308.09904,2023 nomicagents: Whatcanwelearnfromhomosilicus?
+93. Mandi Z, Jain S, Song S. Roco: Dialectic multi- Technical report, National Bureau of Economic Re-
+robotcollaborationwithlargelanguagemodels. arXiv search,2023
+preprintarXiv:2307.04738,2023 107. LiS,YangJ,ZhaoK.Areyouinamasquerade?explor-
+94. ZhangC,LiuL,WangJ,WangC,SunX,WangH,Cai ingthebehaviorandimpactoflargelanguagemodel
+M. Prefer: Prompt ensemble learning via feedback- driven social bots in online social networks. arXiv
+reflect-refine. arXivpreprintarXiv:2308.12033,2023 preprintarXiv:2307.10337,2023
+95. Du Y, Li S, Torralba A, Tenenbaum J B, Mordatch 108. LiC,SuX,FanC,HanH,XueC,ZhengC. Quantify-
+I. Improving factuality and reasoning in language ingtheimpactoflargelanguagemodelsoncollective
+models through multiagent debate. arXiv preprint opiniondynamics. arXivpreprintarXiv:2308.03313,
+arXiv:2305.14325,2023 2023
+96. YangZ,LiuJ,HanY,ChenX,HuangZ,FuB,YuG. 109. Kovacˇ G,PortelasR,DomineyPF,OudeyerPY. The
+Appagent: Multimodal agents as smartphone users. socialaischool: Insightsfromdevelopmentalpsychol-
+arXivpreprintarXiv:2312.13771,2023 ogy towards artificial socio-cultural agents. arXiv
+97. Madaan A, Tandon N, Clark P, Yang Y. Memory- preprintarXiv:2307.07871,2023
+assisted prompt editing to improve GPT-3 after de- 110. Williams R, Hosseinichimeh N, Majumdar A, Ghaf-
+ployment. In: Proceedingsofthe2023Conferenceon farzadegan N. Epidemic modeling with generative
+Empirical Methods in Natural Language Processing. agents. arXivpreprintarXiv:2307.04986,2023
+2022 111. Jinxin S, Jiabao Z, Yilei W, Xingjiao W, Jiawen L,
+98. Colas C, Teodorescu L, Oudeyer P Y, Yuan X, Côté LiangH. Cgmi: Configurablegeneralmulti-agentin-
+MA. Augmentingautotelicagentswithlargelanguage teractionframework. arXivpreprintarXiv:2308.12503,
+models. arXivpreprintarXiv:2305.12487,2023 2023
+99. Nascimento N, Alencar P, Cowan D. Self-adaptive 112. CuiJ,LiZ,YanY,ChenB,YuanL. Chatlaw: Open-
+largelanguagemodel(llm)-basedmultiagentsystems. sourcelegallargelanguagemodelwithintegratedexter-
+In: 2023IEEEInternationalConferenceonAutonomic nalknowledgebases.arXivpreprintarXiv:2306.16092,
+ComputingandSelf-OrganizingSystemsCompanion 2023
+(ACSOS-C). 2023,104–109 113. Hamilton S. Blind judgement: Agent-based
+100. SahaS,HaseP,BansalM. Canlanguagemodelsteach supreme court modelling with gpt. arXiv preprint
+weakeragents? teacherexplanationsimprovestudents arXiv:2301.05327,2023
+viatheoryofmind. arXivpreprintarXiv:2306.09299, 114. BailCA. Cangenerativeaiimprovesocialscience?
+2023 2023
+101. Zhuge M, Liu H, Faccio F, Ashley D R, Csordás R, 115. Boiko D A, MacKnight R, Gomes G. Emergent au-
+Gopalakrishnan A, Hamdi A, Hammoud H A A K, tonomousscientificresearchcapabilitiesoflargelan-
+Herrmann V, Irie K, others . Mindstorms in natu- guagemodels. arXivpreprintarXiv:2304.05332,2023
+rallanguage-basedsocietiesofmind. arXivpreprint 116. KangY,KimJ.Chatmof:Anautonomousaisystemfor
+arXiv:2305.17066,2023 predictingandgeneratingmetal-organicframeworks.
+102. AherGV,ArriagaRI,KalaiAT.Usinglargelanguage arXivpreprintarXiv:2308.01423,2023
+modelstosimulatemultiplehumansandreplicatehu- 117. SwanM,KidoT,RolandE,SantosRPd. Mathagents:
+mansubjectstudies. In: InternationalConferenceon Computational infrastructure, mathematical embed-

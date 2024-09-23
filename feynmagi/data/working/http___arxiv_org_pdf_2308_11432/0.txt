@@ -1,0 +1,51 @@
+Front. Comput. Sci.,2024,0(0): 1–42
+https://doi.org/10.1007/s11704-024-40231-1
+REVIEW ARTICLE
+A Survey on Large Language Model based Autonomous
+Agents
+Lei Wang1, Chen Ma*1, Xueyang Feng*1, Zeyu Zhang1, Hao Yang1, Jingsen
+(cid:66) (cid:66)
+Zhang1, Zhi-Yuan Chen1, Jiakai Tang1, Xu Chen( )1, Yankai Lin( )1, Wayne
+Xin Zhao1, Zhewei Wei1, Ji-Rong Wen1
+1 GaolingSchoolofArtificialIntelligence,RenminUniversityofChina,Beijing,100872,China
+©HigherEducationPress2024
+Abstract Autonomous agents have long been a LLM-basedautonomousagents. Basedonthepre-
+research focus in academic and industry commu- vious studies, we also present several challenges
+nities. Previousresearchoftenfocusesontraining andfuturedirectionsinthisfield.
+agentswithlimitedknowledgewithinisolatedenvi-
+Keywords Autonomous agent, Large language
+ronments,whichdivergessignificantlyfromhuman
+model,Human-levelintelligence
+learning processes, and makes the agents hard to
+achieve human-like decisions. Recently, through
+1 Introduction
+theacquisitionof vastamountsof webknowledge,
+largelanguagemodels(LLMs) haveshownpoten-
+“Anautonomousagentisasystemsituatedwithinanda
+tialinhuman-levelintelligence,leadingtoasurgein
+partofanenvironmentthatsensesthatenvironmentand
+researchonLLM-basedautonomousagents. Inthis
+actsonit,overtime,inpursuitofitsownagendaandso
+paper,wepresentacomprehensivesurveyofthese
+astoeffectwhatitsensesinthefuture.”
+studies, delivering a systematic review of LLM-
+FranklinandGraesser(1997)
+based autonomous agents from a holistic perspec-
+tive. WefirstdiscusstheconstructionofLLM-based
+Autonomous agents have long been recognized
+autonomousagents,proposingaunifiedframework
+asapromisingapproachtoachievingartificialgen-
+that encompasses much of previous work. Then,
+eral intelligence (AGI), which is expected to ac-
+we present a overview of the diverse applications
+ofLLM-basedautonomousagentsinsocialscience,
+Receivedmonthdd,yyyy;acceptedmonthdd,yyyy
+naturalscience,andengineering. Finally,wedelve
+E-mail: xu.chen@ruc.edu.cn;yankailin@ruc.edu.cn
+into the evaluation strategies commonly used for
+*Bothauthorscontributeequallytothispaper.
+4202
+rpA
+4
+]IA.sc[
+5v23411.8032:viXra

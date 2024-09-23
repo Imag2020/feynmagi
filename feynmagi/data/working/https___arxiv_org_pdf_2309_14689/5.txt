@@ -1,0 +1,83 @@
+6
+tracks,the angle subtended by the EMC shower and the we require the recoil mass of all the π+π− pairs to be
+position of the closest charged track at the EMC must lessthan3.05GeV/c2 relatedJ/ψ backgrounds,andthe
+begreaterthan10degreesasmeasuredfromthe interac- two charged tracks other than those from the K0 can-
+S
+tion point (IP). To suppress the electronic noise and the didate must have an invariant mass differing from m
+KS0
+showers unrelated to the event, the difference between by at least 10 MeV/c2 for γK0K0 backgrounds in the
+S S
+the EMC time andthe eventstart time is requiredto be K0K±π∓ mode. The invariant mass of the two charged
+S
+within [0, 700] ns. tracks with µ± hypothesis to be less than 2.90 GeV/c2
+AchargedtrackisreconstructedfromthehitsinMDC. for the K+K−π0 mode. We suppress the background
+We require each charged track not originating from K S0 from ψ(3686) ωK+K−, in which ω γπ0 3γ, us-
+to satisfy cosθ < 0.93, and the distance of the closest ing an ω veto→ in the K+K−π0 mode, → i.e., the→ invariant
+| |
+approach to the IP must be within 10 cm along the z- mass (M ) of the 3γ must satisfy M < 0.74 GeV/c2
+3γ 3γ
+axis,andlessthan1 cminthe transverseplane. Particle or M >0.82 GeV/c2.
+3γ
+identification (PID) for charged tracks combines mea- After imposing the above requirements, the analysis
+surements of the energy deposited in the MDC (dE/dx) of the inclusive MC sample for ψ(3686) decays with
+and the flight time in the TOF to form likelihoods TopoAna [26] indicates that the remaining dominant
+(h) (h=p,K,π) for each hadron h hypothesis. Tracks background sources are: (1) ψ(3686) KK¯π events
+aL re identified as K± or π± by comparing the likelihoods with a fake photon (γ ) or a photon f→ rom FSR in the
+fake
+for the kaon and pion hypotheses, (K) > (π) and final state; (2) events with an extra photon, primarily
+L L
+(π)> (K), respectively. from ψ(3686) π0KK¯π with π0 γγ; and (3) events
+L EachL K S0 candidate is reconstructed from two oppo- from continuu→ m process e+e− γ→ ISR(γ FSR)KK¯π with
+sitelychargedtrackswhichareassignedasπ+π− without the photon from ISR or FSR. →
+imposing further PID criteria. They are constrained to
+originatefromacommonvertexandarerequiredtohave
+an invariant mass within |M π+π− −m KS0
+|
+< 7 MeV/c2, A. ψ(3686) →KK¯π with a γfake or FSR
+where m is the K0 nominal mass [11]. Here the K0
+KS0 S S
+signal has a mass resolution of 3.5 MeV/c2. The decay We show the distributions of the invariant mass of
+lengthoftheK S0 candidateisrequiredtobegreaterthan KK¯π(M KS0K±π∓ andM K+K−π0)afterthekinematicfits
+twice the vertex resolution away from the IP. in Fig. 1, where the backgrounds from ψ(3686) KK¯π
+For γK0K±π∓ candidate events, we perform a four- with a γ incorporated into the kinematic fit→ , appear
+S fake
+constraint (4C) kinematic fit to all the final state par- aspeaksclosetothe expectedη (2S)mass,withasharp
+c
+ticles with the constraints provided by four-momentum cutoffduetothe25-MeVphoton-energythreshold. Since
+conservation, where the K0 candidate information is the γ adds no informationto the fit, its inclusion dis-
+S fake
+from the secondary-vertex fit. We discriminate the torts the mass measurement. A modified kinematic fit
+K0K+π− and K0K−π+ charge-conjugate combinations is therefore imposed by allowing the energy of the pho-
+S S
+and select the best photon candidate by minimizing ton to float, i.e., using a 3C kinematic fit for γK0K±π∓
+S
+χ2 com = χ2 4C +χ2 PID(K)+ χ2 PID(π), where χ2 4C is from candidates and a 4C kinematic fit for γK+K−π0 candi-
+the 4C kinematic fit. For the γK+K−π0 mode, we use dates. We find the energy of the γ from the kinematic
+a five-constraint (5C) kinematic fit with an additional fit tends to be zero if it is a fake photon, which is useful
+constraintonthe π0 nominalmass andselect the combi- forbetter separatingsuchkindsofbackgroundsfromthe
+nationwiththeminimumχ2 . Tosuppressbackgrounds signal. We require the χ2 in the modified kinematic fits
+5C
+from ψ(3686) KK¯π and ψ(3686) γγKK¯π, we re- to satisfy χ2 <20 and χ2 <15 for the γK0K±π∓
+quiretheχ2 of→ thekinematicfitofthe→ γKK¯π hypothesis mode and tm h3 eC γK+K−π0 m m4 oC de, respectively. S We use
+tobelessthanthatfromboththeKK¯πandγγKK¯πhy-
+the invariant mass distributions from the modified fits
+potheses. for further study.
+The above requirement cannot remove backgrounds
+from ψ(3686) KK¯π with a γ , which could po-
+FSR
+IV. BACKGROUNDS ANALYSIS tentially contam→ inate the signal channel with a long tail
+in the distribution of M KK¯π. The contribution depends
+For the K0K±π∓ mode, there are significant back- ontheFSRratioR N /N ignoringanyde-
+ground contrS ibutions from ψ(3686) π+π−J/ψ with pendence on the mF oS mR e≡ ntumFSR andno aF nS gR le of the charged
+J/ψ decaying into e+e− and µ+µ−,→ ψ(3686) ηJ/ψ tracks, where N and N are the numbers of
+FSR nonFSR
+with η decaying into π+π−π0, and from ψ(3→ 686) events with and without γ , respectively. Control
+FSR
+γK0K0 events with the K± being misidentified as π→±. samples of ψ(3686) γχ γK0K±π∓(γ ) and
+TheS otS her backgrounds are from ψ(3686) π0J/ψ ψ(3686) γχ → γK+Kc1 −K→+K−(S γ ) areFS sR elected
+c0 FSR
+or ψ(3686) π0π0J/ψ with J/ψ decaying i→ nto e+e−, tostudyt→ hediffere→ nceofR betweendata(RData)and
+µ+µ−, or K→+K−, ψ(3686) ηJ/ψ with η decaying in- MC sample (RMC) in theFS γR K0K±π∓ and γKFS +R K−π0
+to γγ, ψ(3686) ωK+K−→ with ω γπ0 3γ for channels, respecF tS iR vely. We useS the same method as de-
+the K+K−π0 m→ ode. To suppress th→ ese bac→ kgrounds, scribed in Ref. [13] to determine f RData/RMC =
+FSR ≡ FSR FSR

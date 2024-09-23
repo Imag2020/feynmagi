@@ -1,0 +1,107 @@
+3
+manyfollow-upstudiesonmultimodalfoundationmodelssuch AItoanalyzeandextractvaluefromthisdataiscritical.Some
+as BriVL [56], BLIP [57], GPT-4 [58], KOSMOS-1 [59], and common AI use cases in IoT include:
+KOSMOS-2 [60].
+1) Predictive Maintenance: Using machine learning to
+analyzesensordatafromindustrialequipmentandpredict
+D. Towards AGI Paradigm for IoT failures before they occur [64]. This avoids costly IoT
+downtime.
+A point broadly shared in the AGI community is called the
+2) Anomaly Detection: Identifying anomalies in real-time
+core AGI hypothesis [61], which refers to “the creation and
+IoTdatastreamstodetectcyberattacks,equipmentfaults,
+study of synthetic intelligence with sufficiently broad scope
+or other issues requiring intervention [65].
+and strong generalization capability, is qualitatively different
+3) Personalization: Applying deep learning to user data
+from the synthetic intelligence with significantly narrower
+from smart devices to provide personalized recommen-
+scope and weaker generalization capability”. We characterize
+dations and customized experiences [66].
+the AGI systems with a list of capabilities motivated by the
+4) SmartGrids:AIalgorithmsanalyzedatafromsmartme-
+competencies summarized by AI researchers and psycholo-
+ters and sensors to optimize energy distribution, manage
+gists [62] in Fig. 2.
+demand response, and forecast energy needs, enhancing
+1) Perception:Thesenseandunderstandingofvisual,hear-
+the reliability and efficiency of power grids [67].
+ing, touch information from environment, and the abil-
+5) Smart Home: AI-driven systems in smart homes [68]
+ity of integrating multi-modal information from various
+learn user preferences and behavior to automate light-
+senses.
+ing, heating, and cooling, resulting in an intelligent
+2) Actuation: The ability of manipulating physical objects,
+environment that enhances comfort and reduces energy
+using tools, and navigation in complex environments.
+consumption.
+3) Memory: The memory regarding facts or beliefs, the
+6) Smart Agriculture: AI enhances smart agriculture by
+outcome of sequential/parallel combinations of actions,
+processing data from sensors and satellite images for
+and experience attributed to a particular instance.
+precision farming, optimizing irrigation, and predicting
+4) Learning: The ability to learn from teachers, other ob-
+environmental impacts on crop yields [69], [70], [71].
+served agents, media, experimentation, and positive or
+7) Smart Robotics:AI-drivenroboticsystemsachieveself-
+negative reinforcement signals in the environment.
+perception and environmental perception in robots and
+5) Reasoning: The ability of deduction, induction, and ab-
+dronesbycollectingandanalyzingreal-time,multimodal
+duction.Theabilityofreasoningfromobservedpremises,
+data from sensors and cameras. This enables precise
+physical rules and spatio-temporal associations.
+navigation and manipulation [72] across a wide range of
+6) Planning:Theabilityofconductingstrategical,physical,
+applications,fromlast-miledeliverytoindustrialautoma-
+and social planning.
+tion and automated farming.
+7) Motivation: The ability of creating sub-goals based on
+8) Smart Manufacturing: In industrial IoT, AI is used
+the pre-programmed goals, or driven by curiosity, emo-
+for modeling, monitoring, diagnosis, and control by ana-
+tions, empathy, and altruism.
+lyzing machine data to forecast breakdowns, optimizing
+8) Emotion: The ability of expressing emotion, as well as
+production schedules, and improving supply chain effi-
+perceiving or interpreting emotion.
+ciencies [73].
+9) Interaction: The ability to initiate communication and
+9) Smart Healthcare: AI applications in smart healthcare
+organize group activities, with appropriate behavior. The
+[74] include predictive analytics for patient monitoring,
+communication could be achieved through verbal, gestu-
+natural language processing for electronic health records
+ral, pictorial or even cross-modal signals.
+[75], [76], [77], and image analysis for diagnostic imag-
+10) Quantitative: The ability to comprehend and articulate
+ing [75], [78].
+mathematicalconcepts,solvemathematicalproblems,and
+10) Smart Transportation: AI analyzes data from sensors
+apply quantitative reasoning to solve problems that de-
+and cameras to optimize traffic flows, improve public
+mand mathematical thinking and model-building skills.
+transportationsystems,enhancenavigationwithreal-time
+11) Creation: The ability to build and modify physical ob-
+data, and facilitate autonomous vehicles [79].
+jects, assemble and organize social groups, and form
+11) Smart Public Safety: AI helps in analyzing data from
+novel concepts.
+IoT devices for faster emergency response, uses pattern
+AGI within the IoT context would imply the development of
+recognitiontoanticipateincidents,andimprovescommu-
+highlyadvancedandversatileAIsystemsthatpossesshuman-
+nication systems in crisis situations [80].
+likecognitivecapabilities(i.e.,morethanonecapabilitylisted
+12) Smart Environmental: AI is utilized in smart environ-
+above) and can seamlessly interact and adapt across a broad
+mental systems to analyze data from sensors for pollu-
+spectrum of IoT devices and scenarios.
+tion control, predict environmental trends, and facilitate
+wildlife monitoring for conservation efforts [81].
+E. AI in IoT Applications and the Necessity for AGI
+While traditional AI applications perform well for narrow
+IoT generates massive amounts of heterogeneous data from tasks, developing more versatile systems requires AGI. Con-
+interconnected sensors, devices, and systems [63]. Applying ventional AI lacks the flexible reasoning, contextual adapta-

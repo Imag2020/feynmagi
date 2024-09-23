@@ -166,7 +166,7 @@ def handle_connect():
     version, retcode=check_ollama_installed()
     if  retcode:
         socketio.emit('error', {'message': 'Ollama is not installed ! for local LLM please install it first'})
-    socketio.emit('response_token', {'token': help()})
+    #socketio.emit('response_token', {'token': help()})
     
     
 
@@ -665,12 +665,20 @@ def get_agent():
     socketio.emit('update_tools', tools)
 
 @socketio.on('play_agent')
-def handle_remove_agent(data):
+def handle_play_agent(data):
     agent_name = data.get('name')
     agent_system = data.get('system')
     agent_prompt = data.get('prompt')
     print(f"Playing Agent {agent_name} system={agent_system} prompt={agent_prompt}")
     play(agent_name,agent_system,agent_prompt)
+
+@socketio.on('play_agent2')
+def handle_play_agent2(data):
+    agent_name = data.get('name')
+    agent_system = data.get('system')
+    agent_prompt = data.get('prompt')
+    print(f"Playing Agent {agent_name} system={agent_system} prompt={agent_prompt}")
+    play(agent_name,agent_system,agent_prompt,50,"","mcts")
 
 def start_scheduler():
     print("_______________  start_scheduler")

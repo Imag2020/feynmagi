@@ -1,0 +1,44 @@
+networks is crucial for accommodating patrons’ first- and last-mile trips, ensuring seamless connectivity
+and enhancing the overall effectiveness of mass transit systems.
+This paper focuses on the optimal design of fixed-route feeder services under spatially
+heterogeneous demand. Compared to emerging feeder modes, such as ride sourcing, flex-route transit,
+and shared bikes, fixed-route feeders offer greater reliability thanks to their fixed service schedules and
+routes, as well as the benefit of remaining impervious to inclement weather conditions. Furthermore,
+fixed-route feeders are more affordable and energy-efficient, particularly in operating scenarios with
+relatively high demand densities (e.g., Chang and Schonfeld, 1991).
+Two types of models have been commonly employed to address the feeder service optimization
+problem: discrete models and continuous models. Discrete models incorporate numerous details
+representing specific physical and geographical constraints in the operating environment, such as the
+exact locations of candidate stops (e.g., Martins and Pato, 1998; Shrivastava and O’Mahony, 2006; Ciaffi
+et al., 2012; Lee et al., 2021). These models are often solved using heuristic methods (e.g., Fan and Ran,
+2021), making it challenging to gauge the quality of the generated solutions. In contrast, continuous
+models are more parsimonious, utilizing only a few parameters and design variables to represent the
+feeder system. Specifically, continuous approximation (CA) models approximate heterogeneous discrete
+details with continuous functions for demand density, line and stop spacings, and so on. This makes
+them particularly well-suited for developing optimal transit network layouts under heterogeneous
+demand (Ouyang et al., 2014; Chen et al., 2015; Chen et al., 2018; Luo et al., 2021). Continuous models
+are often solved to global optimality or near optimality using efficient analytical or numerical methods.
+Notable studies in this field are summarized in Table 1 and compared with our research.
+Most works in this field assumed spatially uniform demands (Chang and Schonfeld, 1991; Kim
+and Schonfeld, 2012, 2013, 2014; Sivakumaran et al., 2014; Kim and Schonfeld, 2015, Guo et al., 2018;
+Su and Fan, 2019; Badia and Jenelius, 2020, 2021). Thus, they cannot be directly applied to real-world
+feeder system designs under spatially heterogeneous demand. Spatial heterogeneity in demand cannot
+be overlooked when the feeder’s service region is large, as exemplified by the satellite cities mentioned
+earlier. Most of the cited works also assumed uniform line spacing and headway, while largely neglecting
+stop spacing optimization. Moreover, they typically assumed fixed dwell time and transfer time between
+trunk and feeder services, disregarding the relationship between dwell and transfer times and the number
+of boarding and alighting patrons. Notably, Chang and Schonfeld (1991) and Kim and Schonfeld (2012,
+2013, 2014, 2015) considered vehicle size optimization.
+Only a few studies have developed feeder network design models for the more realistic, spatially
+heterogeneous demand. Among them, Wirasinghe (1980) and Sivakumaran et al. (2012) assumed
+demand is heterogeneous in only one direction (either along the rail line or perpendicular to it), while
+Kuah and Perl (1988) and Yang et al. (2020) considered demand heterogeneity in both directions of the
+service region. Most of these studies did not optimize stop spacings, likely due to mathematical
+complexity. For instance, Quadrifoglio and Li (2009) stated that deriving the optimal stop spacing was
+“often quite hard.” To the best of our knowledge, Kuah and Perl (1988) is the only study that optimized
+stop spacings under heterogeneous demand. However, their model relied on oversimplified and
+somewhat unrealistic assumptions (probably necessary to make the problem mathematically tractable),
+such as very small rail station spacing and ignoring the operating cost associated with bus dwell times.
+In addition, nearly all these works assumed fixed dwell and transfer times and unlimited feeder bus
+capacity.
+2

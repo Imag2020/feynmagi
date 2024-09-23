@@ -1,0 +1,109 @@
+5
+For example, consider the cases: (2n−d)×(2n−d)identitymatrixI . There-
+(2n−d)×(2n−d)
+fore,w isactuallythematrixrepresentationofGk inthe
+q =1,{Gk :G G ···G G }. q q
+1
+|
+1 1
+{z
+1 }1 d-dimensional invariant subspace V q1. Through this ex-
+pression, the calculation of Tr{Gk} can be performed:
+k layers q
+q =2,{G 2k :G 1G 1···G 1G 2}. Tr{Gk}=Tr{w )+Tr{I }
+| {z } q q 2n−d (18)
+k layers =Tr{w }+2n−d.
+q
+.
+.
+.
+q =αk,{G αk
+k
+:G αG α···G αG α}. 3. The PTM representation of w
+q
+| {z }
+k layers
+AftercharacterizingGk,weneedtoobtainthesolution
+q
+Therefore, under the matrix background denoted as Gk, for Tr{w }. However, the matrix w is unknown. w as
+q q q q
+the subspace dimension d is not constant. Hence, the amapping,findingthesolutionforw requirestheuseof
+q
+determination of the subspace dimension relies entirely the Pauli Transfer Matrix(PTM). We denote the PTM
+on the count of unique gate types present in the given corresponding to w as R .
+q wq
+orderq. Letusdefinedasthedimensionofthenontrivial Based on the previous discussion, an important rela-
+subspace corresponding to the simplified merge of Gk := tionship can be used:
+q
+Q tok t p= r1 eG paqt r, ew Ghile asre Upre :se Gntin =g Uthe Gra Und †o .m Quga at ne tus mets stu as te ed
+s
+R wq|ρ s⟩⟩=|w q(ρ s)⟩⟩=|w qρ sw q†⟩⟩
+prepared
+byq dt ifferenqt
+t
+ranqt
+dom
+q gt ate0
+s
+q at
+re represented as:
+r,s∈{1,2,...,d2}.
+|ψ ⟩,ζ =1,2,...,d.
+qζ For simplicity, the subscript q indicating that ρ belongs
+In order to ensure completeness, a set of state vectors to the ordering Gk will be omitted below.
+{|ϕ ⟩,η = 1,2,··· ,2n −d} is introduced, which are or- q
+η Although R is an (d2×d2) matrix, the vector |ρ ⟩⟩
+thogonal to all the state vectors |ψ ⟩. wq s
+qζ hasdimensionsof(2n)2×1. Since|ρ ⟩⟩onlyhasnon-zero
+The rationale behind this is as follows: s
+elements in the d2-dimensional subspace, the remaining
+Due to the condition ⟨ψ |ϕ ⟩ = 0, it can be inferred
+qζ η part of the vector is trivial, consisting of all zeros except
+that:
+for this subspace.
+  By left-multiplying the above equation by ⟨⟨ρ |, the
+d r
+Y
+G qk(|ϕ η⟩)= (I−2(|ψ qζ⟩⟨ψ qζ|)|ϕ η⟩=|ϕ η⟩. matrix elements of the PTM matrix (R wq) d2×d2 are
+given as follows:
+ζ=1
+⟨⟨ρ |R |ρ ⟩⟩=⟨⟨ρ |w ρ w†⟩⟩. (19)
+Itisevidentthat{|ϕ ⟩,η =1,2,...,2n−d}formsasetof r wq s r q s q
+η
+eigenstatesofGk witheigenvalue1. Intherepresentation To calculate the matrix elements (R ) of R using
+q wq rs wq
+with 2n state vectors: this method, d2 quantum states in the Hilbert-Schmidt
+  space are required, represented by vectors |ρ r⟩⟩. The
+  proof of the completeness of these states can be found in
+|ψ q1⟩,|ψ q2⟩,...,|ψ qd⟩,|ϕ 1⟩,|ϕ 2⟩,...,|ϕ η⟩ . (16) Appendix A.
+| {z } | {z } We need to calculate the trace of PTM. Although we
+d terms (2n−d) terms
+can obtain each matrix element of the PTM sequen-
+as the basis in the V space, the matrix Gk can be ex- tially through the circuit, we cannot directly compute
+q q
+its trace because the basis vectors in the subspace we
+pressed as:
+generate are not orthogonal. There are two feasible ap-
+ w w ... w 0 0 ... proaches:Schmidt decomposition to orthogonalize its ba-
+11 12 1d
+w w ... w 0 0 ... sis vectors, and then directly calculate the trace by sum-
+ 21 22 2d 
+ ... ... ... ... 0 0 ... ming the main diagonal elements;Calculate its trace in-
+ 
+w w ... w 0 0 ... (17) directly through a matrix similarity transformation.This
+ d1 d2 dd 
+ 0 0 0 0 1 0 ... paper adopts the GST (Gate Set Tomography) method,
+ 
+ 0 0 0 0 0 ... ... which is the latter approach of indirectly calculating the
+... ... ... ... ... ... 1 trace of PTM through similarity transformations.
+The top-left d×d matrix w can be considered as com-
+q
+posed of the eigenvalues of the d-dimensional invariant 4. GST
+subspace V spanned by d states |ψ ⟩ in the basis. The
+q1 qζ
+remaining part of Gk is composed of the eigenvectors In Quantum Process Tomography (QPT), the infor-
+q
+in the complement space with basis |ϕ ⟩, correspond- mation required to reconstruct each gate R is con-
+η wq
+ing to (2n −d) eigenvalues. These eigenvalues form an tained in the measurements of ⟨⟨ρ |R |ρ ⟩⟩, and R
+r wq s wq

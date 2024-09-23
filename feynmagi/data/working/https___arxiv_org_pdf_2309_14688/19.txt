@@ -1,0 +1,47 @@
+4.4.1 Sensitivity to the demand pattern
+We investigate the benefit of heterogenous design under two distinct demand patterns for a high-wage
+city (𝜃 = 20 $/h). The first pattern remains terminal-centered but exhibits a more concentrated spatial
+distribution with 𝜎 = 𝜎 = 𝐿⁄8 and 𝜎 = 𝜎 = 𝑊⁄8 . The other parameter values are
+𝑥𝑝 𝑥𝑑 𝑦𝑝 𝑦𝑑
+consistent with those in Section 4.3. The outcomes of the optimal heterogeneous design and the three
+benchmark designs are presented in Table 5. The last row of this table is derived in a similar fashion to
+Table 4.
+Table 5. Optimal designs when demand is more concentrated near the terminal
+Uniform line and stop Uniform line and stop
+Variable Heterogeneous design Uniform stop spacing
+spacing spacing, and headway
+𝐾, pax 8 13 13 33
+𝐵∗(𝑥,𝑦), km [0.09, 2.00] (0.34) 0.13 0.13 0.14
+𝑆(𝑥), km [0.03, 3.00] (0.23) [0.04, 3.00] (0.26) 0.13 0.20
+𝐼
+𝐻 (𝑥), min [3.9, 30.0] (19.4) [4.1, 30.0] (19.7) [3.0, 30.0] (21.6) 5.9
+𝐼𝑝
+𝐻 (𝑥), min [5.0, 30.0] (19.6) [5.0, 30.0] (19.8) [5.0, 30.0] (21.9) 5.9
+𝐼𝑑
+𝐴𝐶, h 83.42 88.21 96.09 142.72
+𝑈𝐶, h 313.50 322.88 330.84 384.98
+𝐺𝐶, h 396.92 411.09 426.93 527.70
+𝐺𝐶 gap 3.45% 3.71% 19.1% –
+Table 5 shows significantly larger percentage cost savings under the more concentrated demand
+pattern compared to Table 4. For example, heterogenizing the stop spacings now produces a 3.45% cost
+saving. This suggests that the heterogeneous design is more advantageous when demand is more
+spatially heterogeneous. Also, designs with higher degrees of heterogeneity tend to favor smaller feeder
+buses, as the optimal spatially-heterogeneous line and stop spacings align more closely with the
+heterogeneous demand (see Fig. 7), rendering the patrons more evenly distributed across the lines and
+vehicles.
+The second demand pattern employs the same standard deviation parameters as in Section 4.3, but
+with demand centered at the far end of the service region, i.e., 𝜇 = 𝜇 = 𝐿 and 𝜇 = 𝜇 = 𝑊.
+𝑥𝑝 𝑥𝑑 𝑦𝑝 𝑦𝑑
+This remotely-centered pattern also has real-world examples.10 Other parameters remain the same as
+before. The results under this demand pattern are provided in Table 6.
+Table 6 demonstrates that merely heterogenizing stop spacings results in an even greater cost
+saving of 4.17%. This is likely due to the better alignment of optimal stop spacings with this demand
+pattern. Specifically, 𝐵∗(𝑥,𝑦) is small near the service region’s top edge due to high demand density
+and low onboard patron flow, while it is large near the bottom owing to low demand density and high
+onboard patron flow; see Eq. (20g). Recall that the advantages of our design would be even more
+pronounced when compared to previous feeder optimization models that utilize a constant, non-
+optimized stop spacing.
+10 For instance, the Palm Springs and Fairview Park in Hong Kong are large-scale residential estates housing most of the
+population in the surrounding region. However, these estates are situated several kilometers away from the nearest metro
+station.
+20

@@ -1,0 +1,59 @@
+11
+ACKNOWLEDGMENTS The Institute of Nuclear and Particle Physics (INPAC)
+and Shanghai Key Laboratory for Particle Physics and
+The BESIII Collaboration thanks the staff of BEPCII Cosmology; European Union’s Horizon 2020 research
+and the IHEP computing center for their strong sup- and innovation programme under Marie Sklodowska-
+port. This work is supported in part by National Curie grant agreement under Contract No. 894790;
+Key R&D Program of China under Contracts Nos. German Research Foundation DFG under Contracts
+2020YFA0406301, 2020YFA0406300, 2020YFA0406400; Nos. 455635585, Collaborative Research Center CRC
+National Natural Science Foundation of China (NSFC) 1044, FOR5327, GRK 2149; Istituto Nazionale di
+under Contracts Nos. 12275058, 11635010, 11735014, Fisica Nucleare, Italy; Ministry of Development of
+11835012, 11935015, 11935016, 11935018, 11961141012, TurkeyunderContractNo. DPT2006K-120470;National
+12022510, 12025502, 12035009, 12035013, 12061131003, ResearchFoundationofKoreaunderContractNo. NRF-
+12192260, 12192261, 12192262, 12192263, 12192264, 2022R1A2C1092335; National Science and Technology
+12192265, 12221005, 12225509, 12235017; the Chinese fund of Mongolia; National Science Research and
+Academy of Sciences (CAS) Large-Scale Scientific Innovation Fund (NSRF) via the Program Management
+Facility Program; the CAS Center for Excellence in UnitforHumanResources&InstitutionalDevelopment,
+Particle Physics (CCEPP); Joint Large-Scale Scientific Research and Innovation of Thailand under Contract
+Facility Funds of the NSFC and CAS under Contract No. B16F640076; Polish National Science Centre un-
+No. U1832207; CAS Key Research Program of Frontier der Contract No. 2019/35/O/ST2/02907; The Swedish
+Sciences under Contracts Nos. QYZDJ-SSW-SLH003, Research Council; U. S. Department of Energy under
+QYZDJ-SSW-SLH040; 100 Talents Program of CAS; Contract No. DE-FG02-05ER41374.
+[1] T. Barnes, S. Godfrey and E. S. Swanson, Chin. Phys.C 44, 040001 (2020).
+Phys.Rev.D 72, 054026 (2005). [18] X.Lietal.,Radiat. Detect. Technol. Methods 1, 13 (2017);
+[2] G. Li and Q. Zhao, Phys. Lett.B 670, 55-60 (2008). Y.X.Guoetal.,Radiat. Detect.Technol. Methods 1, 15 (2017);
+[3] T. Peng and B. Q.Ma, Eur. Phys.J. A 48, 66 (2012). P.Caoetal.,Nucl.Instrum. Meth. A 953, 163053 (2020).
+[4] N. Brambilla, S. Eidelman et al., [19] S. Agostinelli et al. [GEANT4 Collaboration],
+Eur. Phys.J. C 71, 1534 (2011). Nucl. Instrum.Meth. A 506, 250 (2003).
+[5] M. Anselmino, M. Genovese, and E. Predazzi, [20] K. X. Huang,et al., Nucl.Sci. Tech. 33, 142 (2022).
+Phys.Rev.D 44, 1597 (1991). [21] S. Jadach, B. F. L. Ward and Z. Was,
+[6] K. T. Chao, Y. F. Gu, and S. F. Tuan, Phys. Rev.D 63, 113009 (2001); Comput. Phys.Commun. 130, 260
+Commun. Theor. Phys. 25, 471 (1996). [22] D. J. Lange, Nucl. Instrum.Meth. A 462, 152 (2001);
+[7] H. P. Wang and C. Z. Yuan, R. G. Ping, Chin. Phys.C 32, 599 (2008).
+Chin. Phys.C 46 071001 (2022). [23] J. C. Chen, G. S. Huang, X. R. Qi, D. H. Zhang
+[8] M. Ablikim et al. [BESIII Collaboration], and Y. S. Zhu, Phys. Rev.D 62, 034003 (2000);
+Phys.Rev.D 107, L091101 (2023). R. L. Yang, R. G. Ping and H. Chen,
+[9] Q.Zhao, Nucl.Phy.B 207, 347 (2010). Chin. Phys.Lett. 31, 061301 (2014).
+[10] S. K. Choi et al. [Belle Collaboration], [24] E. R.Was, Phys. Lett. B 303, 163 (1993).
+Phys.Rev.Lett. 89, 102001 (2002). [25] M. Ablikim et al. [BESIII Collaboration],
+[11] R. L. Workman et al. [Particle Data Group], Phys.Rev. D 106, 032014 (2022).
+PTEP 2022, 083C01 (2022). [26] X. Y. Zhou, S. X. Du, G. Li, and C. P. Shen,
+[12] K.Gao, arXiv:0909.2812 [hep-ex]. Comput. Phys. Commun. 258, 107540 (2021).
+[13] M. Ablikim et al. [BESIII Collaboration], [27] H. Ikeda et al. [Belle Collaboration],
+Phys.Rev.Lett. 109, 042003 (2012). NIM A 441, p.401 (2000).
+[14] R. Aaij et al. [LHCb Collaboration], [28] V. V. Anashin, V. M. Au et al,.
+Phys.Rev.D 108, 032010 (2023). Int.J. Mod. Phys. Conf. Ser. 02, 188-192 (2011).
+[15] M. Ablikim et al. [BESIII Collaboration], [29] W. L. Yuan, X. C. Ai, X. B. Ji, S. J. Chen,
+Chin. Phys.C 42, 023001 (2018). With the same Y. Zhang, L. H. Wu, L. L. Wang, and Y. Yuan
+method, thetotal numberof ψ(3686) eventscollected in Chin. Phys.C 40 026201 (2016).
+2009, 2012, and 2021 is determined to be 27.08 108 [30] M. Ablikim et al. [BESIII Collaboration],
+×
+in an uncertainty of 0.5% as a preliminary result. The Phys. Rev.D 99, 091103 (2019).
+integrated luminosity of ψ(3686) events is given to be [31] M. Ablikim et al. [BESIII Collaboration],
+3877.05 pb−1, and the integrated luminosity of data Phys. Rev.D 81, 052005 (2010).
+collected at √s = 3.65 GeV in 2022 is measured to be [32] M. Ablikim et al. [BESIII Collaboration],
+401.00pb−1withanuncertaintyof1.0%asapreliminary Phys. Rev.D 92, 112008 (2015).
+result. [33] M. Ablikim et al. [BESIII Collaboration],
+[16] M. Ablikim et al. [BESIII Collaboration], Phys. Rev.D 87, 012002 (2013).
+Nucl.Instrum.Meth. A 614, 345 (2010). [34] H. Albrecht et al. [ARGUS Collaboration],
+[17] M. Ablikim et al. [BESIII Collaboration], Phys. Lett. B 241, 278 (1990).

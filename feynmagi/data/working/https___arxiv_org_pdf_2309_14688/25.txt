@@ -1,0 +1,80 @@
+𝜏 Boarding time per patron h/patron
+𝑏
+𝑡 Transfer delay from feeder stop to the trunk-line platform per patron h/patron
+𝑓−𝑡
+𝑡 Transfer delay from trunk-line platform to feeder stop per patron h/patron
+𝑓−𝑡
+𝐻 Headway of the trunk line h
+𝑡
+𝐻 Minimum headway of a feeder line h
+𝑚𝑖𝑛
+𝐻 Maximum headway of a feeder line h
+𝑚𝑎𝑥
+Appendix B. Derivation of the optimality properties
+Combining all the cost metrics, we can rewrite the generalized cost (15a) as:
+𝐺𝐶 =
+{𝜋𝑚(𝜏
++𝜏
+)Λ+∫𝐿 (𝑥
+(Λ (𝑥)+Λ (𝑥))+(𝑡
++𝐻𝑡)Λ
+(𝑥)+𝑡 Λ (𝑥))𝑑𝑥+
+𝜇 𝑎 𝑏 𝑥=0 𝑣𝐼 𝑝𝑥 𝑑𝑥 𝑓−𝑡 2 𝑝𝑥 𝑡−𝑓 𝑑𝑥
+∫𝑊 𝑦
+(Λ (𝑦)+Λ
+(𝑦))𝑑𝑦}+{∫𝐿 [𝜋𝑣(𝑊+𝑥)
+(
+1
++
+1 )+𝜋𝑚(𝑊+𝑥)
+(
+1
++
+1
+)+
+𝑦=0𝑣𝐼 𝑝𝑦 𝑑𝑦 𝑥=0 𝜃𝑆𝐼(𝑥) 𝐻𝐼𝑝(𝑥) 𝐻𝐼𝑑(𝑥) 𝜃𝑆𝐼(𝑥)𝑣𝐼 𝐻𝐼𝑝(𝑥) 𝐻𝐼𝑑(𝑥)
+𝑆𝐼(𝑥)
+(Λ (𝑥)+Λ
+(𝑥))+𝐻𝐼𝑝(𝑥)
+Λ
+(𝑥)+𝐻𝐼𝑑(𝑥)
+Λ
+(𝑥)+𝜏𝑎𝑆
+(𝑥)𝐻 (𝑥)[Λ
+(𝑥)]2
++
+𝑝𝑥 𝑑𝑥 𝑝𝑥 𝑑𝑥 𝐼 𝐼𝑝 𝑝𝑥
+4𝑣𝑊 2 2 2
+𝜏𝑏𝑆 (𝑥)𝐻 [Λ (𝑥)]2+𝜏 𝑆 (𝑥)𝐻 (𝑥)𝛭 (𝑥)+𝜏 𝑆 (𝑥)𝐻 (𝑥)𝛭 (𝑥)]𝑑𝑥}+
+𝐼 𝑡 𝑑𝑥 𝑏 𝐼 𝐼𝑝 𝑝𝑥 𝑎 𝐼 𝐼𝑑 𝑑𝑥
+2
+{∫𝐿 ∫𝑊 [𝜋𝑠 1 +𝜋𝑚 𝜏0
+(
+1
++
+1 )+𝐵(𝑥,𝑦)
+[𝜆 (𝑥,𝑦)+𝜆 (𝑥,𝑦)]+
+𝑥=0 𝑦=0 𝜃 𝑆𝐼(𝑥)𝐵(𝑥,𝑦) 𝜃 𝑆𝐼(𝑥)𝐵(𝑥,𝑦) 𝐻𝐼𝑝(𝑥) 𝐻𝐼𝑑(𝑥) 4𝑣𝑊 𝑝 𝑑
+𝜏0Λ𝑝𝑥𝑦(𝑥,𝑦) +𝜏0Λ𝑑𝑥𝑦(𝑥,𝑦)
+]𝑑𝑦𝑑𝑥} (B1)
+𝐵(𝑥,𝑦) 𝐵(𝑥,𝑦)
+The part of the objective function in the first pair of braces is constant. The part in the second pair
+of braces contains single integrals relating to either 𝑥 or 𝑦 (involving decision functions 𝑆 (𝑥) ,
+𝐼
+𝐻 (𝑥), 𝐻 (𝑥)). Meanwhile, the part in the third pair of braces contains double integrals related to
+𝐼𝑝 𝐼𝑑
+both 𝑥 and 𝑦 (involving the decision function 𝐵(𝑥,𝑦)).
+Note that (B1) is a convex function when only one decision variable (𝑆 (𝑥), 𝐻 (𝑥), 𝐻 (𝑥), or
+𝐼 𝐼𝑝 𝐼𝑑
+𝐵(𝑥,𝑦) ) is considered, and the other variables are fixed. (This type of functions is known as the
+coordinate-wise convex functions, which are not necessarily convex themselves.) Further note that
+constraints (15c)–(15f) act as boundary constraints when only one decision variable is considered. As a
+result, the optimal solution for each decision variable can be developed analytically from first-order
+derivatives, assuming the other variables are fixed. These optimal solutions are:
+−1
+𝐻∗ (𝑥)= 𝑚𝑖𝑑{𝐻 ,min{ 𝐾 ,𝐻 } ,√ 2𝛼(𝑥)(𝑆 𝐼∗(𝑥)) } (B2)
+𝐼𝑝 𝑚𝑖𝑛 Λ𝑝𝑥(𝑥)𝑆 𝐼∗(𝑥) 𝑚𝑎𝑥 Λ𝑝𝑥(𝑥)+𝛽𝑝(𝑥)𝑆 𝐼∗(𝑥)
+−1
+𝐻∗ (𝑥)= 𝑚𝑖𝑑{max{𝐻 ,𝐻 },min{ 𝐾 ,𝐻 },√ 2𝛼(𝑥)(𝑆 𝐼∗(𝑥)) } (B3)
+𝐼𝑑 𝑚𝑖𝑛 𝑡 Λ𝑑𝑥(𝑥)𝑆 𝐼∗(𝑥) 𝑚𝑎𝑥 Λ𝑑𝑥(𝑥)+𝛽𝑑(𝑥)𝑆 𝐼∗(𝑥)
+26

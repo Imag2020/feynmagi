@@ -1,0 +1,97 @@
+7
+3.58 3.60 3.62 3.64 3.66 3.68 3.70
+M (GeV/c2)
+K s0K±π±
+)2c/VeG(
+200.0
+/
+stnevE
+4000
+3500
+η c(2S) → K S0K±π± m3C (a)
+η(2S) → K0K±π± 4C
+c S 3000 ψ(2S) → K0K±π± m3C S
+ψ(2S) → K0K±π± 4C 2500 S
+2000
+1500
+1000
+500
+0
+3.58 3.60 3.62 3.64 3.66 3.68 3.70
+M
+K+K π0
+(GeV/c2)
+)2c/VeG(
+200.0
+/
+stnevE
+C. ISR and FSR events from e+e− annihilation
+We use data collected at √s = 3.65 GeV with a luminosity of 401.00 4.01 pb−1 [15] to estimate the
+backgrounds from th± e continuum processes e+e−
+γ KK¯π and e+e− γ KK¯π. After event sele→ c- FSR ISR tion, we shift the mass→ of KK¯π (M ) to 3.686 GeV
+shifted
+by the rule:
+M shifted =a ×(M KK¯π −m 0)+m 0, (1)
+where a = (3.686 m )/(3.65 m ) with m being the
+0 0 0 massthresholdfor− generatingK− K¯π. Wethennormalized
+the number of continuum backgrounds according to the
+crosssectionsandthe integratedluminositiesofthe data
+samplesat√s=3.65GeV andattheψ(3686)peak[15].
+4000
+We determine the number of continuum events after the
+η(2S) → K+K π0 m4C
+3500 ηc (2S) → K+K π0 5C (b) selection in the ψ(3686) data sample to be 516 (360) in
+c the γK0K±π∓ (γK+K−π0) final state.
+3000 ψ(2S) → K+K π0 m4C S
+ψ(2S) → K+K π0 5C
+2500
+2000 V. BRANCHING FRACTION
+DETERMINATION
+1500
+1000 We perform a simultaneous fit to the mass spectra of
+KK¯π in the range of (3.45 3.70) GeV/c2 to extract
+500
+−
+the yield of signal events and the mass and the width of
+0
+the η (2S), as shown in Fig. 2. There are χ and χ c c1 c2
+signals besides the η (2S) signals. We use the following
+c
+line-shape of the η (2S) produced by an M1 transition:
+c
+FIG.1. Acomparisonbetweenthe4C (5C)andthemodified (E γ3 ×BW(M KK¯π) ×f d(E γ) ×ε(M KK¯π)) ⊗DGaus, (2)
+3C (4C) kinematic fits of the MC samples. (a) and (b) are
+the invariant mass distributions of K S0K±π∓ and K+K−π0 where E γ = (m2 ψ(3686) −M K2 K¯π)/(2m ψ(3686)) is the en-
+from ηc(2S) or ψ(3686) decays, respectively. ergy of the transition photon in the rest frame of the
+ψ(3686), BW is a Breit-Wigner function with floating
+width and mean, f (E ) = E2/(E E + (E E )2)
+(1.53 0.05) and (1.34 0.12) from two different con- is a damping functid on γ proposed0 byγ th0 e KEDγ R− exp0 eri-
+trol sa± mples. We tune± the ratio of ψ(3686) KK¯π ment[28]tosuppressthedivergingtailraisedbytheterm
+c ψa on (rd 3d 6i 8ψ n 6g( )3 t6 o86 f () F γS→ R t )γ o KFS d KR ¯eK πte ,rK¯ m wπ hin icein hth wth e ile lM bM K eC K u¯π ss ei dm linu te ol -a→ s dt hi eo a sn p ce ria boc e- f o inf gE tγ3 hw ei mth eaE n0 e= ne( rm gy2 ψ( o3 f68 t6 h) e− tm ra2 η nc s( i2 tS i) o) n/( p2 hm otψ o(3 n6 ,86 ε) () Md Ken K¯o πt )-
+→ FSR isthe efficiencyasafittedpolynomialfunctionofM KK¯π
+the corresponding backgroundcontribution in the fit.
+from the MC simulation, DGaus is a double Gaussian
+function, i.e. f Gaus(m ,σ )+(1 f) Gaus(m ,σ ),
+1 1 2 2
+· − ·
+that is utilized to describe the resolution. In fact, there
+B. ψ(3686) π0KK¯π are two types of resolutions that need to be taken into
+→
+account. The first type is based on the detector resolu-
+To account for ψ(3686) π0KK¯π backgrounds, we tion,whichisrepresentedbyadoubleGaussianfunction.
+→
+use the same data-drivenmethod as applied in Ref. [13]. The parameters of this function are directly determined
+We first select ψ(3686) π0KK¯π events in data and throughMCsimulation. Thesecondtypeofresolutionis
+→
+then estimate their rate of contamination in the M KK¯π basedonthediscrepancybetweenthedataandMCsimu-
+spectrum by exposing the selected events to the γKK¯π lation, and is represented by a single Gaussian function.
+selection criteria and correcting with efficiencies deter- The parameters of this function are obtained through
+mined from MC simulation. a linear extrapolation from those of χ . To consider
+c1/2
+This background contributes a smooth component both types of resolutions, a new double Gaussian func-
+around the χ mass region with a small tail in the tion, DGaus, is constructed by convoluting the original
+c1,2
+η (2S) signal region. We fit these backgrounds with a double Gaussianfunction with the single Gaussianfunc-
+c
+Novosibirsk function [27], and fix its shape and size in tion. All parameters of DGaus are then determined and
+the M KK¯π spectra fits. fixed during the fitting process.

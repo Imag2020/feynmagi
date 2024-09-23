@@ -1,0 +1,60 @@
+10
+yearacrossthecontinentalUnitedStatesandwasfurtherfine- ronmental monitoring data at any given time is fixed and
+tuned on labeled data for flood and burn scar mapping tasks, itincreasesatanalmostconstantrate[235].Forexample,
+two typical tasks in remote sensing domain. The results show ClimaX [235] utilizes atmospherical observations from
+that this geospatial foundation model leads to a 15 percent 1850to2015with6-hourspatialresolutions.Suchlimited
+performance improvement over the state-of-the-art model by datasizeisnotenoughforfoundationmodeltraining.To
+using only half-labeled data. solve that, ClimaX proposes to use simulation data from
+3) Challenges in FM Design for Environment Monitoring: various earth system models in foundation model pre-
+Despite the recent success in foundation model development training and use real-world data on model fine-tuning.
+for earth observation and environmental monitoring, we also However, such kind of simulated data is only available
+identify several unique challenges: foralimitedsetofenvironmentalvariables.Westillneed
+1) Integration of data with various spatial/temporal cov- other approaches such as data augmentation to increase
+erage: As we discussed in Section III-E5, environmental the size of model pre-training dataset.
+monitoringdatacollectedfromdifferentsensorscanhave
+differentspatialcoverageandtemporalcoverage.Howto
+E. Smart Agriculture
+integrate them into a unified format so that they can be
+used for foundation model training? CLimaX [235] lists Precision and smart agriculture integrates diverse technolo-
+this as one of their major challenges when developing gies to enhance the productivity, efficiency, and sustainability
+a foundation model based on different earth observation of the farm-to-market journey. This involves capturing critical
+data. They partially solve the diverse spatial coverage data about soil conditions, crops, and pests, which then in-
+challenge by leveraging the image patch idea from Vi- formscomprehensivemonitoringfromplantingtoharvest.The
+sion Transformer (ViT) [236]. They splitted the globe amalgamationofdatafrommultiplesensors,coupledwithIoT
+space into various spatial patches. For an environmental devices like drones and ground robots, holds the potential to
+monitoring variable with a partial spatial coverage, they optimize resources, increase yields, and minimize costs when
+can only feed the patches with available data to ViT seamlessly interconnected. Thus, unlocking the full capabili-
+whichdoesnotnecessarytoformacompletegrid.Similar ties of precise agriculture hinges on a robust interconnectivity
+practices can be used to solve the diverse temporal framework that facilitates smooth data exchange among field
+coverage challenge. devices and cloud-based facilities for storage, analysis, and
+2) Integration of data with various spatial/temporal decision-making.
+resolutions: Similarly, death observation and environ- At present, local farm connections often rely on Wi-Fi or
+mental monitoring data collected from different sensors Bluetoothforshort-rangewirelesscommunication[244],while
+inherently have different spatial resolutions and temporal remote functionalities utilize 4G cellular networks. While
+resolution. Most existing approaches [235], [237], [50] these solutions provide cost-effective connectivity, emerging
+simplydownsamplethehigh-resolutiondataorupsample applications in precise agriculture necessitate attributes like
+the low-resolution data to make the shape of input data elevated data rates, reduced latency, and high-density commu-
+match each other. This practice can bring unnecessary nication. Consider, for instance, unmanned tractors executing
+negative impacts to the model: 1) downsampling the precision plowing guided by GPS and computer vision [245],
+high-resolution data will lead to information loss and 2) [246]; robots requiring real-time coordination to avert colli-
+upsampling low-resolution data with the bilinear spatial sions and enhance cooperative planning; drones and ground
+interpolation method will lead to data bias and errors. robots accomplishing tasks in complex environments, relying
+A resolution-agnostic architecture is preferable in this onpromptoperatorfeedback;andmyriadsensorsnecessitating
+contextsuchassomerecentimplicitneuralrepresentation continuous communication for data aggregation [247].
+models [238], [239], [240], [241]. Farming systems are complex amalgamations of interde-
+3) FMwithdatainvariousspatialdataformats:Satellite- pendent components that drive profitability, efficiency, and
+and airborne-based environmental monitoring data are sustainability. Effective management of outdoor cropping sys-
+usually in the form of imagery while in-situ data are tems hinges on the meticulous control of water supply via
+usually stored as a set of point observations. Different irrigation, addressing nutrient deficiencies with mineral and
+spatial data formats require different spatial representa- organicfertilizers,managinginsectpressuresthroughscouting
+tion learning modules [242], [243] so that they can be andchemicalinterventions,andcombatingweedsusingchem-
+simultaneously learned by one foundation model. So far ical and/or mechanical methods. Additionally, crucial weather
+most of the multimodal foundation models focus on han- conditions must be constantly monitored. Historically, these
+dling text, images, and video modalities while ignoring soil, plant, and environmental factors required labor-intensive,
+the importance of integrating data in different spatial frequent visits to agricultural sites for manual data collection
+formats such as points, polylines, polygons, networks, and sensor data retrieval. However, recent advancements in
+and so on. However, this is an unavoidable challenge for technology, including wireless data transmission, storage, and
+FM design for environmental monitoring. computation, have paved the way for real-time access to farm
+4) FM training with limited historical data: Unlike lan- data [248]. Still, the vision of smart farming necessitates a
+guage foundation models which have a massive amount robust network capable of accommodating multiple sensors
+of data for model pre-training, thesize of historical envi- generating substantial data volumes, demanding the high-

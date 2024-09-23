@@ -1,0 +1,46 @@
+6
+within the uncertainties. However the model parameters differ significantly in other ways, and the
+ATMO2020++ model provides a superior fit as can be seen in Figure 1. Key differences are:
+• Metallicity:ThecolorsofWISE0359indicatethatitisatypicalfieldobject(Section4). Asolar
+metallicity would therefore be expected, as we find here, compared to the [m/H] = −0.3 dex
+determined by Beiler et al. (2023).
+• Surface Gravity: The ATMO2020++ model parameters of T = 450 K and log g = 4.5,
+eff
+together with evolutionary models (Marley et al. 2021), give an age and mass for WISE 0359
+of around 2.5 Gyr and 14 Jupiter masses. This compares to 20 Myr and 1 Jupiter mass for
+the lower gravity Beiler et al. (2023) Sonora model. The kinematic age of the local T dwarf
+populationisaround3.5Gyr(Hsuetal.2021), andsimulationsofthefieldsubstellarpopulation
+show a median age for a 450 K Y dwarf of around 6 Gyr (Kirkpatrick et al. 2021). Hence a
+value of log g = 4.5, with an associated age of a few Gyr, is more plausible than a value of log
+g = 3.5, with an associated age of a few Myr.
+• Opacities: The ATMO2020++ model (blue line) reproduces the spectral features seen in Figure
+1 better than the Sonora model (pink line, see the difference spectra in lower panel). In
+particular, the near-infrared peaks, the λ ≈ 5.0 µm region where opacities due to CO and H O
+2
+dominate(Leggettetal.2021,Figure10),andthestrongdoubleNH absorptionatλ ≈ 10.5µm
+3
+are better matched.
+Both the Sonora and ATMO models generate spectra with strong PH absorption features at
+3
+4.1 ≲ λ µm ≲ 4.3 (see e.g. Figure 10 of Leggett et al. 2021). This is a disequilibrium species,
+with PH expected to be the stable form of phosphorus in cool atmospheres (Visscher et al. 2006).
+3
+However the chemical pathways for phosphorus are more complex (Visscher et al. 2006; Wang et al.
+2016) and less certain (Bains et al. 2023). Although the feature is seen in the solar system giant
+planets, it may be that the different composition or gravity of the brown dwarf atmosphere results
+in phosphorus taking a different form. For this work we generated a small number of ATMO2020++
+model atmospheres with no phosphorus. Figure 1 shows that such a model better reproduces the
+4 µm flux peak for this Y0 brown dwarf. Removing this opacity does not significantly change the
+synthetic JWST F480M magnitude, but will brighten the Spitzer and WISE [4.5] and W2 magnitudes
+by ∼ 20%.
+4. THE FIRST JWST Y DWARF PHOTOMETRY
+JWST photometry has been published for three Y dwarf systems, at the time of writing. We
+discuss each system separately below. To facilitate comparison of these new data with previous
+ground-based near-infrared, Spitzer, and WISE observations, as well as future JWST observations,
+we have calculated color transformations for a selection of filters using our ATMO2020++ grid. The
+photometry is available at: 10.5281/zenodo.7931460. Appendix C presents color-color plots for the
+transformations, as well as polynomial fits for interpolation.
+We have used the transformations in Appendix C to convert existing data (from Leggett et al.
+2021) to the JWST F162M, F360M, and F480M systems. These filters were selected because the
+differences H− F162M, Spitzer [3.6] − F360M, and Spitzer [4.5] (or WISE W2) − F480M are small
+(see Appendix C), and therefore the transformation is less prone to error. Also, these filters are

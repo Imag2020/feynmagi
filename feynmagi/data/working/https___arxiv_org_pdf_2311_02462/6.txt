@@ -1,0 +1,80 @@
+LevelsofAGI
+(Liangetal., 2023), BIG-bench (Srivastavaetal., 2023)), 6.1.LevelsofAGIasaFrameworkforRiskAssessment
+we also envision the inclusion of open-ended and/or
+As we advance along our capability levels toward ASI,
+interactive tasks that might require qualitative evalua-
+newrisksareintroduced,includingmisuserisks,alignment
+tion (Papakyriakopoulosetal., 2021; Yangetal., 2023;
+risks, andstructuralrisks(Zwetsloot&Dafoe, 2019). For
+Bubecketal., 2023). We suspect that these latter classes
+example,the“ExpertAGI”levelislikelytoinvolvestruc-
+of complex, open-ended tasks, though difficult to bench-
+turalrisksrelatedtoeconomicdisruptionandjobdisplace-
+mark, will have better ecological validity than traditional
+ment, as more and more industries reach the substitution
+AImetrics,orthanadaptedtraditionalmeasuresofhuman
+threshold for machine intelligence in lieu of human labor.
+intelligence.
+Ontheotherhand,reaching“ExpertAGI”likelyalleviates
+It is impossible to enumerate the full set of tasks achiev- some risks introduced by “Emerging AGI” and “Compe-
+ablebyasufficientlygeneralintelligence.Assuch,anAGI tentAGI,”suchastheriskofincorrecttaskexecution.The
+benchmark should be a living benchmark. Such a bench- “VirtuosoAGI”and“ASI”levelsarewheremanyconcerns
+markshouldthereforeincludeaframeworkforgenerating relatingtox-riskaremostlikelytoemerge(e.g.,anAIthat
+andagreeinguponnewtasks. can outperform its human operators on a broad range of
+tasks might deceive them to achieve a mis-specified goal,
+DeterminingthatsomethingisnotanAGIatagivenlevel
+asinmisalignmentthoughtexperiments(Christian,2020)).
+simplyrequiresidentifyingtasksthatpeoplecantypically
+dobutthesystemcannotadequatelyperform.Systemsthat Systemic risks such as destabilization of international re-
+passthemajorityoftheenvisionedAGIbenchmarkatapar- lations may be a concern if the rate of progression be-
+ticularperformancelevel(“Emerging,”“Competent,”etc.), tween levels outpaces regulation or diplomacy (e.g., the
+includingnew tasks added by the testers, can be assumed firstnationtoachieveASImayhaveasubstantialgeopoliti-
+tohavethe associatedlevelofgeneralityforpracticalpur- cal/military advantage, creating complex structural risks).
+poses (i.e., though in theory there could still be a test the At levels below “Expert AGI” (e.g., “Emerging AGI,”
+AGIwouldfail,atsomepointunprobedfailuresaresospe- “Competent AGI,” and all “Narrow” AI categories), risks
+cializedoratypicalastobepracticallyirrelevant). Wehes- likelystemmorefromhumanactions(e.g.,risksofAImis-
+itate to specify the number or percentage of tasks that a use,whetheraccidental,incidental,ormalicious). Amore
+system mustpass ata givenlevelof performancein order completeanalysisofriskprofilesassociatedwitheachlevel
+tobedeclaredaGeneralAIatthatLevel(e.g.,arulesuch isacriticalsteptowarddevelopingataxonomyofAGIthat
+as“asystemmustpassatleast90%ofanAGIbenchmark canguidesafety/ethicsresearchandpolicymaking.
+atagivenperformanceleveltogetthatrating”). Whilewe
+WhetheranAGIbenchmarkshouldincludetestsforpoten-
+think this will be a very high percentage, it will probably
+tially dangerous capabilities (e.g., the ability to deceive,
+notbe100%,sinceitseemsclearthatbroadbutimperfect
+to persuade (Veerabadranetal., 2023), or to perform ad-
+generality is impactful (individual humans also lack con-
+vancedbiochemistry(Morris, 2023)) is controversial. We
+sistentperformanceacrossallpossibletasks,butaregener-
+lean on the side of including such capabilities in bench-
+ally intelligent). Determiningwhatportionofbenchmark-
+marking,sincemostsuchskillstendtobedualuse(having
+ingtasksatagivenleveldemonstrategeneralityremainsan
+valid applicationsto socially positive scenarios as well as
+openresearchquestion.
+nefarious ones). Dangerous capability benchmarking can
+bede-riskedviaPrinciple4(Potential,notDeployment)by
+6. Risk,Autonomy, andInteraction
+ensuring benchmarksfor any dangerousor dual-use tasks
+areappropriatelysandboxedandnotdefinedintermsofde-
+DiscussionsofAGIoftenincludediscussionofrisk,includ-
+ployment.However,includingsuchtestsinapublicbench-
+ing“x-risk”–existential(forAISafety,2023)orothervery
+markmayallowmaliciousactorstooptimizefortheseabil-
+extreme risks (Shevlaneetal., 2023). A leveled approach
+ities; understandinghow to mitigate risks associated with
+todefiningAGIenablesamorenuanceddiscussionofhow
+benchmarkingdual-useabilitiesremainsanimportantarea
+different combinations of performance and generality re-
+forresearchbyAIsafety,AIethics,andAIgovernanceex-
+late to different types of AI risk. While there is value in
+perts.
+consideringextremeriskscenarios,understandingAGIvia
+ourproposedontologyratherthanasasingleendpoint(per Concurrent with this work, Anthropic released Version
+Principle6)canhelpensurethatpolicymakersalsoidentify 1.0 of its Responsible Scaling Policy (RSP) (Anthropic,
+andprioritizerisksinthenear-termandonthepathtoAGI. 2023b). Thispolicyusesalevels-basedapproach(inspired
+bybiosafetylevels(Richmond&McKinney,2009))tode-
+fine the level of risk associated with an AI system, identi-
+fying whatdangerouscapabilitiesmay be associated with
+eachAI SafetyLevel(ASL),andwhatcontainmentor de-
+7

@@ -1,0 +1,17 @@
+component associated with fleet size, 𝐶 , is proportional to the value of time 𝜃; see the formula for
+𝑣ℎ
+𝜋 in Table 2 and its derivation in Appendix D. When 𝐶 is converted to hours by dividing by 𝜃
+𝑚 𝑣ℎ
+(see Eq. (11)), the impact of 𝜃 is mostly neutralized. In essence, since the relationship between the
+value of time and agency cost rates is factored into the model, the generalized cost, as well as the optimal
+system design, are only marginally influenced by city’s wealth level.
+Figs. 7c and d display the optimal stop spacings under the two scenarios. As expected, the stop
+spacing also decreases as the demand density increases and appears to be insensitive to the value of
+time. In both scenarios, the optimal stop spacing varies in a rather wide range, highlighting the need
+for heterogeneous stop spacing planning under the spatially heterogeneous demand.
+(a) A low-wage city with 𝜃=5 $/h (b) A high-wage city with 𝜃=20 $/h
+Fig. 6 Generalized cost versus bus capacity
+(a) Feeder line spacings (b) Feeder headways (collection direction)
+(c) Feeder stop spacings (km) in a low-wage city (d) Feeder stop spacings (km) in a high-wage city
+Fig. 7 Optimal design variables under the terminal-centered demand
+18

@@ -164,7 +164,7 @@ def llmchatgenerator(messages, temperature=0, stream=True, raw=True, image=None,
         raise Exception(f"API Error {response.status_code}: {response.text}")
     
 
-def llm(prompt,temperature=0):
+def llm(prompt,temperature=.7):
     
     if cfg.llm_connect == "openai" :
         print("calling open Ai llm")
@@ -181,6 +181,52 @@ def llm(prompt,temperature=0):
     return ret
 
 
+def llm2(messages, temperature=0.9, stream=False):
+
+    if cfg.llm_connect == "openai" :
+        
+        return  openai_llm([{"role": "user", "content": messages}])
+        
+        
+    if cfg.llm_connect == "groq":
+       
+        return groq_llm([{"role": "user", "content": messages}])
+        
+    headers = {
+        "Content-Type": "application/json",
+    }
+    data = {
+        "model": "gemma2:latest",
+        "messages": [
+    {
+      "role": "user",
+      "content": messages
+    }
+  ],
+        "stream" : False,
+        "options": {
+            "temperature": 0.9,
+            "max_token" : 1500
+          }
+    }
+    api_chat_endpoint="http://localhost:11434/api/chat"         
+    response = requests.post(api_chat_endpoint, headers=headers, data=json.dumps(data), stream=stream)
+    ret=""
+    if response.status_code == 200:
+        for line in response.iter_lines():
+            if line:
+                line = line.decode('utf-8').strip()
+                #print("stripped line=", line, "", "")
+                try:
+                    content = json.loads(line)["message"]["content"]
+                    ret+= content
+                except Exception as e:
+                    print(f"Impossible de décoder la ligne JSON : {line}, erreur: {e}")
+                    continue
+    else:
+        print(f"API Error {response.status_code}: {response.text}")
+        raise Exception(f"API Error {response.status_code}: {response.text}")
+    return ret
 
 
 EMBEDDING_ENDPOINT = "http://localhost:11434/api/embeddings"

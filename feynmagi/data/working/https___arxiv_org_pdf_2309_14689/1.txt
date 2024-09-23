@@ -1,0 +1,54 @@
+2
+V. Thoren75, W. H. Tian59, W. H. Tian52, Y. Tian32,63, Z. F. Tian76, I. Uman62B, S. J. Wang 50, B. Wang1,
+B. L. Wang63, Bo Wang71,58, C. W. Wang43, D. Y. Wang47,g, F. Wang72, H. J. Wang39,j,k, H. P. Wang1,63,
+J. P. Wang 50, K. Wang1,58, L. L. Wang1, M. Wang50, Meng Wang1,63, S. Wang13,f, S. Wang39,j,k, T. Wang13,f,
+T. J. Wang44, W. Wang72, W. Wang59, W. P. Wang71,58, X. Wang47,g, X. F. Wang39,j,k, X. J. Wang40,
+X. L. Wang13,f, Y. Wang61, Y. D. Wang46, Y. F. Wang1,58,63, Y. H. Wang48, Y. N. Wang46, Y. Q. Wang1,
+Yaqian Wang18,1, Yi Wang61, Z. Wang1,58, Z. L. Wang72, Z. Y. Wang1,63, Ziyi Wang63, D. Wei70, D. H. Wei15,
+F. Weidner68, S. P. Wen1, C. W. Wenzel4, U. Wiedner4, G. Wilkinson69, M. Wolke75, L. Wollenberg4, C. Wu40,
+J. F. Wu1,63, L. H. Wu1, L. J. Wu1,63, X. Wu13,f, X. H. Wu35, Y. Wu71, Y. H. Wu55, Y. J. Wu32, Z. Wu1,58,
+L. Xia71,58, X. M. Xian40, T. Xiang47,g, D. Xiao39,j,k, G. Y. Xiao43, S. Y. Xiao1, Y. L. Xiao13,f, Z. J. Xiao42,
+C. Xie43, X. H. Xie47,g, Y. Xie50, Y. G. Xie1,58, Y. H. Xie7, Z. P. Xie71,58, T. Y. Xing1,63, C. F. Xu1,63,
+C. J. Xu59, G. F. Xu1, H. Y. Xu66, Q. J. Xu17, Q. N. Xu31, W. Xu1,63, W. L. Xu66, X. P. Xu55, Y. C. Xu78,
+Z. P. Xu43, Z. S. Xu63, F. Yan13,f, L. Yan13,f, W. B. Yan71,58, W. C. Yan81, X. Q. Yan1, H. J. Yang51,e,
+H. L. Yang35, H. X. Yang1, Tao Yang1, Y. Yang13,f, Y. F. Yang44, Y. X. Yang1,63, Yifan Yang1,63, Z. W. Yang39,j,k,
+Z. P. Yao50, M. Ye1,58, M. H. Ye9, J. H. Yin1, Z. Y. You59, B. X. Yu1,58,63, C. X. Yu44, G. Yu1,63, J. S. Yu26,h,
+T. Yu72, X. D. Yu47,g, C. Z. Yuan1,63, L. Yuan2, S. C. Yuan1, X. Q. Yuan1, Y. Yuan1,63, Z. Y. Yuan59,
+C. X. Yue40, A. A. Zafar73, F. R. Zeng50, X. Zeng13,f, Y. Zeng26,h, Y. J. Zeng1,63, X. Y. Zhai35, Y. C. Zhai50,
+Y. H. Zhan59, A. Q. Zhang1,63, B. L. Zhang1,63, B. X. Zhang1, D. H. Zhang44, G. Y. Zhang20, H. Zhang71,
+H. C. Zhang1,58,63, H. H. Zhang59, H. H. Zhang35, H. Q. Zhang1,58,63, H. Y. Zhang1,58, J. Zhang81, J. J. Zhang52,
+J. L. Zhang21, J. Q. Zhang42, J. W. Zhang1,58,63, J. X. Zhang39,j,k, J. Y. Zhang1, J. Z. Zhang1,63, Jianyu Zhang63,
+Jiawei Zhang1,63, L. M. Zhang61, L. Q. Zhang59, Lei Zhang43, P. Zhang1,63, Q. Y. Zhang40,81, Shuihan Zhang1,63,
+Shulei Zhang26,h, X. D. Zhang46, X. M. Zhang1, X. Y. Zhang50, Xuyan Zhang55, Y. Zhang69, Y. Zhang72, Y.
+T. Zhang81, Y. H. Zhang1,58, Yan Zhang71,58, Yao Zhang1, Z. H. Zhang1, Z. L. Zhang35, Z. Y. Zhang44,
+Z. Y. Zhang76, G. Zhao1, J. Zhao40, J. Y. Zhao1,63, J. Z. Zhao1,58, Lei Zhao71,58, Ling Zhao1, M. G. Zhao44,
+S. J. Zhao81, Y. B. Zhao1,58, Y. X. Zhao32,63, Z. G. Zhao71,58, A. Zhemchugov37,a, B. Zheng72, J. P. Zheng1,58,
+W. J. Zheng1,63, Y. H. Zheng63, B. Zhong42, X. Zhong59, H. Zhou50, L. P. Zhou1,63, X. Zhou76, X. K. Zhou7,
+X. R. Zhou71,58, X. Y. Zhou40, Y. Z. Zhou13,f, J. Zhu44, K. Zhu1, K. J. Zhu1,58,63, L. Zhu35, L. X. Zhu63,
+S. H. Zhu70, S. Q. Zhu43, T. J. Zhu13,f, W. J. Zhu13,f, Y. C. Zhu71,58, Z. A. Zhu1,63, J. H. Zou1, J. Zu71,58
+(BESIII Collaboration)
+1 Institute of High Energy Physics, Beijing 100049, People’s Republic of China
+2 Beihang University, Beijing 100191, People’s Republic of China
+3 Beijing Institute of Petrochemical Technology, Beijing 102617, People’s Republic of China
+4 Bochum Ruhr-University, D-44780 Bochum, Germany
+5 Budker Institute of Nuclear Physics SB RAS (BINP), Novosibirsk 630090, Russia
+6 Carnegie Mellon University, Pittsburgh, Pennsylvania 15213, USA
+7 Central China Normal University, Wuhan 430079, People’s Republic of China
+8 Central South University, Changsha 410083, People’s Republic of China
+9 China Center of Advanced Science and Technology, Beijing 100190, People’s Republic of China
+10 China University of Geosciences, Wuhan 430074, People’s Republic of China
+11 Chung-Ang University, Seoul, 06974, Republic of Korea
+12 COMSATS University Islamabad, Lahore Campus, Defence Road, Off Raiwind Road, 54000 Lahore, Pakistan
+13 Fudan University, Shanghai 200433, People’s Republic of China
+14 GSI Helmholtzcentre for Heavy Ion Research GmbH, D-64291 Darmstadt, Germany
+15 Guangxi Normal University, Guilin 541004, People’s Republic of China
+16 Guangxi University, Nanning 530004, People’s Republic of China
+17 Hangzhou Normal University, Hangzhou 310036, People’s Republic of China
+18 Hebei University, Baoding 071002, People’s Republic of China
+19 Helmholtz Institute Mainz, Staudinger Weg 18, D-55099 Mainz, Germany
+20 Henan Normal University, Xinxiang 453007, People’s Republic of China
+21 Henan University, Kaifeng 475004, People’s Republic of China
+22 Henan University of Science and Technology, Luoyang 471003, People’s Republic of China
+23 Henan University of Technology, Zhengzhou 450001, People’s Republic of China
+24 Huangshan College, Huangshan 245000, People’s Republic of China
+25 Hunan Normal University, Changsha 410081, People’s Republic of China

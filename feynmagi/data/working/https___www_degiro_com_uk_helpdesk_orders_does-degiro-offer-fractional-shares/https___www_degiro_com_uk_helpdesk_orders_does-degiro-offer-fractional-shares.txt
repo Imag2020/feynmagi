@@ -1,0 +1,472 @@
+
+
+
+
+
+
+
+
+Does DEGIRO offer fractional shares? | DEGIRO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Powered by CookiebotConsentDetails[#IABV2SETTINGS#]AboutThis website uses cookiesWe use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. Consent SelectionNecessary Preferences Statistics Marketing Change cookie preferencesNecessary  151 Necessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the website. The website cannot function properly without these cookies.Google1Learn more about this providerSome of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness.test_cookieUsed to check if the user's browser supports cookies.Expiry: 1 dayType: HTTP CookieLinkedIn1Learn more about this providerli_gcStores the user's cookie consent state for the current domainExpiry: 180 daysType: HTTP Cookiedegiro.atdegiro.chdegiro.co.nodegiro.co.ukdegiro.comdegiro.czdegiro.dedegiro.dkdegiro.esdegiro.eudegiro.fidegiro.frdegiro.grdegiro.hudegiro.iedegiro.itdegiro.nldegiro.pldegiro.ptdegiro.se60d_campaign [x20]PendingExpiry: SessionType: HTTP Cookied_content [x20]PendingExpiry: SessionType: HTTP Cookied_source [x20]PendingExpiry: SessionType: HTTP Cookiedegiro.atdegiro.chdegiro.co.ukdegiro.comdegiro.czdegiro.dedegiro.dkdegiro.esdegiro.eudegiro.fidegiro.frwww.degiro.grdegiro.hudegiro.iedegiro.itwww.degiro.nldegiro.pldegiro.ptdegiro.se19d_medium [x19]PendingExpiry: SessionType: HTTP Cookieimg.sct.eu1.usercentrics.euimgsct.cookiebot.com21.gif [x2]Used to count the number of sessions to the website, necessary for optimizing CMP product delivery. Expiry: SessionType: Pixel Trackerregistration.degiro.nltrader.degiro.nl2AppboyServiceWorkerAsyncStorage#optOut [x2]Identifies if the visitor has deselected any cookies, trackers or other audience targeting tools.Expiry: PersistentType: IndexedDBwtk.infrontservices.com1JSESSIONIDPreserves users states across page requests.Expiry: SessionType: HTTP Cookiewww.degiro.chwww.degiro.co.ukwww.degiro.dewww.degiro.dkwww.degiro.eswww.degiro.fiwww.degiro.frwww.degiro.grwww.degiro.iewww.degiro.itwww.degiro.nlwww.degiro.plwww.degiro.ptwww.degiro.se14d_term [x14]PendingExpiry: SessionType: HTTP Cookiewww.degiro.chwww.degiro.comwww.degiro.czwww.degiro.dewww.degiro.dkwww.degiro.escookiebot.comwww.degiro.fiwww.degiro.frwww.degiro.grwww.degiro.iewww.degiro.itwww.degiro.nlwww.degiro.plwww.degiro.ptwww.degiro.seregistration.degiro.nltrader.degiro.nl37CookieConsent [x37]Stores the user's cookie consent state for the current domainExpiry: 1 yearType: HTTP Cookiewww.degiro.chwww.degiro.czwww.degiro.dewww.degiro.dkwww.degiro.eswww.degiro.fiwww.degiro.frwww.degiro.grwww.degiro.iewww.degiro.itwww.degiro.nlwww.degiro.plwww.degiro.ptwww.degiro.se14M1R4X [x14]Control cookie used in connection to the website’s Content Delivery Network (CDN).Expiry: SessionType: HTTP CookiePreferences  68 Preference cookies enable a website to remember information that changes the way the website behaves or looks, like your preferred language or the region that you are in.Company Webcast2Learn more about this provider#-#-#-#-#.progressPendingExpiry: PersistentType: HTML Local StorageremembermePendingExpiry: PersistentType: HTML Local StorageCookiebot1Learn more about this providerCookieConsentBulkSetting-#Enables cookie consent across multiple websitesExpiry: PersistentType: HTML Local StorageLinkedIn3Learn more about this providerbscookie [x2]Used by the social networking service, LinkedIn, for tracking the use of embedded services.Expiry: 1 yearType: HTTP CookielidcRegisters which server-cluster is serving the visitor. This is used in context with load balancing, in order to optimize user experience.  Expiry: 1 dayType: HTTP CookieReddit1Learn more about this providerrp.gifNecessary for the implementation of the Reddit.com's share-button function.Expiry: SessionType: Pixel Trackersc-static.net19_screload [x19]Used by Snapchat to implement advertisement content on the website - The cookie detects the efficiency of the ads and collects visitor data for further visitor segmentation.Expiry: SessionType: HTTP Cookiewtk.infrontservices.com1com.goinfront.wtk.statePendingExpiry: PersistentType: HTML Local Storagewww.degiro.chwww.degiro.co.ukwww.degiro.czwww.degiro.dewww.degiro.dkwww.degiro.eswww.degiro.frwww.degiro.grwww.degiro.iewww.degiro.itwww.degiro.nlwww.degiro.plwww.degiro.ptwww.degiro.se14current-lesson [x14]PendingExpiry: 1 dayType: HTTP Cookiewww.degiro.dewww.degiro.iewww.degiro.nlwww.degiro.chwww.degiro.eswww.degiro.frwww.degiro.grwww.degiro.itwww.degiro.pt27cookie-disclaimerFinancingCost [x9]PendingExpiry: SessionType: HTTP Cookiecookie-disclaimerStampDuty [x9]PendingExpiry: SessionType: HTTP Cookiecookie-disclaimerTransactionCosts [x9]PendingExpiry: SessionType: HTTP CookieStatistics  178 Statistic cookies help website owners to understand how visitors interact with websites by collecting and reporting information anonymously.Company Webcast6Learn more about this providerfingerprintUsed to detect and log potential tracking errors.Expiry: PersistentType: HTML Local StorageflatexdegiroesPendingExpiry: PersistentType: HTML Local StorageflatexdegirofrPendingExpiry: PersistentType: HTML Local StorageflatexdegiroitPendingExpiry: PersistentType: HTML Local StorageflatexdegironlPendingExpiry: PersistentType: HTML Local StorageflatexdegiroptPendingExpiry: PersistentType: HTML Local StorageGoogle49Learn more about this providerSome of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness._ga [x21]Registers a unique ID that is used to generate statistical data on how the visitor uses the website.Expiry: 2 yearsType: HTTP Cookie_ga_# [x21]Used by Google Analytics to collect data on the number of times a user has visited the website as well as dates for the first and most recent visit. Expiry: 2 yearsType: HTTP Cookie_gat [x2]Used by Google Analytics to throttle request rateExpiry: 1 dayType: HTTP Cookie_gid [x2]Registers a unique ID that is used to generate statistical data on how the visitor uses the website.Expiry: 1 dayType: HTTP CookiecollectUsed to send data to Google Analytics about the visitor's device and behavior. Tracks the visitor across devices and marketing channels.Expiry: SessionType: Pixel TrackergtmBrowserIdThis cookie is used to determine if the visitor has visited the website before, or if it is a new visitor on the website.Expiry: PersistentType: HTML Local StoragetdRegisters statistical data on users' behaviour on the website. Used for internal analytics by the website operator. Expiry: SessionType: Pixel TrackerHotjar12Learn more about this provider_hjTLDTest [x3]Registers statistical data on users' behaviour on the website. Used for internal analytics by the website operator. Expiry: SessionType: HTTP Cookie_hjSession_# [x2]Collects statistics on the visitor's visits to the website, such as the number of visits, average time spent on the website and what pages have been read.Expiry: 1 dayType: HTTP Cookie_hjSessionUser_# [x2]Collects statistics on the visitor's visits to the website, such as the number of visits, average time spent on the website and what pages have been read.Expiry: 1 yearType: HTTP Cookie_hjAbsoluteSessionInProgressThis cookie is used to count how many times a website has been visited by different visitors - this is done by assigning the visitor an ID, so the visitor does not get registered twice.Expiry: SessionType: HTTP Cookie_hjFirstSeenThis cookie is used to determine if the visitor has visited the website before, or if it is a new visitor on the website.Expiry: SessionType: HTTP Cookie_hjIncludedInSessionSample_#Collects statistics on the visitor's visits to the website, such as the number of visits, average time spent on the website and what pages have been read.Expiry: SessionType: HTTP CookiehjActiveViewportIdsThis cookie contains an ID string on the current session. This contains non-personal information on what subpages the visitor enters – this information is used to optimize the visitor's experience.Expiry: PersistentType: HTML Local StoragehjViewportIdSaves the user's screen size in order to adjust the size of images on the website.Expiry: SessionType: HTML Local StorageLinkedIn2Learn more about this providerln_orRegisters statistical data on users' behaviour on the website. Used for internal analytics by the website operator. Expiry: 2 daysType: HTTP CookieAnalyticsSyncHistoryUsed in connection with data-synchronization with third-party analysis service. Expiry: 30 daysType: HTTP CookieMicrosoft24Learn more about this providerc.gifCollects data on the user’s navigation and behavior on the website. This is used to compile statistical reports and heatmaps for the website owner.Expiry: SessionType: Pixel Tracker_clck [x11]Collects data on the user’s navigation and behavior on the website. This is used to compile statistical reports and heatmaps for the website owner.Expiry: 1 yearType: HTTP Cookie_clsk [x10]Registers statistical data on users' behaviour on the website. Used for internal analytics by the website operator. Expiry: 1 dayType: HTTP Cookie_cltkRegisters statistical data on users' behaviour on the website. Used for internal analytics by the website operator. Expiry: SessionType: HTML Local StorageCLIDCollects data on the user’s navigation and behavior on the website. This is used to compile statistical reports and heatmaps for the website owner.Expiry: 1 yearType: HTTP CookieOmnyStudio1Learn more about this providersentryReplaySessionRegisters data on visitors' website-behaviour. This is used for internal analysis and website optimization. Expiry: SessionType: HTML Local StorageVWO2Learn more about this providereu01/v.gifThis cookie is used by the website’s operator in context with multi-variate testing. This is a tool used to combine or change content on the website. This allows the website to find the best variation/edition of the site. Expiry: SessionType: Pixel Trackervwo_apm_sentPendingExpiry: PersistentType: HTML Local Storagedegiro.atdegiro.chdegiro.co.nodegiro.co.ukdegiro.comdegiro.czdegiro.dedegiro.dkdegiro.esdegiro.fidegiro.frdegiro.grdegiro.hudegiro.iedegiro.itdegiro.nldegiro.pldegiro.ptdegiro.se38FPID [x19]Registers statistical data on users' behaviour on the website. Used for internal analytics by the website operator. Expiry: 400 daysType: HTTP CookieFPLC [x19]Registers a unique ID that is used to generate statistical data on how the visitor uses the website.Expiry: 1 dayType: HTTP Cookiedegiro.chdegiro.co.ukdegiro.dedegiro.esdegiro.iedegiro.itdegiro.nl7FPAU [x7]Assigns a specific ID to the visitor. This allows the website to determine the number of specific user-visits for analysis and statistics.Expiry: 3 monthsType: HTTP Cookiedegiro.co.nodegiro.hudegiro.nl3_vwo_uuid_v2 [x3]This cookie is set to make split-tests on the website, which optimizes the website's relevance towards the visitor – the cookie can also be set to improve the visitor's experience on a website.Expiry: 1 yearType: HTTP Cookiedegiro.nl1ab._gdAssigns a specific ID to the visitor. This allows the website to determine the number of specific user-visits for analysis and statistics.Expiry: SessionType: HTTP Cookieregistration.degiro.nltrader.degiro.nl14AppboyServiceWorkerAsyncStorage#cardUpdates [x2]Collects data on the user’s navigation and behavior on the website. This is used to compile statistical reports and heatmaps for the website owner.Expiry: PersistentType: IndexedDBAppboyServiceWorkerAsyncStorage#data [x2]Collects data on the user’s navigation and behavior on the website. This is used to compile statistical reports and heatmaps for the website owner.Expiry: PersistentType: IndexedDBAppboyServiceWorkerAsyncStorage#fallbackDevice [x2]Collects data on the user’s navigation and behavior on the website. This is used to compile statistical reports and heatmaps for the website owner.Expiry: PersistentType: IndexedDBAppboyServiceWorkerAsyncStorage#pendingData [x2]Collects data on the user’s navigation and behavior on the website. This is used to compile statistical reports and heatmaps for the website owner.Expiry: PersistentType: IndexedDBAppboyServiceWorkerAsyncStorage#pushClicks [x2]Detects how many times a user has visited the website in order to determine whether an on-page notification should be displayed.Expiry: PersistentType: IndexedDBAppboyServiceWorkerAsyncStorage#pushSubscribed [x2]Collects data on the user’s navigation and behavior on the website. This is used to compile statistical reports and heatmaps for the website owner.Expiry: PersistentType: IndexedDBAppboyServiceWorkerAsyncStorage#sdkAuthenticationSignature [x2]Collects data on the user’s navigation and behavior on the website. This is used to compile statistical reports and heatmaps for the website owner.Expiry: PersistentType: IndexedDBsc-static.net3u_scsid [x2]Registers data on visitors' website-behaviour. This is used for internal analysis and website optimization. Expiry: SessionType: HTML Local StorageX-ABThis cookie is used by the website’s operator in context with multi-variate testing. This is a tool used to combine or change content on the website. This allows the website to find the best variation/edition of the site. Expiry: 1 dayType: HTTP Cookiewww.degiro.chwww.degiro.co.ukwww.degiro.comwww.degiro.czwww.degiro.dewww.degiro.dkwww.degiro.eswww.degiro.fiwww.degiro.frwww.degiro.grwww.degiro.iewww.degiro.itwww.degiro.nlwww.degiro.plwww.degiro.ptwww.degiro.se16__utmz [x16]Collects data on where the user came from, what search engine was used, what link was clicked and what search term was used. Used by Google Analytics.Expiry: 180 daysType: HTTP CookieMarketing  278 Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third party advertisers. Meta Platforms, Inc.23Learn more about this provider_fbp [x21]Used by Facebook to deliver a series of advertisement products such as real time bidding from third party advertisers.Expiry: 3 monthsType: HTTP CookielastExternalReferrerDetects how the user reached the website by registering their last URL-address.Expiry: PersistentType: HTML Local StoragelastExternalReferrerTimeDetects how the user reached the website by registering their last URL-address.Expiry: PersistentType: HTML Local StorageGoogle24Learn more about this providerSome of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness._gcl_au [x19]Used by Google AdSense for experimenting with advertisement efficiency across websites using their services.  Expiry: 3 monthsType: HTTP CookieIDEUsed by Google DoubleClick to register and report the website user's actions after viewing or clicking one of the advertiser's ads with the purpose of measuring the efficacy of an ad and to present targeted ads to the user.Expiry: 400 daysType: HTTP Cookiepagead/landingCollects data on visitor behaviour from multiple websites, in order to present more relevant advertisement - This also allows the website to limit the number of times that they are shown the same advertisement. Expiry: SessionType: Pixel Trackerads/ga-audiencesUsed by Google AdWords to re-engage visitors that are likely to convert to customers based on the visitor's online behaviour across websites.Expiry: SessionType: Pixel TrackerNIDRegisters a unique ID that identifies a returning user's device. The ID is used for targeted ads.Expiry: 6 monthsType: HTTP Cookiepagead/1p-user-list/#Tracks if the user has shown interest in specific products or events across multiple websites and detects how the user navigates between sites. This is used for measurement of advertisement efforts and facilitates payment of referral-fees between websites.Expiry: SessionType: Pixel TrackerLinkedIn4Learn more about this providerbcookieUsed by the social networking service, LinkedIn, for tracking the use of embedded services.Expiry: 1 yearType: HTTP Cookieli_sugrCollects data on user behaviour and interaction in order to optimize the website and make advertisement on the website more relevant. Expiry: 3 monthsType: HTTP CookieUserMatchHistoryUsed to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences.  Expiry: 30 daysType: HTTP Cookieli_adsIdPendingExpiry: PersistentType: HTML Local StorageMeta Platforms, Inc.1Learn more about this providerfrUsed by Facebook to deliver a series of advertisement products such as real time bidding from third party advertisers.Expiry: 3 monthsType: HTTP CookieMicrosoft57Learn more about this provider_uetsid [x2]Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences. Expiry: PersistentType: HTML Local Storage_uetsid_exp [x2]Contains the expiry-date for the cookie with corresponding name. Expiry: PersistentType: HTML Local Storage_uetvid [x2]Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences. Expiry: PersistentType: HTML Local Storage_uetvid_exp [x2]Contains the expiry-date for the cookie with corresponding name. Expiry: PersistentType: HTML Local StorageMR [x2]Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences. Expiry: 7 daysType: HTTP CookieMSPTCThis cookie registers data on the visitor. The information is used to optimize advertisement relevance. Expiry: 1 yearType: HTTP CookieMUID [x2]Used widely by Microsoft as a unique user ID. The cookie enables user tracking by synchronising the ID across many Microsoft domains.Expiry: 1 yearType: HTTP CookieSRM_BTracks the user’s interaction with the website’s search-bar-function. This data can be used to present the user with relevant products or services.     Expiry: 1 yearType: HTTP CookieANONCHKRegisters data on visitors from multiple visits and on multiple websites. This information is used to measure the efficiency of advertisement on websites.  Expiry: 1 dayType: HTTP CookieSMRegisters a unique ID that identifies the user's device during return visits across websites that use the same ad network. The ID is used to allow targeted ads.Expiry: SessionType: HTTP Cookie_uetsid [x21]Collects data on visitor behaviour from multiple websites, in order to present more relevant advertisement - This also allows the website to limit the number of times that they are shown the same advertisement. Expiry: 1 dayType: HTTP Cookie_uetvid [x20]Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences. Expiry: SessionType: HTTP CookieReddit41Learn more about this provider_rdt_uuid [x41]Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences. Expiry: 3 monthsType: HTTP CookieSnap Inc.2Learn more about this providersc_atUsed by Snapchat to implement advertisement content on the website - The cookie detects the efficiency of the ads and collects visitor data for further visitor segmentation.Expiry: 1 yearType: HTTP CookiepUsed to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences. Expiry: SessionType: Pixel TrackerTwitter Inc.7Learn more about this provider1/i/adsct [x2]Collects data on user behaviour and interaction in order to optimize the website and make advertisement on the website more relevant. Expiry: SessionType: Pixel Trackermuc_adsCollects data on user behaviour and interaction in order to optimize the website and make advertisement on the website more relevant. Expiry: 400 daysType: HTTP Cookieguest_idCollects data related to the user's visits to the website, such as the number of visits, average time spent on the website and which pages have been loaded, with the purpose of personalising and improving the Twitter service.Expiry: 400 daysType: HTTP Cookieguest_id_adsCollects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Expiry: 400 daysType: HTTP Cookieguest_id_marketingCollects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Expiry: 400 daysType: HTTP Cookiepersonalization_idThis cookie is set by Twitter - The cookie allows the visitor to share content from the website onto their Twitter profile. Expiry: 400 daysType: HTTP CookieYouTube34Learn more about this provider#-#PendingExpiry: SessionType: HTML Local Storage-4ca4a366-86936PendingExpiry: SessionType: HTML Local Storage4e5c0c37-8babc0PendingExpiry: SessionType: HTML Local Storage-560736ba-420960PendingExpiry: SessionType: HTML Local Storage5b5fc1f6f430PendingExpiry: SessionType: HTML Local Storage5b5fc-327ff84dPendingExpiry: SessionType: HTML Local Storage-807571-317ab0b7PendingExpiry: SessionType: HTML Local Storagec8e8d5-5f4f2bc6PendingExpiry: SessionType: HTML Local Storagecd245e-5470bc78PendingExpiry: SessionType: HTML Local Storaged7307a-23ede745PendingExpiry: SessionType: HTML Local Storagedf4043-1cb3f918PendingExpiry: SessionType: HTML Local Storagef562b9-4cdb83ebPendingExpiry: SessionType: HTML Local Storagef562b9-5e587d6aPendingExpiry: SessionType: HTML Local StorageiU5q-!O9@$Registers a unique ID to keep statistics of what videos from YouTube the user has seen.Expiry: SessionType: HTML Local StorageLAST_RESULT_ENTRY_KEYUsed to track user’s interaction with embedded content.Expiry: SessionType: HTTP CookieLogsDatabaseV2:V#||LogsRequestsStorePendingExpiry: PersistentType: IndexedDBnextIdUsed to track user’s interaction with embedded content.Expiry: SessionType: HTTP Cookieremote_sidNecessary for the implementation and functionality of YouTube video-content on the website.  Expiry: SessionType: HTTP CookierequestsUsed to track user’s interaction with embedded content.Expiry: SessionType: HTTP CookieServiceWorkerLogsDatabase#SWHealthLogNecessary for the implementation and functionality of YouTube video-content on the website.  Expiry: PersistentType: IndexedDBTESTCOOKIESENABLEDUsed to track user’s interaction with embedded content.Expiry: 1 dayType: HTTP CookieVISITOR_INFO1_LIVETries to estimate the users' bandwidth on pages with integrated YouTube videos.Expiry: 180 daysType: HTTP CookieVISITOR_PRIVACY_METADATAStores the user's cookie consent state for the current domainExpiry: 180 daysType: HTTP CookieYSCRegisters a unique ID to keep statistics of what videos from YouTube the user has seen.Expiry: SessionType: HTTP Cookieyt.innertube::nextIdRegisters a unique ID to keep statistics of what videos from YouTube the user has seen.Expiry: PersistentType: HTML Local Storageytidb::LAST_RESULT_ENTRY_KEYStores the user's video player preferences using embedded YouTube videoExpiry: PersistentType: HTML Local StorageYtIdbMeta#databasesUsed to track user’s interaction with embedded content.Expiry: PersistentType: IndexedDByt-remote-cast-availableStores the user's video player preferences using embedded YouTube videoExpiry: SessionType: HTML Local Storageyt-remote-cast-installedStores the user's video player preferences using embedded YouTube videoExpiry: SessionType: HTML Local Storageyt-remote-connected-devicesStores the user's video player preferences using embedded YouTube videoExpiry: PersistentType: HTML Local Storageyt-remote-device-idStores the user's video player preferences using embedded YouTube videoExpiry: PersistentType: HTML Local Storageyt-remote-fast-check-periodStores the user's video player preferences using embedded YouTube videoExpiry: SessionType: HTML Local Storageyt-remote-session-appStores the user's video player preferences using embedded YouTube videoExpiry: SessionType: HTML Local Storageyt-remote-session-nameStores the user's video player preferences using embedded YouTube videoExpiry: SessionType: HTML Local Storagedegiro.nl2ab.storage.deviceId.#-#-#-#-#Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Expiry: 400 daysType: HTTP Cookieab.storage.sessionId.#-#-#-#-#Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Expiry: 400 daysType: HTTP Cookieregistration.degiro.nltrader.degiro.nl18ab.storage.device.#-#-#-#-# [x2]Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Expiry: PersistentType: HTML Local Storageab.storage.deviceId.#-#-#-#-# [x2]Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Expiry: PersistentType: HTML Local Storageab.storage.messagingSessionStart.#-#-#-#-# [x2]Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Expiry: PersistentType: HTML Local Storageab.storage.sdk_metadata.48ef29a6-8098-447b-84fd-73dcf7ca322a [x2]PendingExpiry: PersistentType: HTML Local Storageab.storage.serverConfig.#-#-#-#-# [x2]Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Expiry: PersistentType: HTML Local Storageab.storage.session_id_for_cached_metadata.48ef29a6-8098-447b-84fd-73dcf7ca322a [x2]PendingExpiry: PersistentType: HTML Local Storageab.storage.sessionId.#-#-#-#-# [x2]Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Expiry: PersistentType: HTML Local Storageab.storage.triggers.#-#-#-#-# [x2]Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Expiry: PersistentType: HTML Local Storageab.storage.triggers.ts.#-#-#-#-# [x2]Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Expiry: PersistentType: HTML Local Storagesc-static.net65_schn1 [x19]Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.Expiry: 1 dayType: HTTP Cookie_scid [x19]Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.Expiry: 13 monthsType: HTTP Cookie_scid_r [x19]Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.Expiry: 13 monthsType: HTTP Cookie_schn2 [x2]Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.Expiry: 1 dayType: HTTP Cookieu_sclid [x2]Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.Expiry: PersistentType: HTML Local Storageu_sclid_r [x2]PendingExpiry: PersistentType: HTML Local Storageu_scsid_r [x2]PendingExpiry: SessionType: HTML Local StorageUnclassified  0Unclassified cookies are cookies that we are in the process of classifying, together with the providers of individual cookies.We do not use cookies of this type.Cross-domain consent22 Your consent applies to the following domains:List of domains your consent applies to: registration.degiro.nl trader.degiro.nl degiro.com degiro.co.uk degiro.de degiro.fr degiro.es degiro.pt degiro.gr degiro.pl degiro.it degiro.cz degiro.hu degiro.dk degiro.fi degiro.co.no degiro.se degiro.ch degiro.at degiro.eu degiro.ie degiro.nlCookie declaration last updated on 7/23/24 by Cookiebot[#IABV2_TITLE#][#IABV2_BODY_INTRO#][#IABV2_BODY_LEGITIMATE_INTEREST_INTRO#][#IABV2_BODY_PREFERENCE_INTRO#][#IABV2_LABEL_PURPOSES#][#IABV2_BODY_PURPOSES_INTRO#][#IABV2_BODY_PURPOSES#][#IABV2_LABEL_FEATURES#][#IABV2_BODY_FEATURES_INTRO#][#IABV2_BODY_FEATURES#][#IABV2_LABEL_PARTNERS#][#IABV2_BODY_PARTNERS_INTRO#][#IABV2_BODY_PARTNERS#]Cookies are small text files that can be used by websites to make a user's experience more efficient.The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies we need your permission.This site uses different types of cookies. Some cookies are placed by third party services that appear on our pages.You can at any time change or withdraw your consent from the Cookie Declaration on our website.Learn more about who we are, how you can contact us and how we process personal data in our Privacy Policy. Do not sell or share my personal informationUse necessary cookies only Allow selection Customise Accept allPowered by Cookiebot by Usercentrics
+
+      Skip to main content
+    
+
+
+
+
+
+
+
+
+
+
+
+Back to degiro.com/uk
+
+
+
+
+
+Login
+
+
+Open an account
+
+
+
+
+
+
+
+
+How can we help you?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Orders
+
+
+Does DEGIRO offer fractional shares?
+
+
+
+
+
+
+Answer
+
+ 
+We do not offer trading in fractional shares on our platform. We only facilitate trading in whole shares.
+
+
+
+
+
+
+
+
+Has your question been answered?
+
+
+
+
+
+
+Select one
+
+
+
+
+Not helpful
+
+
+
+Not relevant
+
+
+
+Outdated
+
+
+
+Translation is bad
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Related Questions
+
+What are the different order types?
+What is the difference between a limit order and a market order?
+What is the difference between a stop loss order and a stop limit order?
+Why do some products not have the option to place certain order types?
+What is the order duration?
+
+
+
+
+
+
+
+Investing involves risks.
+..
+
+
+
+
+
+
+
+
+              FAQ Software by 10+
+            
+
+
+
+
+
+
+
+
+Navigation
+Popular Questions
+
+About DEGIRO
+All in About DEGIRO
+
+Safeguarded
+
+
+History of DEGIRO
+
+
+
+
+Account and Personal Details
+All in Account and Personal Details
+
+Access to your DEGIRO Account
+
+
+Profiles
+
+
+Your Personal Details
+
+
+
+
+Become a Client
+All in Become a Client
+
+Registering a DEGIRO Account
+
+
+
+
+Fees
+All in Fees
+
+Trading Fees
+
+
+Other Costs
+
+
+
+
+Money Transfers and Handling
+All in Money Transfers and Handling
+
+Currency Conversion
+
+
+Deposits and Withdrawals
+
+
+Trading on Margin
+
+
+
+
+Orders
+All in Orders
+
+Execution Policy
+
+
+Order Issues
+
+
+Order Types
+
+
+Placing an Order
+
+
+
+
+Trading Platform
+All in Trading Platform
+
+Trade Confirmations
+
+
+Using the Trading Platform
+
+
+Price Feeds
+
+
+My Portfolio
+
+
+
+
+Trading Possibilities
+All in Trading Possibilities
+
+Derivatives
+
+
+Portfolio Transfers
+
+
+Products and Markets
+
+
+Short Selling
+
+
+Corporate Actions
+
+
+
+
+Tax
+All in Tax
+
+Tax Treaties
+
+
+Tax Residency
+
+
+Transaction Tax
+
+
+Withholding Tax
+
+
+
+
+Documents
+All in Documents
+
+Risk Model
+
+
+Promotional
+
+
+Fee Schedule
+
+
+Fundshare Cash Funds
+
+
+Previous Documents
+
+
+References
+
+
+Investment Services Information
+
+
+Morgan Stanley Liquidity Funds
+
+
+Portfolio Transfer Forms
+
+
+Terms and Conditions
+
+
+Trading and Exchanges
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Login
+
+
+Open an account
+
+
+
+
+
+
+
+
+Back to degiro.com/uk
+
+
+DEGIRO is the first wholesale broker for private investors. An online investment platform for all types of investors. DEGIRO enables its customers to invest worldwide at unprecedented low rates. DEGIRO is investing globally for everyone. Previously, investing was often limited to stock exchanges in Europe or the United States. Through one platform, all DEGIRO investors gain access to products and markets worldwide. This means that private investors can spread their investments much better. DEGIRO fits perfectly with the investor who manages his business online. For us, customers do not pay for the salary of unnecessary staff. DEGIRO takes away the last difference between professional and private investors; the fees. Essential for the return of private investors.
+
+Copyright © 2024 DEGIRO All right reserved
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Back to top

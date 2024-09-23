@@ -1,0 +1,39 @@
+14
+FIG.7. ThisfigureshowcasesthenumericaloutcomesofTr{ρ2}andTr{ρ3}calculatedusingtheGSTmethodwhileaccounting
+fornoise. Subfigure(a)presentsthenumericalresultsforTr{ρ2},andsubfigure(b)illustratesthenumericalresultsforTr{ρ3}.
+The black lines denote the results obtained after the addition of random numbers, while the red lines represent the results
+before the introduction of random gates.
+Derivedfromthedatadepictedintheprovidedgraph, weareabletodistinctlydiscerntherepercussionsstemming
+from the introduction or absence of noise. When noise is absent, the output data from the quantum circuit manifests
+as consistently stable and precise. Nonetheless, the scenario takes a discernible turn upon the infusion of noise. The
+introductionofnoiseprecipitatesvolatilityinthequantumcircuit’soutcomes,potentiallyculminatinginerrors. Noise
+canengenderanunreliableexchangeofinformationamidstquantumbits,therebyinjectingsubstantialambiguityinto
+thecomputationalprocess. Thesesourcesofnoisemightencompassphenomenasuchasdephasing,errorsinquantum
+gate operations, imprecisions in measurements, or other external disturbances.
+Inreal-worldscenarios,noisepresentsasignificanthurdlefortheadvancementofquantumcomputingandquantum
+information processing. To counteract the disruptive influence of noise, researchers are tirelessly engaged in refining
+quantum error correction and noise suppression techniques. The primary goal of these approaches is to bolster the
+resilience of quantum circuits and heighten the precision of outcomes, ultimately striving for a more dependable
+realm of quantum computing.Furthermore, the ramifications of noise can exhibit variability across diverse quantum
+algorithms and tasks. As a result, practical applications necessitate a thorough assessment of algorithm robustness
+alongside the prevailing noise levels. Achieving equilibrium between these considerations is crucial in determining the
+most optimal course of action.
+Appendix C: Subspace dimension
+In this section, we study the dimensions of the invariant subspaces corresponding to nonlinear functions of dif-
+ferent types of density matrices. Let’s start with the simplest case, Tr{ρm}. In our algorithm, we decompose
+the computation of Tr{ρm} into the computation of Tr{G G ...G }, for k = 0,1,...,m. It is obvious that
+q1 q2 qk
+span(|ψ ⟩,|ψ ⟩,...,|ψ ⟩) forms a non-trivial invariant subspace of G G ...G . Therefore, the largest non-
+q1 q2 qk q1 q2 qk
+trivial invariant subspace involved in the calculation of Tr{ρm} is m-dimensional.
+A more general nonlinear function is Tr{P ρ P ρ ...P ρ }. We can rewrite this function as Tr{P′ρ′ρ′ ...ρ′ },
+1 1 2 2 m m 1 2 m
+where ρ′ = (Πi P )ρ (Πi P )† and P′ = Πi P . Remark that although ρ′ ̸= ρ′ ̸= ... ̸= ρ′ , the algorithms
+i l=1 l n l=1 l l=1 l 1 2 m
+we proposed in this paper can also be used. During the calculation, we need to calculate Tr{P′G G ...G }, for
+q1 q2 qk
+k =0,1...,m, where P′ is a Pauli operator. Note that G acts on |ψ⟩ to get a superposition of |ψ ⟩ and |ψ⟩. Thus
+qi qi
+the non-trivial invariant subspace corresponding to PG G ...G is span(|ψ ⟩,...,|ψ ⟩,P|ψ ⟩,...,P|ψ ⟩), of
+q1 q2 qk q1 qm q1 qm
+which the largest possible dimension is 2m dimensions.

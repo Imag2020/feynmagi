@@ -1,0 +1,50 @@
+24 Front. Comput. Sci.,2024,0(0): 1–42
+haveshownstrongcapabilitiesonlanguageunder- Natural ScienceEducation: LLM-based agents
+standing and employing tools such as the internet cancommunicatewithhumansfluently,oftenbeing
+and databases for text processing. These capabili- utilizedtodevelopagent-basededucationaltools[115,
+ties empower the agent to excel in tasks related to 117–119]. Forexample,[115]developsagent-based
+documentationanddatamanagement[75,115,116]. educationsystems tofacilitatestudents learningof
+In [115], the agent can efficiently query and uti- experimentaldesign,methodologies,andanalysis.
+lize internet information to complete tasks such The objective of these systems is to enhance stu-
+as question answering and experiment planning. dents’ criticalthinking and problem-solving skills,
+ChatMOF [116] utilizes LLMs to extract impor- whilealsofosteringadeepercomprehensionofsci-
+tant information from text descriptions written by entific principles. Math Agents [117] can assist
+humans. Itthenformulatesaplantoapplyrelevant researchers in exploring, discovering, solving and
+tools forpredicting theproperties and structuresof proving mathematical problems. Additionally, it
+metal-organicframeworks. ChemCrow[75]utilizes can communicate with humans and aids them in
+chemistry-relateddatabasestobothvalidatethepre- understanding and using mathematics. [118] uti-
+cision of compound representations and identify lize the capabilities of CodeX [119] to automati-
+potentiallydangeroussubstances. Thisfunctional- cally solve andexplain university-level mathemati-
+ityenhancesthereliabilityandcomprehensiveness cal problems, which can be used as education tools
+of scientific inquiries by ensuring the accuracy of toteachstudentsandresearchers. CodeHelp[120]
+thedatainvolved. is an education agent for programming. It offers
+manyusefulfeatures,suchassettingcourse-specific
+ExperimentAssistant: LLM-basedagentshave
+keywords,monitoringstudentqueries,andprovid-
+the ability to independently conduct experiments,
+ing feedback to the system. EduChat [86] is an
+making them valuable tools for supporting scien-
+LLM-based agent designed specifically for the edu-
+tistsintheirresearchprojects[75,115]. Forinstance,
+cationdomain. Itprovidespersonalized,equitable,
+[115]introducesaninnovativeagentsystemthatuti-
+andempatheticeducationalsupporttoteachers,stu-
+lizesLLMsforautomatingthedesign,planning,and
+dents,andparentsthroughdialogue. FreeText[121]
+execution of scientific experiments. This system,
+is an agent that utilizes LLMs to automatically as-
+whenprovidedwiththeexperimentalobjectivesas
+sess students’ responses to open-ended questions
+input, accesses the Internet and retrieves relevant
+andofferfeedback.
+documents to gather the necessary information. It
+subsequentlyutilizesPythoncodetoconductessen-
+3.3 Engineering
+tialcalculationsandcarryoutthefollowingexper-
+iments. ChemCrow[75]incorporates17carefully LLM-based autonomous agents have shown great
+developedtoolsthatarespecificallydesignedtoas- potential in assisting and enhancing engineering
+sistresearchersintheirchemicalresearch. Oncethe research and applications. In this section, we re-
+inputobjectivesarereceived, ChemCrow provides viewandsummarizetheapplicationsofLLM-based
+valuable recommendations for experimental proce- agentsinseveralmajorengineeringdomains.
+dures,whilealsoemphasizinganypotentialsafety Civil Engineering: In civil engineering, LLM-
+risksassociatedwiththeproposedexperiments. based agents can be used to design and optimize

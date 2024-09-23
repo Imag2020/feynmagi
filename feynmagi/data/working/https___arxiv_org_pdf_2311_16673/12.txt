@@ -1,0 +1,35 @@
+TAHAKOM
+[40] SoravitChangpinyo,PiyushSharma,NanDing,andRaduSoricut.Conceptual12m:Pushingweb-scaleimage-text
+pre-trainingtorecognizelong-tailvisualconcepts. InProceedingsoftheIEEE/CVFConferenceonComputer
+VisionandPatternRecognition,pages3558–3568,2021.
+[41] JordiPont-Tuset,JasperUijlings,SoravitChangpinyo,RaduSoricut,andVittorioFerrari. Connectingvisionand
+languagewithlocalizednarratives. InComputerVision–ECCV2020: 16thEuropeanConference,Glasgow,UK,
+August23–28,2020,Proceedings,PartV16,pages647–664.Springer,2020.
+[42] KrishnaSrinivasan,KarthikRaman,JiecaoChen,MichaelBendersky,andMarcNajork. Wit: Wikipedia-based
+imagetextdatasetformultimodalmultilingualmachinelearning. InProceedingsofthe44thInternationalACM
+SIGIRConferenceonResearchandDevelopmentinInformationRetrieval,pages2443–2449,2021.
+[43] KaranDesai,GauravKaul,ZubinAysola,andJustinJohnson. Redcaps: Web-curatedimage-textdatacreatedby
+thepeople,forthepeople. arXivpreprintarXiv:2111.11431,2021.
+[44] ChristophSchuhmann,RichardVencu,RomainBeaumont,RobertKaczmarczyk,ClaytonMullis,AarushKatta,
+Theo Coombes, Jenia Jitsev, and Aran Komatsuzaki. Laion-400m: Open dataset of clip-filtered 400 million
+image-textpairs. arXivpreprintarXiv:2111.02114,2021.
+[45] ChristophSchuhmann,RomainBeaumont,RichardVencu,CadeGordon,RossWightman,MehdiCherti,Theo
+Coombes,AarushKatta,ClaytonMullis,MitchellWortsman,etal. Laion-5b: Anopenlarge-scaledatasetfor
+trainingnextgenerationimage-textmodels.AdvancesinNeuralInformationProcessingSystems,35:25278–25294,
+2022.
+[46] Jiaxi Gu, Xiaojun Meng, Guansong Lu, Lu Hou, Niu Minzhe, Xiaodan Liang, Lewei Yao, Runhui Huang,
+WeiZhang,XinJiang,etal. Wukong: A100millionlarge-scalechinesecross-modalpre-trainingbenchmark.
+AdvancesinNeuralInformationProcessingSystems,35:26418–26431,2022.
+[47] AlecRadford,JongWookKim,ChrisHallacy,AdityaRamesh,GabrielGoh,SandhiniAgarwal,GirishSastry,
+AmandaAskell,PamelaMishkin,JackClark,etal. Learningtransferablevisualmodelsfromnaturallanguage
+supervision. InInternationalconferenceonmachinelearning,pages8748–8763.PMLR,2021.
+[48] ChaoJia,YinfeiYang,YeXia,Yi-TingChen,ZaranaParekh,HieuPham,QuocLe,Yun-HsuanSung,ZhenLi,
+andTomDuerig. Scalingupvisualandvision-languagerepresentationlearningwithnoisytextsupervision. In
+Internationalconferenceonmachinelearning,pages4904–4916.PMLR,2021.
+[49] LeweiYao,RunhuiHuang,LuHou,GuansongLu,MinzheNiu,HangXu,XiaodanLiang,ZhenguoLi,XinJiang,
+andChunjingXu. Filip: Fine-grainedinteractivelanguage-imagepre-training. arXivpreprintarXiv:2111.07783,
+2021.
+[50] XiChen,XiaoWang,SoravitChangpinyo,AJPiergiovanni,PiotrPadlewski,DanielSalz,SebastianGoodman,
+AdamGrycner,BasilMustafa,LucasBeyer,etal. Pali: Ajointly-scaledmultilinguallanguage-imagemodel.
+arXivpreprintarXiv:2209.06794,2022.
+13

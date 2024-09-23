@@ -1,0 +1,76 @@
+LevelsofAGI
+K.,Reymann,K.,Ryoo,M.,Salazar,G.,Sanketi,P.,Ser- theEffectsofAIonKnowledgeWorkerProductivityand
+manet,P.,Singh,J.,Singh,A.,Soricut,R.,Tran,H.,Van- Quality. HarvardBusinessSchoolTechnology&Opera-
+houcke,V.,Vuong,Q.,Wahid,A.,Welker,S.,Wohlhart, tionsManagementUnitWorkingPaperNumber24-013,
+P., Wu, J., Xia, F., Xiao, T., Xu, P., Xu, S., Yu, T., and September2023.
+Zitkovich, B. RT-2: Vision-Language-Action Models
+Demetriou,A.andKazi,S. Self-awarenessing(withpro-
+Transfer Web Knowledge to Robotic Control. CoRR,
+cessingefficiencyandreasoning). Intelligence,34:297–
+abs/2307.15818,2023.doi:10.48550/arXiv.2307.15818.
+317, 2006. doi: https://doi.org/10.1016/j.intell.2005.10.
+URLhttps://arxiv.org/abs/2307.15818.
+002.
+Brynjolfsson, E. The Turing Trap: The Promise &
+Ellingrud, K., Sanghvi, S., Dandona, G. S., Madgavkar,
+Peril of Human-Like Artificial Intelligence. CoRR,
+A., Chui, M., White, O., and Hasebe, P. Genera-
+abs/2201.04200,2022.doi:10.48550/arXiv.2201.04200.
+tive AI and the future of work in America. McK-
+URLhttps://arxiv.org/abs/2201.04200.
+insey Institute Global Report, July 2023. URL
+Bubeck, S., Chandrasekaran, V., Eldan, R., Gehrke, J., https://www.mckinsey.com/mgi/our-research/generative
+Horvitz, E., Kamar, E., Lee, P., Lee, Y. T., Li, Y.,
+Eloundou,T.,Manning,S.,Mishkin,P.,andRock,D. Gpts
+Lundberg, S., Nori, H., Palangi, H., Ribeiro, M. T.,
+aregpts:Anearlylookatthelabormarketimpactpoten-
+and Zhang, Y. Sparks of Artificial General In-
+tialoflargelanguagemodels,2023.
+telligence: Early experiments with GPT-4. CoRR,
+abs/2303.12712,2023.doi:10.48550/arXiv.2303.12712. Englebart, D. Augmenting human intellect: A
+URLhttps://arxiv.org/abs/2303.12712. conceptual framework. October 1962. URL
+https://www.dougengelbart.org/pubs/papers/scanned/D
+Butlin, P., Long, R., Elmoznino, E., Bengio, Y., Birch, J.,
+Constant,A.,Deane,G.,Fleming,S.M.,Frith,C.,Ji,X., for AI Safety, C. Statement on AI Risk, 2023. URL
+Kanai, R., Klein, C., Lindsay, G., Michel, M., Mudrik, https://www.safe.ai/statement-on-ai-risk.
+L., Peters, M. A. K., Schwitzgebel, E., Simon, J., and
+Gardner, H. E. Frames of Mind: The Theory of Multiple
+VanRullen, R. Consciousness in Artificial Intelligence:
+Intelligences. BasicBooks,2011.
+Insights from the Science of Consciousness. CoRR,
+abs/2308.08708,2023.doi:10.48550/arXiv.2308.08708.
+Goertzel, B. Artificial General Intelligence: Concept,
+URLhttps://arxiv.org/abs/2308.08708.
+State of the Art, and Future Prospects. Journal of Ar-
+tificial General Intelligence, 01 2014. doi: 10.2478/
+Campbell, M., Hoane, A. J., and Hsu, F.-h. Deep Blue.
+jagi-2014-0001.
+Artif. Intell., 134(1–2):57–83, jan 2002. ISSN 0004-
+3702. doi: 10.1016/S0004-3702(01)00129-1. URL
+Goldwasser, S., Gruber, D. F., Kalai, A. T., and Paradise,
+https://doi.org/10.1016/S0004-3702(01)00129-1.
+O. A theory of unsupervised translation motivated by
+understandinganimalcommunication,2023.
+Chen, X., Wang, X., Changpinyo, S., and
+et al. PaLI: A Jointly-Scaled Multilingual
+Google. Google Assistant, your own personal Google.
+Language-Image Model. CoRR, abs/2209.06794, URL https://assistant.google.com/. ac-
+2023. doi: 10.48550/arXiv.2209.06794. URL
+cessedonOctober20,2023.
+https://arxiv.org/abs/2209.06794.
+Grammarly, 2023. URL
+Chollet,F. Onthemeasureofintelligence,2019. https://www.grammarly.com/.
+Christian, B. The Alignment Problem. W. W. Norton & Gubrud, M. Nanotechnology and International Security.
+Company,2020. Fifth Foresight Conference on Molecular Nanotechnol-
+ogy,November1997.
+Das, M. M., Saha, P., and Das, M. Which One
+is More Toxic? Findings from Jigsaw Rate Sever- IBM. IBM Watson. URL
+ity of Toxic Comments. CoRR, abs/2206.13284, https://www.ibm.com/watson. accessed
+2022. doi: 10.48550/arXiv.2206.13284. URL onOctober20,2023.
+https://arxiv.org/abs/2206.13284.
+Jumper,J.,Evans,R., Pritzel,A.,Green,T.,Figurnov,M.,
+Dell’Acqua, F., McFowland, E., Mollick, E. R., Lifshitz- Ronneberger,O.,Tunyasuvunakool,K.,Bates,R.,Zˇ´ıdek,
+Assaf, H., Kellogg, K., Rajendran, S., Krayer, L., Can- A., Potapenko, A., Bridgland, A., Meyer, C., Kohl, S.
+delon, F., and Lakhani, K. R. Navigating the Jagged A. A., Ballard, A. J., Cowie, A., Romera-Paredes, B.,
+TechnologicalFrontier: FieldExperimentalEvidenceof Nikolov, S., Jain, R., Adler, J., Back, T., Petersen, S.,
+11

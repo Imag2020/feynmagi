@@ -1,0 +1,165 @@
+1.5
+1
+0.5
+0 0 2 4 6 8
+0.5
+1
+1.5
+]s/dar[
+yticolev
+1
+0.8
+0.6 0.4
+0.2
+0 0.20 2 4 6 8
+0.4 0.6
+0.8
+1
+Joint 2 !!elbow
+0!ms
+2!ms
+5!ms
+7!ms
+10!ms
+time [s]
+]s/dar[
+yticolev
+Joint 0 !!shoulder pan
+0.001
+0. 00!m00 s5
+2!ms
+5!ms0 0 2 4 6 8
+7!ms 0.1000!m05s
+time [s] 0.001
+]s/dar[
+yticolev
+Joint 1 !!shoulder lift
+0!ms
+2!ms
+5!ms
+7!ms 10!ms
+time [s]
+2.5
+2
+1.5
+1
+0.5
+0
+0.50 2 4 6 8
+1
+1.5
+2
+]s/dar[
+yticolev
+Joint 3 !!wrist 1
+0!ms
+2!ms
+5!ms
+7!ms
+10!ms
+time [s]
+2
+1.5
+1 0.5 0 0.50 2 4 6 8
+1
+1.5
+2
+]s/dar[ yticolev
+Joint 4 !!wrist 2
+1.5
+1
+0.05!ms 2!ms 50!m0s 2 4 6 8
+0.75!ms
+110!ms
+time [s] 1.5
+]s/dar[ yticolev
+Joint 5 !!wrist 3
+0!ms 2!ms 5!ms
+7!ms
+10!ms
+time [s]
+Figure 4: The velocity commands sent to the robot
+50
+45
+40
+35
+30
+25
+20
+15
+10
+5
+0
+0 2 4 6 8
+sm
+0
+ot
+ecnereffid
+yticolev
+detalumuc
+]s/dar[
+esac
+ycnetal
+pluginfitsintothemodulardesignofGazebo. Asofthe
+interface is available, it eases to test various network
+effects on the robot control. Based on our preliminary
+evaluations it does affect the QoC KPIs of the robot
+control.
+The evaluation showed behavior which is expected and
+reasonable, but also cases which show that the whole
+systemneedsfine-tuning. Weplantoevaluatethework-
+ing mechanism of the system with the help of the ROS,
+gazebo and research communities. We plan to do more
+extensivemeasurementswiththetool. Weplantointer-
+faceitwithvariousradionetworksimulatorsandseethe
+effects of the radio on the QoC KPIs. In a similar way,
+weplantoinvestigatethehowthesystembehaveswhen
+taking into account not only the network links charac- teristics but also the protocols for message exchanging.
+We also plan to compare the level of similarity of the
+simulation to real robot HW controlled in a real radio
+network. WearetakingpartintheARIACcompetition
+and we plan to evaluate if the tool can provide any ad-
+vantageforusinanyoftheusecasesofthecompetition.
+REFERENCES
+Andersen T.T., 2015. Optimizing the Universal Robots ROS
+2 ms driver. Tech. rep., Technical University of Denmark, Depart-
+5 ms mentofElectricalEngineering.
+7 ms
+10 ms ARIAC,2017. Agile Robotics for Industrial Automation Compe-
+tition(ARIAC). URLhttp://gazebosim.org/ariac.
+DARPA, 2017. Network Emulation at
+time [s] the DARPA Robotics Challenge. URL
+https://iwl.com/white-papers/network-emulation-at-the-darpa-roboti
+Figure5: The cumulateddifferenceofthe velocitycom-
+mands comparing to the reference scenario Gazebo, 2017. Gazebo. URLhttp://gazebosim.org/.
+IvaldiS.;PetersJ.;PadoisV.;andNoriF.,2014. Toolsforsimu-
+latinghumanoid robot dynamics: Asurveybasedonuserfeed-
+This is likely due to the various updating frequency pa- back. In 2014 IEEE-RAS International Conference on Hu-
+rametersthatGazeboemploystorunthesimulation. It manoid Robots.842–849.
+needs definitely further work to make it clear how the
+MoveIt,2017. MoveIt. URLhttp://moveit.ros.org/.
+introduced latency affects other characteristics or be-
+haviors,suchastherobotcommandingfrequency,whole ns3,2017. ns-3. URLhttps://www.nsnam.org/.
+physical simulation steps, internal message timings. nwnstc, 2014. Network Namespaces and Traffic Control. URL
+Figure 5 shows the cumulated difference of the velocity http://gigawhitlocks.com/2014/08/18/network-namespaces.html.
+commands comparing to the reference scenario. The
+omnetros, 2017. How to link OM-
+2ms latencyscenarioistheclosesttothe referenceasit NET++/Castalia with ROS. URL
+isexpected. Inthefirst3secofthetrajectoryexecution http://cpham.perso.univ-pau.fr/WSN-MODEL/castalia-ros.html.
+the5msscenarioisclosertothereferencethanthe7ms
+OurPlugin, 2017. Gazebo latency plugin. URL
+scenario,but around6 sec,the 5 ms scenariocollects so https://github.com/Ericsson/robot_hw_sim_latency.
+much error that shows bigger deviation than the 7 sec
+roscontrol, 2017. Data flow of ros control and Gazebo. URL
+scenario. The 10 sec scenario has another magnitude of
+http://gazebosim.org/tutorials/?tut=ros_control.
+error,andthuscutoffthediagramafterthefirstsecond.
+rostopics,2017.ROSTopics.URLhttp://wiki.ros.org/Topics.
+CONCLUSION AND FURTHER WORK
+UR5,2017. UR5. URLwww.universal-robots.com/ur5-robots.
+URSim, 2017. URSim. URL
+In this paper, we proposed a plugin (OurPlugin 2017)
+https://www.universal-robots.com/download/?option=28545#section16
+to extendthe capabilities ofthe currentGazeborobotic
+simulatorandturnitintoaCPSsystem. Therealization
+of the proposed method is a plugin to Gazebo. The

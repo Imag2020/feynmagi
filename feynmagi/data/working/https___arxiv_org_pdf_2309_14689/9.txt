@@ -1,0 +1,98 @@
+10
+TABLE II. The systematic uncertainty of the ηc(2S) mass and width, and the systematic uncertainty of the product BF
+(ψ(3686) γηc(2S)) (ηc(2S) KK¯π), represented by in this Table.
+B → ×B → BB
+Source Mass (MeV/c2) Width (MeV) (%)
+BB
+Tracking 2.0
+− −
+PID 2.0
+− −
+Photon reconstruction 2.7
+− −
+KK¯π event selection Kinematic fit 4.3
+− −
+K0 reconstruction 0.8
+S − −
+Resonance parameters of ηc(2S) 1.8
+− −
+Intermediateresonance 2.9
+− −
+Resolution function 0.1 0.3 0.6
+Efficiency curve 0.0 0.0 0.1
+Simultaneous Fit Background line-shape 0.0 2.9 3.2
+Damping function 0.1 1.9 4.5
+Isospin constraint 0.0 0.1
+−
+ψ(3686) data sample 0.5
+− −
+Numberof continuum events 0.0 0.2 1.0
+Shapeof continuum 0.1 0.5 2.0
+Combined 0.2 3.5 9.1
+TABLEIII.AcomparisonoftheexperimentalmeasurementsinthisworkwithpreviousBESIIIvaluesandworldaveragevalues
+for the ηc(2S) mass and width, theBF (ψ(3686) γηc(2S)), and thepartial width Γ(ψ(3686) γηc(2S)).
+B → →
+Mass(MeV/c2) Width(MeV) B(ψ(3686)→γηc(2S))(×10−4) Γ(ψ(3686)→γηc(2S))(keV)
+Thiswork 3637.8±0.8±0.2 10.5±1.7±3.5 5.2±0.3±0.5+1.9 0.15+0.06
+−1.4 −0.04
+BESIII(2012) 3637.6±2.9±1.6 16.9±6.4±4.8 6.8±1.1±4.5 0.20±0.14
+Worldaverage 3637.6±1.2 11.3+3.2 7±5 0.21±0.15
+−2.9
+vary the smooth parameter of RooKeysPdf [36], which partial width Γ(ψ(3686) γη (2S)) is also determined
+c
+is extracted from the continuum line shape, from 1 to 6, to be 0.15+0.06 keV by→ using the total width of the
+−0.04
+and take the largest difference to the nominal fit result ψ(3686) [11].
+as the corresponding uncertainty.
+WesummarizethesystematicuncertaintiesinTableII.
+We assume that all sources of systematic uncertainties
+are independent and combine them in quadrature to ob-
+tain the overallsystematic uncertainty.
+Compared with previous measurements [11, 13], list-
+ed in Table III, our results for the mass and width of
+VII. RESULT AND DISCUSSION
+the η (2S) and (ψ(3686) γη (2S)) are of compara-
+c c
+B →
+ble precision to the world average values. There is an
+Using a sample of (27.08 0.14) 108 ψ(3686) de- improvementcomparedto the previousBESIII resultre-
+± ×
+cays collected by the BESIII detector, we measure the ported in 2012[13], while the last systematic uncertainty
+resonant parameters of the η (2S) and the product
+c is not significantly reduced due to the large uncertainty
+branching fraction (ψ(3686) γη c(2S)) (η c(2S) of the quoted BF of η (2S) KK¯π, that is changed
+K anK d¯π K) +t Khr −ou πg 0h wt ih te hB h imad pr ro on vi ec d→ η pc( r2 ecS i) siod ne .ca× y WB s eK mS0K ea± suπ→ r∓
+e
+tfr ho em th1 e. o9
+r±
+eti1 c. a2 l% ca[3 lc7 u] lato tc io1 n.8 s6+
+−
+[→ 10 0.
+.
+–6
+4
+38
+9
+]% lis[7 te]. dC inom Tp aa br leed I,w oit uh
+r
+t 0h .2e )m Ma es Vs a /n c2d aw ni ddt (h 10o .f 5the 1η .7c(2S 3) .5t )o Mbe eV(3 ,63 re7 s. p8
+e±
+ct0 iv.8
+el± y,
+m ise ca os nu sr ie sm tee nn tto wf itt hhe ap llar tt hia elw thid eoth reΓ ti( cψ al(3 p6 r8 e6 d)
+ic→
+tioγ nη sc( [2 1S –3))
+]
+and (ψ(3686) γη (± 2S)) ± (η (2S) KK¯π) =
+c c within two standard deviations. Therefore, to distin-
+(0.97B 0.06 0.→ 09) 10−5, in× wB hich isosp→ in symmetry
+guish various theoretical models, the precisionof the ex-
+± ± ×
+is assumed. Combining our result with [(η (2S)
+c perimental measurement needs further improvement. It
+KK¯π)] = (1.86+ −0 0. .6 48 9)% [7], we obtain BB (ψ(3686) →→ will be achieved by combining our results to an updated
+γ unη c c( e2 rS ta) in= ty( i5 s.2 fr± om0. t3 he± q0 u.5 o+ − te1 1 d. .9 4) × (η1 (0 2− S4 ), wh Ker Ke ¯πth ).e Tla hs et fB u( sη ioc( n2S or) B→ dK ecK¯ ayπ) pt rh oa cet sm sea sy inbe tho ebt Bai -n fae cd tov ria iet sw
+.
+o-photon
+c
+B →

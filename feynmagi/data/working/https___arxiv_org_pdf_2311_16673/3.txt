@@ -1,0 +1,49 @@
+TAHAKOM
+2.5 RetNet-BasedVisionTransformers
+Aspreviouslydiscussed,RetNetismainlydesignedfor1Ddataandittreatstheinputsinanunidirectionalway. Efforts
+havebeenmade[6],asshowninFig.2,toextrapolatethistothe2Dspaceinordertobeabletohandleimagesand
+treattheminabidirectionalmanner. ThebidirectionalextensionofretentioninEq.1foreachtokencanbewrittenas
+follows:
+N
+(cid:88)
+o = γ|n−m|(Q einθ)(K eimθ)†v , (4)
+n n m m
+m=1
+where†istheconjugatetranspose,andthustheparallelversioniswrittenas:
+BiRetention(X)=(QKT ⊙DBi)V, where DBi =γ|n−m| (5)
+nm
+Now,toextrapolatetothetwo-dimensionalspace,let’sdenoteby(x ,y )thecoordinateofthenthtokenofanimage.
+n n
+TheDmatrixismodifiedtocontaintheManhattandistancebetweentokenpairsasfollows:
+D2d =γ|xn−xm|+|yn−ym| (6)
+nm
+andfinally,the2Dretentioncanbewrittenas:
+ReSA(x)=(Softmax(QKT)⊙D2d)V (7)
+2.6 Vision-LanguageModels(VLMs)
+AvisuallanguagemodelisanAI-drivenmechanismtailoredtointerpretandderiveinsightsfromvisualcontentlike
+imagesandvideos. Bytrainingonvastcollectionsofvisualcontent,thesemodelsbecomeadeptatidentifyingand
+categorizingvariousvisualcomponents,fromobjectstoindividualstoentirescenes. VLMshaveevolvedsignificantly
+over the years, transitioning from the use of hand-crafted image descriptors and pre-trained word vectors to the
+adoptionofadvancedtransformerarchitecturesforbothimageandtextencoding. Centraltothesemodelsarethree
+core components: an image encoder, a text encoder, and a fusion mechanism to integrate information from both
+domainsasshowninFig3. Thecontemporaryapproachemphasizesstrategicpre-trainingobjectivestoenhancetransfer
+performanceacrossvarioustasks. Amongthenotablepre-trainingstrategiesare:
+• ContrastiveLearning: Alignsimagesandtextsinajointfeaturespace.
+• PrefixLM:Usesimagesasaprefixtoalanguagemodel,enablingjointlearningofimageandtextembeddings.
+• Multi-modalFusingwithCrossAttention: Integratesvisualdataintolanguagemodellayers.
+• MLM/ITM: Focuses on aligning specific image parts with corresponding text using masked-language
+modelingandimage-textmatching.
+• NoTrainingapproach: Leveragesstandalonevisionandlanguagemodelsthroughiterativeoptimization.
+3 RelatedWork
+In this survey [10], the authors presents a deep comprehensive background of LLMs, their scaling laws, and their
+emergentcapabilities. TheauthorsalsofocusontheevolutionofGPT-seriesmodelsanddiscusstheircapabilities
+indetails. Moreover,theauthorsdiscusssomeavailableresources,datasets,availablecheckpoints,andAPIstohelp
+developandtrainLLMs. In[11]theauthorsofferanextensiveexaminationofLLMs,whichareattheforefrontof
+AIadvancements, particularlyintherealmofnaturallanguageprocessing. ThehistoricalprogressionofLLMsis
+charted,detailingtheirevolutionandthevarioustrainingmethodologiesthathavebeenemployedtoenhancetheir
+capabilities. A broad spectrum of LLM applications is explored, spanning sectors such as healthcare, education,
+finance,andengineering,illustratingthetransformativeimpactLLMshaveonthesefields. Furthermore,thepaper
+addressesthechallengesthatcomewithimplementingLLMsinpracticalsettings. Thesechallengesincludeethical
+dilemmas,inherentmodelbiases,issueswithinterpretability,andthesubstantialcomputationalresourcesrequiredfor
+theiroperation. ItalsoshedslightonstrategiestoimproveLLMrobustnessandcontrol,aswellasmethodstomitigate
+4

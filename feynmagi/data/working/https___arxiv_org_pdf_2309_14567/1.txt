@@ -1,0 +1,45 @@
+2
+their emitted spectral energy distributions (SEDs). Processes such as condensation of the refractory
+elements and grain sedimentation, and disequilibrium chemistry driven by vertical transport of gas,
+are now known to be critical, changing the abundance of dominant species by orders of magnitude
+(e.g. Fegley & Lodders 1996; Griffith & Yelle 1999; Lodders 1999; Ackerman & Marley 2001; Allard
+et al. 2001; Saumon et al. 2006; Leggett et al. 2016). The SEDs of cool stars and brown dwarfs –
+objects with masses too low for sustained fusion (e.g. Burrows & Liebert 1993; Saumon & Marley
+2008; Phillips et al. 2020) – can now be well reproduced, at least for T > 600 K (e.g. Stephens et al.
+eff
+2009; Leggett et al. 2017).
+During the last three years new models of cold dwarf atmospheres have become available. Karalidi
+et al. (2021) and Marley et al. (2021) present Sonora brown dwarf atmospheric and evolutionary
+modelsforcloud-freeatmosphereswitharangeofmetallicity, bothinandoutofchemicalequilibrium.
+Lacy & Burrows (2023) present models of Y dwarfs with water clouds and disequilibrium chemistry,
+with a range of metallicity. The latter models calculate spectra which closely agree with the Sonora
+spectra, although the pressure-temperature relationships in the upper atmosphere differ (Figures 20
+and 22 of Lacy & Burrows 2023). We note that the primary photospheric region of a Y dwarf is
+expected to be cloud free, as condensation curves of alkalis, sulfides, and chlorides show that those
+grains would exist deep in the atmosphere, and similarly water clouds would only exist high in the
+atmosphere (e.g. Morley et al. 2014; Leggett et al. 2021).
+Researchers have also approached the analysis of atmospheres using the retrieval method, where
+observations guide the generation of the model structure. Zalesky et al. (2019, 2022) and Hood
+et al. (2023) adopt this approach in analyses of T and Y dwarfs. To date these analyses have been
+limited to the near-infrared spectral region only, meaning that a limited region of the photosphere is
+probed. Generally the retrieval analyses determine atmospheric parameters that are consistent with
+the forward model grid analyses, however in some cases non-physical values emerge from the retrieval
+analysis, suggesting an incomplete understanding of the atmosphere (e.g. Hood et al. 2023).
+For Y dwarfs, most model spectra significantly underestimate the flux at wavelengths between 2 µm
+and 4 µm. For example, the synthetic Sonora-Cholla colors presented by Karalidi et al. (2021) have
+K magnitudes which are about a magnitude too faint, unless the surface gravity is reduced to an
+unlikely, very low, value (Figure 18 of Karalidi et al. 2021). Similarly the synthetic spectra generated
+by the models of Lacy & Burrows (2023) are a factor of two to three too faint between 2 µm and
+3.8 µm (Figure 17 of Lacy & Burrows 2023). Leggett et al. (2021) demonstrate that in order to
+reproduce both the near-infrared and mid-infrared spectra of Y dwarfs, the lower atmosphere must
+be cooler and the upper atmosphere warmer, compared to a standard pressure-temperature adiabatic
+relationship. Deviations from the standard adiabat are a natural outcome of rapid rotation (Tan &
+Showman 2021) and thermal and compositional changes in the atmosphere (Tremblin et al. 2019).
+In Section 2 we briefly describe the ATMO 2020 models (Phillips et al. 2020) which were empirically
+adjusted for Leggett et al. (2021) and extended into a larger grid for Meisner et al. (2023). We refer to
+the latter model grid set as the ATMO2020++ models. In Section 3 we compare the first published
+JWST spectrum of a Y dwarf, and its best-fit Sonora model SED, to an ATMO2020++ SED. In
+Section 4 we present an analysis of color-color diagrams using recently published JWST photometry
+for four Y dwarfs. Section 5 presents our conclusions.
+The Appendices supply supporting material. Appendix A adds more detailed information about
+the ATMO2020++ atmospheres. Appendix B presents a comparison of the Y dwarf spectrum to

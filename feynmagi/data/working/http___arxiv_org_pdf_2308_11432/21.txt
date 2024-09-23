@@ -1,0 +1,56 @@
+22 Front. Comput. Sci.,2024,0(0): 1–42
+Social Science Ø Psychology Ø Jurisprudence
+Subjective Evaluation
+Ø Political Science and Economy Ø Social Science
+Ø Social Simulation Ø Research Assistant Ø HumanAnnotation
+Ø TuringTest
+NaturalScience Ø Documentation and Data Management
+Ø Natural Science Experiment Assistant
+Ø Natural Science Education Objective Evaluation
+Ø Evaluation Metric
+Engineering Ø Civil Engineering Ø Industrial Automation Ø Evaluation Protocol
+Ø Computer Science Ø Robotics & Embodied AI Ø Evaluation Benchmark
+Ø Aerospace Engineering
+Application
+Evaluation
+Fig.5 Theapplications(left)andevaluationstrategies(right)ofLLM-basedagents.
+butarehighlyrelatedtothisarea. authors assign LLMs with different profiles, and
+let them complete psychology experiments. From
+3 LLM-based Autonomous Agent Ap- the results, the authors find that LLMs are capa-
+plication bleofgeneratingresultsthatalignwiththosefrom
+studiesinvolvinghumanparticipants. Additionally,
+Owingtothestronglanguagecomprehension,com-
+it was observed that larger models tend to deliver
+plextaskreasoning,andcommonsenseunderstand-
+moreaccuratesimulationresultscomparedtotheir
+ing capabilities, LLM-based autonomous agents
+smaller counterparts. An interesting discovery is
+have shown significant potential to influence mul-
+that, in many experiments, models like ChatGPT
+tiple domains. This section provides a succinct
+andGPT-4canprovidetooperfectestimates(called
+summaryofpreviousstudies,categorizingthemac-
+“hyper-accuracydistortion”),whichmayinfluence
+cordingtotheirapplicationsinthreedistinctareas:
+thedownstreamapplications. In[104],theauthors
+socialscience,naturalscience,andengineering(see
+systematically analyze the effectiveness of LLM-
+theleftpartofFigure5foraglobaloverview).
+based conversation agents for mental well-being
+3.1 SocialScience support. They collect 120 posts from Reddit, and
+findthatsuchagentscanhelpuserscopewithanx-
+Socialscienceisoneofthebranchesofscience,de-
+ieties, social isolation and depression on demand.
+votedtothe studyofsocietiesandthe relationships
+Atthesametime,theyalsofindthattheagentsmay
+among individuals within those societies. LLM-
+produceharmfulcontentssometimes.
+basedautonomousagentscanpromotethisdomain
+by leveraging their impressive human-like under- Political Science and Economy: LLM-based
+standing, thinking and tasksolving capabilities. In agentscanalsobeutilizedtostudypoliticalscience
+the following, we discuss several key areasthat can and economy [29,105,106]. In [29], LLM-based
+beaffectedbyLLM-basedautonomousagents. agents are utilized for ideology detection and pre-
+Psychology: Forthedomainofpsychology,LLM- dictingvotingpatterns. In[105],theauthorsfocuses
+basedagentscanbeleveragedforconductingsimu- on understanding the discourse structure and per-
+lationexperiments,providingmentalhealthsupport suasive elements of political speech through the
+and so on [102–105]. For example, in [102], the assistance of LLM-based agents. In [106], LLM-

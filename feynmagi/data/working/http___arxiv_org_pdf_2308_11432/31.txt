@@ -1,0 +1,46 @@
+32 Front. Comput. Sci.,2024,0(0): 1–42
+LLMs in various downstream tasks. The afore- Forexample,onecanfirstlycollectreal-humandata
+mentioned research encompasses various aspects for uncommon roles or psychology characters, and
+oflargemodels,includingtraining,application,and thenleverageittofine-tuneLLMs. However,how
+evaluation. However, prior to this paper, no work to ensure that fine-tuned model still perform well
+has specifically focused on the rapidly emerging for thecommon rolesmay posefurther challenges.
+and highly promising field of LLM-based Agents. Beyond fine-tuning, one can also design tailored
+Inthisstudy,wehavecompiled100relevantworks agent prompts/architectures to enhance the capa-
+onLLM-based Agents,covering theirconstruction, bility of LLM on role-playing. However, finding
+applications,andevaluationprocesses. the optimalprompts/architectures isnot easy, since
+theirdesigningspacesaretoolarge.
+6 Challenges
+6.2 GeneralizedHumanAlignment
+While previous work on LLM-based autonomous
+Humanalignmenthasbeendiscussedalotfortradi-
+agenthasobtainedmanyremarkablesuccesses,this
+tionalLLMs. InthefieldofLLM-basedautonomous
+fieldisstillatitsinitialstage,andthereareseveral
+agent, especially when the agents are leveraged
+significantchallengesthatneedtobeaddressedin
+for simulation, we believe this concept should be
+its development. In thefollowing, wepresent many
+discussed more in depth. In order to better serve
+representativechallenges.
+human-beings, traditional LLMs are usually fine-
+tunedtobealignedwithcorrecthumanvalues,for
+6.1 Role-playingCapability
+example,theagentshouldnotplantomakeabomb
+DifferentfromtraditionalLLMs,autonomousagent foravengingsociety. However,whentheagentsare
+usuallyhastoplayasspecificroles(e.g.,program leveragedforreal-worldsimulation,anidealsimula-
+coder, researcher and chemist) for accomplishing torshouldbeabletohonestlydepictdiversehuman
+different tasks. Thus, the capability of the agent traits,includingtheoneswithincorrectvalues. Ac-
+forrole-playingisveryimportant. AlthoughLLMs tually, simulating the human negative aspects can
+caneffectivelysimulatemanycommonrolessuch beevenmoreimportant,sinceanimportantgoalof
+asmoviereviewers, therearestillvariousrolesand simulation is to discover and solve problems, and
+aspects thatthey struggleto captureaccurately. To without negative aspects means no problem to be
+beginwith,LLMsareusuallytrainedbasedonweb- solved. For example, to simulate the real-world
+corpus, thus for the roles which are seldom dis- society, we may have to allow the agent to plan
+cussed on the web or the newly emerging roles, formakingabomb,andobservehowitwillactto
+LLMsmaynotsimulatethemwell. Inaddition,pre- implement the plan as well as the influence of its
+viousresearch[30]hasshownthatexistingLLMs behaviors. Basedon theseobservations,people can
+may not well model the human cognitive psychol- makebetteractionstostopsimilarbehaviorsinreal-
+ogycharacters,leadingtothelackofself-awareness world society. Inspired by the above case, maybe
+inconversationscenarios. Potentialsolutiontothese an important problem for agent-based simulation
+problems may include fine-tuning LLMs or care- is how to conduct generalized human alignment,
+fullydesigningtheagentprompts/architectures[183]. thatis,fordifferentpurposesandapplications,the

@@ -1,0 +1,84 @@
+12
+[36] B. Wu, M. Ray, L. Zhao, X. Sun, and P. Rebentrost, and Y.-K. Liu, Nature communications 1, 149 (2010).
+Physical Review A 103, 042422 (2021). [43] M.Mohseni,A.T.Rezakhani, andD.A.Lidar,Physical
+[37] L.Xu,X.-Y.Zhang,J.-M.Liang,J.Wang,M.Li,L.Jian, Review A 77, 032322 (2008).
+and S.-q. Shen, Communications in Theoretical Physics [44] J. B. Altepeter, D. Branning, E. Jeffrey, T. Wei, P. G.
+74, 055106 (2022). Kwiat, R. T. Thew, J. L. O’Brien, M. A. Nielsen, and
+[38] T.L.Patti,J.Kossaifi,A.Anandkumar, andS.F.Yelin, A.G.White,PhysicalReviewLetters90,193601(2003).
+Quantum 7, 1057 (2023). [45] B. Lanyon, C. Maier, M. Holza¨pfel, T. Baumgratz,
+[39] D. Aharonov, V. Jones, and Z. Landau, in Proceedings C.Hempel,P.Jurcevic,I.Dhand,A.Buyskikh,A.Daley,
+of the thirty-eighth annual ACM symposium on Theory M. Cramer, et al., Nature Physics 13, 1158 (2017).
+of computing (2006) pp. 427–436. [46] R.Blume-Kohout, J.K.Gamble, E.Nielsen, J.Mizrahi,
+[40] D.Greenbaum,arXivpreprintarXiv:1509.02921 (2015). J. D. Sterk, and P. Maunz, arXiv preprint
+[41] G. Torlai, G. Mazzola, J. Carrasquilla, M. Troyer, arXiv:1310.4492 (2013).
+R.Melko, andG.Carleo,NaturePhysics14,447(2018). [47] M.G.CowlingandJ.F.Price,SIAMjournalonmathe-
+[42] M. Cramer, M. B. Plenio, S. T. Flammia, R. Somma, matical analysis 15, 151 (1984).
+D.Gross,S.D.Bartlett,O.Landon-Cardinal,D.Poulin,
+Appendix A: Completeness Proof
+In the main text, the calculation of Tr{ρk} has been mathematically transformed into investigating Tr{Gk}, where
+Tr{Gk} represents the trace of Gk, which is obtained by decomposing the random state into pure states and then
+taking a weighted average. Therefore, the primary focus is on calculating Tr{Gk}.
+q
+AfterselectingacombinationGk :G G ···G ···G ,itisnecessarytodeterminethedimensionofthesubspace
+q q1 q2 qt qk
+d. For the subspace determined by the combination Gk, if the dimension of the subspace is d, then the quantum
+q
+states ρs prepared by different random gates of dimension d, where s ∈ {1,2,...,d}, are guaranteed to be linearly
+independent.Preparation of d linearly independent quantum states using d n-bit random gates: ρ = U |0⟩⟨0|⊗nU†.
+s s s
+The random gate U belongs to different random gates within a certain combination Gk.
+s q
+Preparation of the remaining d2−d quantum states: Assuming we have already prepared d linearly independent
+quantum states: ρ ,ρ ,...,ρ , we need to prepare an additional d2 − d quantum states to form a complete d2-
+1 2 d
+dimensional inner product space. In a finite-dimensional linear space, it is sufficient for all d2 quantum states to be
+linearly independent from each other.
+For the quantum state ρ = U |0⟩⟨0|⊗nU†, where s,s′ ∈ {1,2,...,d},s ̸= s′, we apply the quantum gate G =
+s s s s′
+U G U† =I−2ρ to obtain:
+s′ 0 s′ s′
+ρ =G ρ G† =(I−2ρ )ρ (I−2ρ )
+ss′ s′ s s′ s′ s s′ (A1)
+=ρ −2ρ ρ −2ρ ρ +4ρ ρ ρ .
+s s′ s s s′ s′ s s′
+For the corresponding ρ , we have:
+s′s
+ρ =ρ −2ρ ρ −2ρ ρ +4ρ ρ ρ . (A2)
+s′s s′ s′ s s s′ s s′ s
+It can be shown that the quantum states ρ ,ρ ,ρ ,ρ are linearly dependent. If we construct all quantum states
+s s′ ss′ s′s
+using this method, then these quantum states will be linearly dependent and cannot form a complete d2-dimensional
+inner product space.
+To ensure linear independence, we modify the gate G to G , where θ ̸=kπ,k ∈Z:
+0 θ
+       
+−1 0 ··· 0 eiθ 0 ··· 0 1 0 ··· 0 1−eiθ 0 ··· 0
+ 0 1 ··· 0  0 1 ··· 0 0 1 ··· 0  0 1 ··· 0
+G 0 = 
+
+. .
+.
+. .
+.
+... . . .  −→G θ = 
+
+. .
+.
+. .
+.
+... . . .  =  . .
+.
+. .
+.
+... . . .  − 
+
+. .
+.
+. .
+.
+... . . . 
+
+(A3)
+0 0 ··· 1 0 0 ··· 1 0 0 ··· 1 0 0 ··· 1
+After this change, the transformedG (θ) = U G U†. We represent G (θ) = U G(θ)U† as G (θ) = I −ρ (θ), and
+s s θ s s s s s s

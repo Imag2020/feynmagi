@@ -1,0 +1,90 @@
+5
+TABLE I. A comparison of theoretical calculations for the ηc(2S) mass, theBF (ψ(3686) γηc(2S)), and thepartial width
+B →
+Γ(ψ(3686) γηc(2S)).
+→
+Mass(MeV/c2) B(ψ(3686)→γηc(2S))(×10−4) Γ(ψ(3686)→γηc(2S))(keV)
+NRmodel[1] 3630 7.14±0.19 0.21
+GImodel[1] 3623 5.80±0.16 0.17
+Mesonloopcorrection[2] N/A 2.72±1.00 0.08±0.03
+Light-frontquarkmodel[3] 3637 3.9 0.11
+Effectivefieldtheory[12] N/A 0.6−36.0 N/A
+M1 transition ψ(3686) γη (2S) with η (2S) decaying octagonal flux-return yoke with resistive plate counter
+c c
+into KK¯π was reporte→ d by BESIII [13]. With a data muon identification modules interleaved with steel. The
+sample of 106 106 ψ(3686) events, BESIII measured charged-particle momentum resolution at 1 GeV/c is
+theBF (ψ(368× 6) γη (2S))=(6.8 1.1 4.5) 10−4, 0.5%, and the dE/dx resolution is 6% for electrons from
+c
+B → ± ± ×
+where,hereandhereafter,thefirstuncertaintyisstatisti- Bhabha scattering. The EMC measures photon energies
+calandthe secondis systematic. Reference [7]extracted with a resolution of 2.5% (5%) at 1 GeV in the barrel
+(ψ(3686) γη (2S))=(7+3.4) 10−4 byaglobalfitto (end cap) region. The time resolution in the TOF bar-
+B → c −2.5 ×
+many experimental measurements and is in good agree- rel region is 68 ps, while that in the end cap region is
+ment withthe worldaveragevalue of(7 5) 10−4 [11]. 110 ps. The end cap TOF system was upgraded in 2015
+± ×
+It is difficult to validate the theoreticalcalculations with using multi-gap resistive plate chamber technology, pro-
+the current measurements, since the relative uncertain- viding a time resolution of 60 ps [18].
+ties are as large as 70%. Simulated data samples produced with a geant4-
+The mass of the η (2S) was predicted to be based [19] Monte Carlo (MC) package, which includes
+c
+3.630 GeV/c2, 3.623 GeV/c2, and 3.637 GeV/c2 accord- thegeometricdescriptionoftheBESIIIdetector[20]and
+ingtotheNRmodel[1],theGImodel[1],andinRef.[3], the detector response, are used to determine the detec-
+respectively. Recently, the LHCb collaboration report- tion efficiencies and to estimate backgrounds. The sim-
+ed the mass of the η (2S) to be m = (3637.90 ulation models the beam energy spread and initial state
+0.54 1.40)
+MeV/c2c
+and its
+widtη hc(2 tS o)
+be Γ ± = radiation(ISR) in the e+e− annihilation with the kkmc
+±
+ηc(2S)
+(10.77 1.62 1.08) MeV, via B Kη (2S),η (2S) generator [21]. The inclusive MC sample includes the
+c c
+K0Kπ±
+[14].
+T±
+he experimental
+av→
+erages of its
+resona→
+nt production of the ψ(3686) resonance, the production of
+S
+parameters are m = (3637.5 1.1) MeV/c2 and J/ψ via ISR, and the continuum processes incorporat-
+Γ
+=(11.3+3.2η )c( M2S e)
+V [11]. ± ed in kkmc. All the known particle decays are mod-
+η Tc( h2S e) BESIII e− x2 p.9 eriment has collected (27.08 0.14) eled with evtgen [22] using the BFs either taken from
+108 ψ(3686) events [15], which is 25.5 times la± rger tha× n the Particle Data Group [11], when available, or other-
+thedatasetusedinthepreviousmeasurement[13]. Using wise estimated with lundcharm [23]. The final state
+radiation (FSR) from charged final state particles is in-
+this enlarged data sample, we present a comprehensive
+corporated using the photos package [24]. We gener-
+analysis of the M1 transition ψ(3686) γη (2S) with
+c
+η (2S)decayingintoKK¯π finalstates. T→ heresonantpa- ate the ψ(3686) γη c(2S) decay using helicity ampli-
+c tudes [25] and th→ e η (2S) KK¯π decays with a phase
+rametersoftheη (2S)andtheBFofψ(3686) γη (2S) c
+c c →
+→ space (PHSP) model.
+are reported with improved precision.
+II. DETECTOR AND MONTE CARLO III. EVENT SELECTION
+SIMULATION
+In selecting signal events for the process
+The BESIII detector [16] recordssymmetric e+e− col- ψ(3686) γKK¯π, we require each candidate event
+→
+lisions provided by the BEPCII storage ring [17] in the to contain four (two) charged tracks with zero net
+center-of-mass energy range from 2.0 to 4.95 GeV, with charge, and at least one (three) photon(s) for the
+a peak luminosity of1 1033 cm−2s−1 achievedat √s= γK0K±π∓ (γK+K−π0) mode. Here, KK¯π represents
+3.77GeV. BESIIIhasc× ollectedlargedatasamplesinthis onlyS K+K−π0 and K0K±π∓ in Secs. III, IV, and V
+S
+energyregion[17]. ThecylindricalcoreoftheBESIIIde- for simplicity except explicitly stated. We form K0 (π0)
+S
+tector covers93%of the full solidangle and consistsof a candidates using pairs of π+π− (γγ).
+helium-based multilayer drift chamber (MDC), a plastic Photon candidates are identified using showers in the
+scintillator time-of-flight system (TOF), and a CsI(Tl) EMC.The depositedenergy ofthe showermust be more
+electromagnetic calorimeter (EMC), which are all en- than25MeVinthebarrelregion( cosθ <0.80)ormore
+| |
+closed in a superconducting solenoid magnet providing than 50 MeV in the end cap region (0.86 < cosθ <
+| |
+a 1.0 T magnetic field. The solenoid is supported by an 0.92). To exclude showers that originate from charged

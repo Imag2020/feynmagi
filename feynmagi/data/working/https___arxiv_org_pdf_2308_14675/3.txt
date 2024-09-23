@@ -1,0 +1,67 @@
+4
+Circuit
+FIG.3. Schematicdiagramofasub-processforcomputingTr{R }withintheTomographyworkflow. Thediagramrunsfrom
+wq
+lefttoright,withthefirstblackboxontheleftrepresentingthepreparationoftheinitialstate(1)andthemeasurementstate
+(2). The blue box on the upper right depicts the placement of the prepared states into the circuit (3), where the Gk gate and
+q
+the identity gate are inserted. Steps (4) and (5) allow us to obtain the matrix elements of the PTMs corresponding to each of
+these gates. Finally, in step (6), Tr{R } is indirectly obtained through a similarity transformation.
+wq
+the Monte Carlo method. This involves conducting mul- total count of possible arrangements aggregates to αk.
+tiple circuit samplings in accordance with their respec- These arrangements are uniquely labeled by the index
+tive probabilities and subsequently calculating the aver- q ={1,2,...,αk}. As a result, this algorithm effectively
+age. Throughthisprocess,wecanattainthesought-after dissects the trace Tr{Gk} of the higher-order powers of
+value of Tr{ρm}. The figure shown in Fig 2 presents G into computations encompassing αk arrangements de-
+our computation process through a simplified flowchart, notedasGk. Thecalculationprocessistherebyexecuted
+q
+starting from the decomposition of Tr{Gk}, transition- on higher-order random quantum states via the applica-
+ing to the calculation of each individual Gk, and then tion of a Monte Carlo methodology.
+q
+proceedingwithaseriesofcomputationswithintheirre- ThecorrespondingprobabilitycombinationQk
+p is
+spectivesubspaces. Finally,thecomputedresultsTr{Gk} t=1 qt
+q represented as P . Therefore, Tr{Gk} can be expressed
+q
+are weighted and summed to obtain the desired calcula-
+as:
+tionTr{Gk}. Weillustratethesub-processofcomputing
+Tr{R } in Fig 3, which, together with Fig 2, forms the
+compw leq
+te Tomography computation process.
+Xαk
+Tr{Gk}= P Tr{Gk}, (15)
+q q
+q=1
+1. Mathematical Treatment:
+Where we use Gk to denote Qk G for convenience.
+q t=1 qt
+We start with the unitary quantum gate G :
+0
+ 
+−1 0 ··· 0
+ 0 1 ··· 0
+(G 0) 2n×2n =I 2n −2|0⟩⟨0|⊗n = 
+
+. .
+.
+. .
+.
+... . . .  . (14) 2. The matrix representation of G qk
+0 0 ··· 1
+For each of the αk instances of Gk, a specific Gk is
+q q
+Through the application of random unitary gates U to chosen for computation where q = 1,2,...,αk. In this
+i
+the initial gate G , a set of α distinct gates is generated. scenario, the calculation method is provided for arbi-
+0
+ThesegatesaredenotedasG =U G U†. Thecomposite trary combinations, while the computation process re-
+i i 0 i
+mains similar for other combinations.
+gateGisthendefinedastheweightedsummationofthese
+transformed gates: G=Pα p G . Upon choosing a specific combination Gk, a set of k
+i=1 i i q
+Aninsightfulobservationcanbemadethatinthepres- corresponding G gates is determined, thereby giving
+qt
+ence of k occurrences of G gates within the circuit, the rise to k specific |ψ ⟩ states, where t=1,2,...,k.
+qt

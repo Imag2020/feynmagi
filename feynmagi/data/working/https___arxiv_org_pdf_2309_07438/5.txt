@@ -1,0 +1,81 @@
+6
+B. Domain Generalization Techniques formation used, existing methods can be classified into four
+categories: a) hand-engineered image transformations [135],
+Domaingeneralization(DG)researchhasundergonearapid
+[136],[137].b)adversarialgradientsobtainedfromcategoryor
+acceleration, resulting in an abundant array of principled
+domain classifiers [138], [139], [140], [141], [142]. c) model
+algorithms that can be broadly classified into four categories:
+A(·) using neural networks, such as random CNNs [143], an
+domain alignment, meta-learning, data augmentation, and dis-
+off-the-shelf style transfer model [144], [145], or a learnable
+tributionally robust optimization [96], [97].
+imagegenerator[146].d)injectperturbationintointermediate
+Domain alignment. Domain alignment is the most popu-
+features in the task model [147], [148].
+lar category in domain generalization, which aims to mini-
+Domain adaptation Distributionally robust optimization
+mize differences among different domains and learn domain-
+(DRO),amethodtooptimizeforworst-caselossoverpotential
+invariant representations [98], [96], [99], [100]. Predictors
+test distributions, is also a useful approach to avoid learning
+that rely on the causes of the label to make predictions are
+spurious correlations that hold on average but not in atypical
+created as a result. Several methods, such as invariant risk
+groups [149], [150], [151], [152], [153], [154], [155].
+minimization[101]andrelatedones[102],[103],[104],[105],
+The paper[156] presented an unsupervised domain adapta-
+[106], have been proposed based on the invariance principle
+tion method that also incorporates target domain data during
+from causality. This principle distinguishes predictors that
+training. Their approach involves minimizing the KL diver-
+solely rely on the causes of the label from those that do
+gence between the representations of the source and target
+not. The optimal predictor that only focuses on the causes
+domains for each layer’s output in the model. This objective
+is invariant and min-max optimal [107], [108], [109] under
+aims to eliminate the discrepancy between the source and
+distributionshifts,butthesameisnottrueforotherpredictors.
+target domains. [157] introduced a source domain selection
+To reduce distribution mismatch in domain generalization, algorithm aimed at identifying the most similar source do-
+oneapproachistolearnamappingfunctionthatcanminimize mains by comparing the cosine similarities of each source
+the moments, which is a representation of the distribution, domain with the target domain. Additionally, they minimized
+of the transformed features between source domains [110], thedistancebetweenrepresentationsinthelastfullyconnected
+[111], [112], [113]. Another option for reducing distribution layers of both the source and target domains. On the other
+mismatch is to take the semantic labels into account [114], hand, [158] proposed a gradient reversal layer on the feature
+[115]. The basic idea is to construct the anchor group, the extractor. This layer’s purpose is to reverse the gradient direc-
+positive group (same class as the anchor but from different tion during the back-propagation stage, enabling adversarial
+domains), and the negative group (different class than the training to encourage the model to learn invariant features
+anchor). To achieve this, the anchor and the positive groups across domains. [159] adopted the same strategy as [158] in
+are pulled together, while the anchor and the negative groups their work. [160] keep the batch norm layer active during
+are pushed away [114], [115]. Commonly used distribution inference stage which could adapt to online mode as well.
+divergence measures between two probability distributions Accordingto[161],theyclaimtobethefirstonesinapply-
+are also applied to align the domains [112], [116], [117]. ing adversarial unsupervised domain adaptation to regression
+In domain generalization, adversarial learning [118] is also tasks.Theirmodelcomprisestwopredictionlayers,denotedas
+performed between source domains to learn source domain- h1 and h2. The algorithm in [161] involves four optimization
+agnostic features that are expected to work in novel domains. steps during training: (1)Minimizing the prediction loss of h1
+Simply speaking, the learning objective is to make features on source domain. (2) Maximizing the discrepancy between
+confuseadomaindiscriminator,whichcanbeimplementedas the source and target domains by updating parameters in h2.
+a multi-class domain discriminator [119], [120], [121], [122],
+[123], [124], [125].
+III. APPLICATIONSOFIOTTOWARDSAGI:
+Meta-learning Meta-learning, also known as learning-to- ENHANCEMENTSANDPOTENTIALOPPORTUNITIES
+learn, is a rapidly developing field that has found applications
+In this section, we provide an overview of the primary
+in domain generalization. The main idea behind using meta-
+applicationscenariosofIoTandtheirintegrationwiththeAGI
+learning for DG is to train a model on a range of tasks
+paradigm.
+that involve domain shift, with the aim of improving its
+performanceon newtasks withunseendomains. Forinstance,
+MAML [126] trains a model on meta-train and meta-test A. Smart Grid
+sets to enhance its performance on the meta-test set. Many Over the past decade, concerns about cybersecurity in
+studies [127], [128], [129], [130], [131], [132], [133] have intelligent power electronics systems have grown due to the
+focused on two crucial components in meta-learning, namely widespreadimplementationofnetworkeddigitalcontrolunits.
+episodes,whichareformedfromavailablesamples,andmeta- Numerous studies [162], [163], [164], [165] have demon-
+representation,whichisdefinedin[134]torepresentthemodel strated the vulnerabilities and impacts of modern power elec-
+parameters that are meta-learned. tronics systems across various applications, such as photo-
+Data augmentation To enhance model performance in voltaic (PV) systems, electric vehicles, and intelligent manu-
+testing domains, data augmentation is a natural approach that facturingsystems.Recentresearchhasfocusedondifferentde-
+involves creating new (A(x),y) pairs by applying transfor- tectionapproachestargetingdiversepowerelectronicsapplica-
+mations to original (x,y) pairs. Based on the type of trans- tions,includingDCmicrogrids,PVfarms,andindustrialmotor

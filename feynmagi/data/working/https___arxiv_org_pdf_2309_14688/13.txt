@@ -1,0 +1,80 @@
+𝐿
+(0.1) Discretize the service region Ω into a 𝑚×𝑛 lattice of points, setting 𝑥 = (𝑖−0.5) , 𝑖 =
+𝑖
+𝑛
+𝑊
+1,2,…,𝑛, and 𝑦 = (𝑗−0.5) , 𝑖 = 1,2,…,𝑚.
+𝑗
+𝑚
+(0) (0) (0)
+(0.2) Initialize 𝐻 (𝑥 ) , 𝐻 (𝑥 ) , and 𝑆 (𝑥 ) to satisfy the boundary constraints for 𝑖 =
+𝐼𝑝 𝑖 𝐼𝑑 𝑖 𝐼 𝑖
+1,2,…,𝑛. Set the outer-loop iteration count 𝑘 = 1 and proceed to Stage 1.
+Stage 1: Compute 𝑩(𝒙,𝒚).
+Calculate 𝐵(𝑘)(𝑥 ,𝑦 ) using Eq. (22d) for 𝑖 = 1,2,…,𝑛 , 𝑗 = 1,2,…,𝑚 , taking 𝐻(𝑘−1) (𝑥 ) ,
+𝑖 𝑗 𝐼𝑝 𝑖
+(𝑘−1) (𝑘−1)
+𝐻 (𝑥 ) , and 𝑆 (𝑥 ) as inputs. Note that the integrals are approximated by summations.
+𝐼𝑑 𝑖 𝐼 𝑖
+Proceed to Stage 2.
+Stage 2: Compute 𝑯 (𝒙), 𝑯 (𝒙) and 𝑺 (𝒙).
+𝑰𝒑 𝑰𝒅 𝑰
+(2.1) Set 𝑆̃(𝑘,0) (𝑥 )= 𝑆(𝑘−1) (𝑥 ), 𝑖 = 1,2,…,𝑛. Initialize the inner-loop iteration count 𝑘′ = 1.
+𝐼 𝑖 𝐼 𝑖
+(2.2) Taking 𝐵(𝑘)(𝑥 ,𝑦 ) and
+𝑆̃(𝑘,𝑘′−1)
+(𝑥 ) (𝑖 = 1,2,…,𝑛 , 𝑗 = 1,2,…,𝑚 ) as inputs, calculate
+𝑖 𝑗 𝐼 𝑖
+𝐻̃
+(𝑘,𝑘′)
+(𝑥 ) and 𝐻̃
+(𝑘,𝑘′)
+(𝑥 ) using Eqs. (22a)–(22b).
+𝐼𝑝 𝑖 𝐼𝑑 𝑖
+(2.3) Taking 𝐵(𝑘)(𝑥 ,𝑦 ) , 𝐻̃
+(𝑘,𝑘′)
+(𝑥 ) , and 𝐻̃
+(𝑘,𝑘′)
+(𝑥 ) (𝑖 = 1,2,…,𝑛 , 𝑗 = 1,2,…,𝑚 ) as
+𝑖 𝑗 𝐼𝑝 𝑖 𝐼𝑑 𝑖
+inputs, calculate
+𝑆̃(𝑘,𝑘′)
+(𝑥 ) by (22c).
+𝐼 𝑖
+(2.4) Set 𝑆(𝑘) (𝑥 )= 𝑆̃(𝑘,𝑘′) (𝑥 ) , 𝐻 (𝑘)(𝑥 ) = 𝐻̃ (𝑘,𝑘′) (𝑥 ) , and 𝐻 (𝑘)(𝑥 )= 𝐻̃ (𝑘,𝑘′) (𝑥 ) .
+𝐼 𝑖 𝐼 𝑖 𝐼𝑝 𝑖 𝐼𝑝 𝑖 𝐼𝑑 𝑖 𝐼𝑑 𝑖
+Check for convergence using the predefined error tolerance 𝜀. If the following convergency
+criteria are satisfied: ∑𝑛
+|𝑆̃(𝑘,𝑘′)
+(𝑥
+)−𝑆̃(𝑘,𝑘′−1)
+(𝑥 )| ≤ 𝑛𝜀 and ∑𝑛 (|𝐻̃
+(𝑘,𝑘′)
+(𝑥 )−
+𝑖=1 𝐼 𝑖 𝐼 𝑖 𝑖=1 𝐼𝑝 𝑖
+𝐻̃
+(𝑘,𝑘′−1)
+(𝑥 )|+|𝐻̃
+(𝑘,𝑘′)
+(𝑥 )−𝐻̃
+(𝑘,𝑘′−1)
+(𝑥 )|)≤ 2𝑛𝜀 , then proceed to the next step.
+𝐼𝑝 𝑖 𝐼𝑑 𝑖 𝐼𝑑 𝑖
+Otherwise, update 𝑘′ ←𝑘′+1 and repeat steps (2.2) and (2.3).
+(2.5) Check convergency. If ∑𝑛 |𝑆(𝑘) (𝑥 )−𝑆(𝑘−1) (𝑥 )|≤ 𝑛𝜀 , ∑𝑛 (|𝐻 (𝑘)(𝑥 )−
+𝑖=1 𝐼 𝑖 𝐼 𝑖 𝑖=1 𝐼𝑝 𝑖
+𝐻 (𝑘−1)(𝑥 )|+|𝐻 (𝑘)(𝑥 )−𝐻 (𝑘−1)(𝑥 )|) ≤ 2𝑛𝜀 , and ∑𝑛 ∑𝑚 |𝐵(𝑘)(𝑥 ,𝑦 )−
+𝐼𝑝 𝑖 𝐼𝑑 𝑖 𝐼𝑑 𝑖 𝑖=1 𝑗=1 𝑖 𝑗
+𝐵(𝑘−1)(𝑥 ,𝑦 )| ≤ 𝑚𝑛𝜀 are all satisfied, set 𝑆∗(𝑥 )= 𝑆(𝑘) (𝑥 ) , 𝐻 ∗(𝑥 )= 𝐻 (𝑘)(𝑥 ) ,
+𝑖 𝑗 𝐼 𝑖 𝐼 𝑖 𝐼𝑝 𝑖 𝐼𝑝 𝑖
+𝐻 ∗(𝑥 )= 𝐻 (𝑘)(𝑥 ), and 𝐵∗(𝑥 ,𝑦 ) = 𝐵(𝑘)(𝑥 ,𝑦 ) for 𝑖 = 1,2,…,𝑛, 𝑗 = 1,2,…,𝑚, and
+𝐼𝑑 𝑖 𝐼𝑑 𝑖 𝑖 𝑗 𝑖 𝑗
+end the search. Otherwise, update 𝑘 ← 𝑘+1 and return to Stage 1.
+The optimal CA solution, obtained on the point lattice, can be transformed into a specific layout of
+feeder lines. The methodology for this conversion is detailed in Appendix C.
+4. Numerical case studies
+Section 4.1 outlines the setup of numerical case studies. The accuracy of our CA models is examined
+in Section 4.2. Optimal feeder system designs for a typical case in both high- and low-wage cities are
+presented and discussed in Section 4.3. In Section 4.4, the sensitivity of the optimal feeder design to
+various key operating factors, such as demand pattern, demand rate, size of the service region, and
+14

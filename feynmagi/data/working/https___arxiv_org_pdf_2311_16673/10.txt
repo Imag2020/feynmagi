@@ -1,0 +1,52 @@
+TAHAKOM
+improvement, while the discussion on the use of LLMs in vision-related tasks adds depth to our understanding of
+theirpracticalapplications. ThedetailedpresentationofdiversedatasetsemployedintrainingLLMsemphasizesthe
+importanceofvarieddatainenhancingtheperformanceofthesemodels. Thesurveynotonlyservesasarichresource
+forcurrentstate-of-the-artpracticesinthefieldbutalsoopensupnewavenuesforfutureresearchanddevelopment.
+References
+[1] AshishVaswani,NoamShazeer,NikiParmar,JakobUszkoreit,LlionJones,AidanN.Gomez,LukaszKaiser,and
+IlliaPolosukhin. Attentionisallyouneed. 2017.
+[2] AlexSherstinsky. Fundamentalsofrecurrentneuralnetwork(rnn)andlongshort-termmemory(lstm)network.
+PhysicaD:NonlinearPhenomena,404:132306,2020.
+[3] YutaoSun, LiDong, ShaohanHuang, ShumingMa, YuqingXia, JilongXue, JianyongWang, andFuruWei.
+Retentivenetwork: Asuccessortotransformerforlargelanguagemodels. arXivpreprintarXiv:2307.08621,2023.
+[4] AshishVaswani,NoamShazeer,NikiParmar,JakobUszkoreit,LlionJones,AidanNGomez,ŁukaszKaiser,and
+IlliaPolosukhin. Attentionisallyouneed. Advancesinneuralinformationprocessingsystems,30,2017.
+[5] HengshuangZhao,JiayaJia,andVladlenKoltun. Exploringself-attentionforimagerecognition. InProceedings
+oftheIEEE/CVFconferenceoncomputervisionandpatternrecognition,pages10076–10085,2020.
+[6] QihangFan,HuaiboHuang,MingruiChen,HongminLiu,andRanHe. Rmt: Retentivenetworksmeetvision
+transformers. arXivpreprintarXiv:2309.11523,2023.
+[7] AlexeyDosovitskiy,LucasBeyer,AlexanderKolesnikov,DirkWeissenborn,XiaohuaZhai,ThomasUnterthiner,
+MostafaDehghani,MatthiasMinderer,GeorgHeigold,SylvainGelly,etal. Animageisworth16x16words:
+Transformersforimagerecognitionatscale. arXivpreprintarXiv:2010.11929,2020.
+[8] Keiron O’Shea and Ryan Nash. An introduction to convolutional neural networks. arXiv preprint
+arXiv:1511.08458,2015.
+[9] contenteratechspace. Whatisavisuallanguagemodel,2023. Accessed: 2023-10-29.
+[10] WayneXinZhao,KunZhou,JunyiLi,TianyiTang,XiaoleiWang,YupengHou,YingqianMin,BeichenZhang,
+JunjieZhang,ZicanDong,etal. Asurveyoflargelanguagemodels. arXivpreprintarXiv:2303.18223,2023.
+[11] MuhammadUsmanHadi,RQureshi,AShah,MIrfan,AZafar,MBShaikh,NAkhtar,JWu,andSMirjalili. A
+surveyonlargelanguagemodels: Applications,challenges,limitations,andpracticalusage. TechRxiv,2023.
+[12] YupengChang,XuWang,JindongWang,YuanWu,LinyiYang,KaijieZhu,HaoChen,XiaoyuanYi,Cunxiang
+Wang, Yidong Wang, Wei Ye, Yue Zhang, Yi Chang, Philip S. Yu, Qiang Yang, and Xing Xie. A survey on
+evaluationoflargelanguagemodels,2023.
+[13] SiquLong,FeiqiCao,SoyeonCarenHan,andHaiqinYang. Vision-and-languagepretrainedmodels: Asurvey.
+arXivpreprintarXiv:2204.07356,2022.
+[14] llamaindex. llamaindexwebsite,2023. Accessed: 2023-10-29.
+[15] JunChen,DeyaoZhu1XiaoqianShen1XiangLi,ZechunLiu2PengchuanZhang,RaghuramanKrishnamoorthi2
+Vikas Chandra2 Yunyang Xiong, and Mohamed Elhoseiny. Minigpt-v2: Large language model as a unified
+interfaceforvision-languagemulti-tasklearning. arXivpreprintarXiv:2310.09478,2023.
+[16] Yue Zhao, Ishan Misra, Philipp Krähenbühl, and Rohit Girdhar. Learning video representations from large
+languagemodels. InProceedingsoftheIEEE/CVFConferenceonComputerVisionandPatternRecognition
+(CVPR),pages6586–6597,June2023.
+[17] SivanDoveh,AssafArbelle,SivanHarary,EliSchwartz,RoeiHerzig,RajaGiryes,RogerioFeris,Rameswar
+Panda, Shimon Ullman, and Leonid Karlinsky. Teaching structured vision & language concepts to vision &
+languagemodels. InProceedingsoftheIEEE/CVFConferenceonComputerVisionandPatternRecognition,
+pages2657–2668,2023.
+[18] YiningHong,HaoyuZhen,PeihaoChen,ShuhongZheng,YilunDu,ZhenfangChen,andChuangGan. 3d-llm:
+Injectingthe3dworldintolargelanguagemodels. arXivpreprintarXiv:2307.12981,2023.
+[19] ParthaPratimRay. Chatgpt: Acomprehensivereviewonbackground,applications,keychallenges,bias,ethics,
+limitationsandfuturescope. InternetofThingsandCyber-PhysicalSystems,2023.
+[20] Zhenfei Yin, Jiong Wang, Jianjian Cao, Zhelun Shi, Dingning Liu, Mukai Li, Lu Sheng, Lei Bai, Xiaoshui
+Huang,ZhiyongWang,etal. Lamm: Language-assistedmulti-modalinstruction-tuningdataset,framework,and
+benchmark. arXivpreprintarXiv:2306.06687,2023.
+11

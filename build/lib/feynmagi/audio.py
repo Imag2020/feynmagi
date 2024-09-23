@@ -22,12 +22,12 @@ if device =='cuda':
 else:
     model_path="openai/whisper-small"
 
-
+'''
 processor = WhisperProcessor.from_pretrained(model_path)
 model = WhisperForConditionalGeneration.from_pretrained(model_path)
 model.config.forced_decoder_ids = None
 model.to(device)
-
+'''
 
 def resample_audio(input_path, output_path, new_sample_rate=16000):
     # Charger l'audio avec le taux d'échantillonnage d'origine

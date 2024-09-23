@@ -1,43 +1,21 @@
 Metadata-Version: 2.1
 Name: feynmagi
-Version: 0.1.30
+Version: 0.1.31
 Summary: Feynmagi is a multi-modal LLM interactive agents solution.
 Home-page: https://github.com/Imag2020/feynmagi
 Author: Imed MAGROUNE
 Author-email: imed@magroune.net
+License: UNKNOWN
+Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
-Requires-Dist: beautifulsoup4==4.12.3
-Requires-Dist: docker_py==1.10.6
-Requires-Dist: Flask==3.0.3
-Requires-Dist: Flask_SocketIO==5.3.6
-Requires-Dist: groq==0.9.0
-Requires-Dist: ipython==8.16.1
-Requires-Dist: Jinja2==3.1.2
-Requires-Dist: librosa==0.10.1
-Requires-Dist: numpy==1.26.4
-Requires-Dist: openai==1.34.7
-Requires-Dist: orjson==3.10.5
-Requires-Dist: Pillow==10.3.0
-Requires-Dist: pydub==0.25.1
-Requires-Dist: regex==2023.10.3
-Requires-Dist: Requests==2.32.3
-Requires-Dist: selenium==4.21.0
-Requires-Dist: watchdog>=3.0.0
-Requires-Dist: pdfplomber==0.11.2
-Requires-Dist: charset-normalizer==3.3.0
-Requires-Dist: cryptography==41.0.1
-Requires-Dist: soundfile==0.12.1
-Requires-Dist: transformers<5.0.0,>=4.41.0
-Requires-Dist: torch>=2.1.0
-Requires-Dist: apscheduler==3.10.4
 
 <p align="center">
   <img src="feynmagi/static/img/Feynmagi_64x64.png" align="left" />
-  <h1 align="center">Feynmagi V 0.1.30 </h1>
+  <h1 align="center">Feynmagi V 0.1.31 </h1>
 </p>
 
 
@@ -58,6 +36,10 @@ Requires-Dist: apscheduler==3.10.4
 - You can access it from any browser at localhost:5000
 
 ## 🌟 Feynmagi is a multi-modal tool for  MLLM interactive agents that integrates all the latest AI technologies into a single application, capable of running models locally on CPU or GPU (via Ollama). It incorporates proprietary code for embedding, RAG, and interactive AI, designed to model intelligent AIs with the goal of experimenting with AGI.
+In this alpha test version 0.1.30, we add:
+- Agents management with next agent call
+- UI messages I/O display update with atatch button
+  
 In this alpha test version 0.1.30, we add:
 - Agents management with live run and cron scheduler 
 - swicth to gemma2 default local llm
@@ -88,4 +70,6 @@ We welcome any contributions to the development towards this stated goal.
 
 
 Visit us at [feynmagi.com](http://feynmagi.com) or email us at [imed@feynmagi.com](mailto:imed@feynmagi.com).
+
+
 

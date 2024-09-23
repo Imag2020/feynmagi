@@ -1,0 +1,763 @@
+ Artificial Intelligence  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+Grab your spot at the free arXiv Accessibility Forum
+Forum Schedule
+
+We gratefully acknowledge support fromthe Simons Foundation, Stockholm University, and all contributors. Donate
+
+
+
+
+
+ >
+cs.AI
+
+
+
+
+
+
+Help | Advanced Search
+
+
+
+
+All fields
+Title
+Author
+Abstract
+Comments
+Journal reference
+ACM classification
+MSC classification
+Report number
+arXiv identifier
+DOI
+ORCID
+arXiv author ID
+Help pages
+Full text
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+open search
+
+
+
+
+
+
+GO
+
+
+
+open navigation menu
+
+
+quick links
+
+Login
+Help Pages
+About
+
+
+
+
+
+
+
+
+
+
+
+Artificial Intelligence
+Authors and titles for recent submissions
+
+
+
+          Mon, 29 Jul 2024
+        
+
+
+          Fri, 26 Jul 2024
+        
+
+
+          Thu, 25 Jul 2024
+        
+
+
+          Wed, 24 Jul 2024
+        
+
+
+          Tue, 23 Jul 2024
+        
+
+See today's new changes
+Total of 565 entries :      1-25
+26-50
+51-75
+76-100
+...
+551-565
+
+Showing up to 25 entries per page:
+          
+      fewer
+ |
+          
+      more
+ |
+          
+      all
+
+
+Mon, 29 Jul 2024 (showing first 25 of 82 entries )
+
+[1]
+
+        arXiv:2407.18848
+      
+      
+        [pdf, other]
+    
+
+
+Title:
+          Repairing Networks of EL⊥ Ontologies using Weakening and Completing -- Extended version
+        
+Ying Li, Patrick Lambrix
+Comments:
+          This is a slightly revised and extended version of a paper published at ISWC 2024. arXiv admin note: text overlap with arXiv:2208.00486
+
+Subjects:
+Artificial Intelligence (cs.AI); Logic in Computer Science (cs.LO)
+        
+
+
+
+[2]
+
+        arXiv:2407.18782
+      
+      
+        [pdf, other]
+    
+
+
+Title:
+          Understanding XAI Through the Philosopher's Lens: A Historical Perspective
+        
+Martina Mattioli, Antonio Emanuele Cinà, Marcello Pelillo
+Comments:
+          10 pages
+        
+Subjects:
+Artificial Intelligence (cs.AI)
+
+
+
+
+[3]
+
+        arXiv:2407.18770
+      
+      
+        [pdf, other]
+    
+
+
+Title:
+          Any four real numbers are on all fours with analogy
+        
+Yves Lepage, Miguel Couceiro
+Subjects:
+Artificial Intelligence (cs.AI)
+
+
+
+
+[4]
+
+        arXiv:2407.18749
+      
+      
+        [pdf, other]
+    
+
+
+Title:
+          Multi-Robot System Architecture design in SysML and BPMN
+        
+Ahmed R. Sadik (Honda Research Institute Europe, Offenbach am Main, Germany), Christian Goerick (Honda Research Institute Europe, Offenbach am Main, Germany)
+Journal-ref:
+          2022 Advances in Science, Technology and Engineering Systems Journal (ASTESJ) - Special Issue on Multidisciplinary Sciences and Engineering
+        
+Subjects:
+Artificial Intelligence (cs.AI); Robotics (cs.RO); Software Engineering (cs.SE)
+        
+
+
+
+[5]
+
+        arXiv:2407.18722
+      
+      
+        [pdf, other]
+    
+
+
+Title:
+          Neurosymbolic AI for Enhancing Instructability in Generative AI
+        
+Amit Sheth, Vishal Pallagani, Kaushik Roy
+Subjects:
+Artificial Intelligence (cs.AI)
+
+
+
+
+[6]
+
+        arXiv:2407.18712
+      
+      
+        [pdf, other]
+    
+
+
+Title:
+          Cluster-norm for Unsupervised Probing of Knowledge
+        
+Walter Laurito, Sharan Maiya, Grégoire Dhimoïla, Owen (Ho Wan)Yeung, Kaarel Hänni
+Comments:
+          34 pages, 35 figures
+        
+Subjects:
+Artificial Intelligence (cs.AI); Computation and Language (cs.CL); Machine Learning (cs.LG)
+        
+
+
+
+[7]
+
+        arXiv:2407.18690
+      
+      
+        [pdf, other]
+    
+
+
+Title:
+          Collaborative Evolving Strategy for Automatic Data-Centric Development
+        
+Xu Yang, Haotian Chen, Wenjun Feng, Haoxue Wang, Zeqi Ye, Xinjie Shen, Xiao Yang, Shizhao Sun, Weiqing Liu, Jiang Bian
+Comments:
+          23 pages, 7 figures
+        
+Subjects:
+Artificial Intelligence (cs.AI)
+
+
+
+
+[8]
+
+        arXiv:2407.18607
+      
+      
+        [pdf, other]
+    
+
+
+Title:
+          Using GPT-4 to guide causal machine learning
+        
+Anthony C. Constantinou, Neville K. Kitson, Alessio Zanga
+Subjects:
+Artificial Intelligence (cs.AI); Machine Learning (cs.LG)
+        
+
+
+
+[9]
+
+        arXiv:2407.18422
+      
+      
+        [pdf, other]
+    
+
+
+Title:
+          A Black Swan Hypothesis in Markov Decision Process via Irrationality
+        
+Hyunin Lee, David Abel, Ming Jin, Javad Lavaei, Somayeh Sojoudi
+Subjects:
+Artificial Intelligence (cs.AI)
+
+
+
+
+[10]
+
+        arXiv:2407.18335
+      
+      
+        [pdf, other]
+    
+
+
+Title:
+          Combining Cognitive and Generative AI for Self-explanation in Interactive AI Agents
+        
+Shalini Sushri, Rahul Dass, Rhea Basappa, Hong Lu, Ashok Goel
+Comments:
+          10 pages, 2 figures, 2 tables, 1 appendix, HEXED Workshop @EDM July 2024
+        
+Subjects:
+Artificial Intelligence (cs.AI)
+
+
+
+
+[11]
+
+        arXiv:2407.18316
+      
+      
+        [pdf, other]
+    
+
+
+Title:
+          Affectively Framework: Towards Human-like Affect-Based Agents
+        
+Matthew Barthet, Roberto Gallotta, Ahmed Khalifa, Antonios Liapis, Georgios N. Yannakakis
+Comments:
+          5 pages, 2 figures, 2 tables
+        
+Subjects:
+Artificial Intelligence (cs.AI)
+
+
+
+
+[12]
+
+        arXiv:2407.18913
+      
+          (cross-list from cs.LG)
+
+        [pdf, other]
+    
+
+
+Title:
+          SOAP-RL: Sequential Option Advantage Propagation for Reinforcement Learning in POMDP Environments
+        
+Shu Ishida, João F. Henriques
+Subjects:
+Machine Learning (cs.LG); Artificial Intelligence (cs.AI)
+        
+
+
+
+[13]
+
+        arXiv:2407.18906
+      
+          (cross-list from cs.CV)
+
+        [pdf, other]
+    
+
+
+Title:
+          A Scalable Quantum Non-local Neural Network for Image Classification
+        
+Sparsh Gupta, Debanjan Konar, Vaneet Aggarwal
+Comments:
+          draft, 13 pages (including references and appendix), 5 figures
+        
+Subjects:
+Computer Vision and Pattern Recognition (cs.CV); Artificial Intelligence (cs.AI); Information Theory (cs.IT); Machine Learning (cs.LG); Quantum Physics (quant-ph)
+        
+
+
+
+[14]
+
+        arXiv:2407.18902
+      
+          (cross-list from cs.RO)
+
+        [pdf, other]
+    
+
+
+Title:
+          Lessons from Learning to Spin "Pens"
+        
+Jun Wang, Ying Yuan, Haichuan Che, Haozhi Qi, Yi Ma, Jitendra Malik, Xiaolong Wang
+Comments:
+          Website: this https URL
+
+Subjects:
+Robotics (cs.RO); Artificial Intelligence (cs.AI); Machine Learning (cs.LG)
+        
+
+
+
+[15]
+
+        arXiv:2407.18901
+      
+          (cross-list from cs.SE)
+
+        [pdf, other]
+    
+
+
+Title:
+          AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents
+        
+Harsh Trivedi, Tushar Khot, Mareike Hartmann, Ruskin Manku, Vinty Dong, Edward Li, Shashank Gupta, Ashish Sabharwal, Niranjan Balasubramanian
+Comments:
+          ACL'24 Camera Ready
+        
+Subjects:
+Software Engineering (cs.SE); Artificial Intelligence (cs.AI); Computation and Language (cs.CL); Machine Learning (cs.LG)
+        
+
+
+
+[16]
+
+        arXiv:2407.18899
+      
+          (cross-list from cs.CV)
+
+        [pdf, other]
+    
+
+
+Title:
+          Learn from the Learnt: Source-Free Active Domain Adaptation via Contrastive Sampling and Visual Persistence
+        
+Mengyao Lyu, Tianxiang Hao, Xinhao Xu, Hui Chen, Zijia Lin, Jungong Han, Guiguang Ding
+Comments:
+          ECCV 2024
+        
+Subjects:
+Computer Vision and Pattern Recognition (cs.CV); Artificial Intelligence (cs.AI); Machine Learning (cs.LG)
+        
+
+
+
+[17]
+
+        arXiv:2407.18892
+      
+          (cross-list from cs.RO)
+
+        [pdf, other]
+    
+
+
+Title:
+          SHANGUS: Deep Reinforcement Learning Meets Heuristic Optimization for Speedy Frontier-Based Exploration of Autonomous Vehicles in Unknown Spaces
+        
+Seunghyeop Nam, Tuan Anh Nguyen, Eunmi Choi, Dugki Min
+Subjects:
+Robotics (cs.RO); Artificial Intelligence (cs.AI); Systems and Control (eess.SY)
+        
+
+
+
+[18]
+
+        arXiv:2407.18875
+      
+          (cross-list from cs.LG)
+
+        [pdf, other]
+    
+
+
+Title:
+          Generative Adversarial Networks for Imputing Sparse Learning Performance
+        
+Liang Zhang, Mohammed Yeasin, Jionghao Lin, Felix Havugimana, Xiangen Hu
+Subjects:
+Machine Learning (cs.LG); Artificial Intelligence (cs.AI)
+        
+
+
+
+[19]
+
+        arXiv:2407.18874
+      
+          (cross-list from cs.HC)
+
+        [pdf, other]
+    
+
+
+Title:
+          Engaging with Children's Artwork in Mixed Visual-Ability Families
+        
+Arnavi Chheda-Kothary, Jacob O. Wobbrock, Jon E. Froehlich
+Subjects:
+Human-Computer Interaction (cs.HC); Artificial Intelligence (cs.AI)
+        
+
+
+
+[20]
+
+        arXiv:2407.18854
+      
+          (cross-list from cs.CV)
+
+        [pdf, other]
+    
+
+
+Title:
+          Unifying Visual and Semantic Feature Spaces with Diffusion Models for Enhanced Cross-Modal Alignment
+        
+Yuze Zheng, Zixuan Li, Xiangxian Li, Jinxing Liu, Yuqing Wang, Xiangxu Meng, Lei Meng
+Subjects:
+Computer Vision and Pattern Recognition (cs.CV); Artificial Intelligence (cs.AI)
+        
+
+
+
+[21]
+
+        arXiv:2407.18847
+      
+          (cross-list from cs.LG)
+
+        [pdf, other]
+    
+
+
+Title:
+          Enhancing material property prediction with ensemble deep graph convolutional networks
+        
+Chowdhury Mohammad Abid Rahman, Ghadendra Bhandari, Nasser M Nasrabadi, Aldo H. Romero, Prashnna K. Gyawali
+Comments:
+          9 pages, 6 figures, 2 tables
+        
+Subjects:
+Machine Learning (cs.LG); Artificial Intelligence (cs.AI)
+        
+
+
+
+[22]
+
+        arXiv:2407.18827
+      
+          (cross-list from cs.IR)
+
+        [pdf, other]
+    
+
+
+Title:
+          Human-artificial intelligence teaming for scientific information extraction from data-driven additive manufacturing research using large language models
+        
+Mutahar Safdar, Jiarui Xie, Andrei Mircea, Yaoyao Fiona Zhao
+Comments:
+          11 pages, 5 Figures, 3 Tables. This paper has been accepted to be published in the proceedings of IDETC-CIE 2024
+        
+Subjects:
+Information Retrieval (cs.IR); Artificial Intelligence (cs.AI)
+        
+
+
+
+[23]
+
+        arXiv:2407.18812
+      
+          (cross-list from cs.LG)
+
+        [pdf, other]
+    
+
+
+Title:
+          Online Planning in POMDPs with State-Requests
+        
+Raphael Avalos, Eugenio Bargiacchi, Ann Nowé, Diederik M. Roijers, Frans A. Oliehoek
+Journal-ref:
+          Reinforcement Learning Journal, vol. 1, no. 1, 2024, pp. TBD
+        
+Subjects:
+Machine Learning (cs.LG); Artificial Intelligence (cs.AI)
+        
+
+
+
+[24]
+
+        arXiv:2407.18808
+      
+          (cross-list from stat.ML)
+
+        [pdf, other]
+    
+
+
+Title:
+          Learning Chaotic Systems and Long-Term Predictions with Neural Jump ODEs
+        
+Florian Krach, Josef Teichmann
+Subjects:
+Machine Learning (stat.ML); Artificial Intelligence (cs.AI); Machine Learning (cs.LG); Dynamical Systems (math.DS); Probability (math.PR)
+        
+
+
+
+[25]
+
+        arXiv:2407.18807
+      
+          (cross-list from cs.LG)
+
+        [pdf, other]
+    
+
+
+Title:
+          Robust Learning in Bayesian Parallel Branching Graph Neural Networks: The Narrow Width Limit
+        
+Zechen Zhang, Haim Sompolinsky
+Subjects:
+Machine Learning (cs.LG); Artificial Intelligence (cs.AI)
+        
+
+
+
+Total of 565 entries :      1-25
+26-50
+51-75
+76-100
+...
+551-565
+
+Showing up to 25 entries per page:
+          
+      fewer
+ |
+          
+      more
+ |
+          
+      all
+
+
+ 
+
+
+
+
+
+
+
+
+About
+Help
+
+
+
+
+
+contact arXivClick here to contact arXiv
+ Contact
+
+
+subscribe to arXiv mailingsClick here to subscribe
+ Subscribe
+
+
+
+
+
+
+
+
+
+
+
+Copyright
+Privacy Policy
+
+
+
+
+Web Accessibility Assistance
+
+
+arXiv Operational Status 
+                    Get status notifications via
+                    email
+                    or slack
+
+
+
+
+
+ 
+
+
+
+
+

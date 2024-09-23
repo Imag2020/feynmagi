@@ -1,0 +1,58 @@
+𝐶 =
+∫𝐿 ∫𝑊 𝐻𝐼𝑝(𝑥)
+𝜆
+(𝑥,𝑦)𝑑𝑦𝑑𝑥+∫𝐿 ∫𝑊 (𝜏𝑎𝑆
+(𝑥)𝐻
+(𝑥)∙∫𝑊
+𝜆 (𝑥,𝑦)𝑑𝑦+𝑡 +
+𝑊𝑝 𝑥=0 𝑦=0 2 𝑝 𝑥=0 𝑦=0 2 𝐼 𝐼𝑝 𝑦=0 𝑝 𝑓−𝑡
+𝐻𝑡)𝜆
+(𝑥,𝑦)𝑑𝑦𝑑𝑥 (3)
+𝑝
+2
+𝐶 =
+∫𝐿 ∫𝑊
+(𝑡
++𝐻𝐼𝑑(𝑥) +𝜏𝑏𝑆
+(𝑥)𝐻
+∙∫𝑊
+𝜆 (𝑥,𝑦)𝑑𝑦)𝜆 (𝑥,𝑦)𝑑𝑦𝑑𝑥 (4)
+𝑊𝑑 𝑥=0 𝑦=0 𝑡−𝑓 2 2 𝐼 𝑡 𝑦=0 𝑑 𝑑
+where 𝐶 and 𝐶 denote the total waiting and transfer times for patrons traveling to and from the
+𝑊𝑝 𝑊𝑑
+terminal, respectively. The first term on the RHS of (3) corresponds to the total waiting time at the
+feeder stops, with 𝐻 (𝑥)⁄2 being the average waiting time per patron for the bus line located at 𝑥.
+𝐼𝑝
+The second term on the RHS of (3) accounts for the total patron delay at the terminal, which comprises
+three components: the time lost due to patrons’ alighting process from feeder buses, the transfer delay
+from feeder to trunk-line transit, and the waiting time for a trunk-line vehicle. Here, 𝜏 denotes the
+𝑎
+alighting time per patron, 𝑡 the transfer delay per patron (including walking time), and 𝐻 the
+𝑓−𝑡 𝑡
+trunk-line service headway at the terminal. These components are illustrated in Fig. 2. Note in particular
+𝑊
+that 𝑆 (𝑥)𝐻 (𝑥)∫ 𝜆 (𝑥,𝑦)𝑑𝑦 represents the number of onboard patrons per bus on a line located
+𝐼 𝐼𝑝 𝑦=0 𝑝
+at 𝑥, while
+𝜏𝑎𝑆
+(𝑥)𝐻
+(𝑥)∫𝑊
+𝜆 (𝑥,𝑦)𝑑𝑦 corresponds to the average time loss per patron during the
+2 𝐼 𝐼𝑝 𝑦=0 𝑝
+alighting process at the terminal. Similarly, the three components on the RHS of (4) are: the transfer
+delay from trunk-line to feeder, the waiting time for the feeder service, and the boarding time loss,
+where 𝑡 denotes the transfer delay per patron and 𝜏 the boarding time per patron.
+𝑡−𝑓 𝑏
+The boarding and alighting time losses in (3) and (4) are significant, as all patrons will board or
+alight at the terminal, resulting in the longest bus dwell time at this location. Regrettably, these factors
+were overlooked in previous feeder design models (e.g., Chang et al., 1991; Sivakumaran et al., 2014;
+Su et al., 2019; Badia et al., 2020; Yang et al., 2020).
+Additionally, note that the formulas for 𝐶 and 𝐶 are asymmetrical. Thus, modeling a single
+𝑊𝑝 𝑊𝑑
+direction of travel or two symmetrical directions (e.g., Chang and Schonfeld, 1991; Kim and Schonfeld,
+2012; Sivakumaran et al., 2012) is insufficient for optimal feeder system design.
+Fig. 2 Patron delays at the terminal (in the patron-collection direction)
+2.2.3 In-vehicle travel cost
+The total in-vehicle travel time per operation hour, 𝐶 , is composed of three parts: (i) the time to
+𝑇
+8

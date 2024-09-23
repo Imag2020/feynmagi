@@ -1,0 +1,55 @@
+TAHAKOM
+[21] ShuhuiWu,ZengmingTang,ZongyiGuo,WeiweiZhang,BaoliangCui,HaihongTang,andWeimingLu. Pumgpt:
+Alargevision-languagemodelforproductunderstanding. arXivpreprintarXiv:2308.09568,2023.
+[22] WenhaiWang,ZheChen,XiaokangChen,JiannanWu,XizhouZhu,GangZeng,PingLuo,TongLu,JieZhou,
+YuQiao,etal. Visionllm: Largelanguagemodelisalsoanopen-endeddecoderforvision-centrictasks. arXiv
+preprintarXiv:2305.11175,2023.
+[23] MelissaDell,JacobCarlson,TomBryan,EmilySilcock,AbhishekArora,ZejiangShen,LucaD’Amico-Wong,
+Quan Le, Pablo Querubin, and Leander Heldring. American stories: A large-scale structured text dataset of
+historicalusnewspapers. arXivpreprintarXiv:2308.12477,2023.
+[24] Luca Soldaini, Rodney Kinney, Akshita Bhagia, Dustin Schwenk, David Atkinson, Russell Authur, Khyathi
+Chandu,JenniferDumas,LiLucy,XinxiLyu,IanMagnusson,AakankshaNaik,CrystalNam,MatthewE.Peters,
+AbhilashaRavichander,ZejiangShen,EmmaStrubell,NishantSubramani,OyvindTafjord,EvanPeteWalsh,
+HannanehHajishirzi,NoahA.Smith,LukeZettlemoyer,IzBeltagy,DirkGroeneveld,JesseDodge,andKyle
+Lo. Dolma: AnOpenCorpusof3TrillionTokensforLanguageModelPretrainingResearch. Technicalreport,
+AllenInstituteforAI,2023. ReleasedunderImpACTLicenseasMediumRiskartifact,https://github.com/
+allenai/dolma.
+[25] Soldaini,LucaandLo,KyleandKinney,RodneyandNaik,AakankshaandRavichander,AbhilashaandBhagia,
+Akshita and Groeneveld, Dirk and Schwenk, Dustin and Magnusson, Ian and Chandu, Khyathi. The Dolma
+Toolkit,2023. Apache2.0License,Version0.9.0,https://github.com/allenai/dolma.
+[26] ArielN.Lee,ColeJ.Hunter,andNatanielRuiz. Platypus: Quick,cheap,andpowerfulrefinementofllms. 2023.
+[27] YushiBai,XinLv,JiajieZhang,HongchangLyu,JiankaiTang,ZhidianHuang,ZhengxiaoDu,XiaoLiu,Aohan
+Zeng,LeiHou,YuxiaoDong,JieTang,andJuanziLi. Longbench: Abilingual,multitaskbenchmarkforlong
+contextunderstanding,2023.
+[28] ShahulEs. Orca-chat: Ahigh-qualityexplanation-stylechatdataset. https://huggingface.co/datasets/
+shahules786/orca-chat/,2023.
+[29] Jianguo Zhang, Kun Qian, Zhiwei Liu, Shelby Heinecke, Rui Meng, Ye Liu, Zhou Yu, , Huan Wang, Silvio
+Savarese, andCaimingXiong. Dialogstudio: Towardsrichestandmostdiverseunifieddatasetcollectionfor
+conversationalai,2023.
+[30] LianminZheng,Wei-LinChiang,YingSheng,SiyuanZhuang,ZhanghaoWu,YonghaoZhuang,ZiLin,Zhuohan
+Li, DachengLi, Eric.PXing, HaoZhang, JosephE.Gonzalez, andIonStoica. Judgingllm-as-a-judgewith
+mt-benchandchatbotarena,2023.
+[31] XiaoLiu,HanyuLai,HaoYu,YifanXu,AohanZeng,ZhengxiaoDu,PengZhang,YuxiaoDong,andJieTang.
+Webglm: Towardsanefficientweb-enhancedquestionansweringsystemwithhumanpreferences,2023.
+[32] SuriyaGunasekar,YiZhang,JyotiAneja,CaioCésarTeodoroMendes,AllieDelGiorno,SivakanthGopi,Mojan
+Javaheripi,PieroKauffmann,GustavodeRosa,OlliSaarikivi,etal. Textbooksareallyouneed. arXivpreprint
+arXiv:2306.11644,2023.
+[33] Zeqiu Wu, Yushi Hu, Weijia Shi, Nouha Dziri, Alane Suhr, Prithviraj Ammanabrolu, Noah A Smith, Mari
+Ostendorf, and Hannaneh Hajishirzi. Fine-grained human feedback gives better rewards for language model
+training. arXivpreprintarXiv:2306.01693,2023.
+[34] Guan Wang, Sijie Cheng, Xianyuan Zhan, Xiangang Li, Sen Song, and Yang Liu. Openchat: Advancing
+open-sourcelanguagemodelswithmixed-qualitydata. arXivpreprintarXiv:2309.11235,2023.
+[35] Vicente Ordonez, Girish Kulkarni, and Tamara Berg. Im2text: Describing images using 1 million captioned
+photographs. Advancesinneuralinformationprocessingsystems,24,2011.
+[36] XinleiChen,HaoFang,Tsung-YiLin,RamakrishnaVedantam,SaurabhGupta,PiotrDollár,andCLawrenceZit-
+nick.Microsoftcococaptions:Datacollectionandevaluationserver.arxiv2015.arXivpreprintarXiv:1504.00325,
+2015.
+[37] BartThomee,DavidAShamma,GeraldFriedland,BenjaminElizalde,KarlNi,DouglasPoland,DamianBorth,
+andLi-JiaLi. Yfcc100m: Thenewdatainmultimediaresearch. CommunicationsoftheACM,59(2):64–73,2016.
+[38] RanjayKrishna,YukeZhu,OliverGroth,JustinJohnson,KenjiHata,JoshuaKravitz,StephanieChen,Yannis
+Kalantidis,Li-JiaLi,DavidAShamma,etal.Visualgenome:Connectinglanguageandvisionusingcrowdsourced
+denseimageannotations. Internationaljournalofcomputervision,123:32–73,2017.
+[39] PiyushSharma,NanDing,SebastianGoodman,andRaduSoricut. Conceptualcaptions: Acleaned,hypernymed,
+imagealt-textdatasetforautomaticimagecaptioning.InProceedingsofthe56thAnnualMeetingoftheAssociation
+forComputationalLinguistics(Volume1: LongPapers),pages2556–2565,2018.
+12

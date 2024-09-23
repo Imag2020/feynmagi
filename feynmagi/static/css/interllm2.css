@@ -83,22 +83,6 @@ body {
     overflow: auto;
 }
 
-#footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
-    background-color: #E2EDFC;
-    display: flex;
-    align-items: center;
-    z-index: 100;
-}
-
-#message-area {
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-}
 
 #info-select
 {
@@ -409,3 +393,142 @@ button:active {
     width: 18rem; /* Largeur fixe pour les cartes */
     margin: 10px; /* Espacement entre les cartes */
 }
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #E2EDFC;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+#message-area {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+#attach-button {
+    margin-right: 10px;
+    flex-shrink: 0; /* Empêche le bouton de rétrécir */
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: black; /* Assure que l'icône est visible */
+}
+
+#textarea-container {
+    position: relative;
+    flex-grow: 1;
+}
+
+#message-textarea {
+    width: 100%;
+    border-radius: 15px; /* 1. Contour arrondi */
+    padding-right: 50px; /* 3. Marge pour le texte */
+    box-sizing: border-box;
+    padding-left: 10px; /* Ajoute un padding à gauche pour le confort */
+}
+
+#send-button,
+#stop-button {
+    position: absolute; /* 2. Superposer les boutons sur la zone de saisie */
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black; /* Définit la couleur de l'icône */
+    font-size: 20px;
+}
+
+#send-button span,
+#stop-button span {
+    font-size: 20px;
+    color: inherit; /* Hérite de la couleur du bouton */
+}
+
+#send-button:hover,
+#stop-button:hover,
+#attach-button:hover {
+    color: #007BFF; /* Change la couleur au survol pour un effet visuel */
+}
+
+
+#chat-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.message-bubble {
+    position: relative;
+    max-width: 70%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: #e1e8ed;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.message-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.llm-message {
+    justify-content: flex-start; /* Aligné à gauche */
+}
+
+.llm-message .message-bubble {
+    background-color: #d1ecf1; /* Couleur pour les messages du LLM */
+    border-bottom-left-radius: 0;
+}
+
+.user-message {
+    justify-content: flex-end; /* Aligné à droite */
+}
+
+.user-message .message-bubble {
+    background-color: #d4edda; /* Couleur pour les messages de l'utilisateur */
+    border-bottom-right-radius: 0;
+}
+
+.message-triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.llm-triangle {
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #d1ecf1 transparent transparent;
+    left: -10px;
+    top: 10px;
+}
+
+.user-triangle {
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #d4edda;
+    right: -10px;
+    top: 10px;
+}
+
+
+

@@ -1,0 +1,71 @@
+LevelsofAGI
+ofAGI ontology,whichoffersa morenuancedway to de- October20,2023.
+fineprogresstowardAGIbyconsideringgenerality(either
+Narrow or General) in tandem with five levels of perfor- Andreas, J., Begusˇ, G., Bronstein, M. M., Diamant, R.,
+mance (Emerging, Competent, Expert, Virtuoso, and Su- Delaney, D., Gero, S., Goldwasser, S., Gruber, D. F.,
+perhuman). We reflected on how current AI systems and de Haas, S., Malkin, P., Pavlov, N., Payne, R., Petri,
+AGIdefinitionsfitintothisframing. Further,wediscussed G., Rus, D., Sharma, P., Tchernov, D., Tønnesen,
+the implications of our principles for developing a living, P., Torralba, A., Vogt, D., and Wood, R. J. Toward
+ecologicallyvalidAGIbenchmark,andarguethatsuchan understanding the communication in sperm whales.
+endeavor, while sure to be challenging, is vital to engage iScience, 25(6):104393, 2022. ISSN 2589-0042.
+with. doi: https://doi.org/10.1016/j.isci.2022.104393. URL
+https://www.sciencedirect.com/science/article/pii/S
+Finally, we considered how our principles and ontology
+can reshape discussions around the risks associated with Anil, R., Dai, A. M., Firat, O., and et al. PaLM
+AGI.Notably,weobservedthatAGIisnotnecessarilysyn- 2 Technical Report. CoRR, abs/2305.10403,
+onymouswithautonomy. WeintroducedLevelsofAuton- 2023. doi: 10.48550/arXiv.2305.10403. URL
+omythatareunlocked,butnotdeterminedby,progression https://arxiv.org/abs/2305.10403.
+throughtheLevelsofAGI.Weillustratedhowconsidering
+AGILeveljointlywithAutonomyLevelcanprovidemore Anthropic. Company: Anthropic, 2023a. URL
+nuancedinsightsintorisksassociatedwithAIsystems,un- https://www.anthropic.com/company. Ac-
+derscoringthe importanceof investing in human-AIinter- cessedOctober12,2023.
+actionresearchintandemwithmodelimprovements.
+Anthropic. Anthropic’s Responsible Scal-
+We hopeourframeworkwillproveadaptableandscalable
+ing Policy, September 2023b. URL
+– for instance, how we define and measure progress to- https://www-files.anthropic.com/production/files/res
+ward AGI might change with technical advances such as
+accessedonOctober20,2023.
+improvements in interpretability that provide insight into
+models’ inner workings. Additionally, parts of our ontol- Apple.Siri.URLhttps://www.apple.com/siri/.
+ogy such as Human-AI Interaction paradigms and associ- accessedonOctober20,2023.
+atedrisksmightevolveassocietyitselfadaptstoadvances
+inAI. Bellier, L., Llorens, A., Marciano, D., Gunduz, A.,
+Schalk, G., Brunner, P., and Knight, R. T. Music can
+be reconstructed from human auditory cortex activity
+ImpactStatement
+usingnonlineardecodingmodels. PLOSBiology,21(8):
+This position paper introduces a novel ontology that sup- 1–27,082023.doi:10.1371/journal.pbio.3002176.URL
+portsdiscussingprogresstowardAGIinanuancedmanner, https://doi.org/10.1371/journal.pbio.3002176.
+withtheaimofsupportingclearcommunicationamongre-
+Bengio, Y., Hinton, G., Yao, A., Song, D., Abbeel, P.,
+searchers, practitioners, and policymakers about systems’
+Harari, Y. N., Zhang, Y.-Q., Xue, L., Shalev-Shwartz,
+capabilitiesandassociatedrisks.
+S., Hadfield, G., Clune, J., Maharaj, T., Hutter, F.,
+Baydin, A. G., McIlraith, S., Gao, Q., Acharya, A.,
+Acknowledgements
+Krueger, D., Dragan, A., Torr, P., Russell, S., Kah-
+neman, D., Brauner, J., and Mindermann, S. Man-
+ThankyoutothemembersoftheGoogleDeepMindPAGI
+aging AI Risks in an Era of Rapid Progress. CoRR,
+team for their support of this effort, and to Martin Wat-
+abs/2310.17688,2023.doi:10.48550/arXiv.2310.17688.
+tenberg,MichaelTerry,GeoffreyIrving,MurrayShanahan,
+URLhttps://arxiv.org/abs/2310.17688.
+DileepGeorge,Blaise Agu¨erayArcas,andBenShneider-
+manforhelpfuldiscussionsaboutthistopic.
+Boden,M.A. GOFAI,pp.89–107. CambridgeUniversity
+Press,2014.
+References
+Brohan, A., Brown, N., Carbajal, J., Chebotar, Y., Chen,
+Agu¨erayArcas,B.andNorvig,P. ArtificialGeneralIntel-
+X., Choromanski, K., Ding, T., Driess, D., Dubey, A.,
+ligence is Already Here. Noema, October 2023. URL
+Finn, C., Florence,P., Fu, C., Arenas, M.G., Gopalakr-
+https://www.noemamag.com/artificial-general-intelligence-is-already-here/.
+ishnan, K., Han, K., Hausman, K., Herzog, A., Hsu, J.,
+Ichter, B., Irpan, A., Joshi, N., Julian, R., Kalashnikov,
+Amazon. Amazon Alexa. URL D.,Kuang,Y.,Leal,I.,Lee,L.,Lee,T.-W.E.,Levine,S.,
+https://alexa.amazon.com/. accessed on Lu,Y.,Michalewski,H.,Mordatch,I.,Pertsch,K.,Rao,
+10

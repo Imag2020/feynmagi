@@ -1,0 +1,52 @@
+40 Front. Comput. Sci.,2024,0(0): 1–42
+144. al. e R. AgentGPT. https://github.com/ production. In: 2023 IEEE/ACM 45th International
+reworkd/AgentGPT,2023 Conference on Software Engineering (ICSE). 2023,
+145. al. e E. Ai-legion. https://github.com/ 2312–2323
+eumemic/ai-legion,2023 163. JalilS,RafiS,LaTozaTD,MoranK,LamW. Chatgpt
+146. al. e J X. Agixt. https://github.com/ andsoftwaretestingeducation: Promises&perils. In:
+Josh-XT/AGiXT,2023 2023IEEEInternationalConferenceonSoftwareTest-
+147. al. e C. Xlang. https://github.com/ ing,VerificationandValidationWorkshops(ICSTW).
+xlang-ai/xlang,2023 2023,4130–4137
+148. al. e N. Babyagi. https://github.com/ 164. ChenA,PhangJ,ParrishA,PadmakumarV,ZhaoC,
+yoheinakajima,2023 BowmanSR,ChoK. Twofailuresofself-consistency
+149. ChaseH.langchain.https://docs.langchain. in the multi-step reasoning of llms. arXiv preprint
+com/docs/,2023 arXiv:2305.14279,2023
+150. al. e A M. WorkGPT. https://github.com/ 165. ChoiM,PeiJ,KumarS,ShuC,JurgensD. Dollms
+team-openpm/workgpt,2023 understandsocialknowledge? evaluatingthesociabil-
+151. al. e F R. LoopGPT. https://github.com/ ityoflargelanguagemodelswithsocketbenchmark.
+farizrahman4u/loopgpt,2023 arXivpreprintarXiv:2305.14938,2023
+152. al. e A E. GPT-researcher. https://github. 166. ZhangD,ChenL,ZhaoZ,CaoR,YuK. Mobile-env:
+com/assafelovic/gpt-researcher,2023 Anevaluationplatformandbenchmarkforinteractive
+153. QinY,HuS,LinY,ChenW,DingN,CuiG,ZengZ, agents in llm era. arXiv preprint arXiv:2305.08144,
+HuangY,XiaoC,HanC,others. Toollearningwith 2023
+foundationmodels. arXivpreprintarXiv:2304.08354, 167. ChalamalasettiK,GötzeJ,HakimovS,MadureiraB,
+2023 SadlerP,SchlangenD. clembench: Usinggameplay
+154. Face H. transformers-agent. https: to evaluate chat-optimized language models as con-
+//huggingface.co/docs/transformers/ versationalagents. arXivpreprintarXiv:2305.13455,
+transformers_agents,2023 2023
+155. al. e E. Miniagi. https://github.com/ 168. LinJ,TomlinN,AndreasJ,EisnerJ.Decision-oriented
+muellerberndt/mini-agi,2023 dialogue for human-ai collaboration. arXiv preprint
+156. al. e T. Superagi. https://github.com/ arXiv:2305.20076,2023
+TransformerOptimus/SuperAGI,2023 169. FeldtR,KangS,YoonJ,YooS. Towardsautonomous
+157. Wu Q, Bansal G, Zhang J, Wu Y, Zhang S, Zhu E, testingagentsviaconversationallargelanguagemodels.
+LiB,JiangL,ZhangX,WangC. Autogen: Enabling arXivpreprintarXiv:2306.05152,2023
+next-genllmapplicationsviamulti-agentconversation 170. Liang Y, Zhu L, Yang Y. Tachikuma: Understading
+framework. arXivpreprintarXiv:2308.08155,2023 complex interactions with multi-character and novel
+158. LeeM,SrivastavaM,HardyA,ThickstunJ,DurmusE, objects by large language models. arXiv preprint
+ParanjapeA,Gerard-UrsinI,LiXL,LadhakF,RongF, arXiv:2307.12573,2023
+others. Evaluatinghuman-languagemodelinteraction. 171. Zhou S, Xu F F, Zhu H, Zhou X, Lo R, Sridhar A,
+arXivpreprintarXiv:2212.09746,2022 ChengX,BiskY,FriedD,AlonU,others. Webarena:
+159. KrishnaR,LeeD,Fei-FeiL,BernsteinMS. Socially Arealisticwebenvironmentforbuildingautonomous
+situatedartificialintelligenceenableslearningfromhu- agents. arXivpreprintarXiv:2307.13854,2023
+maninteraction. ProceedingsoftheNationalAcademy 172. LiuX,YuH,ZhangH,XuY,LeiX,LaiH,GuY,Ding
+ofSciences,2022,119(39): e2115730119 H,MenK,YangK,others. Agentbench: Evaluating
+160. Huang J t, Lam M H, Li E J, Ren S, Wang W, Jiao llmsasagents. arXivpreprintarXiv:2308.03688,2023
+W,TuZ,LyuMR. Emotionallynumborempathetic? 173. Liu Z, Yao W, Zhang J, Xue L, Heinecke S, Murthy
+evaluatinghowllmsfeelusingemotionbench. arXiv R,FengY,ChenZ,NieblesJC,ArpitD,others. Bo-
+preprintarXiv:2308.03656,2023 laa: Benchmarkingandorchestratingllm-augmented
+161. Chan C M, Chen W, Su Y, Yu J, Xue W, Zhang S, autonomousagents. arXivpreprintarXiv:2308.05960,
+Fu J, Liu Z. Chateval: Towards better llm-based 2023
+evaluatorsthroughmulti-agentdebate. arXivpreprint 174. Xu B, Liu X, Shen H, Han Z, Li Y, Yue M, Peng Z,
+arXiv:2308.07201,2023 Liu Y, Yao Z, Xu D. Gentopia. ai: A collaborative
+162. Kang S, Yoon J, Yoo S. Large language models are platformfortool-augmentedllms. In: Proceedingsof
+few-shottesters: Exploringllm-basedgeneralbugre- the2023ConferenceonEmpiricalMethodsinNatural

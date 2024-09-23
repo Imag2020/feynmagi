@@ -1,0 +1,585 @@
+ [2305.11185] Repulsive gravity in regular black holes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+Grab your spot at the free arXiv Accessibility Forum
+Forum Schedule
+
+We gratefully acknowledge support fromthe Simons Foundation, Stockholm University, and all contributors. Donate
+
+
+
+
+
+ > gr-qc > arXiv:2305.11185
+  
+
+
+
+
+
+Help | Advanced Search
+
+
+
+
+All fields
+Title
+Author
+Abstract
+Comments
+Journal reference
+ACM classification
+MSC classification
+Report number
+arXiv identifier
+DOI
+ORCID
+arXiv author ID
+Help pages
+Full text
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+open search
+
+
+
+
+
+
+GO
+
+
+
+open navigation menu
+
+
+quick links
+
+Login
+Help Pages
+About
+
+
+
+
+
+
+
+
+
+
+
+
+General Relativity and Quantum Cosmology
+
+
+arXiv:2305.11185 (gr-qc)
+    
+
+
+
+
+  [Submitted on 17 May 2023]
+Title:Repulsive gravity in regular black holes
+Authors:Orlando Luongo, Hernando Quevedo View a PDF of the paper titled Repulsive gravity in regular black holes, by Orlando Luongo and 1 other authors
+View PDF
+
+Abstract:We evaluate the effects of repulsive gravity using first order geometric invariants, \textit{i.e.}, the Ricci scalar and the eigenvalues of the Riemann curvature tensor, for three regular black holes, namely the Bardeen, Hayward, and Dymnikova spacetimes. To examine the repulsive effects, we calculate their respective onsets and regions of repulsive gravity. Afterwards, we compare the repulsive regions obtained from these metrics among themselves and then with the predictions got from the Reissner-Nordström and Schwarzschild-de Sitter. We find that the Dymnikova spacetime does not exhibit regions in which gravity changes its sign. A notable characteristic, observed in all these metrics, is that the repulsive regions appear to be unaffected by the mass that generates the regular black hole. This property emerges due to the invariants employed in our analysis, which do not change sign through \emph{linear combinations} of the mass and the free coefficients of the metrics. As a result, gravity can change sign independently of the specific values acquired by the mass. This conclusion suggests a potential \emph{incompleteness} of regular solutions, particularly in terms of their repulsive effects. To further highlight this finding, we numerically compute, for the Reissner-Nordström and Schwarzschild-de Sitter solutions, the values of mass, M, that emulate the repulsive effects found in the Bardeen and Hayward spacetimes. These selected values of M provide evidence that regular black holes do not incorporate repulsive effects by means of the masses used to generate the solutions themselves. Implications and physical consequences of these results are then discussed in detail.
+    
+
+
+ 
+Comments:
+10 pages, 4 figures, 1 table
+
+
+Subjects:
+
+General Relativity and Quantum Cosmology (gr-qc); High Energy Physics - Theory (hep-th)
+
+Cite as:
+arXiv:2305.11185 [gr-qc]
+
+
+ 
+(or 
+arXiv:2305.11185v1 [gr-qc] for this version)
+          
+ 
+ 
+
+https://doi.org/10.48550/arXiv.2305.11185
+
+
+
+Focus to learn more
+
+
+
+
+                arXiv-issued DOI via DataCite
+              
+
+
+
+
+
+
+
+Submission history From: Orlando Luongo [view email]       [v1]
+        Wed, 17 May 2023 19:26:27 UTC (125 KB)
+
+
+
+ 
+
+Full-text links:
+Access Paper:
+
+
+View a PDF of the paper titled Repulsive gravity in regular black holes, by Orlando Luongo and 1 other authorsView PDFTeX SourceOther Formats
+view license
+
+ 
+    Current browse context: gr-qc
+
+
+< prev
+
+  |   
+next >
+
+
+new
+ | 
+recent
+ | 2023-05
+
+    Change to browse by:
+    
+hep-th
+
+
+
+
+References & Citations
+
+
+INSPIRE HEP
+
+NASA ADSGoogle Scholar
+Semantic Scholar
+
+
+
+
+a
+export BibTeX citation
+Loading...
+
+
+
+
+BibTeX formatted citation
+×
+
+
+loading...
+
+
+Data provided by: 
+
+
+
+
+Bookmark
+
+
+
+
+
+ 
+
+
+
+
+Bibliographic Tools
+
+Bibliographic and Citation Tools
+
+
+
+
+
+
+Bibliographic Explorer Toggle
+
+
+
+Bibliographic Explorer (What is the Explorer?)
+
+
+
+
+
+
+
+Litmaps Toggle
+
+
+
+Litmaps (What is Litmaps?)
+
+
+
+
+
+
+
+scite.ai Toggle
+
+
+
+scite Smart Citations (What are Smart Citations?)
+
+
+
+
+
+
+
+
+Code, Data, Media
+
+Code, Data and Media Associated with this Article
+
+
+
+
+
+
+Links to Code Toggle
+
+
+
+CatalyzeX Code Finder for Papers (What is CatalyzeX?)
+
+
+
+
+
+
+
+DagsHub Toggle
+
+
+
+DagsHub (What is DagsHub?)
+
+
+
+
+
+
+
+GotitPub Toggle
+
+
+
+Gotit.pub (What is GotitPub?)
+
+
+
+
+
+
+
+Links to Code Toggle
+
+
+
+Papers with Code (What is Papers with Code?)
+
+
+
+
+
+
+
+ScienceCast Toggle
+
+
+
+ScienceCast (What is ScienceCast?)
+
+
+
+
+
+
+
+
+
+
+
+Demos
+
+Demos
+
+
+
+
+
+
+Replicate Toggle
+
+
+
+Replicate (What is Replicate?)
+
+
+
+
+
+
+
+Spaces Toggle
+
+
+
+Hugging Face Spaces (What is Spaces?)
+
+
+
+
+
+
+
+Spaces Toggle
+
+
+
+TXYZ.AI (What is TXYZ.AI?)
+
+
+
+
+
+
+
+
+Related Papers
+
+Recommenders and Search Tools
+
+
+
+
+
+
+Link to Influence Flower
+
+
+
+Influence Flower (What are Influence Flowers?)
+
+
+
+
+
+
+
+Connected Papers Toggle
+
+
+
+Connected Papers (What is Connected Papers?)
+
+
+
+
+
+
+
+Core recommender toggle
+
+
+
+CORE Recommender (What is CORE?)
+
+ 
+
+
+
+
+IArxiv recommender toggle
+
+
+
+IArxiv Recommender
+(What is IArxiv?)
+
+
+
+
+
+
+Author
+Venue
+Institution
+Topic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        About arXivLabs
+      
+
+
+
+arXivLabs: experimental projects with community collaborators
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.
+
+
+
+
+
+
+
+
+
+
+Which authors of this paper are endorsers? |
+    Disable MathJax (What is MathJax?)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+About
+Help
+
+
+
+
+
+contact arXivClick here to contact arXiv
+ Contact
+
+
+subscribe to arXiv mailingsClick here to subscribe
+ Subscribe
+
+
+
+
+
+
+
+
+
+
+
+Copyright
+Privacy Policy
+
+
+
+
+Web Accessibility Assistance
+
+
+arXiv Operational Status 
+                    Get status notifications via
+                    email
+                    or slack
+
+
+
+
+
+ 
+
+
+
+
+

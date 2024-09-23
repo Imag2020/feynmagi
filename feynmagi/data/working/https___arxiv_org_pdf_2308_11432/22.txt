@@ -1,0 +1,63 @@
+LeiWangetal. ASurveyonLargeLanguageModelbasedAutonomousAgents 23
+based agentsare provided withspecific traits such databaseandkeywordsearchstrategies,specifically
+astalents,preferences,andpersonalitiestoexplore designed to mitigate the hallucination issue preva-
+humaneconomicbehaviorsinsimulatedscenarios. lent in such models. In addition, this model also
+employs self-attention mechanism to enhance the
+Social Simulation: Previously, conducting ex-
+LLM’scapability viamitigatingthe impactof refer-
+perimentswithhumansocietiesisoftenexpensive,
+enceinaccuracies.
+unethical, or even infeasible. With the ever pros-
+Research Assistant: Beyond theirapplication in
+peringofLLMs,manypeopleexploretobuildvir-
+specializeddomains,LLM-basedagentsareincreas-
+tual environment with LLM-based agents to sim-
+ingly adopted as versatile assistants in the broad
+ulate social phenomena, such as the propagation
+fieldofsocialscienceresearch[105,114]. In[105],
+of harmful information, and so on [20,34,77,79,
+LLM-based agents offer multifaceted assistance,
+107–110]. For example,Social Simulacra[79] sim-
+ranging from generating concise article abstracts
+ulates an online social community and explores
+andextractingpivotalkeywordstocraftingdetailed
+the potential of utilizing agent-based simulations
+scriptsforstudies,showcasingtheirabilitytoenrich
+toaiddecision-makerstoimprovecommunityregu-
+and streamline the research process. Meanwhile,
+lations. [107,108]investigatesthepotentialimpacts
+ofdifferentbehavioralcharacteristicsofLLM-based in[114],LLM-basedagentsserveasawritingassis-
+tant,demonstratingtheircapabilitytoidentifynovel
+agentsinsocialnetworks. GenerativeAgents[20]
+researchinquiriesforsocialscientists,therebyopen-
+and AgentSims[34] constructmultiple agentsin a
+ingnewavenuesforexplorationandinnovationin
+virtual town to simulate the human daily life. So-
+the field. These examples highlight the potential
+cialAISchool[109]employsLLM-basedagentsto
+of LLM-based agents in enhancing the efficiency,
+simulateandinvestigatethefundamentalsocialcog-
+creativity,andbreadthofsocialscienceresearch.
+nitiveskillsduringthecourseofchilddevelopment.
+S3 [77] buildsa social networksimulator, focusing
+3.2 NaturalScience
+onthepropagationofinformation,emotionandatti-
+tude. CGMI [111] is a framework for multi-agent
+Natural science is one of the branches of science
+simulation. CGMImaintainsthepersonalityofthe
+concernedwiththedescription,understandingand
+agentsthroughatreestructureandconstructsacog-
+prediction of natural phenomena, based on empir-
+nitive model. The authors simulated a classroom
+ical evidence from observation and experimenta-
+scenariousingCGMI.
+tion. With the ever prospering of LLMs, the ap-
+Jurisprudence: LLM-basedagentscanserveas plicationofLLM-basedagentsinnaturalsciences
+aids in legal decision-making processes, facilitat- becomes more and more popular. In the follow-
+ing more informed judgements [112,113]. Blind ing, we present many representative areas, where
+Judgement [113] employs several language mod- LLM-basedagentscanplayimportantroles.
+els to simulate the decision-making processes of Documentation and Data Management: Natu-
+multiple judges. It gathers diverse opinions and ralscientificresearchofteninvolvesthecollection,
+consolidatestheoutcomesthroughavotingmech- organization,andsynthesisofsubstantialamounts
+anism. ChatLaw [112] is a prominent Chinese le- ofliterature,whichrequiresasignificantdedication
+galmodelbasedonLLM.Itadeptlysupportsboth of time and human resources. LLM-based agents

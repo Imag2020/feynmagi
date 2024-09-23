@@ -1,0 +1,43 @@
+LeiWangetal. ASurveyonLargeLanguageModelbasedAutonomousAgents 9
+of the memory m. These scoring functions can be avoidingredundantstorage. (2)MemoryOverflow.
+implemented using various methods, for example, Inordertowriteinformationintothememorywhen
+srel(q,m) can be realized based on LSH, ANNOY, itisfull,peopledesigndifferentmethodstodelete
+HNSW, FAISS and so on. It should be noted that existing information to continue the memorizing
+simponlyreflectsthecharactersofthememoryitself, process. For example, in ChatDB [40], memories
+thus it is unrelated to the query q. α, β and γ are canbeexplicitlydeletedbasedonusercommands.
+balancingparameters. Byassigningthemwithdif- RET-LLM [42]uses afixed-sizebufferfor memory,
+ferentvalues,onecanobtainvariousmemoryread- overwriting the oldest entries in a first-in-first-out
+ing strategies. For example, by setting α = γ = 0, (FIFO)manner.
+manystudies [16,30,38,42]only considerthe rele-
+•MemoryReflection. Memoryreflectionemu-
+vance score srel formemory reading. By assigning
+lateshumans’abilitytowitnessandevaluatetheir
+α = β = γ = 1.0,[20]equallyweightsalltheabove
+owncognitive,emotional,andbehavioralprocesses.
+threemetricstoextractinformationfrommemory.
+When adapted to agents, the objective is to pro-
+• Memory Writing. The purpose of memory vide agents with the capability to independently
+writingistostoreinformationabouttheperceived summarize and infer more abstract, complex and
+environmentinmemory. Storingvaluableinforma- high-level information. More specifically, in Gen-
+tioninmemoryprovidesafoundationforretrieving erative Agent [20], the agent has the capability to
+informative memories in the future, enabling the summarize its past experiences stored in memory
+agenttoactmoreefficientlyandrationally. During into broader and more abstract insights. To begin
+the memory writing process, there are two poten- with,the agentgeneratesthree keyquestionsbased
+tial problems that should be carefully addressed. on its recent memories. Then, these questions are
+On one hand, it is crucial to address how to store usedtoquerythememorytoobtainrelevantinfor-
+information that is similar to existing memories mation. Building upon the acquired information,
+(i.e., memory duplicated). On the other hand, it theagentgeneratesfiveinsights, whichreflectthe
+is important to consider how to remove informa- agenthigh-levelideas. Forexample,thelow-level
+tionwhenthememoryreachesitsstoragelimit(i.e., memories“KlausMuelleriswritingaresearchpa-
+memory overflow). In the following, we discuss per”, “Klaus Mueller is engaging with a librarian
+these problems more in detail. (1) Memory Dupli- tofurtherhisresearch”,and“KlausMuelleriscon-
+cated. To incorporate similar information, people versingwithAyeshaKhanabouthisresearch”can
+havedevelopedvariousmethodsforintegratingnew inducethehigh-levelinsight“KlausMuellerisded-
+andpreviousrecords. Forinstance,in[7],thesuc- icated to his research”. In addition, the reflection
+cessful action sequences related to the same sub- processcanoccurhierarchically,meaningthatthe
+goal are stored in a list. Once the size of the list insightscanbegeneratedbasedonexistinginsights.
+reachesN(=5),allthesequencesinitarecondensed InGITM[16],theactionsthatsuccessfullyaccom-
+intoaunifiedplansolutionusingLLMs. Theorigi- plish the sub-goals are stored in a list. When the
+nalsequencesinthememoryarereplacedwiththe listcontainsmorethanfiveelements,theagentsum-
+newlygeneratedone. AugmentedLLM[43]aggre- marizes them into a common and abstract pattern
+gatesduplicateinformationviacountaccumulation, and replaces all the elements. In ExpeL [44], two

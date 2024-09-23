@@ -1,0 +1,99 @@
+28
+[307] J.Hu,Y.Shao,Z.Sun,M.Wang,J.Bared,andP.Huang,“Integrated [324] Z.Wang,G.Wu,andM.J.Barth,“Areviewoncooperativeadaptive
+optimal eco-driving on rolling terrain for hybrid electric vehicle with cruise control (cacc) systems: Architectures, controls, and applica-
+vehicle-infrastructure communication,” Transportation Research Part tions,”in201821stInternationalConferenceonIntelligentTransporta-
+C:EmergingTechnologies,vol.68,pp.228–244,2016. tionSystems(ITSC),pp.2884–2891,2018.
+[308] M.A.M.ZulkefliandZ.Sun,“Fastnumericalpowertrainoptimization [325] S.E.Shladover,C.Nowakowski,X.-Y.Lu,andR.Ferlis,“Cooperative
+strategyforconnectedhybridelectricvehicles,”IEEETransactionson adaptive cruise control: Definitions and operating concepts,” Trans-
+VehicularTechnology,vol.68,no.9,pp.8629–8641,2019. portationResearchRecord,vol.2489,no.1,pp.145–152,2015.
+[309] M.A.MohdZulkefli,J.Zheng,Z.Sun,andH.X.Liu,“Hybridpow- [326] B. van Arem, C. J. G. van Driel, and R. Visser, “The impact of
+ertrain optimization with trajectory prediction based on inter-vehicle- cooperative adaptive cruise control on traffic-flow characteristics,”
+communication and vehicle-infrastructure-integration,” Transportation IEEETransactionsonIntelligentTransportationSystems,vol.7,no.4,
+Research Part C: Emerging Technologies, vol. 45, pp. 41–63, 2014. pp.429–436,2006.
+Advances in Computing and Communications and their Impact on [327] Y. Shao and Z. Sun, “Robust eco-cooperative adaptive cruise control
+TransportationScienceandTechnologies. with gear shifting,” in 2017 American Control Conference (ACC),
+[310] S.Onori,L.Serrao,andG.Rizzoni,HybridElectricVehiclesEnergy pp.4958–4963,2017.
+ManagementStrategies. SpringerLink,2016.
+[328] J. Rios-Torres and A. A. Malikopoulos, “Automated and cooperative
+[311] W. Zhuang, X. Zhang, G. Yin, H. Peng, and L. Wang, “Mode shift
+vehiclemergingathighwayon-ramps,”IEEETransactionsonIntelli-
+scheduleandcontrolstrategydesignofmultimodehybridpowertrain,”
+gentTransportationSystems,vol.18,no.4,pp.780–789,2017.
+IEEE Transactions on Control Systems Technology, vol. 28, no. 3,
+[329] I.A.Ntousakis,I.K.Nikolos,andM.Papageorgiou,“Optimalvehicle
+pp.804–815,2020.
+trajectoryplanninginthecontextofcooperativemergingonhighways,”
+[312] F. Wang, M. A. M. Zulkefli, Z. Sun, and K. A. Stelson, “Energy
+Transportation Research Part C: Emerging Technologies, vol. 71,
+managementstrategyforapower-splithydraulichybridwheelloader,”
+pp.464–488,2016.
+Proceedings of the Institution of Mechanical Engineers, Part D:
+[330] L. Xu, J. Lu, B. Ran, F. Yang, and J. Zhang, “Cooperative merg-
+Journal of Automobile Engineering, vol. 230, no. 8, pp. 1105–1120,
+ing strategy for connected vehicles at highway on-ramps,” Journal
+2016.
+of Transportation Engineering, Part A: Systems, vol. 145, no. 6,
+[313] Q.Wen,F.Wang,B.Xu,andZ.Sun,“Improvingthefuelefficiencyof
+p.04019022,2019.
+compactwheelloaderwithaserieshydraulichybridpowertrain,”IEEE
+Transactions on Vehicular Technology, vol. 69, no. 10, pp. 10700– [331] Traffic Prediction for Merging Coordination Control in Mixed Traffic
+10709,2020. Scenarios, vol. Volume 2: Intelligent Transportation/Vehicles; Man-
+[314] F.A.Bender,M.Kaszynski,andO.Sawodny,“Drivecycleprediction ufacturing; Mechatronics; Engine/After-Treatment Systems; Soft Ac-
+and energy management optimization for hybrid hydraulic vehicles,” tuators/Manipulators; Modeling/Validation; Motion/Vibration Control
+IEEETransactionsonVehicularTechnology,vol.62,no.8,pp.3581– Applications;Multi-Agent/NetworkedSystems;PathPlanning/Motion
+3592,2013. Control;Renewable/SmartEnergySystems;Security/PrivacyofCyber-
+[315] L.Guo,B.Yang,andJ.Ye,“Predictiveenergymanagementfordual- Physical Systems; Sensors/Actuators; Tracking Control Systems; Un-
+motor bevs considering temperature-dependent traction inverter loss,” mannedGround/AerialVehicles;VehicleDynamics,Estimation,Con-
+IEEE Transactions on Transportation Electrification, vol. 8, no. 1, trol; Vibration/Control Systems; Vibrations of Dynamic Systems and
+pp.1501–1515,2022. ControlConference,102020.
+[316] J.P.F.Trova˜o,M.-A.Roux,E´.Me´nard,andM.R.Dubois,“Energy- [332] A. Ghiasi, X. Li, and J. Ma, “A mixed traffic speed harmonization
+andpower-splitmanagementofdualenergystoragesystemforathree- modelwithconnectedautonomousvehicles,”TransportationResearch
+wheel electric vehicle,” IEEE Transactions on Vehicular Technology, PartC:EmergingTechnologies,vol.104,pp.210–233,2019.
+vol.66,no.7,pp.5540–5550,2016. [333] A. A. Malikopoulos, S. Hong, B. B. Park, J. Lee, and S. Ryu,
+[317] Optimal Speed Control for a Connected and Autonomous Electric “Optimalcontrolforspeedharmonizationofautomatedvehicles,”IEEE
+Vehicle Considering Battery Aging and Regenerative Braking Limits, Transactions on Intelligent Transportation Systems, vol. 20, no. 7,
+vol. Volume 1: Advanced Driver Assistance and Autonomous Tech- pp.2405–2417,2019.
+nologies;AdvancesinControlDesignMethods;AdvancesinRobotics; [334] Q. Yang, S. Fu, H. Wang, and H. Fang, “Machine-learning-enabled
+Automotive Systems; Design, Modeling, Analysis, and Control of cooperativeperceptionforconnectedautonomousvehicles:Challenges
+AssistiveandRehabilitationDevices;DiagnosticsandDetection;Dy- andopportunities,”IEEENetwork,vol.35,no.3,pp.96–101,2021.
+namics and Control of Human-Robot Systems; Energy Optimization [335] Q. Guo, L. Li, and X. (Jeff) Ban, “Urban traffic signal control with
+for Intelligent Vehicle Systems; Estimation and Identification; Manu- connectedandautomatedvehicles:Asurvey,”TransportationResearch
+facturingofDynamicSystemsandControlConference,102019. PartC:EmergingTechnologies,vol.101,pp.313–334,2019.
+[318] Y. Shao, M. A. Mohd Zulkefli, and Z. Sun, “Vehicle and Powertrain [336] W. Hong, G. Tao, H. Wang, and C. Wang, “Traffic signal control
+Optimization for Autonomous and Connected Vehicles,” Mechanical withadaptiveonline-learningschemeusingmultiple-modelneuralnet-
+Engineering,vol.139,pp.S19–S23,092017. works,”IEEETransactionsonNeuralNetworksandLearningSystems,
+[319] Y. Shao and Z. Sun, “Eco-approach with traffic prediction and ex- pp.1–13,2022.
+perimental validation for connected and autonomous vehicles,” IEEE
+[337] Y.Feng,J.Zheng,andH.X.Liu,“Real-timedetector-freeadaptivesig-
+Transactions on Intelligent Transportation Systems, vol. 22, no. 3,
+nalcontrolwithlowpenetrationofconnectedvehicles,”Transportation
+pp.1562–1572,2021.
+ResearchRecord,vol.2672,no.18,pp.35–44,2018.
+[320] Z. Wang, G. Wu, P. Hao, and M. J. Barth, “Cluster-wise cooperative
+[338] Y. Han, D. Chen, and S. Ahn, “Variable speed limit control at
+eco-approach and departure application for connected and automated
+fixed freeway bottlenecks using connected vehicles,” Transportation
+vehicles along signalized arterials,” IEEE Transactions on Intelligent
+ResearchPartB:Methodological,vol.98,pp.113–134,2017.
+Vehicles,vol.3,no.4,pp.404–413,2018.
+[339] R.Chen,T.Zhang,andM.W.Levin,“Effectsofvariablespeedlimit
+[321] OptimalEco-ApproachControlWithTrafficPredictionforConnected
+on energy consumption with autonomous vehicles on urban roads
+Vehicles, vol. Volume 2: Control and Optimization of Connected and
+using modified cell-transmission model,” Journal of Transportation
+Automated Ground Vehicles; Dynamic Systems and Control Educa-
+Engineering,PartA:Systems,vol.146,no.7,p.04020049,2020.
+tion; Dynamics and Control of Renewable Energy Systems; Energy
+Harvesting;EnergySystems;EstimationandIdentification;Intelligent [340] F. Tajdari, C. Roncoli, and M. Papageorgiou, “Feedback-based ramp
+Transportation and Vehicles; Manufacturing; Mechatronics; Modeling metering and lane-changing control with connected and automated
+and Control of IC Engines and Aftertreatment Systems; Modeling vehicles,” IEEE Transactions on Intelligent Transportation Systems,
+and Control of IC Engines and Powertrain Systems; Modeling and vol.23,no.2,pp.939–951,2022.
+Management of Power Systems of Dynamic Systems and Control [341] H. Wei, H. Liu, K. K. Allam, T. Zuo, and Z. Li, Improving Freeway
+Conference,092018. OperationwithRampMeteringControlUsingConnectedVehiclesas
+[322] B. Beak, K. L. Head, and Y. Feng, “Adaptive coordination based “FloatingSensors”,pp.32–44.
+on connected vehicle technology,” Transportation Research Record, [342] M.A.Abdel-Aty,Q.Cai,N.Eluru,S.Hasan,W.Chung,S.Rahman,
+vol.2619,no.1,pp.1–12,2017. Y.Gong,H.Rahman,etal.,“Integratedfreeway/arterialactivetraffic
+[323] X. Zeng, Y. Zhang, J. Jiao, and K. Yin, “Route-based transit signal management,”2019.
+priority using connected vehicle technology to promote bus schedule [343] M.Hadi,M.S.Iqbal,T.Wang,Y.Xiao,M.Arafat,S.Afreen,etal.,
+adherence,”IEEETransactionsonIntelligentTransportationSystems, “Connected vehicle vehicle-to-infrastructure support of active traffic
+vol.22,no.2,pp.1174–1184,2021. management,”2019.

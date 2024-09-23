@@ -1,0 +1,52 @@
+LeiWangetal. ASurveyonLargeLanguageModelbasedAutonomousAgents 35
+basedrecommendationsystem. In: InternationalCon- code generation via chatgpt. arXiv preprint
+ferenceonMachineLearning. 2019,1052–1061 arXiv:2304.07590,2023
+12. ShinnN,CassanoF,GopinathA,NarasimhanK,YaoS. 25. SafdariM,Serapio-GarcíaG,CrepyC,FitzS,Romero
+Reflexion: Languageagentswithverbalreinforcement P, Sun L, Abdulhai M, Faust A, Mataric´ M. Person-
+learning. AdvancesinNeuralInformationProcessing ality traits in large language models. arXiv preprint
+Systems,2024,36 arXiv:2307.00184,2023
+13. ShenY,SongK,TanX,LiD,LuW,ZhuangY. Hug- 26. JohnsonJA. Measuringthirtyfacetsofthefivefactor
+ginggpt: Solvingaitaskswithchatgptanditsfriends modelwitha120-itempublicdomaininventory: De-
+inhuggingface. AdvancesinNeuralInformationPro- velopmentoftheipip-neo-120. Journalofresearchin
+cessingSystems,2024,36 personality,2014,51: 78–89
+14. Qin Y, Liang S, Ye Y, Zhu K, Yan L, Lu Y, Lin Y, 27. JohnOP,DonahueEM,KentleRL.Bigfiveinventory.
+CongX,TangX,QianB,others. Toolllm: Facilitating JournalofPersonalityandSocialPsychology,1991
+large language models to master 16000+ real-world 28. Deshpande A, Murahari V, Rajpurohit T, Kalyan
+apis. arXivpreprintarXiv:2307.16789,2023 A, Narasimhan K. Toxicity in chatgpt: Analyzing
+15. SchickT,Dwivedi-YuJ,DessìR,RaileanuR,Lomeli persona-assigned language models. arXiv preprint
+M,HambroE,ZettlemoyerL,CanceddaN,ScialomT. arXiv:2304.05335,2023
+Toolformer: Languagemodelscanteachthemselvesto 29. ArgyleLP,BusbyEC,FuldaN,GublerJR,RyttingC,
+usetools. AdvancesinNeuralInformationProcessing WingateD. Outofone,many: Usinglanguagemodels
+Systems,2024,36 tosimulatehumansamples. PoliticalAnalysis,2023,
+16. ZhuX,ChenY,TianH,TaoC,SuW,YangC,Huang 31(3): 337–351
+G,LiB,LuL,WangX,others. Ghostintheminecraft: 30. FischerKA. Reflectivelinguisticprogramming(rlp):
+Generallycapableagentsforopen-worldenviroments A stepping stone in socially-aware agi (socialagi).
+vialargelanguagemodelswithtext-basedknowledge arXivpreprintarXiv:2305.12647,2023
+andmemory. arXivpreprintarXiv:2305.17144,2023 31. RanaK,HavilandJ,GargS,Abou-ChakraJ,ReidI,
+17. SclarM,KumarS,WestP,SuhrA,ChoiY,Tsvetkov SuenderhaufN. Sayplan: Groundinglargelanguage
+Y. Mindinglanguagemodels’(lackof)theoryofmind: modelsusing3dscenegraphsforscalablerobottask
+Aplug-and-playmulti-characterbelieftracker. arXiv planning. In: 7thAnnualConferenceonRobotLearn-
+preprintarXiv:2306.00924,2023 ing. 2023
+18. QianC,CongX,YangC,ChenW,SuY,XuJ,LiuZ, 32. ZhuA,MartinL,HeadA,Callison-BurchC. Calypso:
+SunM. Communicativeagentsforsoftwaredevelop- Llmsasdungeonmaster’sassistants. In: Proceedings
+ment. arXivpreprintarXiv:2307.07924,2023 oftheAAAIConferenceonArtificialIntelligenceand
+19. al. e C. Agentverse. https://github.com/ InteractiveDigitalEntertainment. 2023,380–390
+OpenBMB/AgentVerse,2023 33. WangZ,CaiS,ChenG,LiuA,MaX,LiangY. De-
+20. Park J S, O’Brien J, Cai C J, Morris M R, Liang P, scribe, explain, planandselect: Interactiveplanning
+BernsteinMS. Generativeagents: Interactivesimu- withlargelanguagemodelsenablesopen-worldmulti-
+lacraofhumanbehavior. In: Proceedingsofthe36th taskagents. arXivpreprintarXiv:2302.01560,2023
+AnnualACMSymposiumonUserInterfaceSoftware 34. Lin J, Zhao H, Zhang A, Wu Y, Ping H, Chen Q.
+andTechnology. 2023,1–22 Agentsims:Anopen-sourcesandboxforlargelanguage
+21. Wang L, Zhang J, Chen X, Lin Y, Song R, Zhao model evaluation. arXiv preprint arXiv:2308.04026,
+W X, Wen J R. Recagent: A novel simulation 2023
+paradigm for recommender systems. arXiv preprint 35. LiangX,WangB,HuangH,WuS,WuP,LuL,MaZ,
+arXiv:2306.02552,2023 Li Z. Unleashing infinite-length input capacity for
+22. ZhangH,DuW,ShanJ,ZhouQ,DuY,Tenenbaum large-scalelanguagemodelswithself-controlledmem-
+J B, Shu T, Gan C. Building cooperative embodied orysystem. arXivpreprintarXiv:2304.13343,2023
+agentsmodularlywithlargelanguagemodels. arXiv 36. NgY,MiyashitaD,HoshiY,MoriokaY,ToriiO,Ko-
+preprintarXiv:2307.02485,2023 dama T, Deguchi J. Simplyretrieve: A private and
+23. HongS,ZhengX,ChenJ,ChengY,WangJ,ZhangC, lightweightretrieval-centricgenerativeaitool. arXiv
+WangZ,YauSKS,LinZ,ZhouL,others. Metagpt: preprintarXiv:2308.03983,2023
+Metaprogrammingformulti-agentcollaborativeframe- 37. HuangZ,GutierrezS,KamanaH,MacNeilS.Memory
+work. arXivpreprintarXiv:2308.00352,2023 sandbox: Transparentandinteractivememorymanage-
+24. Dong Y, Jiang X, Jin Z, Li G. Self-collaboration mentforconversationalagents. In: AdjunctProceed-

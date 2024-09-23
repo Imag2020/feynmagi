@@ -1,0 +1,1260 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Strong & Reliable | You can trade with DEGIRO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ConsentDetails[#IABV2SETTINGS#]AboutThis website uses cookiesWe use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. Consent SelectionNecessary Preferences Statistics Marketing Change cookie preferencesNecessary  141 Necessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the website. The website cannot function properly without these cookies.Google1Learn more about this providerSome of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness.test_cookieUsed to check if the user's browser supports cookies.Maximum Storage Duration: 1 dayType: HTTP CookieLinkedIn1Learn more about this providerli_gcStores the user's cookie consent state for the current domainMaximum Storage Duration: 180 daysType: HTTP CookieTwitter Inc.1Learn more about this provider__cf_bmThis cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.Maximum Storage Duration: 1 dayType: HTTP Cookiedegiro.atdegiro.chdegiro.co.nodegiro.comdegiro.czdegiro.dedegiro.dkdegiro.esdegiro.fidegiro.frdegiro.grdegiro.hudegiro.iedegiro.itdegiro.nldegiro.pldegiro.ptdegiro.se54d_campaign [x18]PendingMaximum Storage Duration: SessionType: HTTP Cookied_content [x18]PendingMaximum Storage Duration: SessionType: HTTP Cookied_source [x18]PendingMaximum Storage Duration: SessionType: HTTP Cookiedegiro.atdegiro.chdegiro.comdegiro.czdegiro.dedegiro.dkdegiro.esdegiro.fidegiro.frwww.degiro.grdegiro.hudegiro.iedegiro.itwww.degiro.nldegiro.pldegiro.ptdegiro.se17d_medium [x17]PendingMaximum Storage Duration: SessionType: HTTP Cookieimg.sct.eu1.usercentrics.euimgsct.cookiebot.com21.gif [x2]Used to count the number of sessions to the website, necessary for optimizing CMP product delivery. Maximum Storage Duration: SessionType: Pixel Trackerregistration.degiro.nltrader.degiro.nl2AppboyServiceWorkerAsyncStorage#optOut [x2]Identifies if the visitor has deselected any cookies, trackers or other audience targeting tools.Maximum Storage Duration: PersistentType: IndexedDBwtk.infrontservices.com1JSESSIONIDPreserves users states across page requests.Maximum Storage Duration: SessionType: HTTP Cookiewww.degiro.chwww.degiro.comwww.degiro.czwww.degiro.dewww.degiro.dkwww.degiro.eswww.degiro.fiwww.degiro.frwww.degiro.grwww.degiro.iewww.degiro.itwww.degiro.nlwww.degiro.plwww.degiro.ptwww.degiro.seregistration.degiro.nltrader.degiro.nlconsent.cookiebot.eu35CookieConsent [x35]Stores the user's cookie consent state for the current domainMaximum Storage Duration: 1 yearType: HTTP Cookiewww.degiro.chwww.degiro.czwww.degiro.dewww.degiro.dkwww.degiro.eswww.degiro.fiwww.degiro.frwww.degiro.grwww.degiro.iewww.degiro.itwww.degiro.nlwww.degiro.plwww.degiro.ptwww.degiro.se14M1R4X [x14]Control cookie used in connection to the website’s Content Delivery Network (CDN).Maximum Storage Duration: SessionType: HTTP Cookiewww.degiro.chwww.degiro.dewww.degiro.dkwww.degiro.eswww.degiro.fiwww.degiro.frwww.degiro.grwww.degiro.iewww.degiro.itwww.degiro.nlwww.degiro.plwww.degiro.ptwww.degiro.se13d_term [x13]PendingMaximum Storage Duration: SessionType: HTTP CookiePreferences  63 Preference cookies enable a website to remember information that changes the way the website behaves or looks, like your preferred language or the region that you are in.Company Webcast2Learn more about this provider#-#-#-#-#.progressPendingMaximum Storage Duration: PersistentType: HTML Local StorageremembermePendingMaximum Storage Duration: PersistentType: HTML Local StorageLinkedIn2Learn more about this providerlidcRegisters which server-cluster is serving the visitor. This is used in context with load balancing, in order to optimize user experience.  Maximum Storage Duration: 1 dayType: HTTP CookiebscookieThis cookie is used to identify the visitor through an application. This allows the visitor to login to a website through their LinkedIn application for example.Maximum Storage Duration: 1 yearType: HTTP CookieReddit1Learn more about this providerrp.gifNecessary for the implementation of the Reddit.com's share-button function.Maximum Storage Duration: SessionType: Pixel Trackersc-static.net17_screload [x17]Used by Snapchat to implement advertisement content on the website - The cookie detects the efficiency of the ads and collects visitor data for further visitor segmentation.Maximum Storage Duration: SessionType: HTTP Cookiewtk.infrontservices.com1com.goinfront.wtk.statePendingMaximum Storage Duration: PersistentType: HTML Local Storagewww.degiro.chwww.degiro.czwww.degiro.dewww.degiro.dkwww.degiro.eswww.degiro.frwww.degiro.grwww.degiro.iewww.degiro.itwww.degiro.nlwww.degiro.plwww.degiro.ptwww.degiro.se13current-lesson [x13]PendingMaximum Storage Duration: 1 dayType: HTTP Cookiewww.degiro.dewww.degiro.iewww.degiro.nlwww.degiro.chwww.degiro.eswww.degiro.frwww.degiro.grwww.degiro.itwww.degiro.pt27cookie-disclaimerFinancingCost [x9]PendingMaximum Storage Duration: SessionType: HTTP Cookiecookie-disclaimerStampDuty [x9]PendingMaximum Storage Duration: SessionType: HTTP Cookiecookie-disclaimerTransactionCosts [x9]PendingMaximum Storage Duration: SessionType: HTTP CookieStatistics  128 Statistic cookies help website owners to understand how visitors interact with websites by collecting and reporting information anonymously.Company Webcast6Learn more about this providerfingerprintUsed to detect and log potential tracking errors.Maximum Storage Duration: PersistentType: HTML Local StorageflatexdegiroesPendingMaximum Storage Duration: PersistentType: HTML Local StorageflatexdegirofrPendingMaximum Storage Duration: PersistentType: HTML Local StorageflatexdegiroitPendingMaximum Storage Duration: PersistentType: HTML Local StorageflatexdegironlPendingMaximum Storage Duration: PersistentType: HTML Local StorageflatexdegiroptPendingMaximum Storage Duration: PersistentType: HTML Local StorageGoogle39Learn more about this providerSome of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness._ga [x19]Registers a unique ID that is used to generate statistical data on how the visitor uses the website.Maximum Storage Duration: 2 yearsType: HTTP Cookie_ga_# [x19]Used by Google Analytics to collect data on the number of times a user has visited the website as well as dates for the first and most recent visit. Maximum Storage Duration: 2 yearsType: HTTP CookiegtmBrowserIdThis cookie is used to determine if the visitor has visited the website before, or if it is a new visitor on the website.Maximum Storage Duration: PersistentType: HTML Local StorageLinkedIn1Learn more about this providerAnalyticsSyncHistoryUsed in connection with data-synchronization with third-party analysis service. Maximum Storage Duration: 30 daysType: HTTP CookieMicrosoft2Learn more about this providerc.gifCollects data on the user’s navigation and behavior on the website. This is used to compile statistical reports and heatmaps for the website owner.Maximum Storage Duration: SessionType: Pixel TrackerCLIDCollects data on the user’s navigation and behavior on the website. This is used to compile statistical reports and heatmaps for the website owner.Maximum Storage Duration: 1 yearType: HTTP CookieOmnyStudio1Learn more about this providersentryReplaySessionRegisters data on visitors' website-behaviour. This is used for internal analysis and website optimization. Maximum Storage Duration: SessionType: HTML Local StorageVWO2Learn more about this providereu01/v.gifThis cookie is used by the website’s operator in context with multi-variate testing. This is a tool used to combine or change content on the website. This allows the website to find the best variation/edition of the site. Maximum Storage Duration: SessionType: Pixel Trackervwo_apm_sentPendingMaximum Storage Duration: PersistentType: HTML Local Storagedegiro.atdegiro.chdegiro.co.nodegiro.comdegiro.czdegiro.dedegiro.dkdegiro.esdegiro.fidegiro.frdegiro.grdegiro.hudegiro.iedegiro.itdegiro.nldegiro.pldegiro.ptdegiro.se36FPID [x18]Registers statistical data on users' behaviour on the website. Used for internal analytics by the website operator. Maximum Storage Duration: 400 daysType: HTTP CookieFPLC [x18]Registers a unique ID that is used to generate statistical data on how the visitor uses the website.Maximum Storage Duration: 1 dayType: HTTP Cookiedegiro.chdegiro.esdegiro.frdegiro.itdegiro.nldegiro.pt6FPAU [x6]Assigns a specific ID to the visitor. This allows the website to determine the number of specific user-visits for analysis and statistics.Maximum Storage Duration: 3 monthsType: HTTP Cookiedegiro.co.nodegiro.hudegiro.nl3_vwo_uuid_v2 [x3]This cookie is set to make split-tests on the website, which optimizes the website's relevance towards the visitor – the cookie can also be set to improve the visitor's experience on a website.Maximum Storage Duration: 1 yearType: HTTP Cookiedegiro.nl1ab._gdAssigns a specific ID to the visitor. This allows the website to determine the number of specific user-visits for analysis and statistics.Maximum Storage Duration: SessionType: HTTP Cookieregistration.degiro.nltrader.degiro.nl14AppboyServiceWorkerAsyncStorage#cardUpdates [x2]Collects data on the user’s navigation and behavior on the website. This is used to compile statistical reports and heatmaps for the website owner.Maximum Storage Duration: PersistentType: IndexedDBAppboyServiceWorkerAsyncStorage#data [x2]Collects data on the user’s navigation and behavior on the website. This is used to compile statistical reports and heatmaps for the website owner.Maximum Storage Duration: PersistentType: IndexedDBAppboyServiceWorkerAsyncStorage#fallbackDevice [x2]Collects data on the user’s navigation and behavior on the website. This is used to compile statistical reports and heatmaps for the website owner.Maximum Storage Duration: PersistentType: IndexedDBAppboyServiceWorkerAsyncStorage#pendingData [x2]Collects data on the user’s navigation and behavior on the website. This is used to compile statistical reports and heatmaps for the website owner.Maximum Storage Duration: PersistentType: IndexedDBAppboyServiceWorkerAsyncStorage#pushClicks [x2]Detects how many times a user has visited the website in order to determine whether an on-page notification should be displayed.Maximum Storage Duration: PersistentType: IndexedDBAppboyServiceWorkerAsyncStorage#pushSubscribed [x2]Collects data on the user’s navigation and behavior on the website. This is used to compile statistical reports and heatmaps for the website owner.Maximum Storage Duration: PersistentType: IndexedDBAppboyServiceWorkerAsyncStorage#sdkAuthenticationSignature [x2]Collects data on the user’s navigation and behavior on the website. This is used to compile statistical reports and heatmaps for the website owner.Maximum Storage Duration: PersistentType: IndexedDBsc-static.net2u_scsidRegisters data on visitors' website-behaviour. This is used for internal analysis and website optimization. Maximum Storage Duration: SessionType: HTML Local StorageX-ABThis cookie is used by the website’s operator in context with multi-variate testing. This is a tool used to combine or change content on the website. This allows the website to find the best variation/edition of the site. Maximum Storage Duration: 1 dayType: HTTP Cookiewww.degiro.chwww.degiro.comwww.degiro.czwww.degiro.dewww.degiro.dkwww.degiro.eswww.degiro.fiwww.degiro.frwww.degiro.grwww.degiro.iewww.degiro.itwww.degiro.nlwww.degiro.plwww.degiro.ptwww.degiro.se15__utmz [x15]Collects data on where the user came from, what search engine was used, what link was clicked and what search term was used. Used by Google Analytics.Maximum Storage Duration: 180 daysType: HTTP CookieMarketing  241 Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third party advertisers. Meta Platforms, Inc.21Learn more about this provider_fbp [x19]Used by Facebook to deliver a series of advertisement products such as real time bidding from third party advertisers.Maximum Storage Duration: 3 monthsType: HTTP CookielastExternalReferrerDetects how the user reached the website by registering their last URL-address.Maximum Storage Duration: PersistentType: HTML Local StoragelastExternalReferrerTimeDetects how the user reached the website by registering their last URL-address.Maximum Storage Duration: PersistentType: HTML Local StorageGoogle23Learn more about this providerSome of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness._gcl_au [x19]Used by Google AdSense for experimenting with advertisement efficiency across websites using their services.  Maximum Storage Duration: 3 monthsType: HTTP CookieIDEUsed by Google DoubleClick to register and report the website user's actions after viewing or clicking one of the advertiser's ads with the purpose of measuring the efficacy of an ad and to present targeted ads to the user.Maximum Storage Duration: 400 daysType: HTTP Cookiepagead/landingCollects data on visitor behaviour from multiple websites, in order to present more relevant advertisement - This also allows the website to limit the number of times that they are shown the same advertisement. Maximum Storage Duration: SessionType: Pixel TrackerNIDRegisters a unique ID that identifies a returning user's device. The ID is used for targeted ads.Maximum Storage Duration: 6 monthsType: HTTP Cookiepagead/1p-user-list/#Tracks if the user has shown interest in specific products or events across multiple websites and detects how the user navigates between sites. This is used for measurement of advertisement efforts and facilitates payment of referral-fees between websites.Maximum Storage Duration: SessionType: Pixel TrackerLinkedIn3Learn more about this providerbcookieUsed by the social networking service, LinkedIn, for tracking the use of embedded services.Maximum Storage Duration: 1 yearType: HTTP Cookieli_sugrCollects data on user behaviour and interaction in order to optimize the website and make advertisement on the website more relevant. Maximum Storage Duration: 3 monthsType: HTTP CookieUserMatchHistoryUsed to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences.  Maximum Storage Duration: 30 daysType: HTTP CookieMicrosoft49Learn more about this provider_uetsidUsed to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences. Maximum Storage Duration: PersistentType: HTML Local Storage_uetsid_expContains the expiry-date for the cookie with corresponding name. Maximum Storage Duration: PersistentType: HTML Local Storage_uetvidUsed to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences. Maximum Storage Duration: PersistentType: HTML Local Storage_uetvid_expContains the expiry-date for the cookie with corresponding name. Maximum Storage Duration: PersistentType: HTML Local StorageMR [x2]Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences. Maximum Storage Duration: 7 daysType: HTTP CookieMSPTCThis cookie registers data on the visitor. The information is used to optimize advertisement relevance. Maximum Storage Duration: 1 yearType: HTTP CookieMUID [x2]Used widely by Microsoft as a unique user ID. The cookie enables user tracking by synchronising the ID across many Microsoft domains.Maximum Storage Duration: 1 yearType: HTTP CookieSRM_BTracks the user’s interaction with the website’s search-bar-function. This data can be used to present the user with relevant products or services.     Maximum Storage Duration: 1 yearType: HTTP CookieANONCHKRegisters data on visitors from multiple visits and on multiple websites. This information is used to measure the efficiency of advertisement on websites.  Maximum Storage Duration: 1 dayType: HTTP CookieSMRegisters a unique ID that identifies the user's device during return visits across websites that use the same ad network. The ID is used to allow targeted ads.Maximum Storage Duration: SessionType: HTTP Cookie_uetsid [x19]Collects data on visitor behaviour from multiple websites, in order to present more relevant advertisement - This also allows the website to limit the number of times that they are shown the same advertisement. Maximum Storage Duration: 1 dayType: HTTP Cookie_uetvid [x18]Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences. Maximum Storage Duration: 1 yearType: HTTP CookieReddit38Learn more about this provider_rdt_uuid [x38]Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences. Maximum Storage Duration: 3 monthsType: HTTP CookieSnap Inc.2Learn more about this providersc_atUsed by Snapchat to implement advertisement content on the website - The cookie detects the efficiency of the ads and collects visitor data for further visitor segmentation.Maximum Storage Duration: 1 yearType: HTTP CookiepUsed to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences. Maximum Storage Duration: SessionType: Pixel TrackerTwitter Inc.7Learn more about this provider1/i/adsct [x2]Collects data on user behaviour and interaction in order to optimize the website and make advertisement on the website more relevant. Maximum Storage Duration: SessionType: Pixel Trackermuc_adsCollects data on user behaviour and interaction in order to optimize the website and make advertisement on the website more relevant. Maximum Storage Duration: 400 daysType: HTTP Cookieguest_idCollects data related to the user's visits to the website, such as the number of visits, average time spent on the website and which pages have been loaded, with the purpose of personalising and improving the Twitter service.Maximum Storage Duration: 400 daysType: HTTP Cookieguest_id_adsCollects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Maximum Storage Duration: 400 daysType: HTTP Cookieguest_id_marketingCollects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Maximum Storage Duration: 400 daysType: HTTP Cookiepersonalization_idThis cookie is set by Twitter - The cookie allows the visitor to share content from the website onto their Twitter profile. Maximum Storage Duration: 400 daysType: HTTP CookieYouTube23Learn more about this provider#-#Used to track user’s interaction with embedded content.Maximum Storage Duration: SessionType: HTML Local Storage1466d6-50f64af7PendingMaximum Storage Duration: SessionType: HTML Local Storage766fcc0c-8f4a1dPendingMaximum Storage Duration: SessionType: HTML Local StorageiU5q-!O9@$Registers a unique ID to keep statistics of what videos from YouTube the user has seen.Maximum Storage Duration: SessionType: HTML Local StorageLAST_RESULT_ENTRY_KEYUsed to track user’s interaction with embedded content.Maximum Storage Duration: SessionType: HTTP CookieLogsDatabaseV2:V#||LogsRequestsStoreUsed to track user’s interaction with embedded content.Maximum Storage Duration: PersistentType: IndexedDBnextIdUsed to track user’s interaction with embedded content.Maximum Storage Duration: SessionType: HTTP Cookieremote_sidNecessary for the implementation and functionality of YouTube video-content on the website.  Maximum Storage Duration: SessionType: HTTP CookierequestsUsed to track user’s interaction with embedded content.Maximum Storage Duration: SessionType: HTTP CookieServiceWorkerLogsDatabase#SWHealthLogNecessary for the implementation and functionality of YouTube video-content on the website.  Maximum Storage Duration: PersistentType: IndexedDBTESTCOOKIESENABLEDUsed to track user’s interaction with embedded content.Maximum Storage Duration: 1 dayType: HTTP CookieVISITOR_INFO1_LIVETries to estimate the users' bandwidth on pages with integrated YouTube videos.Maximum Storage Duration: 180 daysType: HTTP CookieYSCRegisters a unique ID to keep statistics of what videos from YouTube the user has seen.Maximum Storage Duration: SessionType: HTTP Cookieyt.innertube::nextIdRegisters a unique ID to keep statistics of what videos from YouTube the user has seen.Maximum Storage Duration: PersistentType: HTML Local Storageytidb::LAST_RESULT_ENTRY_KEYStores the user's video player preferences using embedded YouTube videoMaximum Storage Duration: PersistentType: HTML Local StorageYtIdbMeta#databasesUsed to track user’s interaction with embedded content.Maximum Storage Duration: PersistentType: IndexedDByt-remote-cast-availableStores the user's video player preferences using embedded YouTube videoMaximum Storage Duration: SessionType: HTML Local Storageyt-remote-cast-installedStores the user's video player preferences using embedded YouTube videoMaximum Storage Duration: SessionType: HTML Local Storageyt-remote-connected-devicesStores the user's video player preferences using embedded YouTube videoMaximum Storage Duration: PersistentType: HTML Local Storageyt-remote-device-idStores the user's video player preferences using embedded YouTube videoMaximum Storage Duration: PersistentType: HTML Local Storageyt-remote-fast-check-periodStores the user's video player preferences using embedded YouTube videoMaximum Storage Duration: SessionType: HTML Local Storageyt-remote-session-appStores the user's video player preferences using embedded YouTube videoMaximum Storage Duration: SessionType: HTML Local Storageyt-remote-session-nameStores the user's video player preferences using embedded YouTube videoMaximum Storage Duration: SessionType: HTML Local Storagedegiro.nl2ab.storage.deviceId.#-#-#-#-#Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Maximum Storage Duration: 400 daysType: HTTP Cookieab.storage.sessionId.#-#-#-#-#Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Maximum Storage Duration: 400 daysType: HTTP Cookieregistration.degiro.nltrader.degiro.nl18ab.storage.device.#-#-#-#-# [x2]Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Maximum Storage Duration: PersistentType: HTML Local Storageab.storage.deviceId.#-#-#-#-# [x2]Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Maximum Storage Duration: PersistentType: HTML Local Storageab.storage.messagingSessionStart.#-#-#-#-# [x2]Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Maximum Storage Duration: PersistentType: HTML Local Storageab.storage.sdk_metadata.48ef29a6-8098-447b-84fd-73dcf7ca322a [x2]PendingMaximum Storage Duration: PersistentType: HTML Local Storageab.storage.serverConfig.#-#-#-#-# [x2]Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Maximum Storage Duration: PersistentType: HTML Local Storageab.storage.session_id_for_cached_metadata.48ef29a6-8098-447b-84fd-73dcf7ca322a [x2]PendingMaximum Storage Duration: PersistentType: HTML Local Storageab.storage.sessionId.#-#-#-#-# [x2]Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Maximum Storage Duration: PersistentType: HTML Local Storageab.storage.triggers.#-#-#-#-# [x2]Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Maximum Storage Duration: PersistentType: HTML Local Storageab.storage.triggers.ts.#-#-#-#-# [x2]Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.Maximum Storage Duration: PersistentType: HTML Local Storagesc-static.net55_schn1 [x17]Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.Maximum Storage Duration: 1 dayType: HTTP Cookie_scid [x17]Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.Maximum Storage Duration: 13 monthsType: HTTP Cookie_scid_r [x17]Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.Maximum Storage Duration: 13 monthsType: HTTP Cookie_schn2Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.Maximum Storage Duration: 1 dayType: HTTP Cookieu_sclidSets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.Maximum Storage Duration: PersistentType: HTML Local Storageu_sclid_rSets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.Maximum Storage Duration: PersistentType: HTML Local Storageu_scsid_rSets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.Maximum Storage Duration: SessionType: HTML Local StorageUnclassified  0Unclassified cookies are cookies that we are in the process of classifying, together with the providers of individual cookies.We do not use cookies of this type.Cross-domain consent20 Your consent applies to the following domains:List of domains your consent applies to: registration.degiro.nl trader.degiro.nl degiro.com degiro.de degiro.fr degiro.es degiro.pt degiro.gr degiro.pl degiro.it degiro.cz degiro.hu degiro.dk degiro.fi degiro.co.no degiro.se degiro.ch degiro.at degiro.ie degiro.nlCookie declaration last updated on 9/3/24 by Cookiebot[#IABV2_TITLE#][#IABV2_BODY_INTRO#][#IABV2_BODY_LEGITIMATE_INTEREST_INTRO#][#IABV2_BODY_PREFERENCE_INTRO#][#IABV2_LABEL_PURPOSES#][#IABV2_BODY_PURPOSES_INTRO#][#IABV2_BODY_PURPOSES#][#IABV2_LABEL_FEATURES#][#IABV2_BODY_FEATURES_INTRO#][#IABV2_BODY_FEATURES#][#IABV2_LABEL_PARTNERS#][#IABV2_BODY_PARTNERS_INTRO#][#IABV2_BODY_PARTNERS#]Cookies are small text files that can be used by websites to make a user's experience more efficient.The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies we need your permission.This site uses different types of cookies. Some cookies are placed by third party services that appear on our pages.You can at any time change or withdraw your consent from the Cookie Declaration on our website.Learn more about who we are, how you can contact us and how we process personal data in our Privacy Policy. Do not sell or share my personal informationUse necessary cookies only Allow selection Customise Accept allPowered by Cookiebot by Usercentrics
+
+
+ For a better user experience and secure browsing, please upgrade to the newest version of Internet Explorer or other alternative.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Login
+
+
+
+
+
+Open an account
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fees
+
+
+
+
+
+Fees
+
+
+
+
+ETF Core Selection
+
+
+
+
+Cost Calculator
+
+
+
+
+
+
+
+Investing
+
+
+
+
+
+
+Invest
+
+
+
+
+
+
+ETFs
+
+Stocks
+
+Bonds
+
+Futures
+
+Options
+
+Structured products
+
+Funds
+
+Crypto trackers
+
+Commodities
+
+
+
+
+
+
+
+
+Platform
+
+
+
+
+
+
+Trading Platform
+
+App
+
+ Broker Awards
+
+Strong & Reliable
+
+
+
+
+
+
+
+
+Markets
+
+
+
+
+
+
+Markets
+
+Exchange opening hours
+
+Exchange closing days
+
+
+
+
+
+
+
+
+
+
+Knowledge
+
+
+
+
+
+Knowledge
+
+
+
+
+
+Investor's Academy
+
+
+
+
+
+
+Investor's Academy
+
+What kind of investor are you?
+
+What is a broker?
+
+Basic financial products
+
+Complex financial products
+
+What determines the price of a stock?
+
+Choosing your first stock
+
+Order types
+
+Spreading risk is the key
+
+Thinking ahead
+
+What’s your plan?
+
+
+
+
+
+
+
+
+Products
+
+
+
+
+
+
+Stocks
+
+Bonds
+
+Funds
+
+Trackers
+
+Options
+
+Futures
+
+Structured products
+
+
+
+
+
+
+
+
+Strategies
+
+
+
+
+
+
+Technical analysis
+
+Fundamental analysis
+
+Options strategies
+
+Compound interest
+
+Dollar cost averaging
+
+Defensive investing
+
+Offensive investing
+
+Short selling
+
+
+
+
+
+
+
+Blog
+
+
+
+
+Documentary
+
+
+
+
+
+Quotes
+
+
+
+
+
+
+NASDAQ
+
+NYSE
+
+Dow Jones
+
+S&P 500
+
+Eurostoxx 50
+
+
+
+
+
+
+
+PINK CHIP
+
+
+
+
+
+
+
+About DEGIRO
+
+
+
+
+
+About DEGIRO
+
+
+
+
+Press & Figures
+
+
+
+
+Governance
+
+
+
+
+Reviews
+
+
+
+
+
+
+Help
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            Fees
+                                            
+
+
+
+
+
+
+
+                                            Investing
+                                            
+
+
+
+
+
+
+
+                                            Knowledge
+                                            
+
+
+
+
+
+
+
+                                            About DEGIRO
+                                            
+
+
+
+
+Help
+
+
+
+
+
+
+
+Login
+
+
+
+
+
+Open an account
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        Home
+                                                    
+Fees
+
+
+
+
+Fees
+
+
+
+ETF Core Selection
+
+
+
+Cost Calculator
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        Home
+                                                    
+Investing
+
+
+
+
+
+Invest
+
+
+
+
+
+
+
+Platform
+
+
+
+
+
+
+
+Markets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        Home
+                                                    
+Knowledge
+
+
+
+
+Knowledge
+
+
+
+
+Investor's Academy
+
+
+
+
+
+
+
+Products
+
+
+
+
+
+
+
+Strategies
+
+
+
+
+
+
+Blog
+
+
+
+Documentary
+
+
+
+
+Quotes
+
+
+
+
+
+
+PINK CHIP
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        Home
+                                                    
+About DEGIRO
+
+
+
+
+About DEGIRO
+
+
+
+Press & Figures
+
+
+
+Governance
+
+
+
+Reviews
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Investing
+                                                            
+Invest
+
+
+
+ETFs
+
+Stocks
+
+Bonds
+
+Futures
+
+Options
+
+Structured products
+
+Funds
+
+Crypto trackers
+
+Commodities
+
+
+
+
+
+
+
+
+
+
+
+                                                                Investing
+                                                            
+Platform
+
+
+
+Trading Platform
+
+App
+
+ Broker Awards
+
+Strong & Reliable
+
+
+
+
+
+
+
+
+
+
+
+                                                                Investing
+                                                            
+Markets
+
+
+
+Markets
+
+Exchange opening hours
+
+Exchange closing days
+
+
+
+
+
+
+
+
+
+
+
+                                                                Knowledge
+                                                            
+Investor's Academy
+
+
+
+Investor's Academy
+
+What kind of investor are you?
+
+What is a broker?
+
+Basic financial products
+
+Complex financial products
+
+What determines the price of a stock?
+
+Choosing your first stock
+
+Order types
+
+Spreading risk is the key
+
+Thinking ahead
+
+What’s your plan?
+
+
+
+
+
+
+
+
+
+
+
+                                                                Knowledge
+                                                            
+Products
+
+
+
+Stocks
+
+Bonds
+
+Funds
+
+Trackers
+
+Options
+
+Futures
+
+Structured products
+
+
+
+
+
+
+
+
+
+
+
+                                                                Knowledge
+                                                            
+Strategies
+
+
+
+Technical analysis
+
+Fundamental analysis
+
+Options strategies
+
+Compound interest
+
+Dollar cost averaging
+
+Defensive investing
+
+Offensive investing
+
+Short selling
+
+
+
+
+
+
+
+
+
+
+
+                                                                Knowledge
+                                                            
+Quotes
+
+
+
+NASDAQ
+
+NYSE
+
+Dow Jones
+
+S&P 500
+
+Eurostoxx 50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Strong & Reliable
+Keeping your investments and cash safeguarded is our top priority. DEGIRO uses a separate custodian entity to hold your assets. In the event something happens to DEGIRO, your investments will not be treated as recoverable assets to creditors. In addition, when you open an investment account with us, we also open a bank account (Cash Account) in your name at flatexDEGIRO Bank. All your non-invested money is protected up to €100,000 under the German Deposit Guarantee Scheme.
+
+
+
+
+
+
+
+
+
+
+
+
+Segregation of assets
+Keeping your investments safeguarded is our top priority. That is why we use a separate legal entity (SPV) to segregate your assets. The sole task of this entity is to administer and safeguard your investments. By law, it cannot perform any commercial activities. In the event that something would happen to DEGIRO, your investments will not be treated as recoverable assets to creditors and will remain in the safekeeping of the separate entity. This entity will hold your assets with third parties. Where possible or legally required, DEGIRO will require these third parties to provide for asset segregation to protect the investments of our clients against their bankruptcy. Rules concerning asset segregation are different in every country (both within the EU and outside the EU). If there is no asset segregation concerning a third party in the custody chain, then the financial instruments held with that third party might be lost in case of the bankruptcy of that party. For more information, please see ISI – Investment Services.
+
+
+Cash Account
+When you register with DEGIRO, you will also open a bank account (Cash Account) with flatexDEGIRO Bank. Your uninvested money will then be held in a segregated personal bank account with a personal IBAN. This means your money is then also guaranteed up to €100,000 as the relevant German Deposit Guarantee Scheme (Entschädigungseinrichtung deutscher Banken) applies. Your new Cash Account will be directly connected to your existing DEGIRO investment account. It is not possible to use this Cash Account for other banking matters. You can only use it to hold money so that it is readily available for investments on your DEGIRO account.
+
+
+
+
+Who supervises DEGIRO?
+The flatexDEGIRO Bank Dutch Branch, which operates under the name DEGIRO, is the Dutch branch of flatexDEGIRO Bank AG. flatexDEGIRO Bank AG is primarily supervised by the German Federal Financial Supervisory Authority (BaFin). In the Netherlands, flatexDEGIRO Bank Dutch Branch is subject to integrity supervision by DNB and the supervision of AFM.
+
+
+Investor Compensation Scheme & Deposit Guarantee Scheme
+As a client, your assets are segregated in separate entities and thus protected against the insolvency of DEGIRO. In the unlikely event that the segregated assets cannot be returned to clients, DEGIRO falls under the German Investor Compensation Scheme, which compensates any losses from non-returned assets up to 90% (with a maximum of EUR 20,000).
+Furthermore, any money deposited on a DEGIRO Cash Account with flatexDEGIRO Bank AG will be guaranteed up to an amount of EUR 100,000 under the German Deposit Guarantee Scheme
+Information about the German Investor Protection Scheme and the German Deposit Guarantee Scheme can be found in English on the BaFin website here.
+
+
+
+
+
+
+
+
+
+Your investment journey starts here
+Open an account for free and join over 2.5 million  investors on our user-friendly platform.
+
+
+
+
+Let’s get you started
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Partners & Providers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Note: Investing involves risks. You can lose (a part of) your invested funds. We advise you to only invest in financial products which match your knowledge and experience. This is not investment advice.
+
+
+
+
+
+
+
+Investing involves risks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Select Country
+
+
+Ireland
+                            
+
+
+Česká republika
+                                
+
+Switzerland
+                                
+
+Danmark
+                                
+
+Deutschland
+                                
+
+España
+                                
+
+Ελλάδα
+                                
+
+France
+                                
+
+Ireland
+                                
+
+Italia
+                                
+
+Netherlands
+                                
+
+Norge
+                                
+
+Magyarország
+                                
+
+Österreich
+                                
+
+Polska
+                                
+
+Portugal
+                                
+
+Suomi
+                                
+
+Sverige
+                                
+
+United Kingdom
+                                
+
+
+
+
+
+
+
+Home
+>
+Investing
+>Platform
+>
+Strong & Reliable
+
+
+
+
+Go to
+
+
+
+                        Go to
+                        
+
+
+
+
+
+
+Open an Account
+Compare Fees
+Products & Markets
+Login
+Mobile app
+
+
+
+
+
+
+About DEGIRO
+
+
+
+                        About DEGIRO
+                        
+
+
+
+
+
+
+Trading Platform
+About DEGIRO
+Strong & Reliable
+Best Broker
+Working at DEGIRO
+Affiliates
+
+
+
+
+
+
+Knowledge
+
+
+
+                        Knowledge
+                        
+
+
+
+
+
+
+Knowledge Center
+Investor's Academy
+Investing with DEGIRO
+Opening Hours Exchanges
+Exchange Holidays
+Blog
+
+
+
+
+
+
+Help Centre
+
+
+
+                        Help Centre
+                        
+
+
+
+
+
+
+Document center
+Frequently Asked Questions
+Orders Desk
+Contact
+
+
+
+
+
+
+Follow us on
+
+
+
+                        Follow us on
+                        
+
+
+
+
+
+
+X
+Facebook
+LinkedIn
+Instagram
+TikTok
+
+
+
+
+
+
+Home
+>
+Investing
+>Platform
+>
+Strong & Reliable
+
+
+
+
+
+Copyright © 2024 DEGIRO. All rights reserved
+
+Privacy & Cookies
+Disclaimer
+Sitemap
+
+
+
+
+
+
+
+
+
+We want to empower people to become the best investors they can be. By offering a universe of possibilities and choices on our user-friendly platform, we are removing barriers to make investing accessible to everyone: beginners or experts. You get access to a wide variety of products on more than 50 global exchanges to have the freedom to invest the way you like. In our world, you also get great value for money. So, without compromising an inch on the quality, security and range of our investment services, we offer incredibly low fees. Prioritising your needs has helped us become the leading European online broker. Our 2.5+ million clients and 100+ international awards are proof of our success.
+flatexDEGIRO Bank Dutch Branch, a foreign branch of flatexDEGIRO Bank AG | Amstelplein 1, 1096HA Amsterdam | phone:  +31 20 2613072 | e-mail: clients@degiro.ie | flatexDEGIRO Bank Dutch Branch is registered with the Dutch Chamber of Commerce under number 82510245. | flatexDEGIRO Bank Dutch Branch, trading under the name DEGIRO, is the Dutch branch of flatexDEGIRO Bank AG. flatexDEGIRO Bank AG is primarily supervised by the German financial regulator (BaFin). In the Netherlands, flatexDEGIRO Bank Dutch Branch is registered with DNB and supervised by AFM and DNB. | flatexDEGIRO Bank AG is a licensed German bank supervised by the German financial regulator and registered with the German Chamber of Commerce under number HRB 105687.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Terms and conditions for the €100 transaction fees offer
+If you activate your DEGIRO investment account before 1 October 2024, DEGIRO will reimburse your transaction fees up to €100. The following conditions apply to this offer:
+
+The offer is valid until (including) 30 September 2024.
+During the offer period, new clients who have activated an account will receive up to €100 in transaction fees reimbursed.
+The first transaction costs and external handling fees up to €100 within the timeframe until 31 October 2024 will be reimbursed.
+Currency handling fees (Auto FX trader and Manual trade) are not eligible to be refunded with this promotion.
+We will reimburse the transaction costs and external handling fees you have spent (up to a maximum of €100) to your DEGIRO account in early November 2024.
+This offer is only valid for new clients with an Irish DEGIRO account.
+Once you sign the Client Agreement, your account is activated, and the offer period starts.
+To start trading and therefore use the €100 voucher, the new client needs to make a first deposit (minimum amount is €0.01).
+New clients who started their registration before the offer period, but activate their DEGIRO account during the offer period, are also eligible for this offer.
+If an existing account is already linked to the address of the new client, participation is excluded.
+Each new client can only claim the €100 transaction credit once.
+Dutch law is applicable to this promotion.
+
+Acceptance of offer's conditions
+By participating in the offer, the client automatically accepts the offer's conditions and terms. DEGIRO may terminate the campaign at any moment prior to expiry or change the campaign conditions. DEGIRO will communicate any changes via the website.
+Participation
+Participation in the offer is open to all clients who have activated an account at DEGIRO on or before 30 September 2024.
+
+
+
+
+
+
+
+

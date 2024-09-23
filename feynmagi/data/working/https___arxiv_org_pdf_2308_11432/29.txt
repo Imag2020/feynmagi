@@ -1,0 +1,44 @@
+30 Front. Comput. Sci.,2024,0(0): 1–42
+tonomously,andthenmetricsliketasksuccessrate researchersusesimulationenvironmentslikeALF-
+and humansimilarity are leveraged to evaluate the World[59],IGLU[138],andMinecraft [16,33,38]
+capability of the agents based on their trajectories as benchmarks to evaluate the agent capabilities.
+andcompleted objectives [16,22,33,38,59,85,138, Tachikuma [170] is a benchmark that leverages
+164,166,170]. Thismethodisexpectedtoevaluate TRPGgamelogstoevaluateLLMs’abilitytounder-
+the agents’practical capabilities in real-worldsce- standandinfercomplexinteractionswithmultiple
+narios. (2)Socialevaluation: Thismethodutilizes characters and novel objects. AgentBench [172]
+metrics to assess social intelligence based on the providesacomprehensiveframeworkforevaluating
+agent interactions in simulated societies. Various LLMsasautonomousagentsacrossdiverseenviron-
+approaches have been adopted, such as collabora- ments. Itrepresentsthefirstsystematicassessment
+tive tasks to evaluate teamwork skills, debates to ofLLMsasagents onreal-worldchallengesacross
+analyzeargumentativereasoning,andhumanstud- diversedomains. SocKET[165]isacomprehensive
+iestomeasuresocialaptitude[34,79,102,165,173]. benchmarkforevaluatingthesocialcapabilitiesof
+These approaches analyze qualities such as coher- LLMs across 58 tasks covering five categories of
+ence,theoryofmind,andsocialIQtoassessagents’ socialinformationsuchashumorandsarcasm,emo-
+capabilities in areas including cooperation, com- tionsandfeelings,credibility,etc. AgentSims[34]
+munication, empathy, and mimicking human social is a versatile framework for evaluating LLM-based
+behavior. By subjecting agents to complex inter- agents, where one can flexibly design the agent
+activesettings,socialevaluationprovidesvaluable planning, memory and action strategies, and mea-
+insights into agents’ higher-level social cognition. sure the effectiveness of different agent modules
+(3) Multi-task evaluation: In this method, people in interactive environments. ToolBench [153] is
+useasetofdiversetasksfromdifferentdomainsto anopen-sourceprojectthataimstosupportthede-
+evaluate the agent, which can effectively measure velopment of powerful LLMs with general tool-
+the agent generalization capability in open-domain use capability. It provides an open platform for
+environments [29,85,153,165,166,172,173]. (4) training, serving, and evaluating LLMs based on
+Softwaretesting: Inthismethod, researchersevalu- tool learning. WebShop [85] develops a benchmark
+atetheagentsbylettingthemconducttaskssuchas for evaluating LLM-basedagents interms oftheir
+softwaretestingtasks,suchasgeneratingtestcases, capabilities for product search and retrieval. The
+reproducingbugs,debuggingcode,andinteracting benchmarkisconstructed usingacollectionof1.18
+with developers and external tools [162,163,169, million real-world items. Mobile-Env [166] is an
+173]. Then,onecanusemetricsliketestcoverage extendableinteractiveplatformwhichcanbeused
+andbugdetectionrateto measuretheeffectiveness to evaluate the multi-step interaction capabilities
+ofLLM-basedagents. of LLM-based agents. WebArena [171] offers a
+comprehensivewebsiteenvironmentthatspansmul-
+Benchmarks: Given the metrics and protocols,
+tiple domains. Its purpose is to evaluate agents
+a crucial remaining aspect is the selection of an
+in an end-to-end fashion and determine the accu-
+appropriate benchmark for conducting the evalua-
+racyoftheircompletedtasks. GentBench[174]is
+tion. In the past, people have used various bench-
+a benchmark designed to evaluate the agent capa-
+marks in their experiments. For example, many

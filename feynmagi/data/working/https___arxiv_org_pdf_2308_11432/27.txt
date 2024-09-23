@@ -1,0 +1,52 @@
+28 Front. Comput. Sci.,2024,0(0): 1–42
+theoutputsgeneratedbyvariousagents[22,29,105]. theseissues,agrowingnumberofresearchersarein-
+Forexample,in[20],theauthorsemploymanyan- vestigatingtheuseofLLMsthemselvesasinterme-
+notators,andaskthemtoprovidefeedbackonfive diariesforcarryingoutthesesubjectiveassessments.
+keyquestionsthatdirectlyassociatedwiththeagent Forexample,inChemCrow[75],researchersassess
+capability. Similarly, [159] assess model effective- theexperimentalresultsusingGPT.Theyconsider
+ness by having human participants rate the models both the completion of tasks and the accuracy of
+on harmlessness, honesty, helpfulness, engagement, theunderlyingprocesses. Similarly,ChatEval[161]
+and unbiasedness, subsequently comparing these introduces anovelapproach by employingmultiple
+scoresacrossdifferentmodels. In[79], annotators agents to critique and assess the results generated
+areaskedto determinewhetherthespecificallyde- byvariouscandidatemodelsinastructureddebate
+signedmodelscansignificantlyenhancethedevel- format. ThisinnovativeuseofLLMsforevaluation
+opmentofruleswithinonlinecommunities. purposesholdspromiseforenhancingboththecred-
+Turing Test: This evaluation strategy necessi- ibilityandapplicabilityofsubjectiveassessmentsin
+tates that human evaluators differentiate between thefuture. AsLLMtechnologycontinuestoevolve,
+outputsproducedbyagentsandthosecreatedbyhu- itisanticipatedthatthesemethodswillbecomein-
+mans. If,inagiventask,theevaluatorscannotsep- creasingly reliable and find broader applications,
+aratetheagentand humanresults,itdemonstrates therebyovercomingthecurrentlimitationsofdirect
+thattheagentcanachievehuman-likeperformance humanevaluation.
+on this task. For instance, researchers in [29] con-
+duct experiments on free-form Partisan text, and 4.2 ObjectiveEvaluation
+the human evaluators are asked to guess whether
+Objectiveevaluationreferstoassessingthecapabili-
+theresponsesarefromhumanorLLM-basedagent.
+tiesofLLM-basedautonomousagentsusingquanti-
+In[20],thehumanevaluatorsarerequiredtoiden-
+tativemetricsthatcanbecomputed,comparedand
+tify whether the behaviors are generated from the
+tracked over time. In contrast to subjective eval-
+agents or real-humans. In EmotionBench [160],
+uation, objective metrics aim to provide concrete,
+human annotations are collected to compare the
+measurableinsightsintotheagentperformance. For
+emotional states expressed by LLM software and
+conductingobjectiveevaluation,therearethreeim-
+human participants across various scenarios. This
+portantaspects,thatis,theevaluationmetrics,pro-
+comparison serves as a benchmark for evaluating
+tocolsandbenchmarks. Inthefollowing,weintro-
+the emotional intelligence of the LLM software,
+ducetheseaspectsmoreindetail.
+illustrating a nuanced approach to understanding
+Metrics: In order to objectively evaluate the ef-
+agentcapabilitiesinmimickinghuman-likeperfor-
+fectivenessoftheagents,designingpropermetrics
+manceandemotionalexpression.
+is significant, which may influence the evaluation
+Remark. LLM-based agents are usually designed accuracyandcomprehensiveness. Idealevaluation
+to serve humans. Thus, subjective agent evaluation metrics should precisely reflect the quality of the
+playsacriticalrole,sinceitreflectshumancriterion. agents,and alignwiththehumanfeelingswhenus-
+However,thisstrategyalsofacesissuessuchashigh ingtheminreal-worldscenarios. Inexistingwork,
+costs,inefficiency,andpopulationbias. Toaddress wecanconcludethefollowingrepresentativeevalu-

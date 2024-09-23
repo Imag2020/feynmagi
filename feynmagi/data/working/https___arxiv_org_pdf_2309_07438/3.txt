@@ -1,0 +1,51 @@
+4
+Fig.2. AsummaryofAGIcompetencies.
+tion,andlearningcapabilitiesofhumanintelligence[82].AGI for gathering raw data from the physical environment via the
+aims to produce AI with greater generalizability across tasks embedded sensors and transmitting this data to central repos-
+and situations. Key capabilities for AGI include: itories or other connected devices. However, the bandwidth
+1) Transfer learning: Applying knowledge gained in one limitations and communication in the dynamic environment
+domain to new domains [83]. of IoT networks [86] can hinder the timely transfer of data to
+2) Multimodal understanding: Integrating and contextual- centralized AGI processing nodes.
+izing data from diverse sensors (text, audio, video, etc.) The integration of AGI with IoT devices also magnifies
+[75], [83]. challenges surrounding data privacy and security. The dis-
+3) Reasoning: Understanding causes and effects to explain tributed nature of IoT devices and the data-hungry nature
+events and make predictions [84]. of AGI amplify vulnerabilities, necessitating robust measures
+4) Self-supervised learning: Discovering higher-level con- forauthentication,encryption,andaccesscontrol.IoTdevices
+ceptsandrepresentationsbyexploringenvironments[82], gather diverse and often sensitive data, which are required by
+[78]. AI models for training and inference. However, deploying AI
+5) Interactivity: Modern generative AGI models are capa- models on IoT devices that respect data privacy presents a
+bleofdynamicandinteractiveengagementswithhumans formidable challenge. Models trained on personal or sensitive
+and environmental inputs, bringing us closer to the goal data, e.g., the LLMs fine-tuned with users’ personal behavior
+of truly interactive agents [78]. patterns or habits, may inadvertently expose confidential in-
+6) Few-shot learning: Learning new skills and apply to formation during inference, raising privacy, ethical, and legal
+unseen tasks rapidly from limited examples [85]. issues.
+Another challenge lies in ensuring the lifespan and adapt-
+AGI will enable the creation of AI agents that can dynami-
+abilityofAGIovertime.IoTdevicesoftenfindtheirwayinto
+cally process and analyze multifaceted IoT data, understand
+infrastructure and devices with extended lifespans. Though
+context, and make decisions accordingly. This will unlock
+AGI could achieve much better generalizability compared to
+morepowerful,flexibleapplicationsratherthancurrentnarrow
+the conventional AI application that mainly targets solving
+AI solutions.
+specific problems, the integration of AGI within IoT devices
+necessitates foresight into or adapting to the evolving deploy-
+F. Challenges
+ment scenarios over time.
+IoTdevicesaredestinedtobethemaincarrierforfutureAI
+applications.However,theconfluenceofAGIandIoTdevices
+II. AIFOUNDATIONFORIOT
+is still facing many challenges.
+A. IoT-Centric Foundation Model for Achieving AGI
+AGI models, such as the LLMs, exhibit immense computa-
+tional demands, while IoT devices are often characterized by As mentioned previously, the emergence of IoT has led
+theirlimitedcomputingpower(e.g.,computationresourceand to a broad spectrum of applications across various domains,
+memory size). This is a natural challenge when accommodat- including power grids, healthcare, and smart cities, among
+ing resource-intensive AGI. IoT devices also have a limited others. Despite their diverse forms, these IoT-related appli-
+energy budget since most of them are designed to be battery- cations can be mathematically abstracted as a function f(·)
+powered. However, intensive computation of AI models could that establishes a mapping between input features x and the
+drain the battery quickly. resulting output y. With x representing the measured vitals
+Other than executing the computation of AI models locally, for wearables, the output y could be a binary indicator for
+the computation can also be offloaded to the centralized data heart attack in smart healthcare. Building on data modality,
+center. In this paradigm, IoT devices are mainly responsible the prevalent approaches for IoT data analysis can be broadly

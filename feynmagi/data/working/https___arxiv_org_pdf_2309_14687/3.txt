@@ -1,0 +1,57 @@
+WehavetodigdeeperinthearchitectureofGazeboand
+realizetheCPSsystemwithin. Tokeepthearchitecture
+modular,wedecidedtoimplementtheproposedmethod
+asaGazeboplugin. Whilethesetupmostoftheseplug-
+ins fits well in the current Gazebo architecture and can
+be done via configuration files, there are still patches
+needed to be applied on core functional elements of the
+Gazebo code.
+Figure2showsthearchitectureoftheproposedmethod.
+The coloringofthe figure followsthe way in (roscontrol
+2017). Green represents new added plugins, modules,
+functionalities. The working of the system is the fol-
+lowing. As a first step –, a launch file that triggers the
+whole simulation to run – setups a parameter on the Figure 3: The visualized trajectories
+ROS parameter server. This parameter defines the spe-
+cific latency plugin that will be loaded.
+ThelaunchfileinitiatestheGazebosimulation. Gazebo intorvizandusedarospackagetovisualizethemarkers
+loads the gazebo ros control plugin (left most blue on the way the robotic arm passedthrough. Figure 3 is
+box) that main purpose is to interface with the ROS a screenshot from rviz which shows the visualized tra-
+controllermanager. This module needed a small tweak. jectories. The bottom left corner of the picture is the
+The original code passed the address of the messages starting point of the robotic arm. It passes through
+from the controller manager to the simulation, per- the waypoints one-by-one from number 1 to 5. The
+formed the actions (read status, calculate commands) blacklines arethe trajectories,while the lines with var-
+triggeredbytheupdate()functioninasequentialman- ious colors show the effect of introducing latency into
+ner. There was no modification of these input variables the system. The cyan color shows the reference sce-
+during the calculations in the original code. In our sys- nario with 0 latency. In all other cases, we introduced
+tem,themessagesarecopiedandstoredtomakeitpos- latency in the system in both the command writing
+sible to perform further actions on the messages. and status reading direction and rerun the trajectory
+Gazebo loads configuration files from the planning and execution scenario. The upper right cor-
+common.gazebo.xacro file in which it is specified ner of the picture shows a magnified part around the
+that our custom RobotHWSimLatency plugin should trajectories. The trajectories were planned with the
+be loaded instead of the DefaultRobotHWSim plugin. RRTConnectkConfigDefaultplanner.
+Our RobotHWSimLatencyplugin is the extension of the The visualized trajectories show the expected behavior
+DefaultRobotHWSim plugin with modified read and of the system. Increasing the latency increases the de-
+write functions and with the task to load a custom viancefromthe originaltrajectories. Itshouldbe noted
+latency plugin. The latency plugin to be loaded is the that the planned trajectories are straight in Cartesian-
+one that was setup by the parameter server. The cur- space. Tomovealongthese trajectoriesthe roboticarm
+rent options include a) the default latency plugin that needs complex movements in the joint-space, thus even
+practically returns the messages with no introduced the movement in a straight line causes deviation from
+latency and b) the simple queue latency plugin. This the referencetrajectory. Inthe otherwayaround,ifthe
+later has a configurable size of the queue to store the plannedtrajectorieswerestraightinthe joint-space,we
+messages in them. In each simulation tick (100Hz), wouldseeamovementincirclesbytheroboticarm,but
+the messages are shifted one position forward in the the effect of the latency was more negligible.
+queue and when they reach the end of the queue they Figure4showsthevelocitycommandssenttotherobot
+are provided to Gazebo as the currently valid message. in the function of time. Analyzing the velocity com-
+In the same way, an interface plugin to cooperate with mands in such details reveals that comparing the dif-
+external network simulators like ns3 (ns3 2017) can be ferent scenarios are not straightforward for several rea-
+also implemented here. We described the detailed call sons. Oneisthattheplanningisnon-deterministic,and
+sequence of the plugin system in details on (OurPlugin aslightdifferenceduringtheinitializationofthegazebo
+2017). environmentendsupwithsomedifferentplannedtrajec-
+tory. The execution of the trajectories depends on the
+EVALUATION environment status as well, and it is never the same.
+Joint 4 shows the expected effect on the velocity com-
+WeevaluatedourproposedmethodonvariousKeyPer- mands levels as well, thus the induced latency causes
+formance Indicators (KPIs). The most straightforward increased velocity command deviation compared to the
+evaluation is the visual inspection of the robotic arm reference scenario. It is also a clear observation that
+movement. Forthispurpose,weloadedtherobotmodel around10mslatency,thesystemstartstogetunstable.

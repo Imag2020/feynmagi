@@ -1,0 +1,101 @@
+27
+[263] F.K.Shaikh,S.Karim,S.Zeadally,andJ.Nebhen,“Recenttrendsin [285] V.Bloch,N.Barchilon,I.Halachmi,andS.Druyan,“Automaticbroiler
+internet of things enabled sensor technologies for smart agriculture,” temperature measuring by thermal camera,” Biosystems engineering,
+IEEEInternetofThingsJournal,2022. vol.199,pp.127–134,2020.
+[264] B. Swaminathan, S. Palani, S. Vairavasundaram, K. Kotecha, and [286] S.-S. Guo, K.-H. Lee, L. Chang, C.-D. Tseng, S.-J. Sie, G.-Z. Lin,
+V.Kumar,“Iot-drivenartificialintelligencetechniqueforfertilizerrec- J.-Y.Chen,Y.-H.Yeh,Y.-J.Huang,andT.-F.Lee,“Developmentofan
+ommendationmodel,”IEEEConsumerElectronicsMagazine,vol.12, automatedbodytemperaturedetectionplatformforfacerecognitionin
+no.2,pp.109–117,2022. cattlewithyolov3-tinydeeplearningandinfraredthermalimaging,”
+[265] T. B. Mary, J. J. Paul, B. Beulah, and J. Joanna, “Iot based weed AppliedSciences,vol.12,no.8,p.4036,2022.
+detection and removal in precision agriculture,” in 2023 2nd In- [287] G.Lu,S.Li,G.Mai,J.Sun,D.Zhu,L.Chai,H.Sun,X.Wang,H.Dai,
+ternational Conference on Advancements in Electrical, Electronics, and N. Liu, “Agi for agriculture,” arXiv preprint arXiv:2304.06136,
+Communication,ComputingandAutomation(ICAECA),pp.1–4,IEEE. 2023.
+[266] S. Azfar, A. Nadeem, K. Ahsan, A. Mehmood, M. S. Siddiqui, [288] J.Giraldo,D.Urbina,A.Cardenas,J.Valente,M.Faisal,J.Ruths,N.O.
+M.Saeed,andM.Ashraf,“Aniot-basedsystemforefficientdetection Tippenhauer,H.Sandberg,andR.Candell,“Asurveyofphysics-based
+ofcottonpest,”AppliedSciences,vol.13,no.5,p.2921,2023. attackdetectionincyber-physical systems,”ACMComputingSurveys
+[267] I.Ullah,M.Fayaz,M.Aman,andD.Kim,“Anoptimizationscheme (CSUR),vol.51,no.4,pp.1–36,2018.
+for iot based smart greenhouse climate control with efficient energy [289] M. Dehghani, T. Niknam, M. Ghiasi, N. Bayati, and M. Savaghebi,
+consumption,”Computing,vol.104,no.2,pp.433–457,2022. “Cyber-attack detection in dc microgrids based on deep machine
+[268] A.VadieeandV.Martin,“Energymanagementstrategiesforcommer- learning and wavelet singular values approach,” Electronics, vol. 10,
+cialgreenhouses,”AppliedEnergy,vol.114,pp.880–888,2014. no.16,p.1914,2021.
+[269] R. Karthickmanoj, T. Sasilatha, and J. Padmapriya, “Automated ma- [290] A. A. Khan, O. A. Beg, M. Alamaniotis, and S. Ahmed, “Intelligent
+chine learning based plant stress detection system,” Materials Today: anomalyidentificationincyber-physicalinverter-basedsystems,”Elec-
+Proceedings,vol.47,pp.1887–1891,2021. tricPowerSystemsResearch,vol.193,p.107024,2021.
+[270] S.PuengsungwanandK.Jiraserccamomkul,“Iotbasedstressdetection [291] F. Li, Q. Li, J. Zhang, J. Kou, J. Ye, W. Song, and H. A. Mantooth,
+fororganiclettucefarmsusingchlorophyllfluorescence(chf),”in2018 “Detectionanddiagnosisofdataintegrityattacksinsolarfarmsbased
+GlobalWirelessSummit(GWS),pp.354–357,IEEE,2018. on multilayer long short-term memory network,” IEEE Transactions
+[271] Y. Numajiri, K. Yoshino, S. Teramoto, A. Hayashi, R. Nishijima, onPowerElectronics,vol.36,no.3,pp.2495–2498,2021.
+T.Tanaka,T.Hayashi,T.Kawakatsu,T.Tanabata,andY.Uga,“ipots: [292] B.YangandJ.Ye,“Data-drivendetectionofphysicalfaultsandcyber
+Internet of things-based pot system controlling optional treatment of attacks in dual-motor ev powertrains,” in 2022 IEEE Transportation
+soilwaterconditionforplantphenotypingunderdroughtstress,”The ElectrificationConference&Expo(ITEC),pp.991–996,2022.
+PlantJournal,vol.107,no.5,pp.1569–1580,2021.
+[293] B.Yang,J.Ye,andL.Guo,“Fastdetectionforcyberthreatsinelectric
+[272] Y. Zhu, A. Abdalla, Z. Tang, and H. Cen, “Improving rice nitrogen
+vehicle traction motor drives,” IEEE Transactions on Transportation
+stress diagnosis by denoising strips in hyperspectral images via deep
+Electrification,vol.8,no.1,pp.767–777,2022.
+learning,”BiosystemsEngineering,vol.219,pp.165–176,2022.
+[294] B. Yang, J. Ye, S. Coshatt, W. Song, and F. Zahiri, “Data-driven
+[273] O. Elsherbiny, L. Zhou, Y. He, and Z. Qiu, “A novel hybrid deep
+approach for detection of physical faults and cyber attacks in man-
+network for diagnosing water status in wheat crop using iot-based
+ufacturing motor drives,” in 2022 IEEE Energy Conversion Congress
+multimodaldata,”ComputersandElectronicsinAgriculture,vol.203,
+andExposition(ECCE),pp.1–6,2022.
+p.107453,2022.
+[295] B. Maschler and M. Weyrich, “Deep transfer learning for industrial
+[274] M.BenjaminandS.Yik,“Precisionlivestockfarminginswinewelfare:
+automation:Areviewanddiscussionofnewtechniquesfordata-driven
+areviewforswinepractitioners,”Animals,vol.9,no.4,p.133,2019.
+machine learning,” IEEE Industrial Electronics Magazine, vol. 15,
+[275] S.NeethirajanandB.Kemp,“Digitallivestockfarming,”Sensingand
+no.2,pp.65–75,2021.
+Bio-SensingResearch,vol.32,p.100408,2021.
+[296] Q.Li,J.Zhang,J.Ye,andW.Song,“Data-drivencyber-attackdetection
+[276] S.Fuentes,C.G.Viejo,E.Tongson,andF.R.Dunshea,“Thelivestock
+for photovoltaic systems: A transfer learning approach,” in 2022
+farming digital transformation: implementation of new and emerging
+IEEEAppliedPowerElectronicsConferenceandExposition(APEC),
+technologies using artificial intelligence,” Animal Health Research
+pp.1926–1930,2022.
+Reviews,pp.1–13,2022.
+[297] Y. Shao and Z. Sun, “Energy-efficient connected and automated ve-
+[277] Y.Salzer,G.Lidor,L.Rosenfeld,L.Reshef,B.Shaked,J.Grinshpun,
+hicles:Real-timetrafficprediction-enabledco-optimizationofvehicle
+H.H.Honig,H.Kamer,M.Balaklav,andM.Ross,“Anoseringsensor
+motionandpowertrainoperation,”IEEEVehicularTechnologyMaga-
+system to monitor dairy cow cardiovascular and respiratory metrics,”
+zine,vol.16,no.3,pp.47–56,2021.
+JournalofAnimalScience,vol.100,no.9,p.skac240,2022.
+[298] S. E. Shladover, “Opportunities and challenges in cooperative road
+[278] R. Arablouei, L. Wang, L. Currie, J. Yates, F. A. Alvarenga, and
+vehicleautomation,”IEEEOpenJournalofIntelligentTransportation
+G.J.Bishop-Hurley,“Animalbehaviorclassificationviadeeplearning
+Systems,vol.2,pp.216–224,2021.
+on embedded systems,” Computers and Electronics in Agriculture,
+vol.207,p.107707,2023. [299] A. Vahidi and A. Sciarretta, “Energy saving potentials of connected
+[279] M.Shahbazi,K.Mohammadi,S.M.Derakhshani,andP.W.GrootKo- and automated vehicles,” Transportation Research Part C: Emerging
+erkamp, “Deep learning for laying hen activity recognition using
+Technologies,vol.95,pp.822–843,2018.
+wearablesensors,”Agriculture,vol.13,no.3,p.738,2023. [300] G.Naik,B.Choudhury,andJ.-M.Park,“Ieee802.11bd&5gnrv2x:
+[280] K. Fujinami, R. Takuno, I. Sato, and T. Shimmura, “Evaluating Evolutionofradioaccesstechnologiesforv2xcommunications,”IEEE
+behavior recognition pipeline of laying hens using wearable inertial Access,vol.7,pp.70169–70184,2019.
+sensors,”Sensors,vol.23,no.11,p.5077,2023. [301] S.Zeadally,M.A.Javed,andE.B.Hamida,“Vehicularcommunica-
+[281] R.Arablouei,Z.Wang,G.J.Bishop-Hurley,andJ.Liu,“Multimodal tions for its: Standardization and challenges,” IEEE Communications
+sensor data fusion for in-situ classification of animal behavior using StandardsMagazine,vol.4,no.1,pp.11–17,2020.
+accelerometry and gnss data,” Smart Agricultural Technology, vol. 4, [302] S.International,“J3016:Taxonomyanddefinitionsfortermsrelatedto
+p.100163,2023. drivingautomationsystemsforon-roadmotorvehicles.”
+[282] J. Wang, L. Liu, M. Lu, C. Okinda, D. Lovarelli, M. Guarino, and [303] L.Brunelli,A.Capancioni,P.Gonnella,R.Casadio,A.Brusa,N.Cav-
+M. Shen, “The estimation of broiler respiration rate based on the ina,andM.Caggiano,“Ahybridvehiclehardware-in-the-loopsystem
+semanticsegmentationandvideoamplification,”FrontiersinPhysics, with integrated connectivity for ehorizon functions validation,” IEEE
+vol.10,p.1218,2022. TransactionsonVehicularTechnology,vol.70,no.5,pp.4340–4352,
+[283] S.Fuentes,C.GonzalezViejo,S.S.Chauhan,A.Joy,E.Tongson,and 2021.
+F.R.Dunshea,“Non-invasivesheepbiometricsobtainedbycomputer [304] Y.ShaoandZ.Sun,“Vehiclespeedandgearpositionco-optimization
+vision algorithms and machine learning modeling using integrated forenergy-efficientconnectedandautonomousvehicles,”IEEETrans-
+visible/infrared thermal cameras,” Sensors, vol. 20, no. 21, p. 6334, actionsonControlSystemsTechnology,vol.29,no.4,pp.1721–1732,
+2020. 2021.
+[284] M. Jorquera-Chavez, S. Fuentes, F. R. Dunshea, R. D. Warner, [305] J.Maguire,H.Peng,andS.Bai,DynamicAnalysisandControlSystem
+T. Poblete, and E. C. Jongman, “Modelling and validation of com- DesignofAutomaticTransmissions,pp.i–x. 2013.
+putervisiontechniquestoassessheartrate,eyetemperature,ear-base [306] Z.Qin,Y.Luo,W.Zhuang,Z.Pan,K.Li,andH.Peng,“Simultaneous
+temperature and respiration rate in cattle,” Animals, vol. 9, no. 12, optimization of topology, control and size for multi-mode hybrid
+p.1089,2019. trackedvehicles,”AppliedEnergy,vol.212,pp.1627–1641,2018.

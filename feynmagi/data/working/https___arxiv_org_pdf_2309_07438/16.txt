@@ -1,0 +1,63 @@
+17
+computational layers and more than a billion parameters [42], ence frameworks for edge and IoT devices. These efforts
+[428] in order to achieve superior accuracy. However, this include the development of DeepX [453], TFLite [452],
+posessignificantchallengesfordeployingthesemodelsonIoT TVM [454], Alibaba’s Mobile Neural Network (MNN) [455],
+devices, especially when it comes to real-time performance. DeepCache [456], DeepMon [457], DeepSense [458], and
+IoTdeviceshavelimitedcomputationresourcessuchasmem- MCDNN [459]. However, most of these frameworks failed
+ory bandwidth, throughput, and power budgets. As a result, to fully exploit model compression techniques, and none
+thereisacomplextrade-offbetweentheincreasingcomplexity succeeded in real-time execution of LLMs on edge devices.
+of DNNs, which is necessary for improving accuracy, and the Although previous attempts have been made to perform infer-
+deployment of these DNNs on resource-constrained mobile ence using compressed DNNs on edge platforms (e.g., [460],
+devices to enable wider application. the interaction between model compression and hardware
+From the hardware perspective, there is a growing trend in acceleration has not been meticulously explored in previous
+designingspecializedsystem-on-chips(SoCs)forIoTdevices, studies. There are still some open questions to further reduce
+which provide a programming interface suitable for general- the storage and computation cost for emerging LLMs.
+purposeprocessing [429],[430],[431].Smartwatches,inpar-
+ticular, have made significant investments in advanced Apple
+B. Large-scale IoT Communication
+Silicon chips [432], which can also accelerate highly parallel
+workloads. However, there has been limited exploration of AsIoTdevicesbecomeprevalentanddeeplyintegratedinto
+using these specialized chips for other types of workloads. In our daily life, it becomes crucial to establish both intra- and
+the next section, we will analyze existing efforts and potential inter-connectivity among them. Such connectivity is vital for
+optimizations to address the challenges mentioned earlier. data transfer, sharing, and analysis. However, as the number
+1) Algorithm-level Optimizations: DNN model compres- of IoT devices grows exponentially, a grand challenge a sig-
+sion techniques, such as pruning[433], [434], [435], [436], nificant challenge arises in facilitating smooth communication
+[437],[438],havebeenproposedtoreducestorageandcompu- between them. This challenge is particularly pronounced in
+tation while accelerating inference. However, there is a trade- wireless communication, where interference becomes a major
+offwithaslightaccuracyloss.Pruningcanbeperformeddur- concern when sharing limited spectrum resources [461]. The
+ing DNN training and is considered an algorithmic optimiza- scarcity, limitations, and cost associated with spectrum avail-
+tion that reduces redundancy in weight numbers. There are abilitymakethisacomplexissuethatcannotbeeasilyresolved
+threetypesofweightpruningschemes:non-structured(irregu- bymerelyallocatingadditionalspectrumbands.Consequently,
+lar),coarse-grainedstructured(regular),andfine-grainedstruc- over the past few decades, substantial research efforts have
+tured (regular). Non-structured pruning [433], [434], [435] been dedicated to enhancing communication design, such as
+allows arbitrary weights to be pruned, resulting in a higher improving spectrum and energy efficiency [462], enabling
+pruning rate but potential performance degradation in GPU large-scale and high-density connectivity [463], [464], sup-
+andCPUimplementationsduetosparsematrixstorageformat. porting diverse communication needs (low latency, high data
+Ontheotherhand,structuredpruning[436],[437],[438]leads rate, high reliability), and more.
+to regular smaller weight matrices in GPU/CPU implementa- In a classic communication system with one transmitter
+tions, resulting in more significant acceleration. Fine-grained (TX)andonereceiver(RX),TXwilltranslateapplicationdata
+structurepruning[439],[440],[441],[442]prunesfine-grained into binary form. These binary data then undergo a sequence
+patterns within coarse-grained structures. The data access of operations: channel coding, modulation, transmission, de-
+pattern and computational pattern are more regular, offering modulation, and de-channel coding (commonly known as the
+high accuracy, hardware-friendliness, and a high pruning rate. classic 5-step process) [465]. Eventually, they are translated
+Weightquantization[443],[444],[445],[446],[447],[448], back from binary to their original application data format. At
+[449], [450] is another model compression technique that each step, robust solutions have been established, primarily
+reduces redundancy in the bit representation of weights. It rooted in the framework of probability and statistics. These
+involves mapping floating-point weights to a set number of solutions form the bedrock of the dynamic wireless research
+quantized levels, determined by the chosen bit representation landscape and the products we have today. While significant
+(e.g., n -bit). Each quantized weight is equal to the weight progress has been made in this area, leading to several
+k
+quantization scaling factor α multiplied by the value rep- generations of wireless technology (1G to the latest 5G), the
+k
+resented by an n -bit digit. Compared to pruning, weight intricate challenges arising from factors such as high traffic,
+k
+quantization is considered hardware-friendly and offers pro- heterogeneity, constant connectivity, and dynamic conditions
+portional computation and storage requirements reductions. have rendered conventional optimization-based approaches
+Consequently, it has become a prominent technique for com- unfeasible. Notably, optimization at each transmission step
+pressing DNNs, often seen as an essential step in FPGA introduces high computational cost, not to mention they are
+and ASIC designs for DNN inference engines. Furthermore, disjoint in terms of end-to-end optimization. For IoT devices,
+supportforweightquantizationhasexpandedtoincludeGPUs these challenges are more severe, since they typically have
+andmobiledevicessuchasNVIDIAGPUswithPyTorch[451] limited computation and power capacity.
+and TFLite [452] support for mobile devices. In recent years, ML-based approaches have emerged as
+2) System-level Optimizations: Recently, substantial ef- dominant forces within wireless research, particularly at a
+forts have been directed towards accelerating DNN infer- lower layer of Open Systems Interconnection (OSI) model,

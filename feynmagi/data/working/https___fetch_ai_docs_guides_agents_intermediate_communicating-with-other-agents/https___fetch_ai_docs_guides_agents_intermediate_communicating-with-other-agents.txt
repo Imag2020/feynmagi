@@ -1,0 +1,282 @@
+Communicating with other agents – Fetch.ai DocumentationConceptsConceptsGuidesGuidesExamplesExamplesReferencesReferencesAPIsAPIsGitHub (opens in a new tab)GuidesAI AgentsQuickstartGetting StartedWhat's an Agent?uAgents Framework installationCreate your first agentAgents addressIntermediate topicsCommunicating with other agentsAgent Handlers (on_...)Agents storage functionsPublic and private AgentsSend tokens with AgentsAgents MailboxesAgent FunctionsMake agents AI Engine compatibleMulti-file agent pipeline for AI Engine: Hugging face API to create a multi agent pipelineOptions for running local agentsHosted agentAdvanced TopicsIntroducing dialoguesAlmanac ContractVerify messages with AgentsMulti-file agent pipeline for AI Engine: Network of Primary and Secondary functions in AgentverseLocalwalletAgentverseAgentverse: create agents on the AgentverseAgentverse: Hosted AgentsAgentverse: Dice Roll agentAgentverse: Allowed ImportsAgentverse: MailboxAgentverse: MailboxAgentverse: Agent FunctionsRegister Agentverse FunctionsAgentverse Functions: coin toss agentField descriptions for DeltaVDeploying agents with AVCTLAgentverse Command Line Interface (AVCTL)AVCTL Hosting commandsAPIsAgents and Functions creation APIsSecret Management APIsFetch NetworkHow to convert native FET to and from ERC-20 FETHow to stake FET tokensDifferent ways of staking FETRe-delegating staked FET tokenReconciliation serviceHow to setup a Multisig WalletFetch walletFetch Web WalletGetting startedFeature 1: Home ScreenFeature 2: StakeFeature 3: Send and Receive functionsFeature 4: Activity pageFeature 5: More optionsFetch Mobile WalletGetting startedFeature 1: Home ScreenFeature 2: StakeFeature 3: Send and Receive functionsFeature 4: ActivityFeature 5: More optionsInstall Fetch.ai browser extension wallet with Ledger hardware walletCosmPyInstallationConnecting to a blockchainQuerying balancesWallets and private keysSending fundsStakingSmart contractsUse casesStake auto-compounderStake optimizerOraclesWallet top-upLiquidity poolSwap automationJenesisInstallation️Getting startedKeysWorking with contractsHow to add profilesHow to add contract templatesHow to compile contractsHow to deploy contractsContract interactionLedgerInstallationHow to use chain state snapshotsState-synchronization (state-sync)How to set up a validator nodeHow to join a testnetHow to run a single node test networkGovernanceHow to get testnet tokens via the Token FaucetCLI - Command Line InterfaceCLI - IntroductionCLI - Managing keysCLI - Managing tokensCLI - Multisig keysCLI - DelegationGovernance proposalsCoursesAgents 101Agents 101 for AI EngineGuidesAI AgentsQuickstartGetting StartedWhat's an Agent?uAgents Framework installationCreate your first agentAgents addressIntermediate topicsCommunicating with other agentsIntroductionAgents: Local CommunicationAgents Remote Communication: the Almanac ContractConclusionAgent Handlers (on_...)Agents storage functionsPublic and private AgentsSend tokens with AgentsAgents MailboxesAgent FunctionsMake agents AI Engine compatibleMulti-file agent pipeline for AI Engine: Hugging face API to create a multi agent pipelineOptions for running local agentsHosted agentAdvanced TopicsIntroducing dialoguesAlmanac ContractVerify messages with AgentsMulti-file agent pipeline for AI Engine: Network of Primary and Secondary functions in AgentverseLocalwalletAgentverseAgentverse: create agents on the AgentverseAgentverse: Hosted AgentsAgentverse: Dice Roll agentAgentverse: Allowed ImportsAgentverse: MailboxAgentverse: MailboxAgentverse: Agent FunctionsRegister Agentverse FunctionsAgentverse Functions: coin toss agentField descriptions for DeltaVDeploying agents with AVCTLAgentverse Command Line Interface (AVCTL)AVCTL Hosting commandsAPIsAgents and Functions creation APIsSecret Management APIsFetch NetworkHow to convert native FET to and from ERC-20 FETHow to stake FET tokensDifferent ways of staking FETRe-delegating staked FET tokenReconciliation serviceHow to setup a Multisig WalletFetch walletFetch Web WalletGetting startedFeature 1: Home ScreenFeature 2: StakeFeature 3: Send and Receive functionsFeature 4: Activity pageFeature 5: More optionsFetch Mobile WalletGetting startedFeature 1: Home ScreenFeature 2: StakeFeature 3: Send and Receive functionsFeature 4: ActivityFeature 5: More optionsInstall Fetch.ai browser extension wallet with Ledger hardware walletCosmPyInstallationConnecting to a blockchainQuerying balancesWallets and private keysSending fundsStakingSmart contractsUse casesStake auto-compounderStake optimizerOraclesWallet top-upLiquidity poolSwap automationJenesisInstallation️Getting startedKeysWorking with contractsHow to add profilesHow to add contract templatesHow to compile contractsHow to deploy contractsContract interactionLedgerInstallationHow to use chain state snapshotsState-synchronization (state-sync)How to set up a validator nodeHow to join a testnetHow to run a single node test networkGovernanceHow to get testnet tokens via the Token FaucetCLI - Command Line InterfaceCLI - IntroductionCLI - Managing keysCLI - Managing tokensCLI - Multisig keysCLI - DelegationGovernance proposalsCoursesAgents 101Agents 101 for AI EngineGuidesAI AgentsIntermediate topicsCommunicating with other agentsAgentsAICommunicationIntermediateCommunicating with other agents
+Introduction
+Communication is an essential feature within any agents network. Communication allows agents to work together, exchange information, and forms an organic marketplace.
+In this guide, we will explore two methods of communication between agents:
+
+Local communication.
+Remote communication via the Almanac Contract ↗️.
+
+Let's start with local communication. This is the first step you would need to undertake to familiarize yourself with the code syntax we will be using in the remote communication section.
+ℹ️Local communication is important for debugging purposes.
+Agents: Local Communication
+Walk-through
+The first step to better understand how agents communicate is to introduce how 2 agents perform a local communication. Let's consider a basic example in which two agents say hello to each other.
+
+
+First of all, let's create a Python script for this task and name it: agents_communication.py
+
+
+Then, we import  Agent, Context, Bureau, and Model from the uagents library and we then define the message structure for messages to be exchanged between the agents using the class Model:
+from uagents import Agent, Bureau, Context, Model
+ 
+class Message(Model):
+    message: str
+The Message class defines the structure of message we can receive. In this example it's just a string, but it could be a simple integer, or a complex object too.
+
+
+Now we create two agent instances, sigmar and slaanesh, with name and seed parameters:
+sigmar = Agent(name="sigmar", seed="sigmar recovery phrase")
+slaanesh = Agent(name="slaanesh", seed="slaanesh recovery phrase")
+In this example we're running multiple agents from one file.
+
+
+Let's now define sigmar's behaviors. We need to define a function for sigmar to send messages to slaanesh periodically:
+@sigmar.on_interval(period=3.0)
+async def send_message(ctx: Context):
+   await ctx.send(slaanesh.address, Message(message="hello there slaanesh"))
+We can use the .on_interval() decorator to define a coroutine send_message() function that will be called every 3 seconds. The coroutine function sends a message to slaanesh using the ctx.send() method of the Context object.
+
+
+We then need to define a sigmar_message_handler() function for sigmar to manage incoming messages:
+@sigmar.on_message(model=Message)
+async def sigmar_message_handler(ctx: Context, sender: str, msg: Message):
+    ctx.logger.info(f"Received message from {sender}: {msg.message}")
+This defines the coroutine function sigmar_message_handler() that serves as a message handler for sigmar. It is triggered whenever sigmar receives a message of type Message.
+
+
+Let's now define the behavior of our second agent, slaanesh:
+@slaanesh.on_message(model=Message)
+async def slaanesh_message_handler(ctx: Context, sender: str, msg: Message):
+    ctx.logger.info(f"Received message from {sender}: {msg.message}")
+    await ctx.send(sigmar.address, Message(message="hello there sigmar"))
+Same as sigmar however, we make slaanesh compose a response message to be sent back using the ctx.send() method with sigmar.address as the recipient address and an instance of the Message model as the message payload.
+It would also be valid to respond to the sender:
+await ctx.send(sender.address, Message(message="hello there sigmar"))
+
+
+Let's then use the Bureau class to create a Bureau object. This will allow us to run agents together in the same script:
+bureau = Bureau()
+bureau.add(sigmar)
+bureau.add(slaanesh)
+ 
+if __name__ == "__main__":
+    bureau.run()
+
+
+Save the script.
+
+
+The complete script should be looking as follows:
+agents_communication.pyfrom uagents import Agent, Bureau, Context, Model
+ 
+class Message(Model):
+    message: str
+ 
+sigmar = Agent(name="sigmar", seed="sigmar recovery phrase")
+slaanesh = Agent(name="slaanesh", seed="slaanesh recovery phrase")
+ 
+@sigmar.on_interval(period=3.0)
+async def send_message(ctx: Context):
+   await ctx.send(slaanesh.address, Message(message="hello there slaanesh"))
+ 
+@sigmar.on_message(model=Message)
+async def sigmar_message_handler(ctx: Context, sender: str, msg: Message):
+    ctx.logger.info(f"Received message from {sender}: {msg.message}")
+ 
+@slaanesh.on_message(model=Message)
+async def slaanesh_message_handler(ctx: Context, sender: str, msg: Message):
+    ctx.logger.info(f"Received message from {sender}: {msg.message}")
+    await ctx.send(sigmar.address, Message(message="hello there sigmar"))
+ 
+bureau = Bureau()
+bureau.add(sigmar)
+bureau.add(slaanesh)
+ 
+if __name__ == "__main__":
+    bureau.run()
+We are now ready to run the script: python agents_communication.py
+The output would be:
+[bureau]: Starting server on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[sigmar]: Received message from agent1q0mau8vkmg78xx0sh8cyl4tpl4ktx94pqp2e94cylu6haugt2hd7j9vequ7: hello there sigmar
+[slaanesh]: Received message from agent1qww3ju3h6kfcuqf54gkghvt2pqe8qp97a7nzm2vp8plfxflc0epzcjsv79t: hello there slaanesh
+[sigmar]: Received message from agent1q0mau8vkmg78xx0sh8cyl4tpl4ktx94pqp2e94cylu6haugt2hd7j9vequ7: hello there sigmar
+[slaanesh]: Received message from agent1qww3ju3h6kfcuqf54gkghvt2pqe8qp97a7nzm2vp8plfxflc0epzcjsv79t: hello there slaanesh
+[sigmar]: Received message from agent1q0mau8vkmg78xx0sh8cyl4tpl4ktx94pqp2e94cylu6haugt2hd7j9vequ7: hello there sigmar
+Agents Remote Communication: the Almanac Contract
+To speak, search or be found, your agent must register to the  Almanac contract ↗️. Agents then query this to retrieve an HTTP endpoint for a recipient agent. Registration in the Almanac ↗️ requires paying a small fee, so make sure to have enough funds to allow for this. You can query the Almanac now, by using the search feature on Agentverse ↗️ (opens in a new tab).
+Whenever an agent registers in the Almanac, it must specify the service endpoints ↗️ alongside a weight parameter for each endpoint provided. Agents trying to communicate with your agent will choose the service endpoints using a weighted random selection.
+Here, we show you how to create two agents and make them remotely communicate by registering and using the Almanac Contract.
+Walk-through
+The first step would be to create two different Python scripts for this task, each one representing a remote agent:
+Slaanesh: remote_agents_slaanesh.py
+Sigmar: remote_agents_sigmar.py
+Let's start by defining the script for sigmar.
+Sigmar
+
+
+In remote_agents_sigmar.py script, we would need to import the necessary classes from the uagents (Agent, Context, and Model) and from uagents.setup (fund_agent_if_low). We then need to define the message structure for messages to be exchanged between agents using the class Model, as well as the RECIPIENT_ADDRESS (slaanesh's address). Note that if you don't know slaanesh's address yet, you can use print(slaanesh.address) after defining agent slaanesh to get this information. This is the address towards which sigmar will send messages:
+from uagents import Agent, Context, Model
+from uagents.setup import fund_agent_if_low
+ 
+class Message(Model):
+    message: str
+ 
+RECIPIENT_ADDRESS="agent1qvm7v76zs6w2x90xvq99yc5xh7c2thjtm44zc09me556zxnra627gkf4zum"
+
+
+Let's now create our agent, sigmar, by providing name, seed, port, and endpoint. Also, make sure it has enough funds to register in the Almanac contract:
+sigmar = Agent(
+    name="sigmar",
+    port=8000,
+    seed="sigmar secret phrase",
+    endpoint=["http://127.0.0.1:8000/submit"],
+)
+ 
+fund_agent_if_low(sigmar.wallet.address())
+On the Fetch.ai testnet, you can use the fund_agent_if_low function. This checks if the balance of the agent's wallet is below a certain threshold, and if so, sends a transaction to fund the wallet with a specified amount of cryptocurrency. In this case, it checks if the balance of sigmar's wallet is low and funds it if necessary.
+
+
+We are ready to define sigmar's behaviors. Let's start with a function for sigmar to send messages:
+@sigmar.on_interval(period=2.0)
+async def send_message(ctx: Context):
+    await ctx.send(RECIPIENT_ADDRESS, Message(message="hello there slaanesh")
+Here, the .on_interval() decorator schedules the send_message() function to be run every 2 seconds. Inside the function, there is an asynchronous call indicated by the ctx.send() method. This call sends a message with the content "hello there slaanesh" to the RECIPIENT_ADDRESS.
+
+
+We then need to define a function for sigmar to handle incoming messages from other agents:
+@sigmar.on_message(model=Message)
+async def message_handler(ctx: Context, sender: str, msg: Message):
+    ctx.logger.info(f"Received message from {sender}: {msg.message}")
+ 
+if __name__ == "__main__":
+    sigmar.run()
+Here, we have used the .on_message() decorator to register the message_handler() coroutine function as a handler for incoming messages of type Message.
+The message_handler() function takes three arguments: ctx, sender, and msg. Inside this function, we call the ctx.logger.info() method to log information about the received message, including the sender and message content.
+
+
+We can now save the script.
+
+
+The overall script for sigmar agent should be looking as follows:
+remote_agents_sigmar.pyfrom uagents import Agent, Context, Model
+from uagents.setup import fund_agent_if_low
+ 
+class Message(Model):
+    message: str
+ 
+RECIPIENT_ADDRESS="agent1qvm7v76zs6w2x90xvq99yc5xh7c2thjtm44zc09me556zxnra627gkf4zum"
+ 
+sigmar = Agent(
+    name="sigmar",
+    port=8000,
+    seed="sigmar secret phrase",
+    endpoint=["http://127.0.0.1:8000/submit"],
+)
+ 
+fund_agent_if_low(sigmar.wallet.address())
+ 
+@sigmar.on_interval(period=2.0)
+async def send_message(ctx: Context):
+    await ctx.send(RECIPIENT_ADDRESS, Message(message="hello there slaanesh"))
+ 
+@sigmar.on_message(model=Message)
+async def message_handler(ctx: Context, sender: str, msg: Message):
+    ctx.logger.info(f"Received message from {sender}: {msg.message}")
+ 
+if __name__ == "__main__":
+    sigmar.run()
+We can now proceed by writing the script for agent slaanesh.
+Slaanesh
+
+
+In remote_agents_slaanesh.py script, import the necessary classes from the uagents and uagents.setup. Then, define the message structure for messages to be exchanged between the agents using the Model class, as well as our second uAgent, slaanesh, by providing name, seed, port, and endpoint. Make sure it has enough funds to register in the Almanac contract:
+from uagents import Agent, Context, Model
+from uagents.setup import fund_agent_if_low
+ 
+class Message(Model):
+    message: str
+ 
+slaanesh = Agent(
+    name="slaanesh",
+    port=8001,
+    seed="slaanesh secret phrase",
+    endpoint=["http://127.0.0.1:8001/submit"],
+)
+ 
+fund_agent_if_low(slaanesh.wallet.address())
+
+
+Let's now define a function for slaanesh to handle incoming messages and answering back to the sender:
+@slaanesh.on_message(model=Message)
+async def message_handler(ctx: Context, sender: str, msg: Message):
+    ctx.logger.info(f"Received message from {sender}: {msg.message}")
+ 
+    await ctx.send(sender, Message(message="hello there sigmar"))
+ 
+if __name__ == "__main__":
+    slaanesh.run()
+Here, we have defined an asynchronous message_handler() function for slaanesh to handle incoming messages from other uAgents. The function is decorated with .on_message(), and it is triggered whenever a message of type Message is received by slaanesh. When a message is received, the handler function logs the sender's address and the content of the message. It then sends a response back to the sender using the ctx.send() with a new message. The response message contains the Message data model with a "hello there sigmar" message.
+
+
+Save the script.
+
+
+The overall script for slaanesh should be looking as follows:
+remote_agents_slaanesh.pyfrom uagents.setup import fund_agent_if_low
+from uagents import Agent, Context, Model
+ 
+class Message(Model):
+    message: str
+ 
+slaanesh = Agent(
+    name="slaanesh",
+    port=8001,
+    seed="slaanesh secret phrase",
+    endpoint=["http://127.0.0.1:8001/submit"],
+)
+ 
+fund_agent_if_low(slaanesh.wallet.address())
+ 
+@slaanesh.on_message(model=Message)
+async def message_handler(ctx: Context, sender: str, msg: Message):
+    ctx.logger.info(f"Received message from {sender}: {msg.message}")
+ 
+    await ctx.send(sender, Message(message="hello there sigmar"))
+ 
+if __name__ == "__main__":
+    slaanesh.run()
+Run the scripts
+In different terminal windows, first run slaanesh and then sigmar. They will register automatically in the Almanac contract using their funds. The received messages will print out in each terminal:
+Terminal 1: python remote_agents_slaanesh.py
+Terminal 2: python remote_agents_sigmar.py
+The output will depend on the terminal:
+
+
+Sigmar:
+INFO:     [sigmar]: Registering on almanac contract...
+INFO:     [sigmar]: Registering on almanac contract...complete
+INFO:     [sigmar]: Received message from agent1qvm7v76zs6w2x90xvq99yc5xh7c2thjtm44zc09me556zxnra627gkf4zum: hello there sigmar
+INFO:     [sigmar]: Received message from agent1qvm7v76zs6w2x90xvq99yc5xh7c2thjtm44zc09me556zxnra627gkf4zum: hello there sigmar
+INFO:     [sigmar]: Received message from agent1qvm7v76zs6w2x90xvq99yc5xh7c2thjtm44zc09me556zxnra627gkf4zum: hello there sigmar
+
+
+Slaanesh:
+INFO:     [slaanesh]: Registering on almanac contract...
+INFO:     [slaanesh]: Registering on almanac contract...complete
+INFO:     [slaanesh]: Starting server on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     [slaanesh]: Received message from agent1qvwqu6a0km09mq4f6j6kmke9smswmgcergmml9a54av9449rqtmmxy4qwe6: hello there slaanesh
+INFO:     [slaanesh]: Received message from agent1qvwqu6a0km09mq4f6j6kmke9smswmgcergmml9a54av9449rqtmmxy4qwe6: hello there slaanesh
+INFO:     [slaanesh]: Received message from agent1qvwqu6a0km09mq4f6j6kmke9smswmgcergmml9a54av9449rqtmmxy4qwe6: hello there slaanesh
+
+
+Before we go on...
+As we touched on before in Register in Almanac ↗️, when the agent uses .run() function this tells the uagents library to register the agent to the Almanac. It's simple, agents initialize themselves, and register to a service which acts as a search engine for agents (the Almanac) then, when agents receive messages they can respond.
+Conclusion
+In this guide, we explored two different methods of communication for Agents using the uagents library:
+
+Local communication.
+Remote communication via the Almanac Contract.
+
+For local communication, we learned how to use the uagents library to create two agents, sigmar and slaanesh, and enable them to exchange messages with one another. We defined the message structure using the Model class and implemented message handlers for both agents. By running the script we observed their real-time message exchange.
+Next, we delved into remote communication, which facilitates interaction between agents through the Almanac Contract. This method requires registering the agents in the Almanac Contract and querying for HTTP endpoints for communication. By running the scripts separately, we could observe the real-time messages exchange, fostering a decentralized network of interacting agents.
+With this, we suspect you're ready to start building agents, as part of multi agent system the Almanac allows; awesome. If you want to go further though, take a look at the message verification ↗️ and sending tokens ↗️, after-all you do want to be sure you are speaking to who you think you are, and agents getting paid is awesome.Was this page helpful?Agents addressAgent Handlers (on_...)On This Pageintroductionagents local communicationwalk throughagents remote communication the almanac contractwalk through 1sigmarslaaneshrun the scriptsbefore we go onconclusionEdit this page on github (opens in a new tab)Main websiteIntegrationsEventsWe’re hiring!Twitter (opens in a new tab)Telegram (opens in a new tab)Discord (opens in a new tab)GitHub (opens in a new tab)Youtube (opens in a new tab)LinkedIn (opens in a new tab)Reddit (opens in a new tab)Sign up for developer updatesSign up

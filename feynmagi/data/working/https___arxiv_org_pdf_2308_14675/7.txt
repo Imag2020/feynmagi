@@ -1,0 +1,111 @@
+8
+Algorithm3 C. Eigenvalue Estimation Error
+Input:Gk, d, V
+q
+Output:Tr{R wq} In the actual process, the measurement of the Gram
+1: for ζ =1 to d do matrixhasstatisticalerrors∆(g). Thiswillleadtoerrors
+(cid:12) (cid:11)
+2: ρ qζ =(cid:12)ψ qζ ⟨ψ qζ|=U qζ|0⟩⟨0|U q† ζ in the calculation of the eigenvalues of the Gram matrix.
+3: end for Given that each element of ∆(g) is subjected to mea-
+4: for ζ′ =1 to d do surementN times,itfollowsthateveryelementholdsan
+5: if ζ ̸=ζ′ then (cid:16) (cid:17)
+6: ρ qζ′
+=(cid:12)
+(cid:12)ψ
+qζ′(cid:11)
+⟨ψ qζ′|
+order of magnitude around O √1
+N
+. By ref (cid:16)erenc (cid:17)ing the
+7 8:
+:
+//Pr= epG arζ e′( (θ dζ 2′) −U q dζ )|0 a⟩ d⟨ d0 i| tU ioq† ζ nG al† ζ′ q( uθ aζ′ n)
+tum states
+D pli ys ik ngT th he eor Wem ey, ln io nee qi ug aen liv tya [l 4u 7e ]s au llr op was sse us
+s
+O
+to
+d√ ed dN2 uc.
+e
+tA hap t-
+9: else
+thedisparitybetweenthecomputedminimumeigenvalue
+10: Break // Exit the loop
+of g and the actual minimum eigenvalue doesn’t exceed
+11: end if (cid:16) (cid:17)
+12: end for O √d2 . Employing Hoeffding’s inequality, the likeli-
+13: for r=1 to d2 do hoodN of each element within ∆(g) being less than ϵ˜
+14: for s=1 to d2 do g
+15: |ψ ⟩ Gk ⟨ψ |
+amounts to 1 − δ
+g
+< 1 −
+2e−2Nϵ˜2
+g. Consequently, the
+s q r probability of every element being less than ϵ˜ , i,e., the
+16: // (cid:0) R˜ wq(cid:1)
+r,s
+=(cid:0) AR wqB(cid:1)
+r,s
+error of the eigenvalue will not exceed d2ϵ˜ g, cg an be ex-
+1 1 17 8 9: :
+:
+en|ψ d/s / f⟩ o(cid:0) rR˜ I(cid:1)I r,s =(⟨ Aψ Rr| IB) r,s =(AB) r,s pressed as (1−δ δ˜g g)d =2 > d21 δ g− ≥d2 2δ dg 2e= −21 N− ϵ˜2 gδ˜ .g, where (34)
+20: end for This means that the estimation for eigenvalues, to
+21: Tr{R wq}←Tr{(R˜ I−1·R˜ wq)}. achieve precision d2ϵ˜
+g
+with a probability of 1−d2δ˜ g, re-
+quires no more than
+If the smallest eigenvalue (cid:12) (cid:12) (cid:12)1+|∆ |x2 1| ,2 1|2(cid:12) (cid:12) (cid:12)2 is smaller than the
+N
+=O
+log ϵ˜2d δ˜
+g2
+ (35)
+threshold ϵ we pre-set, we add |ψ ⟩ into the subspace. If g
+2
+not, we discard |ψ ⟩ and then consider whether |ψ ⟩ can
+2 3 number of measurements for each matrix element.
+be added into the subspace.
+D. The error analysis of g−1
+B. eigenvalue truncation for general cases
+IntheGSTprocess,weneedtoinvertthegrammatrix.
+We generalize the discussion in the previous sub- Next, we consider the effect of the error ∆(g) on the
+section to the case of a higher dimensional subspace. inverse of g. Using Taylor expansion,
+Assume that the current subspace already contains
+(g+∆(g))−1 =g−1−g−1∆(g)g−1+
+|ψ 1⟩,...,|ψ k−1⟩, and now we need to decide whether we (36)
+can add |ψ ⟩ to the subspace. |ψ ⟩ can be written as: g−1∆(g)g−1∆(g)g−1+··· ,
+k k
+each matrix term can be bounded as
+k−1
+X
+|ψ ⟩= x |ψ ⟩+∆ |Ψ ⟩, (32) (g−1) <ϵ,
+k k,i i k k i,j
+i
+where (cid:0) g−1∆(g)g−1(cid:1) <
+d2ϵ˜
+g,
+i,j ϵ2
+k−1
+1 1 X d2kϵ˜k
+|Ψ k⟩= ∆ |ψ k⟩− ∆ x k,i|ψ i⟩. (33) (cid:0) (g−1∆g)kg−1(cid:1) < g,
+k k i,j ϵk+1
+i
+where i,j =0,1,··· ,d−1. Let ϵ˜ =ϵ ϵ2, then :
+g 1
+In this case, the smallest singular value
+is| W1+|∆ e|xk mk|2 |2 u| s2 t,w ah sse er se s|x tk h| e2 = relΣ atk i i− o1 n| sx hk i, pi|2 b.
+etween the smallest
+(cid:0) g−1−(g+∆(g)−1(cid:1)
+i,j
+<d2ϵ 1X+∞ (d2ϵ 1ϵ)l,
+l=0
+singular value and ϵ. If the smallest eigenvalue surpasses
+which can be bounded as
+ϵ, we should proceed with enlarging the subspace. How-
+ever, if the smallest singular value is less than ϵ, it is
+(cid:0) g−1−(g+∆(g))−1(cid:1) <
+d2ϵ
+1 . (37)
+advisable to disregard the state |ψ k⟩. i,j 1−d2ϵ 1ϵ

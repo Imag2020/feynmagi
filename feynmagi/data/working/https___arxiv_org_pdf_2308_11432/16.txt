@@ -1,0 +1,53 @@
+LeiWangetal. ASurveyonLargeLanguageModelbasedAutonomousAgents 17
+Table1 Fortheprofilemodule,weuse①,②and③torepresentthehandcraftingmethod,LLM-generationmethod,and
+datasetalignmentmethod,respectively. Forthememorymodule,wefocusontheimplementationstrategiesformemory
+operationandmemorystructure. Formemoryoperation,weuse①and②toindicatethatthemodelonlyhasread/write
+operationsandhasread/write/reflectionoperations,respectively. Formemorystructure,weuse①and②torepresentunified
+andhybridmemories,respectively. Fortheplanningmodule,weuse①and②torepresentplanningw/ofeedbackandw/
+feedback,respectively. Fortheactionmodule,weuse①and②torepresentthatthemodeldoesnotusetoolsandusetools,
+respectively. Fortheagentcapabilityacquisition(CA)strategy,weuse①and②torepresentthemethodswithandwithout
+fine-tuning,respectively. “-”indicatesthatthecorrespondingcontentisnotexplicitlydiscussedinthepaper.
+Memory
+Model Profile Planning Action CA Time
+Operation Structure
+WebGPT[66] - - - - ② ① 12/2021
+SayCan[78] - - - ① ① ② 04/2022
+MRKL[72] - - - ① ② - 05/2022
+InnerMonologue[61] - - - ② ① ② 07/2022
+SocialSimulacra[79] ② - - - ① - 08/2022
+ReAct[59] - - - ② ② ① 10/2022
+MALLM[43] ① ② - ① - 01/2023
+DEPS[33] - - - ② ① ② 02/2023
+Toolformer[15] - - - ① ② ① 02/2023
+Reflexion[12] - ② ② ② ① ② 03/2023
+CAMEL[80] ①② - - ② ① - 03/2023
+API-Bank[69] - - - ② ② ② 04/2023
+ViperGPT[74] - - - - ② - 03/2023
+HuggingGPT[13] - - ① ① ② - 03/2023
+GenerativeAgents[20] ① ② ② ② ① - 04/2023
+LLM+P[57] - - - ① ① - 04/2023
+ChemCrow[75] - - - ② ② - 04/2023
+OpenAGI[73] - - - ② ② ① 04/2023
+AutoGPT[81] - ① ② ② ② ② 04/2023
+SCM[35] - ② ② - ① - 04/2023
+SociallyAlignment[82] - ① ② - ① ① 05/2023
+GITM[16] - ② ② ② ① ② 05/2023
+Voyager[38] - ② ② ② ① ② 05/2023
+IntrospectiveTips[83] - - - ② ① ② 05/2023
+RET-LLM[42] - ① ② - ① ① 05/2023
+ChatDB[40] - ① ② ② ② - 06/2023
+S3[77] ③ ② ② - ① - 07/2023
+ChatDev[18] ① ② ② ② ① ② 07/2023
+ToolLLM[14] - - - ② ② ① 07/2023
+MemoryBank[39] - ② ② - ① - 07/2023
+MetaGPT[23] ① ② ② ② ② - 08/2023
+achieving effective task performance. This is be- Capability Acquisition with Fine-tuning: A
+causetheagentmaylackthenecessarytask-specific straightforward method to enhance the agent capa-
+capabilities, skills and experiences, which can be bility for task completion is fine-tuning the agent
+regarded as "software"resources. In order to equip based on task-dependent datasets. Generally, the
+the agent with these resources, various strategies datasetscanbeconstructedbasedonhumanannota-
+have been devised. Generally, we categorizethese tion,LLMgenerationorcollectedfromreal-world
+strategies into two classes based on whether they applications. In the following, we introduce these
+require fine-tuning of the LLMs. In the following, methodsmoreindetail.
+weintroduceeachofthemmoreindetail.
+•Fine-tuningwithHumanAnnotatedDatasets.

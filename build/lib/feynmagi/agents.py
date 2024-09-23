@@ -1,14 +1,16 @@
 import json
 
+import pkg_resources
 
 class Agent:
-    def __init__(self, name, schedule, when, system, prompt, tools):
+    def __init__(self, name, schedule, when, system, prompt, tools,nextagent):
         self.name = name
         self.schedule = schedule  # en minutes
         self.when = when
         self.system = system
         self.prompt = prompt
         self.tools = tools
+        self.nextagent = nextagent
 
     def to_dict(self):
         return {
@@ -17,12 +19,13 @@ class Agent:
             'when': self.when,
             'system': self.system,
             'prompt': self.prompt,
-            'tools' : self.tools
+            'tools' : self.tools,
+            'nextagent' : self.nextagent
         }
 
     @staticmethod
     def from_dict(data):
-        return Agent(data['name'], data['schedule'],data['when'], data['system'],data['prompt'],data['tools'])
+        return Agent(data['name'], data['schedule'],data['when'], data['system'],data['prompt'],data['tools'],data['nextagent'])
 
 class AgentManager:
     def __init__(self):
@@ -48,15 +51,17 @@ class AgentManager:
         return self.agents
 
     def load_agents(self):
+        dir_path=pkg_resources.resource_filename('feynmagi', 'data/')
         try:
-            with open('agents.json', 'r') as file:
+            with open(dir_path+'agents.json', 'r') as file:
                 agents_data = json.load(file)
                 self.agents = [Agent.from_dict(data) for data in agents_data]
         except FileNotFoundError:
             print("No existing agents found.")
 
     def save_agents(self):
-        with open('agents.json', 'w') as file:
+        dir_path=pkg_resources.resource_filename('feynmagi', 'data/')
+        with open(dir_path+'agents.json', 'w') as file:
             json.dump([agent.to_dict() for agent in self.agents], file)
 
     def find_agent_by_name(self, agent_name):

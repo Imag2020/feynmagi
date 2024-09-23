@@ -1,0 +1,45 @@
+Kim, M. E., Schonfeld, P., 2015. Maximizing net benefits for conventional and flexible bus services.
+Trans. Res. Part A 80, 116–133.
+Kuah, G. K., Perl, J., 1988. Optimization of feeder bus routes and bus-stop spacing, J. Transp. Eng.
+114(3), 341–354.
+Laver, R., Schneck, D., Skorupski, D., Brady, S., Cham, L., Hamilton, B.A., 2007. Useful life of transit
+buses and vans. Federal Transit Administration.
+Lee, E., Cen, X., Lo, H. K., 2021. Zonal-based flexible bus service under elastic stochastic demand.
+Trans. Res. Part E 152, 102367.
+Li, X., Quadrifoglio, L., 2010. Feeder transit services: Choosing between fixed and demand responsive
+policy. Trans. Res. Part C 18(5), 770–780.
+Luo, X., Gu, W., Fan, W., 2021. Joint design of shared-bike and transit services in corridors. Transport.
+Res. Part C 132, 103366.
+Martins, C. L., Pato, M. V., 1998. Search strategies for the feeder bus network design problem. Eur. J.
+Oper. Res. 106(2–3), 425–440.
+Mei, Y., Gu, W., Cassidy, M.J., Fan, W., 2021. Planning skip-stop transit service under heterogeneous
+demands. Trans. Res. Part B 150, 503–523.
+Mor, A., Speranza, M. G., Viegas, J. M., 2020. Efficient loading and unloading operations via a booking
+system. Trans. Res. Part E 141, 102040.
+Oldfield, R. H., Bly. P. H., 1988. An analytic investigation of optimal bus size. Trans. Res. Part B 22,
+319–337.
+Ouyang, Y., Nourbakhsh, S. M., Cassidy, M. J., 2014. Continuum approximation approach to bus
+network design under spatially heterogeneous demand. Trans. Res. Part B 68, 333–344.
+Quadrifoglio, L., Li, X., 2009. A methodology to derive the critical demand density for designing and
+operating feeder transit services. Trans. Res. Part B 43(10), 922–935.
+Sangveraphunsiri T., Cassidy M. J., Daganzo C.F., 2022. Jitney-lite: A flexible-route feeder service for
+developing countries. Transport. Res. Part B 156, 1–13.
+Shrivastava, P., O’Mahony, M., 2006. A model for development of optimized feeder routes and
+coordinated schedules - A genetic algorithms approach. Transp. Policy 13(5), 413–425.
+Sivakumaran, K., Li, Y., Cassidy, M. J., Madanat, S., 2012. Cost-saving properties of schedule
+coordination in a simple trunk-and-feeder transit system. Trans. Res. Part A 46(1), 131–139.
+Sivakumaran, K., Li, Y., Cassidy, M. J., Madanat, S., 2014. Access and the choice of transit technology.
+Trans. Res. Part A 46(1), 131–139.
+Su, Y., Fan, W., 2019. Heterogeneous Design for feeder services of trunk transit system. IEEE
+Intelligent Transportation System Conference (ITSC), 339–344.
+Texas Transportation Institute, 1996. Guideline for the location and design of bus stops. TCRP Report
+19, Transportation Research Board, Washington D.C.
+Yang, Y., Jiang, X., Fan, W., Yan, Y., Xia, L., 2020. Schedule coordination design in a trunk-feeder
+transit corridor with spatially heterogeneous demand. IEEE Access 8, 96391–96403.
+Yu, L., Xie, B., Chan, E. H., 2019. Exploring impacts of the built environment on transit travel: Distance,
+time and mode choice, for urban villages in Shenzhen, China. Trans. Res. Part E 132, 57–71.
+Wirasinghe, S. C., 1980. Nearly optimal parameters for a rail/feeder-bus system on a rectangular grid.
+Trans. Res. Part A 14(1), 33–40.
+Wu, L., Gu, W., Fan W., Cassidy, M. J., 2020. Optimal design of transit networks fed by shared bikes.
+Trans. Res. Part B 131, 63–83.
+30

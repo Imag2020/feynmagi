@@ -1,0 +1,60 @@
+14
+vehicles, CVs with human drivers, individual CAVs, and manufacturing [365], [366],[367], [368]. In terms ofIoT data
+cooperative CAVs. Traffic and driving behaviors are complex monitoring and anomaly detection, methods such as binary
+to model and highly nonlinear and stochastic in nature. It is segmentation,dynamicprogramming,Bayesianmethods,non-
+challenging to propose a generic model as traffic dynamics parametricmethods,andmodel-drivenmethodswereproposed
+depend on the specific road geometries, whether it is signal- [369], [370]. For instance, Bayesian online change detection
+ized,curvature,speedlimit,numberoflines,trafficmovements was used for the droplet video monitoring during inkjet print-
+and approaches, etc. Even for traffic on the same road, the ing [371]. Workers play a significant role in manufacturing,
+conditionscanchangedrasticallyaccordingtothetimeofday, warehouse and other systems. The consideration of human
+events, or incidents. A small change in the road geometry can safetyandhumanperformanceandtheirimpacttothegeneral
+greatly impact traffic patterns and reduce the accuracy of an system performance in engineering systems was investigated,
+already calibrated and trained model using either traditional see for instance [372], [373], [374], [375], [376].
+methods or AI-based approaches. Novel AGI techniques can ThedigitaltoolsinIoTandIndustry4.0enabledtheremote
+significantly improve the accuracy of traffic modeling and andconnectedtrackingandcontrol,atanyplaceandplatform,
+prediction and obtain generic models that can adapt to the by connecting the once isolated Operational Technology (OT)
+conditions and variants mentioned above. Breakthroughs in networks to the rest of the enterprise through the Information
+traffic modeling using AGI can also benefit the evaluation Technology (IT) network [377], [378]. While this allows for
+of CAVs. The fidelity of simulation will be greatly improved a better manufacturing modeling, monitoring and control, it
+to reduce the amount of real-world testing that is expensive, also poses profound questions in areas such as intellectual
+time-consuming,andcausessafetyconcerns[346].Inaddition, property (IP) protection, data security and privacy. These
+traffic models are usually highly nonlinear and complicated, issueshaveledtoproductrecalls,publicbacklash,lostrevenue
+which makes it challenging to solve the associated control or for companies, and will potentially threaten public safety and
+optimization problem in real-time. AGI can help identify an security [379], [380]. Specific techniques were proposed to
+efficient model structure and be used to effectively search the address the above-mentioned challenge. Differential privacy
+optimal control strategies for real-time implementation. This and privacy-preserving modeling are proposed to address the
+is especially promising for autonomous driving tasks [347], privacy and security issue [381], [382], [383], [384]. For
+which are traditionally divided into tasks, including localiza- instance,Go´mezetal.integratedtraditionaldifferentialprivacy
+tion, perception, prediction, planning, and motion control. A withk-anonymity,sothatthepreserveddatacanbeaggregated
+unified end-to-end AGI approach can greatly reduce the accu- and transmitted without risking the privacy [385]. Federated
+mulative errors from each module and improve coordination Learning (FL) was used so that machines collaboratively train
+amongdifferenttasks.SuchanAGI-basedautonomousdriving a model without sharing raw data [383], [384]. For instance,
+model has already attracted much attention in academia and Liu et al. proposed a FL monitoring framework to enable
+industry [348], [349], [350]. decentralizededgedevicestocollaborativelytrainananomaly
+detection model [383]. Wang et al. applied FL to build a
+universal anomaly detection model with each local model
+G. Smart Manufacturing
+trained by the deep reinforcement learning [384]. However,
+The Industry 4.0 led by organizations such as GE and IBM it is reported FL suffers from data leakage [386], [387].
+has allowed better production process description, communi- Though the machine learning and AI approaches have
+cation,andcomputation,andthistrendisbeingacceleratedby shown useful in addressing a certain type of problem, it can
+themassadoptionofIoTdevices,5Gcommunicationtechnol- be hard for them to work in general problems with varying
+ogy,theadvancementofAIandAGItechnologies[351],[352], andheterogeneousenvironments,limitedannotateddata,mul-
+[353], [354]. Accordingly, the Strategy for American Leader- timodal information source, etc. AGI poses opportunities to
+ship in Advanced Manufacturing (AM) states that worldwide addressthesechallenges,andhasthepotentialtoprovidemore
+competition in manufacturing has been dominated in recent comprehensive and robust solutions to further enhance the
+decades by the maturation, commoditization, and widespread capabilities of existing AI based methods for manufacturing
+application of computation in production equipment and lo- modeling,monitoringandcontrol.[388]surveyedtheAGIand
+gistics. Industry4.0fields,andfoundthatthoughAGIstudieshashuge
+With the IoT devices, various modeling, monitoring and potential, the gap between the AGI studies and the industry
+control approaches have been proposed for manufactur- needs is high.
+ing quality, performance and reliability improvements [355], We point out the potential of AGI in manufacturing here.
+[356], [357], [358]. For instance, the product geometric accu- 1) Manufacturing system heterogeneity and model gen-
+racy was investigated in [359] and different types of process eralization: The manufacturing processes and systems
+properties, such as porosity, roughness, were investigated in can be complex with heterogeneous machines and op-
+3D printing with various process sensing information from erations, and most AI methods may not be able to cope
+IoT sensors [360], [361], [362]. The model sparsity and withtheheterogeneity.Thereisaneedtodevelopmodels
+interpretability was considered during the sensor data qual- and methods that is generalizable to various scenarios.
+ity modeling in semiconductor manufacturing [363], [364]. AGI has the potential to adapt to new scenarios, by
+To address high dimensional sensor and video data, tensor transfer learning from one domain to another [389],
+techniques and deep learning models are investigated in smart [390] or incorporating physics driven domain knowledge

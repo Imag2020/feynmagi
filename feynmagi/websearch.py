@@ -23,7 +23,7 @@ import pdfplumber
 import os
 import hashlib
 
-
+import pkg_resources
 
 def search(query: str, pages=4) -> str:
     logger.say_text(f"quick_search on google home page for :  {query}")
@@ -64,12 +64,13 @@ def google_home_search(req,pages=1):
 
 
 def summary_one_page_d(query, cont): 
-    prompt="""Giving following html content from a web search, please find related information to or try to answer this query : "{query}".
+    prompt="""Giving following html content from a web search, please answer following : "{query}".
 
 Page content :
 
 "{cont}"
 
+Please answer query without ask me more infirmation or just say : not found.
 """
     prompt=prompt.replace("{query}",query)
     prompt=prompt.replace("{cont}",cont)
@@ -191,48 +192,129 @@ def url_to_basename(url):
     # Limiter la longueur du nom pour éviter les problèmes de système de fichiers
     return clean_url[:255]
 
-    
-def scrap(url: str):
-    base_name = url_to_basename(url)
-    output_dir = os.path.join(os.getcwd(), base_name)
-    os.makedirs(output_dir, exist_ok=True)
-    
-    response = requests.head(url)
-    content_type = response.headers.get('Content-Type', '')
 
-    if 'application/pdf' in content_type:
-        pdf_response = requests.get(url)
-        pdf_path = os.path.join(output_dir, f"{base_name}.pdf")
-        with open(pdf_path, "wb") as f:
-            f.write(pdf_response.content)
-        
-        text, page_texts = extract_text_from_pdf(pdf_path, output_dir, base_name)
-        os.remove(pdf_path)  # Optional: Remove the temporary PDF file if no longer needed
-        return "PDF file downloaded,"+str(len(page_texts))+" pages\nfile_path="+pdf_path+"\ncontent summary:\n"+text[:2000]  # Returning a summary of the text
-    else:
-        # Traitement pour les pages HTML
-        chrome_options = Options()
-        chrome_options.add_argument("--headless")
-        driver = webdriver.Chrome(options=chrome_options)
-        text = ""
-        try:
-            driver.get(url)
-            time.sleep(2.0)
-            page_source = driver.page_source
-            soup = BeautifulSoup(page_source, "html.parser")
+'''  
+def scrap(url: str):
+    print(f" ____________ scrap {url} _____________ ")
+    dir_path = pkg_resources.resource_filename('feynmagi', 'data/working/')
+    base_name = url_to_basename(url)
+    output_dir = os.path.join(dir_path, base_name)
+    print(f" ____________ creating {output_dir} _____________ ")
+    os.makedirs(output_dir, exist_ok=True)
+    print(f" ____________ created {output_dir} _____________ ")
+
+    try:
+        response = requests.head(url, allow_redirects=True, timeout=10)
+        print(f" ____________ after response head {response} _____________ ")
+        content_type = response.headers.get('Content-Type', '')
+        print(f" ____________ Content-Type: {content_type} _____________ ")
+
+        if 'application/pdf' in content_type or url.lower().endswith('.pdf'):
+            print(" ____________ PDF page _____________ ")
+            pdf_path = os.path.join(output_dir, f"{base_name}.pdf")
+            # Utiliser wget pour télécharger le fichier PDF
+            wget_command = f"wget -O {pdf_path} {url}"
+            subprocess.run(wget_command, shell=True, check=True)
+            print(" ____________ PDF downloaded, extracting text _____________ ")
+            text, page_texts = extract_text_from_pdf(pdf_path, output_dir, base_name)
+            print(" ____________ removing PDF _____________ ")
+            os.remove(pdf_path)  # Optional: Remove the temporary PDF file if no longer needed
+            return "PDF file downloaded," + str(len(page_texts)) + " pages\nfile_path=" + pdf_path + "\ncontent summary:\n" + text[:2000]  # Returning a summary of the text
+        else:
+            # Traitement pour les pages HTML
+            print("_______________________  else not pdf_________________")
+            chrome_options = Options()
+            chrome_options.add_argument("--headless")
+            driver = webdriver.Chrome(options=chrome_options)
+            text = ""
+            try:
+                driver.get(url)
+                time.sleep(2.0)
+                page_source = driver.page_source
+                soup = BeautifulSoup(page_source, "html.parser")
     
-            for script in soup(["script", "style"]):
-                script.decompose()
-            text = soup.get_text()
-            with open(os.path.join(output_dir, f"{base_name}.txt"), 'w', encoding='utf-8') as f:
-                f.write(text)
-        except Exception as e:
-            print(f"url exception {url}: {str(e)}")
+                for script in soup(["script", "style"]):
+                    script.decompose()
+                text = soup.get_text()
+                with open(os.path.join(output_dir, f"{base_name}.txt"), 'w', encoding='utf-8') as f:
+                    f.write(text)
+            except Exception as e:
+                print(f"url exception {url}: {str(e)}")
         
-        print("Closing Chrome")
-        driver.quit()
-        return "HTML file downloaded\nfile_path="+os.path.join(output_dir, f"{base_name}.txt")+"\ncontent summary:\n"+text[:2000]  # Returning a summary of the text
+            print("Closing Chrome")
+            driver.quit()
+            return "HTML file downloaded\nfile_path="+os.path.join(output_dir, f"{base_name}.txt")+"\ncontent summary:\n"+text[:2000]  # Returning a summary of the text
+    except subprocess.CalledProcessError as e:
+        print(f"wget failed: {e}")
+        return f"Error: Failed to download the PDF {url}."
+'''
+
+def scrap(url: str):
+    print(f" ____________ scrap {url} _____________ ")
+    dir_path = pkg_resources.resource_filename('feynmagi', 'data/working/')
+    base_name = url_to_basename(url)
+    output_dir = os.path.join(dir_path, base_name)
+    print(f" ____________ creating {output_dir} _____________ ")
+    os.makedirs(output_dir, exist_ok=True)
+    print(f" ____________ created {output_dir} _____________ ")
+
+    try:
+        response = requests.head(url, allow_redirects=True, timeout=10)
+        print(f" ____________ after response head {response} _____________ ")
+        content_type = response.headers.get('Content-Type', '')
+        print(f" ____________ Content-Type: {content_type} _____________ ")
+
+        if 'application/pdf' in content_type or url.lower().endswith('.pdf'):
+            print(" ____________ PDF page _____________ ")
+            pdf_path = os.path.join(output_dir, f"{base_name}.pdf")
+            # Utiliser wget pour télécharger le fichier PDF
+            wget_command = f"wget -O {pdf_path} {url}"
+            subprocess.run(wget_command, shell=True, check=True)
+            print(" ____________ PDF downloaded, extracting text _____________ ")
+            text, page_texts = extract_text_from_pdf(pdf_path, output_dir, base_name)
+            print(" ____________ removing PDF _____________ ")
+            os.remove(pdf_path)  # Optional: Remove the temporary PDF file if no longer needed
+            return "PDF file downloaded," + str(len(page_texts)) + " pages\nfile_path=" + pdf_path + "\ncontent summary:\n" + text[:2000]  # Returning a summary of the text
+        else:
+            # Traitement pour les pages HTML
+            chrome_options = Options()
+            chrome_options.add_argument("--headless")
+            driver = webdriver.Chrome(options=chrome_options)
+            text = ""
+            try:
+                driver.get(url)
+                time.sleep(2.0)
+                page_source = driver.page_source
+                soup = BeautifulSoup(page_source, "html.parser")
+    
+                for script in soup(["script", "style"]):
+                    script.decompose()
+                text = soup.get_text()
+                with open(os.path.join(output_dir, f"{base_name}.txt"), 'w', encoding='utf-8') as f:
+                    f.write(text)
+            except Exception as e:
+                print(f"url exception {url}: {str(e)}")
         
+            print("Closing Chrome")
+            driver.quit()
+            return "HTML file downloaded\nfile_path="+os.path.join(output_dir, f"{base_name}.txt")+"\ncontent summary:\n"+text[:2000]  # Returning a summary of the text
+        
+    except requests.exceptions.RequestException as e:
+        print(f"Request failed: {e}")
+        print(" ____________ PDF page _____________ ")
+        pdf_path = os.path.join(output_dir, f"{base_name}.pdf")
+        # Utiliser wget pour télécharger le fichier PDF
+        wget_command = f"wget -O {pdf_path} {url}"
+        subprocess.run(wget_command, shell=True, check=True)
+        print(" ____________ PDF downloaded, extracting text _____________ ")
+        text, page_texts = extract_text_from_pdf(pdf_path, output_dir, base_name)
+        print(" ____________ removing PDF _____________ ")
+        os.remove(pdf_path)  # Optional: Remove the temporary PDF file if no longer needed
+        return "PDF file downloaded," + str(len(page_texts)) + " pages\nfile_path=" + pdf_path + "\ncontent summary:\n" + text[:2000]  # Returning a summary of the text
+    except subprocess.CalledProcessError as e:
+        print(f"wget failed: {e}")
+        return f"Error: Failed to download the PDF {url}."
+
 def segment_text_semantically(text, approx_max_word_count):
     # Utilisez la ponctuation pour trouver les fins de phrases possibles.
     sentence_endings = re.compile(r'[.!?]\s')

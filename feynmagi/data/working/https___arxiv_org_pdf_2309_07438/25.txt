@@ -1,0 +1,101 @@
+26
+careiotsystem,”InternationalJournalofAdvancedComputerScience ISPRS Journal of Photogrammetry and Remote Sensing, vol. 202,
+andApplications,vol.13,no.1,2022. pp.439–462,2023.
+[223] T. Zebin, M. Sperrin, N. Peek, and A. J. Casson, “Human activity [242] G.Mai,K.Janowicz,Y.Hu,S.Gao,B.Yan,R.Zhu,L.Cai,andN.Lao,
+recognition from inertial sensor time-series using batch normalized “Areviewoflocationencodingforgeoai:methodsandapplications,”
+deep lstm recurrent networks,” in 2018 40th annual international International Journal of Geographical Information Science, vol. 36,
+conference of the IEEE engineering in medicine and biology society no.4,pp.639–673,2022.
+(EMBC),pp.1–4,IEEE,2018. [243] G. Mai, Z. Li, and N. Lao, “Spatial representation learning,” in
+[224] I. Pavan Kumar, R. Mahaveerakannan, K. Praveen Kumar, I. Basu, Handbook of Geospatial Artificial Intelligence (GeoAI), CRC Press,
+T. C. Anil Kumar, and M. Choche, “A design of disease diagnosis 2023.
+based smart healthcare model using deep learning technique,” in [244] X. Feng, F. Yan, and X. Liu, “Study of wireless communication
+2022InternationalConferenceonElectronicsandRenewableSystems technologies on internet of things for precision agriculture,” Wireless
+(ICEARS),pp.1444–1449,2022. PersonalCommunications,vol.108,no.3,pp.1785–1802,2019.
+[225] A. S. Miner, A. Milstein, S. Schueller, R. Hegde, C. Mangurian, and [245] V. Rondelli, B. Franceschetti, and D. Mengoli, “A review of current
+E. Linos, “Smartphone-based conversational agents and responses to and historical research contributions to the development of ground
+questions about mental health, interpersonal violence, and physical autonomous vehicles for agriculture,” Sustainability, vol. 14, no. 15,
+health,”JAMAinternalmedicine,vol.176,no.5,pp.619–625,2016. p.9221,2022.
+[226] S.Michie,L.Yardley,R.West,K.Patrick,andF.Greaves,“Developing [246] P.KurtserandS.Lowry,“Rgb-ddatasetsforroboticperceptioninsite-
+and evaluating digital interventions to promote behavior change in specificagriculturaloperations—asurvey,”ComputersandElectronics
+health and health care: Recommendations resulting from an interna- inAgriculture,vol.212,p.108035,2023.
+tionalworkshop,”JMedInternetRes,vol.19,p.e232,Jun2017. [247] M. H. Homaei, E. Salwana, and S. Shamshirband, “An enhanced
+[227] C. L. Snoswell, A. J. Snoswell, J. T. Kelly, L. J. Caffery, and distributeddataaggregationmethodintheinternetofthings,”Sensors,
+A.C.Smith,“Artificialintelligence:Augmentingtelehealthwithlarge vol.19,no.14,p.3173,2019.
+languagemodels,”JournalofTelemedicineandTelecare,vol.0,no.0,
+[248] R. Qureshi, S. H. Mehboob, and M. Aamir, “Sustainable green fog
+p.1357633X231169055,0. computingforsmartagriculture,”WirelessPersonalCommunications,
+[228] M. Cascella, G. Scarpati, E. Bignami, A. Cuomo, A. Vittori, P. Gen- vol.121,no.2,pp.1379–1390,2021.
+naro, A. Crispo, and S. Coluccia, “Utilizing an artificial intelligence
+[249] L. Quebrajo, M. Perez-Ruiz, L. Pe´rez-Urrestarazu, G. Mart´ınez, and
+framework (conditional generative adversarial network) to enhance
+G. Egea, “Linking thermal imaging and soil remote sensing to en-
+telemedicinestrategiesforcancerpainmanagement,”JournalofAnes-
+hanceirrigationmanagementofsugarbeet,”BiosystemsEngineering,
+thesia,AnalgesiaandCriticalCare,vol.3,062023.
+vol.165,pp.77–87,2018.
+[229] C.Gao,B.D.Killeen,Y.Hu,R.B.Grupp,R.H.Taylor,M.Armand,
+[250] Y.Lu,Y.Wang,D.Parikh,Y.Xin,andG.Lu,“Extendingsinglebeam
+and M. Unberath, “Synthetic data accelerates the development of
+lidartofullresolutionbyfusingwithsingleimagedepthestimation,”
+generalizable learning-based algorithms for x-ray image analysis,”
+in202025thInternationalConferenceonPatternRecognition(ICPR),
+NatureMachineIntelligence,vol.5,no.3,pp.294–308,2023.
+pp.6343–6350,IEEE,2021.
+[230] M.Sahu,R.Stro¨msdo¨rfer,A.Mukhopadhyay,andS.Zachow,“Endo-
+[251] G.Lu,“Bird-view3dreconstructionforcropswithrepeatedtextures,”
+sim2real:Consistencylearning-baseddomainadaptationforinstrument
+in IEEE/RSJ International Conference on Intelligent Robots and Sys-
+segmentation,”inInternationalConferenceonMedicalImageComput-
+tems(IROS),2023.
+ingandComputer-AssistedIntervention,pp.784–794,Springer,2020.
+[252] G.Lu,“Deepunsupervisedvisualodometryviabundleadjustedpose
+[231] K.Johnson,W.-Q.Wei,D.Weeraratne,M.Frisse,K.Misulis,K.Rhee,
+graphoptimization,”inIEEEInternationalConferenceonRoboticsand
+J. Zhao, and J. Snowdon, “Precision medicine, ai, and the future of
+Automation(ICRA),pp.6131–6137,2023.
+personalized health care,” Clinical and translational science, vol. 14,
+[253] A.Kumar,S.Singh,M.Yadav,B.Bhuj,S.Dhar,N.Pruthi,R.Kumar,
+102020.
+V. Bajpai, M. Rizwan, K. Jyoti, R. S. Thapa, V. Kumar, H. Kumar,
+[232] M.GuevaraandR.Vargas,“Downscalingsatellitesoilmoistureusing
+B.K.Mishra,V.Kumar,A.Rajput,A.Singh,andR.Kumar,“Artificial
+geomorphometry and machine learning,” PloS One, vol. 14, no. 9,
+intelligence,internetofthings(iot)andsmartagricultureforsustainable
+p.e0219639,2019.
+farming:Areview,”2022,vol.11,no.11,p.53,2022.
+[233] N. Gaur and B. P. Mohanty, “Land-surface controls on near-surface
+[254] B. B. Sinha and R. Dhanalakshmi, “Recent advancements and chal-
+soil moisture dynamics: Traversing remote sensing footprints,” Water
+lenges of internet of things in smart agriculture: A survey,” Future
+ResourcesResearch,vol.52,no.8,pp.6365–6385,2016.
+GenerationComputerSystems,vol.126,pp.169–184,2022.
+[234] N. Gaur and B. P. Mohanty, “A nomograph to incorporate geophys-
+ical heterogeneity in soil moisture downscaling,” Water Resources [255] E.A.Abioye,M.S.Z.Abidin,M.S.A.Mahmud,S.Buyamin,M.H.I.
+Research,vol.55,no.1,pp.34–54,2019. Ishak, M. K. I. Abd Rahman, A. O. Otuoze, P. Onotu, and M. S. A.
+[235] T. Nguyen, J. Brandstetter, A. Kapoor, J. K. Gupta, and A. Grover, Ramli, “A review on monitoring and advanced control strategies
+“Climax:Afoundationmodelforweatherandclimate,”inInternational for precision irrigation,” Computers and Electronics in Agriculture,
+ConferenceonMachineLearning,PMLR,2023. vol.173,p.105441,2020.
+[236] A. Dosovitskiy, L. Beyer, A. Kolesnikov, D. Weissenborn, X. Zhai, [256] G. Barbade, M. Vasudha, P. Sanika, and S. Sandhya, “Automatic
+T.Unterthiner,M.Dehghani,M.Minderer,G.Heigold,S.Gelly,etal., sprinkler system using arduino,” Indian Journal of Microprocessors
+“Animageisworth16x16words:Transformersforimagerecognition andMicrocontroller(IJMM),vol.1,pp.12–16,2021.
+at scale,” in International Conference on Learning Representations, [257] S. Habib, S. Alyahya, M. Islam, A. M. Alnajim, A. Alabdulatif, and
+2021. A.Alabdulatif,“Designandimplementation:Aniot-framework-based
+[237] Y. He, D. Wang, N. Lai, W. Zhang, C. Meng, M. Burke, D. Lobell, automated wastewater irrigation system,” Electronics, vol. 12, no. 1,
+and S. Ermon, “Spatial-temporal super-resolution of satellite imagery p.28,2022.
+viaconditionalpixelsynthesis,”AdvancesinNeuralInformationPro- [258] R. K. Jain, “Experimental performance of smart iot-enabled drip
+cessingSystems,vol.34,pp.27903–27915,2021. irrigationsystemusingandcontrolledthroughweb-basedapplications,”
+[238] G.Mai,K.Janowicz,B.Yan,R.Zhu,L.Cai,andN.Lao,“Multi-scale SmartAgriculturalTechnology,vol.4,p.100215,2023.
+representationlearningforspatialfeaturedistributionsusinggridcells,” [259] R. K. Jain, “Design and development of iot based smart irrigation
+inTheEighthInternationalConferenceonLearningRepresentations, sensing,controlandmonitoringsystemforagriculturalapplications,”in
+openreview,2020. E-businesstechnologiesconferenceproceedings,vol.1,pp.162–166.
+[239] Y. Chen, S. Liu, and X. Wang, “Learning continuous image repre- [260] Q.He,H.Peng,M.Sheng,S.Hu,J.Qiu,andJ.Gu,“Humiditycontrol
+sentation with local implicit image function,” in Proceedings of the strategiesforsolid-statefermentation:Capillarywatersupplybywater-
+IEEE/CVF conference on computer vision and pattern recognition, retention materials and negative-pressure auto-controlled irrigation,”
+pp.8628–8638,2021. FrontiersinBioengineeringandBiotechnology,vol.7,p.263,2019.
+[240] V. Sitzmann, J. Martel, A. Bergman, D. Lindell, and G. Wetzstein, [261] V.Kumar,C.Singh,K.R.Rao,M.Kumar,Y.A.Rajwade,B.Babu,
+“Implicit neural representations with periodic activation functions,” and K. Singh, “Evaluation of iot based smart drip irrigation and etc
+Advancesinneuralinformationprocessingsystems,vol.33,pp.7462– based system for sweet corn,” Smart Agricultural Technology, vol. 5,
+7473,2020. p.100248,2023.
+[241] G. Mai, Y. Xuan, W. Zuo, Y. He, J. Song, S. Ermon, K. Janowicz, [262] R. Jenitha and K. Rajesh, “Intelligent irrigation scheduling scheme
+and N. Lao, “Sphere2vec: A general-purpose location representation basedondeepbi-directionallstmtechnique,”InternationalJournalof
+learningoverasphericalsurfaceforlarge-scalegeospatialpredictions,” EnvironmentalScienceandTechnology,pp.1–18,2023.

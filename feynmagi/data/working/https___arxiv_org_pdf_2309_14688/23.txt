@@ -1,0 +1,40 @@
+with optimized uniform stop spacing, and the savings could be over 10% when contrasted with previous
+studies that only optimized line spacings and headways. Additionally, our model that integrates schedule
+coordination reveals greater benefits (cost savings up to 20%) when trunk and feeder services are
+coordinated in both feeder travel directions, potentially surpassing the combined savings of
+coordination in each individual direction. This suggests that trunk and feeder schedules should be
+coordinated in both service directions whenever feasible.
+Other important findings and their practical implications are summarized as follows:
+(i) The benefit of the heterogeneous design largely depends on the demand’s spatial pattern.
+Greater benefits were observed for more heterogeneous demand and when the spatial
+concentration of demand shifted away from the rail terminal. Higher demand rates and larger
+service region sizes tend to reduce the benefit.
+(ii) Compared to homogeneous or partially-homogeneous feeder network designs, an optimal
+heterogeneous feeder network uses smaller buses. This is because the heterogeneous design
+better accommodates heterogeneous demand, resulting in more evenly distributed passenger
+loading across lines and vehicles.
+(iii) Feeder lines should be designed to enable buses to travel along the shorter side of the service
+region for pick-up and drop-off, while traveling nonstop along the longer side to the rail station.
+Selecting the appropriate layout can further reduce system costs by 6% or more, depending on
+the service region’s shape.
+(iv) Our models and algorithms (including the algorithm for generating a specific feeder system
+design) can be readily used by local transit agencies to design a fixed-route feeder network
+within a rectangular service region. The generated plan can be fine-tuned to align with the local
+street network.
+Our models can be moderately adapted to include currently overlooked minor cost items, such as
+those related to bus deadheading trips, layover times, and environmental impacts (Cheng et al., 2016).
+Additionally, we are currently exploring the comparison between the optimal fixed-route feeder system
+and alternative trunk-line access modes, including shared bikes, modular vehicles, ride-hailing, and
+flex-route feeders. Built upon our models, we aim to further optimize a heterogeneous trunk-and-feeder
+transit network that serves a city-wide demand. This research direction is also under investigation.
+Acknowledgments:
+This study is supported by a General Research Fund (Project No. 15224818) provided by the Research
+Grants Council of Hong Kong.
+Appendix A. Table of notations
+Table A1. List of notations
+Notation Description Unit
+Decision variables
+𝐵(𝑥,𝑦) Stop spacing at location (𝑥,𝑦) km
+𝑆(𝑥) Line spacing at location 𝑥 km
+𝐼
+24

@@ -1,0 +1,30 @@
+9
+Figure 3. Relationships between colors and T , calculated from the grid of ATMO2020++ colors. See
+eff
+also Table 1. For T ≲ 350 K the F162M − F480M and F360M − F480M colors are less reliable indicators
+eff
+of T than M (see Figure 2 and Section 4).
+eff F480M
+WISE 0336A appears to be typical of the general population, based on its location in the color-
+color diagrams in Figure 2, and so the system is expected to have approximately solar metallicity
+and an age of a few Gyr. Calissendorff et al. (2023) estimate T = 415 ± 20 K for WISE 0336A,
+eff
+by comparison to Sonora and ATMO2020++ model sequences. The relationships in Table 1 imply
+T = 440±24 K for the primary, assuming solar metallicity and log g = 4.5, consistent with their
+eff
+value.
+Calissendorff et al. (2023) estimate T = 325+15 K for WISE 0336B. Figure 2 suggests that the
+eff −10
+secondary is cooler, and the relationship in Table 1 gives T = 295 ± 10 K, based on the F480M
+eff
+magnitude only, and adopting log g = 4.0 and [m/H] = 0. We find that WISE 0336B lies in the
+factor of two luminosity gap between WISE 0855 and the other Y dwarfs, which have T ≳ 325 K
+eff
+(e.g. Leggett et al. 2021). A resolved image in the F360M filter would be valuable for further analysis
+of this system.
+Figure 2 suggests that WISE 0336A has log g ≈ 4.5 and [m/H] ≈ 0.0, and that WISE 0336B has a
+lower gravity. A difference in gravity for the two components of ≈ 0.5 dex is consistent with a coeval
+system aged a few Gyr, with component temperatures of 440 K and 300 K, and a mass ratio of ≈ 2
+(Marley et al. 2021). For example, a 3 Gyr old system composed of a 15 and a 7 Jupiter mass object
+would have (T , log g) values of (438, 4.6) and (295, 4.2), respectively.
+eff

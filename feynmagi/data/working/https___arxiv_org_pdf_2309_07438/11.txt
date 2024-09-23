@@ -1,0 +1,60 @@
+12
+IoT-based systems can provide an efficient and smart solution whichcouldbechallengingforcomplexAGImodels.Besides,
+to detect plant stress[270], [271]. To detect the rice nitrogen the diverse range of IoT devices used in agriculture may
+stress, Zhu et al. [272] developed a de-striping convolution causecompatibilityissues.Seamlessintegrationofthedevices
+neural network to remove strip noise in hyperspectral image fromdifferentmanufacturersandstandardscanbeachallenge.
+and designed a nitrogen diagnosis CNN to detect nitrogen Finally, protecting the vast data from cyberattacks is essential
+stress for rice leaves. In addition, Elsherbiny et al. [273] to maintaining farm security and animal welfare.
+combined CNN and LSTM to fuse the RGB images, the
+weather-related factors and soil moisture collected by IoT
+F. Smart Transportation
+sensors to detect the water stress. The model trained by
+multimodal data performed better than that by only RGB 1) Intelligent Motor Drives: The majority of recently pro-
+images. posed detection methods can be classified as either physics-
+5) Livestock monitoring: Precision livestock farming in- based methods or data-driven methods. Physics-based meth-
+volves automated remote detection and monitoring of indi- ods commonly detect cyber-attacks by analyzing pre-defined
+viduals for animal health and welfare through the analysis of system performance metrics or residuals between predicted
+images, sounds, locations, weight and body condition [274]. system variables and corresponding true measurements [288].
+It can detect issues in time and even predict potential issues However, most physics-based methods rely on accurate phys-
+based on historical data [275]. Many measurements related to ical models of the target systems, which are unavailable
+the health of animals are based on physiological responses, for most cyber-attack scenarios. In real-world applications,
+such as body temperature, heart rate and respiration [276]. cyber-attacks are highly unpredictable, and their analytical
+To measure heart rate, breathing rate, and oxygen satura- impact models heavily depend on specific attack policies.
+tion of dairy cow, Salzer et al. [277] designed a nose ring These factors render the performance of most physics-based
+sensor by integration of thermal and photoplethysmography methods unreliable. Recent research has begun to harness the
+sensors. Besides, some studies mounted accelerometer, IMU powerofdata-drivenmethodstodevelopmodel-freedetection
+and GNSS devices to monitor the behavior of animals[278], methods in power electronics systems, reducing dependency
+[279], [280]. Arablouei et al. [281] fused the accelerometry on physical models [176] adopted a specific type of RNN,
+and GNSS data to classify animal behavior. The performance namelyanonlinearauto-regressiveexogenousmodel,todetect
+of posterior probability fusion is preferable to that based false data injection attacks in microgrids. [289] proposed an
+on feature concatenation. However, many sensors are contact attack detection method by combining deep neural networks
+or invasive, which may cause potential pressure on animals. and wavelet singular value decomposition. [290] employed
+Therefore, many studies are focused on contactless methods, multi-class support vector machines to detect and localize
+such as computer vision [282], [283], [284], [285]. Guo et false-data-injection and denial-of-service attacks in inverter-
+al. [286] employed object detection methods to obtain the eye based systems. [291] proposed a detection and diagnosis
+temperaturefromthermalimageoftheeyesocketin3seconds. method targeting data integrity attacks in solar farms using a
+AGI can be a powerful and efficient solution for IoT multilayer long short-term memory network. [178] examined
+applications in agriculture. AGI-driven IoT system can adap- theeffectivenessofvariousstandarddata-drivenmethodswith
+tively regulate irrigation by analyzing multimodal data, such micro-PMUdataindetectingcyber-attacksinPVfarms.[292],
+as the soil moisture, environment data and crop needs to [293] developed anomaly detection methods for electric ve-
+optimize water usage and reduce water waste [287]. AGI can hicle traction motor drives using a combination of support
+evaluate the soil and crop conditions as well as weed and vectormachines,randomforests,k-nearest-neighborhood,and
+pestthreatsthroughIoT-sensorstorecommendprecisedosages logistic regression. [294] employed supervised classification
+of fertilizers and pesticides, which can minimize overuse, methods to differentiate cyber-attacks and physical faults in
+maximizecrophealth,andreduceenvironmentalimpact.AGI- manufacturing motor drives. Despite the advantages of re-
+poweredmicroclimatemanagementsystemscancreateoptimal cently developed data-driven approaches, a significant chal-
+conditions for crops in greenhouse by controlling factors like lenge in deep learning-based cyber-attack detection in power
+temperature, humidity, light, and gas to improve the plant electronics systems is the requirement for large-volume train-
+growth and productivity. In plant pressure detection, AGI ingdatasets.Themodelcanonlylearnfeaturesincorporatedin
+can process various datasets from IoT sensors to detect early thetrainingdata,andthealgorithmmayfailwhentestingdata
+signals of plant stress caused by diseases and pests. Growers containsdifferentfeatures[120],[117].Toaddressthisissue,a
+can enable proactive interventions to prevent crop losses and large-scaletrainingdatasetisnecessarytoincludesimilardata
+financialcosts.Inprecisionlivestockfarming,AGIcananalyze to the testing data. However, the computational cost due to
+data from wearable IoT devices and contactless sensors to the large volume of training data hinders deep learning model
+monitor the health, behavior, and productivity of individual performance.Transferlearningtechniqueshavebeenproposed
+animals. This enables early disease detection and optimized to enable machine learning models to leverage knowledge
+animalwelfare.However,therearealsosomechallengeswhen from one domain to another [295], thus reducing the amount
+using AGI in IoT for agriculture. The agricultural environ- ofrequiredtrainingdata[296].Deeptransferlearningmethods
+ment is complex, a robust and reliable AGI-driven system is havebeenutilizedincyber-attackdetectionandfaultdiagnosis
+necessary. Furthermore, some agricultural applications, such in intelligent machine systems. Some methods [119], [120],
+as spraying and irrigation, require real time data processing, [121] employ deep adversarial models to achieve transfer

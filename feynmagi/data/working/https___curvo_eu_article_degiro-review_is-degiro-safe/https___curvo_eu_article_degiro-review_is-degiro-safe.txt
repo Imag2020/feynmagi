@@ -1,0 +1,234 @@
+DEGIRO review: read this before you start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get appHow it worksNumbersPricingGet appGet appDEGIRO review: read this before you start
+
+
+
+
+
+
+
+11 minutesLast updated on August 20, 2024Choosing a broker is an important step when starting to invest. There are many different options available, so picking the right one for you is challenging. We take a closer look at DEGIRO, a Dutch and German broker. We'll look at the pros and cons, the fees, convenience of setting up an account and safety. By the end, you'll be able to decide if DEGIRO is a right broker for you to invest your savings, or if another broker suits you better.Pros and cons of using DEGIROThe story of DEGIROFeesConvenience of DEGIROSetting up an accountIs DEGIRO safe?DEGIRO vs other brokersThe easier way: CurvoSummaryQuestions you may havePros and cons of using DEGIRO
+
+
+✅ Pros of DEGIRO
+❌ Cons of DEGIRO
+
+
+
+
+Cheap
+No fractional shares
+
+
+Large selection of ETFs
+Issues with the regulator
+
+
+Widespread across Europe
+Confusing app
+
+
+
+Transferring shares is expensive
+
+
+
+Doesn't help with all taxes
+
+
+
+Connectivity costs
+
+
+The story of DEGIRODEGIRO emphasises the fact they are on the largest brokers in EuropeThe founders of DEGIRO were former employees of BinckBank. They founded the company in 2008 and originally focused on professional investors. However, they started to reach success once they launched their online trading platform in 2013. They quickly grew across the European Union and now serve more than 2.5 million customers which makes it one of the largest brokers.DEGIRO is now part of the German flatex bank. It has thousands of ETFs and stocks to choose from and it’s one of the brokers on the market that offers the best value. You can use DEGIRO from 16 different countries. Like many brokers, they started with stocks, but you can now also trade commodities and trade on margin.FeesFee structureDEGIRO's fee structure varies per country which can make it confusing. Essentially, DEGIRO charges two types of fees:transaction feesconnectivity feesAs the transactions change per country, we'll focus on the Netherlands, France and Italy. Also note that the fees depend on the exchange you use. We kept it simple here to give you an idea:
+
+
+
+Type
+Fee 🇫🇷
+Fee 🇳🇱
+Fee 🇮🇹
+
+
+
+
+Stocks (home exchange)
+€2 (Euronext Paris)
+€3 (Euronext Amsterdam)
+€2 (Borsa Italiana)
+
+
+Stocks (US)
+€2
+€2
+€1
+
+
+ETFs (core selection)
+€1
+€1
+€1
+
+
+ETFs (non core selection)
+€3
+€3
+€3
+
+
+Bonds
+€2
+€2
+€2
+
+
+You have to pay a connectivity feeA peculiarity of DEGIRO in comparison to other brokers is that they charge a connectivity fee of €2.50 per stock exchange per year. This means that you need to pay €2.50 in a given year for each stock exchange where you've purchased or sold anything.DEGIRO waives the connectivity cost for the home exchanges though:🇳🇱 DEGIRO.nl: no fee for Euronext Amsterdam and Euronext Brussels🇫🇷 DEGIRO.fr: no fee for Euronext Paris and Euronext Brussels🇮🇹 DEGIRO.it: no fee for the MTA Italian exchangeYou have to pay fees for moving your money away from DEGIROJust like for incoming transfers, each country-specific DEGIRO charges different fees from transferring your assets to another broker:🇳🇱 DEGIRO.nl: it's unclear how much they charge🇫🇷 DEGIRO.fr: €10 per position, with an unclear "external costs" fee🇮🇹 DEGIRO.it: €10 per position, with an unclear "external costs" feeFees for ETFsDEGIRO has a core selection of ETFs. For those ETFs, the transaction fee consists only of a €1.00 handling fee, instead of €3.00 for ETFs not in the core selection. There's a caveat though: you need to buy the ETF on the right exchange. ETFs are traded on stock exchanges. Famous ones are the New York Stock Exchange (NYSE) or Nasdaq, or Xetra and Euronext Amsterdam in Europe.As an example, buying €1,000 of the popular iShares MSCI World Accumulating ETF (known as its ticker IWDA) when using the Dutch DEGIRO will cost just €1 in transaction fees, provided you buy it on the Euronext Amsterdam exchange:Transaction cost to buy €1,000Connectivity costExchange€1.00€0.00Euronext Amsterdam€3.00€2.50Borsa Italiana€3.00€2.50Stuttgart Stock Exchange€3.00€2.50XetraThere's also a fair use policy that you have to oblige to in order to benefit from the reduced cost. Every month, the first transaction of the ETF on the right stock exchange will cost €1 instead of €3. Subsequent transactions that same month will also cost €1 provided:the transaction is in the same direction (that is buy/sell) as the first transactionthe value of the transaction is at least €1,000Make sure you keep these important rules in mind when selecting and buying your ETFs on DEGIRO.We put together a resource which looks at all the different costs when investing in ETFs on DEGIRO.Convenience of DEGIRO
+
+
+
+
+Savings plan
+❌ No
+
+
+Fractional shares
+❌ No
+
+
+Customer support
+✅ FAQ, chat, email, phone
+      
+
+
+🇮🇹 Taxes
+❌ Declaratory regime
+
+
+🇧🇪 TOB
+✅ DEGIRO handles it
+
+
+🇧🇪 Dividend tax
+❌ DEGIRO doesn't handle it
+
+
+🇧🇪 Reynders tax
+❌ DEGIRO doesn't handle it
+
+
+🇧🇪 Declare your account to the NBB
+❌ You have to do it yourself
+
+
+Automated savings plansDEGIRO does not have automated savings plans on their brokerage platform. However, there are two ways to do this:Sending money by standing order to your DEGIRO account. You'll still have to make the investments manually though.Using an (unofficial) API library. People have reverse engineered DEGIRO's API calls and offered it as an open-source library.We discuss it in more detail in our DEGIRO automation guide.Fractional sharesSimilar to many brokers, DEGIRO does not offer fractional shares. You're forced to buy whole units of shares. Combined with the time it takes and transaction fees, it becomes impractical to invest on a monthly basis when using DEGIRO. Customer supportDEGIRO's customer support is helpful and they are available if you have any questions via email and through a phone number. Surprisingly you can call them up until 22.00 at night which is useful to know! They have a rating of 4.1/5 on Trustpilot. As users of their app, we've found their support pretty helpful with our questions.🇮🇹 Declaratory regimeAs an Italian investor, you'll receive an annual tax report from DEGIRO. You'll have to manually take that date and input it into your tax reports. You'll have to declare your income, capital gains as well as the IVAFE (wealth tax). Note that you'll have to complete this manually as DEGIRO puts the burden on you as an investor and they have previously made errors in their tax reports.🇧🇪 TOB ("beurstaks" / "taxe boursière")There’s a tax on the transaction every time you buy or sell a security in Belgium. The rules concerning the tax rate are complicated, also for ETFs. Depending on the characteristics of the ETF, the transaction tax varies between 0.12% and 1.32%.Fortunately DEGIRO helps you with this and handles it for you.🇧🇪 Dividend taxIn Belgium, any dividend you perceive is taxed at 30%. Accumulating funds, which directly reinvest dividends, are a way around this tax. On the other hand, distributing funds distribute their dividends, which means they're taxable.DEGIRO does not help you with the dividend tax, unless it's for a Belgian stock. So be careful in your choice of funds if you want to avoid paying the dividend tax or even having to declaring it every year in your tax form.🇧🇪 Reynders taxFor ETFs that consist of at least 10% bonds, there is a 30% tax on the profits made when selling. For example, if you bought a bond ETF  at €100 and end up selling it later for €130, your net profit will only  be €21. The other €9 will go to the Belgian state through this tax.Unfortunately DEGIRO doesn't withhold this tax for you. You will have to calculate and declare it yourself.🇧🇪 Does DEGIRO require declaring the account to the NBB?Yes, as DEGIRO is a foreign broker, you have to declare your account to the National Bank of Belgium as well as on your tax returns every year. Note that there are two accounts to declare when you use DEGIRO including the Flatex Bank account which adds some confusion.Setting up an account
+
+
+🕰️ Time to open an account
+✅ Within a day
+
+
+🙋 itsme
+❌ No
+
+
+📱 Mobile app
+✅ Yes
+
+
+💻 Web app
+✅ Yes
+
+
+🙂 Ease of use
+⭐ 3/5
+
+
+🧒 Children accounts
+❌ No
+
+
+💑 Joint accounts
+❌ No
+
+
+💼 Business accounts
+❌ No
+
+
+Let's dig into the details of setting up your DEGIRO account for the first-time.Time to open an accountAs they have so many customers on their platform, it's quite a smooth process to create your investment account on DEGIRO. As they only offer one type of account (DEGIRO Basic), you can sign up with a valid ID or Passport. You'll need a bank account which is in your name and in SEPA (EU) zone. You'll also need a proof of address to show you're a tax resident in the European Union. When we signed up, it took about a day to be approved and for us to start investing. Create an account on the web and mobileYou can create a DEGIRO from a large variety of countries on either your computer or phone.You can choose to create an account through either the web or mobile. Their app wasn't that smooth when creating an account so it's best to use a computer.Note that if you're a Belgian investor, a first frustration of DEGIRO appears when trying to sign up: they don't have a local degiro.be website. You have to choose either the Netherlands (degiro.nl) or France (degiro.fr) to set up your account.Ease of use: 3/5As it's purely a trading app, DEGIRO shows many details that aren't very relevant to most investors, especially for buy-and-hold index investors. This makes the mobile experience can get quite clunky and fairly difficult to find the information you need to make an investment decision. The design is quite dated and there are nicer designed apps out there. You have more room on your computer to browse, but there's still the information overload. That's why we've rated it a 3 out of 5!Choosing the right ETF on the right exchange can be confusing using DEGIRO's interfaceChildren accounts and joint accountsYou're unable to set up any children or joint accounts on DEGIRO. You can only have one account in your name on the platform.Business accountsUnfortunately you're unable to open a business or company account on DEGIRO. Is DEGIRO safe?
+
+
+
+
+Regulator
+BaFin (Germany) + AFM (Netherlands)
+
+
+Past issues with the regulator
+❌ Yes
+
+
+Protection of financial assets
+€20,000
+
+
+Cash safeguarded by deposit guarantee
+€100,000
+
+
+Securities lending
+😐 No (but allowed by their terms)
+
+
+Payment for order flow
+😐 Only for German customers
+
+
+Who is the regulator?As DEGIRO began in the Netherlands, they fell under the supervision of the AFM and they oversee all Dutch customers of DEGIRO. However, since they were bought by the German flatex bank, all European customers are under the authority of BaFin which is the German regulator.Have they had any issues with the regulator?Yes, they had numerous issues with the AFM (Dutch regulator):Fined by the AFM. In the summer of 2020, DEGIRO received a significant fine from the AFM which totalled €300,000.Poor organizational structure. The AFM had conducted an investigation into DEGIRO's operations in 2017/2018. This investigation revealed several violations of the "Wet financieel toezicht" (Financial Supervision Act). The issues identified included a lack of a clear, balanced, and adequate organizational structure. More importantly there were insufficient protection of client interests and rights, incorrect information about the separate storage of investments and cash funds, and inadequate policies on anti-money laundering, incident handling, compliance, and preventing conflicts of interest​.Some client orders were being executed by a hedge fund. The investigation also uncovered that some orders were being executed by MNF. This is a hedge fund under the same holding company as DEGIRO, LPE Capital, which was leading to less favourable prices for clients. It raised concerns whether MNF's interests were being prioritized over individual investors. They made a lot of changes following this investigation.Although they were bought by flatex and are now registered in Germany, these are considerations to take in mind if you're thinking about investing your savings through an app like DEGIRO.How much of your assets are protected by the investor protection scheme?Your assets are protected by the standard €20,000 European investor protection scheme as they are based in Germany. Note that your assets are held separately from DEGIRO's own assets are aren't accessible to DEGIRO's creditors.Is your cash protected by the deposit guarantee scheme?Yes, your money is protected by the German €100,000 deposit guarantee scheme.Does DEGIRO do securities lending?The terms that you sign when you open an account include securities lending. Securities lending is a practice where brokers lend your stocks and ETFs to third parties. In return, the third party pays a fee, which the broker usually partially shares with you. The downside is that it exposes you to counterparty risk, in case the borrower defaults and cannot return your asset. So it can be a concern for some investors who prefer to maintain full control over their shares and who don't want to be exposed to counterparty risk.Despite DEGIRO's terms giving them the option of lending your securities, they claim they don't. But it doesn't exclude that they may in the future.Note that previously, DEGIRO did not do any securities lending for "Custody" accounts. However, they removed this option in 2021. Nowadays, you have to open a "Basic" account that gives them the option to lend your shares.Does DEGIRO do payment for order flow?In June 2021, it was reported that DEGIRO started selling customer orders to Tradegate. This practice was not approved by the AFM (Dutch regulator). However, after DEGIRO was taken over by the German bank flatex, the funds of its Dutch customers were transferred to a German bank account. Consequently, DEGIRO's business practices, including PFOF, came under German jurisdiction, where such practices are (perhaps unfortunately) legal.As of 2024, DEGIRO engages in payment for order flow (PFOF) only for its German clients. If you're a Belgian, Italian or any other non-German customer, no PFOF happens.PFOF is an important source of revenue for many new brokers, including another German provider Trade Republic. This practice involves routing your orders to certain market makers, who then pay the broker for the right of executing these orders. PFOF can work at your detriment, as brokers may prioritise payment over executing the best possible trade for you.DEGIRO vs other brokersWe compared DEGIRO with other brokers if you want to dig deeper:DEGIRO vs eToroDEGIRO vs Interactive BrokersDEGIRO vs Trade RepublicDEGIRO vs MEXEMDEGIRO vs LYNXDEGIRO vs BUXDEGIRO vs KeytradeDEGIRO vs BoleroDEGIRO vs Saxo BankDEGIRO vs Trading 212Best broker in Belgium for ETFs 🇧🇪The easier way: CurvoBrokers push you to trade and to pick individual companies to invest in. Rather than picking individual stocks such as Amazon or Tesla, index funds are a way to buy the whole market, across all sectors and regions of the world. Essentially, you own a small portion of thousands of companies throughout the world. Instead of betting on a particular company, you are placing a bet on the global economy.Rather than having to pick the right stocks or ETFs among the thousands available through a broker like DEGIRO, you invest in a portfolio that is tailored to you and your goals. These portfolios are composed of globally diversified index funds, meaning you earn a piece of the growth of the global economy, and they're best suited to make the most of your savings long term.Create an account in minutes through Curvo's appWe believe that investing is an important tool for our generation to improve our financial well-being and to prepare for our future. We are building Curvo to fulfil that vision, by making good investing easy and accessible to all:Diversified portfolio set up for you: The best portfolio for you based on your time horizon and financial goals. Simply answer a short questionnaire and you’ll get everything set up for you.Automated savings plans: Through Curvo’s app you can set up a monthly contribution from €50. That means that money is automatically invested for you in your portfolio. Put your savings on autopilot!Fractional shares: All the money you send towards your portfolio is fully invested. No cash is left on the side.No TOB 🇧🇪 : Significant savings as the portfolios aren’t liable for the Belgian transaction tax (or "TOB"). This saves you between 0.12% and 1.32% for every time you buy or sell! Sustainable investments: Your investments focus on one guiding principle: don’t invest in companies that are considered destructive to the planet. This means that sectors like non-renewable energy, vice products, weapons and controversial companies are all excluded.Project yourself into the future: Through Curvo you can see how much your portfolio is expected to be worth in the future. You can answer questions like “how will increasing my monthly contribution by €50, €100 or €200 affect my long-term savings?” to give a concrete idea for the “future you”.Learn more on how it compares to investing through a broker.SummaryDEGIRO is clearly one of the most cost-effective way of investing your savings in Europe. But cost is not the only factor to take in consideration when you’re putting your savings to work. Especially when you consider that DEGIRO has had issues with the regulator, does security lending and payment for order flow, it doesn't inspire huge confidence for your own savings on their platform. ‍Questions you may haveWho is behind DEGIRO?The company behind DEGIRO is flatexDEGIRO AG, formed after the merger of DEGIRO with flatex, a German online brokerage firm. This merger took place in 2020, creating one of the largest online brokers in Europe. Flatex was already a well-established player in the online brokerage industry, and its combination with DEGIRO has allowed for expanded services and a larger customer base across Europe.Looking for an easier way to invest your savings?Discover CurvoProductHow it worksPricingInvestment philosophyPortfoliosInvest monthly
+
+Sustainability SAFETYSafety of your assetsYour money's journeyAlternative ToDo-it-yourselfPicking stocksLearnAcademyHelp centreToolsBacktestBest brokers for ETFsBest savings accountsPension saving simulatorPension calculatorCompound interest calculatorCheapest brokerCompanyWhy CurvoThe numbersInside CurvoDocsReach out to us 👋EnglishNederlandsFrançaisItalianoFollow us
+
+
+
+
+
+
+
+
+
+
+
+
+Curvo is a trade name of NNEK (Noordnederlandse Effektenkantoor). NNEK is authorised and regulated by the Dutch regulator for the financial markets (AFM) (registration number: 14001587).By using this website, you agree to our cookie policy.OK

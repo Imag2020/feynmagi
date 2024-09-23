@@ -1,0 +1,55 @@
+LeiWangetal. ASurveyonLargeLanguageModelbasedAutonomousAgents 11
+to an intermediate reasoning step. The selection plans. In specific, LLM+P [57] first transforms
+of these intermediate steps is based on the evalu- thetaskdescriptionsintoformalPlanningDomain
+ation of LLMs. The final plan is generated using DefinitionLanguages(PDDL),andthenitusesan
+either the breadth-first search (BFS) or depth-first externalplannertodealwiththePDDL.Finally,the
+search (DFS) strategy. Comparing with CoT-SC, generatedresultsaretransformedback intonatural
+whichgeneratesalltheplanedstepstogether,ToT language by LLMs. Similarly, LLM-DP [58] uti-
+needs to query LLMs for each reasoning step. In lizesLLMstoconverttheobservations,thecurrent
+RecMind[51],theauthorsdesignedaself-inspiring world state, and the target objectives into PDDL.
+mechanism, where the discarded historical infor- Subsequently, this transformed data is passed to
+mation in the planning process is also leveraged an external planner, which efficiently determines
+to derive new reasoning steps. In GoT [52], the the final action sequence. CO-LLM [22] demon-
+authors expand thetree-like reasoning structurein stratesthatLLMsisgoodatgeneratinghigh-level
+ToT to graph structures, resulting in more power- plans, but struggle with low-level control. To ad-
+ful prompting strategies. In AoT [53], the authors dress this limitation, a heuristically designed ex-
+design a novel method to enhance the reasoning ternallow-levelplannerisemployedtoeffectively
+processesofLLMsbyincorporatingalgorithmicex- executeactionsbasedonhigh-levelplans.
+amplesintotheprompts. Remarkably,thismethod
+Planning with Feedback: In many real-world
+only needs to query LLMs for only one or a few
+scenarios, the agents need to make long-horizon
+times. In[54],theLLMsareleveragedaszero-shot
+planningtosolvecomplextasks. Whenfacingthese
+planners. Ateachplanningstep,theyfirstgenerate
+tasks,theaboveplanningmoduleswithoutfeedback
+multiple possible next steps, and then determine can be less effective due to the following reasons:
+thefinalonebasedontheirdistancestoadmissible
+firstly,generatingaflawlessplan directlyfromthe
+actions. [55]furtherimproves [54]byincorporat- beginning is extremely difficult as it needs to con-
+ing examples that are similar to the queries in the
+sider various complex preconditions. As a result,
+prompts. RAP [56] builds a world model to simu-
+simplyfollowingtheinitialplanoftenleadstofail-
+late the potential benefits of different plans based
+ure. Moreover, the execution of the plan may be
+on Monte Carlo Tree Search (MCTS), and then,
+hindered by unpredictable transition dynamics, ren-
+thefinalplanisgeneratedbyaggregatingmultiple
+dering the initial plan non-executable. Simultane-
+MCTS iterations. To enhance comprehension, we
+ously,whenexamininghowhumanstacklecomplex
+provideanillustrationcomparingthestrategiesof
+tasks,wefindthatindividualsmayiterativelymake
+single-pathandmulti-pathreasoninginFigure3.
+and revise their plans based on external feedback.
+•ExternalPlanner. Despite thedemonstrated Tosimulatesuchhumancapability,researchershave
+power of LLMs in zero-shot planning, effectively designedmanyplanningmodules,wheretheagent
+canreceivefeedbackaftertakingactions. Thefeed-
+generating plans for domain-specific problems re-
+backcanbeobtainedfromenvironments,humans,
+mainshighlychallenging. Toaddressthischallenge,
+andmodels,whicharedetailedinthefollowing.
+researchers turn to external planners. These tools
+arewell-developedandemployefficientsearchalgo- • Environmental Feedback. This feedback is
+rithmstorapidlyidentifycorrect,orevenoptimal, obtained from the objective world or virtual envi-

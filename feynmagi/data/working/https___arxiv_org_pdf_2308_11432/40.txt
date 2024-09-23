@@ -1,0 +1,69 @@
+LeiWangetal. ASurveyonLargeLanguageModelbasedAutonomousAgents 41
+Lei Wang is a Ph.D. candidate
+LanguageProcessing: SystemDemonstrations. 2023,
+237–245 at Renmin University of China,
+175. Banerjee D, Singh P, Avadhanam A, Srivastava S.
+Beijing. His research focuses on
+Benchmarking llm powered chatbots: methods and
+recommender systems and agent-
+metrics. arXivpreprintarXiv:2308.04624,2023
+176. ZhaoWX,ZhouK,LiJ,TangT,WangX,HouY,Min basedlargelanguagemodels.
+Y,ZhangB,ZhangJ,DongZ,others.Asurveyoflarge
+language models. arXiv preprint arXiv:2303.18223,
+2023 Chen Ma is currently pursuing a
+177. YangJ,JinH,TangR,HanX,FengQ,JiangH,Zhong Master’s degree at Renmin Uni-
+S, Yin B, Hu X. Harnessing the power of llms in
+versity of China, Beijing, China.
+practice:Asurveyonchatgptandbeyond. ACMTrans-
+actionsonKnowledgeDiscoveryfromData,2023 Hisresearchinterestsincluderec-
+178. Wang Y, Zhong W, Li L, Mi F, Zeng X, Huang ommendersystem,agentbasedon
+W, Shang L, Jiang X, Liu Q. Aligning large lan-
+largelanguagemodel.
+guagemodelswithhuman: Asurvey. arXivpreprint
+arXiv:2307.12966,2023
+179. Huang J, Chang K C C. Towards reasoning in
+Xueyang Feng is currently study-
+large language models: A survey. arXiv preprint
+arXiv:2212.10403,2022 ing for a Ph.D. degree at Ren-
+180. MialonG,DessìR,LomeliM,NalmpantisC,Pasunuru min University of China, Beijing,
+R, Raileanu R, Rozière B, Schick T, Dwivedi-Yu J,
+China. His research interests in-
+CelikyilmazA,others. Augmentedlanguagemodels:
+asurvey. arXivpreprintarXiv:2302.07842,2023 cluderecommendersystem,agent
+181. ChangY,WangX,WangJ,WuY,YangL,ZhuK,Chen basedonlargelanguagemodel.
+H,YiX,WangC,WangY,others. Asurveyonevalu-
+ationoflargelanguagemodels. ACMTransactionson
+IntelligentSystemsandTechnology,2023
+ZeyuZhangiscurrentlypursuing
+182. ChangTA,BergenBK. Languagemodelbehavior:
+aMaster’sdegreeatRenminUni-
+Acomprehensivesurvey. ComputationalLinguistics,
+2024,1–58 versity of China, Beijing, China.
+183. Li C, Wang J, Zhu K, Zhang Y, Hou W, Lian J, Xie
+Hisresearchinterestsincluderec-
+X. Emotionprompt: Leveragingpsychologyforlarge
+ommender system, causal infer-
+languagemodelsenhancementviaemotionalstimulus.
+arXive-prints,2023,arXiv–2307 ence, agent based on large lan-
+184. ZhuoTY,LiZ,HuangY,ShiriF,WangW,HaffariG,
+guagemodel.
+LiYF. Onrobustnessofprompt-basedsemanticpars-
+ingwithlargepre-trainedlanguagemodel: Anempiri-
+HaoYangiscurrentlystudyingfor
+calstudyoncodex. arXivpreprintarXiv:2301.12868,
+aPh.D.degreeatRenminUniver-
+2023
+185. GekhmanZ,OvedN,KellerO,SzpektorI,ReichartR. sityofChina,Beijing,China. His
+Ontherobustnessofdialoguehistoryrepresentationin
+research interests include recom-
+conversationalquestionanswering: acomprehensive
+mendersystem,causalinference.
+studyandanewprompt-basedmethod.Transactionsof
+theAssociationforComputationalLinguistics,2023,
+11: 351–366 Jingsen Zhang is currently study-
+186. JiZ,LeeN,FrieskeR,YuT,SuD,XuY,IshiiE,Bang
+ing for a Ph.D. degree at Ren-
+Y J, Madotto A, Fung P. Survey of hallucination in
+naturallanguagegeneration.ACMComputingSurveys, min University of China, Beijing,
+2023,55(12): 1–38 China. His research interests in-
+cluderecommendersystem.

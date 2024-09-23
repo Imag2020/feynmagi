@@ -1,0 +1,79 @@
+3
+The expression for Tr{Gkρ} can be derived, with the ul- required for tomography can be reduced by representing
+timate goal of estimating: quantum states as MPS, in the worst case the resources
+requiredfortomographystillincreaseexponentiallywith
+1 1
+Tr{ρm+1}=Tr{( I− G)mρ} thenumberofbits[42,45]. Inthecontextofourcurrent
+2 2 research problem, there is a silver lining: the subspace
+1 Xm (11) we are investigating maintains a dimension that remains
+= Ck(−1)kTr{Gkρ}.
+2m m unaffected by the number of qubits. This distinctive fea-
+k=0 ture becomes particularly advantageous. In the subse-
+quent section, we expound on our utilization of the GST
+Let: p = 1 Ck, x =(−1)kTr{Gkρ}. The above equa-
+k 2m m k method to extract the pertinent information from this
+tion can be transformed into an expectation calculation:
+designated subspace.
+In comparison with the preceding context, the process
+m ofpreparingrandomquantumstatesadherestothesame
+X
+Tr{ρm+1}= p kx k =E k(x k). (12) approach as the Hadamard Test method. This method-
+k=0 ology necessitates the application of an assortment of
+stochastically selected gates {(U ) ,i = 1,2,...,α}
+To estimate the expectation, we need to generate quan- i 2n×2n
+onto the initial quantum state (typically |0⟩⟨0|⊗n), re-
+tum circuits using a random sampling method. For each
+sulting in the emergence of a random quantum state.
+circuit, we sample m times, with a 1/2 probability of
+The primary objective revolves around the computation
+adding a CG gate to the circuit and a 1/2 probability
+of Tr{ρm}, which is achieved through the intermediary
+of doing nothing. After generating multiple circuits, we
+of Tr{Gm}, where G = I −2ρ. We can express Tr{ρm}
+take the average of the results.
+as
+m
+1 X
+B. Algorithm for calculating Tr{ρm+1}. Tr{ρm}= Ck(−1)kTr{Gk}. (13)
+2m m
+k=0
+The pseudocode below, referred to as Algorithm 1, is
+for calculating Tr{ρm+1}. Similar to the approach employed in the HT-based al-
+gorithm, we can estimate this summation by leveraging
+Algorithm1
+Input:n,p ,U ,N
+i i
+Output:Tr{ρm+1} PTMTransform
+1: Set the initial state to |0⟩⊗n+1. Subspace
+2: RandomlyselectU i withprobabilityp i toactonthetar-
+get qubits. dim𝑤𝑞′ =dim𝑤𝑞 +1
+3: Apply a Hadamard gate to the ancilla qubit.
+PTM Transform
+4: Sample m times, with a 1/2 probability of adding a CG
+gatetothecircuitanda1/2probabilityofdoingnothing.
+5: Apply another Hadamard gate to the ancilla qubit.
+6: Perform a computational basis measurement on the aux-
+iliary qubit circuit.
+7: Repeat the above steps N times and take the average.
+III. TRACE ESTIMATION OF QUANTUM
+TOMOGRAPHY
+FIG. 2. Process of calculating Tr{Gk} using Gate Set To-
+mography. Firstly, in Step 1, decompose Tr{Gk} into the
+A. Theoretical Part of Quantum Tomography
+calculationofeachTr{Gk}. Then,takeitssubspacew (Step
+q q
+2) and transform the matrix representation of the subspace
+Quantum tomography denotes a suite of techniques intothecorrespondingPauliTransferMatrix,denotedasR .
+wq
+aiming to reconstruct an unknown quantum channel or Simultaneously,inStep4,expandthesubspacew byonedi-
+q
+state through experimental measurements. This process mension. Next,similarly,transformitsmatrixrepresentation
+is pivotal for the comprehensive understanding and au- w′ into its corresponding Pauli Transfer Matrix, denoted as
+q
+thentication of quantum apparatus [40–44]. Neverthe- R wq′. Then,throughStep6,calculatetheirtracesseparately.
+less,thescalabilityofquantumtomographyposesachal- By employing certain mathematical techniques in Step 7, we
+lenge, as the indispensable measurements and computa- can use the obtained traces to calculate Tr{w q}, and subse-
+quentlyobtainTr{Gk}(Step8). Finally,inStep9,weobtain
+tionalresourcesexperienceexponentialgrowthintandem q
+Tr{Gk}, which can be seen as the inverse process of Step 1.
+with qubit numbers. Note that although the resources

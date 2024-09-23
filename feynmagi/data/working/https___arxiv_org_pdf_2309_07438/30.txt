@@ -1,0 +1,97 @@
+31
+Conference on Programming Language Design and Implementation, [454] T.Chen,T.Moreau,Z.Jiang,L.Zheng,E.Yan,H.Shen,M.Cowan,
+pp.883–898,2021. L. Wang, Y. Hu, L. Ceze, et al., “TVM: An automated end-to-end
+[429] https://cloud.google.com/edge-tpu. optimizing compiler for deep learning,” in 13th USENIX Symposium
+[430] https://www.nxp.com/products/processors-and-microcontrollers/ onOperatingSystemsDesignandImplementation(OSDI18),pp.578–
+arm-microcontrollers/general-purpose-mcus/mcx-arm-cortex-m: 594,2018.
+MCX-MCUS. [455] Alibaba,“Mnn,”2019.
+[431] https://www.arm.com/products/silicon-ip-cpu/ethos/ethos-u65. [456] M.Xu,M.Zhu,Y.Liu,F.X.Lin,andX.Liu,“Deepcache:Principled
+[432] https://www.apple.com/apple-watch-series-8/. cacheformobiledeepvision,”inProceedingsofthe24thAnnualInter-
+[433] S. Han, J. Pool, J. Tran, and W. Dally, “Learning both weights nationalConferenceonMobileComputingandNetworking,pp.129–
+and connections for efficient neural network,” in Advances in Neural 144,ACM,2018.
+InformationProcessingSystems,pp.1135–1143,2015. [457] L. N. Huynh, Y. Lee, and R. K. Balan, “Deepmon: Mobile gpu-
+[434] Y. Guo, A. Yao, and Y. Chen, “Dynamic network surgery for effi- based deep learning framework for continuous vision applications,”
+cient dnns,” in Advances In Neural Information Processing Systems, inProceedingsofthe15thAnnualInternationalConferenceonMobile
+pp.1379–1387,2016. Systems,Applications,andServices,pp.82–95,ACM,2017.
+[435] X. Dai, H. Yin, and N. K. Jha, “Nest: a neural network syn- [458] S. Yao, S. Hu, Y. Zhao, A. Zhang, and T. Abdelzaher, “Deepsense:
+thesis tool based on a grow-and-prune paradigm,” arXiv preprint A unified deep learning framework for time-series mobile sensing
+arXiv:1711.02017,2017. dataprocessing,”inProceedingsofthe26thInternationalConference
+[436] H. Mao, S. Han, J. Pool, W. Li, X. Liu, Y. Wang, and W. J. Dally, on World Wide Web, pp. 351–360, International World Wide Web
+“Exploring the regularity of sparse structure in convolutional neural ConferencesSteeringCommittee,2017.
+networks,”arXivpreprintarXiv:1705.08922,2017. [459] S. Han, H. Shen, M. Philipose, S. Agarwal, A. Wolman, and A. Kr-
+[437] W. Wen, C. Wu, Y. Wang, Y. Chen, and H. Li, “Learning structured ishnamurthy, “Mcdnn: An approximation-based execution framework
+sparsityindeepneuralnetworks,”inAdvancesinNeuralInformation fordeepstreamprocessingunderresourceconstraints,”inProceedings
+ProcessingSystems,pp.2074–2082,2016. of the 14th Annual International Conference on Mobile Systems,
+[438] Y. He, X. Zhang, and J. Sun, “Channel pruning for accelerating Applications,andServices,pp.123–136,ACM,2016.
+very deep neural networks,” in Computer Vision (ICCV), 2017 IEEE [460] D.T.Vooturi,S.Goyal,A.R.Choudhury,Y.Sabharwal,andA.Verma,
+InternationalConferenceon,pp.1398–1406,IEEE,2017. “Efficient inferencing of compressed deep neural networks,” arXiv
+[439] A.Zhou,Y.Ma,J.Zhu,J.Liu,Z.Zhang,K.Yuan,W.Sun,andH.Li, preprintarXiv:1711.00244,2017.
+“Learning n: m fine-grained structured sparse neural networks from [461] Q.Wang,H.Sun,R.Q.Hu,andA.Bhuyan,“Whenmachinelearning
+scratch,”arXivpreprintarXiv:2102.04010,2021. meetsspectrumsharingsecurity:Methodologiesandchallenges,”IEEE
+[440] W. Niu, X. Ma, S. Lin, S. Wang, X. Qian, X. Lin, Y. Wang, and Open Journal of the Communications Society, vol. 3, pp. 176–208,
+B.Ren,“Patdnn:Achievingreal-timednnexecutiononmobiledevices 2022.
+withpattern-basedweightpruning,”inProceedingsoftheTwenty-Fifth
+[462] S. Aslam, W. Ejaz, and M. Ibnkahla, “Energy and spectral efficient
+International Conference on Architectural Support for Programming
+cognitiveradiosensornetworksforinternetofthings,”IEEEInternet
+Languages and Operating Systems, ASPLOS ’20, (New York, NY,
+ofThingsJournal,vol.5,no.4,pp.3220–3233,2018.
+USA),p.907–922,AssociationforComputingMachinery,2020.
+[463] A. Badi and I. Mahgoub, “Reapiot: Reliable, energy-aware network
+[441] X. Ma, F.-M. Guo, W. Niu, X. Lin, J. Tang, K. Ma, B. Ren, and
+protocol for large-scale internet-of-things (iot) applications,” IEEE
+Y. Wang, “Pconv: The missing but desirable sparsity in dnn weight
+InternetofThingsJournal,vol.8,no.17,pp.13582–13592,2021.
+pruning for real-time execution on mobile devices,” arXiv preprint
+[464] H.Xie,M.Xia,P.Wu,S.Wang,andH.V.Poor,“Edgelearningfor
+arXiv:1909.05073,2019.
+large-scale internet of things with task-oriented efficient communica-
+[442] Y. Cai, H. Li, G. Yuan, W. Niu, Y. Li, X. Tang, B. Ren, and
+tion,”IEEETransactionsonWirelessCommunications,2023.
+Y. Wang, “Yolobile: Real-time object detection on mobile devices
+[465] D. Tse and P. Viswanath, Fundamentals of wireless communication.
+via compression-compilation co-design,” in Proceedings of the AAAI
+Cambridgeuniversitypress,2005.
+conferenceonartificialintelligence,vol.35,pp.955–963,2021.
+[466] F.Hussain,S.A.Hassan,R.Hussain,andE.Hossain,“Machinelearn-
+[443] C.Leng,H.Li,S.Zhu,andR.Jin,“Extremelylowbitneuralnetwork:
+ingforresourcemanagementincellularandiotnetworks:Potentials,
+Squeezethelastbitoutwithadmm,”arXivpreprintarXiv:1707.09870,
+currentsolutions,andopenchallenges,”IEEEcommunicationssurveys
+2017.
+&tutorials,vol.22,no.2,pp.1251–1275,2020.
+[444] E. Park, J. Ahn, and S. Yoo, “Weighted-entropy-based quantization
+[467] M. Aboubakar, M. Kellil, and P. Roux, “A review of iot net-
+fordeepneuralnetworks,”inProceedingsoftheIEEEConferenceon
+work management: Current status and perspectives,” Journal of King
+ComputerVisionandPatternRecognition,pp.7197–7205,2017.
+Saud University-Computer and Information Sciences, vol. 34, no. 7,
+[445] A.Zhou,A.Yao,Y.Guo,L.Xu,andY.Chen,“Incrementalnetwork
+pp.4163–4176,2022.
+quantization: Towards lossless cnns with low-precision weights,” in
+InternationalConferenceonLearningRepresentations(ICLR),2017. [468] T. Wang, C.-K. Wen, H. Wang, F. Gao, T. Jiang, and S. Jin, “Deep
+[446] D. Lin, S. Talathi, and S. Annapureddy, “Fixed point quantization of learning for wireless physical layer: Opportunities and challenges,”
+deepconvolutionalnetworks,”inInternationalConferenceonMachine ChinaCommunications,vol.14,no.11,pp.92–111,2017.
+Learning,pp.2849–2858,2016. [469] J. Yuan, H. Q. Ngo, and M. Matthaiou, “Machine learning-based
+[447] J.Wu,C.Leng,Y.Wang,Q.Hu,andJ.Cheng,“Quantizedconvolu- channel estimation in massive mimo with channel aging,” in 2019
+tionalneuralnetworksformobiledevices,”inProceedingsoftheIEEE IEEE20thInternationalWorkshoponSignalProcessingAdvancesin
+Conference on Computer Vision and Pattern Recognition, pp. 4820– WirelessCommunications(SPAWC),pp.1–5,IEEE,2019.
+4828,2016. [470] S. M. Aldossari and K.-C. Chen, “Machine learning for wireless
+[448] M. Rastegari, V. Ordonez, J. Redmon, and A. Farhadi, “Xnor-net: communication channel modeling: An overview,” Wireless Personal
+Imagenet classification using binary convolutional neural networks,” Communications,vol.106,pp.41–70,2019.
+in European Conference on Computer Vision, pp. 525–542, Springer, [471] D. Nguyen, C. Nguyen, T. Duong-Ba, H. Nguyen, A. Nguyen, and
+2016. T. Tran, “Joint network coding and machine learning for error-prone
+[449] I. Hubara, M. Courbariaux, D. Soudry, R. El-Yaniv, and Y. Bengio, wireless broadcast,” in 2017 IEEE 7th Annual Computing and Com-
+“Binarized neural networks,” in Advances in neural information pro- municationWorkshopandConference(CCWC),pp.1–7,IEEE,2017.
+cessingsystems,pp.4107–4115,2016. [472] L. Zhang and Z. Wu, “Machine learning–based adaptive modulation
+[450] M.Courbariaux,Y.Bengio,andJ.-P.David,“Binaryconnect:Training andcodingdesign,”MachineLearningforFutureWirelessCommuni-
+deep neural networks with binary weights during propagations,” in cations,pp.157–180,2020.
+Advances in neural information processing systems, pp. 3123–3131, [473] X. Ma, H. Sun, Q. Wang, and R. Q. Hu, “User scheduling for
+2015. federated learning through over-the-air computation,” in 2021 IEEE
+[451] A.Paszke,S.Gross,S.Chintala,andG.Chanan,“Pytorch,”2017. 94thVehicularTechnologyConference(VTC2021-Fall),pp.1–5,2021.
+[452] Google,“Tensorflowlite,”2019. [474] A. Asadi and V. Mancuso, “A survey on opportunistic scheduling in
+[453] N. D. Lane, S. Bhattacharya, P. Georgiev, C. Forlivesi, L. Jiao, wirelesscommunications,”IEEECommunicationssurveys&tutorials,
+L. Qendro, and F. Kawsar, “Deepx: A software accelerator for low- vol.15,no.4,pp.1671–1688,2013.
+power deep learning inference on mobile devices,” in Proceedings of [475] Y. Wei, L. Pan, S. Liu, L. Wu, and X. Meng, “Drl-scheduling: An
+the15thInternationalConferenceonInformationProcessinginSensor intelligent qos-aware job scheduling framework for applications in
+Networks,p.23,IEEEPress,2016. clouds,”IEEEAccess,vol.6,pp.55112–55125,2018.

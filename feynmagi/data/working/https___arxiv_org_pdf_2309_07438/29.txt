@@ -1,0 +1,77 @@
+30
+[386] X. Jin, P.-Y. Chen, C.-Y. Hsu, C.-M. Yu, and T. Chen, “Cafe: Catas- [407] L.Plumanns,D.Janssen,R.Vossen,andI.Isenhardt,“Organizational
+trophicdataleakageinverticalfederatedlearning,”AdvancesinNeural and individual factors for training of the manufacturing workforce in
+InformationProcessingSystems,vol.34,pp.994–1006,2021. digitalization,” in 2019 IEEE Global Engineering Education Confer-
+[387] H.Ren,J.Deng,andX.Xie,“Grnn:generativeregressionneuralnet- ence(EDUCON),pp.1158–1166,IEEE,2019.
+work—adataleakageattackforfederatedlearning,”ACMTransactions [408] G.Li,C.Yuan,S.Kamarthi,M.Moghaddam,andX.Jin,“Datasci-
+onIntelligentSystemsandTechnology(TIST),vol.13,no.4,pp.1–24, enceskillsanddomainknowledgerequirementsinthemanufacturing
+2022. industry:Agapanalysis,”JournalofManufacturingSystems,vol.60,
+[388] S. Kumpulainen and V. Terziyan, “Artificial general intelligence vs. pp.692–706,2021.
+industry4.0:Dotheyneedeachother?,”ProcediaComputerScience, [409] B.P.Woolf,“Aiandeducation:Celebrating30yearsofmarriage.,”in
+vol.200,pp.140–150,2022. AIEDWorkshops,vol.4,pp.38–47,2015.
+[389] J. D. Toscano, S. Hajifar, C. O. Segura, L. J. Segura, and H. Sun, [410] G.Eysenbachetal.,“Theroleofchatgpt,generativelanguagemodels,
+“Deformation analysis of 3d printed metacarpophalangeal and inter- and artificial intelligence in medical education: a conversation with
+phalangealjointsviatransferlearning,”inInternationalManufacturing chatgptandacallforpapers,”JMIRMedicalEducation,vol.9,no.1,
+Science and Engineering Conference, vol. 85062, p. V001T01A014, p.e46885,2023.
+AmericanSocietyofMechanicalEngineers,2021. [411] D. Baidoo-Anu and L. Owusu Ansah, “Education in the era of gen-
+[390] R. Kontar, G. Raskutti, and S. Zhou, “Minimizing negative transfer erative artificial intelligence (ai): Understanding the potential benefits
+of knowledge in multivariate gaussian processes: A scalable and of chatgpt in promoting teaching and learning,” Available at SSRN
+regularized approach,” IEEE Transactions on Pattern Analysis and 4337484,2023.
+MachineIntelligence,vol.43,no.10,pp.3508–3522,2020. [412] G. Cooper, “Examining science education in chatgpt: An exploratory
+[391] S.A.Niaki,E.Haghighat,T.Campbell,A.Poursartip,andR.Vaziri, studyofgenerativeartificialintelligence,”JournalofScienceEducation
+“Physics-informed neural network for modelling the thermochemi- andTechnology,vol.32,no.3,pp.444–452,2023.
+cal curing process of composite-tool systems during manufacture,” [413] M. A. Canbaz, K. OHearon, M. McKee, and M. N. Hossain, “Iot
+Computer Methods in Applied Mechanics and Engineering, vol. 384, privacyandsecurityinteachinginstitutions:Insidetheclassroomand
+p.113959,2021. beyond,” in 2021 ASEE Virtual Annual Conference Content Access,
+[392] M.Hajiha,X.Liu,Y.M.Lee,andM.Ramin,“Aphysics-regularized 2021.
+data-drivenapproachforhealthprognosticsofcomplexengineeredsys- [414] N. El-Haggar, L. Amouri, A. Alsumayt, F. H. Alghamedy, and S. S.
+temswithdependenthealthstates,”ReliabilityEngineering&System Aljameel,“Theeffectivenessandprivacypreservationofiotonubiqui-
+Safety,vol.226,p.108677,2022. touslearning:Modernlearningparadigmtoenhancehighereducation,”
+[393] J. D. Toscano, C. Zuniga-Navarrete, W. D. J. Siu, L. J. Segura, and AppliedSciences,vol.13,no.15,p.9003,2023.
+H. Sun, “Teeth mold point cloud completion via data augmentation [415] A. Andiyan, D. Rusmana, Y. Hari, M. Sitorus, Z. Trinova, and
+andhybridrl-gan,”JournalofComputingandInformationSciencein M. Surur, “Disruption of iot in adapting online learning during the
+Engineering,vol.23,no.4,p.041008,2023. covid-19pandemic.,”InternationalJournalofEarlyChildhoodSpecial
+[394] J. Chung, B. Shen, and Z. J. Kong, “Anomaly detection in additive Education,vol.13,no.2,2021.
+manufacturing processes using supervised classification with imbal- [416] F.Pedro,M.Subosa,A.Rivas,andP.Valverde,“Artificialintelligence
+anced sensor data based on generative adversarial network,” Journal in education: Challenges and opportunities for sustainable develop-
+ofIntelligentManufacturing,pp.1–20,2023. ment,”2019.
+[395] Z.Li,L.J.Segura,Y.Li,C.Zhou,andH.Sun,“Multiclassreinforced [417] C.Yang,S.Huan,andY.Yang,“Apracticalteachingmodeforcolleges
+active learning for droplet pinch-off behaviors identification in inkjet supportedbyartificialintelligence,”InternationalJournalofEmerging
+printing,”JournalofManufacturingScienceandEngineering,vol.145, TechnologiesinLearning(IJET),vol.15,no.17,pp.195–206,2020.
+no.7,p.071002,2023. [418] X.Zhai,“Chatgptandai:Thegamechangerforeducation,”Available
+[396] Z. Li, F. Yao, and H. Sun, “Reinforced active learning for cvd- atSSRN,2023.
+growntwo-dimensionalmaterialscharacterization,”IISETransactions, [419] X.Zhai,“Chatgptfornextgenerationsciencelearning,”XRDS:Cross-
+no.just-accepted,pp.1–22,2023. roads, The ACM Magazine for Students, vol. 29, no. 3, pp. 42–46,
+[397] X. Zhou, W. Liang, S. Shimizu, J. Ma, and Q. Jin, “Siamese neural 2023.
+network based few-shot learning for anomaly detection in industrial [420] S.Atlas,“Chatgptforhighereducationandprofessionaldevelopment:
+cyber-physicalsystems,”IEEETransactionsonIndustrialInformatics, Aguidetoconversationalai,”2023.
+vol.17,no.8,pp.5790–5798,2020. [421] T.K.ChiuandC.-s.Chai,“Sustainablecurriculumplanningforarti-
+[398] M.RussellandP.Wang,“Maximizingmodelgeneralizationforman- ficialintelligenceeducation:Aself-determinationtheoryperspective,”
+ufacturingwithself-supervisedlearningandfederatedlearning,”arXiv Sustainability,vol.12,no.14,p.5568,2020.
+preprintarXiv:2304.14398,2023. [422] Y.HuandZ.Liao,“Designofknowledgebaseandcurriculumplanning
+[399] D. Gerhard, T. Ko¨ring, and M. Neges, “Generative engineering and basedonartificialintelligenceteachingsystem,”inProceedingsofthe
+design–a comparison of different approaches to utilize artificial intel- 2020InternationalConferenceonComputers,InformationProcessing
+ligence in cad software tools,” in IFIP International Conference on andAdvancedEducation,pp.327–330,2020.
+ProductLifecycleManagement,pp.206–215,Springer,2022. [423] D.Philipp,F.Durr,andK.Rothermel,“Asensornetworkabstraction
+[400] R.JinandX.Deng,“Ensemblemodelingfordatafusioninmanufac- forflexiblepublicsensingsystems,”in2011IEEEEighthInternational
+turingprocessscale-up,”IIETransactions,vol.47,no.3,pp.203–214, ConferenceonMobileAd-HocandSensorSystems,pp.460–469,IEEE,
+2015. 2011.
+[401] J. Li, R. Jin, and Z. Y. Hang, “Integration of physically-based and [424] N.D.Lane,S.Bhattacharya,P.Georgiev,C.Forlivesi,andF.Kawsar,
+data-driven approaches for thermal field prediction in additive manu- “An early resource characterization of deep learning on wearables,
+facturing,”Materials&Design,vol.139,pp.473–485,2018. smartphones and internet-of-things devices,” in Proceedings of the
+[402] K. Wang, Y. Song, H. Sheng, J. Xu, S. Zhang, and J. Qin, “Energy 2015internationalworkshoponinternetofthingstowardsapplications,
+efficiency design for eco-friendly additive manufacturing based on pp.7–12,ACM,2015.
+multimodal attention fusion,” Journal of Manufacturing Processes, [425] I. Boticki and H.-J. So, “Quiet captures: A tool for capturing the
+vol.79,pp.720–730,2022. evidence of seamless learning with mobile devices,” in Proceedings
+[403] T. Kipf, E. Van der Pol, and M. Welling, “Contrastive learning of of the 9th International Conference of the Learning Sciences-Volume
+structuredworldmodels,”arXivpreprintarXiv:1911.12247,2019. 1,pp.500–507,InternationalSocietyoftheLearningSciences,2010.
+[404] M.Ai,Y.Xie,S.X.Ding,Z.Tang,andW.Gui,“Domainknowledge [426] M. M. Rodgers, V. M. Pai, and R. S. Conroy, “Recent advances in
+distillation and supervised contrastive learning for industrial process wearablesensorsforhealthmonitoring,”IEEESensorsJournal,vol.15,
+monitoring,”IEEETransactionsonIndustrialElectronics,2022. no.6,pp.3119–3126,2014.
+[405] B.Power,X.Li,andP.Wang,“Generalizeddiagnosticswiththenon- [427] S.BhattacharyaandN.D.Lane,“Fromsmarttodeep:Robustactivity
+axiomaticreasoningsystem(nars),”inArtificialGeneralIntelligence: recognition on smartwatches using deep learning,” in 2016 IEEE
+12thInternationalConference,AGI2019,Shenzhen,China,August6– InternationalConferenceonPervasiveComputingandCommunication
+9,2019,Proceedings12,pp.159–167,Springer,2019. Workshops(PerComWorkshops),pp.1–6,IEEE,2016.
+[406] B.Rathore,“Futureoftextile:Sustainablemanufacturing&prediction [428] W. Niu, J. Guan, Y. Wang, G. Agrawal, and B. Ren, “Dnnfusion:
+viachatgpt,”Eduzone:InternationalPeerReviewed/RefereedMultidis- accelerating deep neural networks execution with advanced operator
+ciplinaryJournal,vol.12,no.1,pp.52–62,2023. fusion,” in Proceedings of the 42nd ACM SIGPLAN International

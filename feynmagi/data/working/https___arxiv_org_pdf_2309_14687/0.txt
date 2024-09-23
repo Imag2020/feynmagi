@@ -1,0 +1,58 @@
+3202
+peS
+62
+]OR.sc[
+1v78641.9032:viXra
+ON THE EFFECTS OF THE VARIATIONS IN NETWORK CHARACTERISTICS
+IN CYBER PHYSICAL SYSTEMS
+G´eza Szabo´, Sa´ndor Ra´cz J´ozsef Pet˝o
+Ericsson Research, Budapest, Hungary Budapest University of Technology and Economics, Hungary
+Email: {geza.szabo,sandor.racz}@ericsson.com Email: pjoejoejoe@gmail.com
+Rafael Roque Aschoff
+Pernambuco Federal Institute of Education, Science, and Technology, Brazil
+Email: rafael.aschoff@gprt.ufpe.br
+KEYWORDS izedlocationse.g.,possiblegraspingposesofvarious3D
+network characteristics,cyber-physics, Gazebo objects.
+Another aspect of cloud robotics is the way in which
+ABSTRACT
+therobotcontrolrelatedfunctionalityismovedintothe
+cloud. Thesimplestwayistoruntheoriginalrobotspe-
+The popular robotic simulator, Gazebo, lacks the fea- cifictaskinacloudwithoutsignificantchangesinit. For
+ture of simulating the effects of control latency that example, in a Virtual Machine (VM), in a container, or
+would make it a fully-fledged cyber-physical system in a virtualized ProgrammableLogic Controller (PLC).
+(CPS) simulator. The CPS that we address to mea- Anotherwayistoupdate,modifyorrewritethecodeof
+sure is a robotic arm (UR5) controlled remotely with robot related tasks to utilize existing services or APIs
+velocity commands. The main goalis to measure Qual- ofthe cloud. The third way is to extend the cloudplat-
+ity of Control (QoC) related KPIs during various net- form itself with new features that make robot control
+work conditions in a simulated environment. We pro- more efficient. These new robot-aware cloud features
+pose a Gazebo plugin (OurPlugin 2017) to make the can be explicitly used by robot related tasks (i.e. new
+above measurement feasible by making Gazebo capable robot-awareservicesorAPIsofferedbycloud)orcanbe
+to delay internal control and status messages and also transparent solutions (e.g., improving the service pro-
+to interface with external network simulators to derive videdbythecloudtomeettherequirementoftherobot
+even more advanced network effects. Our preliminary control).
+evaluationshows that there is certainly an effect onthe Designingcyber-physicalsystemsischallengingbecause
+behavior of the robotic arm with the introduced net- ofa)the vastnetworkandinformationtechnologyenvi-
+work latency in line with our expectations, but a more ronmentconnectedwithphysicalelementsinvolvesmul-
+detailed further study is needed. tiple domains such as controls, communication, analog
+anddigitalphysics,andlogicandb)theinteractionwith
+INTRODUCTION
+thephysicalworldvarieswidelybasedontimeandsitu-
+ation. ToeasethedesignofCPS,robotsimulatorshave
+A cyber-physical system (CPS) is a mechanism con- been used by robotics experts. A well-designed simula-
+trolled or monitored by computer-based algorithms, tor makes it possible to rapidly test algorithms, design
+tightlyintegratedwiththeinternetanditsusers. Unlike robots, perform regression testing, and train AI system
+more traditional embedded systems, a full-fledged CPS using realistic scenarios.
+istypicallydesignedasanetworkofinteractingelements Therearevariousalternatives,setsoftoolsthatmakeit
+withphysicalinputandoutputinsteadofasstandalone possibletoputtogetheraCPSsimulationenvironment,
+devices. For tasks that require more resources than are but it is very difficult, needs a lot of interfacing with
+locally available, one common mechanism is that nodes various tools and impractical. The requirements of a
+utilizethenetworkconnectivitytolinkthesensororac- widely applicable CPS are the following:
+tuator part of the CPS with either a server or a cloud
+environment,enablingcomplexprocessingtasksthatare • Should be modular in terms of interfacingwith the
+impossible under localresourceconstraints. Among the CPS
+wide diversity of tasks that CPS is applied we focus on
+robot control in this paper. • Shouldbemodularintermsofinterfacingwithnet-
+Currently,oneofthemainfocusofcloudbasedrobotics work simulator, realization environment
+is to speed up the processing of input data collected
+frommanysensorswithbigdatacomputation. Another • Should be able to cooperate with widely applied
+approachistocollectvariousknowledgebasesincentral- environments

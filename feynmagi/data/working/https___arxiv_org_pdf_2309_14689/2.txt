@@ -1,0 +1,54 @@
+3
+26 Hunan University, Changsha 410082, People’s Republic of China
+27 Indian Institute of Technology Madras, Chennai 600036, India
+28 Indiana University, Bloomington, Indiana 47405, USA
+29 INFN Laboratori Nazionali di Frascati , (A)INFN Laboratori Nazionali di Frascati, I-00044, Frascati, Italy;
+(B)INFN Sezione di Perugia, I-06100, Perugia, Italy; (C)University of Perugia, I-06100, Perugia, Italy
+30 INFN Sezione di Ferrara, (A)INFN Sezione di Ferrara, I-44122,
+Ferrara, Italy; (B)University of Ferrara, I-44122, Ferrara, Italy
+31 Inner Mongolia University, Hohhot 010021, People’s Republic of China
+32 Institute of Modern Physics, Lanzhou 730000, People’s Republic of China
+33 Institute of Physics and Technology, Peace Avenue 54B, Ulaanbaatar 13330, Mongolia
+34 Instituto de Alta Investigaci´on, Universidad de Tarapaca´, Casilla 7D, Arica 1000000, Chile
+35 Jilin University, Changchun 130012, People’s Republic of China
+36 Johannes Gutenberg University of Mainz, Johann-Joachim-Becher-Weg 45, D-55099 Mainz, Germany
+37 Joint Institute for Nuclear Research, 141980 Dubna, Moscow region, Russia
+38 Justus-Liebig-Universitaet Giessen, II. Physikalisches Institut, Heinrich-Buff-Ring 16, D-35392 Giessen, Germany
+39 Lanzhou University, Lanzhou 730000, People’s Republic of China
+40 Liaoning Normal University, Dalian 116029, People’s Republic of China
+41 Liaoning University, Shenyang 110036, People’s Republic of China
+42 Nanjing Normal University, Nanjing 210023, People’s Republic of China
+43 Nanjing University, Nanjing 210093, People’s Republic of China
+44 Nankai University, Tianjin 300071, People’s Republic of China
+45 National Centre for Nuclear Research, Warsaw 02-093, Poland
+46 North China Electric Power University, Beijing 102206, People’s Republic of China
+47 Peking University, Beijing 100871, People’s Republic of China
+48 Qufu Normal University, Qufu 273165, People’s Republic of China
+49 Shandong Normal University, Jinan 250014, People’s Republic of China
+50 Shandong University, Jinan 250100, People’s Republic of China
+51 Shanghai Jiao Tong University, Shanghai 200240, People’s Republic of China
+52 Shanxi Normal University, Linfen 041004, People’s Republic of China
+53 Shanxi University, Taiyuan 030006, People’s Republic of China
+54 Sichuan University, Chengdu 610064, People’s Republic of China
+55 Soochow University, Suzhou 215006, People’s Republic of China
+56 South China Normal University, Guangzhou 510006, People’s Republic of China
+57 Southeast University, Nanjing 211100, People’s Republic of China
+58 State Key Laboratory of Particle Detection and Electronics,
+Beijing 100049, Hefei 230026, People’s Republic of China
+59 Sun Yat-Sen University, Guangzhou 510275, People’s Republic of China
+60 Suranaree University of Technology, University Avenue 111, Nakhon Ratchasima 30000, Thailand
+61 Tsinghua University, Beijing 100084, People’s Republic of China
+62 Turkish Accelerator Center Particle Factory Group, (A)Istinye University, 34010, Istanbul,
+Turkey; (B)Near East University, Nicosia, North Cyprus, 99138, Mersin 10, Turkey
+63 University of Chinese Academy of Sciences, Beijing 100049, People’s Republic of China
+64 University of Groningen, NL-9747 AA Groningen, The Netherlands
+65 University of Hawaii, Honolulu, Hawaii 96822, USA
+66 University of Jinan, Jinan 250022, People’s Republic of China
+67 University of Manchester, Oxford Road, Manchester, M13 9PL, United Kingdom
+68 University of Muenster, Wilhelm-Klemm-Strasse 9, 48149 Muenster, Germany
+69 University of Oxford, Keble Road, Oxford OX13RH, United Kingdom
+70 University of Science and Technology Liaoning, Anshan 114051, People’s Republic of China
+71 University of Science and Technology of China, Hefei 230026, People’s Republic of China
+72 University of South China, Hengyang 421001, People’s Republic of China
+73 University of the Punjab, Lahore-54590, Pakistan
+74 University of Turin and INFN, (A)University of Turin, I-10125, Turin, Italy; (B)University

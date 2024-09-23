@@ -1,0 +1,10 @@
+7
+Figure 2. Color magnitude diagrams using JWST filters expected to be commonly used for brown dwarfs.
+Grey dots represent the photometric sample from Leggett et al. (2021) converted on to the JWST system.
+Green squares represent recently published JWST data. Yellow circles and stars indicate the observed and
+synthesized colors, respectively, for the 260 K Y dwarf WISE 0855. Black lines are ATMO2020++ model
+sequences with parameters as given in the upper legend. Purple lines are disequilibrium chemistry sequences
+from Lacy & Burrows (2023), for 250 ≤ T K ≤ 350, and other parameters as given in the lower legend.
+eff
+See text for further discussion. WISE 0535 (WISE J053516.80-750024.9), like WISE 1828, is an unresolved
+apparently overluminous system (e.g. Leggett et al. 2021).

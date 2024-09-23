@@ -1,0 +1,44 @@
+LeiWangetal. ASurveyonLargeLanguageModelbasedAutonomousAgents 13
+make the agent align with the human values and erated by an evaluation module that monitors the
+preferences,andalsohelptoalleviatethehallucina- agentreasoningsteps. Reflexion[12]isdeveloped
+tion problem. In Inner Monologue [61], the agent toenhancetheagent’splanningcapabilitythrough
+aimstoperformhigh-levelnaturallanguageinstruc- detailed verbal feedback. In this model, the agent
+tions in a 3D visual environment. It is given the first produces an action based on its memory, and
+capabilityto actively solicitfeedback fromhumans then, the evaluator generates feedback by taking
+regarding scene descriptions. Then, the agent in- the agent trajectory as input. In contrast to previ-
+corporates the human feedback into its prompts, ousstudies,wherethefeedbackisgivenasascalar
+enablingmoreinformedplanningandreasoning. In value,thismodelleveragesLLMstoprovidemore
+theabovecases,wecansee,differenttypesoffeed- detailedverbalfeedback,whichcan providemore
+back can be combined to enhance the agent plan- comprehensivesupportsfortheagentplans.
+ningcapability. Forexample,InnerMonologue[61]
+Remark. In conclusion,the implementationof plan-
+collectsbothenvironmentandhumanfeedbackto
+ning module without feedback isrelatively straight-
+facilitatetheagentplans.
+forward. However,itisprimarilysuitableforsimple
+•ModelFeedback. Apartfromtheaforemen- tasks that only require a small number of reason-
+tionedenvironmentalandhumanfeedback,which ingsteps. Conversely, the strategy ofplanning with
+are external signals, researchers have also investi- feedbackneedsmorecarefuldesignstohandlethe
+gated the utilization of internal feedback from the feedback. Nevertheless, it is considerably more
+agents themselves. This type of feedback is usu-
+powerfulandcapableofeffectivelyaddressingcom-
+allygeneratedbasedonpre-trainedmodels. Inspe- plextasksthatinvolvelong-rangereasoning.
+cific, [62] proposes a self-refine mechanism. This
+2.1.4 ActionModule
+mechanism consists of three crucial components:
+output,feedback,andrefinement. Firstly,theagent The action module is responsible for translating
+generatesanoutput. Then,itutilizesLLMstopro- the agent’s decisions into specific outcomes. This
+videfeedbackonthe outputandofferguidanceon moduleislocatedatthemostdownstreamposition
+how torefineit. Atlast, theoutputisimprovedby and directly interacts with the environment. It is
+the feedback and refinement. This output-feedback- influenced by the profile, memory, and planning
+refinementprocessiteratesuntilreachingsomede- modules. Thissectionintroducestheactionmodule
+sired conditions. SelfCheck [63] allows agents to from four perspectives: (1) Action goal: what are
+examine and evaluate their reasoning steps gener- the intended outcomes of the actions? (2) Action
+atedatvariousstages. Theycanthencorrectanyer- production: how are the actions generated? (3)
+rorsbycomparingtheoutcomes. InterAct[64]uses Action space: what are the available actions? (4)
+different language models (such as ChatGPT and Action impact: what are the consequences of the
+InstructGPT) as auxiliary roles, such as checkers actions? Among these perspectives, the first two
+and sorters,to help themain language modelavoid focusontheaspectsprecedingtheaction("before-
+erroneous and inefficient actions. ChatCoT [65] action"aspects),thethirdfocusesontheactionitself
+utilizes model feedback to improve the quality of ("in-action"aspect), andthe fourthemphasizes the
+its reasoning process. The model feedback is gen- impactoftheactions("after-action"aspect).

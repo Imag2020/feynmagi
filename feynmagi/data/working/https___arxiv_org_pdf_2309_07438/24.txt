@@ -1,0 +1,78 @@
+25
+[180] B. Huang and J. Wang, “Applications of physics-informed neural in Journal of Physics: Conference Series, vol. 1921, p. 012069, IOP
+networks in power systems-a review,” IEEE Transactions on Power Publishing,2021.
+Systems,vol.38,no.1,pp.572–588,2022. [203] K. Dahlgren, S. Pink, Y. Strengers, L. Nicholls, and J. Sadowski,
+[181] L.Guo,J.Zhang,J.Ye,S.J.Coshatt,andW.Song,“Data-drivencyber- “Personalization and the smart home: Questioning techno-hedonist
+attack detection for pv farms via time-frequency domain features,” imaginaries,”Convergence,vol.27,no.5,pp.1155–1169,2021.
+IEEEtransactionsonsmartgrid,vol.13,no.2,pp.1582–1597,2021. [204] V. Bianchi, M. Bassoli, G. Lombardo, P. Fornacciari, M. Mordonini,
+[182] B. Hammi, S. Zeadally, R. Khatoun, and J. Nebhen, “Survey on and I. De Munari, “Iot wearable sensor and deep learning: An inte-
+smart homes: vulnerabilities, risks, and countermeasures,” Computers gratedapproachforpersonalizedhumanactivityrecognitioninasmart
+&Security,vol.117,p.102677,2022. home environment,” IEEE Internet of Things Journal, vol. 6, no. 5,
+[183] T. K. Hui, R. S. Sherratt, and D. D. Sa´nchez, “Major requirements pp.8553–8562,2019.
+for building smart homes in smart cities based on internet of things [205] Q. Xie, M. Wang, Y. Zhao, Z. He, Y. Li, G. Wang, and Y. Lian,
+technologies,”FutureGenerationComputerSystems,vol.76,pp.358– “A personalized beat-to-beat heart rate detection system from bal-
+369,2017. listocardiogram for smart home applications,” IEEE transactions on
+[184] S. Balakrishnan, H. Vasudavan, and R. K. Murugesan, “Smart home biomedicalcircuitsandsystems,vol.13,no.6,pp.1593–1602,2019.
+technologies: A preliminary review,” in Proceedings of the 6th Inter- [206] A.Gourav,L.Liu,A.Gandhe,Y.Gu,G.Lan,X.Huang,S.Kalmane,
+nationalConferenceonInformationTechnology:IoTandSmartCity, G. Tiwari, D. Filimonov, A. Rastrow, et al., “Personalization strate-
+pp.120–127,2018. gies for end-to-end speech recognition systems,” in ICASSP 2021-
+[185] C.Stolojescu-Crisan,C.Crisan,andB.-P.Butunoi,“Aniot-basedsmart 2021IEEEInternationalConferenceonAcoustics,SpeechandSignal
+homeautomationsystem,”Sensors,vol.21,no.11,p.3784,2021. Processing(ICASSP),pp.7348–7352,IEEE,2021.
+[186] W.A.Jabbar,T.K.Kian,R.M.Ramli,S.N.Zubir,N.S.Zamrizaman, [207] M.Umair,M.A.Cheema,O.Cheema,H.Li,andH.Lu,“Impactof
+M. Balfaqih, V. Shepelev, and S. Alharbi, “Design and fabrication of covid-19oniotadoptioninhealthcare,smarthomes,smartbuildings,
+smarthomewithinternetofthingsenabledautomationsystem,”IEEE smartcities,transportationandindustrialiot,”Sensors,vol.21,no.11,
+access,vol.7,pp.144059–144074,2019. p.3838,2021.
+[187] H. Singh, V. Pallagani, V. Khandelwal, and U. Venkanna, “Iot based [208] M.Mohammed,S.Desyansah,S.Al-Zubaidi,andE.Yusuf,“Aninter-
+smarthomeautomationsystemusingsensornode,”in20184thInter- netofthings-basedsmarthomesandhealthcaremonitoringandman-
+national Conference on Recent Advances in Information Technology agementsystem,”inJournalofphysics:conferenceseries,vol.1450,
+(RAIT),pp.1–5,IEEE,2018. p.012079,IOPPublishing,2020.
+[188] M.Domb,“Smarthomesystemsbasedoninternetofthings,”inInter- [209] M.Talal,A.Zaidan,B.Zaidan,A.S.Albahri,A.H.Alamoodi,O.S.
+netofThings(IoT)forautomatedandsmartapplications,IntechOpen, Albahri, M. Alsalem, C. K. Lim, K. L. Tan, W. Shir, et al., “Smart
+2019. home-based iot for real-time and secure remote health monitoring of
+[189] S. S. I. Samuel, “A review of connectivity challenges in iot-smart triageandprioritysystemusingbodysensors:Multi-drivensystematic
+home,” in 2016 3rd MEC International conference on big data and review,”Journalofmedicalsystems,vol.43,pp.1–34,2019.
+smartcity(ICBDSC),pp.1–4,IEEE,2016. [210] K.Maswadi,N.B.A.Ghani,andS.B.Hamid,“Systematicliterature
+[190] S. Pradeep, T. Kousalya, K. A. Suresh, and J. Edwin, “Iot and its review of smart home monitoring technologies based on iot for the
+connectivitychallengesinsmarthome,”Int.Res.J.Eng.Technol,vol.3, elderly,”IEEEAccess,vol.8,pp.92244–92261,2020.
+pp.1040–1043,2016. [211] A.Radford,K.Narasimhan,T.Salimans,I.Sutskever,etal.,“Improv-
+[191] Y.Liu,R.Tamura,andY.Song,“Constructingasmarthomeforfuture inglanguageunderstandingbygenerativepre-training,”2018.
+elders toward all-around happiness: taking connectivity as the core [212] Z. Yang, Z. Dai, Y. Yang, J. Carbonell, R. R. Salakhutdinov, and
+element,”AppliedSciences,vol.10,no.16,p.5690,2020. Q.V.Le,“Xlnet:Generalizedautoregressivepretrainingforlanguage
+[192] S. Kumar and S. R. Lee, “Android based smart home system with understanding,” Advances in neural information processing systems,
+control via bluetooth and internet connectivity,” in The 18th IEEE vol.32,2019.
+InternationalSymposiumonConsumerElectronics(ISCE2014),pp.1– [213] C. Raffel, N. Shazeer, A. Roberts, K. Lee, S. Narang, M. Matena,
+2,IEEE,2014. Y.Zhou,W.Li,andP.J.Liu,“Exploringthelimitsoftransferlearn-
+[193] S. K. Vishwakarma, P. Upadhyaya, B. Kumari, and A. K. Mishra, ing with a unified text-to-text transformer,” The Journal of Machine
+“Smart energy efficient home automation system using iot,” in 2019 LearningResearch,vol.21,no.1,pp.5485–5551,2020.
+4th international conference on internet of things: Smart innovation [214] A.Mehrish,N.Majumder,R.Bharadwaj,R.Mihalcea,andS.Poria,“A
+andusages(IoT-SIU),pp.1–4,Ieee,2019. reviewofdeeplearningtechniquesforspeechprocessing,”Information
+[194] C.Reinisch,M.Kofler,F.Iglesias,andW.Kastner,“Thinkhomeenergy Fusion,p.101869,2023.
+efficiency in future smart homes,” EURASIP Journal on Embedded [215] A. Babu, C. Wang, A. Tjandra, K. Lakhotia, Q. Xu, N. Goyal,
+Systems,vol.2011,pp.1–18,2011. K.Singh,P.vonPlaten,Y.Saraf,J.Pino,etal.,“Xls-r:Self-supervised
+[195] O. Ayan and B. Turkay, “Iot-based energy efficiency in smart homes cross-lingual speech representation learning at scale,” arXiv preprint
+bysmartlightingsolutions,”in202021stInternationalSymposiumon arXiv:2111.09296,2021.
+ElectricalApparatus&Technologies(SIELA),pp.1–5,IEEE,2020. [216] A. Radford, J. W. Kim, T. Xu, G. Brockman, C. McLeavey, and
+[196] M. S. Hossain, M. A. Rahman, and G. Muhammad, “Cyber–physical I.Sutskever,“Robustspeechrecognitionvialarge-scaleweaksupervi-
+cloud-orientedmulti-sensorysmarthomeframeworkforelderlypeople: sion,” in International Conference on Machine Learning, pp. 28492–
+Anenergyefficiencyperspective,”JournalofParallelandDistributed 28518,PMLR,2023.
+Computing,vol.103,pp.11–21,2017. [217] C.Wang,S.Chen,Y.Wu,Z.Zhang,L.Zhou,S.Liu,Z.Chen,Y.Liu,
+[197] A.Yang,C.Zhang,Y.Chen,Y.Zhuansun,andH.Liu,“Securityand H. Wang, J. Li, et al., “Neural codec language models are zero-shot
+privacy of smart home systems based on the internet of things and texttospeechsynthesizers,”arXivpreprintarXiv:2301.02111,2023.
+stereomatchingalgorithms,”IEEEInternetofThingsJournal,vol.7, [218] A. Baevski, Y. Zhou, A. Mohamed, and M. Auli, “wav2vec 2.0:
+no.4,pp.2521–2530,2019. A framework for self-supervised learning of speech representations,”
+[198] H. Kaushik, T. Kumar, and K. Bhalla, “isecurehome: A deep fusion Advancesinneuralinformationprocessingsystems,vol.33,pp.12449–
+framework for surveillance of smart homes using real-time emotion 12460,2020.
+recognition,”AppliedSoftComputing,vol.122,p.108788,2022. [219] Q. Xu, A. Baevski, T. Likhomanenko, P. Tomasello, A. Conneau,
+[199] R.Dwivedi,K.D.Gupta,andD.Sharma,“Securityandsurveillance R. Collobert, G. Synnaeve, and M. Auli, “Self-training and pre-
+at smart homes in a smart city through internet of things,” Smart trainingarecomplementaryforspeechrecognition,”inICASSP2021-
+Sensors for Industrial Internet of Things: Challenges, Solutions and 2021IEEEInternationalConferenceonAcoustics,SpeechandSignal
+Applications,pp.287–296,2021. Processing(ICASSP),pp.3030–3034,IEEE,2021.
+[200] C. Z. Yue and S. Ping, “Voice activated smart home design and [220] A.Rajkomar,E.Oren,K.Chen,A.M.Dai,N.Hajaj,M.Hardt,P.J.
+implementation,” in 2017 2nd International Conference on Frontiers Liu, X. Liu, J. Marcus, M. Sun, et al., “Scalable and accurate deep
+ofSensorsTechnologies(ICFST),pp.489–492,IEEE,2017. learningwithelectronichealthrecords,”NPJdigitalmedicine,vol.1,
+[201] B. Canziani and S. MacSween, “Consumer acceptance of voice- no.1,p.18,2018.
+activated smart home devices for product information seeking and [221] Y. Zhang, R. Padman, and N. Patel, “Paving the cowpath: Learning
+onlineordering,”ComputersinHumanBehavior,vol.119,p.106714, andvisualizingclinicalpathwaysfromelectronichealthrecorddata,”
+2021. Journalofbiomedicalinformatics,vol.58,pp.186–197,2015.
+[202] A.Ruslan,A.Jusoh,A.L.Asnawi,M.R.Othman,andN.A.Razak, [222] S.Venkatasubramanian,“Ambulatorymonitoringofmaternalandfetal
+“Developmentofmultilanguagevoicecontrolforsmarthomewithiot,” usingdeepconvolutiongenerativeadversarialnetworkforsmarthealth

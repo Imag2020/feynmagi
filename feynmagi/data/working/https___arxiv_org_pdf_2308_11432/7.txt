@@ -1,0 +1,63 @@
+8 Front. Comput. Sci.,2024,0(0): 1–42
+which creates an indexed corpus for retrieval. [16] allowsforefficientretrievalofmemory records. By
+represents reference plans as embeddings to facili- utilizing natural languages, the memory contents
+tatematchingandreuse. Furthermore,ChatDev[18] become highly comprehensive, enabling more in-
+encodesdialoguehistoryintovectorsforretrieval. formedagentactions.
+• Databases. In this format, memory infor-
+Above, we mainly discuss the internal designs
+mation is stored in databases, allowing the agent
+of the memory module. In the following, we turn
+tomanipulate memoriesefficientlyand comprehen-
+ourfocus tomemoryoperations, whichare usedto
+sively. Forexample,ChatDB[40]usesadatabaseas
+interactwithexternalenvironments.
+asymbolicmemorymodule. Theagentcanutilize
+MemoryOperations: Thememorymoduleplays
+SQL statements to precisely add, delete, and re-
+a critical role in allowing the agent to acquire, ac-
+visethememoryinformation. InDB-GPT[41],the
+cumulate, and utilize significant knowledge by in-
+memorymoduleisconstructedbasedonadatabase.
+teracting with the environment. The interaction
+To more intuitively operate the memory informa-
+between the agent and the environment is accom-
+tion, the agents are fine-tuned to understand and
+plished through three crucial memory operations:
+executeSQLqueries,enablingthemtointeractwith
+memoryreading,memorywriting,andmemoryre-
+databasesusingnaturallanguagedirectly.
+flection. Inthefollowing,weintroducetheseopera-
+•StructuredLists. Inthisformat,memoryin-
+tionsmoreindetail.
+formationisorganizedintolists,andthesemanticof
+• Memory Reading. The objective of mem-
+memorycanbeconveyedinanefficientandconcise
+ory reading is to extract meaningful information
+manner. Forinstance,GITM[16]storesactionlists
+from memory to enhance the agent’s actions. For
+forsub-goalsinahierarchicaltreestructure. Thehi-
+example, using the previously successful actions
+erarchical structureexplicitly capturesthe relation-
+to achieve similar goals [16]. The key of memory
+shipsbetweengoalsandcorrespondingplans. RET-
+readingliesinhowtoextractvaluableinformation
+LLM [42] initially converts natural language sen-
+fromhistoryactions. Usually,therethreecommonly
+tences into triplet phrases, and subsequently stores
+usedcriteria forinformationextraction, thatis, the
+theminmemory.
+recency, relevance, and importance [20]. Memories
+Remark. Hereweonlyshowseveralrepresentative that are more recent, relevant, and important are
+memory formats, but it is important to note that morelikelytobeextracted. Formally,weconclude
+there are many uncovered ones, such as the pro- the following equation from existing literature for
+grammingcodeusedby[38]. Moreover,itshould memoryinformationextraction:
+be emphasized that these formats are not mutually
+exclusive; many models incorporate multiple for-
+m∗ = argminαsrec(q,m)+βsrel(q,m)+γsimp(m),
+m∈M
+matstoconcurrently harness theirrespectivebene- (1)
+fits. A notable example is the memory module of where q is the query, for example, the task that
+GITM [16], which utilizes a key-value list struc- the agent should address or the context in which
+ture. In this structure, the keys are represented by the agent is situated. M is the set of all memories.
+embeddingvectors,whilethevaluesconsistofraw srec(·), srel(·)and simp(·)arethescoringfunctionsfor
+natural languages. The use of embedding vectors measuringtherecency,relevance, andimportance

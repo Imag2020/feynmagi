@@ -1,0 +1,54 @@
+LeiWangetal. ASurveyonLargeLanguageModelbasedAutonomousAgents 21
+pabilitycomesfromthespeciallydesignedmemory communicatenaturallanguageexplanationstoim-
+accumulationandutilizationmechanisms. InVoy- prove the student’s reasoning skills via theory of
+ager [38], the authors equip the agent with a skill mind. Theteachercanalsopersonalizeitsexplana-
+library, and each skill in the library is represented tionsforthestudentandinterveneonlywhenneces-
+by executable codes. In the agent-environment in- sary, based on the expected utility of intervention.
+teractionprocess,thecodesforeachskillwillbeit- In NLSOM [101], different agents communicate
+erativelyrefinedaccordingtotheenvironmentfeed- and collaborate through natural language to solve
+backandtheagentself-verificationresults. Aftera tasksthatasingleagentcannotsolve. Thiscanbe
+periodofexecution,theagentcansuccessfullycom- seenasaformofself-drivenlearning,utilizingthe
+pletedifferenttasksefficientlybyaccessingtheskill exchange of information and knowledge between
+library. InAppAgent[96],theagentisdesignedto multipleagents. However,unlikeothermodelssuch
+interactwithappsinamannerakintohumanusers, asLMA3,SALLM-MS,andCLMTWA,NLSOM
+learningthroughbothautonomousexplorationand allowsfordynamicadjustmentofagentroles,tasks,
+observationofhumandemonstrations. Throughout and relationships based on the task requirements
+thisprocess,itconstructsaknowledgebase,which andfeedbackfromotheragentsortheenvironment.
+serves as a reference for performing intricate tasks
+Remark. Uponcomparingtheaforementionedstrate-
+across various applications on a mobile phone. In
+gies for agent capability acquisition, we can find
+MemPrompt[97],theusersarerequestedtoprovide
+thatthefine-tuningmethodimprovestheagentca-
+feedbackinnaturallanguageregardingtheproblem-
+pability by adjusting model parameters, which can
+solvingintentions oftheagent, andthisfeedbackis
+incorporatea largeamount oftask-specificknowl-
+stored in memory. When the agent encounters simi-
+edge, but is only suitable for open-source LLMs.
+lar tasks, it attempts to retrieve related memories to
+The method without fine-tuning usually enhances
+generatemoresuitableresponses.
+the agent capability based on delicate prompting
+strategies or mechanism engineering. They can
+(4) Self-driven Evolution. In LMA3 [98], the
+be used for both open- and closed-source LLMs.
+agent can autonomously set goals for itself, and
+However,duetothelimitationoftheinputcontext
+gradually improve its capability by exploring the
+windowofLLMs,theycannotincorporatetoomuch
+environmentandreceivingfeedbackfromareward
+taskinformation. Inaddition,thedesigningspaces
+function. Followingthismechanism,theagentcan
+ofthepromptsandmechanismsareextremelylarge,
+acquireknowledgeanddevelopcapabilitiesaccord-
+whichmakesitnoteasytofindoptimalsolutions.
+ing to its own preferences. In SALLM-MS [99],
+byintegratingadvancedlargelanguagemodelslike In the above sections, we have detailed the con-
+GPT-4intoamulti-agentsystem,agentscanadapt structionofLLM-basedagents,wherewefocuson
+andperformcomplextasks,showcasing advanced twoaspectsincludingthearchitecturedesignandca-
+communicationcapabilities,therebyrealizingself- pabilityacquisition. Wepresentthecorrespondence
+driven evolution in their interactions with the en- between existingwork and theabovetaxonomy in
+vironment. In CLMTWA [100], by using a large Table 1. It should be noted that, for the sake of
+languagemodelasateacherandaweakerlanguage integrity, we have alsoincorporated several studies,
+model as a student, the teacher can generate and whichdonotexplicitlymentionLLM-basedagents

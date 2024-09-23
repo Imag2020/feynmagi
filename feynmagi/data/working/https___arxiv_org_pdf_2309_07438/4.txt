@@ -1,0 +1,82 @@
+5
+categorized into CNNs for images, RNNs for times series, methodinCVandNLP.Themainideaofcontrastivelearning
+andgraphneuralnetworks(GNNs)fornetworkeddata.Albeit is to learn a model that makes similar instances closer in the
+achieving encouraging performances, the aforementioned IoT- projected space, and dissimilar instances farther apart in the
+centered approaches remain tailored to specific tasks and projected space.
+domains.Foreachproblemathand,thesoughtlearningmodel
+Adaptation Given a pre-trained FM, application to a spe-
+has to be retrained from scratch. Apparently, this paradigm
+cific task entails model adaptation by incorporating new in-
+is far away from biological intelligence that is capable of
+formation. This can be achieved through task specification as
+transferring knowledge across domains and tasks. Moving
+in text summarization by appending a prompt to the input
+towards AGI, our vision is to leverage the foundation models
+article,oralternativelybyfine-tuningtheFMparametersusing
+(FMs),empoweredbyvastquantitiesoftrainingdata,learning
+domain-specific data [34].
+parameters,andcomputationalresources[34].Theapplication
+ofFMsemergesinthefieldofNLP,andarelateradaptedtothe 2) FM-based AGI for IoT data: The sheer volume of
+computervisioncommunity.Mostrecently,withtheadventof IoT data makes large FM-based AGI possible. Targeting at
+modelslikeChatGPT,FMshavegarneredsignificantattention IoT-oriented FM learning, we identify two unique features
+andhavebeensuccessfullyappliedtodiversedomainssuchas of IoT data, namely: temporal evolution and multi-modality.
+education, geoscience, and agriculture. However, in the realm The former entails fast temporal adaptation with low latency,
+of IoT data analysis, the potential of FMs remains largely the latter necessitates sophisticated technique to incorporate
+unexplored. multiple sources of data. In the subsequent section, we will
+1) Basic components of FM-based learning: Given a pre- delve into the strategies for tackling these two challenges,
+specified FM that is equipped with massive number of pa- drawing insights from established methodologies within the
+rameters, one starts with pre-training the model using a realms of NLP and CV.
+huge number of data samples, and subsequently adapted to
+Continual adaptation with low latency. Data collected
+domain-specifictasksviafine-tuningtechniques.Next,wewill
+by IoT sensors and devices usually vary unpredictably over
+outline the three basic modules involved in the FM-based
+time. This temporal dynamics induces distribution shift, thus
+AGI paradigm, that is, Transformer-based model structure,
+rendering pre-trained FMs inaccurate without carefully de-
+pre-training, and adaptation.
+signed adaptation techniques. Temporal adaptation for FMs
+Transformer The Transformer is undoubtedly the most
+has been investigated in the context of language modelling by
+celebrated architecture underlying most FMs. Unlike CNNs
+reweighting the training data [92], explicitly conditioning a
+and RNNs, it solely relies on the attention mechanism to
+language model on the time period [93], as well as retrieval
+allow for the transfer of weighted representation knowledge
+based approaches (e.g., [94]).
+between various neural units [25]. Specifically, it assigns
+Whiletheaforementionedadaptationschemescanbetrans-
+weights to all the encoded input representations and learns
+ferredtotheIoT-relatedtasks,onehastotakeintoaccountthe
+the most important part of the input data. Numerous attention
+time constraints. How to design adaptation methods with low
+mechanismshavebeendevelopedinlargemodels[87].Today,
+latency and high accuracy is a major challenge facing FM-
+attention-based Transformer is the most popular structure for
+basedAGI.researchforIoT.Inadditiontotheadaptationstep,
+FMsinNLPandCV.InNLP,theTransformercancharacterize
+innovative FM architectures and pre-training tasks are called
+the long-range dependency in the sequential input data. For
+for to better cope with such unknown temporal dynamics in
+example, the GPT-3 [85] is a generative model based on
+IoT data.
+the transformer. The Vision Transformer (ViT) [88] in CV
+is proposed to represent an image to a series of image Accountingformulti-modalitiesIoT-basedinferencetasks
+patches. The number of parameters in the aforementioned usually rely on collected data from multiple sources. In smart
+Transformer-based FMs is large; e.g., 175 and 22 billion for medical diagnosis for example, one could rely on measure-
+GPT-3 and ViT-22B [89], respectively. In spite of these large mentsfrommultiplewearabledevices.Howtocopewithsuch
+scales, Transformers can still be scalable thanks to the model multi-modaility poses another challenge for FM-based AGI in
+parallelization. IoT. Drawing inspirations from vision-language multimodal
+Pre-training Given enormous (unlabelled) data, the FM is FMs, we envision two ways to account for the interaction
+firstlytrainedonpre-trainingtaskstoobtainspecificattributes, among different modalities according when the information
+structure, and feature representations that could later on be fusion acorss multimodalites is conducted. While the first ap-
+adapted to downstream tasks for faster convergence. These proachcombinesextractedfeaturerepresentationsfromdiffer-
+pre-set tasks are tailored to the data modality and application entmodalitiesasinCLIP[55],thesecondmethodalternatively
+domain, and are usually learned in a self-supervised fashion, obtainsfeaturevectorafterfusingtheoriginalmultimodaldata
+which extracts important feature mappings without labelled similar to ViLBERT [95]. Going beyond the aforementioned
+data.Generally,self-supervisedlearning(SSL)approachescan two frameworks, more sophisticated mechanisms are to be
+beclassifiedintogenerative-anddiscriminative-based.Forthe developed toward efficiently and effectively extracting and
+former, variational autoencoder (VAE) [90] and generative combininginformationfromthemultiplemodalities.Moreso-
+adversarial network (GAN) [91] are two representative exam- phisticated mechanisms are to be developed toward efficiently
+ples, which are to reconstruct the data itself. For the latter, andeffectivelyextractingandcombininginformationfromthe
+contrastive learning is a widely adopted discriminative SSL multiple modalities.

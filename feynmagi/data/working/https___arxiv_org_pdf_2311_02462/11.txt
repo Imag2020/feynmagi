@@ -1,0 +1,57 @@
+LevelsofAGI
+Reiman, D., Clancy, E., Zielinski, M., Steinegger, M., Morris, M. R., Cai, C. J., Holbrook, J., Kulka-
+Pacholska, M., Berghammer, T., Bodenstein, S., Silver, rni, C., and Terry, M. The Design Space
+D., Vinyals,O., Senior,A.W., Kavukcuoglu,K.,Kohli, of Generative Models. CoRR, abs/2304.10547,
+P., andHassabis, D. HighlyAccurateProteinStructure 2023. doi: 10.48550/arXiv.2304.10547. URL
+PredictionwithAlphaFold. Nature,596:583–589,2021. https://arxiv.org/abs/2304.10547.
+doi:10.1038/s41586-021-03819-2.
+Mustafa Suleyman and Michael Bhaskar. The Coming
+Kenton,Z.,Everitt,T.,Weidinger,L.,Gabriel,I.,Mikulik, Wave: Technology,Power,andthe21stCentury’sGreat-
+V.,andIrving,G.AlignmentofLanguageAgents.CoRR, estDilemma. Crown,September2023.
+abs/2103.14659,2021.doi:10.48550/arXiv.2103.14659.
+URLhttps://arxiv.org/abs/2103.14659. OpenAI. OpenAI Charter, 2018. URL
+https://openai.com/charter. Accessed
+Kissinger,H., Schmidt,E., andHuttenlocher,D. TheAge October12,2023.
+ofAI. BackBayBooks,November2022.
+OpenAI. OpenAI: About, 2023. URL
+Legg,S.MachineSuperIntelligence.DoctoralDissertation https://openai.com/about. Accessed Oc-
+submittedtotheFacultyofInformaticsoftheUniversity tober12,2023.
+ofLugano,June2008.
+OpenAI. GPT-4TechnicalReport. CoRR,abs/2303.08774,
+Legg, S. Twitter (now ”X”), May 2022. URL 2023. doi: 10.48550/arXiv.2303.08774. URL
+https://twitter.com/ShaneLegg/status/152948h3t1t6p8s1:3/4/4a5r1x2i0v1..org/abs/2303.08774.
+AccessedonOctober12,2023.
+Papakyriakopoulos, O., Watkins, E. A., Winecoff, A.,
+Liang, P., Bommasani, R., Lee, T., and et al. Holistic Jaz´win´ska,K.,andChattopadhyay,T. QualitativeAnal-
+EvaluationofLanguageModels.CoRR,abs/2211.09110, ysis for Human Centered AI. CoRR, abs/2112.03784,
+2023. doi: 10.48550/arXiv.2211.09110. URL 2021. doi: 10.48550/arXiv.2112.03784. URL
+https://arxiv.org/abs/2211.09110. https://arxiv.org/abs/2112.03784.
+Lynch,S.AIBenchmarksHitSaturation.StanfordHuman- Parasuraman,R., Sheridan, T., and Wickens, C. A model
+CenteredArtificialIntelligenceBlog, April2023. URL for types and levels of human interaction with automa-
+https://hai.stanford.edu/news/ai-benchmarktsio-nh.iIEtE-EsaTtraunrsaacttiioonns.onSystems,Man,andCybernet-
+ics-PartA:SystemsandHumans,30(3):286–297,2000.
+Marcus, G. Dear Elon Musk, here are five doi:10.1109/3468.844354.
+things you might want to consider about AGI.
+”Marcus on AI” Substack, May 2022a. URL Pichai,S.andHassabis,D. Introducinggemini:ourlargest
+https://garymarcus.substack.com/p/dear-eloann-dmumsokst-hcaepraeb-leaariem-foidevle,-Dtehciemngbesr?s20=2r3.. URL
+https://blog.google/technology/ai/google-gemini-ai/
+Marcus, G. Twitter (now ”X”), May 2022b. URL
+https://twitter.com/GaryMarcus/status/152P9re4s5sl7e1y,6M28.,1B1o9r3ko6w7s6k8i,. J., and Schneider,W. Cognitive
+AccessedonOctober12,2023. strategies:Goodstrategyuserscoordinatemetacognition
+andknowledge.AnnalsofChildDevelopment,4:89–129,
+McCarthy,J., Minsky,M.,Rochester,N.,andShannon,C. 1987.
+AProposalforTheDartmouthSummerResearchProject
+onArtificialIntelligence. DartmouthWorkshop,1955. PromptBase. PromptBase: Prompt Marketplace. URL
+https://promptbase.com/.accessedonOctober
+Mitchell, M., Wu, S., Zaldivar, A., Barnes, P., Vasser- 20,2023.
+man, L., Hutchinson, B., Spitzer, E., Raji, I. D.,
+and Gebru, T. Model Cards for Model Report- Raji, I. D., Bender, E. M., Paullada, A., Denton, E.,
+ing. In Proceedings of the Conference on Fair- and Hanna, A. AI and the Everything in the Whole
+ness, Accountability, and Transparency. ACM, Wide World Benchmark. CoRR, abs/2111.15366,
+jan 2019. doi: 10.1145/3287560.3287596. URL 2021. doi: 10.48550/arXiv.2111.15366. URL
+https://doi.org/10.1145%2F3287560.3287596. https://arxiv.org/abs/2111.15366.
+Morris, M. R. Scientists’ Perspectives on the Po- Ramesh, A., Dhariwal, P., Nichol, A., Chu, C., and
+tential for Generative AI in their Fields. CoRR, Chen, M. Hierarchical Text-Conditional Image
+abs/2304.01420,2023.doi:10.48550/arXiv.2304.01420. Generation with CLIP Latents. April 2022. URL
+URLhttps://arxiv.org/abs/2304.01420. https://cdn.openai.com/papers/dall-e-2.pdf.
+12

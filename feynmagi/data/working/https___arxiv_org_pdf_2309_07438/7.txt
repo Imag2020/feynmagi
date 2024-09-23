@@ -1,0 +1,88 @@
+8
+B. Smart Homes diverse user commands and queries, catering to a global
+user base in smart homes. Understanding various languages
+Advancements in electronics, information communication
+helps AGI systems recognize cultural nuances, which can
+technologies,mobileapplications, autonomoussystems,virtu-
+be crucial for personalized and context-aware interactions in
+alization, and cloud computing have contributed to the evolu-
+smart homes.
+tionofthesmarthomeconcept.Asmarthomeischaracterized
+The Whisper model [216] has revolutionized speech recog-
+as a living space outfitted with devices that possess com-
+nition, delivering exceptional accuracy across diverse speech
+putational capabilities and communication technologies. This
+tasks and challenging conditions. Through minimal data pre-
+setupseamlesslyintegratesdiverseIoTdevicesandsensors,AI
+processing and weak supervision, it achieves state-of-the-art
+algorithms, and network connectivity. The purpose is to facil-
+results, excelling in multilingual recognition, translation, and
+itate smooth communication and control of various systems
+language identification. Its accuracy in understanding spoken
+and appliances within the household. Through collaborative
+language can enable more intuitive and natural interactions
+interaction, these IoT devices ensure convenience, comfort,
+between users and their smart home systems. This includes
+security, energy efficiency, and an improved quality of life for
+controlling devices, requesting information, and even having
+residents. Smart homes offer remote user control, enabling a
+context-aware conversations. This level of communication
+wide range of tasks, such as voice interaction, setting alarms,
+bridges the gap between human language and technology,
+managing to-do lists, and controlling other smart devices like
+bringing smart home interactions closer to human-like inter-
+locks, light bulbs, thermostats, and more [182], [183], [184].
+actions, a significant step towards AGI.
+A smart home is characterized by its automation capa-
+Recent strides in text-to-speech synthesis have led to inno-
+bilities [185], [186], [187], [188], allowing tasks such as
+vative models like VALL-E [217]. This pioneering approach
+adjusting lighting, temperature, and blinds to be executed
+capitalizes on abundant semi-supervised data to train a versa-
+based on occupants’ preferences or environmental conditions.
+tile text-to-speech system, capable of producing personalized,
+The interconnected IoT devices communicate through a cen-
+high-qualityspeech.Itoffersdiverseoutputswhilemaintaining
+tralized hub or cloud-based platform, while remote access
+the acoustic setting and speaker’s emotions related to the
+and control enable homeowners to manage devices from afar
+prompt. Incorporating VALL-E into AGI systems for smart
+using smartphone apps or web interfaces [189], [190], [191],
+homeselevatesthequalityofcommunication,personalization,
+[192].Energyefficiency[193],[194],[195],[196]ispromoted
+and adaptability. These advancements bring us closer to the
+through smart thermostats, lighting, and energy monitoring
+vision of AGI-powered smart homes that seamlessly interact
+systems to reduce consumption and utility bills. Enhanced
+with users in ways that are natural, tailored, and responsive,
+securityandsurveillancefeatures[10],[197],[198],[199],like
+fostering an environment that aligns with users’ preferences
+cameras, motion sensors, and smart locks, bolster safety and
+and needs.
+real-time monitoring. Voice-activated virtual assistants [200],
+[201], [202], such as Amazon Alexa or Google Assistant,
+facilitate device control via voice commands. Smart homes C. Smart Healthcare
+also adapt to occupants’ preferences, delivering personalized Incorporating AGI into the healthcare sector presents a
+experiences[203],[204],[205],[206]andautomatingroutines. vast potential for optimizing patient care [75], [78], refining
+Moreover, certain smart homes incorporate health monitoring wearable device monitoring, and more. With the continued
+devices for tracking vital signs, activity levels, and sleep development of AGI, various aspects of healthcare have wit-
+patterns to promote wellness and safety for residents [207], nessed notable advancements. Research findings increasingly
+[208], [209], [210]. underscore AGI’s capacity to usher in a transformative era for
+Large language models built upon the Transformer archi- intelligent healthcare solutions.
+tecture, such as BERT [33], GPT [211], XLNet [212], and AGI has demonstrated its potential in enhancing patient
+T5 [213] have introduce both opportunities and challenges care through the prediction of disease progression, identifica-
+towards AGI-integrated smart home. To address challenges tion of potential complications, and optimization of treatment
+includingthemodels’dependenceondiscretetokensforinput, strategies [75]. Leveraging electronic health record (EHR)
+or domain mismatch problems [214], dedicated frameworks data, machine learning models can forecast patient outcomes,
+have been developed based on large language models. Ad- furnishinginsightscriticalforpersonalizedtreatmentplanning.
+vances in technologies like XLS-R [215], Whisper [216], Through EHR analysis, AGI can construct comprehensive
+and DALL-E [217] contribute to the advancement of AGI in patient profiles, amalgamating medical history and current
+smart homes by enhancing the capabilities of AI systems in health conditions. Rajkomar et al. [220] demonstrated the
+understanding, communicating, and adapting to the dynamic high accuracy of outcome prediction through machine learn-
+and complex environments of modern living spaces. ing using EHR data, culminating in enhanced patient care
+XLS-R is a large-scale model for cross-lingual speech rep- strategies. Furthermore, AGI’s pivotal role lies in furnish-
+resentationlearningbasedonwav2vec2.0[218],[219],where ing tailored treatment recommendations that align with each
+cross-lingual transfer is employed to enhance representations patient’s distinct characteristics and requirements. Zhang et
+for low-resource languages using the knowledge from high- al. [221] highlighted the effectiveness of machine learning-
+resource languages. XLS-R’s ability to understand and pro- driven recommendation systems in providing personalized
+cess multiple languages enables AGI systems to comprehend treatment plans. More recently, Venkatasubramanian et al.

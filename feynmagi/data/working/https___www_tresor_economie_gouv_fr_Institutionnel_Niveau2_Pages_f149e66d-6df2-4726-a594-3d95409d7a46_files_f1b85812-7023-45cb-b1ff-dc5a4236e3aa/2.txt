@@ -1,0 +1,45 @@
+Disclaimer: This translation is a working translation only and is not legally binding.
+1. Why are foreign direct investments screened in France?
+Foreign direct investments in business activities in France which, even if only occasionally,
+contribute to the exercise of public authority or are likely to jeopardise national interests are
+subject to prior approval from the Minister for the Economy in order to ensure the protection
+of public order, public security and national defence interests (Article L.151-3 of the
+Monetary and Financial Code). Because this goes against the principle of freedom to invest,
+the regime is strictly governed by law and regulation.
+2. When are foreign direct investments screened?
+To assess whether a foreign direct investment in France is subject to screening, the Minister
+for the Economy considers factors relating to the involvement of foreign investors (Article
+R.151-1 of the Monetary and Financial Code), the nature of the transaction and degree of
+resulting control over the target entity (Article R.151-2 of the Monetary and Financial Code),
+and the degree of sensitivity of the target entity’s activities (Article R.151-3 of the Monetary
+and Financial Code). Specifically, the following three cumulative conditions must be met:
+(i) A foreign entity is present in the ownership chain of the direct acquirer. Non-
+French investors (whether or not European) and French investors domiciled outside
+of France for tax purposes are deemed foreign investors under the foreign direct
+investment screening regulation in France. The investor’s nationality is determined by
+considering the entire ownership chain of the direct acquirer. If any link in the chain is
+foreign, the investor is deemed foreign.
+(ii) The nature of the transaction is such that an investor (i) acquires control (as
+defined in Article L. 233-3 of the French Commercial Code) of a French legal entity,
+(ii) acquires all or part of a business line from a French legal entity, or (iii) crosses the
+25% threshold of voting rights in a French legal entity (this threshold was temporarily
+lowered, until 31 December 2023, to 10% for French companies whose shares are
+listed on a regulated market). Note that the third scenario only applies to investors
+from outside the European Union or European Economic Area.
+(iii) Sensitive activities are carried out by the French target company. Only
+investments that are (i) made in one of the sectors specifically listed by the regulation
+and (ii) likely to jeopardise public order, public security or national defence interests
+are subject to screening. There are three categories of sectors:
+1. Inherently sensitive activities that fall mainly within the defence and security
+sectors (Article R.151-3, paragraph I of the Monetary and Financial Code)
+2. Activities relating to infrastructure, goods and services that are essential
+to safeguard public order and public security, including, but not limited to,
+the integrity, security and continuity of energy and water supplies,
+transportation networks and services, public health, and food security (Article
+R.151-3, paragraph II of the Monetary and Financial Code)
+3. Research and development activities that relate to critical technologies
+listed by Order of 31 December 2019 and to dual-use items and
+technologies carried out in the sectors mentioned above (Article R.151-3,
+paragraph III of the Monetary and Financial Code)
+3
+December 2022

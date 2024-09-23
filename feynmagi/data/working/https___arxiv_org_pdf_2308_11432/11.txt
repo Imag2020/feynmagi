@@ -1,0 +1,39 @@
+12 Front. Comput. Sci.,2024,0(0): 1–42
+CoT，Zero-shotCot ReWOO，HuggingGPT CoT-SC ToT，LMZSP，RAP
+Prompts Prompts Prompts Prompts
+LLM LLM LLM LLM
+Step-1
+Reasoning Step-1 Reasoning Step-1 Step-1 Step-1 Step-1
+Reasoning Step-2 LLM Step-2 Step-2 Step-2
+Reasoning Step-2 Step-2 Step-2 Step-2
+Reasoning Step-n Step-n Step-n Step-n
+LLM
+Single-Path Multi-Path
+Reasoning Reasoning Step-n Reasoning Step-3 Step-3 Step-3 Step-3
+Fig.3 Comparisonbetweenthestrategiesofsingle-pathandmulti-pathreasoning. LMZSPisthemodelproposedin[54].
+ronment. Forinstance,itcould bethegame’s task tions. This simulator is adept at discerning the
+completion signals or the observations made after outcomesandstatetransitionssubsequenttoagent
+the agent takes an action. In specific, ReAct [59] actions, facilitating SayPlan’s iterative recalibra-
+proposes constructing prompts using thought-act- tion of its strategies until a viable plan is ascer-
+observationtriplets. Thethoughtcomponentaims tained. InDEPS[33],theauthorsarguethatsolely
+to facilitate high-level reasoning and planning for providing information about the completion of a
+guiding agent behaviors. The act represents a spe- taskisofteninadequateforcorrectingplanninger-
+cific action taken by the agent. The observation rors. Therefore, they propose informing the agent
+correspondstotheoutcomeoftheaction,acquired about the detail reasons for task failure, allowing
+through external feedback, such as search engine them to more effectively revise their plans. LLM-
+results. Thenext thoughtis influenced bythe previ- Planner[60]introducesagroundedre-planningal-
+ous observations, which makes the generated plans gorithmthatdynamicallyupdatesplans generated
+more adaptive to the environment. Voyager [38] byLLMswhenencounteringobjectmismatchesand
+makesplansbyincorporatingthreetypesofenviron- unattainable plans during task completion. Inner
+ment feedback including the intermediate progress Monologue [61] provides three types of feedback
+ofprogramexecution, theexecutionerrorand self- to the agent after it takes actions: (1) whether the
+verificationresults. Thesesignalscanhelptheagent task is successfully completed, (2) passive scene
+tomakebetterplansforthenextaction. Similarto descriptions,and(3)activescenedescriptions. The
+Voyager,Ghost[16]alsoincorporatesfeedbackinto former two are generated from the environments,
+the reasoning and action taking processes. This whichmakestheagentactionsmorereasonable.
+feedback encompasses the environment states as
+wellasthesuccessandfailureinformationforeach • Human Feedback. In addition to obtaining
+executed action. SayPlan [31] leverages environ- feedback from the environment, directly interact-
+mental feedback derived from a scene graph sim- ing withhumans isalso averyintuitive strategy to
+ulator to validate and refine its strategic formula- enhancetheagentplanningcapability. Thehuman
+feedback is a subjective signal. It can effectively

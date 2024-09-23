@@ -1,0 +1,55 @@
+LeiWangetal. ASurveyonLargeLanguageModelbasedAutonomousAgents 29
+Table3 Forsubjectiveevaluation,weuse①and②torepresenthumanannotationandtheTuringtest,respectively. For
+objectiveevaluation,weuse①,②,③,and④torepresentenvironmentsimulation,socialevaluation,multi-taskevaluation,
+andsoftwaretesting,respectively. “✓”indicatesthattheevaluationsarebasedonbenchmarks.
+Model Subjective Objective Benchmark Time
+WebShop[85] - ①③ ✓ 07/2022
+SocialSimulacra[79] ① ② - 08/2022
+TE[102] - ② - 08/2022
+LIBRO[162] - ④ - 09/2022
+ReAct[59] - ① ✓ 10/2022
+OutofOne,Many[29] ② ②③ - 02/2023
+DEPS[33] - ① ✓ 02/2023
+Jaliletal.[163] - ④ - 02/2023
+Reflexion[12] - ①③ - 03/2023
+IGLU[138] - ① ✓ 04/2023
+GenerativeAgents[20] ①② - - 04/2023
+ToolBench[153] - ③ ✓ 04/2023
+GITM[16] - ① ✓ 05/2023
+Two-Failures[164] - ③ - 05/2023
+Voyager[38] - ① ✓ 05/2023
+SocKET[165] - ②③ ✓ 05/2023
+MobileEnv[166] - ①③ ✓ 05/2023
+Clembench[167] - ①③ ✓ 05/2023
+Dialop[168] - ② ✓ 06/2023
+Feldtetal.[169] - ④ - 06/2023
+CO-LLM[22] ① ① - 07/2023
+Tachikuma[170] ① ① ✓ 07/2023
+WebArena[171] - ① ✓ 07/2023
+RocoBench[93] - ①②③ - 07/2023
+AgentSims[34] - ② - 08/2023
+AgentBench[172] - ③ ✓ 08/2023
+BOLAA[173] - ①③④ ✓ 08/2023
+Gentopia[174] - ③ ✓ 08/2023
+EmotionBench[160] ① - ✓ 08/2023
+PTB[125] - ④ - 08/2023
+ationmetrics. (1)Tasksuccessmetrics: Thesemet- used to evaluate the agent effectiveness, these met-
+ricsmeasurehowwellanagentcancompletetasks rics aim to assess the efficiency of agent. Com-
+and achieve goals. Common metrics include suc- monly considered metrics encompass the length
+cess rate [12,22,57,59], reward/score [22,59,138], of planning [57], the cost associated with devel-
+coverage [16], and accuracy [18,40,102]. Higher opment [18], the speed of inference [16,38], and
+valuesindicategreatertaskcompletionability. (2) numberofclarificationdialogues[138].
+Humansimilaritymetrics: Thesemetricsquantify Protocols: Inadditiontotheevaluationmetrics,
+the degree to which the agent behaviors closely
+another important aspect for objective evaluation
+resembles that of humans. Typical examples in-
+is how to leverage these metrics. In the previous
+clude trajectory/location accuracy [38,164], dia-
+work,wecanidentifythefollowingcommonlyused
+loguesimilarities[79,102],andmimicryofhuman evaluationprotocols: (1)Real-worldsimulation: In
+responses[29,102]. Higher similaritysuggestsbet-
+thismethod,theagentsareevaluatedwithinimmer-
+ter human simulation performance. (3) Efficiency
+siveenvironmentslike gamesandinteractivesimu-
+metrics: Incontrasttotheaforementionedmetrics
+lators. Theagentsarerequiredtoperformtasks au-

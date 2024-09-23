@@ -1,0 +1,69 @@
+LevelsofAGI
+Table2.MorecapableAIsystemsunlocknewhuman-AIinteractionparadigms. Thechoiceofappropriateautonomylevelneednotbe
+themaximumachievablegiventhecapabilitiesoftheunderlyingmodel.Oneconsiderationinthechoiceofautonomylevelareresulting
+risks.Thistable’sexamplesillustratetheimportanceofcarefullyconsideringhuman-AIinteractiondesigndecisions.
+AutonomyLevel ExampleSystems Unlocking ExampleRisks
+AGILevel(s) Introduced
+AutonomyLevel0: Analogue approaches (e.g., sketching NoAI n/a(statusquorisks)
+NoAI withpencilonpaper)
+humandoeseverything
+Non-AI digital workflows (e.g., typ-
+ing in a text editor; drawing in a paint
+program)
+AutonomyLevel1: Information-seeking with the aid of a Possible: de-skilling
+AIasaTool searchengine EmergingNarrowAI (e.g.,over-reliance)
+human fully controls task
+and uses AI to automate Revising writing with the aid of a Likely: disruptionof
+mundanesub-tasks grammar-checkingprogram CompetentNarrowAI established
+industries
+Readingasignwitha
+machinetranslationapp
+AutonomyLevel2: Relyingonalanguagemodeltosumma- Possible: over-trust
+AIasaConsultant rizeasetofdocuments CompetentNarrowAI
+AItakesona radicalization
+substantive role, but only Accelerating computer programming Likely:
+wheninvokedbyahuman withacode-generatingmodel ExpertNarrowAI; targeted
+EmergingAGI manipulation
+Consuming most entertainment via
+asophisticatedrecommendersystem
+AutonomyLevel3: Training as a chess player through Possible: anthropomorphization
+AIasa interactions with and analysis of a EmergingAGI (e.g.,parasocial
+Collaborator chess-playingAI relationships)
+co-equal human-AI collab- Likely:
+oration;interactivecoordi- Entertainment via social interactions ExpertNarrowAI; rapidsocietalchange
+nationofgoals&tasks withAI-generatedpersonalities CompetentAGI
+AutonomyLevel4: UsinganAIsystemtoadvancescientific Possible: societal-scaleennui
+AIasanExpert discovery(e.g.,protein-folding) VirtuosoNarrowAI
+AI drives interaction; hu- masslabor
+man provides guidance & Likely: displacement
+feedback or performs sub- ExpertAGI
+tasks decline of human ex-
+ceptionalism
+AutonomyLevel5: AutonomousAI-powered Likely: misalignment
+AIasanAgent personalassistants VirtuosoAGI;
+fullyautonomousAI (notyetunlocked) ASI concentration
+ofpower
+Considering AGI systems in the context of use by people 7. Conclusion
+allows us to reflect on the interplay between advances in
+Artificial General Intelligence is a conceptof both aspira-
+models and advances in human-AI interaction paradigms.
+tionalandpracticalconsequences.Weanalyzedninedefini-
+The role of model building research can be seen as help-
+tionsofAGI,identifyingstrengthsandweaknesses. Based
+ing systems’ capabilities progress along the path to AGI
+onthisanalysis,weintroducedsixprinciplesforaclear,op-
+in their performance and generality, such that an AI sys-
+erationalizabledefinitionofAGI:focusingoncapabilities,
+tem’sabilitieswilloverlapanincreasinglylargeportionof
+notprocesses;focusingongeneralityandperformance;fo-
+humanabilities. Conversely,theroleofhuman-AIinterac-
+cusing on cognitive and metacognitive (rather than phys-
+tion research can be viewed as ensuring new AI systems
+ical) tasks; focusing on potential rather than deployment;
+are usable by and useful to people such that AI systems
+focusing on ecologicalvalidity for benchmarking; and fo-
+successfullyextendpeople’scapabilities(i.e.,“intelligence
+cusingonthepathtoAGIratherthanasingleendpoint.
+augmentation”(Brynjolfsson,2022;Englebart,1962)).
+With these principles in mind, we introduced our Levels
+9

@@ -1,0 +1,55 @@
+LeiWangetal. ASurveyonLargeLanguageModelbasedAutonomousAgents 31
+bilities, including their reasoning, safety, and effi- tice,theyshouldbecombinedtocomprehensively
+ciency, when utilizing tools to complete complex evaluatetheagents. Wesummarizethecorrespon-
+tasks. RocoBench [93] is a benchmark with six dencebetween thepreviouswork andtheseevalua-
+tasks evaluating multi-agent collaboration across tionstrategiesinTable3.
+diverse scenarios, emphasizing communication and
+coordination strategies to assess adaptability and
+5 Related Surveys
+generalization in cooperative robotics. Emotion-
+Bench [160] evaluates the emotion appraisal abil-
+With the vigorous development of large language
+ity of LLMs, i.e., how their feelings change when
+models, a variety of comprehensive surveys have
+presented with specific situations. It collects over
+emerged, providing detailed insights into various
+400 situations that elicit eight negative emotions
+aspects. [176] extensively introduces the back-
+and measures the emotional states of LLMs and
+ground, main findings, and mainstream technolo-
+human subjectsusing self-reportscales. PEB [125]
+giesofLLMs,encompassingavastarrayofexisting
+is a benchmark tailored for assessing LLM-based
+works. On the other hand, [177] primarily focus
+agentsinpenetrationtestingscenarios,comprising
+ontheapplicationsofLLMsinvariousdownstream
+13 diverse targets from leading platforms. It of-
+tasks and the challenges associated with their de-
+fersastructuredevaluationacrossvaryingdifficulty
+ployment. AligningLLMswithhumanintelligence
+levels, reflecting real-world challenges for agents.
+is an active area of research to address concerns
+ClemBench[167] containsfiveDialogueGamesto
+suchasbiasesandillusions. [178]havecompiled
+assess LLMs’ ability as a player. E2E [175] is an
+existingtechniques for humanalignment, including
+end-to-endbenchmarkfortestingtheaccuracyand
+data collection and model training methodologies.
+usefulnessofchatbots.
+Reasoning is a crucial aspect of intelligence, in-
+Remark. Objective evaluation facilitates the quanti- fluencing decision-making, problem-solving, and
+tativeanalysis ofcapabilitiesin LLM-basedagents other cognitive abilities. [179] presents the cur-
+through a variety of metrics. While current tech- rent state of research on LLMs’ reasoning abili-
+niquescannotperfectlymeasurealltypesofagent ties,exploringapproachestoimproveandevaluate
+capabilities, objective evaluation provides essen- theirreasoningskills. [180]proposethatlanguage
+tial insights that complement subjective assessment. modelscanbeenhancedwithreasoningcapabilities
+Continuedadvancementsinbenchmarksandmethod- and the ability to utilize tools, termed Augmented
+ologies for objective evaluation will enhance the Language Models (ALMs). They conduct a com-
+development and understanding of LLM-based au- prehensive review of the latest advancements in
+tonomousagentsfurther. ALMs. Astheutilizationoflarge-scalemodelsbe-
+In the above sections, we introduce both sub- comesmoreprevalent,evaluatingtheirperformance
+jectiveandobjectivestrategiesforLLM-basedau- is increasingly critical. [181] shed light on eval-
+tonomous agentsevaluation. Theevaluationof the uating LLMs, addressing what to evaluate, where
+agents play significant roles in this domain. How- to evaluate, and how to assess their performance
+ever,bothsubjectiveandobjectiveevaluationhave in downstream tasks and societal impact. [182]
+theirownstrengthsandweakness. Maybe,inprac- also discusses the capabilities and limitations of

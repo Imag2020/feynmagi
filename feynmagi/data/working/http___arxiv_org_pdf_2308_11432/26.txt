@@ -1,0 +1,50 @@
+LeiWangetal. ASurveyonLargeLanguageModelbasedAutonomousAgents 27
+municationandcollaborationamongmultipleagent sionallyprovidingerroneousanswers,leadingtoin-
+roles. Based on LangChain, XLang [147] comes correctconclusions,experimentalfailures,oreven
+withacomprehensivesetoftools,acompleteuser posing risks to human safety in hazardous exper-
+interface,andsupportthreedifferentagentscenar- iments. Therefore, during experimentation, users
+ios,namelydataprocessing,plugin usage,andweb mustpossessthenecessaryexpertiseandknowledge
+agent. AutoGPT [81] is an agent that is fully au- toexerciseappropriatecaution. Ontheotherhand,
+tomated. It sets one or more goals, breaks them LLM-based agents could potentially be exploited
+downintocorrespondingtasks,andcyclesthrough formaliciouspurposes,suchasthedevelopmentof
+thetasksuntilthegoalisachieved. WorkGPT[150] chemical weapons, necessitating the implementa-
+is an agent framework similar to AutoGPT and tionofsecuritymeasures,suchashumanalignment,
+LangChain. By providing it with an instruction toensureresponsibleandethicaluse.
+andasetofAPIs,itengagesinback-and-forthcon- Insummary,intheabovesections,weintroduce
+versationswithAIuntiltheinstructioniscompleted. thetypicalapplicationsofLLM-basedautonomous
+GPT-Engineer [128], SmolModels [126] and De- agents in three important domains. To facilitate
+moGPT [127] are open-source projects that focus a clearer understanding, we have summarized the
+onautomatingcodegenerationthroughpromptsto relationship betweenprevious studies andtheir re-
+completedevelopmenttasks. AGiXT[146]isady- spectiveapplicationsinTable2.
+namicAIautomationplatformdesignedtoorches-
+trateefficientAIcommandmanagementandtaskex- 4 LLM-basedAutonomousAgentEval-
+ecutionacrossmanyproviders. AgentVerse[19]is uation
+a versatile framework that facilitates researchers in Similar to LLMs themselves, evaluating the effec-
+creatingcustomizedLLM-basedagentsimulations
+tivenessofLLM-basedautonomousagentsisachal-
+efficiently. GPTResearcher[152]isanexperimen-
+lenging task. This section outlines two prevalent
+tal application that leverages large language mod-
+approachestoevaluation: subjectiveandobjective
+els to efficiently develop research questions, trig-
+methods. For a comprehensive overview, please
+ger web crawls to gather information, summarize
+refertotherightportionofFigure5.
+sources,andaggregatesummaries. BMTools[153]
+is an open-source repository that extends LLMs 4.1 SubjectiveEvaluation
+withtoolsandprovidesaplatformforcommunity-
+Subjectiveevaluationmeasurestheagentcapabili-
+driventoolbuildingandsharing. Itsupportsvarious
+tiesbasedonhumanjudgements[20,22,29,79,158].
+typesoftools,enablessimultaneoustaskexecution
+It is suitable for the scenarios where there are no
+using multiple tools, and offers a simple interface
+evaluationdatasetsoritisveryhardtodesignquan-
+forloadingplugins viaURLs,fostering easydevel-
+titativemetrics,forexample,evaluatingtheagent’s
+opmentandcontributiontotheBMToolsecosystem.
+intelligence or user-friendliness. In the following,
+Remark. Utilization of LLM-based agents in sup- we present two commonly used strategies for sub-
+portingaboveapplicationsmayalsoentailrisksand jectiveevaluation.
+challenges. On one hand, LLMs themselves may HumanAnnotation: Thisevaluationmethod in-
+be susceptible to illusions and other issues, occa- volveshumanevaluatorsdirectlyscoringorranking

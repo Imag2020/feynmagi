@@ -1,0 +1,62 @@
+LeiWangetal. ASurveyonLargeLanguageModelbasedAutonomousAgents 5
+leverages ChatGPT to generate more agent pro- 2.1.2 MemoryModule
+files based on the seed information. The LLM-
+generationmethodcansavesignificanttimewhen The memory module plays a very important role
+thenumberofagentsislarge,butitmaylackprecise in the agent architecture design. It stores informa-
+controloverthegeneratedprofiles. tion perceived from the environment and leverages
+the recorded memories to facilitate future actions.
+Dataset Alignment Method: in this method, the
+Thememorymodulecanhelptheagenttoaccumu-
+agentprofilesareobtainedfromreal-worlddatasets.
+lateexperiences,self-evolve,andbehaveinamore
+Typically, one can first organize the information
+consistent,reasonable,andeffectivemanner. This
+about real humans in the datasets into natural lan-
+sectionprovidesacomprehensiveoverviewofthe
+guage prompts, and then leverage it to profile the
+memorymodule,focusingonitsstructures,formats,
+agents. For instance, in [29], the authors assign
+andoperations.
+roles to GPT-3 based on the demographic back-
+grounds (such as race/ethnicity, gender, age, and Memory Structures: LLM-based autonomous
+state of residence) of participants in the Ameri- agents usually incorporate principles and mecha-
+can National Election Studies (ANES). They sub- nisms derived from cognitive science research on
+sequently investigate whether GPT-3 can produce human memory processes. Human memory fol-
+similarresultstothoseofrealhumans. Thedataset lows a general progression from sensory memory
+alignment method accurately captures theattributes that registers perceptual inputs, to short-term mem-
+of the real population, thereby making the agent orythatmaintainsinformationtransiently,tolong-
+behaviors more meaningful and reflective of real- term memory that consolidates information over
+worldscenarios. extendedperiods. Whendesigningtheagentmem-
+ory structures, researchers take inspiration from
+Remark. While most of the previous work lever-
+theseaspectsofhumanmemory. Inspecific,short-
+agetheaboveprofilegenerationstrategiesindepen-
+term memory is analogousto the input information
+dently, we argue that combining them may yield
+withinthecontextwindowconstrainedbythetrans-
+additionalbenefits. Forexample,inordertopredict
+former architecture. Long-term memoryresembles
+socialdevelopmentsviaagentsimulation,onecan
+the external vector storage that agents can rapidly
+leverage real-world datasets to profile a subset of
+queryandretrievefromasneeded. Inthefollowing,
+theagents,therebyaccuratelyreflectingthecurrent
+we introduce two commonly used memory struc-
+social status. Subsequently, roles that do not exist
+turesbasedontheshort-andlong-termmemories.
+intherealworldbutmayemergeinthefuturecan
+• Unified Memory. This structure only simu-
+bemanuallyassignedtotheotheragents,enabling
+latesthehumanshot-termmemory,whichisusually
+the prediction of future social development. Be-
+realizedbyin-contextlearning,andthememoryin-
+yond this example, one can also flexibly combine
+formationisdirectlywrittenintotheprompts. For
+the other strategies. The profile module serves as
+example, RLP[30] isaconversationagent, which
+thefoundationforagentdesign,exertingsignificant
+maintains internal states for the speaker and lis-
+influence onthe agent memorization,planning, and
+tener. During each round of conversation, these
+actionprocedures.
+states serve as LLM prompts, functioning as the

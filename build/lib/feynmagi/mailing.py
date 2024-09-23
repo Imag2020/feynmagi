@@ -18,7 +18,7 @@ def load_config():
         print(f"Error opening mail config json : {e}")
         return None
         
-def send_email(to_email, subject, body, attachment_path=None):
+def send_email(to_email, subject, body, attachment=None):
     config = load_config()
     if config is None:
         return "Mail not sent, chack config json"
@@ -34,12 +34,12 @@ def send_email(to_email, subject, body, attachment_path=None):
     message.attach(part)
 
     # Pièce jointe (optionnelle)
-    if attachment_path:
-        with open(attachment_path, 'rb') as attachment:
+    if attachment:
+        with open(attachment, 'rb') as attachmentf:
             part = MIMEBase('application', 'octet-stream')
-            part.set_payload(attachment.read())
+            part.set_payload(attachmentf.read())
             encoders.encode_base64(part)
-            part.add_header('Content-Disposition', f'attachment; filename="{attachment_path}"')
+            part.add_header('Content-Disposition', f'attachment; filename="{attachment}"')
             message.attach(part)
 
     # Envoi de l'email
@@ -49,6 +49,6 @@ def send_email(to_email, subject, body, attachment_path=None):
         text = message.as_string()
         server.sendmail(message['From'], message['To'], message.as_string())
         server.quit()
-        print("Email envoyé avec succès!")
+        return "Email sent succefully"
     except Exception as e:
-        print(f"Une erreur est survenue: {e}")
+        return f"An error occured sending mail {e}"

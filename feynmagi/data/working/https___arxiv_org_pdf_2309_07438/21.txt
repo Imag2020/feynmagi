@@ -1,0 +1,104 @@
+22
+[52] C.Saharia,J.Ho,W.Chan,T.Salimans,D.J.Fleet,andM.Norouzi, [74] M. Al-Rawashdeh, P. Keikhosrokiani, B. Belaton, M. Alawida, and
+“Image super-resolution via iterative refinement,” IEEE Transactions A.Zwiri,“Iotadoptionandapplicationforsmarthealthcare:asystem-
+onPatternAnalysisandMachineIntelligence,2022. aticreview,”Sensors,vol.22,no.14,p.5377,2022.
+[53] J.Zhang,Z.Zhou,G.Mai,L.Mu,M.Hu,andS.Li,“Text2seg:Remote [75] X.Li,L.Zhang,Z.Wu,Z.Liu,L.Zhao,Y.Yuan,J.Liu,G.Li,D.Zhu,
+sensingimagesemanticsegmentationviatext-guidedvisualfoundation P. Yan, et al., “Artificial general intelligence for medical imaging,”
+models,”2023. arXivpreprintarXiv:2306.05480,2023.
+[54] M.A.Mazurowski,H.Dong,H.Gu,J.Yang,N.Konz,andY.Zhang, [76] J. Holmes, Z. Liu, L. Zhang, Y. Ding, T. T. Sio, L. A. McGee, J. B.
+“Segmentanythingmodelformedicalimageanalysis:anexperimental Ashman, X. Li, T. Liu, J. Shen, et al., “Evaluating large language
+study,”arXivpreprintarXiv:2304.10517,2023. models on a highly-specialized topic, radiation oncology physics,”
+[55] A.Radford,J.W.Kim,C.Hallacy,A.Ramesh,G.Goh,S.Agarwal, arXivpreprintarXiv:2304.01938,2023.
+G.Sastry,A.Askell,P.Mishkin,J.Clark,etal.,“Learningtransferable [77] Z.Liu,M.He,Z.Jiang,Z.Wu,H.Dai,L.Zhang,S.Luo,T.Han,X.Li,
+visual models from natural language supervision,” in International X. Jiang, et al., “Survey on natural language processing in medical
+conferenceonmachinelearning,pp.8748–8763,PMLR,2021. imageanalysis.,”Zhongnandaxuexuebao.Yixueban=Journalof
+[56] N. Fei, Z. Lu, Y. Gao, G. Yang, Y. Huo, J. Wen, H. Lu, R. Song, Central South University. Medical Sciences, vol. 47, no. 8, pp. 981–
+X.Gao,T.Xiang,etal.,“Towardsartificialgeneralintelligenceviaa 993,2022.
+multimodalfoundationmodel,”NatureCommunications,vol.13,no.1, [78] Y. Liu, T. Han, S. Ma, J. Zhang, Y. Yang, J. Tian, H. He, A. Li,
+p.3094,2022. M. He, Z. Liu, et al., “Summary of chatgpt/gpt-4 research and per-
+[57] J. Li, D. Li, C. Xiong, and S. Hoi, “BLIP: Bootstrapping language- spectivetowardsthefutureoflargelanguagemodels,”arXivpreprint
+imagepre-trainingforunifiedvision-languageunderstandingandgen- arXiv:2304.01852,2023.
+eration,”inInternationalConferenceonMachineLearning,pp.12888– [79] J.Bharadiya,“Artificialintelligenceintransportationsystemsacritical
+12900,PMLR,2022. review,”AmericanJournalofComputingandEngineering,vol.6,no.1,
+[58] OpenAI, “Gpt-4 technical report,” arXiv preprint arXiv:2303.08774, pp.34–45,2023.
+2023. [80] W. Sun, P. Bocchini, and B. D. Davison, “Applications of artificial
+intelligencefordisastermanagement,”NaturalHazards,vol.103,no.3,
+[59] S. Huang, L. Dong, W. Wang, Y. Hao, S. Singhal, S. Ma, T. Lv,
+pp.2631–2689,2020.
+L. Cui, O. K. Mohammed, Q. Liu, et al., “Language is not all
+youneed:Aligningperceptionwithlanguagemodels,”arXivpreprint [81] N. El-Bendary, M. M. M. Fouad, R. A. Ramadan, S. Banerjee, and
+arXiv:2302.14045,2023. A. E. Hassanien, “Smart environmental monitoring using wireless
+sensornetworks,”K15146 C025.indd,2013.
+[60] Z. Peng, W. Wang, L. Dong, Y. Hao, S. Huang, S. Ma, and F. Wei,
+[82] L.Zhao,L.Zhang,Z.Wu,Y.Chen,H.Dai,X.Yu,Z.Liu,T.Zhang,
+“Kosmos-2: Grounding multimodal large language models to the
+X. Hu, X. Jiang, et al., “When brain-inspired ai meets agi,” Meta-
+world,”arXivpreprintarXiv:2306.14824,2023.
+Radiology,p.100005,2023.
+[61] B. Goertzel, “Artificial general intelligence: concept, state of the art,
+[83] C.Zhou,Q.Li,C.Li,J.Yu,Y.Liu,G.Wang,K.Zhang,C.Ji,Q.Yan,
+andfutureprospects,”JournalofArtificialGeneralIntelligence,vol.5,
+L.He,etal.,“Acomprehensivesurveyonpretrainedfoundationmod-
+no.1,p.1,2014.
+els:Ahistoryfromberttochatgpt,”arXivpreprintarXiv:2302.09419,
+[62] S.Adams,I.Arel,J.Bach,R.Coop,R.Furlan,B.Goertzel,J.S.Hall,
+2023.
+A. Samsonovich, M. Scheutz, M. Schlesinger, et al., “Mapping the
+[84] J. Wei, X. Wang, D. Schuurmans, M. Bosma, F. Xia, E. Chi, Q. V.
+landscapeofhuman-levelartificialgeneralintelligence,”AImagazine,
+Le, D. Zhou, et al., “Chain-of-thought prompting elicits reasoning in
+vol.33,no.1,pp.25–42,2012.
+large language models,” Advances in Neural Information Processing
+[63] M.Marjani,F.Nasaruddin,A.Gani,A.Karim,I.A.T.Hashem,A.Sid-
+Systems,vol.35,pp.24824–24837,2022.
+diqa,andI.Yaqoob,“Bigiotdataanalytics:architecture,opportunities,
+[85] T.Brown,B.Mann,N.Ryder,M.Subbiah,J.D.Kaplan,P.Dhariwal,
+and open research challenges,” ieee access, vol. 5, pp. 5247–5261,
+A.Neelakantan,P.Shyam,G.Sastry,A.Askell,etal.,“Languagemod-
+2017.
+elsarefew-shotlearners,”Advancesinneuralinformationprocessing
+[64] G. K. Durbhaka et al., “Convergence of artificial intelligence and
+systems,vol.33,pp.1877–1901,2020.
+internet of things in predictive maintenance systems–a review,” Turk-
+[86] H. Dai, H. Zhang, C. Li, and B. Wang, “Efficient deployment of
+ish Journal of Computer and Mathematics Education (TURCOMAT),
+multipleuavsforiotcommunicationindynamicenvironment,”China
+vol.12,no.11,pp.205–214,2021.
+Communications,vol.17,no.1,pp.89–103,2020.
+[65] A.Sgueglia,A.DiSorbo,C.A.Visaggio,andG.Canfora,“Asystem-
+[87] M.-H. Guo, T.-X. Xu, J.-J. Liu, Z.-N. Liu, P.-T. Jiang, T.-J. Mu, S.-
+atic literature review of iot time series anomaly detection solutions,”
+H. Zhang, R. R. Martin, M.-M. Cheng, and S.-M. Hu, “Attention
+FutureGenerationComputerSystems,vol.134,pp.170–186,2022.
+mechanisms in computer vision: A survey,” Computational Visual
+[66] S.Dhelim,H.Ning,F.Farha,L.Chen,L.Atzori,andM.Daneshmand, Media,vol.8,no.3,pp.331–368,2022.
+“Iot-enabled social relationships meet artificial social intelligence,”
+[88] A. Dosovitskiy, L. Beyer, A. Kolesnikov, D. Weissenborn, X. Zhai,
+IEEE Internet of Things Journal, vol. 8, no. 24, pp. 17817–17828,
+T.Unterthiner,M.Dehghani,M.Minderer,G.Heigold,S.Gelly,etal.,
+2021.
+“Animageisworth16x16words:Transformersforimagerecognition
+[67] S. S. Ali and B. J. Choi, “State-of-the-art artificial intelligence tech- atscale,”arXivpreprintarXiv:2010.11929,2020.
+niquesfordistributedsmartgrids:Areview,”Electronics,vol.9,no.6,
+[89] M.Dehghani,J.Djolonga,B.Mustafa,P.Padlewski,J.Heek,J.Gilmer,
+p.1030,2020. A. Steiner, M. Caron, R. Geirhos, I. Alabdulmohsin, et al., “Scal-
+[68] A. P. Murdan, “From smart to intelligent: How internet of things ing vision transformers to 22 billion parameters,” arXiv preprint
+and artificial intelligence are enhancing the modern home,” Journal arXiv:2302.05442,2023.
+ofElectricalEngineering,Electronics,ControlandComputerScience, [90] D. P. Kingma and M. Welling, “Auto-encoding variational Bayes,”
+vol.9,no.2,pp.1–8,2023. arXivpreprintarXiv:1312.6114,2013.
+[69] X.Yang,L.Chai,R.B.Bist,S.Subedi,andZ.Wu,“Adeeplearning [91] I. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu, D. Warde-Farley,
+modelfordetectingcage-freehensonthelitterfloor,”Animals,vol.12, S. Ozair, A. Courville, and Y. Bengio, “Generative adversarial net-
+no.15,p.1983,2022. works,” Communications of the ACM, vol. 63, no. 11, pp. 139–144,
+[70] X. Yang, H. Dai, Z. Wu, R. Bist, S. Subedi, J. Sun, G. Lu, C. Li, 2020.
+T. Liu, and L. Chai, “Sam for poultry science,” arXiv preprint [92] A. Lazaridou, A. Kuncoro, E. Gribovskaya, D. Agrawal, A. Liska,
+arXiv:2305.10254,2023. T. Terzi, M. Gimenez, C. d. M. d’Autume, S. Ruder, D. Yo-
+[71] T. A. Shaikh, W. A. Mir, T. Rasool, and S. Sofi, “Machine learning gatama, et al., “Pitfalls of static language modelling,” arXiv preprint
+forsmartagricultureandprecisionfarming:towardsmakingthefields arXiv:2102.01951,2021.
+talk,” Archives of Computational Methods in Engineering, vol. 29, [93] B.Dhingra,J.R.Cole,J.M.Eisenschlos,D.Gillick,J.Eisenstein,and
+no.7,pp.4557–4597,2022. W. W. Cohen, “Time-aware language models as temporal knowledge
+[72] D.Liu,Y.Chen,andZ.Wu,“Digitaltwin(dt)-cyclegan:Enablingzero- bases,”TransactionsoftheAssociationforComputationalLinguistics,
+shotsim-to-realtransferofvisualgraspingmodels,”IEEERoboticsand vol.10,pp.257–273,2022.
+AutomationLetters,vol.8,no.5,pp.2421–2428,2023. [94] P. Lewis, E. Perez, A. Piktus, F. Petroni, V. Karpukhin, N. Goyal,
+[73] M. Soori, B. Arezoo, and R. Dastres, “Internet of things for smart H. Ku¨ttler, M. Lewis, W.-t. Yih, T. Rockta¨schel, et al., “Retrieval-
+factories in industry 4.0, a review,” Internet of Things and Cyber- augmentedgenerationforknowledge-intensivenlptasks,”Advancesin
+PhysicalSystems,2023. NeuralInformationProcessingSystems,vol.33,pp.9459–9474,2020.

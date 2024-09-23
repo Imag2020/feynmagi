@@ -1,0 +1,9 @@
+Common Web Search Techniques:
+
+1. Use Quotation Marks: Enclose phrases in quotes to search for exact matches.
+2. Use the Minus Sign: Exclude specific terms by adding a minus sign before the term you want to exclude.
+3. Utilize Advanced Search Operators: Use operators like 'OR', 'AND', and 'site:' to refine your searches.
+4. Be Specific: Include specific keywords related to your interest to get more relevant results.
+5. Explore Different Search Engines: Don't rely solely on one search engine; try others like Bing, DuckDuckGo, etc.
+6. Use Search Filters: Most search engines allow filtering results by date, type, etc.
+7. Check for Credibility: Always evaluate the sources of information for reliability.

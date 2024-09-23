@@ -1,0 +1,1384 @@
+
+
+AI-native Memory: A Pathway from LLMs Towards AGI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Back to arXiv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Back to arXiv
+
+
+
+This is experimental HTML to improve accessibility. We invite you to report rendering errors. Use Alt+Y to toggle on accessible reporting links and Alt+Shift+Y to toggle off. Learn more about this project and help improve conversions.
+        
+
+
+Why HTML?
+Report Issue
+Back to Abstract
+Download PDF
+
+
+
+
+
+
+
+
+
+
+
+
+
+Table of Contents
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Abstract
+      
+
+1 Introduction
+
+2 LLMs with Unlimited Context Length are NOT the Answer for AGI
+
+2.1 Effective Context Length of Existing LLMs is Limited
+
+2.2 Reasoning-in-a-haystack is Very Difficult for Existing LLMs
+
+2.2.1 Experiment Setups
+2.2.2 Results
+
+
+2.3 Remarks and Discussions
+
+
+
+3 AGI should be a System with AI-Native Memory
+
+3.1 L1: Natural-language Memory
+3.2 L2: AI-Native Memory
+
+
+4 Conclusions and Outlooks
+A An Example of Multi-Needle Reasoning-in-a-haystack
+B Prompt Template
+C Evaluation Criteria
+D Detailed Experiment Results
+
+
+
+
+        References
+      
+
+License: CC BY 4.0arXiv:2406.18312v1 [cs.CL] 26 Jun 2024
+
+AI-native Memory:
+A Pathway from LLMs Towards AGIReport issue for preceding element
+
+
+
+Jingbo Shang     Zai Zheng     Xiang Ying     Felix Tao     Mindverse Team
+Mindverse AI 
+{yingxiang, tao}@mindverse.ai
+
+Report issue for preceding element
+
+AbstractReport issue for preceding element
+Large language models (LLMs) have demonstrated the world with the sparks of artificial general intelligence (AGI).
+One opinion, especially from some startups working on LLMs, argues that an LLM with nearly unlimited context length can realize AGI.
+However, they might be too optimistic about the long-context capability of (existing) LLMs –
+(1) Recent literature has shown that their effective context length is significantly smaller than their claimed context length;
+and (2) Our reasoning-in-a-haystack experiments further demonstrate that simultaneously finding the relevant information from a long context and conducting (simple) reasoning is nearly impossible.
+In this paper, we envision a pathway from LLMs to AGI through the integration of memory.
+We believe that AGI should be a system where LLMs serve as core processors.
+In addition to raw data, the memory in this system would store a large number of important conclusions derived from reasoning processes.
+Compared with retrieval-augmented generation (RAG) that merely processing raw data, this approach not only connects semantically related information closer, but also simplifies complex inferences at the time of querying.
+As an intermediate stage, the memory will likely be in the form of natural language descriptions, which can be directly consumed by users too.
+Ultimately, every agent/person should have its own large personal model, a deep neural network model (thus AI-native) that parameterizes and compresses all types of memory, even the ones cannot be described by natural languages.
+Finally, we discuss the significant potential of AI-native memory as the transformative infrastructure for (proactive) engagement, personalization, distribution, and social in the AGI era, as well as the incurred privacy and security challenges with preliminary solutions.Report issue for preceding element
+
+
+
+1 IntroductionReport issue for preceding element
+
+Large language models (LLMs), pre-trained on massive text corpora and instruction-tuned on expert annotations (and also via reinforcement learning with human feedback), such as
+the GPT series from OpenAI (Brown et al., 2020; Ouyang et al., 2022; Achiam et al., 2023),
+the Gemini series from Google (Team et al., 2023; Reid et al., 2024; Team et al., 2024),
+the Claude series from Anthropic (Anthropic, 2024),
+the Llama series from Meta (Touvron et al., 2023a, b), and
+the Mixtral series from Mistral (Jiang et al., 2023, 2024),
+have demonstrated significant potentials in their capabilities as general task solvers, going beyond language modeling itself.
+These models can follow complicated human instructions and perform multi-step reasoning when necessary (Wei et al., 2022; Zeng et al., 2023b).
+Therefore, it is a consensus that LLMs are becoming fundamental building blocks towards artificial general intelligence (AGI) (Bubeck et al., 2023; Minaee et al., 2024).Report issue for preceding element
+
+
+Long-context processing capability is vital for LLMs, and therefore, is one of the most popular directions in LLM researches.
+For example, the original GPT-4 has a context window of 32K tokens (Achiam et al., 2023), and the the most recent GPT-4-turbo and GPT-4o models can process 128K tokens; Gemini 1.5 claimed a context window of 1M or 10M tokens (Reid et al., 2024).
+Academia people have also explored to combat length extrapolation (Peng et al., 2023a; Xiao et al., 2023; Han et al., 2023; Zhang et al., 2024) and position bias (Liu et al., 2024; Peysakhovich & Lerer, 2023; An et al., 2024), where some works claimed “unlimited” context lengths.
+Following this trend, an increasing number of people, especially from startups working on LLMs, argue that an LLM with super long or even unlimited context can realize AGI by putting all raw data into the context and relying entirely on the LLM to complete all necessary reasoning in one step to get the final result for each query.Report issue for preceding element
+
+
+While nowadays LLMs can take super or even infinitely long inputs and produce an output without throwing a runtime error, it is still unknown whether these models can appropriately utilize the provided long contexts.
+We argue that similar to a human’s cognitive load (Sweller, 1988), the maximum amount of content LLMs are capable of handling might be inherently limited depending on the task they are performing.
+However, most previous evaluations for long-context models are based on perplexity or a simple synthetic retrieval task while overlooking the effectiveness on more complex tasks.
+According to a recent benchmark following more complicated tasks (Hsieh et al., 2024), most, if not all, LLMs over-claimed their context lengths.
+For example, GPT-4 models, which claim to have a context of 128K, only has an effective context of 64K;
+ChatGLM (Zeng et al., 2023a; Du et al., 2022), another model claimed to have a context of 128K, ends up with only 4K.
+We further develop reasoning-in-a-haystack evaluations following the LLM-as-personal-assistant scenarios and demonstrate that simultaneously finding the relevant information from a long context and conducting reasoning is nearly impossible.Report issue for preceding element
+
+
+We believe that AGI should be a system, where LLMs are more like Processors and LLM’s context is like a RAM.
+Using Processor and RAM alone is not even enough for a computer, nor AGI.
+To complete this system, we will at least need (long-term) Memory, which plays a role of disk storage.
+Retrieval-augmented LLMs that sift through numerous relevant contexts to answer a query (Kočiskỳ et al., 2018; Dasigi et al., 2021; Pang et al., 2022; Trivedi et al., 2022) can be viewed as a special case here by defining the Memory as raw data only.
+However, Memory is beyond the raw data, as it should be generated and organized, including many results that require reasoning from the raw data.
+In addition to downstream applications, Memory shall be able to be directly consumed by users.Report issue for preceding element
+
+
+Acknowledging the necessity of Memory, we then discuss the forms of Memory and how to facilitate the interaction between Memory and LLM (e.g., loading the right data from “disk” to “RAM”).
+As an intermediate stage, the memory will likely be in the form of natural language descriptions.
+This is in line with many existing information extraction and knowledge discovery works and we will construct a “Memory Palace” for each agent/person.
+Ultimately, every agent/person should have its own large personal model (LPM), a deep neural network model (thus AI-native) that parameterizes and compresses all types of memory, even the ones cannot be described by natural languages.
+From this compression perspective, this LPM can be a LLM too.
+Finally, we discuss the significant potential of AI-native memory as the transformative infrastructure for AI-native (proactive) engagement, personalization, distribution, and social in the AGI era, as well as the incurred privacy and security challenges with preliminary solutions.Report issue for preceding element
+
+
+In summary, our main points areReport issue for preceding element
+
+
+•
+
+LLM itself is not enough for AGI. It is very challenging and even impossible to build an LLM with truly unlimited context length, so the model can put all raw data into the context and complete all necessary reasoning in one step for a particular query.Report issue for preceding element
+
+
+
+•
+
+Memory is a keystone towards AGI. AGI should be a system, where LLMs are more like Processors, LLM’s context is like a RAM, and Memory plays a role like a disk.Report issue for preceding element
+
+
+
+•
+
+There can be at least two different ways to generate and organize Memory. The first solution is following the Information Extraction/Generation ideas of constructing a “Memory Palace”. The second solution falls in the line of compressing the Memory as a neural network (maybe LLM too).Report issue for preceding element
+
+
+
+
+
+
+
+2 LLMs with Unlimited Context Length are NOT the Answer for AGIReport issue for preceding element
+
+As the LLMs have demonstrated the world with the sparks of AGI (Bubeck et al., 2023), an increasing number of people, especially from some startups working on LLMs, argue that an LLM with super long or even unlimited context can achieve AGI by putting all raw data into the context and relying entirely on the LLM to complete all necessary reasoning in one step to get the final result.
+There are two key assumptions behind this long-context direction, and they must hold true at the same time; otherwise, this argument would fail automatically.Report issue for preceding element
+
+
+Assumption 1:
+
+LLMs can effectively find the necessary information from a super long or even unlimited context, i.e., the needle-in-a-haystack capability.Report issue for preceding element
+
+
+
+Assumption 2:
+
+LLMs can conduct all the required, complicated inferences based on the raw inputs in one step, i.e., the long-context reasoning capability.Report issue for preceding element
+
+
+
+According to the current literature and our experiments (will be presented in this section), people might be too optimistic about the long-context capability of (existing) LLMs –
+(1) recent literature (Hsieh et al., 2024) has shown that their effective context length is significantly smaller than their claimed context length;
+and (2) our reasoning-in-haystack experiments in Section 2.2 further demonstrate that simultaneously finding the relevant information from a long context and conducting reasoning is nearly impossible.
+More details will be covered in the remainder of this section.Report issue for preceding element
+
+
+
+2.1 Effective Context Length of Existing LLMs is LimitedReport issue for preceding element
+
+There are several proprietary LLMs claimed very long context lengths.
+For example, the original GPT-4 has a context window of 32K tokens (Achiam et al., 2023), and the the most recent GPT-4-turbo and GPT-4o models can process 128K tokens; Gemini 1.5 claimed a context window of 1M or 10M tokens (Reid et al., 2024).
+There are also a number of works, mostly from academia, extending the open-source LLMs to long context lengths, by either adding more fine-tuning with long contexts or modifying the (relative) attention calculations without changing the model parameters (Peng et al., 2023a; Xiao et al., 2023; Han et al., 2023; Zhang et al., 2024; Liu et al., 2024; Peysakhovich & Lerer, 2023; An et al., 2024)Report issue for preceding element
+
+
+Needle-in-a-haystack (NIAH).
+The needle-in-a-haystack test is commonly adopted in these long-context LLM works to demonstrate that the LLMs can retrieve the “needle” (e.g., a specific number or sentence) from the “haystack”, i.e., a long irrelevant/background text.Report issue for preceding element
+
+
+Effective Context Length.
+The effective context length is defined as the maximum length that the testing LLM can outperform a strong baseline.
+Specifically in  (Hsieh et al., 2024), the baseline is chosen as LLAMA-2-7B (chat), a popular open-source LLM with a 4K context length that is very affordable for serving.
+All the testing LLMs have a claimed context length at least 32K.Report issue for preceding element
+
+
+According to the Table 3 in (Hsieh et al., 2024), most, if not all, LLMs overclaimed their context lengths.
+For example, GPT-4 (Achiam et al., 2023), which claims to have a context of 128K, only has an effective context of 64K;
+ChatGLM (Zeng et al., 2023a; Du et al., 2022) claims to have a context of 128K, but its effective context is only 4K.Report issue for preceding element
+
+
+Therefore, we believe that super long/unlimited effective context is very difficult to achieve, and the effective context size in existing long-context solutions has not fundamentally improved.
+There are still many fundamental obstacles in technology in the future.Report issue for preceding element
+
+
+
+
+2.2 Reasoning-in-a-haystack is Very Difficult for Existing LLMsReport issue for preceding element
+
+Going beyond the traditional NIAH tasks that focus solely on retrieval-based abilities, we propose a new reasoning-in-a-haystack task, aimed at validating LLMs’ capability when the retrieval and reasoning are required simultaneously.
+Figure 1 shows an overview of the reasoning-in-a-haystack evaluation pipeline.
+We start with the real data from Mebot111https://me.bot/. We would like to acknowledge to the users who have agreed to our experiment use for their data. of Mindverse AI.
+Mebot is a “second me” product based on LLMs.
+For each user, it creates personalized models that can be applied across various scenarios.
+Specifically, it emphasizes on organizing the user’s memories while ensuring privacy and security, providing personalized services and inspiration based on these memories.Report issue for preceding element
+
+
+Figure 1: An Overview of Reasoning-in-a-Haystack. In this paper, the haystack, needles, and queries are all designed based on the real data and scenarios from Mebot of Mindverse AI, under the user permission. The haystack is typically a series of User-Mebot interactions chained chronologically. The needle-query pairs are constructed for certain recommendation scenarios.
+Report issue for preceding element
+
+
+2.2.1 Experiment SetupsReport issue for preceding element
+
+The experiment details are described as follows.Report issue for preceding element
+
+
+Haystack, Needle, and Query: A more challenging setting.
+We constructed 8 haystacks for different users to increase the diversity and difficulty of the test cases.
+Each haystack, served as a chronologically organized compilation of users’ notes and session messages, was created with the explicit consent of the users.
+The data was sourced from Mebot users and meticulously filtered to ensure the absence of contradictory information in each query-needle pair.
+These data contains note and chat.
+Each note includes title, summary, and content;
+each chat session involves a (multi-turn) dialogue between user and Mebot.Report issue for preceding element
+
+
+We designed 6 distinct, well-structured query-needle pairs, each with a corresponding true answer, as exemplified in Appendix A.
+All pairs are in the context of Mebot and are close-ended to ensure feasibility for automated evaluation.
+The number of hops, which represents the reasoning steps required to obtain the final result, is set to 1, 2, and 3.
+Furthermore, we experimented two different ways to distribute the needles in the haystack as follows.Report issue for preceding element
+
+
+•
+
+Multi-needle: Every needle is evenly distributed in the haystack.
+For example, if there are 5 needles, they are placed at depths of 0%, 20%, 40%, 60%, and 80%.Report issue for preceding element
+
+
+
+•
+
+Single-needle: All the needles are combined together and distributed at the depth of 40% or 60%.Report issue for preceding element
+
+
+
+
+
+Note that our constructed haystack, needle, and query shall be viewed as significantly more challenging than previous NIAH works, where the relevance between haystack and needle-query pair is nearly minimal.Report issue for preceding element
+
+
+Compared Provider LLMs.
+We selected GPT-4o, GPT-4-turbo and GPT-3.5-turbo as the Provider to be evaluated, as GPT-4o, GPT-4-turbo are two of the most advanced models and GPT-3.5-turbo serve as a preferable baseline.
+The prompt settings used for these providers are illustrated in Appendix B.Report issue for preceding element
+
+
+Evaluator LLM, True Answer, and Evaluation Criteria.
+Due to the closed-world nature of our needle-query construction,
+we first generate a true answer by LLM and then refine it manually to ensure accuracy and fairness for evaluation.
+The introduction of true answer makes the evaluator’s job much easier as it only needs to compare provider’s answer with well-designed true answer; there is no need to refer to the needles to handle more complex reasoning during the evaluation.
+To ensure consistency in our evaluation, we used GPT-4o (temperature=0) as the evaluator for all cases.
+The evaluation criteria are presented in Appendix C.
+For the same provider LLM, we iterate through all needle-query pairs and conduct experiments on 8 haystacks to obtain an average score, which is a number between 0 and 10, the higher, the better.Report issue for preceding element
+
+
+
+
+2.2.2 ResultsReport issue for preceding element
+
+As shown in Figure 2, the most recent LLMs from OpenAI, GPT-4o and GPT-4-turbo both show poor performance with long texts and multiple hops, supporting our aforementioned arguments on LLMs and AGI.
+Checking the score trend over the number of hops and the context length,
+it is obvious that the quality of responses is negatively correlated both of them, indicating that LLMs struggle with extended texts and multiple reasoning steps.
+Also, the results confirm that the multi-needle setting is more challenging than the single-needle one, because combining all the needles together reduces the retrieval difficulty.Report issue for preceding element
+
+
+Remarkably, GPT-4o and GPT-4-turbo perform similarly on this task.
+According to livebench results (https://livebench.ai/), GPT-4-turbo outperforms GPT-4o in reasoning tasks, while GPT-4o excels in language tasks.
+Since our task combines these two aspects, similar results for both models are consistent with the literature.Report issue for preceding element
+
+Context length
+
+(a) 
+
+
+(b) 
+Report issue for preceding element
+Figure 2: Reasoning-in-a-haystack Comparison based on the Mebot’s Real Data w.r.t. Different Context Lengths and Hop Counts.
+The multi-needle setting distributes different needles uniformly in the haystack, and the single-needle setting merges all the needles together and injects them at either depth 40% or 60%. The scores are averaged across different runs.
+GPT-3.5-turbo cannot be applied to too long context lengths.
+Detailed results are illustrated in Figure  6.
+Report issue for preceding element
+
+
+
+
+2.3 Remarks and DiscussionsReport issue for preceding element
+
+The current reasoning ability of LLMs is insufficient.
+Without a new paradigm that significantly improves reasoning ability, it is very unrealistic to rely entirely on LLMs to complete all necessary retrieval and reasoning in one step.Report issue for preceding element
+
+
+Drawing the connections with human learning and reasoning, the context of LLMs is like short-term (working) memory.
+Even with super long/unlimited effective long-context LLMs, they can only solve problems based on very long short-term memory – every time, the LLMs work everything from the scratch.
+Intuitively, this is less efficient and effective than saving and organizing the important conclusions from the history.
+Therefore, the most ideal approach here is to timely transform important conclusions into long-term memory for better future use.
+This points us to AI-native memory.Report issue for preceding element
+
+
+
+
+
+3 AGI should be a System with AI-Native MemoryReport issue for preceding element
+
+AGI shall be a System like a computer, where LLMs are like Processors and the context of LLM is like RAM.
+To complete this system, we must have (long-term) Memory as disk storage.Report issue for preceding element
+
+
+RALM/RAG is an elementary version of Memory.
+Retrieval-augmented LLMs (RALMs) that sift through numerous relevant contexts to answer a query (Kočiskỳ et al., 2018; Dasigi et al., 2021; Pang et al., 2022; Trivedi et al., 2022) can be viewed as a special case here by defining the Memory as raw data only.
+While some people want to leverage RALMs for AGI, the main starting point of these methods were to solve the lack of domain knowledge in LLMs.
+Therefore, these methods are designed to solve the problem that the long-context supported by LLM itself is not long enough.
+As discussed earlier, relying solely on the super long context of LLM itself cannot realize AGI.
+So RALM/RAG doesn’t work either.Report issue for preceding element
+
+
+Memory is beyond the raw data, as it should be generated and organized, including many results that require reasoning from the raw data.
+In addition to downstream applications, Memory shall be able to be directly consumed by users.Report issue for preceding element
+
+
+What is AI-Native Memory?
+We believe the ultimate form of AI-Native Memory is a deep neural network model (thus AI-native) that parameterizes and compresses all types of memory, even the ones cannot be described by natural languages.
+In order to ensure the privacy of the Memory across different users who interacted with the same AGI agent, we argue that the best practice is to maintain one Memory model for each individual user.
+Therefore, we refer to this Memory model between the AGI agent and a particular user as the Large Personal Model (LPM) of this user.
+The LPM records, organizes, indexes, and arranges every detail about the individual, ultimately providing interfaces for users to directly access memories and for downstream applications (such as personalized generation, recommendations, etc.) to utilize useful, complete contexts.
+In a sense, the LPM acts as an upgraded “Retrieval-Augmented” role.
+Its superiority lies in the transformation of original data through extensive “reasoning” (i.e., organizing, indexing, etc.), rather than merely recording.
+Note that the LPM will evolve as the user interacts with LPM, creating a Data Flywheel.Report issue for preceding element
+
+
+We envision three levels of the implementations of LPM as follows, with increasing complexity.Report issue for preceding element
+
+
+•
+
+L0: Raw Data. This approach is similar to directly applying RALM/RAG to raw data, defining Memory as all raw data.Report issue for preceding element
+
+
+
+•
+
+L1: Natural-language Memory refers to the memory that can be summarized as natural language forms, such as short bio of the user, a list of significant sentences or phrases, and preference tags.Report issue for preceding element
+
+
+
+•
+
+L2: AI-Native Memory refers to the memory that doesn’t necessarily need to be described in natural language, learned and organized through model parameters.
+Each LPM will be a neural network model.Report issue for preceding element
+
+
+
+From a technical perspective, the production, organization, consumption, and maintenance of the LPM need to be addressed.
+The rest of this section will give a deep dive into L1 and L2.Report issue for preceding element
+
+
+
+3.1 L1: Natural-language MemoryReport issue for preceding element
+
+In L1, the Memory will include a set of natural-language descriptions, such as keywords/tags, phrases, sentences, and even paragraphs.
+These are highly relevant to information extraction and knowledge discovery, including phrase mining (Shang et al., 2018; Gu et al., 2021), entity recognition (Peng et al., 2023b), relation extraction (Hogan et al., 2022), text summarization (Widyassari et al., 2022), taxonomy construction (Tao et al., 2018; Shang et al., 2020), etc.
+It will also cover different modalities as sources of the Memory, such as image, audio, video, and even sensor signals from wearable devices.Report issue for preceding element
+
+
+The developers of the L1 LPM have to specify the schemes.
+For example, various useful Memory types can be defined, including but not limited toReport issue for preceding element
+
+
+•
+
+(Short) Bio, a general description of the user, typically with a few sentences.Report issue for preceding element
+
+
+
+•
+
+Topics of interest to the user, which can be seen as a collection of tags (e.g., “politics”, “basketball”).Report issue for preceding element
+
+
+
+•
+
+Preferences include a user’s preferences for various things. The preference and topic are different because knowing a preference typically (implicitly) excludes the other side of the preference (e.g., detailed vs. concise expressions, cost-effective vs. luxury products, aisle vs. window seats).Report issue for preceding element
+
+
+
+•
+
+Social Connections include the user’s social relationships, such as who and which organizations have been mentioned.Report issue for preceding element
+
+
+
+
+
+The Memory can be categorized by granularity too. Taking the topics as example, we can have the following examples from fine-grained to coarse-grained.Report issue for preceding element
+
+
+•
+
+Summarized Sentences: Each interaction with the user can be summarized into sentences.
+Such summaries are just one level beyond the raw data in L0.
+There can be redundancies, but they should not contradict each other.Report issue for preceding element
+
+
+
+•
+
+Fine-grained Tags: Very precise tags that summarize Memory at a very detailed level. These tags are typically explicitly mentioned by the user.Report issue for preceding element
+
+
+
+•
+
+Coarse-grained Tags: Starting from fine-grained tags, one can roll up the granularity to obtain more general tags.
+For example, expanding from a player’s name (e.g., Michael Jordan) to the sport league (e.g., NBA), and from the sport league to the sport itself (e.g., Basketball).
+It is important to keep the granularity not too far from the original fine-grained tags, so the user would be still interested.Report issue for preceding element
+
+
+
+•
+
+Global: Every user should have a high-level summary, similar to what the user would say during ice-breaking sessions.
+This includes fun facts, personal hobbies, etc.Report issue for preceding element
+
+
+
+
+
+The Memory is never only about (generalized) extractions. It requires more complex inference and reasoning.Report issue for preceding element
+
+
+•
+
+Memory can include information that is inferred from a single conversation, for example, through summarizing and reflecting.Report issue for preceding element
+
+
+
+•
+
+Memory can be derived from cross-session interactions.
+This is essentially a pattern mining – deducing global information through user behavior from a few interactions.
+This can be achieved through sampling and chaining by tags/sentences, and then run an LLM inference.
+For example, one can put all recent Memory about basketball and then ask an LLM to find a trend.Report issue for preceding element
+
+
+
+
+
+
+
+3.2 L2: AI-Native MemoryReport issue for preceding element
+
+In L2, the Memory goes beyond the natural language forms and becomes a neural network model, and therefore, we name it as “AI-Native”.
+This model aims to encode all the memories of the user.
+The L2 LPM can be viewed as a personalized version of world models Matsuo et al. (2022).
+It shall be able to predict the user behavior based on the user history.
+To this extent, the L2 LPM can also make suggestions when the user is adding new inputs like an auto-completion.
+Note that L2 is not simply a parameterized version of L1.
+It shall generalize to more subtle patterns that cannot be defined by the system designers.
+It is an end-to-end solution without handcrafted schemes.
+One can expect that “prompting” the L2 model can obtain the information that the developers can define in L1.Report issue for preceding element
+
+
+Privacy and Security.
+Our envisioned LPM separates the user history as all the LPMs are trained independently, so there is no concern that the LPM will leak the user’s information to others.
+The data and model security is another thing to pay attention to.Report issue for preceding element
+
+
+An LLM can be L2 LPM.
+The memory encoding in L2 can be viewed as a compression of the raw data as lossless as possible.
+From this compression perspective, choosing LLM as LPM and continuing the language modeling objective training on the user history become a very intuitive solution.
+At the same time, finding the underlying patterns from the memory so the model will be able to generate novel reasoned memories/preferences is an important feature of L2.
+One can expect that an L2 model should be able to generate all the L1 memory.
+Therefore, we can leverage the L1 results as additional data for a supervised fine-tuning of the L2 model.
+In summary, one can obtain an LPM via a combination of language modeling “pre-training” and instruction-following “fine-tuning” based on the user history.
+Remarkably, one shall be able to prompt the L2 LPM to uncover all the L1 information because the model will likely hit nearly a zero training error.Report issue for preceding element
+
+
+Challenges and Potential Solutions.
+There are several challenges and open problems require more research and thinkings.Report issue for preceding element
+
+
+•
+
+Training Efficiency.
+One intuitive but computationally complex method is for each user to fine-tune their own LLM.
+A possible implementation would involve learning how to generate Memory from raw data and how to produce the required Memory based on the current context within an end-to-end neural network model.
+A compromise method is to use LoRA Hu et al. (2021) to fine-tune a personal LLM for each user.
+Our initial experiments suggest that a LoRA 7B model is enough to capture the memory of a single user, as the training data size is several magnitudes smaller than the typical pre-training data size of LLMs.Report issue for preceding element
+
+
+
+•
+
+Serving Efficiency.
+As more L2 LPMs deployed for users, new infrastructure is needed for serving these models. This is more challenging than serving one single generic LLM for all the users.
+LPMs have been customized for different users.
+One advantage of using LoRA models is that different LPMs can still share common layers in the neural architecture.
+We plan to develop a new serving framework that combines the computations in the common layers of different LoRA models, so the concurrent queries can be put into batches to increase the throughput and also reduce the serving cost.
+Another direction to explore is to offload the L2 LPM serving to the user’s edge device, e.g., a smart phone, after we quantize the model.Report issue for preceding element
+
+
+
+•
+
+Cold Start, as a common problem in training deep neural networks,
+is a straightforward challenge in L2.
+We argue that L2 LPM should be only trained when the user has accumulated sufficient data.
+Otherwise, one can always roll back to L1 to offer some initial personalization experience.
+Another idea is to find some role-play methods Peng & Shang (2024) to generate synthetic data to lower the entry bar of the L2 LPM for users.Report issue for preceding element
+
+
+
+•
+
+Catastrophic Forgetting and Conflicts Resolving. It is important to ensure that new memory is learned while preventing catastrophic forgetting of old memory.
+There are also cases where the newly added, correct memory should override the previous wrong information.
+There are already some pioneer researches along this line (Wang et al., 2024b, a; Chang et al., 2024).Report issue for preceding element
+
+
+
+
+
+
+
+
+4 Conclusions and OutlooksReport issue for preceding element
+
+In this paper, we highlight the limitations of LLMs in achieving AGI due to the impracticality of unlimited context length.
+We propose that AGI should function as a system where LLMs act as processors, their context as RAM, and memory as a disk.
+Efficient memory is crucial, and we suggest two solutions: (1) constructing a “Memory Palace” using Information Extraction/Generation techniques for structured storage, and (2) compressing memory into a neural network for efficient retrieval.
+These approaches can be combined to create a robust memory system for AGI.Report issue for preceding element
+
+
+In our vision, the Memory is strongly associated with the user, and at the same time, agnostic to the specific applications.
+We believe that in the future, an AGI agent will first interact with the AI-Native Memory and see if it can supply the necessary information. If not, it is the AI-Native Memory’s job to interact with the real user to figure out more information.
+Therefore, AI-Native Memory will be the core of all interactions and personalizations between users and AGI agents.
+Note that personalization here is not only traditional content recommendation, but a type of recommendation service that marks the beginning of the AI journey.Report issue for preceding element
+
+
+With an accurate and efficient AI-Native Memory, it will enable numerous applications, such as memory-augmented chat, recommendations, building situational memory, auto-completion for the user’s input, and integrating personal models based on relationships in social networks.Report issue for preceding element
+
+
+In conclusion, there is a significant potential of AI-native memory as the transformative infrastructure for (proactive) engagement, personalization, distribution, and social in the AGI era, as well as the incurred privacy and security challenges with preliminary solutions.Report issue for preceding element
+
+
+
+ReferencesReport issue for preceding element
+
+
+Achiam et al. (2023)↑
+
+Achiam, J., Adler, S., Agarwal, S., Ahmad, L., Akkaya, I., Aleman, F. L., Almeida, D., Altenschmidt, J., Altman, S., Anadkat, S., et al.
+
+
+Gpt-4 technical report.
+
+
+arXiv preprint arXiv:2303.08774, 2023.
+
+
+
+
+An et al. (2024)↑
+
+An, S., Ma, Z., Lin, Z., Zheng, N., and Lou, J.-G.
+
+
+Make your llm fully utilize the context.
+
+
+arXiv preprint arXiv:2404.16811, 2024.
+
+
+
+
+Anthropic (2024)↑
+
+Anthropic, A.
+
+
+The claude 3 model family: Opus, sonnet, haiku.
+
+
+Claude-3 Model Card, 2024.
+
+
+
+
+Brown et al. (2020)↑
+
+Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J. D., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., et al.
+
+
+Language models are few-shot learners.
+
+
+Advances in neural information processing systems, 33:1877–1901, 2020.
+
+
+
+
+Bubeck et al. (2023)↑
+
+Bubeck, S., Chandrasekaran, V., Eldan, R., Gehrke, J., Horvitz, E., Kamar, E., Lee, P., Lee, Y. T., Li, Y., Lundberg, S., et al.
+
+
+Sparks of artificial general intelligence: Early experiments with gpt-4.
+
+
+arXiv preprint arXiv:2303.12712, 2023.
+
+
+
+
+Chang et al. (2024)↑
+
+Chang, H., Park, J., Ye, S., Yang, S., Seo, Y., Chang, D.-S., and Seo, M.
+
+
+How do large language models acquire factual knowledge during pretraining?
+
+
+arXiv preprint arXiv:2406.11813, 2024.
+
+
+
+
+Dasigi et al. (2021)↑
+
+Dasigi, P., Lo, K., Beltagy, I., Cohan, A., Smith, N. A., and Gardner, M.
+
+
+A dataset of information-seeking questions and answers anchored in research papers.
+
+
+In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pp.  4599–4610, 2021.
+
+
+
+
+Du et al. (2022)↑
+
+Du, Z., Qian, Y., Liu, X., Ding, M., Qiu, J., Yang, Z., and Tang, J.
+
+
+Glm: General language model pretraining with autoregressive blank infilling.
+
+
+In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp.  320–335, 2022.
+
+
+
+
+Gu et al. (2021)↑
+
+Gu, X., Wang, Z., Bi, Z., Meng, Y., Liu, L., Han, J., and Shang, J.
+
+
+Ucphrase: Unsupervised context-aware quality phrase tagging.
+
+
+In Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining, pp.  478–486, 2021.
+
+
+
+
+Han et al. (2023)↑
+
+Han, C., Wang, Q., Xiong, W., Chen, Y., Ji, H., and Wang, S.
+
+
+Lm-infinite: Simple on-the-fly length generalization for large language models.
+
+
+arXiv preprint arXiv:2308.16137, 2023.
+
+
+
+
+Hogan et al. (2022)↑
+
+Hogan, W., Li, J., and Shang, J.
+
+
+Fine-grained contrastive learning for relation extraction.
+
+
+In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, pp.  1083–1095, 2022.
+
+
+
+
+Hsieh et al. (2024)↑
+
+Hsieh, C.-P., Sun, S., Kriman, S., Acharya, S., Rekesh, D., Jia, F., and Ginsburg, B.
+
+
+Ruler: What’s the real context size of your long-context language models?
+
+
+arXiv preprint arXiv:2404.06654, 2024.
+
+
+
+
+Hu et al. (2021)↑
+
+Hu, E. J., Wallis, P., Allen-Zhu, Z., Li, Y., Wang, S., Wang, L., Chen, W., et al.
+
+
+Lora: Low-rank adaptation of large language models.
+
+
+In International Conference on Learning Representations, 2021.
+
+
+
+
+Jiang et al. (2023)↑
+
+Jiang, A. Q., Sablayrolles, A., Mensch, A., Bamford, C., Chaplot, D. S., Casas, D. d. l., Bressand, F., Lengyel, G., Lample, G., Saulnier, L., et al.
+
+
+Mistral 7b.
+
+
+arXiv preprint arXiv:2310.06825, 2023.
+
+
+
+
+Jiang et al. (2024)↑
+
+Jiang, A. Q., Sablayrolles, A., Roux, A., Mensch, A., Savary, B., Bamford, C., Chaplot, D. S., Casas, D. d. l., Hanna, E. B., Bressand, F., et al.
+
+
+Mixtral of experts.
+
+
+arXiv preprint arXiv:2401.04088, 2024.
+
+
+
+
+Kočiskỳ et al. (2018)↑
+
+Kočiskỳ, T., Schwarz, J., Blunsom, P., Dyer, C., Hermann, K. M., Melis, G., and Grefenstette, E.
+
+
+The narrativeqa reading comprehension challenge.
+
+
+Transactions of the Association for Computational Linguistics, 6:317–328, 2018.
+
+
+
+
+Liu et al. (2024)↑
+
+Liu, N. F., Lin, K., Hewitt, J., Paranjape, A., Bevilacqua, M., Petroni, F., and Liang, P.
+
+
+Lost in the middle: How language models use long contexts.
+
+
+Transactions of the Association for Computational Linguistics, 12:157–173, 2024.
+
+
+
+
+Matsuo et al. (2022)↑
+
+Matsuo, Y., LeCun, Y., Sahani, M., Precup, D., Silver, D., Sugiyama, M., Uchibe, E., and Morimoto, J.
+
+
+Deep learning, reinforcement learning, and world models.
+
+
+Neural Networks, 152:267–275, 2022.
+
+
+
+
+Minaee et al. (2024)↑
+
+Minaee, S., Mikolov, T., Nikzad, N., Chenaghlu, M., Socher, R., Amatriain, X., and Gao, J.
+
+
+Large language models: A survey.
+
+
+arXiv preprint arXiv:2402.06196, 2024.
+
+
+
+
+Ouyang et al. (2022)↑
+
+Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., Ray, A., et al.
+
+
+Training language models to follow instructions with human feedback.
+
+
+Advances in neural information processing systems, 35:27730–27744, 2022.
+
+
+
+
+Pang et al. (2022)↑
+
+Pang, R. Y., Parrish, A., Joshi, N., Nangia, N., Phang, J., Chen, A., Padmakumar, V., Ma, J., Thompson, J., He, H., et al.
+
+
+Quality: Question answering with long input texts, yes!
+
+
+In Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pp.  5336–5358, 2022.
+
+
+
+
+Peng et al. (2023a)↑
+
+Peng, B., Quesnelle, J., Fan, H., and Shippole, E.
+
+
+Yarn: Efficient context window extension of large language models.
+
+
+In The Twelfth International Conference on Learning Representations, 2023a.
+
+
+
+
+Peng & Shang (2024)↑
+
+Peng, L. and Shang, J.
+
+
+Quantifying and optimizing global faithfulness in persona-driven role-playing.
+
+
+arXiv preprint arXiv:2405.07726, 2024.
+
+
+
+
+Peng et al. (2023b)↑
+
+Peng, L., Wang, Z., and Shang, J.
+
+
+Less than one-shot: Named entity recognition via extremely weak supervision.
+
+
+In Findings of the Association for Computational Linguistics: EMNLP 2023, pp.  13603–13616, 2023b.
+
+
+
+
+Peysakhovich & Lerer (2023)↑
+
+Peysakhovich, A. and Lerer, A.
+
+
+Attention sorting combats recency bias in long context language models.
+
+
+arXiv preprint arXiv:2310.01427, 2023.
+
+
+
+
+Reid et al. (2024)↑
+
+Reid, M., Savinov, N., Teplyashin, D., Lepikhin, D., Lillicrap, T., Alayrac, J.-b., Soricut, R., Lazaridou, A., Firat, O., Schrittwieser, J., et al.
+
+
+Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context.
+
+
+arXiv preprint arXiv:2403.05530, 2024.
+
+
+
+
+Shang et al. (2018)↑
+
+Shang, J., Liu, J., Jiang, M., Ren, X., Voss, C. R., and Han, J.
+
+
+Automated phrase mining from massive text corpora.
+
+
+IEEE Transactions on Knowledge and Data Engineering, 30(10):1825–1837, 2018.
+
+
+
+
+Shang et al. (2020)↑
+
+Shang, J., Zhang, X., Liu, L., Li, S., and Han, J.
+
+
+Nettaxo: Automated topic taxonomy construction from text-rich network.
+
+
+In Proceedings of the web conference 2020, pp.  1908–1919, 2020.
+
+
+
+
+Sweller (1988)↑
+
+Sweller, J.
+
+
+Cognitive load during problem solving: Effects on learning.
+
+
+Cognitive science, 12(2):257–285, 1988.
+
+
+
+
+Tao et al. (2018)↑
+
+Tao, F., Zhang, C., Chen, X., Jiang, M., Hanratty, T., Kaplan, L., and Han, J.
+
+
+Doc2cube: Allocating documents to text cube without labeled data.
+
+
+In 2018 IEEE International Conference on Data Mining (ICDM), pp.  1260–1265. IEEE, 2018.
+
+
+
+
+Team et al. (2023)↑
+
+Team, G., Anil, R., Borgeaud, S., Wu, Y., Alayrac, J.-B., Yu, J., Soricut, R., Schalkwyk, J., Dai, A. M., Hauth, A., et al.
+
+
+Gemini: a family of highly capable multimodal models.
+
+
+arXiv preprint arXiv:2312.11805, 2023.
+
+
+
+
+Team et al. (2024)↑
+
+Team, G., Mesnard, T., Hardin, C., Dadashi, R., Bhupatiraju, S., Pathak, S., Sifre, L., Rivière, M., Kale, M. S., Love, J., et al.
+
+
+Gemma: Open models based on gemini research and technology.
+
+
+arXiv preprint arXiv:2403.08295, 2024.
+
+
+
+
+Touvron et al. (2023a)↑
+
+Touvron, H., Lavril, T., Izacard, G., Martinet, X., Lachaux, M.-A., Lacroix, T., Rozière, B., Goyal, N., Hambro, E., Azhar, F., et al.
+
+
+Llama: Open and efficient foundation language models.
+
+
+arXiv preprint arXiv:2302.13971, 2023a.
+
+
+
+
+Touvron et al. (2023b)↑
+
+Touvron, H., Martin, L., Stone, K., Albert, P., Almahairi, A., Babaei, Y., Bashlykov, N., Batra, S., Bhargava, P., Bhosale, S., et al.
+
+
+Llama 2: Open foundation and fine-tuned chat models.
+
+
+arXiv preprint arXiv:2307.09288, 2023b.
+
+
+
+
+Trivedi et al. (2022)↑
+
+Trivedi, H., Balasubramanian, N., Khot, T., and Sabharwal, A.
+
+
+Musique: Multihop questions via single-hop question composition.
+
+
+Transactions of the Association for Computational Linguistics, 10:539–554, 2022.
+
+
+
+
+Wang et al. (2024a)↑
+
+Wang, W., Dong, L., Cheng, H., Liu, X., Yan, X., Gao, J., and Wei, F.
+
+
+Augmenting language models with long-term memory.
+
+
+Advances in Neural Information Processing Systems, 36, 2024a.
+
+
+
+
+Wang et al. (2024b)↑
+
+Wang, Y., Chen, X., Shang, J., and McAuley, J.
+
+
+Memoryllm: Towards self-updatable large language models.
+
+
+arXiv preprint arXiv:2402.04624, 2024b.
+
+
+
+
+Wei et al. (2022)↑
+
+Wei, J., Wang, X., Schuurmans, D., Bosma, M., Xia, F., Chi, E., Le, Q. V., Zhou, D., et al.
+
+
+Chain-of-thought prompting elicits reasoning in large language models.
+
+
+Advances in neural information processing systems, 35:24824–24837, 2022.
+
+
+
+
+Widyassari et al. (2022)↑
+
+Widyassari, A. P., Rustad, S., Shidik, G. F., Noersasongko, E., Syukur, A., Affandy, A., et al.
+
+
+Review of automatic text summarization techniques & methods.
+
+
+Journal of King Saud University-Computer and Information Sciences, 34(4):1029–1046, 2022.
+
+
+
+
+Xiao et al. (2023)↑
+
+Xiao, G., Tian, Y., Chen, B., Han, S., and Lewis, M.
+
+
+Efficient streaming language models with attention sinks.
+
+
+In The Twelfth International Conference on Learning Representations, 2023.
+
+
+
+
+Zeng et al. (2023a)↑
+
+Zeng, A., Liu, X., Du, Z., Wang, Z., Lai, H., Ding, M., Yang, Z., Xu, Y., Zheng, W., Xia, X., Tam, W. L., Ma, Z., Xue, Y., Zhai, J., Chen, W., Liu, Z., Zhang, P., Dong, Y., and Tang, J.
+
+
+GLM-130b: An open bilingual pre-trained model.
+
+
+In The Eleventh International Conference on Learning Representations (ICLR), 2023a.
+
+
+URL https://openreview.net/forum?id=-Aw0rrrPUF.
+
+
+
+
+Zeng et al. (2023b)↑
+
+Zeng, Z., Yu, J., Gao, T., Meng, Y., Goyal, T., and Chen, D.
+
+
+Evaluating large language models at evaluating instruction following.
+
+
+In The Twelfth International Conference on Learning Representations, 2023b.
+
+
+
+
+Zhang et al. (2024)↑
+
+Zhang, P., Liu, Z., Xiao, S., Shao, N., Ye, Q., and Dou, Z.
+
+
+Soaring from 4k to 400k: Extending llm’s context with activation beacon.
+
+
+arXiv preprint arXiv:2401.03462, 2024.
+
+
+
+
+
+
+AppendixReport issue for preceding element
+
+
+
+Appendix A An Example of Multi-Needle Reasoning-in-a-haystackReport issue for preceding element
+
+
+Example
+
+
+Q_id: Multi-Q2
+Needles:
+
+•
+
+I don’t particularly enjoy butter, skip it.
+
+•
+
+I’d like to cook a medium-rare steak at home, how can I do that?
+
+•
+
+How can I make bacon that is nicely crispy for breakfast?
+
+•
+
+Try to avoid spicy food for me.
+
+•
+
+How can I make fried chicken for Emmy? She loves it.
+
+•
+
+Could you recommend a good recipe for a creamy mushroom risotto for me?
+
+•
+
+Alice prefers butter rather than bacon, note this for me.
+
+
+Query: Given my preferences for diet, please help me to extract and specify them into two categories, namely like and dislike, and give simple reasons. Please only extract my preferences rather than others. Try to think step by step.
+True Answer:
+
+•
+
+Likes:
+
+–
+
+Medium-rare steak
+
+–
+
+Crispy bacon
+
+–
+
+Creamy mushroom risotto
+
+
+
+•
+
+Dislikes:
+
+–
+
+Spicy food
+
+–
+
+Butter
+
+
+
+
+Difficulty: High
+Hop: 2-hop
+Type: Information Retrieval and Reasoning
+Breakdown:
+
+1.
+
+Identify preferences in diet.
+
+2.
+
+From those preferences, extract the user’s preference rather than others.
+
+
+Report issue for preceding element
+Figure 3: Example Query-Needle Pair and its True Answer.
+Report issue for preceding element
+
+
+
+Appendix B Prompt TemplateReport issue for preceding element
+
+
+Prompt Settings
+
+[{
+    "role": "system",
+    "content": "You are a helpful AI bot that answers questions for a user. Keep your response short and direct"
+},
+{
+    "role": "user",
+    "content": {context}
+},
+{
+    "role": "user",
+    "content": f"{question} Don’t give information outside the document or repeat your findings"
+}]
+
+Report issue for preceding element
+Figure 4: System Prompt used in the Provider LLM.
+Report issue for preceding element
+
+
+
+Appendix C Evaluation CriteriaReport issue for preceding element
+
+
+Criteria for evaluation
+
+
+Accuracy:
+Score 0: The answer is completely unrelated or contradictory to the reference.
+Score 3: The answer has minor relevance with the reference but does not align with the reference.
+Score 5: The answer has moderate relevance but contains inaccuracies.
+Score 7: The answer aligns with the reference but has minor omissions.
+Score 10: The answer is completely accurate and aligns perfectly with the reference.
+Only respond with a numerical score
+Report issue for preceding element
+Figure 5: Criteria used in the Evaluator LLM during Scoring.
+Report issue for preceding element
+
+
+
+Appendix D Detailed Experiment ResultsReport issue for preceding element
+Context length
+
+(a) 
+Context length
+
+(b) 
+Report issue for preceding element
+Figure 6: A detailed version of Figure 2 with specific numbers.
+
+Report issue for preceding element
+
+
+
+
+
+Report IssueReport Github IssueTitle:Content selection saved. Describe the issue below:Description:Submit without GithubSubmit in GithubReport Issue for Selection
+
+            Generated by
+            
+
+                    L
+                    A
+                    T
+                    E
+
+xml
+
+
+
+
+Instructions for reporting errors
+We are continuing to improve HTML versions of papers, and your feedback helps enhance accessibility and mobile support. To report errors in the HTML that will help us improve conversion and rendering, choose any of the methods listed below:
+
+Click the "Report Issue" button.
+Open a report feedback form via keyboard, use "Ctrl + ?".
+Make a text selection and click the "Report Issue for Selection" button near your cursor.
+You can use Alt+Y to toggle on and Alt+Shift+Y to toggle off accessible reporting links at each section.
+
+Our team has already identified the following issues. We appreciate your time reviewing and reporting rendering errors we may not have found yet. Your efforts will help us improve the HTML versions for all readers, because disability should not be a barrier to accessing research. Thank you for your continued support in championing open access for all.
+Have a free development cycle? Help support accessibility at arXiv! Our collaborators at LaTeXML maintain a list of packages that need conversion, and welcome developer contributions.
+

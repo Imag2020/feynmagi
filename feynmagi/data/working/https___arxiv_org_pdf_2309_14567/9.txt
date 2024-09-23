@@ -1,0 +1,49 @@
+10
+Table 1. Polynomial Relationships for Estimating T from Color
+eff
+Color log g m/H a a a a
+0 1 2 3
+M 4.0 0.0 +11884 -1694.7366 +81.1315 -1.2733
+F480M
+M 4.5 0.0 +26131 -4412.5066 +252.7961 -4.8658
+F480M
+M 4.5 -1.0 +41588 -7953.9265 +514.4639 -11.1589
+F480M
+F162M − F480M 4.0 0.0 +1700 -450.9727 +51.2187 -2.0184
+F162M − F480M 4.5 0.0 +1641 -398.6753 +43.3689 -1.6876
+F162M − F480M 4.5 -1.0 +1955 -416.6833 +37.0493 -1.1932
+F360M − F480M 4.0 0.0 +1134 -474.2423 +98.9609 -7.6338
+F360M − F480M 4.5 0.0 +1249 -488.7698 +91.4434 -6.5519
+F360M − F480M 4.5 -1.0 +2717 -1767.2828 +433.6942 -36.4072
+Note— T is estimated using
+eff
+T = a +a ×Color+a ×Color2 +a ×Color3
+eff 0 1 2 3
+Excluding any systematic errors in the models, the uncertainty in T is ±10 K.
+eff
+The coolest known Y dwarf, the 260 K WISE J085510.83-071442.5 (Luhman 2014; Leggett et al.
+2021), hereafter WISE 0855, is highlighted in Figure 2. Leggett et al. (2021) fit the WISE 0855
+observations with parameters which differ from the standard grid values shown in the Figure, and
+the open stars illustrates the colors calculated by that model. As also shown in Figure 9 of Leggett
+et al. (2021), Figure 2 indicates that the flux at F162M is underestimated by the model, but there
+is good agreement at 480M. It is intriguing that the Lacy & Burrows (2023) sequences with clouds
+show a significant bluewards trend in the F162M − F480M colors. Although based only on a sample
+of two, the colors of WISE 0336B and WISE 0855 appear to be consistent with a disequilibrium
+log g = 4.0 atmosphere with water clouds, where the clouds are thinner than described by the E10
+model of Lacy & Burrows (2023). It is also possible that further changes in the pressure-temperature
+profile, either as well as or instead of water cloud formation, could reproduce the colors of the coldest
+brown dwarfs. Additional JWST data will help clarify this issue.
+4.2. WISE J035934.06-540154.6
+Beiler et al. (2023) calculate synthetic photometry for WISE 0359 using their observed spectrum
+(Section3). Photometryfor27JWSTfiltersisprovidedintheirTable4. ForWISE0359weconverted
+the Beiler et al. (2023) values in Jy to magnitudes using the magnitude to Jy values given for another
+Y dwarf by De Furio et al. (2023).
+WISE 0359 is typical of the general population, based on its location in the color-color diagrams
+in Figure 2 and our spectral analysis in the previous Section. We estimated T from the F162M,
+eff
+F380M, and F480M colors using the log g = 4.5 solar metallicity relationships in Table 1. The value
+of T = 463±28 K agrees well with the T = 467+16 K determined by Beiler et al. and the value
+eff eff −18
+we determined by analysis of the SED of T = 450 K.
+eff
+4.3. WISEP J182831.08+265037.8

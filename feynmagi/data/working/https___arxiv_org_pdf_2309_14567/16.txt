@@ -1,0 +1,5 @@
+17
+Figure 6. Additional color transformations for longer wavelengths, calculated from the ATMO2020++
+grid, with surface gravity and metallicity as in the legend. The color corresponding to x is indicated by
+the color of the sequence and identified along the x-axis. The color corresponding to y is identified in each
+panel. Approximate spectral types are indicated along the top axis.

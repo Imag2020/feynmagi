@@ -1,0 +1,35 @@
+patrons disembarking a trunk-line vehicle arrive at the feeder stop. In this case, coordination can be
+accomplished even when the terminal serves multiple trunk lines operating on distinct schedules.
+For simplicity, we assume that the terminal serves only one trunk line, with patrons traveling to
+and from a city center using this line. This assumption facilitates coordination between feeder and trunk-
+line services. Specifically, to achieve coordination in the collection direction, a feeder line’s headway
+must be an integer multiple of 𝐻 , i.e.,
+𝑡
+𝐻 (𝑥)= 𝑘𝐻 (𝑘 = 1,2,3,…); (16)
+𝐼𝑝 𝑡
+while in the distribution direction, all feeder-line headways must equal 𝐻 , i.e.,
+𝑡
+𝐻 (𝑥)= 𝐻 , ∀𝑥 ∈[0,𝐿]. (17)
+𝐼𝑑 𝑡
+This highlights the asymmetry in the two travel directions when coordination is implemented. We
+further assume that feeder buses always arrive on schedule and that feeder bus layover time costs are
+disregarded (e.g., Kim and Schonfeld, 2014; Mei et al., 2021).
+Under schedule coordination, the total waiting and transfer times in both travel directions,
+originally represented by Eqs. (3) and (4), are replaced by the following equations:
+𝐶 ′ = ∫𝐿 ∫𝑊 𝐻𝐼𝑝(𝑥) 𝜆 (𝑥,𝑦)𝑑𝑦𝑑𝑥+∫𝐿 ∫𝑊 (𝜏 𝑆 (𝑥)𝐻 (𝑥)∙∫𝑊 𝜆 (𝑥,𝑦)𝑑𝑦+
+𝑊𝑝 𝑥=0 𝑦=0 2 𝑝 𝑥=0 𝑦=0 𝑎 𝐼 𝐼𝑝 𝑦=0 𝑝
+𝑡 )𝜆 (𝑥,𝑦)𝑑𝑦𝑑𝑥 (18)
+𝑓−𝑡 𝑝
+𝐶 ′ = ∫𝐿 ∫𝑊 (𝑡 +𝜏 𝑆 (𝑥)𝐻 ∙∫𝑊 𝜆 (𝑥,𝑦)𝑑𝑦)𝜆 (𝑥,𝑦)𝑑𝑦𝑑𝑥 (19)
+𝑊𝑑 𝑥=0 𝑦=0 𝑡−𝑓 𝑏 𝐼 𝑡 𝑦=0 𝑑 𝑑
+In Eq. (18), the second term consists of the total patron alighting time loss and the total transfer
+delay. Note that the waiting time for the trunk-line vehicle,
+𝐻𝑡,
+is eliminated due to the coordination,
+2
+and the alighting time loss term in Eq. (3) is doubled. The derivation is illustrated in Fig. 3 for a case of
+𝑘 = 1. Eq. (19) is developed in a similar manner.
+The remaining part of the optimization model involving schedule coordination is identical to (15a)–
+(15f).
+Fig. 3 Patron delays at the terminal under schedule coordination with 𝒌=𝟏 (the collection direction)
+11

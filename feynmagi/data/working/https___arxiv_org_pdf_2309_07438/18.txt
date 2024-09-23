@@ -1,0 +1,60 @@
+19
+that violations of predefined properties (e.g., control flow in- IoT devices or the edge, the ML models can be manipulated
+tegrityandmemorysafety)canbeactivelydetected.Firmware to generate false responses, leading to incorrect decisions
+hardening often requires injecting additional code into the and actions. A prompt can also carry confidential data or
+firmware, which inevitably imposes performance penalties. source code of a company, opening the door for challenges
+However, recent research has been successful in enforcing to compliance obligations and putting intellectual property at
+certaintypesofsecurityproperties(e.g.,controlflowintegrity risk.
+in µRAI [485]) on resource-constrained embedded systems. In training data extraction attacks, attackers recover raw
+3) Isolation: Nowadays, our IoT firmware is bloated with training inputs that are memorized as a part of the model,
+libraries from multiple third-party contributors. It becomes leading to privacy issues [493]. The data provider may not
+necessary to isolate the confidential ML models from the rest trust the training module in the first place. This is particularly
+of the firmware. By placing ML models in the hardware- concerning in handling IoT data (e.g., smart homes) where
+enforced trusted execution environment (TEE), even if the users’ privacy is included. It has shown that GPT-4 achieves
+firmware is compromised, the models cannot be accessed. high accuracy and reliability in masking private information
+Representative TEE implementations in IoT include ARM from unstructured medical texts [494]. The same technique
+TrustZone-M [486] and RISC-V MultiZone [487]. To further can be applied to redact sensitive user privacy from IoT data
+reduce the code base in TEE, partitioned execution of ML before they are presented to the AGI training module.
+only puts a security-critical portion in TEE [488]. However, 3) Using AGI for Good: On the other hand, defenders
+automatically splitting an ML model into a secure part and can also weaponize themselves with such powerful tools
+a non-secure part is a challenging task that warrants further to handle complex real-life IoT security problems at scale.
+research. For example, leveraging AGI, IT specialists can deploy sys-
+2) Exploiting AGI for Bad: Assuming a bug-free imple- tems to analyze device configurations and firmware versions,
+mentation,theMLalgorithmsthemselvesmightbevulnerable. thus making recommendations for remediation (e.g., change
+Existing attacks on ML models can be largely applied to IoT insecure configurations or update vulnerable firmware). By
+AGI. For example, in adversarial machine learning attacks, analyzing system logs or network traffic, AGI can augment
+attackers find small variations in inputs that can result in existing intrusion detection systems with its powerful NLP
+very different model outputs [489]. In data poisoning attacks, capability.Inparticular,IoTapplicationsoftencomewithnat-
+attackers biasor “poison”the trainingdata to compromisethe ural language descriptions of their behaviors and data usage.
+resultingmachinelearningmodels[490].Inmodelstealingat- By comparing the system logs captured at run-time and the
+tacks,attackerswithblack-boxaccesstothemachine-learning- claimsextractedfromtheAPPdescription,compliancechecks
+as-a-service systems aim to duplicate the functionality of the canbeconductedtodetectviolations.Oncedetected,AGIcan
+model by stealing model’s parameters [491], [492]. Finally, further assist security analysts in analyzing and diagnosing
+denial-of-serviceattacksdisruptthemodel’savailabilitybyde- the security threats, leading to faster discovery, response, and
+liberatelysendingithigh-costproblems,aimingtooverwhelm sharing.
+the host’s resources to handle the inquiry.
+With the emergence of foundation models in IoT AGI,
+D. Persistent Challenges Beyond Current Solutions
+a single point of failure exacerbates the impacts of these
+traditional attacks [34]. Moreover, we found that the open The challenge of IoT data storage lies in effectively man-
+nature of IoT leads to new attack surfaces and brings about aging and storing the vast and continuous stream of data
+unprecedented challenges to the ecosystem. In particular, the generatedbyamultitudeofinterconnecteddevicesandsensors
+data collected on Internet-scale billions of IoT devices makes [495]. This data often comes in various formats and includes
+itparticularlychallengingtovalidatethedataintegrity,leading real-time updates, requiring robust storage solutions that can
+to data poisoning where falsified data is injected into the handle the volume, variety, velocity, and variability of the
+training data. Such attacks can be stealthy and persistent in data. As IoT deployments expand. IoT ecosystems encompass
+the sense that the adversaries do not need to cause immediate an ever-growing number of devices and sensors, leading to
+damage. Rather, they inject a tiny bit of falsified data each an exponential increase in data volume. Traditional storage
+day and remain undetected for an extended period. systems may struggle to handle such scale efficiently. IoT
+In smart homes, AGI can be used in home automation for data can come in diverse forms [496], including structured,
+personalized living experiences. However, by learning home semi-structured,andunstructureddata.Storagesolutionsmust
+owners’ looks and voices, the AI technology can generate be flexible enough to accommodate various data formats and
+“deep-fake” audio and/or animated images, leading to home adapt to changes in data structure. It is challenging for low-
+robbery, unauthorized operations, etc. Using these biometric cost sensors to accommodate the data variety and solubility,
+data, social engineering attacks are possible by impersonating limiting the deployment scale of IoT systems.
+trusted individuals or entities. Likewise, by embedding AGI TherearealsochallengesforlocalcomputinginIoTdevices
+into smart factories and self-driving cars, an attacker could that need to be addressed for effective implementation and
+compriseAGIalgorithmstocausefactoryequipmentshutdown operation [497]. Many IoT devices have constrained process-
+andcaraccidents.Inpromptinjectionattacks,apromptisused ing power, memory, and storage capacities. Running com-
+to make the model ignore previous instructions or perform plex computations locally while ensuring efficient resource
+unintended actions. When running these AGI algorithms on utilization can be a significant challenge. IoT devices are

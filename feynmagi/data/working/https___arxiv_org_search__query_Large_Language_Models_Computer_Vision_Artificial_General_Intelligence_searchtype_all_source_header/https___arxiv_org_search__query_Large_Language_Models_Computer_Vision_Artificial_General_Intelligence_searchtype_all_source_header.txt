@@ -1,0 +1,2847 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search | arXiv e-print repository
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+We gratefully acknowledge support from the Simons Foundation and member institutions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Help | Advanced Search
+
+
+
+
+All fields
+Title
+Author
+Abstract
+Comments
+Journal reference
+ACM classification
+MSC classification
+Report number
+arXiv identifier
+DOI
+ORCID
+arXiv author ID
+Help pages
+Full text
+
+
+
+
+Search
+
+
+
+ 
+
+
+Login
+
+
+
+
+
+
+
+    
+        Showing 1–50 of 169 results for all: Large Language Models Computer Vision Artificial General Intelligence
+
+
+
+
+Search v0.5.6 released 2020-02-24  
+Feedback?
+
+
+
+
+
+
+Search term or terms
+
+
+
+Field
+All fieldsTitleAuthor(s)AbstractCommentsJournal referenceACM classificationMSC classificationReport numberarXiv identifierDOIORCIDLicense (URI)arXiv author IDHelp pagesFull text
+
+
+Search
+
+
+
+
+
+ Show abstracts
+        
+
+ Hide abstracts
+        
+
+
+
+
+Advanced Search
+
+
+
+
+
+
+
+
+
+All fieldsTitleAuthor(s)AbstractCommentsJournal referenceACM classificationMSC classificationReport numberarXiv identifierDOIORCIDLicense (URI)arXiv author IDHelp pagesFull text
+
+ Show abstracts Hide abstracts
+
+
+
+
+2550100200
+
+results per page.
+        
+
+Sort results by
+
+Announcement date (newest first)Announcement date (oldest first)Submission date (newest first)Submission date (oldest first)Relevance
+
+
+
+Go
+
+
+
+
+
+
+Previous
+    
+Next
+      
+
+
+1
+        
+
+
+2
+          
+
+
+3
+          
+
+
+4
+          
+
+
+
+
+
+
+arXiv:2407.16837
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+cs.CL
+
+
+
+      
+        CompBench: A Comparative Reasoning Benchmark for Multimodal LLMs
+      
+    
+
+Authors:
+Jihyung Kil, 
+      
+      Zheda Mai, 
+      
+      Justin Lee, 
+      
+      Zihe Wang, 
+      
+      Kerrie Cheng, 
+      
+      Lemeng Wang, 
+      
+      Ye Liu, 
+      
+      Arpita Chowdhury, 
+      
+      Wei-Lun Chao
+
+
+Abstract:
+      
+        …better choices during grocery shopping, while comparing sofa designs helps optimize the aesthetics of our living space. Despite its significance, the comparative capability is largely unexplored in…
+        ▽ More
+
+
+        The ability to compare objects, scenes, or situations is crucial for effective decision-making and problem-solving in everyday life. For instance, comparing the freshness of apples enables better choices during grocery shopping, while comparing sofa designs helps optimize the aesthetics of our living space. Despite its significance, the comparative capability is largely unexplored in artificial general intelligence (AGI). In this paper, we introduce CompBench, a benchmark designed to evaluate the comparative reasoning capability of multimodal large language models (MLLMs). CompBench mines and pairs images through visually oriented questions covering eight dimensions of relative comparison: visual attribute, existence, state, emotion, temporality, spatiality, quantity, and quality. We curate a collection of around 40K image pairs using metadata from diverse vision datasets and CLIP similarity scores. These image pairs span a broad array of visual domains, including animals, fashion, sports, and both outdoor and indoor scenes. The questions are carefully crafted to discern relative characteristics between two images and are labeled by human annotators for accuracy and relevance. We use CompBench to evaluate recent MLLMs, including GPT-4V(ision), Gemini-Pro, and LLaVA-1.6. Our results reveal notable shortcomings in their comparative abilities. We believe CompBench not only sheds light on these limitations but also establishes a solid foundation for future enhancements in the comparative capability of MLLMs.
+        △ Less
+
+
+Submitted 23 July, 2024; 
+      originally announced July 2024.
+      
+    
+
+
+
+arXiv:2407.10996
+ [pdf, other] 
+
+
+cs.CL
+cs.AI
+cs.HC
+
+
+
+      
+        Visualization Literacy of Multimodal Large Language Models: A Comparative Study
+      
+    
+
+Authors:
+Zhimin Li, 
+      
+      Haichao Miao, 
+      
+      Valerio Pascucci, 
+      
+      Shusen Liu
+
+
+Abstract:
+      
+        The recent introduction of multimodal large…
+        ▽ More
+
+
+        The recent introduction of multimodal large language models (MLLMs) combine the inherent power of large language models (LLMs) with the renewed capabilities to reason about the multimodal context. The potential usage scenarios for MLLMs significantly outpace their text-only counterparts. Many recent works in visualization have demonstrated MLLMs' capability to understand and interpret visualization results and explain the content of the visualization to users in natural language. In the machine learning community, the general vision capabilities of MLLMs have been evaluated and tested through various visual understanding benchmarks. However, the ability of MLLMs to accomplish specific visualization tasks based on visual perception has not been properly explored and evaluated, particularly, from a visualization-centric perspective.
+  In this work, we aim to fill the gap by utilizing the concept of visualization literacy to evaluate MLLMs. We assess MLLMs' performance over two popular visualization literacy evaluation datasets (VLAT and mini-VLAT). Under the framework of visualization literacy, we develop a general setup to compare different multimodal large language models (e.g., GPT4-o, Claude 3 Opus, Gemini 1.5 Pro) as well as against existing human baselines. Our study demonstrates MLLMs' competitive performance in visualization literacy, where they outperform humans in certain tasks such as identifying correlations, clusters, and hierarchical structures.
+        △ Less
+
+
+Submitted 24 June, 2024; 
+      originally announced July 2024.
+      
+    
+
+
+
+arXiv:2407.10870
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+cs.HC
+cs.LG
+
+
+
+      
+        GPT Sonograpy: Hand Gesture Decoding from Forearm Ultrasound Images via VLM
+      
+    
+
+Authors:
+Keshav Bimbraw, 
+      
+      Ye Wang, 
+      
+      Jing Liu, 
+      
+      Toshiaki Koike-Akino
+
+
+Abstract:
+      
+Large…
+        ▽ More
+
+
+Large vision-language models (LVLMs), such as the Generative Pre-trained Transformer 4-omni (GPT-4o), are emerging multi-modal foundation models which have great potential as powerful artificial-intelligence (AI) assistance tools for a myriad of applications, including healthcare, industrial, and academic sectors. Although such foundation models perform well in a wide range of general tasks, their capability without fine-tuning is often limited in specialized tasks. However, full fine-tuning of large foundation models is challenging due to enormous computation/memory/dataset requirements. We show that GPT-4o can decode hand gestures from forearm ultrasound data even with no fine-tuning, and improves with few-shot, in-context learning.
+        △ Less
+
+
+Submitted 15 July, 2024; 
+      originally announced July 2024.
+      
+    
+
+Comments:
+8 pages, 9 figures
+
+
+
+
+arXiv:2407.10380
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+cs.CL
+cs.IR
+
+
+
+      
+        NTSEBENCH: Cognitive Reasoning Benchmark for Vision Language Models
+
+
+Authors:
+Pranshu Pandya, 
+      
+      Agney S Talwarr, 
+      
+      Vatsal Gupta, 
+      
+      Tushar Kataria, 
+      
+      Vivek Gupta, 
+      
+      Dan Roth
+
+
+Abstract:
+      
+        …series, and analogies, demand the ability to quickly reason, decipher, and evaluate patterns both textually and spatially. While LLMs and VLMs, through extensive training on large amounts of human-curated data, have attained a high level of pseudo-human…
+        ▽ More
+
+
+        Cognitive textual and visual reasoning tasks, such as puzzles, series, and analogies, demand the ability to quickly reason, decipher, and evaluate patterns both textually and spatially. While LLMs and VLMs, through extensive training on large amounts of human-curated data, have attained a high level of pseudo-human intelligence in some common sense reasoning tasks, they still struggle with more complex reasoning tasks that require cognitive understanding. In this work, we introduce a new dataset, NTSEBench, designed to evaluate the cognitive multi-modal reasoning and problem-solving skills of large models. The dataset comprises 2,728 multiple-choice questions comprising of a total of 4,642 images across 26 categories sampled from the NTSE examination conducted nationwide in India, featuring both visual and textual general aptitude questions that do not rely on rote learning. We establish baselines on the dataset using state-of-the-art LLMs and VLMs. To facilitate a comparison between open source and propriety models, we propose four distinct modeling strategies to handle different modalities (text and images) in the dataset instances.
+        △ Less
+
+
+Submitted 14 July, 2024; 
+      originally announced July 2024.
+      
+    
+
+Comments:
+15 pages, 2 figures, 5 tables
+
+
+
+
+arXiv:2407.07311
+ [pdf] 
+
+
+cs.LG
+cs.AI
+cs.CV
+
+
+
+      
+        ViTime: A Visual Intelligence-Based Foundation Model for Time Series Forecasting
+      
+    
+
+Authors:
+Luoxiao Yang, 
+      
+      Yun Wang, 
+      
+      Xinqi Fan, 
+      
+      Israel Cohen, 
+      
+      Yue Zhao, 
+      
+      Zijun Zhang
+
+
+Abstract:
+      
+        The success of large pretrained…
+        ▽ More
+
+
+        The success of large pretrained models in natural language processing (NLP) and computer vision (CV) has opened new avenues for constructing foundation models for time series forecasting (TSF). Traditional TSF foundation models rely heavily on numerical data fitting. In contrast, the human brain is inherently skilled at processing visual information, prefer predicting future trends by observing visualized sequences. From a biomimetic perspective, utilizing models to directly process numerical sequences might not be the most effective route to achieving Artificial General Intelligence (AGI). This paper proposes ViTime, a novel Visual Intelligence-based foundation model for TSF. ViTime overcomes the limitations of numerical time series data fitting by utilizing visual data processing paradigms and employs a innovative data synthesis method during training, called Real Time Series (RealTS). Experiments on a diverse set of previously unseen forecasting datasets demonstrate that ViTime achieves state-of-the-art zero-shot performance, even surpassing the best individually trained supervised models in some situations. These findings suggest that visual intelligence can significantly enhance time series analysis and forecasting, paving the way for more advanced and versatile models in the field. The code for our framework is accessible at https://github.com/IkeYang/ViTime.
+        △ Less
+
+
+Submitted 9 July, 2024; 
+      originally announced July 2024.
+      
+    
+
+
+
+arXiv:2407.06189
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+
+
+
+      
+        Video-STaR: Self-Training Enables Video Instruction Tuning with Any Supervision
+      
+    
+
+Authors:
+Orr Zohar, 
+      
+      Xiaohan Wang, 
+      
+      Yonatan Bitton, 
+      
+      Idan Szpektor, 
+      
+      Serena Yeung-Levy
+
+
+Abstract:
+      
+        The performance of Large…
+        ▽ More
+
+
+        The performance of Large Vision Language Models (LVLMs) is dependent on the size and quality of their training datasets. Existing video instruction tuning datasets lack diversity as they are derived by prompting large language models with video captions to generate question-answer pairs, and are therefore mostly descriptive. Meanwhile, many labeled video datasets with diverse labels and supervision exist - however, we find that their integration into LVLMs is non-trivial. Herein, we present Video Self-Training with augmented Reasoning (Video-STaR), the first video self-training approach. Video-STaR allows the utilization of any labeled video dataset for video instruction tuning. In Video-STaR, an LVLM cycles between instruction generation and finetuning, which we show (I) improves general video understanding and (II) adapts LVLMs to novel downstream tasks with existing supervision. During generation, an LVLM is prompted to propose an answer. The answers are then filtered only to those that contain the original video labels, and the LVLM is then re-trained on the generated dataset. By only training on generated answers that contain the correct video labels, Video-STaR utilizes these existing video labels as weak supervision for video instruction tuning. Our results demonstrate that Video-STaR-enhanced LVLMs exhibit improved performance in (I) general video QA, where TempCompass performance improved by 10%, and (II) on downstream tasks, where Video-STaR improved Kinetics700-QA accuracy by 20% and action quality assessment on FineDiving by 15%.
+        △ Less
+
+
+Submitted 8 July, 2024; 
+      originally announced July 2024.
+      
+    
+
+Comments:
+Project page: https://orrzohar.github.io/projects/video-star/
+
+
+
+
+arXiv:2407.05758
+ [pdf, other] 
+
+
+eess.IV
+cs.AI
+cs.CV
+
+
+
+      
+        Potential of Multimodal Large Language Models for Data Mining of Medical Images and Free-text Reports
+      
+    
+
+Authors:
+Yutong Zhang, 
+      
+      Yi Pan, 
+      
+      Tianyang Zhong, 
+      
+      Peixin Dong, 
+      
+      Kangni Xie, 
+      
+      Yuxiao Liu, 
+      
+      Hanqi Jiang, 
+      
+      Zhengliang Liu, 
+      
+      Shijie Zhao, 
+      
+      Tuo Zhang, 
+      
+      Xi Jiang, 
+      
+      Dinggang Shen, 
+      
+      Tianming Liu, 
+      
+      Xin Zhang
+
+
+Abstract:
+      
+        …for clinical decision-making. However, the diversity and cross-source heterogeneity of these data challenge the generalizability of current data-mining methods. Multimodal large…
+        ▽ More
+
+
+        Medical images and radiology reports are crucial for diagnosing medical conditions, highlighting the importance of quantitative analysis for clinical decision-making. However, the diversity and cross-source heterogeneity of these data challenge the generalizability of current data-mining methods. Multimodal large language models (MLLMs) have recently transformed many domains, significantly affecting the medical field. Notably, Gemini-Vision-series (Gemini) and GPT-4-series (GPT-4) models have epitomized a paradigm shift in Artificial General Intelligence (AGI) for computer vision, showcasing their potential in the biomedical domain. In this study, we evaluated the performance of the Gemini, GPT-4, and 4 popular large models for an exhaustive evaluation across 14 medical imaging datasets, including 5 medical imaging categories (dermatology, radiology, dentistry, ophthalmology, and endoscopy), and 3 radiology report datasets. The investigated tasks encompass disease classification, lesion segmentation, anatomical localization, disease diagnosis, report generation, and lesion detection. Our experimental results demonstrated that Gemini-series models excelled in report generation and lesion detection but faces challenges in disease classification and anatomical localization. Conversely, GPT-series models exhibited proficiency in lesion segmentation and anatomical localization but encountered difficulties in disease diagnosis and lesion detection. Additionally, both the Gemini series and GPT series contain models that have demonstrated commendable generation efficiency. While both models hold promise in reducing physician workload, alleviating pressure on limited healthcare resources, and fostering collaboration between clinical practitioners and artificial intelligence technologies, substantial enhancements and comprehensive validations remain imperative before clinical deployment.
+        △ Less
+
+
+Submitted 8 July, 2024; 
+      originally announced July 2024.
+      
+    
+
+
+
+arXiv:2407.04973
+ [pdf, other] 
+
+
+cs.AI
+cs.CL
+cs.CV
+cs.LG
+
+
+
+      
+        LogicVista: Multimodal LLM Logical Reasoning Benchmark in Visual Contexts
+      
+    
+
+Authors:
+Yijia Xiao, 
+      
+      Edward Sun, 
+      
+      Tianyu Liu, 
+      
+      Wei Wang
+
+
+Abstract:
+      
+        We propose LogicVista, an evaluation benchmark that assesses the integrated logical reasoning capabilities of multimodal large…
+        ▽ More
+
+
+        We propose LogicVista, an evaluation benchmark that assesses the integrated logical reasoning capabilities of multimodal large language models (MLLMs) in Visual contexts. Recent advancements in MLLMs have demonstrated various fascinating abilities, from crafting poetry based on an image to performing mathematical reasoning. However, there is still a lack of systematic evaluation of MLLMs' proficiency in logical reasoning tasks, which are essential for activities like navigation and puzzle-solving. Thus we evaluate general logical cognition abilities across 5 logical reasoning tasks encompassing 9 different capabilities, using a sample of 448 multiple-choice questions. Each question is annotated with the correct answer and the human-written reasoning behind the selection, enabling both open-ended and multiple-choice evaluation. A total of 8 MLLMs are comprehensively evaluated using LogicVista. Code and Data Available at https://github.com/Yijia-Xiao/LogicVista.
+        △ Less
+
+
+Submitted 6 July, 2024; 
+      originally announced July 2024.
+      
+    
+
+Comments:
+LogicVista benchmarks the logical reasoning of multimodal large language models in visual tasks
+
+
+
+
+arXiv:2407.04106
+ [pdf, other] 
+
+
+cs.AI
+cs.CL
+cs.CV
+
+
+
+      
+        MiniGPT-Med: Large Language Model as a General Interface for Radiology Diagnosis
+      
+    
+
+Authors:
+Asma Alkhaldi, 
+      
+      Raneem Alnajim, 
+      
+      Layan Alabdullatef, 
+      
+      Rawan Alyahya, 
+      
+      Jun Chen, 
+      
+      Deyao Zhu, 
+      
+      Ahmed Alsinan, 
+      
+      Mohamed Elhoseiny
+
+
+Abstract:
+      
+        Recent advancements in artificial…
+        ▽ More
+
+
+        Recent advancements in artificial intelligence (AI) have precipitated significant breakthroughs in healthcare, particularly in refining diagnostic procedures. However, previous studies have often been constrained to limited functionalities. This study introduces MiniGPT-Med, a vision-language model derived from large-scale language models and tailored for medical applications. MiniGPT-Med demonstrates remarkable versatility across various imaging modalities, including X-rays, CT scans, and MRIs, enhancing its utility. The model is capable of performing tasks such as medical report generation, visual question answering (VQA), and disease identification within medical imagery. Its integrated processing of both image and textual clinical data markedly improves diagnostic accuracy. Our empirical assessments confirm MiniGPT-Med's superior performance in disease grounding, medical report generation, and VQA benchmarks, representing a significant step towards reducing the gap in assisting radiology practice. Furthermore, it achieves state-of-the-art performance on medical report generation, higher than the previous best model by 19\% accuracy. MiniGPT-Med promises to become a general interface for radiology diagnoses, enhancing diagnostic efficiency across a wide range of medical imaging applications.
+        △ Less
+
+
+Submitted 4 July, 2024; 
+      originally announced July 2024.
+      
+    
+
+
+
+arXiv:2407.02730
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+
+
+
+      
+        MedVH: Towards Systematic Evaluation of Hallucination for Large Vision Language Models in the Medical Context
+      
+    
+
+Authors:
+Zishan Gu, 
+      
+      Changchang Yin, 
+      
+      Fenglin Liu, 
+      
+      Ping Zhang
+
+
+Abstract:
+      
+Large…
+        ▽ More
+
+
+Large Vision Language Models (LVLMs) have recently achieved superior performance in various tasks on natural image and text data, which inspires a large amount of studies for LVLMs fine-tuning and training. Despite their advancements, there has been scant research on the robustness of these models against hallucination when fine-tuned on smaller datasets. In this study, we introduce a new benchmark dataset, the Medical Visual Hallucination Test (MedVH), to evaluate the hallucination of domain-specific LVLMs. MedVH comprises five tasks to evaluate hallucinations in LVLMs within the medical context, which includes tasks for comprehensive understanding of textual and visual input, as well as long textual response generation. Our extensive experiments with both general and medical LVLMs reveal that, although medical LVLMs demonstrate promising performance on standard medical tasks, they are particularly susceptible to hallucinations, often more so than the general models, raising significant concerns about the reliability of these domain-specific models. For medical LVLMs to be truly valuable in real-world applications, they must not only accurately integrate medical knowledge but also maintain robust reasoning abilities to prevent hallucination. Our work paves the way for future evaluations of these studies.
+        △ Less
+
+
+Submitted 2 July, 2024; 
+      originally announced July 2024.
+      
+    
+
+
+
+arXiv:2407.01920
+ [pdf, other] 
+
+
+cs.CL
+cs.AI
+cs.CV
+cs.LG
+cs.MM
+
+
+
+      
+        To Forget or Not? Towards Practical Knowledge Unlearning for Large Language Models
+
+
+Authors:
+Bozhong Tian, 
+      
+      Xiaozhuan Liang, 
+      
+      Siyuan Cheng, 
+      
+      Qingbin Liu, 
+      
+      Mengru Wang, 
+      
+      Dianbo Sui, 
+      
+      Xi Chen, 
+      
+      Huajun Chen, 
+      
+      Ningyu Zhang
+
+
+Abstract:
+      
+Large…
+        ▽ More
+
+
+Large Language Models (LLMs) trained on extensive corpora inevitably retain sensitive data, such as personal privacy information and copyrighted material. Recent advancements in knowledge unlearning involve updating LLM parameters to erase specific knowledge. However, current unlearning paradigms are mired in vague forgetting boundaries, often erasing knowledge indiscriminately. In this work, we introduce KnowUnDo, a benchmark containing copyrighted content and user privacy domains to evaluate if the unlearning process inadvertently erases essential knowledge. Our findings indicate that existing unlearning methods often suffer from excessive unlearning. To address this, we propose a simple yet effective method, MemFlex, which utilizes gradient information to precisely target and unlearn sensitive parameters. Experimental results show that MemFlex is superior to existing methods in both precise knowledge unlearning and general knowledge retaining of LLMs. Code and dataset will be released at https://github.com/zjunlp/KnowUnDo.
+        △ Less
+
+
+Submitted 1 July, 2024; 
+      originally announced July 2024.
+      
+    
+
+Comments:
+Work in progress
+
+
+
+
+arXiv:2406.20098
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+cs.CL
+
+
+
+      
+        Web2Code: A Large-scale Webpage-to-Code Dataset and Evaluation Framework for Multimodal LLMs
+      
+    
+
+Authors:
+Sukmin Yun, 
+      
+      Haokun Lin, 
+      
+      Rusiru Thushara, 
+      
+      Mohammad Qazim Bhat, 
+      
+      Yongxin Wang, 
+      
+      Zutao Jiang, 
+      
+      Mingkai Deng, 
+      
+      Jinhong Wang, 
+      
+      Tianhua Tao, 
+      
+      Junbo Li, 
+      
+      Haonan Li, 
+      
+      Preslav Nakov, 
+      
+      Timothy Baldwin, 
+      
+      Zhengzhong Liu, 
+      
+      Eric P. Xing, 
+      
+      Xiaodan Liang, 
+      
+      Zhiqiang Shen
+
+
+Abstract:
+      
+        Multimodal large…
+        ▽ More
+
+
+        Multimodal large language models (MLLMs) have shown impressive success across modalities such as image, video, and audio in a variety of understanding and generation tasks. However, current MLLMs are surprisingly poor at understanding webpage screenshots and generating their corresponding HTML code. To address this problem, we propose Web2Code, a benchmark consisting of a new large-scale webpage-to-code dataset for instruction tuning and an evaluation framework for the webpage understanding and HTML code translation abilities of MLLMs. For dataset construction, we leverage pretrained LLMs to enhance existing webpage-to-code datasets as well as generate a diverse pool of new webpages rendered into images. Specifically, the inputs are webpage images and instructions, while the responses are the webpage's HTML code. We further include diverse natural language QA pairs about the webpage content in the responses to enable a more comprehensive understanding of the web content. To evaluate model performance in these tasks, we develop an evaluation framework for testing MLLMs' abilities in webpage understanding and web-to-code generation. Extensive experiments show that our proposed dataset is beneficial not only to our proposed tasks but also in the general visual domain, while previous datasets result in worse performance. We hope our work will contribute to the development of general MLLMs suitable for web-based content generation and task automation. Our data and code will be available at https://github.com/MBZUAI-LLM/web2code.
+        △ Less
+
+
+Submitted 28 June, 2024; 
+      originally announced June 2024.
+      
+    
+
+Comments:
+Website at https://mbzuai-llm.github.io/webpage2code/
+
+
+
+
+arXiv:2406.18559
+ [pdf, other] 
+
+
+cs.HC
+cs.AI
+cs.CV
+cs.LG
+
+
+
+      
+        Revision Matters: Generative Design Guided by Revision Edits
+      
+    
+
+Authors:
+Tao Li, 
+      
+      Chin-Yi Cheng, 
+      
+      Amber Xie, 
+      
+      Gang Li, 
+      
+      Yang Li
+
+
+Abstract:
+      
+        Layout design, such as user interface or graphical layout in general, is fundamentally an iterative revision process. Through revising a design repeatedly, the designer converges on an ideal layout. In this paper, we investigate how revision edits from human designer can benefit a multimodal…
+        ▽ More
+
+
+        Layout design, such as user interface or graphical layout in general, is fundamentally an iterative revision process. Through revising a design repeatedly, the designer converges on an ideal layout. In this paper, we investigate how revision edits from human designer can benefit a multimodal generative model. To do so, we curate an expert dataset that traces how human designers iteratively edit and improve a layout generation with a prompted language goal. Based on such data, we explore various supervised fine-tuning task setups on top of a Gemini multimodal backbone, a large multimodal model. Our results show that human revision plays a critical role in iterative layout refinement. While being noisy, expert revision edits lead our model to a surprisingly strong design FID score ~10 which is close to human performance (~6). In contrast, self-revisions that fully rely on model's own judgement, lead to an echo chamber that prevents iterative improvement, and sometimes leads to generative degradation. Fortunately, we found that providing human guidance plays at early stage plays a critical role in final generation. In such human-in-the-loop scenario, our work paves the way for iterative design revision based on pre-trained large multimodal models.
+        △ Less
+
+
+Submitted 27 May, 2024; 
+      originally announced June 2024.
+      
+    
+
+
+
+arXiv:2406.16346
+ [pdf] 
+
+
+cs.CV
+cs.AI
+
+
+
+      
+        Directed Domain Fine-Tuning: Tailoring Separate Modalities for Specific Training Tasks
+      
+    
+
+Authors:
+Daniel Wen, 
+      
+      Nafisa Hussain
+
+
+Abstract:
+      
+Large…
+        ▽ More
+
+
+Large language models (LLMs) and large visual language models (LVLMs) have been at the forefront of the artificial intelligence field, particularly for tasks like text generation, video captioning, and question-answering. Typically, it is more applicable to train these models on broader knowledge bases or datasets to increase generalizability, learn relationships between topics, and recognize patterns. Instead, we propose to provide instructional datasets specific to the task of each modality within a distinct domain and then fine-tune the parameters of the model using LORA. With our approach, we can eliminate all noise irrelevant to the given task while also ensuring that the model generates with enhanced precision. For this work, we use Video-LLaVA to generate recipes given cooking videos without transcripts. Video-LLaVA's multimodal architecture allows us to provide cooking images to its image encoder, cooking videos to its video encoder, and general cooking questions to its text encoder. Thus, we aim to remove all noise unrelated to cooking while improving our model's capabilities to generate specific ingredient lists and detailed instructions. As a result, our approach to fine-tuning Video-LLaVA leads to gains over the baseline Video-LLaVA by 2% on the YouCook2 dataset. While this may seem like a marginal increase, our model trains on an image instruction dataset 2.5% the size of Video-LLaVA's and a video instruction dataset 23.76% of Video-LLaVA's.
+        △ Less
+
+
+Submitted 24 June, 2024; 
+      originally announced June 2024.
+      
+    
+
+ACM Class:
+          F.2.2; I.2.7
+        
+      
+
+
+
+arXiv:2406.12844
+ [pdf, other] 
+
+
+cs.LG
+cs.AI
+
+
+
+      
+        Synergizing Foundation Models and Federated Learning: A Survey
+      
+    
+
+Authors:
+Shenghui Li, 
+      
+      Fanghua Ye, 
+      
+      Meng Fang, 
+      
+      Jiaxu Zhao, 
+      
+      Yun-Hin Chan, 
+      
+      Edith C. -H. Ngai, 
+      
+      Thiemo Voigt
+
+
+Abstract:
+      
+        The recent development of Foundation Models (FMs), represented by…
+        ▽ More
+
+
+        The recent development of Foundation Models (FMs), represented by large language models, vision transformers, and multimodal models, has been making a significant impact on both academia and industry. Compared with small-scale models, FMs have a much stronger demand for high-volume data during the pre-training phase. Although general FMs can be pre-trained on data collected from open sources such as the Internet, domain-specific FMs need proprietary data, posing a practical challenge regarding the amount of data available due to privacy concerns. Federated Learning (FL) is a collaborative learning paradigm that breaks the barrier of data availability from different participants. Therefore, it provides a promising solution to customize and adapt FMs to a wide range of domain-specific tasks using distributed datasets whilst preserving privacy. This survey paper discusses the potentials and challenges of synergizing FL and FMs and summarizes core techniques, future directions, and applications. A periodically updated paper collection on FM-FL is available at https://github.com/lishenghui/awesome-fm-fl.
+        △ Less
+
+
+Submitted 18 June, 2024; 
+      originally announced June 2024.
+      
+    
+
+
+
+arXiv:2406.12718
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+cs.CL
+
+
+
+      
+        AGLA: Mitigating Object Hallucinations in Large Vision-Language Models with Assembly of Global and Local Attention
+      
+    
+
+Authors:
+Wenbin An, 
+      
+      Feng Tian, 
+      
+      Sicong Leng, 
+      
+      Jiahao Nie, 
+      
+      Haonan Lin, 
+      
+      QianYing Wang, 
+      
+      Guang Dai, 
+      
+      Ping Chen, 
+      
+      Shijian Lu
+
+
+Abstract:
+      
+        Despite their great success across various multimodal tasks, Large…
+        ▽ More
+
+
+        Despite their great success across various multimodal tasks, Large Vision-Language Models (LVLMs) are facing a prevalent problem with object hallucinations, where the generated textual responses are inconsistent with ground-truth objects in the given image. This paper investigates various LVLMs and pinpoints attention deficiency toward discriminative local image features as one root cause of object hallucinations. Specifically, LVLMs predominantly attend to prompt-independent global image features, while failing to capture prompt-relevant local features, consequently undermining the visual grounding capacity of LVLMs and leading to hallucinations. To this end, we propose Assembly of Global and Local Attention (AGLA), a training-free and plug-and-play approach that mitigates object hallucinations by exploring an ensemble of global features for response generation and local features for visual discrimination simultaneously. Our approach exhibits an image-prompt matching scheme that captures prompt-relevant local features from images, leading to an augmented view of the input image where prompt-relevant content is reserved while irrelevant distractions are masked. With the augmented view, a calibrated decoding distribution can be derived by integrating generative global features from the original image and discriminative local features from the augmented image. Extensive experiments show that AGLA consistently mitigates object hallucinations and enhances general perception capability for LVLMs across various discriminative and generative benchmarks. Our code will be released at https://github.com/Lackel/AGLA.
+        △ Less
+
+
+Submitted 21 June, 2024; v1 submitted 18 June, 2024;
+      originally announced June 2024.
+      
+    
+
+
+
+arXiv:2406.11775
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+
+
+
+      
+        Task Me Anything
+      
+    
+
+Authors:
+Jieyu Zhang, 
+      
+      Weikai Huang, 
+      
+      Zixian Ma, 
+      
+      Oscar Michel, 
+      
+      Dong He, 
+      
+      Tanmay Gupta, 
+      
+      Wei-Chiu Ma, 
+      
+      Ali Farhadi, 
+      
+      Aniruddha Kembhavi, 
+      
+      Ranjay Krishna
+
+
+Abstract:
+      
+        Benchmarks for large multimodal…
+        ▽ More
+
+
+        Benchmarks for large multimodal language models (MLMs) now serve to simultaneously assess the general capabilities of models instead of evaluating for a specific capability. As a result, when a developer wants to identify which models to use for their application, they are overwhelmed by the number of benchmarks and remain uncertain about which benchmark's results are most reflective of their specific use case. This paper introduces Task-Me-Anything, a benchmark generation engine which produces a benchmark tailored to a user's needs. Task-Me-Anything maintains an extendable taxonomy of visual assets and can programmatically generate a vast number of task instances. Additionally, it algorithmically addresses user queries regarding MLM performance efficiently within a computational budget. It contains 113K images, 10K videos, 2K 3D object assets, over 365 object categories, 655 attributes, and 335 relationships. It can generate 750M image/video question-answering pairs, which focus on evaluating MLM perceptual capabilities. Task-Me-Anything reveals critical insights: open-source MLMs excel in object and attribute recognition but lack spatial and temporal understanding; each model exhibits unique strengths and weaknesses; larger models generally perform better, though exceptions exist; and GPT4o demonstrates challenges in recognizing rotating/moving objects and distinguishing colors.
+        △ Less
+
+
+Submitted 17 June, 2024; 
+      originally announced June 2024.
+      
+    
+
+Comments:
+website: https://www.task-me-anything.org
+
+
+
+
+arXiv:2406.10057
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+
+
+
+      
+        First Multi-Dimensional Evaluation of Flowchart Comprehension for Multimodal Large Language Models
+
+
+Authors:
+Enming Zhang, 
+      
+      Ruobing Yao, 
+      
+      Huanyong Liu, 
+      
+      Junhui Yu, 
+      
+      Jiale Wang
+
+
+Abstract:
+      
+        With the development of Multimodal Large…
+        ▽ More
+
+
+        With the development of Multimodal Large Language Models (MLLMs) technology, its general capabilities are increasingly powerful. To evaluate the various abilities of MLLMs, numerous evaluation systems have emerged. But now there is still a lack of a comprehensive method to evaluate MLLMs in the tasks related to flowcharts, which are very important in daily life and work. We propose the first comprehensive method, FlowCE, to assess MLLMs across various dimensions for tasks related to flowcharts. It encompasses evaluating MLLMs' abilities in Reasoning, Localization Recognition, Information Extraction, Logical Verification, and Summarization on flowcharts. However, we find that even the GPT4o model achieves only a score of 56.63. Among open-source models, Phi-3-Vision obtained the highest score of 49.97. We hope that FlowCE can contribute to future research on MLLMs for tasks based on flowcharts. \url{https://github.com/360AILAB-NLP/FlowCE} \end{abstract}
+        △ Less
+
+
+Submitted 18 June, 2024; v1 submitted 14 June, 2024;
+      originally announced June 2024.
+      
+    
+
+
+
+arXiv:2406.09961
+ [pdf, other] 
+
+
+cs.SE
+cs.CL
+cs.CV
+
+
+
+      
+        ChartMimic: Evaluating LMM's Cross-Modal Reasoning Capability via Chart-to-Code Generation
+
+
+Authors:
+Chufan Shi, 
+      
+      Cheng Yang, 
+      
+      Yaxin Liu, 
+      
+      Bo Shui, 
+      
+      Junjie Wang, 
+      
+      Mohan Jing, 
+      
+      Linran Xu, 
+      
+      Xinyu Zhu, 
+      
+      Siheng Li, 
+      
+      Yuxiang Zhang, 
+      
+      Gongye Liu, 
+      
+      Xiaomei Nie, 
+      
+      Deng Cai, 
+      
+      Yujiu Yang
+
+
+Abstract:
+      
+        We introduce a new benchmark, ChartMimic, aimed at assessing the visually-grounded code generation capabilities of…
+        ▽ More
+
+
+        We introduce a new benchmark, ChartMimic, aimed at assessing the visually-grounded code generation capabilities of large multimodal models (LMMs). ChartMimic utilizes information-intensive visual charts and textual instructions as inputs, requiring LMMs to generate the corresponding code for chart rendering. ChartMimic includes 1,000 human-curated (figure, instruction, code) triplets, which represent the authentic chart use cases found in scientific papers across various domains(e.g., Physics, Computer Science, Economics, etc). These charts span 18 regular types and 4 advanced types, diversifying into 191 subcategories. Furthermore, we propose multi-level evaluation metrics to provide an automatic and thorough assessment of the output code and the rendered charts. Unlike existing code generation benchmarks, ChartMimic places emphasis on evaluating LMMs' capacity to harmonize a blend of cognitive capabilities, encompassing visual understanding, code generation, and cross-modal reasoning. The evaluation of 3 proprietary models and 11 open-weight models highlights the substantial challenges posed by ChartMimic. Even the advanced GPT-4V, Claude-3-opus only achieve an average score of 73.2 and 53.7, respectively, indicating significant room for improvement. We anticipate that ChartMimic will inspire the development of LMMs, advancing the pursuit of artificial general intelligence.
+        △ Less
+
+
+Submitted 14 June, 2024; 
+      originally announced June 2024.
+      
+    
+
+Comments:
+Data and code are available at https://github.com/ChartMimic/ChartMimic
+
+
+
+
+arXiv:2406.09455
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+cs.CL
+
+
+
+      
+        Pandora: Towards General World Model with Natural Language Actions and Video States
+      
+    
+
+Authors:
+Jiannan Xiang, 
+      
+      Guangyi Liu, 
+      
+      Yi Gu, 
+      
+      Qiyue Gao, 
+      
+      Yuting Ning, 
+      
+      Yuheng Zha, 
+      
+      Zeyu Feng, 
+      
+      Tianhua Tao, 
+      
+      Shibo Hao, 
+      
+      Yemin Shi, 
+      
+      Zhengzhong Liu, 
+      
+      Eric P. Xing, 
+      
+      Zhiting Hu
+
+
+Abstract:
+      
+        World models simulate future states of the world in response to different actions. They facilitate interactive content creation and provides a foundation for grounded, long-horizon reasoning. Current foundation…
+        ▽ More
+
+
+        World models simulate future states of the world in response to different actions. They facilitate interactive content creation and provides a foundation for grounded, long-horizon reasoning. Current foundation models do not fully meet the capabilities of general world models: large language models (LLMs) are constrained by their reliance on language modality and their limited understanding of the physical world, while video models lack interactive action control over the world simulations. This paper makes a step towards building a general world model by introducing Pandora, a hybrid autoregressive-diffusion model that simulates world states by generating videos and allows real-time control with free-text actions. Pandora achieves domain generality, video consistency, and controllability through large-scale pretraining and instruction tuning. Crucially, Pandora bypasses the cost of training-from-scratch by integrating a pretrained LLM (7B) and a pretrained video model, requiring only additional lightweight finetuning. We illustrate extensive outputs by Pandora across diverse domains (indoor/outdoor, natural/urban, human/robot, 2D/3D, etc.). The results indicate great potential of building stronger general world models with larger-scale training.
+        △ Less
+
+
+Submitted 12 June, 2024; 
+      originally announced June 2024.
+      
+    
+
+Comments:
+Website: https://world-model.maitrix.org/
+
+
+
+
+arXiv:2406.09397
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+
+
+
+      
+        Aligning Vision Models with Human Aesthetics in Retrieval: Benchmarks and Algorithms
+      
+    
+
+Authors:
+Miaosen Zhang, 
+      
+      Yixuan Wei, 
+      
+      Zhen Xing, 
+      
+      Yifei Ma, 
+      
+      Zuxuan Wu, 
+      
+      Ji Li, 
+      
+      Zheng Zhang, 
+      
+      Qi Dai, 
+      
+      Chong Luo, 
+      
+      Xin Geng, 
+      
+      Baining Guo
+
+
+Abstract:
+      
+        Modern vision…
+        ▽ More
+
+
+        Modern vision models are trained on very large noisy datasets. While these models acquire strong capabilities, they may not follow the user's intent to output the desired results in certain aspects, e.g., visual aesthetic, preferred style, and responsibility. In this paper, we target the realm of visual aesthetics and aim to align vision models with human aesthetic standards in a retrieval system. Advanced retrieval systems usually adopt a cascade of aesthetic models as re-rankers or filters, which are limited to low-level features like saturation and perform poorly when stylistic, cultural or knowledge contexts are involved. We find that utilizing the reasoning ability of large language models (LLMs) to rephrase the search query and extend the aesthetic expectations can make up for this shortcoming. Based on the above findings, we propose a preference-based reinforcement learning method that fine-tunes the vision models to distill the knowledge from both LLMs reasoning and the aesthetic models to better align the vision models with human aesthetics. Meanwhile, with rare benchmarks designed for evaluating retrieval systems, we leverage large multi-modality model (LMM) to evaluate the aesthetic performance with their strong abilities. As aesthetic assessment is one of the most subjective tasks, to validate the robustness of LMM, we further propose a novel dataset named HPIR to benchmark the alignment with human aesthetics. Experiments demonstrate that our method significantly enhances the aesthetic behaviors of the vision models, under several metrics. We believe the proposed algorithm can be a general practice for aligning vision models with human values.
+        △ Less
+
+
+Submitted 13 June, 2024; 
+      originally announced June 2024.
+      
+    
+
+Comments:
+28 pages, 26 figures, under review
+
+
+
+
+arXiv:2406.09105
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+cs.CL
+cs.LG
+
+
+
+      
+        INS-MMBench: A Comprehensive Benchmark for Evaluating LVLMs' Performance in Insurance
+      
+    
+
+Authors:
+Chenwei Lin, 
+      
+      Hanjia Lyu, 
+      
+      Xian Xu, 
+      
+      Jiebo Luo
+
+
+Abstract:
+      
+Large…
+        ▽ More
+
+
+Large Vision-Language Models (LVLMs) have demonstrated outstanding performance in various general multimodal applications such as image recognition and visual reasoning, and have also shown promising potential in specialized domains. However, the application potential of LVLMs in the insurance domain-characterized by rich application scenarios and abundant multimodal data-has not been effectively explored. There is no systematic review of multimodal tasks in the insurance domain, nor a benchmark specifically designed to evaluate the capabilities of LVLMs in insurance. This gap hinders the development of LVLMs within the insurance domain. In this paper, we systematically review and distill multimodal tasks for four representative types of insurance: auto insurance, property insurance, health insurance, and agricultural insurance. We propose INS-MMBench, the first comprehensive LVLMs benchmark tailored for the insurance domain. INS-MMBench comprises a total of 2.2K thoroughly designed multiple-choice questions, covering 12 meta-tasks and 22 fundamental tasks. Furthermore, we evaluate multiple representative LVLMs, including closed-source models such as GPT-4o and open-source models like BLIP-2. This evaluation not only validates the effectiveness of our benchmark but also provides an in-depth performance analysis of current LVLMs on various multimodal tasks in the insurance domain. We hope that INS-MMBench will facilitate the further application of LVLMs in the insurance domain and inspire interdisciplinary development. Our dataset and evaluation code are available at https://github.com/FDU-INS/INS-MMBench.
+        △ Less
+
+
+Submitted 13 June, 2024; 
+      originally announced June 2024.
+      
+    
+
+
+
+arXiv:2406.06637
+ [pdf, other] 
+
+
+cs.SE
+cs.AI
+
+
+
+      
+        Exploring the Efficacy of Large Language Models (GPT-4) in Binary Reverse Engineering
+      
+    
+
+Authors:
+Saman Pordanesh, 
+      
+      Benjamin Tan
+
+
+Abstract:
+      
+        This study investigates the capabilities of Large…
+        ▽ More
+
+
+        This study investigates the capabilities of Large Language Models (LLMs), specifically GPT-4, in the context of Binary Reverse Engineering (RE). Employing a structured experimental approach, we analyzed the LLM's performance in interpreting and explaining human-written and decompiled codes. The research encompassed two phases: the first on basic code interpretation and the second on more complex malware analysis. Key findings indicate LLMs' proficiency in general code understanding, with varying effectiveness in detailed technical and security analyses. The study underscores the potential and current limitations of LLMs in reverse engineering, revealing crucial insights for future applications and improvements. Also, we examined our experimental methodologies, such as methods of evaluation and data constraints, which provided us with a technical vision for any future research activity in this field.
+        △ Less
+
+
+Submitted 9 June, 2024; 
+      originally announced June 2024.
+      
+    
+
+
+
+arXiv:2406.06512
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+
+
+
+      
+        Merlin: A Vision Language Foundation Model for 3D Computed Tomography
+      
+    
+
+Authors:
+Louis Blankemeier, 
+      
+      Joseph Paul Cohen, 
+      
+      Ashwin Kumar, 
+      
+      Dave Van Veen, 
+      
+      Syed Jamal Safdar Gardezi, 
+      
+      Magdalini Paschali, 
+      
+      Zhihong Chen, 
+      
+      Jean-Benoit Delbrouck, 
+      
+      Eduardo Reis, 
+      
+      Cesar Truyts, 
+      
+      Christian Bluethgen, 
+      
+      Malte Engmann Kjeldskov Jensen, 
+      
+      Sophie Ostmeier, 
+      
+      Maya Varma, 
+      
+      Jeya Maria Jose Valanarasu, 
+      
+      Zhongnan Fang, 
+      
+      Zepeng Huo, 
+      
+      Zaid Nabulsi, 
+      
+      Diego Ardila, 
+      
+      Wei-Hung Weng, 
+      
+      Edson Amaro Junior, 
+      
+      Neera Ahuja, 
+      
+      Jason Fries, 
+      
+      Nigam H. Shah, 
+      
+      Andrew Johnston
+      , et al. (6 additional authors not shown)
+    
+
+Abstract:
+      
+        Over 85 million computed tomography (CT) scans are performed annually in the US, of which approximately one quarter focus on the abdomen. Given the current radiologist shortage, there is a…
+        ▽ More
+
+
+        Over 85 million computed tomography (CT) scans are performed annually in the US, of which approximately one quarter focus on the abdomen. Given the current radiologist shortage, there is a large impetus to use artificial intelligence to alleviate the burden of interpreting these complex imaging studies. Prior state-of-the-art approaches for automated medical image interpretation leverage vision language models (VLMs). However, current medical VLMs are generally limited to 2D images and short reports, and do not leverage electronic health record (EHR) data for supervision. We introduce Merlin - a 3D VLM that we train using paired CT scans (6+ million images from 15,331 CTs), EHR diagnosis codes (1.8+ million codes), and radiology reports (6+ million tokens). We evaluate Merlin on 6 task types and 752 individual tasks. The non-adapted (off-the-shelf) tasks include zero-shot findings classification (31 findings), phenotype classification (692 phenotypes), and zero-shot cross-modal retrieval (image to findings and image to impressions), while model adapted tasks include 5-year disease prediction (6 diseases), radiology report generation, and 3D semantic segmentation (20 organs). We perform internal validation on a test set of 5,137 CTs, and external validation on 7,000 clinical CTs and on two public CT datasets (VerSe, TotalSegmentator). Beyond these clinically-relevant evaluations, we assess the efficacy of various network architectures and training strategies to depict that Merlin has favorable performance to existing task-specific baselines. We derive data scaling laws to empirically assess training data needs for requisite downstream task performance. Furthermore, unlike conventional VLMs that require hundreds of GPUs for training, we perform all training on a single GPU.
+        △ Less
+
+
+Submitted 10 June, 2024; 
+      originally announced June 2024.
+      
+    
+
+Comments:
+18 pages, 7 figures
+
+
+
+
+arXiv:2406.06465
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+cs.CL
+cs.LG
+cs.MM
+
+
+
+      
+        AID: Adapting Image2Video Diffusion Models for Instruction-guided Video Prediction
+      
+    
+
+Authors:
+Zhen Xing, 
+      
+      Qi Dai, 
+      
+      Zejia Weng, 
+      
+      Zuxuan Wu, 
+      
+      Yu-Gang Jiang
+
+
+Abstract:
+      
+        …However, they struggle with frame consistency and temporal stability primarily due to the limited scale of video datasets. We observe that pretrained Image2Video diffusion models possess good priors for video dynamics but they lack textual control. Hence, transferring Image2Video…
+        ▽ More
+
+
+        Text-guided video prediction (TVP) involves predicting the motion of future frames from the initial frame according to an instruction, which has wide applications in virtual reality, robotics, and content creation. Previous TVP methods make significant breakthroughs by adapting Stable Diffusion for this task. However, they struggle with frame consistency and temporal stability primarily due to the limited scale of video datasets. We observe that pretrained Image2Video diffusion models possess good priors for video dynamics but they lack textual control. Hence, transferring Image2Video models to leverage their video dynamic priors while injecting instruction control to generate controllable videos is both a meaningful and challenging task. To achieve this, we introduce the Multi-Modal Large Language Model (MLLM) to predict future video states based on initial frames and text instructions. More specifically, we design a dual query transformer (DQFormer) architecture, which integrates the instructions and frames into the conditional embeddings for future frame prediction. Additionally, we develop Long-Short Term Temporal Adapters and Spatial Adapters that can quickly transfer general video diffusion models to specific scenarios with minimal training costs. Experimental results show that our method significantly outperforms state-of-the-art techniques on four datasets: Something Something V2, Epic Kitchen-100, Bridge Data, and UCF-101. Notably, AID achieves 91.2% and 55.5% FVD improvements on Bridge and SSv2 respectively, demonstrating its effectiveness in various domains. More examples can be found at our website https://chenhsing.github.io/AID.
+        △ Less
+
+
+Submitted 10 June, 2024; 
+      originally announced June 2024.
+      
+    
+
+
+
+arXiv:2406.05862
+ [pdf, other] 
+
+
+cs.CL
+cs.AI
+cs.CV
+
+
+
+      
+        II-Bench: An Image Implication Understanding Benchmark for Multimodal Large Language Models
+
+
+Authors:
+Ziqiang Liu, 
+      
+      Feiteng Fang, 
+      
+      Xi Feng, 
+      
+      Xinrun Du, 
+      
+      Chenhao Zhang, 
+      
+      Zekun Wang, 
+      
+      Yuelin Bai, 
+      
+      Qixuan Zhao, 
+      
+      Liyang Fan, 
+      
+      Chengguang Gan, 
+      
+      Hongquan Lin, 
+      
+      Jiaming Li, 
+      
+      Yuansheng Ni, 
+      
+      Haihong Wu, 
+      
+      Yaswanth Narsupalli, 
+      
+      Zhigang Zheng, 
+      
+      Chengming Li, 
+      
+      Xiping Hu, 
+      
+      Ruifeng Xu, 
+      
+      Xiaojun Chen, 
+      
+      Min Yang, 
+      
+      Jiaheng Liu, 
+      
+      Ruibo Liu, 
+      
+      Wenhao Huang, 
+      
+      Ge Zhang
+      , et al. (1 additional authors not shown)
+    
+
+Abstract:
+      
+        The rapid advancements in the development of multimodal large…
+        ▽ More
+
+
+        The rapid advancements in the development of multimodal large language models (MLLMs) have consistently led to new breakthroughs on various benchmarks. In response, numerous challenging and comprehensive benchmarks have been proposed to more accurately assess the capabilities of MLLMs. However, there is a dearth of exploration of the higher-order perceptual capabilities of MLLMs. To fill this gap, we propose the Image Implication understanding Benchmark, II-Bench, which aims to evaluate the model's higher-order perception of images. Through extensive experiments on II-Bench across multiple MLLMs, we have made significant findings. Initially, a substantial gap is observed between the performance of MLLMs and humans on II-Bench. The pinnacle accuracy of MLLMs attains 74.8%, whereas human accuracy averages 90%, peaking at an impressive 98%. Subsequently, MLLMs perform worse on abstract and complex images, suggesting limitations in their ability to understand high-level semantics and capture image details. Finally, it is observed that most models exhibit enhanced accuracy when image sentiment polarity hints are incorporated into the prompts. This observation underscores a notable deficiency in their inherent understanding of image sentiment. We believe that II-Bench will inspire the community to develop the next generation of MLLMs, advancing the journey towards expert artificial general intelligence (AGI). II-Bench is publicly available at https://huggingface.co/datasets/m-a-p/II-Bench.
+        △ Less
+
+
+Submitted 11 June, 2024; v1 submitted 9 June, 2024;
+      originally announced June 2024.
+      
+    
+
+Comments:
+100 pages, 82 figures, add citations
+
+
+
+
+arXiv:2406.02539
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+cs.CL
+cs.LG
+
+
+
+      
+        Parrot: Multilingual Visual Instruction Tuning
+      
+    
+
+Authors:
+Hai-Long Sun, 
+      
+      Da-Wei Zhou, 
+      
+      Yang Li, 
+      
+      Shiyin Lu, 
+      
+      Chao Yi, 
+      
+      Qing-Guo Chen, 
+      
+      Zhao Xu, 
+      
+      Weihua Luo, 
+      
+      Kaifu Zhang, 
+      
+      De-Chuan Zhan, 
+      
+      Han-Jia Ye
+
+
+Abstract:
+      
+        The rapid development of Multimodal Large…
+        ▽ More
+
+
+        The rapid development of Multimodal Large Language Models (MLLMs) like GPT-4V has marked a significant step towards artificial general intelligence. Existing methods mainly focus on aligning vision encoders with LLMs through supervised fine-tuning (SFT) to endow LLMs with multimodal abilities, making MLLMs' inherent ability to react to multiple languages progressively deteriorate as the training process evolves. We empirically find that the imbalanced SFT datasets, primarily composed of English-centric image-text pairs, lead to significantly reduced performance in non-English languages. This is due to the failure of aligning the vision encoder and LLM with multilingual tokens during the SFT process. In this paper, we introduce Parrot, a novel method that utilizes textual guidance to drive visual token alignment at the language level. Parrot makes the visual tokens condition on diverse language inputs and uses Mixture-of-Experts (MoE) to promote the alignment of multilingual tokens. Specifically, to enhance non-English visual tokens alignment, we compute the cross-attention using the initial visual features and textual embeddings, the result of which is then fed into the MoE router to select the most relevant experts. The selected experts subsequently convert the initial visual tokens into language-specific visual tokens. Moreover, considering the current lack of benchmarks for evaluating multilingual capabilities within the field, we collect and make available a Massive Multilingual Multimodal Benchmark which includes 6 languages, 15 categories, and 12,000 questions, named as MMMB. Our method not only demonstrates state-of-the-art performance on multilingual MMBench and MMMB, but also excels across a broad range of multimodal tasks. Both the source code and the training dataset of Parrot will be made publicly available.
+        △ Less
+
+
+Submitted 4 June, 2024; 
+      originally announced June 2024.
+      
+    
+
+
+
+arXiv:2406.00977
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+
+
+
+      
+        Dragonfly: Multi-Resolution Zoom Supercharges Large Visual-Language Model
+
+
+Authors:
+Kezhen Chen, 
+      
+      Rahul Thapa, 
+      
+      Rahul Chalamala, 
+      
+      Ben Athiwaratkun, 
+      
+      Shuaiwen Leon Song, 
+      
+      James Zou
+
+
+Abstract:
+      
+        Recent advances in large multimodal…
+        ▽ More
+
+
+        Recent advances in large multimodal models (LMMs) suggest that higher image resolution enhances the fine-grained understanding of image details, crucial for tasks such as visual commonsense reasoning and analyzing biomedical images. However, increasing input resolution poses two main challenges: 1) It extends the context length required by the language model, leading to inefficiencies and hitting the model's context limit; 2) It increases the complexity of visual features, necessitating more training data or more complex architecture. We introduce Dragonfly, a new LMM architecture that enhances fine-grained visual understanding and reasoning about image regions to address these challenges. Dragonfly employs two key strategies: multi-resolution visual encoding and zoom-in patch selection. These strategies allow the model to process high-resolution images efficiently while maintaining reasonable context length. Our experiments on eight popular benchmarks demonstrate that Dragonfly achieves competitive or better performance compared to other architectures, highlighting the effectiveness of our design. Additionally, we finetuned Dragonfly on biomedical instructions, achieving state-of-the-art results on multiple biomedical tasks requiring fine-grained visual understanding, including 92.3% accuracy on the Path-VQA dataset (compared to 83.3% for Med-Gemini) and the highest reported results on biomedical image captioning. To support model training, we curated a visual instruction-tuning dataset with 5.5 million image-instruction samples in the general domain and 1.4 million samples in the biomedical domain. We also conducted ablation studies to characterize the impact of various architectural designs and image resolutions, providing insights for future research on visual instruction alignment. The codebase and model are available at https://github.com/togethercomputer/Dragonfly.
+        △ Less
+
+
+Submitted 3 June, 2024; 
+      originally announced June 2024.
+      
+    
+
+
+
+arXiv:2406.00594
+ [pdf] 
+
+
+cs.IT
+
+
+
+Artificial General Intelligence (AGI) for the oil and gas industry: a review
+      
+    
+
+Authors:
+Jimmy Xuekai Li, 
+      
+      Tiancheng Zhang, 
+      
+      Yiran Zhu, 
+      
+      Zhongwei Chen
+
+
+Abstract:
+      
+Artificial…
+        ▽ More
+
+
+Artificial General Intelligence (AGI) is set to profoundly impact the oil and gas industry by introducing unprecedented efficiencies and innovations. This paper explores AGI's foundational principles and its transformative applications, particularly focusing on the advancements brought about by large language models (LLMs) and extensive computer vision systems in the upstream sectors of the industry. The integration of Artificial Intelligence (AI) has already begun reshaping the oil and gas landscape, offering enhancements in production optimization, downtime reduction, safety improvements, and advancements in exploration and drilling techniques. These technologies streamline logistics, minimize maintenance costs, automate monotonous tasks, refine decision-making processes, foster team collaboration, and amplify profitability through error reduction and actionable insights extraction. Despite these advancements, the deployment of AI technologies faces challenges, including the necessity for skilled professionals for implementation and the limitations of model training on constrained datasets, which affects the models' adaptability across different contexts. The advent of generative AI, exemplified by innovations like ChatGPT and the Segment Anything Model (SAM), heralds a new era of high-density innovation. These developments highlight a shift towards natural language interfaces and domain-knowledge-driven AI, promising more accessible and tailored solutions for the oil and gas industry. This review articulates the vast potential AGI holds for tackling complex operational challenges within the upstream oil and gas industry, requiring near-human levels of intelligence. We discussed the promising applications, the hurdles of large-scale AGI model deployment, and the necessity for domain-specific knowledge in maximizing the benefits of these technologies.
+        △ Less
+
+
+Submitted 11 June, 2024; v1 submitted 1 June, 2024;
+      originally announced June 2024.
+      
+    
+
+Comments:
+20 Pages, Review paper, 15 Figures
+
+
+
+
+arXiv:2405.21075
+ [pdf, other] 
+
+
+cs.CV
+cs.CL
+
+
+
+      
+        Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis
+      
+    
+
+Authors:
+Chaoyou Fu, 
+      
+      Yuhan Dai, 
+      
+      Yongdong Luo, 
+      
+      Lei Li, 
+      
+      Shuhuai Ren, 
+      
+      Renrui Zhang, 
+      
+      Zihan Wang, 
+      
+      Chenyu Zhou, 
+      
+      Yunhang Shen, 
+      
+      Mengdan Zhang, 
+      
+      Peixian Chen, 
+      
+      Yanwei Li, 
+      
+      Shaohui Lin, 
+      
+      Sirui Zhao, 
+      
+      Ke Li, 
+      
+      Tong Xu, 
+      
+      Xiawu Zheng, 
+      
+      Enhong Chen, 
+      
+      Rongrong Ji, 
+      
+      Xing Sun
+
+
+Abstract:
+      
+        In the quest for artificial…
+        ▽ More
+
+
+        In the quest for artificial general intelligence, Multi-modal Large Language Models (MLLMs) have emerged as a focal point in recent advancements. However, the predominant focus remains on developing their capabilities in static image understanding. The potential of MLLMs in processing sequential visual data is still insufficiently explored, highlighting the absence of a comprehensive, high-quality assessment of their performance. In this paper, we introduce Video-MME, the first-ever full-spectrum, Multi-Modal Evaluation benchmark of MLLMs in Video analysis. Our work distinguishes from existing benchmarks through four key features: 1) Diversity in video types, spanning 6 primary visual domains with 30 subfields to ensure broad scenario generalizability; 2) Duration in temporal dimension, encompassing both short-, medium-, and long-term videos, ranging from 11 seconds to 1 hour, for robust contextual dynamics; 3) Breadth in data modalities, integrating multi-modal inputs besides video frames, including subtitles and audios, to unveil the all-round capabilities of MLLMs; 4) Quality in annotations, utilizing rigorous manual labeling by expert annotators to facilitate precise and reliable model assessment. 900 videos with a total of 254 hours are manually selected and annotated by repeatedly viewing all the video content, resulting in 2,700 question-answer pairs. With Video-MME, we extensively evaluate various state-of-the-art MLLMs, including GPT-4 series and Gemini 1.5 Pro, as well as open-source image models like InternVL-Chat-V1.5 and video models like LLaVA-NeXT-Video. Our experiments reveal that Gemini 1.5 Pro is the best-performing commercial model, significantly outperforming the open-source models. Our dataset along with these findings underscores the need for further improvements in handling longer sequences and multi-modal data. Project Page: https://video-mme.github.io
+        △ Less
+
+
+Submitted 16 June, 2024; v1 submitted 31 May, 2024;
+      originally announced May 2024.
+      
+    
+
+Comments:
+Project Page: https://video-mme.github.io
+
+
+
+
+arXiv:2405.20245
+ [pdf, other] 
+
+
+cs.CL
+cs.AI
+cs.IR
+cs.LG
+
+
+
+      
+        Retrieval Augmented Structured Generation: Business Document Information Extraction As Tool Use
+      
+    
+
+Authors:
+Franz Louis Cesista, 
+      
+      Rui Aguiar, 
+      
+      Jason Kim, 
+      
+      Paolo Acilo
+
+
+Abstract:
+      
+        …that downstream systems can parse and use. It has two main tasks: Key-Information Extraction (KIE) and Line Items Recognition (LIR). In this paper, we argue that BDIE is best modeled as a Tool Use problem, where the tools are these downstream systems. We then present Retrieval Augmented Structured…
+        ▽ More
+
+
+        Business Document Information Extraction (BDIE) is the problem of transforming a blob of unstructured information (raw text, scanned documents, etc.) into a structured format that downstream systems can parse and use. It has two main tasks: Key-Information Extraction (KIE) and Line Items Recognition (LIR). In this paper, we argue that BDIE is best modeled as a Tool Use problem, where the tools are these downstream systems. We then present Retrieval Augmented Structured Generation (RASG), a novel general framework for BDIE that achieves state of the art (SOTA) results on both KIE and LIR tasks on BDIE benchmarks.
+  The contributions of this paper are threefold: (1) We show, with ablation benchmarks, that Large Language Models (LLMs) with RASG are already competitive with or surpasses current SOTA Large Multimodal Models (LMMs) without RASG on BDIE benchmarks. (2) We propose a new metric class for Line Items Recognition, General Line Items Recognition Metric (GLIRM), that is more aligned with practical BDIE use cases compared to existing metrics, such as ANLS*, DocILE, and GriTS. (3) We provide a heuristic algorithm for backcalculating bounding boxes of predicted line items and tables without the need for vision encoders. Finally, we claim that, while LMMs might sometimes offer marginal performance benefits, LLMs + RASG is oftentimes superior given real-world applications and constraints of BDIE.
+        △ Less
+
+
+Submitted 30 May, 2024; 
+      originally announced May 2024.
+      
+    
+
+Comments:
+Accepted by IEEE 7th International Conference on Multimedia Information Processing and Retrieval (MIPR), 2024
+
+
+
+
+arXiv:2405.14129
+ [pdf, other] 
+
+
+cs.CL
+cs.AI
+cs.CV
+
+
+
+      
+        AlignGPT: Multi-modal Large Language Models with Adaptive Alignment Capability
+      
+    
+
+Authors:
+Fei Zhao, 
+      
+      Taotian Pang, 
+      
+      Chunhui Li, 
+      
+      Zhen Wu, 
+      
+      Junjie Guo, 
+      
+      Shangyu Xing, 
+      
+      Xinyu Dai
+
+
+Abstract:
+      
+        Multimodal Large…
+        ▽ More
+
+
+        Multimodal Large Language Models (MLLMs) are widely regarded as crucial in the exploration of Artificial General Intelligence (AGI). The core of MLLMs lies in their capability to achieve cross-modal alignment. To attain this goal, current MLLMs typically follow a two-phase training paradigm: the pre-training phase and the instruction-tuning phase. Despite their success, there are shortcomings in the modeling of alignment capabilities within these models. Firstly, during the pre-training phase, the model usually assumes that all image-text pairs are uniformly aligned, but in fact the degree of alignment between different image-text pairs is inconsistent. Secondly, the instructions currently used for finetuning incorporate a variety of tasks, different tasks's instructions usually require different levels of alignment capabilities, but previous MLLMs overlook these differentiated alignment needs. To tackle these issues, we propose a new multimodal large language model AlignGPT. In the pre-training stage, instead of treating all image-text pairs equally, we assign different levels of alignment capabilities to different image-text pairs. Then, in the instruction-tuning phase, we adaptively combine these different levels of alignment capabilities to meet the dynamic alignment needs of different instructions. Extensive experimental results show that our model achieves competitive performance on 12 benchmarks.
+        △ Less
+
+
+Submitted 22 May, 2024; 
+      originally announced May 2024.
+      
+    
+
+Comments:
+Code and models are available at this https URL
+
+
+
+
+arXiv:2405.13581
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+
+
+
+      
+        Safety Alignment for Vision Language Models
+
+
+Authors:
+Zhendong Liu, 
+      
+      Yuanbi Nie, 
+      
+      Yingshui Tan, 
+      
+      Xiangyu Yue, 
+      
+      Qiushi Cui, 
+      
+      Chongjun Wang, 
+      
+      Xiaoyong Zhu, 
+      
+      Bo Zheng
+
+
+Abstract:
+      
+        Benefiting from the powerful capabilities of Large…
+        ▽ More
+
+
+        Benefiting from the powerful capabilities of Large Language Models (LLMs), pre-trained visual encoder models connected to an LLMs can realize Vision Language Models (VLMs). However, existing research shows that the visual modality of VLMs is vulnerable, with attackers easily bypassing LLMs' safety alignment through visual modality features to launch attacks. To address this issue, we enhance the existing VLMs' visual modality safety alignment by adding safety modules, including a safety projector, safety tokens, and a safety head, through a two-stage training process, effectively improving the model's defense against risky images. For example, building upon the LLaVA-v1.5 model, we achieve a safety score of 8.26, surpassing the GPT-4V on the Red Teaming Visual Language Models (RTVLM) benchmark. Our method boasts ease of use, high flexibility, and strong controllability, and it enhances safety while having minimal impact on the model's general performance. Moreover, our alignment strategy also uncovers some possible risky content within commonly used open-source multimodal datasets. Our code will be open sourced after the anonymous review.
+        △ Less
+
+
+Submitted 22 May, 2024; 
+      originally announced May 2024.
+      
+    
+
+Comments:
+23 pages, 15 figures
+
+
+
+
+arXiv:2405.09713
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+cs.CL
+
+
+
+      
+        SOK-Bench: A Situated Video Reasoning Benchmark with Aligned Open-World Knowledge
+      
+    
+
+Authors:
+Andong Wang, 
+      
+      Bo Wu, 
+      
+      Sunli Chen, 
+      
+      Zhenfang Chen, 
+      
+      Haotian Guan, 
+      
+      Wei-Ning Lee, 
+      
+      Li Erran Li, 
+      
+      Chuang Gan
+
+
+Abstract:
+      
+        Learning commonsense reasoning from visual contexts and scenes in real-world is a crucial step toward advanced artificial…
+        ▽ More
+
+
+        Learning commonsense reasoning from visual contexts and scenes in real-world is a crucial step toward advanced artificial intelligence. However, existing video reasoning benchmarks are still inadequate since they were mainly designed for factual or situated reasoning and rarely involve broader knowledge in the real world. Our work aims to delve deeper into reasoning evaluations, specifically within dynamic, open-world, and structured context knowledge. We propose a new benchmark (SOK-Bench), consisting of 44K questions and 10K situations with instance-level annotations depicted in the videos. The reasoning process is required to understand and apply situated knowledge and general knowledge for problem-solving. To create such a dataset, we propose an automatic and scalable generation method to generate question-answer pairs, knowledge graphs, and rationales by instructing the combinations of LLMs and MLLMs. Concretely, we first extract observable situated entities, relations, and processes from videos for situated knowledge and then extend to open-world knowledge beyond the visible content. The task generation is facilitated through multiple dialogues as iterations and subsequently corrected and refined by our designed self-promptings and demonstrations. With a corpus of both explicit situated facts and implicit commonsense, we generate associated question-answer pairs and reasoning processes, finally followed by manual reviews for quality assurance. We evaluated recent mainstream large vision-language models on the benchmark and found several insightful conclusions. For more information, please refer to our benchmark at www.bobbywu.com/SOKBench.
+        △ Less
+
+
+Submitted 16 May, 2024; v1 submitted 15 May, 2024;
+      originally announced May 2024.
+      
+    
+
+Comments:
+CVPR
+
+
+
+
+arXiv:2405.06001
+ [pdf, other] 
+
+
+cs.LG
+cs.AI
+cs.CL
+
+
+
+      
+        LLMC: Benchmarking Large Language Model Quantization with a Versatile Compression Toolkit
+      
+    
+
+Authors:
+Ruihao Gong, 
+      
+      Yang Yong, 
+      
+      Shiqiao Gu, 
+      
+      Yushi Huang, 
+      
+      Chentao Lv, 
+      
+      Yunchen Zhang, 
+      
+      Xianglong Liu, 
+      
+      Dacheng Tao
+
+
+Abstract:
+      
+        Recent advancements in large…
+        ▽ More
+
+
+        Recent advancements in large language models (LLMs) are propelling us toward artificial general intelligence with their remarkable emergent abilities and reasoning capabilities. However, the substantial computational and memory requirements limit the widespread adoption. Quantization, a key compression technique, can effectively mitigate these demands by compressing and accelerating LLMs, albeit with potential risks to accuracy. Numerous studies have aimed to minimize the accuracy loss associated with quantization. However, their quantization configurations vary from each other and cannot be fairly compared. In this paper, we present LLMC, a plug-and-play compression toolkit, to fairly and systematically explore the impact of quantization. LLMC integrates dozens of algorithms, models, and hardwares, offering high extensibility from integer to floating-point quantization, from LLM to vision-language (VLM) model, from fixed-bit to mixed precision, and from quantization to sparsification. Powered by this versatile toolkit, our benchmark covers three key aspects: calibration data, algorithms (three strategies), and data formats, providing novel insights and detailed analyses for further research and practical guidance for users. Our toolkit is available at \href{LLMC}{https://github.com/ModelTC/llmc}.
+        △ Less
+
+
+Submitted 20 July, 2024; v1 submitted 9 May, 2024;
+      originally announced May 2024.
+      
+    
+
+
+
+arXiv:2405.03685
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+cs.CL
+cs.LG
+
+
+
+Language-Image Models with 3D Understanding
+      
+    
+
+Authors:
+Jang Hyun Cho, 
+      
+      Boris Ivanovic, 
+      
+      Yulong Cao, 
+      
+      Edward Schmerling, 
+      
+      Yue Wang, 
+      
+      Xinshuo Weng, 
+      
+      Boyi Li, 
+      
+      Yurong You, 
+      
+      Philipp Krähenbühl, 
+      
+      Yan Wang, 
+      
+      Marco Pavone
+
+
+Abstract:
+      
+        Multi-modal large…
+        ▽ More
+
+
+        Multi-modal large language models (MLLMs) have shown incredible capabilities in a variety of 2D vision and language tasks. We extend MLLMs' perceptual capabilities to ground and reason about images in 3-dimensional space. To that end, we first develop a large-scale pre-training dataset for 2D and 3D called LV3D by combining multiple existing 2D and 3D recognition datasets under a common task formulation: as multi-turn question-answering. Next, we introduce a new MLLM named Cube-LLM and pre-train it on LV3D. We show that pure data scaling makes a strong 3D perception capability without 3D specific architectural design or training objective. Cube-LLM exhibits intriguing properties similar to LLMs: (1) Cube-LLM can apply chain-of-thought prompting to improve 3D understanding from 2D context information. (2) Cube-LLM can follow complex and diverse instructions and adapt to versatile input and output formats. (3) Cube-LLM can be visually prompted such as 2D box or a set of candidate 3D boxes from specialists. Our experiments on outdoor benchmarks demonstrate that Cube-LLM significantly outperforms existing baselines by 21.3 points of AP-BEV on the Talk2Car dataset for 3D grounded reasoning and 17.7 points on the DriveLM dataset for complex reasoning about driving scenarios, respectively. Cube-LLM also shows competitive results in general MLLM benchmarks such as refCOCO for 2D grounding with (87.0) average score, as well as visual question answering benchmarks such as VQAv2, GQA, SQA, POPE, etc. for complex reasoning. Our project is available at https://janghyuncho.github.io/Cube-LLM.
+        △ Less
+
+
+Submitted 6 May, 2024; 
+      originally announced May 2024.
+      
+    
+
+Comments:
+Project page: https://janghyuncho.github.io/Cube-LLM
+
+
+
+
+arXiv:2405.02288
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+cs.RO
+
+
+
+      
+        Prospective Role of Foundation Models in Advancing Autonomous Vehicles
+      
+    
+
+Authors:
+Jianhua Wu, 
+      
+      Bingzhao Gao, 
+      
+      Jincheng Gao, 
+      
+      Jianhao Yu, 
+      
+      Hongqing Chu, 
+      
+      Qiankun Yu, 
+      
+      Xun Gong, 
+      
+      Yi Chang, 
+      
+      H. Eric Tseng, 
+      
+      Hong Chen, 
+      
+      Jie Chen
+
+
+Abstract:
+      
+        With the development of artificial…
+        ▽ More
+
+
+        With the development of artificial intelligence and breakthroughs in deep learning, large-scale Foundation Models (FMs), such as GPT, Sora, etc., have achieved remarkable results in many fields including natural language processing and computer vision. The application of FMs in autonomous driving holds considerable promise. For example, they can contribute to enhancing scene understanding and reasoning. By pre-training on rich linguistic and visual data, FMs can understand and interpret various elements in a driving scene, and provide cognitive reasoning to give linguistic and action instructions for driving decisions and planning. Furthermore, FMs can augment data based on the understanding of driving scenarios to provide feasible scenes of those rare occurrences in the long tail distribution that are unlikely to be encountered during routine driving and data collection. The enhancement can subsequently lead to improvement in the accuracy and reliability of autonomous driving systems. Another testament to the potential of FMs' applications lies in World Models, exemplified by the DREAMER series, which showcases the ability to comprehend physical laws and dynamics. Learning from massive data under the paradigm of self-supervised learning, World Model can generate unseen yet plausible driving environments, facilitating the enhancement in the prediction of road users' behaviors and the off-line training of driving strategies. In this paper, we synthesize the applications and future trends of FMs in autonomous driving. By utilizing the powerful capabilities of FMs, we strive to tackle the potential issues stemming from the long-tail distribution in autonomous driving, consequently advancing overall safety in this domain.
+        △ Less
+
+
+Submitted 17 May, 2024; v1 submitted 8 December, 2023;
+      originally announced May 2024.
+      
+    
+
+Comments:
+45 pages,8 figures
+
+
+
+
+arXiv:2405.00876
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+cs.LG
+
+
+
+      
+        Beyond Human Vision: The Role of Large Vision Language Models in Microscope Image Analysis
+      
+    
+
+Authors:
+Prateek Verma, 
+      
+      Minh-Hao Van, 
+      
+      Xintao Wu
+
+
+Abstract:
+      
+Vision…
+        ▽ More
+
+
+Vision language models (VLMs) have recently emerged and gained the spotlight for their ability to comprehend the dual modality of image and textual data. VLMs such as LLaVA, ChatGPT-4, and Gemini have recently shown impressive performance on tasks such as natural image captioning, visual question answering (VQA), and spatial reasoning. Additionally, a universal segmentation model by Meta AI, Segment Anything Model (SAM) shows unprecedented performance at isolating objects from unforeseen images. Since medical experts, biologists, and materials scientists routinely examine microscopy or medical images in conjunction with textual information in the form of captions, literature, or reports, and draw conclusions of great importance and merit, it is indubitably essential to test the performance of VLMs and foundation models such as SAM, on these images. In this study, we charge ChatGPT, LLaVA, Gemini, and SAM with classification, segmentation, counting, and VQA tasks on a variety of microscopy images. We observe that ChatGPT and Gemini are impressively able to comprehend the visual features in microscopy images, while SAM is quite capable at isolating artefacts in a general sense. However, the performance is not close to that of a domain expert - the models are readily encumbered by the introduction of impurities, defects, artefact overlaps and diversity present in the images.
+        △ Less
+
+
+Submitted 1 May, 2024; 
+      originally announced May 2024.
+      
+    
+
+
+
+arXiv:2404.18976
+ [pdf, other] 
+
+
+cs.LG
+cs.AI
+cs.CL
+cs.CV
+cs.MM
+
+
+
+      
+        Foundations of Multisensory Artificial Intelligence
+
+
+Authors:
+Paul Pu Liang
+
+
+Abstract:
+      
+        …problems, and their quantification enables users to understand their multimodal datasets, design principled approaches to learn these interactions, and analyze whether their model has succeeded in learning. In the second part, we study the design of practical multimodal foundation…
+        ▽ More
+
+
+        Building multisensory AI systems that learn from multiple sensory inputs such as text, speech, video, real-world sensors, wearable devices, and medical data holds great promise for impact in many scientific areas with practical benefits, such as in supporting human health and well-being, enabling multimedia content processing, and enhancing real-world autonomous agents. By synthesizing a range of theoretical frameworks and application domains, this thesis aims to advance the machine learning foundations of multisensory AI. In the first part, we present a theoretical framework formalizing how modalities interact with each other to give rise to new information for a task. These interactions are the basic building blocks in all multimodal problems, and their quantification enables users to understand their multimodal datasets, design principled approaches to learn these interactions, and analyze whether their model has succeeded in learning. In the second part, we study the design of practical multimodal foundation models that generalize over many modalities and tasks, which presents a step toward grounding large language models to real-world sensory modalities. We introduce MultiBench, a unified large-scale benchmark across a wide range of modalities, tasks, and research areas, followed by the cross-modal attention and multimodal transformer architectures that now underpin many of today's multimodal foundation models. Scaling these architectures on MultiBench enables the creation of general-purpose multisensory AI systems, and we discuss our collaborative efforts in applying these models for real-world impact in affective computing, mental health, cancer prognosis, and robotics. Finally, we conclude this thesis by discussing how future work can leverage these ideas toward more general, interactive, and safe multisensory AI.
+        △ Less
+
+
+Submitted 29 April, 2024; 
+      originally announced April 2024.
+      
+    
+
+Comments:
+CMU Machine Learning Department PhD Thesis
+
+
+
+
+arXiv:2404.10618
+ [pdf, other] 
+
+
+cs.AI
+cs.CV
+cs.LG
+
+
+
+      
+        Private Attribute Inference from Images with Vision-Language Models
+
+
+Authors:
+Batuhan Tömekçe, 
+      
+      Mark Vero, 
+      
+      Robin Staab, 
+      
+      Martin Vechev
+
+
+Abstract:
+      
+        As large…
+        ▽ More
+
+
+        As large language models (LLMs) become ubiquitous in our daily tasks and digital interactions, associated privacy risks are increasingly in focus. While LLM privacy research has primarily focused on the leakage of model training data, it has recently been shown that the increase in models' capabilities has enabled LLMs to make accurate privacy-infringing inferences from previously unseen texts. With the rise of multimodal vision-language models (VLMs), capable of understanding both images and text, a pertinent question is whether such results transfer to the previously unexplored domain of benign images posted online. To investigate the risks associated with the image reasoning capabilities of newly emerging VLMs, we compile an image dataset with human-annotated labels of the image owner's personal attributes. In order to understand the additional privacy risk posed by VLMs beyond traditional human attribute recognition, our dataset consists of images where the inferable private attributes do not stem from direct depictions of humans. On this dataset, we evaluate the inferential capabilities of 7 state-of-the-art VLMs, finding that they can infer various personal attributes at up to 77.6% accuracy. Concerningly, we observe that accuracy scales with the general capabilities of the models, implying that future models can be misused as stronger adversaries, establishing an imperative for the development of adequate defenses.
+        △ Less
+
+
+Submitted 16 April, 2024; 
+      originally announced April 2024.
+      
+    
+
+
+
+arXiv:2404.09204
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+
+
+
+      
+        TextHawk: Exploring Efficient Fine-Grained Perception of Multimodal Large Language Models
+
+
+Authors:
+Ya-Qi Yu, 
+      
+      Minghui Liao, 
+      
+      Jihao Wu, 
+      
+      Yongxin Liao, 
+      
+      Xiaoyu Zheng, 
+      
+      Wei Zeng
+
+
+Abstract:
+      
+        Multimodal Large…
+        ▽ More
+
+
+        Multimodal Large Language Models (MLLMs) have shown impressive results on various multimodal tasks. However, most existing MLLMs are not well suited for document-oriented tasks, which require fine-grained image perception and information compression. In this paper, we present TextHawk, a MLLM that is specifically designed for document-oriented tasks, while preserving the general capabilities of MLLMs. TextHawk is aimed to explore efficient fine-grained perception by designing four dedicated components. Firstly, a ReSampling and ReArrangement (ReSA) module is proposed to reduce the redundancy in the document texts and lower the computational cost of the MLLM. We explore encoding the positions of each local feature by presenting Scalable Positional Embeddings (SPEs), which can preserve the scalability of various image sizes. A Query Proposal Network (QPN) is then adopted to initialize the queries dynamically among different sub-images. To further enhance the fine-grained visual perceptual ability of the MLLM, we design a Multi-Level Cross-Attention (MLCA) mechanism that captures the hierarchical structure and semantic relations of document images. Furthermore, we create a new instruction-tuning dataset for document-oriented tasks by enriching the multimodal document data with Gemini Pro. We conduct extensive experiments on both general and document-oriented MLLM benchmarks, and show that TextHawk outperforms the state-of-the-art methods, demonstrating its effectiveness and superiority in fine-grained document perception and general abilities.
+        △ Less
+
+
+Submitted 14 April, 2024; 
+      originally announced April 2024.
+      
+    
+
+
+
+arXiv:2404.07990
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+
+
+
+      
+        OpenBias: Open-set Bias Detection in Text-to-Image Generative Models
+
+
+Authors:
+Moreno D'Incà, 
+      
+      Elia Peruzzo, 
+      
+      Massimiliano Mancini, 
+      
+      Dejia Xu, 
+      
+      Vidit Goel, 
+      
+      Xingqian Xu, 
+      
+      Zhangyang Wang, 
+      
+      Humphrey Shi, 
+      
+      Nicu Sebe
+
+
+Abstract:
+      
+        Text-to-image generative…
+        ▽ More
+
+
+        Text-to-image generative models are becoming increasingly popular and accessible to the general public. As these models see large-scale deployments, it is necessary to deeply investigate their safety and fairness to not disseminate and perpetuate any kind of biases. However, existing works focus on detecting closed sets of biases defined a priori, limiting the studies to well-known concepts. In this paper, we tackle the challenge of open-set bias detection in text-to-image generative models presenting OpenBias, a new pipeline that identifies and quantifies the severity of biases agnostically, without access to any precompiled set. OpenBias has three stages. In the first phase, we leverage a Large Language Model (LLM) to propose biases given a set of captions. Secondly, the target generative model produces images using the same set of captions. Lastly, a Vision Question Answering model recognizes the presence and extent of the previously proposed biases. We study the behavior of Stable Diffusion 1.5, 2, and XL emphasizing new biases, never investigated before. Via quantitative experiments, we demonstrate that OpenBias agrees with current closed-set bias detection methods and human judgement.
+        △ Less
+
+
+Submitted 11 April, 2024; 
+      originally announced April 2024.
+      
+    
+
+Comments:
+CVPR 2024 Highlight - Code: https://github.com/Picsart-AI-Research/OpenBias
+
+
+
+
+arXiv:2404.07989
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+cs.CL
+cs.LG
+cs.SD
+eess.AS
+
+
+
+      
+        Any2Point: Empowering Any-modality Large Models for Efficient 3D Understanding
+      
+    
+
+Authors:
+Yiwen Tang, 
+      
+      Ray Zhang, 
+      
+      Jiaming Liu, 
+      
+      Zoey Guo, 
+      
+      Dong Wang, 
+      
+      Zhigang Wang, 
+      
+      Bin Zhao, 
+      
+      Shanghang Zhang, 
+      
+      Peng Gao, 
+      
+      Hongsheng Li, 
+      
+      Xuelong Li
+
+
+Abstract:
+      
+Large foundation…
+        ▽ More
+
+
+Large foundation models have recently emerged as a prominent focus of interest, attaining superior performance in widespread scenarios. Due to the scarcity of 3D data, many efforts have been made to adapt pre-trained transformers from vision to 3D domains. However, such 2D-to-3D approaches are still limited, due to the potential loss of spatial geometries and high computation cost. More importantly, their frameworks are mainly designed for 2D models, lacking a general any-to-3D paradigm. In this paper, we introduce Any2Point, a parameter-efficient method to empower any-modality large models (vision, language, audio) for 3D understanding. Given a frozen transformer from any source modality, we propose a 3D-to-any (1D or 2D) virtual projection strategy that correlates the input 3D points to the original 1D or 2D positions within the source modality. This mechanism enables us to assign each 3D token with a positional encoding paired with the pre-trained model, which avoids 3D geometry loss caused by the true projection and better motivates the transformer for 3D learning with 1D/2D positional priors. Then, within each transformer block, we insert an any-to-3D guided adapter module for parameter-efficient fine-tuning. The adapter incorporates prior spatial knowledge from the source modality to guide the local feature aggregation of 3D tokens, compelling the semantic adaption of any-modality transformers. We conduct extensive experiments to showcase the effectiveness and efficiency of our method. Code and models are released at https://github.com/Ivan-Tang-3D/Any2Point.
+        △ Less
+
+
+Submitted 30 May, 2024; v1 submitted 11 April, 2024;
+      originally announced April 2024.
+      
+    
+
+Comments:
+Code and models are released at https://github.com/Ivan-Tang-3D/Any2Point
+
+
+
+
+arXiv:2404.05783
+ [pdf, other] 
+
+
+cs.CY
+cs.AI
+cs.CL
+cs.CV
+
+
+
+      
+        Responsible Generative AI: What to Generate and What Not
+      
+    
+
+Authors:
+Jindong Gu
+
+
+Abstract:
+      
+        In recent years, generative AI (GenAI), like…
+        ▽ More
+
+
+        In recent years, generative AI (GenAI), like large language models and text-to-image models, has received significant attention across various domains. However, ensuring the responsible generation of content by these models is crucial for their real-world applicability. This raises an interesting question: \textit{What should responsible GenAI generate, and what should it not?} To answer the question, this paper investigates the practical responsible requirements of both textual and visual generative models, outlining five key considerations: generating truthful content, avoiding toxic content, refusing harmful instruction, leaking no training data-related content, and ensuring generated content identifiable. Specifically, we review recent advancements and challenges in addressing these requirements. Besides, we discuss and emphasize the importance of responsible GenAI across healthcare, education, finance, and artificial general intelligence domains. Through a unified perspective on both textual and visual generative models, this paper aims to provide insights into practical safety-related issues and further benefit the community in building responsible GenAI.
+        △ Less
+
+
+Submitted 8 April, 2024; 
+      originally announced April 2024.
+      
+    
+
+Comments:
+74 pages, 10 figures
+
+
+
+
+arXiv:2404.05264
+ [pdf, other] 
+
+
+cs.CR
+cs.CV
+
+
+
+      
+        Unbridled Icarus: A Survey of the Potential Perils of Image Inputs in Multimodal Large Language Model Security
+      
+    
+
+Authors:
+Yihe Fan, 
+      
+      Yuxin Cao, 
+      
+      Ziyu Zhao, 
+      
+      Ziyao Liu, 
+      
+      Shaofeng Li
+
+
+Abstract:
+      
+        Multimodal Large…
+        ▽ More
+
+
+        Multimodal Large Language Models (MLLMs) demonstrate remarkable capabilities that increasingly influence various aspects of our daily lives, constantly defining the new boundary of Artificial General Intelligence (AGI). Image modalities, enriched with profound semantic information and a more continuous mathematical nature compared to other modalities, greatly enhance the functionalities of MLLMs when integrated. However, this integration serves as a double-edged sword, providing attackers with expansive vulnerabilities to exploit for highly covert and harmful attacks. The pursuit of reliable AI systems like powerful MLLMs has emerged as a pivotal area of contemporary research. In this paper, we endeavor to demostrate the multifaceted risks associated with the incorporation of image modalities into MLLMs. Initially, we delineate the foundational components and training processes of MLLMs. Subsequently, we construct a threat model, outlining the security vulnerabilities intrinsic to MLLMs. Moreover, we analyze and summarize existing scholarly discourses on MLLMs' attack and defense mechanisms, culminating in suggestions for the future research on MLLM security. Through this comprehensive analysis, we aim to deepen the academic understanding of MLLM security challenges and propel forward the development of trustworthy MLLM systems.
+        △ Less
+
+
+Submitted 8 April, 2024; 
+      originally announced April 2024.
+      
+    
+
+Comments:
+8 pages, 1 figure
+
+
+
+
+arXiv:2404.05046
+ [pdf, other] 
+
+
+cs.CV
+cs.CL
+
+
+
+      
+        FGAIF: Aligning Large Vision-Language Models with Fine-grained AI Feedback
+      
+    
+
+Authors:
+Liqiang Jing, 
+      
+      Xinya Du
+
+
+Abstract:
+      
+Large…
+        ▽ More
+
+
+Large Vision-Language Models (LVLMs) have demonstrated proficiency in tackling a variety of visual-language tasks. However, current LVLMs suffer from misalignment between text and image modalities which causes three kinds of hallucination problems, i.e., object existence, object attribute, and object relationship. To tackle this issue, existing methods mainly utilize Reinforcement Learning (RL) to align modalities in LVLMs. However, they still suffer from three main limitations: (1) General feedback can not indicate the hallucination type contained in the response; (2) Sparse rewards only give the sequence-level reward for the whole response; and (3)Annotation cost is time-consuming and labor-intensive. To handle these limitations, we propose an innovative method to align modalities in LVLMs through Fine-Grained Artificial Intelligence Feedback (FGAIF), which mainly consists of three steps: AI-based Feedback Collection, Fine-grained Reward Model Training, and Reinforcement Learning with Fine-grained Reward. Specifically, We first utilize AI tools to predict the types of hallucination for each segment in the response and obtain a collection of fine-grained feedback. Then, based on the collected reward data, three specialized reward models are trained to produce dense rewards. Finally, a novel fine-grained feedback module is integrated into the Proximal Policy Optimization (PPO) algorithm. Extensive experiments are conducted on hallucination and general benchmarks, demonstrating the superior performance of our proposed method. Notably, compared with previous models trained with the RL-based aligning method, our proposed method is effective even with fewer parameters.
+        △ Less
+
+
+Submitted 7 April, 2024; 
+      originally announced April 2024.
+      
+    
+
+
+
+arXiv:2404.01476
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+cs.CL
+cs.LG
+
+
+
+      
+        TraveLER: A Multi-LMM Agent Framework for Video Question-Answering
+      
+    
+
+Authors:
+Chuyi Shang, 
+      
+      Amos You, 
+      
+      Sanjay Subramanian, 
+      
+      Trevor Darrell, 
+      
+      Roei Herzig
+
+
+Abstract:
+      
+        Recently, Large Multimodal…
+        ▽ More
+
+
+        Recently, Large Multimodal Models (LMMs) have made significant progress in video question-answering using a frame-wise approach by leveraging large-scale, image-based pretraining in a zero-shot manner. While image-based methods for videos have shown impressive performance, a current limitation is that they often overlook how key timestamps are selected and cannot adjust when incorrect timestamps are identified. Moreover, they are unable to extract details relevant to the question, instead providing general descriptions of the frame. To overcome this, we design a multi-LMM agent framework that travels along the video, iteratively collecting relevant information from keyframes through interactive question-asking until there is sufficient information to answer the question. Specifically, we propose TraveLER, a model that can create a plan to "Traverse" through the video, ask questions about individual frames to "Locate" and store key information, and then "Evaluate" if there is enough information to answer the question. Finally, if there is not enough information, our method is able to "Replan" based on its collected knowledge. Through extensive experiments, we find that the proposed TraveLER approach improves performance on several video question-answering benchmarks, such as NExT-QA, STAR, and Perception Test, without the need to fine-tune on specific datasets.
+        △ Less
+
+
+Submitted 1 April, 2024; 
+      originally announced April 2024.
+      
+    
+
+
+
+arXiv:2404.00225
+ [pdf, ps, other] 
+
+
+cs.LG
+
+
+
+      
+        Heterogeneous Contrastive Learning for Foundation Models and Beyond
+      
+    
+
+Authors:
+Lecheng Zheng, 
+      
+      Baoyu Jing, 
+      
+      Zihao Li, 
+      
+      Hanghang Tong, 
+      
+      Jingrui He
+
+
+Abstract:
+      
+        In the era of big data and Artificial…
+        ▽ More
+
+
+        In the era of big data and Artificial Intelligence, an emerging paradigm is to utilize contrastive self-supervised learning to model large-scale heterogeneous data. Many existing foundation models benefit from the generalization capability of contrastive self-supervised learning by learning compact and high-quality representations without relying on any label information. Amidst the explosive advancements in foundation models across multiple domains, including natural language processing and computer vision, a thorough survey on heterogeneous contrastive learning for the foundation model is urgently needed. In response, this survey critically evaluates the current landscape of heterogeneous contrastive learning for foundation models, highlighting the open challenges and future trends of contrastive learning. In particular, we first present how the recent advanced contrastive learning-based methods deal with view heterogeneity and how contrastive learning is applied to train and fine-tune the multi-view foundation models. Then, we move to contrastive learning methods for task heterogeneity, including pretraining tasks and downstream tasks, and show how different tasks are combined with contrastive learning loss for different purposes. Finally, we conclude this survey by discussing the open challenges and shedding light on the future directions of contrastive learning.
+        △ Less
+
+
+Submitted 29 March, 2024; 
+      originally announced April 2024.
+      
+    
+
+
+
+arXiv:2403.18814
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+cs.CL
+
+
+
+      
+        Mini-Gemini: Mining the Potential of Multi-modality Vision Language Models
+
+
+Authors:
+Yanwei Li, 
+      
+      Yuechen Zhang, 
+      
+      Chengyao Wang, 
+      
+      Zhisheng Zhong, 
+      
+      Yixin Chen, 
+      
+      Ruihang Chu, 
+      
+      Shaoteng Liu, 
+      
+      Jiaya Jia
+
+
+Abstract:
+      
+        In this work, we introduce Mini-Gemini, a simple and effective framework enhancing multi-modality Vision…
+        ▽ More
+
+
+        In this work, we introduce Mini-Gemini, a simple and effective framework enhancing multi-modality Vision Language Models (VLMs). Despite the advancements in VLMs facilitating basic visual dialog and reasoning, a performance gap persists compared to advanced models like GPT-4 and Gemini. We try to narrow the gap by mining the potential of VLMs for better performance and any-to-any workflow from three aspects, i.e., high-resolution visual tokens, high-quality data, and VLM-guided generation. To enhance visual tokens, we propose to utilize an additional visual encoder for high-resolution refinement without increasing the visual token count. We further construct a high-quality dataset that promotes precise image comprehension and reasoning-based generation, expanding the operational scope of current VLMs. In general, Mini-Gemini further mines the potential of VLMs and empowers current frameworks with image understanding, reasoning, and generation simultaneously. Mini-Gemini supports a series of dense and MoE Large Language Models (LLMs) from 2B to 34B. It is demonstrated to achieve leading performance in several zero-shot benchmarks and even surpasses the developed private models. Code and models are available at https://github.com/dvlab-research/MiniGemini.
+        △ Less
+
+
+Submitted 27 March, 2024; 
+      originally announced March 2024.
+      
+    
+
+Comments:
+Code and models are available at https://github.com/dvlab-research/MiniGemini
+
+
+
+
+arXiv:2403.18715
+ [pdf, other] 
+
+
+cs.CV
+cs.AI
+cs.CL
+cs.MM
+
+
+
+      
+        Mitigating Hallucinations in Large Vision-Language Models with Instruction Contrastive Decoding
+      
+    
+
+Authors:
+Xintong Wang, 
+      
+      Jingheng Pan, 
+      
+      Liang Ding, 
+      
+      Chris Biemann
+
+
+Abstract:
+      
+Large…
+        ▽ More
+
+
+Large Vision-Language Models (LVLMs) are increasingly adept at generating contextually detailed and coherent responses from visual inputs. However, their application in multimodal decision-making and open-ended generation is hindered by a notable rate of hallucinations, where generated text inaccurately represents the visual contents. To address this issue, this paper introduces the Instruction Contrastive Decoding (ICD) method, a novel approach designed to reduce hallucinations during LVLM inference. Our method is inspired by our observation that what we call disturbance instructions significantly exacerbate hallucinations in multimodal fusion modules. ICD contrasts distributions from standard and instruction disturbance, thereby increasing alignment uncertainty and effectively subtracting hallucinated concepts from the original distribution. Through comprehensive experiments on discriminative benchmarks (POPE and MME) and a generative benchmark (LLaVa-Bench), we demonstrate that ICD significantly mitigates both object-level and attribute-level hallucinations. Moreover, our method not only addresses hallucinations but also significantly enhances the general perception and recognition capabilities of LVLMs.
+        △ Less
+
+
+Submitted 5 June, 2024; v1 submitted 27 March, 2024;
+      originally announced March 2024.
+      
+    
+
+Comments:
+Accepted to Findings of ACL 2024
+
+
+
+
+Previous
+    
+Next
+      
+
+
+1
+        
+
+
+2
+          
+
+
+3
+          
+
+
+4
+          
+
+
+
+
+
+Search v0.5.6 released 2020-02-24  
+
+
+
+
+
+
+
+
+
+
+About
+Help
+
+
+
+
+
+contact arXivClick here to contact arXiv
+ Contact
+
+
+subscribe to arXiv mailingsClick here to subscribe
+ Subscribe
+
+
+
+
+ 
+
+
+
+
+
+Copyright
+Privacy Policy
+
+
+
+
+Web Accessibility Assistance
+
+
+arXiv Operational Status 
+              Get status notifications via
+              email
+              or slack
+
+
+
+
+
+ 
+
+

@@ -1,0 +1,69 @@
+Simulation
+la< tr eo ns cp ya _rIn pai lmt u s gpy ias nrt "ae >mm l= a"w t/ erit noh cb s yoe _tt p_u lhp uw. g_la isu ni _mn s_c ilh ma: pt le en _c qy u/ e < Rr oo bb oo tt HS WLo i Sa m id T m y L/u p aR r e tdo > ef r nb /c o co o b yt m o <d t /me _ rs o h oc n w br . _ oi gp a s tt z i Si eo m ib _ mn o l T.x a ya t pc e er n >o c: y/ 1. G Sima uz le atb oro 1 u. p pG l dua agz te i enb ( )o 16.in1 t5 e. rC na al lc su tl aa tt ee s inG ta ez re nb ao ls ProD ca et sa s if nl go w step
+ue/SimpleQueueLatencyPlugin</rosparam> Parameter server
+hardware_interface::RobotHWSim Is latency plugin set?
+load Provides Position, Velocity, and Effort Interfaces between Gazebo and ros_control
+robot_hw_sim interface.h Gazebo Plugininclude DefaultRobotHWSim Load latency plugin Default latency plugin No
+redefine readSim(&) include gazebo_ros_control RobotHWSimLatency plugin Returns the msgs with 0 latency Yes
+define writeSim() 1Lo . a Gd as zR eo bb oot H pW lu gin inte urf pac de as t v eia () pluginlib (ex Cte apn ad bs le d te o f la oau dlt lR ato eb nco yt pH luW giS ni sm ) 3. read states Stores theS i mm sp g l fe or q cu one fu ige u rl ea dt e pn erc iy o dp il nu ag i bn uffer then
+5. return delayed_states returns
+2. call readSim(&) load plugin implement readSim(&) delayStates()
+2. call 4. call
+7. 7. call controller_manager->update()
+12. call
+7. controller_manager::update() 10. call writeSim() 10. call implement writeSim() 14. write joint commands delayCommands() Msg buffer
+13. return delayed_commands
+11. read joint commands
+Controller Manager 6. write joint states ns3 plugin
+Loads, unloads, and calls updates to controllers
+Controller: 7. jC oo inn tt _ro trll ae jr e: ctory_cont8 ro. P llI eD r Loops 9. write velocity ROS Interface ROS Interface
+joint_state_publisher Send a trajectory from MoveIT joint_trajectory joint_states
+Publishes /joint_states topic for robot_publisher Hardware Resource Joint State Interface Joint Command Interface
+Interface Layer JointStateInterface VelocityInterface
+Process #1
+Figure 2: Gazebo architecture
+good or good-to-bad. A side effect of these transitions imentsinlinkingtheOMNET++simulationframework
+was packet-reordering. withtheROSmiddlewareforinteractingwithrobotsim-
+The impact of network degradation on the teams was ulators in order to get within the OMNET++ simula-
+larger than expected. Informal feedback suggested that tion a robot’s position which is accuratelysimulated by
+severalteamsdidnotrealizethatratelimitationinduces an external simulator based on ROS. The motivation is
+network congestion or the ramifications of that conges- tousewell-testedandrealisticrobotsimulatorsforhan-
+tion. Some teams appeared to have been surprised by dlingallthe robotnavigationtasks(obstacleavoidance,
+thebehaviorofthenetworkprotocolstacks,particularly navigationtowardsgoals,velocity,etc.) andto only get
+TCP stacks, in the operating systems underneath their the robot’s position in OMNET++ for interacting with
+code. (DARPA2017)Theaboveexperienceswouldhave thedeployedsensors. Ourgoalistheotherwayaround,
+beenprobablylessstrikingtotheteamsiftheywereable thus to introduce the effects of the network simulator
+to test the network characteristics changes in a simula- into the robot simulator.
+tion environment. TheroadmapofGazebodevelopmentshowsthatversion
+A recent competition Agile Robotics for Industrial Au- 9.0arrivingat2018-01-25willhavesupporttointegrate
+tomation Competition (ARIAC)(ARIAC 2017) targets networksimulation(ns-3orEMANE).Furtherinforma-
+industrial related applications. ARIAC is a simulation- tionregardingifthisfeaturewillbelike(omnetros2017)
+based competition is designed to promote agility in in- or the one we propose in this paper is not available yet.
+dustrial robot systems by utilizing the latest advances
+inartificialintelligence androbotplanning. There is no PROPOSED METHOD TO SIMULATE THE
+trickynetworkenvironmentinthe ARIACcompetition. EFFECTS OF NETWORK CHARACTERIS-
+The industryrelies onrobustlow-delayprotocols. That TICS
+is why it is an interesting aspect to see what happens
+when those links and protocols are exchanged. For in-
+In ROS, topics (rostopics 2017) are named buses over
+stance,whatarethepossibleperformanceimprovements
+which nodes exchange messages. ROS currently sup-
+or degradation when the control or sensors data pro-
+ports TCP/IP-based and UDP-based message trans-
+cessinginanindustrialscenarioaremovedfurtheraway
+port. ROS nodes are standalone executables running
+from the actuators and how different protocols would
+with individual process IDs in the operating system.
+fare under various network characteristics?
+One practical way to introduce latency in current ROS
+deployment is via defining network namespaces among
+WHY GAZEBO?
+nodes. For a certain namespace, custom delay, jit-
+ter, drop characteristics can be defined with tc like
+Inbothoftheabovecompetitions,Gazeboprovidedthe in (nwnstc 2014). The main issue is that there is a
+simulation infrastructure. In a more structured study MoveIt node as an individual process, but the whole
+about the level of how wide-spread the various simu- joint controller-actuator control loop is realized within
+lator tools were done in (Ivaldi et al. 2014). It showed Gazeboasoneotherprocess. Theonlytopicbasedcom-
+thatGazeboemergesasthebestchoiceamongtheopen- municationhappensbetweentheMoveItandthemono-
+source projects. lith Gazebo process. So this kind of solution cannot be
+Authorsof(omnetros2017)describessomeearlyexper- applied to our problem.

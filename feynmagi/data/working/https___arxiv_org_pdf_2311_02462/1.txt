@@ -1,0 +1,77 @@
+LevelsofAGI
+the performance, generality, and autonomy of AI sys- inaluseoftheterm“artificialgeneralintelligence”wasin
+tems. Shared operationalizable definitions for these con- a1997articleaboutmilitarytechnologiesbyMarkGubrud
+cepts will support: comparisons between models; risk as- (Gubrud,1997),whichdefinedAGIas“AIsystemsthatri-
+sessmentsandmitigationstrategies;clearcriteriafrompol- val or surpass the human brain in complexity and speed,
+icymakers and regulators; identifying goals, predictions, thatcanacquire,manipulateandreasonwithgeneralknowl-
+and risksforresearch anddevelopment;andthe abilityto edge, and that are usable in essentially any phase of in-
+understandandcommunicatewherewearealongthepath dustrialormilitaryoperationswhereahumanintelligence
+toAGI. would otherwise be needed.” This early definition empha-
+sizes processes (rivaling the human brain in complexity)
+2. Defining AGI:CaseStudies in addition to capabilities; while neural network architec-
+turesunderlyingmodernML systemsare loosely inspired
+ManyAIresearchersandorganizationshaveproposeddef- bythehumanbrain,thesuccessoftransformer-basedarchi-
+initions of AGI. In this section, we consider nine promi- tectures(Vaswanietal.,2023)whoseperformanceisnotre-
+nentexamples,andreflectontheirstrengthsandlimitations. liantonhuman-likelearningsuggeststhatstrictbrain-based
+Thisanalysisinformsoursubsequentintroductionofatwo- processesandbenchmarksarenotinherentlynecessaryfor
+dimensional,leveledontologyofAGI. AGI.
+CaseStudy1: TheTuringTest. TheTuringTest(Turing, CaseStudy4: Human-LevelPerformanceonCognitive
+1950) is perhaps the most well-known attempt to opera- Tasks. Legg (Legg, 2008) and Goertzel (Goertzel, 2014)
+tionalize an AGI-like concept. Turing’s “imitation game” popularized the term AGI among computer scientists in
+attempts to operationalize the question of whether ma- 2001 (Legg, 2022), describing AGI as a machine that is
+chines can think, and asks a human to interactively dis- ableto dothecognitivetasksthatpeoplecantypicallydo.
+tinguishwhethertextisproducedbyanotherhumanorby Thisdefinitionnotablyfocusesonnon-physicaltasks(i.e.,
+a machine. The test as originally framed is a thought ex- not requiring robotic embodimentas a precursor to AGI).
+periment,andis the subjectof manycritiques(Wikipedia, Like many definitions of AGI, this framing presents am-
+2023b);inpractice,thetestoftenhighlightstheeaseoffool- biguity around choices such as “what tasks?” and “which
+ing people (Weizenbaum, 1966; Wikipedia, 2023a) rather people?”.
+than the “intelligence” of the machine. Given that mod-
+CaseStudy5: AbilitytoLearnTasks. InTheTechnolog-
+ernLLMspasssomeframingsoftheTuringTest,itseems
+icalSingularity(Shanahan,2015),Shanahansuggeststhat
+clearthatthiscriteriaisinsufficientforoperationalizingor
+AGIis“artificialintelligencethatisnotspecializedtocarry
+benchmarkingAGI. We agree with Turing that whether a
+outspecifictasks,butcanlearntoperformasbroadarange
+machinecan think, while an interestingphilosophicaland
+oftasksasahuman.”Animportantpropertyofthisframing
+scientific question, seems orthogonal to the question of
+isitsinclusionofmetacognitivecapabilities(learning)asa
+whatthemachinecando;thelatterismuchmorestraight-
+requirementforAGI.
+forwardtomeasureandmoreimportantforevaluatingim-
+pacts. ThereforeweproposethatAGIshouldbedefinedin CaseStudy6: EconomicallyValuableWork. OpenAI’s
+termsofcapabilitiesratherthanprocesses1. charter defines AGI as “highly autonomous systems that
+outperform humans at most economically valuable work”
+Case Study 2: Strong AI – Systems Possessing Con-
+(OpenAI, 2018). Thisdefinitionhasstrengthsperthe “ca-
+sciousness. PhilosopherJohnSearlemused,“accordingto
+pabilities, not processes” criteria, as it focuses on perfor-
+strong AI, the computer is not merely a tool in the study
+manceagnostictounderlyingmechanisms;further,thisdef-
+of the mind; rather, the appropriately programmed com-
+inition offers a potential yardstick for measurement, i.e.,
+puter really is a mind, in the sense that computers given
+economic value. A shortcoming of this definition is that
+the rightprogramscan be literally said to understandand
+it does not capture all of the criteria that may be part of
+have other cognitive states” (Searle, 1980). While strong
+“generalintelligence.”Therearetasksassociatedwithintel-
+AI might be one path to achieving AGI, there is no sci-
+ligence that may not have a well-defined economic value
+entificconsensusonmethodsfordeterminingwhetherma-
+(e.g., artistic creativity or emotional intelligence). Such
+chines possess strong AI attributes such as consciousness
+properties may be indirectly accounted for in economic
+(Butlinetal.,2023),makingthisprocess-orientedframing
+measures (e.g., artistic creativity might produce books or
+impractical.
+movies, emotional intelligence might relate to the ability
+CaseStudy3: AnalogiestotheHumanBrain. Theorig- to be a successful CEO), though whether economic value
+capturesthefullspectrumof“intelligence”remainsunclear.
+1As research into mechanistic interpretability (Ra¨ukeretal.,
+AnotherchallengewithframingAGIintermsofeconomic
+2023) advances, it may enable process-oriented metrics. These
+value is the implied need for deployment in order to real-
+mayberelevanttofuturedefinitionsofAGI.
+2

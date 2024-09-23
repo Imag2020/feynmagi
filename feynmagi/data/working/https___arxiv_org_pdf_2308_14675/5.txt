@@ -1,0 +1,121 @@
+6
+is the PTM of w in the Hilbert-Schmidt space. QPT
+q
+assumes that the initial state and final measurements
+are known. In practice, these states and measurements
+must be prepared using quantum gates, and these gates
+{F ,F′} themselves may have imperfections [40]: r s
+⟨⟨ρ |=⟨⟨0|F ,
+r r
+|ρ ⟩⟩=F′|0⟩⟩.
+s s
+Indeed, the initial states and final measurements that
+werepreparedusinggatesarenotdirectlyknownandcan
+introduce errors in the estimation process. GST aims to
+characterizethefullyunknownsetofgatesandstates[46].
+R={|ρ⟩⟩,⟨⟨E|,R ,...,R ,...},q =1,2,...,αk.
+w1 wq
+(20)
+GST has similar requirements to QPT: the ability to
+measure the set of gates R={|ρ⟩⟩,⟨⟨E|,R ,...,R }
+w1 w αk
+in the form of expectation values:
+p=Tr{ρ†w (ρ )}=⟨⟨ρ |R |ρ ⟩⟩=Tr{ρ†w ρ w†}.
+r q s r wq s r q s q
+To simplify the expression, we use F ,F′, where (r,s =
+r s 1,2,...,d2), to denote the quantum gates used for
+preparing quantum states and measurements (as shown
+in Fig 4), which are G (θ )U and U† G† (θ ), respec-
+qr r qr qs qs s
+tively. The density matrices of these prepared quantum
+statesarelinearlyindependent. PleaserefertoAppendix
+A for details. By constructing a quantum circuit, it is
+possible to compute the d2 matrix elements of the PTM
+matrix R . We define (R ) as follows:
+wq wq rs
+(R ) =⟨⟨ρ |R |ρ ⟩⟩=⟨⟨0|F R F |0⟩⟩. (21) wq rs r wq s r wq s
+Inserting the completeness state into it yields:
+p =(R ) =⟨⟨ρ |R |ρ ⟩⟩
+rs wq rs r wq s
+=⟨⟨0|F R F |0⟩⟩
+r wq s
+X
+= ⟨⟨0|F |a⟩⟩⟨⟨a|R |b⟩⟩⟨⟨b|F |0⟩⟩
+r wq s
+a,b
+X
+= A (R )B .
+ra wq bs
+a,b
+…
+…
+…
+… …
+It can be easily verified that:
+p =(AR B) , rs wq rs
+X
+A= |r⟩⟩⟨⟨0|F ,
+r (22) r
+X
+B = F |0⟩⟩⟨⟨s|.
+s
+s
+Let R˜ = AR B, the identity matrix I also serves
+wq wq
+as a mapping, and its PTM has the following properties:
+R |ρ ⟩⟩=|I(ρ )⟩⟩=|Iρ I†⟩⟩=|ρ ⟩⟩.
+I s s s s
+It can be observed that the action of R is similar to the
+I
+identitymatrixanditsmatrixelementscanbeexpressed
+as follows:
+(R ) =⟨⟨ρ |R |ρ ⟩⟩=Tr{ρ†Iρ I†}=Tr{ρ†ρ }.
+I rs r I s r s r s
+Denoting g = (R ) = ⟨⟨ρ |ρ ⟩⟩ = ⟨⟨0|F F |0⟩⟩, we
+rs I rs r s r s
+can insert the completeness state and obtain:
+X
+g = ⟨⟨0|F |a⟩⟩⟨⟨a|b⟩⟩⟨⟨b|F |0⟩⟩=(AB) . (23)
+rs r s rs
+a,b
+For a given combination Gk, let R˜ =AB, where A and
+q Iq
+Barematrices. Theexperimentalmeasurementvaluep
+rs
+correspondstotherscomponentofthematrixA(R )B,
+wq
+while g corresponds to the rs component of the matrix
+rs
+(AB). The quantum channel we reconstruct will differ
+from the real quantum channel by a similarity transfor-
+mation:
+(R˜ )−1R˜ =B−1A−1AR B =B−1R B. I wq wq wq
+Therefore, we can estimate the trace of R :
+wq
+Tr{(R˜ )−1R˜ }=Tr{B−1R B}=Tr{R }. (24)
+I wq wq wq
+Based on the calculations mentioned earlier, the value of
+Tr{R } = |Tr{w }|2 can be determined. However, this
+wq q
+is not the final result for Tr{w }.
+q
+Note: Inordertoavoidill-conditionedmatricesR ,it
+Iq
+is necessary to perform subspace selection. For detailed
+analysis, please refer to Section IVA.
+5. Mathematical Processing of Results
+TocalculateTr{w },anoperationinvolvingtakingthe
+q
+square root is required: |Tr{w }|2 = Tr{R }. In gen- q wq
+eral, Tr{w } can be decomposed into real and imaginary
+q
+parts:
+Tr{w }=Re[Tr{w }]+i·Im[Tr{w }].
+q q q
+FIG. 4. This is a quantum circuit with n-Qubits used to
+compute Tr{ρ†Gkρ Gk}. First, we add the prepared state ρ†
+r q s q r then
+tothecircuit. Next,weapplytheoperatorGk. Then,weadd
+q
+ρ s to the circuit. Tr{R }=(Re[Tr{w }])2+(Im[Tr{w }])2.
+wq q q

@@ -1,0 +1,71 @@
+LevelsofAGI
+systems seem to be lagging behind non-physicalcapabili- ment (OpenAI, 2018) better matches “Virtuoso AGI.”
+ties. Itispossiblethatembodimentinthephysicalworldis Our “Competent AGI” level is probably the best catch-
+necessaryforbuildingtheworldknowledgetobesuccess- all for many existing definitions of AGI (e.g., the Legg
+ful on some cognitive tasks (Shanahan, 2010), or at least (Legg, 2008), Shanahan(Shanahan, 2015), and Suleyman
+may be one path to success on some classes of cognitive (MustafaSuleymanandMichaelBhaskar, 2023) formula-
+tasks;ifthatturnsouttobetruethenembodimentmaybe tions). In the nextsection, we introducea level-basedon-
+criticaltosomepathstowardAGI.Wesuggestthattheabil- tologyofAGI.
+ity to performphysicaltasks increasesa system’s general-
+ity, but should not be considered a necessary prerequisite 4. LevelsofAGI
+to achievingAGI. On the other hand, metacognitivecapa-
+bilities(suchastheabilitytolearnnewtasksortheability In accordancewith Principle 2 (“FocusonGeneralityand
+to knowwhento ask forclarificationor assistance froma Performance”)andPrinciple6(“FocusonthePathtoAGI,
+human)arekeyprerequisitesforsystemstoachievegener- notaSingleEndpoint”),inTable1weintroduceamatrixed
+ality. levelingsystemthatfocusesonperformanceandgenerality
+asthetwodimensionsthatarecoretoAGI:
+4. Focus on Potential, not Deployment. Demonstrating
+thatasystemcanperformarequisitesetoftasksatagiven PerformancereferstothedepthofanAIsystem’scapabil-
+levelofperformanceshouldbesufficientfordeclaringthe ities,i.e.,howitcomparestohuman-levelperformancefor
+system to be an AGI; deploymentof such a system in the a given task. Note that for all performance levels above
+openworldshouldnotbeinherentinthedefinitionofAGI. “Emerging,” percentiles are in reference to a sample of
+For instance, defining AGI in terms of reaching a certain adultswhopossesstherelevantskill(e.g.,“Competent”or
+leveloflaborsubstitutionwouldrequirereal-worlddeploy- higherperformanceonatasksuchasEnglishwritingabil-
+ment, whereasdefining AGI in terms of being capable of ity would only be measured against the set of adults who
+substitutingforlaborwouldfocusonpotential. Requiring areliterateandfluentinEnglish).
+deployment as a condition of measuring AGI introduces
+GeneralityreferstothebreadthofanAIsystem’scapabil-
+non-technical hurdles such as legal and social considera-
+ities,i.e.,therangeoftasksforwhichanAIsystemreaches
+tions,aswellasethicalandsafetyconcerns.
+atargetperformancethreshold.
+5. Focus on Ecological Validity. Tasks that can be used
+This taxonomy specifies the minimum performance over
+to benchmark progress toward AGI are critical to opera-
+mosttasksneededtoachieveagivenrating–e.g.,aCom-
+tionalizinganyproposeddefinition. Whilewediscussthis
+petentAGImusthaveperformanceatleastatthe50thper-
+furtherinSection5,weemphasizeheretheimportanceof
+centile for skilled adult humans on most cognitive tasks,
+choosingtasksthatalignwithreal-world(i.e.,ecologically
+butmayhaveExpert,Virtuoso,orevenSuperhumanperfor-
+valid) tasks thatpeople value (construing“value”broadly,
+manceonasubsetoftasks. Asanexampleofhowindivid-
+not only as economic value but also social value, artistic
+ualsystemsmaystraddledifferentpointsinourtaxonomy,
+value,etc.). ThismaymeaneschewingtraditionalAImet-
+we posit that as of this writing in September 2023, fron-
+ricsthatareeasytoautomateorquantify(Rajietal.,2021)
+tierlanguagemodels(e.g.,ChatGPT(OpenAI,2023),Bard
+butmaynotcapturetheskillsthatpeoplewouldvalueinan
+(Aniletal.,2023),Llama2(Touvronetal.,2023),etc.) ex-
+AGI.
+hibit“Competent”performancelevelsforsometasks(e.g.,
+6. Focus on the Path to AGI, not a Single Endpoint. shortessaywriting,simplecoding),butarestillat“Emerg-
+MuchastheadoptionofastandardsetofLevelsofDriving ing”performancelevelsformosttasks(e.g.,mathematical
+Automation (SAEInternational, 2021) allowed for clear abilities, tasks involvingfactuality). Overall, currentfron-
+discussionsofpolicyandprogressrelatingtoautonomous tierlanguagemodelswouldthereforebeconsideredaLevel
+vehicles, we posit there is value in defining “Levels of 1GeneralAI(“EmergingAGI”)untiltheperformancelevel
+AGI.” As we discuss in Section 5 and Section 6, we in- increasesforabroadersetoftasks(atwhichpointtheLevel
+tend for each level of AGI to be associated with a clear 2 General AI, “Competent AGI,” criteria would be met).
+setofmetrics/benchmarks,aswellasidentifiedrisksintro- WesuggestthatdocumentationforfrontierAImodels,such
+duced at each level, and resultant changes to the Human- as model cards (Mitchelletal., 2019), should detail this
+AI Interaction paradigm (Morrisetal., 2023). This level- mixture of performance levels. This will help end-users,
+based approach to defining AGI supports the coexistence policymakers,andotherstakeholderscometoashared,nu-
+of many prominent formulations – for example, Aguera anced understanding of the likely uneven performance of
+y Arcas & Norvig’s definition (Agu¨erayArcas&Norvig, systemsprogressingalongthepathtoAGI.
+2023) would fall into the “Emerging AGI” category of
+The order in which stronger skills in specific cognitive
+our ontology, while OpenAI’s threshold of labor replace-
+areas are acquired may have serious implications for AI
+4

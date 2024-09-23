@@ -1,0 +1,70 @@
+18 Front. Comput. Sci.,2024,0(0): 1–42
+To fine-tune the agent, utilizing human annotated an agent influenced by the dual-process theory of
+datasetsisaversatileapproachthatcanbeemployed humancognition[88],whichiseffectiveforsolving
+in various application scenarios. In this approach, complex interactive reasoning tasks. In this agent,
+researchers first design annotation tasks and then theSWIFTmoduleconstitutesacompactencoder-
+recruit workers to complete them. For example, decoder languagemodel, which is fine-tunedusing
+in CoH [84], the authors aim to align LLMs with human-annotateddatasets.
+human values and preferences. Different from the • Fine-tuning with LLM Generated Datasets.
+other models, where the human feedback is lever-
+Buildinghumanannotateddatasetneedstorecruit
+aged in a simple and symbolic manner, this method
+people, which can be costly, especially when one
+convertsthehumanfeedbackintodetailedcompar-
+needstoannotatealargeamountofsamples. Con-
+ison information in the form of natural languages.
+sideringthatLLMscanachievehuman-likecapabil-
+The LLMs are directly fine-tuned based on these
+itiesina widerangeoftasks,a naturalideaisusing
+natural language datasets. In RET-LLM [42], in
+LLMs to accomplish the annotation task. While
+order to betterconvert natural languages intostruc-
+thedatasetsproducedfromthismethodcanbenot
+tured memory information, the authors fine-tune
+as perfect asthe human annotated ones, itis much
+LLMsbasedonahumanconstructeddataset,where
+cheaper,andcanbeleveragedtogeneratemoresam-
+eachsampleisa“triplet-naturallanguage”pair. In
+ples. For example, in ToolBench [14], to enhance
+WebShop[85],theauthorscollect1.18millionreal-
+thetool-usingcapabilityofopen-sourceLLMs,the
+world products form amazon.com, and put them
+authors collect 16,464 real-world APIs spanning
+onto asimulated e-commercewebsite, whichcon-
+49 categories from the RapidAPI Hub. They used
+tains several carefully designed human shopping
+theseAPIstopromptChatGPTtogeneratediverse
+scenarios. Based on this website, the authors re-
+instructions, covering both single-tool and multi-
+cruit 13 workers to collect a real-human behavior
+tool scenarios. Based on the obtained dataset, the
+dataset. At last, three methods based on heuristic
+authorsfine-tuneLLaMA[9],andobtainsignificant
+rules, imitation learning and reinforcement learn-
+performance improvement in terms of tool using.
+ingaretrained basedonthisdataset. Althoughthe
+In[82],toempowertheagentwithsocialcapability,
+authorsdonotfine-tuneLLM-basedagents,webe-
+theauthorsdesignasandbox,anddeploymultiple
+lievethatthedatasetproposedinthispaperholdsim-
+agents to interact with each other. Given a social
+mensepotentialtoenhancethecapabilitiesofagents
+question,thecentralagentfirstgeneratesinitialre-
+in the field of web shopping. In EduChat [86],
+sponses. Then, itshares theresponsesto itsnearby
+the authors aim to enhance the educational func-
+agents for collecting their feedback. Based on the
+tions of LLMs, such as open-domain question an-
+feedback as well as its detailed explanations, the
+swering, essay assessment, Socratic teaching, and
+central agent revise its initial responses to make
+emotionalsupport. Theyfine-tuneLLMsbasedon
+them more consistent with social norms. In this
+human annotated datasets that cover various edu-
+process, theauthorscollect alargeamountof agent
+cational scenarios and tasks. These datasets are
+social interaction data, which is then leveraged to
+manually evaluated and curated bypsychology ex-
+fine-tunetheLLMs.
+perts and frontline teachers. SWIFTSAGE [87] is
+• Fine-tuning with Real-world Datasets. In

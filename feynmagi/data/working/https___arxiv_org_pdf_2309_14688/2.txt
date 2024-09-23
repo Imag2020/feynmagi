@@ -1,0 +1,25 @@
+Table 1. Selected research works on fixed-route feeder network design using continuous models
+Research works Spatial demand pattern Decision variables Dwell and transfer times Capacity Variable Schedule
+constraint vehicle size coordination
+Chang and Schonfeld (1991); Kim Uniform Uniform headway and line spacing Fixed Yes Yes No
+and Schonfeld (2012, 2013,
+2015); Guo et al. (2017); Badia
+and Jenelius (2020, 2021)
+Kim and Schonfeld (2014) Uniform Uniform headway and line spacing Fixed Yes Yes Yes
+Quadrifoglio and Li (2009); Uniform – Fixed No No No
+Li and Quadrifoglio (2010)
+Sivakumaran et al. (2014) Uniform Uniform headway and line spacing Fixed Yes No No
+Su and Fan (2019) Uniform Spatially-heterogeneous headways, Dwell time is a function of Yes No No
+line and stop spacings boarding number; transfer
+time is fixed
+Wirasinghe (1980) Heterogeneous in one Spatially-heterogeneous headways Fixed No No No
+direction only and line spacings
+Sivakumaran et al. (2012) Heterogeneous in one Uniform headway and line spacing Fixed No No Yes
+direction only
+Kuah and Perl (1988) Heterogeneous Spatially-heterogeneous headways, Fixed No No No
+line and stop spacings
+Yang et al. (2020) Heterogeneous Spatially-heterogeneous headways Fixed Yes No Yes
+and line spacings
+Our work Heterogeneous Spatially-heterogeneous Functions of boarding and Yes Yes Yes
+headways, line and stop spacings alighting numbers
+3

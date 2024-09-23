@@ -1,0 +1,75 @@
+LeiWangetal. ASurveyonLargeLanguageModelbasedAutonomousAgents 7
+memory. In order to enhance the storage capac- experiences, which are crucial for accomplishing
+ity of memory, the authors propose a long-term tasksincomplexenvironments.
+memory system that utilizes a vector database, fa-
+Remark. Careful readers may find that there may
+cilitating efficient storage and retrieval. Specifi-
+also exist another type of memory structure, that is,
+cally, the agent’s daily memories are encoded as
+onlybasedonthelong-termmemory. However,we
+embeddings and stored in the vector database. If
+findthatsuchtypeofmemoryisrarelydocumented
+theagentneedstorecallitspreviousmemories,the
+intheliterature. Ourspeculationisthattheagents
+long-termmemorysystemretrievesrelevantinfor-
+arealwayssituatedincontinuousanddynamicen-
+mation using embeddingsimilarities. This process
+vironments, with consecutive actions displaying a
+can improve the consistency of the agent’s behav-
+high correlation. Therefore, the capture of short-
+ior. In GITM [16], the short-term memory stores
+termmemoryisveryimportantandusuallycannot
+the current trajectory, and the long-term memory
+bedisregarded.
+saves reference planssummarized from successful
+Memory Formats: In addition to the memory
+priortrajectories. Long-termmemoryprovidessta-
+structure,anotherperspectivetoanalyzethemem-
+ble knowledge, while short-term memory allows
+ory module is based on the formats of the mem-
+flexible planning. Reflexion [12] utilizes a short-
+orystoragemedium,forexample,naturallanguage
+term sliding window to capture recent feedback
+memoryorembeddingmemory. Differentmemory
+andincorporatespersistentlong-termstoragetore-
+formats possess distinct strengths and are suitable
+tain condensed insights. This combination allows
+forvariousapplications. Inthefollowing,weintro-
+for the utilization of both detailed immediate ex-
+duceseveralrepresentativememoryformats.
+periences and high-level abstractions. SCM [35]
+•NaturalLanguages. Inthisformat,memory
+selectively activates the most relevant long-term
+information such as the agent behaviors and ob-
+knowledgetocombinewithshort-termmemory,en-
+servationsaredirectlydescribedusingrawnatural
+ablingreasoningovercomplexcontextualdialogues.
+language. This format possesses several strengths.
+SimplyRetrieve [36] utilizes user queries as short-
+Firstly, the memory information can be expressed
+term memory and stores long-term memory using
+ina flexibleand understandablemanner. Moreover,
+external knowledge bases. This design enhances
+itretainsrichsemanticinformationthatcanprovide
+the model accuracy while guaranteeing user pri-
+comprehensivesignalstoguideagentbehaviors. In
+vacy. MemorySandbox[37]implementslong-term
+thepreviouswork,Reflexion[12]storesexperien-
+andshort-term memorybyutilizinga 2Dcanvasto
+tial feedback in natural language within a sliding
+storememoryobjects,whichcanthenbeaccessed
+window. Voyager [38] employs natural language
+throughout various conversations. Users can cre-
+descriptions to represent skillswithin the Minecraft
+ate multipleconversations with different agentson
+game,whicharedirectlystoredinmemory.
+thesame canvas,facilitatingthesharing ofmemory
+• Embeddings. In this format, memory infor-
+objects through a simple drag-and-drop interface.
+mation is encoded into embedding vectors, which
+In practice, integrating both short-term and long-
+can enhance the memory retrieval and reading ef-
+term memories can enhance an agent’s ability for
+ficiency. Forinstance,MemoryBank[39]encodes
+long-range reasoning and accumulation of valuable
+each memory segment into an embedding vector,

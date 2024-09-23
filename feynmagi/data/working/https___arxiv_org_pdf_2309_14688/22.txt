@@ -1,0 +1,35 @@
+schedule coordination in the collection direction only, in the distribution direction only, and in both
+directions simultaneously. The percentage of generalized cost savings compared to the uncoordinated
+case is plotted against 𝐻 ∈ {5,7.5,10} minutes in Fig. 9. Other parameters remain the same as those
+𝑡
+in Section 4.3 (with 𝜃 = 20$/h).
+Fig. 9 demonstrates the sizeable benefits of schedule coordination. Coordination in the collection
+direction brings cost savings ranging from 7.42% to 10.95%. Coordination in the distribution direction
+yields a smaller but still noteworthy benefit (-0.04% to 7.35%), particularly when 𝐻 is large.
+𝑡
+Moreover, coordinating in both directions achieves savings of up to 20.10%. Intriguingly, this value
+slightly exceeds the combined percentage cost savings of coordinating in individual directions. This can
+be attributed to two possible reasons: (i) waiting time constitutes a large portion of the generalized cost;
+and (ii) simultaneously coordinating the schedules in both directions may facilitate more efficient
+optimization of line spacings, stop spacings, and the vehicle size (factors that concurrently impact the
+generalized costs in both directions).
+Additionally, the figure indicates that coordination becomes increasingly advantageous as trunk-
+line headway grows. This is owing to two reasons: (i) the waiting time saved by coordination rises with
+trunk-line headway (see Section 2.5); and (ii) the agency cost savings also grow as larger feeder bus
+headways (in multiples of 𝐻 ) are enforced.
+𝑡
+Fig. 9 Generalized cost saving of schedule coordination
+5. Conclusions
+We propose continuous approximation models for designing an optimal heterogeneous feeder bus
+network catering to spatially heterogeneous demand to and from a rail terminal. These models identify
+the optimal feeder service headways, line spacings, stop spacings, and vehicle size that minimize the
+generalized system cost. An iterative method was developed to find the optimal solution, leveraging the
+analytical properties of the optimal solution. Extensive numerical analyses were conducted to validate
+the accuracy of the CA models, showcase the effectiveness of our solution method, and unveil new
+insights that have practical implications.
+Our models stand out by considering the effects of passenger boarding and alighting on bus dwell
+times and transfer times, while optimizing heterogeneous stop spacings alongside line spacings and
+headways. Numerical results show that more accurately modeling dwell and transfer times yields a 2–
+5% difference in generalized cost compared to prior models with constant dwell times. Furthermore,
+optimizing heterogeneous stop spacings results in additional cost savings up to 4% compared to designs
+23

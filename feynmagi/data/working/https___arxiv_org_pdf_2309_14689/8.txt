@@ -1,0 +1,96 @@
+9
+ciency ε = 16.02% in the K+K−π0 mode and the event selection efficiency. We estimate the systemat-
+K+K−π0
+ε = 15.93% in the K0K±π∓ mode, respective- ic uncertainty associated with the resonance parameters
+KS0K±π∓ S
+ly. In the MC simulation, the mass and width of the of η (2S) by varying its mass and width by one stan-
+c
+η (2S) are quoted from the world averaged values [11]. dard deviation relative to the world average values [11].
+c
+Therefore, we determine the products of the BFs to Additionally, we consider the influence of intermediate
+be (ψ(3686) γη (2S)) (η (2S) K0K+π− + resonances by generating new mixed MC samples with
+c.c.)B =(3.23 0→ .20) c 10−6a× ndB (c ψ(3686→ ) γS η (2S)) additionaldecaychannels,namelyη (2S) K∗(1430)K¯
+(η (2S) ± K+K−× π0)=(1.61B 0.10) 10→−6. Tc herat× io and η (2S) K∗(1430)K¯, using fc ractio→ ns in0 spired by
+B c → ± × c → 2
+of the BFs agrees well with the isospin symmetry expec- the LHCb study [14]. The difference in efficiency be-
+tationof2:1betweenK0K±π∓andK+K−π0. Wedeter- tween the new mixed MC samples and the nominal MC
+S
+mine the mass and width of the η (2S) to be M = samples is taken as the corresponding systematic uncer-
+c ηc(2S)
+(3637.8 0.8) MeV/c2 and Γ = (10.5 1.7) MeV. tainty, which is estimated to be 2.9%.
+±
+ηc(2S)
+±
+The uncertainties are statistical only. The uncertainties related to the simultaneous fit in-
+Considering isospin conservation, the product BF for clude those due to the signal resolution function, the ef-
+ψ(3686) γη (2S) with η (2S) KK¯π can be ficiency curve, the line-shapes of the backgrounds, and
+c c
+obtained → by doubling the sum of t→ he K0K±π∓ and the damping function. We estimate the systematic un-
+S
+K+K−π0 BFs to obtain (ψ(3686) γη (2S)) certainty due to the resolution function by changing the
+c
+(η (2S) KK¯π)=(0.97 B 0.06) 10−5→ ,wheretheun× - parametersofthemassandthemassresolutioninthesin-
+c
+B → ± ×
+certainty takes into account the correlation between the gleGaussianfunctionandtheconvolveddoubleGaussian
+twomeasuredBFsfromthesimultaneousfit. HereKK¯π function by 1σ. The largest difference is 0.6%, and we
+indicatesthesumofsevenchannelsK+K−π0, K K π0, take it as the uncertainty due to the resolution function.
+S S
+K K π0, K K+π−, K K−π+, K K+π−, K K−π+. The uncertainty from the efficiency curve is estimated
+L L S S L L
+If only consider the isospin symmetry, the ratios of the by comparing the difference in results with and without
+BFs between them should be 2:1:1:2:2:2:2. the efficiency curve. We find a difference of 0.1% and
+take it as the systematic uncertainty due to the efficien-
+cy curve. We estimate the systematic uncertainties due
+VI. SYSTEMATIC UNCERTAINTIES totheline-shapesofthebackgroundsbyusingtheshapes
+fromalternative ones. The line shape of one background
+component is changed each time, and the largest differ-
+There are multiple sources of systematic uncertainties
+ence is used for the uncertainty. We change the relative
+in determining the resonant parameters of the η (2S)
+c
+ratio f by 1σ to evaluate the systematic uncertain-
+and the product of branching fractions (ψ(3686) FSR
+γη (2S)) (η (2S) KK¯π). B → ty due to FSR. We change the Novosibirsk function to a
+c c
+×B → Gaussianfunctiontoestimatetheuncertaintyduetothe
+Systematic uncertainties associated with event selec-
+tion, such as tracking, PID, photon reconstruction, K0 shapeoftheπ0KK¯π backgrounds,andchangetheshape
+S fromthe inclusive MC sample to the Argus function [34]
+reconstruction, and kinematic fit are all estimated us-
+to estimate the uncertainty due to the shape of oth-
+ing control samples. To account for each source’s un-
+er backgrounds. We assume isospin symmetry between
+certainty, we vary the efficiency accordingly and calcu-
+K+K−π0 andK0K±π∓ channelsinthenominalfit,and
+late the difference in the final BF. This difference rep- S
+takethedifferencetotheresultwithoutisospinconserva-
+resents the systematic uncertainty attributed to track-
+tionastheuncertaintyassociatedwiththeisospinconser-
+ing, PID, and photon reconstruction, respectively. From
+the study with two control samples, J/ψ pp¯π+π− vationassumption. The systematicuncertaintyassociat-
+and e+e− π+π−K+K−, the uncertaintie→ s of track- ed with the damping function is estimated in two ways.
+→ One is varying the parameter m by 1σ in KEDR’s
+ingandPIDare1%,respectively,foreachpionandkaon ηc(2S)
+damping function [28]. The other one is modifying the
+track[29,30]. Accordingtoastudywiththecontrolsam-
+functionfromthe defaultKEDR’sformula[28]tothe al-
+ple J/ψ ρπ, the uncertainty due to photon detection
+→ ternative CLEO’s exp( E2/8β2) [35], where β = 0.033.
+efficiency is 1%per photonandis additive [31]. The sys- − γ
+tematic uncertainty from the K0 reconstruction is stud- The maximum differences from the nominal results are
+iedusingtwocontrolsamples,J/S ψ K∗±(892)K∓ with taken as the relevant systematic uncertainties.
+K∗±(892) K0π± and J/ψ φ→ K0K±π∓ [32]. We The uncertainty due to the number of ψ(3686) events
+estimateth→ esystS ematicuncerta→ intyfroS mK0 reconstruc- in the data sample is determined with inclusive hadron-
+S
+tion to be 1.2% for the K0K±π∓ mode. To study the ic ψ(3686) decays. The 0.5% is determined to be the
+S
+uncertainty associatedwith the kinematic fit, we correct systematic uncertainty associated with the number of
+the track helix parameters in the MC simulation [33]. ψ(3686) events [15].
+The efficiency difference 2.8% and 5.1% before and af- Theuncertaintyduetothecontinuumprocessincludes
+ter the correction is taken as the systematic uncertainty the number of events and the line shape. We vary
+related to the kinematic fit for the K+K−π0 mode and the number of continuum events assuming it satisfies a
+K0K±π∓ mode,respectively. Theresonanceparameters Possiondistribution, andtake the difference to the nom-
+S
+of η (2S) and the intermediate resonances also impact inal fit result as the corresponding uncertainty. We also
+c

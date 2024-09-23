@@ -1,0 +1,1280 @@
+
+Comparatif complet des meilleures plateformes de Trading
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Powered by CookiebotConsentementDétails[#IABV2SETTINGS#]À propos des cookiesCe site web utilise des cookies.Les cookies nous permettent de personnaliser le contenu et les annonces, d'offrir des fonctionnalités relatives aux médias sociaux et d'analyser notre trafic. Nous partageons également des informations sur l'utilisation de notre site avec nos partenaires de médias sociaux, de publicité et d'analyse, qui peuvent combiner celles-ci avec d'autres informations que vous leur avez fournies ou qu'ils ont collectées lors de votre utilisation de leurs services.Consent SelectionNécessaires Préférences Statistiques Marketing Afficher les détailsNécessaires  15 Les cookies nécessaires contribuent à rendre un site web utilisable en activant des fonctions de base comme la navigation de page et l'accès aux zones sécurisées du site web. Le site web ne peut pas fonctionner correctement sans ces cookies.Cookiebot2En savoir plus sur ce fournisseur1.gifUtilisé pour compter le nombre de sessions sur le site web, nécessaire pour optimiser la livraison des produits CMP. Expiration: SessionType: Pixel de suiviCookieConsentStocke l'autorisation d'utilisation de cookies pour le domaine actuel par l'utilisateur Expiration: 1 annéeType: Cookie HTTPGoogle2En savoir plus sur ce fournisseurSome of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness.test_cookieUtilisé pour vérifier si le navigateur de l'utilisateur accepte les cookies.Expiration: 1 jourType: Cookie HTTP_GRECAPTCHACe cookie est utilisé pour distinguer les humains des robots. Ceci est bénéfique pour le site web afin de créer des rapports valides sur l'utilisation du leur site.Expiration: 180 joursType: Cookie HTTPHubspot6En savoir plus sur ce fournisseurembed/v3/counters.gifUtilisé pour mettre en œuvre les formulaires sur le site web.Expiration: SessionType: Pixel de suivirc::aCe cookie est utilisé pour distinguer les humains des robots. Ceci est bénéfique pour le site web afin de créer des rapports valides sur l'utilisation du leur site.Expiration: PersistantType: Stockage local HTMLrc::bCe cookie est utilisé pour distinguer les humains des robots.Expiration: SessionType: Stockage local HTMLrc::cCe cookie est utilisé pour distinguer les humains des robots.Expiration: SessionType: Stockage local HTML_cfuvid [x2]Ce cookie fait partie des services fournis par Cloudflare - notamment l’équilibrage de la charge, la fourniture du contenu du site web et la connexion DNS au service des exploitants de sites web.Expiration: SessionType: Cookie HTTPLecomparateur Assurance1En savoir plus sur ce fournisseurASP.NET_SessionIdConserve la configuration des paramètres des utilisateurs à travers les demandes de page.Expiration: SessionType: Cookie HTTPhsforms.comlecomparateurassurance.com4__cf_bm [x4]Ce cookie est utilisé pour distinguer les humains des robots. Ceci est bénéfique pour le site web afin de créer des rapports valides sur l'utilisation du leur site.Expiration: 1 jourType: Cookie HTTPPréférences  0 Les cookies de préférences permettent à un site web de retenir des informations qui modifient la manière dont le site se comporte ou s’affiche, comme votre langue préférée ou la région dans laquelle vous vous situez.Nous n'utilisons pas de cookies de ce type.Statistiques  7 Les cookies statistiques aident les propriétaires du site web, par la collecte et la communication d'informations de manière anonyme, à comprendre comment les visiteurs interagissent avec les sites web.Google2En savoir plus sur ce fournisseurSome of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness._gaEnregistre un identifiant unique utilisé pour générer des données statistiques sur la façon dont le visiteur utilise le site.Expiration: 2 annéesType: Cookie HTTP_ga_#Utilisé par Google Analytics our recueillir des données sur le nombre de fois qu'un utilisateur a visité le site web ainsi que les dates de la première et de la plus récente visite. Expiration: 2 annéesType: Cookie HTTPHubspot4En savoir plus sur ce fournisseur__hsscIdentifie si les données du navigateur doivent être mises à jour.Expiration: 1 jourType: Cookie HTTP__hssrcUtilisé pour reconnaître le navigateur de l'internaute lors de son retour sur le site.Expiration: SessionType: Cookie HTTP__hstcDéfinit un identifiant unique pour la session. Cela permet au site Web d'obtenir des données sur le comportement des visiteurs à des fins statistiques.Expiration: 180 joursType: Cookie HTTPhubspotutkDéfinit un identifiant unique pour la session. Cela permet au site Web d'obtenir des données sur le comportement des visiteurs à des fins statistiques.Expiration: 180 joursType: Cookie HTTPwww.datadoghq-browser-agent.com1dd_cookie_test_#Enregistre des données sur le comportement des visiteurs sur le site Web . Ceci est utilisé pour l'analyse interne et l'optimisation du site.Expiration: 1 jourType: Cookie HTTPMarketing  27 Les cookies marketing sont utilisés pour effectuer le suivi des visiteurs au travers des sites web. Le but est d'afficher des publicités qui sont pertinentes et intéressantes pour l'utilisateur individuel et donc plus précieuses pour les éditeurs et annonceurs tiers. Meta Platforms, Inc.3En savoir plus sur ce fournisseurlastExternalReferrerDétecte comment l'utilisateur a atteint le site web en enregistrant sa dernière adresse URL.Expiration: PersistantType: Stockage local HTMLlastExternalReferrerTimeDétecte comment l'utilisateur a atteint le site web en enregistrant sa dernière adresse URL.Expiration: PersistantType: Stockage local HTML_fbpUtilisé par Facebook pour fournir une série de produits publicitaires tels que les offres en temps réel d'annonceurs tiers.Expiration: 3 moisType: Cookie HTTPGoogle5En savoir plus sur ce fournisseurSome of the data collected by this provider is for the purposes of personalization and measuring advertising effectiveness.IDEUtilisé par Google DoubleClick pour enregistrer et signaler les actions de l'utilisateur du site après qu'il ait vu ou cliqué sur une des pubs de l'annonceur dans le but de mesurer l'efficacité et de présenter des annonces publicitaires ciblées à l'utilisateur.Expiration: 400 joursType: Cookie HTTPpagead/landingCollecte des données sur le comportement des visiteurs à partir de plusieurs sites web afin de présenter des publicités plus pertinentes. Cela permet également au site web de limiter le nombre de fois où la même publicité est présentée au visiteur.Expiration: SessionType: Pixel de suiviNIDEn attenteExpiration: 6 moisType: Cookie HTTPpagead/1p-user-list/#Repère si l'internaute a montré de l'intérêt pour des produits ou des événements spécifiques sur plusieurs sites web et détecte la façon dont l'internaute navigue entre les sites. Cela est utilisé pour mesurer les efforts publicitaires et facilite le paiement des frais de référence entre les sites web.Expiration: SessionType: Pixel de suivi_gcl_auUtilisé par Google AdSense pour expérimenter l'efficacité de la publicité sur de divers sites Web en utilisant leurs services.Expiration: 3 moisType: Cookie HTTPHubspot2En savoir plus sur ce fournisseurrc::fCe cookie est utilisé pour distinguer les humains des robots.Expiration: PersistantType: Stockage local HTML__ptq.gifSends data to the marketing platform Hubspot about the visitor's device and behaviour. Tracks the visitor across devices and marketing channels.Expiration: SessionType: Pixel de suiviYouTube17En savoir plus sur ce fournisseur#-#Utilisé pour suivre l'interaction de l'utilisateur avec le contenu intégré.Expiration: SessionType: Stockage local HTMLiU5q-!O9@$Enregistre un identifiant unique pour conserver des statistiques sur les vidéos de YouTube vues par l'utilisateur.Expiration: SessionType: Stockage local HTMLLAST_RESULT_ENTRY_KEYUtilisé pour suivre l'interaction de l'utilisateur avec le contenu intégré.Expiration: SessionType: Cookie HTTPLogsDatabaseV2:V#||LogsRequestsStoreUtilisé pour suivre l'interaction de l'utilisateur avec le contenu intégré.Expiration: PersistantType: IndexedDBremote_sidNécessaire pour la mise en place et le fonctionnement du contenu vidéo de YouTube sur le site web.Expiration: SessionType: Cookie HTTPTESTCOOKIESENABLEDUtilisé pour suivre l'interaction de l'utilisateur avec le contenu intégré.Expiration: 1 jourType: Cookie HTTPVISITOR_INFO1_LIVETente d'estimer la bande passante des utilisateurs sur des pages avec des vidéos YouTube intégrées.Expiration: 180 joursType: Cookie HTTPYSCEnregistre un identifiant unique pour conserver des statistiques sur les vidéos de YouTube vues par l'utilisateur.Expiration: SessionType: Cookie HTTPytidb::LAST_RESULT_ENTRY_KEYStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: PersistantType: Stockage local HTMLYtIdbMeta#databasesUtilisé pour suivre l'interaction de l'utilisateur avec le contenu intégré.Expiration: PersistantType: IndexedDByt-remote-cast-availableStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: SessionType: Stockage local HTMLyt-remote-cast-installedStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: SessionType: Stockage local HTMLyt-remote-connected-devicesStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: PersistantType: Stockage local HTMLyt-remote-device-idStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: PersistantType: Stockage local HTMLyt-remote-fast-check-periodStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: SessionType: Stockage local HTMLyt-remote-session-appStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: SessionType: Stockage local HTMLyt-remote-session-nameStocke les préférences de lecture vidéo de l'utilisateur pour les vidéos YouTube incorporéesExpiration: SessionType: Stockage local HTMLNon classés  5Les cookies non classés sont les cookies qui sont en cours de classification, ainsi que les fournisseurs de cookies individuels.Lecomparateur Assurance1En savoir plus sur ce fournisseurPixeoUserEn attenteExpiration: SessionType: Cookie HTTPcdn.appconsent.io2appconsentEn attenteExpiration: PersistantType: Stockage local HTMLt2.gifEn attenteExpiration: SessionType: Pixel de suivicollector.appconsent.io1appconsentEn attenteExpiration: 1 annéeType: Cookie HTTPwww.nouvelle-epargne.fr1(innomé)En attenteExpiration: SessionType: Cookie HTTPConsentement inter-domaines[#BULK_CONSENT_DOMAINS_COUNT#] [#BULK_CONSENT_TITLE#]Liste des domaines auxquels s'applique votre consentement : [#BULK_CONSENT_DOMAINS#]Déclaration relative aux cookies mise à jour le 7/26/24 par Cookiebot[#IABV2_TITLE#][#IABV2_BODY_INTRO#][#IABV2_BODY_LEGITIMATE_INTEREST_INTRO#][#IABV2_BODY_PREFERENCE_INTRO#][#IABV2_LABEL_PURPOSES#][#IABV2_BODY_PURPOSES_INTRO#][#IABV2_BODY_PURPOSES#][#IABV2_LABEL_FEATURES#][#IABV2_BODY_FEATURES_INTRO#][#IABV2_BODY_FEATURES#][#IABV2_LABEL_PARTNERS#][#IABV2_BODY_PARTNERS_INTRO#][#IABV2_BODY_PARTNERS#]Les cookies sont des petits fichiers textes qui peuvent être utilisés par les sites web pour rendre l'expérience utilisateur plus efficace. La loi stipule que nous ne pouvons stocker des cookies sur votre appareil que s’ils sont strictement nécessaires au fonctionnement de ce site. Pour tous les autres types de cookies, nous avons besoin de votre permission.Ce site utilise différents types de cookies. Certains cookies sont placés par les services tiers qui apparaissent sur nos pages.À tout moment, vous pouvez modifier ou retirer votre consentement dès la Déclaration relative aux cookies sur notre site web.En savoir plus sur qui nous sommes, comment vous pouvez nous contacter et comment nous traitons les données personnelles veuillez voir notre Politique confidentialité.Veuillez indiquer l'identifiant de votre consentement et la date à laquelle vous nous avez contactés concernant votre consentement. Ne pas vendre ou partager mes informations personnellesRefuser Autoriser la sélection Personnaliser Tout autoriserPowered by Cookiebot by Usercentrics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LES BANQUES
+
+
+Les banques en ligne
+
+BforBank
+BoursoBank
+Fortuneo
+Hello bank!
+Monabanq
+Comparatif : banques en ligne
+
+
+
+Les comptes sans banque
+
+Comparatif : comptes sans banque
+
+
+
+Les néo banques
+
+N26
+Comparatif : néo banques
+
+
+Les meilleures banques en ligne
+Les meilleures cartes bancaires
+La meilleure banque pour jeunes mineurs
+Banques Sans conditions de revenus
+→ Mon comparatif personnalisé
+
+
+
+LES BANQUES PRO
+
+Qonto
+Shine
+Comparatif : banques auto-entrepreneurs
+Comparatif : banques sociétés
+Comparatif : banques associations
+
+
+
+EPARGNE
+
+
+Assurances-vie
+
+Goodvest
+Le guide de l'assurance-vie
+Les meilleures assurances-vie en ligne (fonds en euros)
+Les meilleures assurances-vie en ligne (unités de compte)
+
+
+
+Comptes à termes
+
+Raisin
+
+
+
+Livrets
+
+Le guide du livret A
+
+
+
+SCPI
+
+Le guide de la SCPI
+Comparatif : Les meilleurs SCPI
+
+
+
+Trading
+
+eToro
+Freedom Finance
+Les meilleures plateformes de trading en ligne
+
+
+
+
+
+ASSURANCE
+
+Comparatif assurance animaux
+Comparatif assurance auto
+Comparatif assurance moto
+Comparatif assurance habitation
+Comparatif assurance santé
+
+
+Blog
+
+En savoir plus
+
+A propos
+Contactez nous
+
+
+
+
+
+
+
+
+
+
+Meilleure plateforme de trading en ligne
+Quelle est la meilleure plateforme de trading pour investir sur les marchés financiers ?
+
+
+
+
+Comparatif des meilleures plateformes pour investir en bourse
+
+
+					Ce tableau met en avant le classement comparatif des meilleures plateformes de trading en ligne avec lesquelles vous pouvez investir en Bourse. Ce classement est basé sur les frais retenus lors des transactions, sur le choix des fonds et sur les services financiers proposés par les meilleurs courtiers.
+				
+
+					Investir en Bourse, avec un courtier ou avec une plateforme web de trading représente des risques de pertes en capital ! N’investissez que de l’argent que vous êtes capables de perdre. De plus, les performances passées ne préjugent en rien des performances futures. Suivez notre guide de trading et sachez comment devenir trader.
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+
+
+  Le coup de cœur de Nouvelle Epargne
+investissement minimum de départ :50 €
+
+
+→ Coût mensuel : 0 € de frais
+→ Coûts / Trade : 0 € sur les actions et les ETF
+Placement à risque. D'autres frais peuvent s'appliquer.
+
+ 
+Caractéristiques et services
+
+                      ✔ Numéro 1 du Trading en France / Monde 
+                      ✔ Investissez dans plus de 8500 Actions et ETF 
+                      ✔ Les meilleurs ETF du monde 
+                      ✔ Achat possible de fractions d'actions / ETF 
+                      ✔ Tous les Marchés internationaux disponibles
+                      ✔ Copie des top investisseurs eToro 
+                      ✔ Meilleure expérience utilisateur 2021 
+                      ✔ Tarif unique : 5 € / retrait vers votre banque
+                      ✔ Actualité financière des marchés
+
+
+
+                     
+
+ → Profiter de l'offre
+En savoir plus
+
+68% des comptes C. F. .D. de traders particuliers perdent de l’argent*
+
+
+
+
+
+
+
+
+
+2
+
+
+
+investissement minimum de départ :10 €
+
+
+→ Coût mensuel : 0 € de frais
+→ Coûts / Trade : 1 €  sur les actions et les ETF
+Placement à risque. D'autres frais peuvent s'appliquer.
+
+ 
+Caractéristiques et services
+
+                      ✔ Investissez dans des milliers d’Actions et ETF 
+                      ✔ Tous les Marchés internationaux disponibles 
+                      ✔ Investissements programmés disponibles 
+                      ✔ Achat possible de fractions d'actions / ETF 
+                      ✔ Très bonne expérience utilisateur 
+                      ✔ Tarif unique : 1 € / ordre (0 frais cachés) 
+                      ✔ Rejoignez des millions de Traders Européens
+
+
+
+                     
+
+ → Profiter de l'offre
+
+Investir sur les marchés boursiers présente des risques de perte
+
+
+
+
+
+
+
+
+
+3
+
+
+
+investissement minimum de départ :0 €
+
+
+→ Coût mensuel : 0 € de frais
+→ Coûts / Trade : 2 € sur les actions et les ETF FR et 1 $ sur les actions USA
+Placement à risque. D'autres frais peuvent s'appliquer.
+
+ 
+Caractéristiques et services
+
+                      ✔ Investissez dans plus de 22 000 Actions 
+                      ✔ Tous les Marchés internationaux disponibles 
+                      ✔ Rémunération sur les liquidités (2,62% en €) 
+                      ✔ Les meilleurs ETF du monde (plus de 6400) 
+                      ✔ Et plus de 150 ETF (Amundi, Lyxor, etc.) à 0€ 
+                      ✔ Investissez dans les IPO sans commissions 
+                      ✔ 3 plateformes de trading dispo : SaxoInvestor, SaxoTraderGO, SaxoTraderPro
+                      ✔ CTO, CTO Personne Morale (Business), PEA, etc.
+                      ✔ Plus de 30 ans d'expérience et 95 Milliards d'actifs
+                      ✔ Plus de 1 000 000 clients dans le monde
+
+
+
+                     
+
+ → Profiter de l'offre
+
+Investir sur les marchés boursiers présente des risques de perte
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ La plateforme parfaite pour les gros investisseurs (minimum 2000 € / IPO)
+investissement minimum de départ :0 €
+
+
+→ Coût mensuel "offre smart" : 0 € de frais
+→ Coûts / Trade : 2 €  + 0,02 €  / actions
+Placement à risque. D'autres frais peuvent s'appliquer.
+
+ 
+Caractéristiques et services
+
+                      ✔ Investissement dans les meilleures IPO du monde (minimum 2000 € / IPO) 
+                      ✔ Investissez dans plus de 40 000 Actions 
+                      ✔ Plus de 3000 ETF disponibles 
+                      ✔ Tous les Marchés internationaux disponibles 
+                      ✔ Profitez d’un plan d’épargne à 3% brut / an 
+                      ✔ Déjà plus de 400 000 clients dans le monde 
+                      ✔ Actualité financière des marchés et recommandations d’investissements réguliers
+
+
+
+                     
+
+ → Profiter de l'offre
+En savoir plus
+
+Investir sur les marchés boursiers présente des risques de perte
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+investissement minimum de départ :300 €
+
+
+→ Coût mensuel : 0 € de frais
+→ Coûts / Trade : 1,95 €  pour 500 € investis
+Placement à risque. D'autres frais peuvent s'appliquer.
+
+ 
+Caractéristiques et services
+
+                      ✔ Investissement compte-titres ou PEA
+                      ✔ Marchés internationaux 
+                      ✔ Vous devez posséder un compte en banque Fortuneo pour investir en Bourse 
+                      ✔ Très bonne expérience utilisateur 
+                      ✔ Logiciel de trading Live trader 
+                      ✔ Bon compromis banque en ligne performante et plateforme de trading
+
+
+
+                     
+
+ → Profiter de l'offre
+
+Investir sur les marchés boursiers présente des risques de perte
+
+
+
+
+
+
+
+
+
+ 
+
+
+investissement minimum de départ :300 €
+
+
+→ Coût mensuel : 0 € de frais
+→ Coûts / Trade : 1,99 €  pour 500 € investis
+Placement à risque. D'autres frais peuvent s'appliquer.
+
+ 
+Caractéristiques et services
+
+                      ✔ Marchés internationaux 
+                      ✔ Vous devez posséder un compte en banque Boursorama pour investir en Bourse 
+                      ✔ Très bonne expérience utilisateur 
+                      ✔ Trading board et logiciel de trading 
+                      ✔ Bon compromis banque en ligne performante et plateforme de trading
+
+
+
+                     
+
+ → Profiter de l'offre
+
+Investir sur les marchés boursiers présente des risques de perte
+
+
+
+
+
+
+
+
+
+ 
+
+
+investissement minimum de départ :150 €
+
+
+→ Coût mensuel : 0 € de frais
+→ Coûts / Trade : 2,5 €  pour 1000 € investis
+Placement à risque. D'autres frais peuvent s'appliquer.
+
+ 
+Caractéristiques et services
+
+                      ✔ Marchés internationaux 
+                      ✔ Vous devez posséder un compte en banque BforBank pour investir en Bourse
+                      ✔ Très bonne expérience utilisateur 
+                      ✔ Trading board et analyse financière régulières
+
+
+
+                     
+
+ → Profiter de l'offre
+
+Investir sur les marchés boursiers présente des risques de perte
+
+
+
+
+
+
+
+* Investir en bourse présente des risques de perte en capital
+
+
+
+
+
+
+Bourse : Investir avec le meilleur courtier en ligne
+
+
+
+
+
+
+
+Investir sur un marché qui fonctionne : oui, mais attention !
+
+
+						L’ouverture d’un compte en banque en ligne améliore le quotidien de son propriétaire pour plusieurs raisons non négligeables.
+					
+
+						Investir en Bourse, c’est parier sur l’avenir, à la hausse ou à la baisse, de fonds accessibles sur les marchés boursiers internationaux. Vous pouvez investir dans des actions, dans des obligations, dans des ETF (ou trackers), dans des fonds monétaires, etc.
+          
+
+						Il ne faut pas investir n’importe comment, car si vous pouvez gagner gros, vous pouvez également tout perdre !
+
+
+						Si l'investissement boursier n’est pas un placement considéré comme naturel chez la plupart des épargnants français, c’est parce qu’il comporte des risques importants de pertes en capital et que bien souvent, vous serez seul face au risque pour placer votre argent. Vous êtes plus habitués à entendre parler d’assurance-vie ou de SCPI et moins de Bourse.
+					
+
+						Or investir en Bourse comporte des risques de perte en capital et pour cette raison, lorsque vous commencerez à investir, n’oubliez pas de respecter les 4 règles de base du « bon trader en bourse » :
+					
+
+Les performances passées ne préjugent pas des performances futures,
+N’investissez que l’argent que vous êtes capable de perdre,
+N’écoutez pas ce que disent les autres - Suivez l’actualité financière professionnelle,
+Formez-vous avant de commencer à investir !
+
+
+						Notre conseil : N’investissez que sur les fonds qui vous intéressent et dont vous suivez l’actualité régulièrement.
+					
+
+
+
+
+
+
+
+
+
+
+
+
+Investir avec une plateforme de trading en ligne
+
+
+            Créer un compte de trading en ligne améliore le quotidien de son propriétaire pour plusieurs raisons non négligeables.
+          
+
+						Enfin, si des courtiers indépendants, hors ligne, sont disponibles, il sera toujours plus intéressant, si vous décidez d’investir seul, de passer par un courtier en bourse en ligne ou par un site de trading.
+					
+
+            Au-delà de la rapidité et de la liberté de mouvement, ainsi que de l’indépendance que vous avez en investissant seul, les plateformes de courtage en ligne proposent des prix bien plus attractifs.
+          
+
+						Certaines sont même gratuites et sans frais de courtage de gestion et de mouvements. Aussi sécurisées qu’un compte réel dans une banque en ligne, votre portefeuille virtuel vous permettra de boursicoter ou d’investir à long terme, en toute sérénité.
+					
+
+						Retrouvez plus d’informations sur les frais de courtage et sur les options disponibles dans le tableau comparatif des meilleurs outils de trading en ligne.
+					
+
+
+
+
+Visuel à titre d'illustration
+
+
+
+
+
+
+
+
+Plus d’informations sur les 3 meilleures plateformes de trading
+
+
+
+
+
+
+
+
+
+
+
+eToro - La plateforme web parfaite pour débuter ou pour investir en toute simplicité
+
+
+
+
+
+
+
+
+
+
+
+					La plateforme de trading eToro est très intéressante et a marqué beaucoup de points, car elle possède 2 points forts par rapport à ses concurrents :
+				
+
+Son tarif extrêmement avantageux,
+Son expérience utilisateur.
+
+
+Le tarif est simple à comprendre, car là il n’y a pas de frais d’inscriptions ni de clôture du compte, il n’y a pas de frais de gestion et il n'y a aucun frais à l'achat et à l'investissement. Alors comment la plateforme se rémunère-t-elle ? Et bien c’est très simple, celle-ci vous prélève 5 € par retrait d’argent de votre compte eToro vers votre compte bancaire !
+				
+
+					Voilà un modèle disruptif qui a le mérite d’être honnête et clair ! Vous l’aurez compris, continuez d’investir avec la plateforme et ne retirez votre argent que si nécessaire. Vous nous direz : Si vous faites une plus-value de 300 € sans frais de courtage, vous pouvez au moins participer aux frais de transferts et rémunérer la plateforme.
+
+
+L’expérience utilisateur est agréable ! Tout est fait pour que ce soit beau visuellement et que ce soit ergonomique et simple à utiliser. Disponible sur PC et sur Smartphone (IOS et Android), la plateforme de trading social eToro ravira les investisseurs qui souhaitent une plateforme design, pratique, performante et très peu coûteuse !
+				
+
+					Enfin, eToro propose un service très avantageux. En tant qu’utilisateur, vous pouvez accéder aux portefeuilles virtuels des autres utilisateurs eToro. Vous pouvez les suivre en les ajoutant à vos contacts à suivre et surtout :
+				
+
+					➔ Vous pouvez copier leurs portefeuilles virtuels et effectuer exactement les mêmes investissements qu’eux ! En clair, si vous décidez de copier les Top investisseurs et que ceux-ci font des performances et que vous faites exactement les mêmes investissements en bourse qu’eux, sans trop vous soucier de l’actualité et des fluctuations des marchés boursiers, vous ferez également des performances !
+				
+
+					La plateforme eToro a tout pour plaire et c’est normal !
+				
+
+Profiter de l’offre eToro
+
+68% des comptes d'investisseurs particuliers perdent de l'argent en négociant des C. F. .D. avec ce fournisseur. Vous devez vous demander si vous pouvez vous permettre de prendre le risque élevé de perdre votre argent.
+Mentions obligatoires eToro
+Autorisations légales : Numéro d’enregistrement de la société HE20058. Enregistrée à Chypre (CIF). La société de trading eToro Europe est réglementée par la Cyprus Securities & Exchange Commission (CySEC) sous la licence n° 109/10. eToro Europe est soumise et se conforme à la Directive concernant les marchés d’instruments financiers (MiFID).
+eToro Europe est en possession d’une licence pour fournir des services d’investissement de réception et de transmission des ordres en rapport avec un ou plusieurs instruments financiers, d’exécution des ordres au nom de clients, pour compte propre, de gestion de portefeuille et de conseils en investissements financiers. La société est également agréée pour fournir le service auxiliaire de conservation et d’administration des instruments financiers, y compris les services de gardes et apparentés. eToro Europe traite avec vous en qualité d’agent ou pour son propre compte. Lorsqu'elle agit en tant qu’agent, nous utilisons un autre courtier exécutant, y compris un tiers non affilié, pour exécuter les ordres des clients. Pour avoir plus d’informations sur les services et instruments que la société de trading eToro Europe est autorisée à fournir, rendez-vous sur Services d’investissement et Services auxiliaires.
+Investir sur les machés financiers présente des risques de pertes en capital. N’investissez uniquement que l’argent que vous pouvez perdre. Enfin, les performances passées ne préjugent jamais des performances futures.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Trade Republic - La nouvelle Plateforme de Trading Européenne pour investir en Bourse : actions et ETF dans le monde entier à seulement 1 €/trade !
+
+
+
+
+
+
+
+
+
+
+
+          La plateforme de trading Trade Republic vient de débarquer sur le marché boursier Français et propose une petite révolution dans le trading français : Tous vos trades en France et à l’International sont à 1 € uniquement. Il n’y a pas de frais supplémentaires, ni de frais cachés ! Voilà, vous savez tout ! Ah ! Si, les investissements programmés sont disponibles ! Votre argent virtuel travaille tout seul pour vous !
+        
+
+          Parlons du dépôt minimum : 10 € et c’est tout.
+        
+
+          Oui vous avez bien lu, si vous n’avez que quelques euros par mois à investir, alors vous pouvez vous lancer avec Trade Republic. Cette plateforme de trading est une véritable « pépite » pour débuter et pour se lancer dans le trading ou l’investissement en ETF : Fonds indiciels qui réplique les performances d’un indice donné. Il suivra donc la performance d’une sélection d’investissements (plusieurs actions technologiques, immobilières, S & P 500, etc.) Attention, le trading en bourse est risqué et vous pouvez perdre. N’investissez que de l’argent que vous pouvez perdre.
+
+
+          Ce broker fait partie des meilleures plateformes de trading avec les avantages suivants :
+        
+
+Il n’y a pas de frais cachés (1 €/trade et c’est tout)
+Plus de 8500 Actions et ETF internationales sont accessibles
+Plus de 1 000 000 d’investisseurs européens s’y connectent régulièrement
+Vous pouvez investir à partir de 10 € seulement - une véritable révolution
+Achats de fractions de parts d’actions ou d’ETF en investissement programmés*
+Investissements automatiques programmés disponibles à tous !
+
+
+          * Vous voulez investir dans l’ETF S&P 500 ? Mais vous n’avez pas assez pour acheter une part entière ? Pas de soucis, la fraction de part vous permet d’acheter pour le montant que vous souhaitez (par exemple, 30 euros sur le S&P 500 en une fois, ou en versements programmés tous les mois). Et bien entendu, il ne vous en coûtera que 1 €/trade.
+        
+
+Les frais de la plateforme :
+        
+
+1 €/trade (ou ordre d’investissement)
+Accessible à partir d’un dépôt minimum de 10 € (vous avez 11 € ? vous pouvez commencer à investir 10 € + 1 € de frais pour votre trade ou achat d’actions/ETF)
+
+
+          En termes d'expérience utilisateur, c’est le top ! Tout est simple à comprendre et à prendre en main. Les opérations sur votre compte se font en quelques minutes et à 100 % en ligne ; la plateforme est vraiment ergonomique, fluide, rapide. Vous pouvez commencer à trader ultra rapidement. L’ouverture de votre compte de trading se fait en quelques minutes et directement en ligne. Pour en savoir plus, c’est par ici.
+        
+
+          ➔ Trade Republic est une véritable révolution en matière de plateforme de trading. Tout le monde peut s’y essayer et commencer à trader pour quelques euros. Fraîchement accessible en France depuis courant 2021, vous pouvez dès à présent vous lancer dans le trading en toute simplicité. Amazon, Microsoft, Netflix, Coca-Cola, Tesla, Airbnb, Air Liquide, L’Oréal, Hermès, etc. Plus de 8500 actions internationales et ETF sont disponibles. N’attendez pas plus longtemps pour tester et commencer à investir automatiquement.
+        
+
+Profiter de l’offre Trade Republic
+
+Mentions obligatoires Trade Republic
+Trade Republic est une banque de courtage en allemagne et une entreprise d’investissement selon la loi française. L’argent des investisseurs est sécurisé. Trade Republic est un des plus grands acteurs financiers Européen. Cette société est bien entendu supervisée par l’AMF (Bafin) et la banque centrale d’Allemagne (En savoir plus)
+Siège social : Trade Republic Bank GmbH Kastanienallee 32 10435 Berlin, Allemagne. La société est enregistrée au registre du commerce d’AG Düsseldorf sous le numéro suivant HRB 85864.
+Investir sur les machés financiers présente des risques de pertes en capital. N’investissez uniquement que l’argent que vous pouvez perdre. Enfin, les performances passées ne préjugent jamais des performances futures.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Boursorama - Banque en ligne et plateforme boursière très large
+
+
+
+
+
+
+
+
+
+
+
+					Avant d’être la banque en ligne préférée des Français (numéro 1 en France avec le plus grand nombre de clients des banques en ligne), Boursorama était une plateforme dédiée à l’investissement en bourse et au trading.
+				
+
+					Aujourd’hui, la banque en ligne est plus connue par les néophytes pour son compte bancaire gratuit et très avantageux (en savoir plus) et beaucoup moins pour sa plateforme de trading qui propose une expérience intéressante destinée aux débutants qui ont pris le temps de se former pour maîtriser les termes du trading.
+				
+
+					Pour accéder à la plateforme boursière, vous devez posséder un compte dans la banque en ligne. En résumé : vous profitez d’une carte visa Ultim Premium gratuite, d’un compte de trading gratuit, des retraits et des paiements sans frais dans le monde entier (oui, en devises sur le marché international aussi) ainsi que d’un accès aux plans d’épargnes Boursorama (assurance-vie, PEL, Livrets, etc.) et à la plateforme de trading.
+				
+
+					Chez Boursorama vous pouvez choisir entre un PEA, un PEA-PME ou un Compte titres pour investir en Bourse. Vous avez accès au marché boursier international et les ordres d’achats ou de ventes sont simples à faire passer. Vous pourrez même configurer des alertes liées à la hausse ou à la baisse de fonds. Vous aurez accès au logiciel de gestion de Boursorama « Trading Board » qui vous permettra de visualiser vos coûts et vos transactions tout en les organisant comme bon vous semble. C’est votre nouveau dashboard pour investir.
+				
+
+					En termes de tarification : Le PEA et le Compte titres sont gratuits et sans frais de gestion, d’ouverture de compte ou de fermeture. Vous payez uniquement des frais sur l’achat et la vente de fonds (les coûts sont différents entre le marché boursier Français et les autres marchés - investir à l'international peut coûter plus cher).
+				
+
+					Voici le détail des tarifs des investissements en bourse avec Boursorama, sur les marchés européens :
+				
+
+
+						1,99 € par ordre compris entre 0 € et 500 €
+					
+
+						5,50 € pour des ordres supérieurs à 500 € et inférieurs à 1000 €*
+					
+
+						16,65 € pour des ordres supérieurs à 3500 € et inférieurs à 7750 €*
+					
+
+						9,90 € pour des ordres supérieurs à 7750 € inférieurs à 10 000 €**
+					
+
+
+*Au delà de 1000 € vous payez 0,48 % du montant en plus avec un minimum de 8,95 € - 1 ordre minimum à passer par mois. Au delà de 7750 €, vous payez 0,22 % sur le montant total de l’ordre - 1 transaction à faire par mois minimum. Sans passage d’ordre, vous payez 5,95 €/mois.
+					**Pour le forfait à 9,90 € vous passez au moins 30 ordres par mois et vous payez 0,12 % de plus par ordre supérieur à 10 000 €. Sans passage des 30 ordres, vous payez 119 €/mois.
+					
+
+
+					Pour trader à l’international, vous payerez quelques euros de plus pour couvrir les frais de transferts internationaux. Vous choisissez le forfait voulu au moment de l’ouverture du compte titres ou du PEA. Celui-ci peut bien entendu évoluer dans le temps.
+				
+
+					Pour les utilisateurs un peu plus expérimentés, Boursorama peut vous convenir complètement. Si vous décidez de débuter avec Boursorama, préférez le forfait à 1,99 €/ordre de moins de 500 €.
+				
+
+ → Profiter de l'offre BoursoBank
+
+Mentions obligatoires Boursorama
+Boursorama est enregistré au numéro 351 058 151 RCS Nanterre et son siège social est situé à l’adresse suivante : sis 44 rue Traversière, CS 80134, 92772 Boulogne-Billancourt CEDEX.
+BOURSORAMA est un établissement de crédit de droit français agréé par l'ACPR.
+        La banque en ligne (et le service de plateforme de trading) sont également immatriculées auprès de l'ORIAS sous le n° 07022916 en tant que courtier en assurance. En savoir plus.
+Investir sur les machés financiers présente des risques de pertes en capital. N’investissez uniquement que l’argent que vous pouvez perdre. Enfin, les performances passées ne préjugent jamais des performances futures.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fortuneo - Banque en ligne et plateforme spécialisée en bourse
+
+
+
+
+
+
+
+
+
+
+
+					Fortuneo est également une banque en ligne avec des tarifs très avantageux. Il vous faudra y ouvrir un compte si vous souhaitez profiter de leur plateforme de trading.
+				
+
+					Pour information, Fortuneo propose un compte bancaire accessible sans condition de revenus (avec une carte MasterCard classique), mais il est moins intéressant que le compte accessible avec une carte Mastercard Gold à partir de 1 800 € de revenus nets mensuels.
+        
+
+					Retrouvez plus d’informations sur le compte bancaire Fortuneo.
+				
+
+					Concernant la plateforme pour investir en Bourse. Celle-ci est très complète et ne manquera pas de plaire aux néophytes comme aux investisseurs un peu plus spécialisés.
+				
+
+					L’information financière y est claire et bien mise en avant. Comme chez Boursorama, les fonds sont classés et vous retrouverez facilement les ETF, les Actions, les Obligations, les fonds monétaires, etc. Vous pourrez profiter d’un PEA ou d’un compte titres sans frais de gestion, sans frais de garde et sans coûts de conservation.
+				
+
+					Vous avez accès au marché boursier international et bénéficiez d’un logiciel de gestion « Live Trader : la salle des marchés à domicile, en live, par Fortuneo ».
+				
+
+					Accessible depuis votre espace personnel en ligne, vous pourrez également boursicoter depuis votre application mobile Fortuneo. L’expérience utilisateur y est poussée et très agréable.
+				
+
+					En termes de tarification, pour les marchés boursiers européens, Fortuneo propose quelque chose d’intéressant :
+				
+
+
+						1,95 € pour les ordres inférieurs à 500 €
+					
+
+						3,90 € pour des ordres compris entre 500 € et 2 000 € - au-delà 0,20 %
+					
+
+						9,50 € pour des ordres inférieurs à 10 000 € - au-delà 0,12 %*
+					
+
+						6,50 € pour les ordres inférieurs à 10 0000 € - au-delà 0,10 %**
+					
+
+
+* Vous devez faire passer 30 ordres par mois ou 90 tous les 3 mois - sinon vous serez prélevé de la somme de 59,80 €/mois.
+					** Vous devez faire passer 100 ordres par mois ou 300 tous les 3 mois - sinon vous serez prélevé de la sommes de 6,50 € au titre des ordres non exécutés.
+					
+
+
+					Pour trader à l'international, vous devrez payer quelques euros de plus.
+        
+
+					Vous l’aurez compris, Fortuneo propose des tarifs intéressants si vous vous mettez à passer des ordres très importants en volume et en coûts.
+				
+
+Profiter de l’offre Fortuneo
+
+Mentions obligatoires Fortuneo
+Siège social : Tour Ariane - 5, place de la Pyramide 92088 Paris La Défense. Banque en ligne avec une section trading. Société immatriculée au RCS de Nanterre 384 288 890.
+Fortuneo Banque est agréée par l’ACPR après l'avis de l’Autorité des marchés financiers - AMF. Fortuneo est également courtier en assurance et immatriculé au registre des intermédiaires en assurances après le numéro 07 008 441 - Au registre tenu par l’ORIAS. En savoir plus.
+Investir sur les machés financiers présente des risques de pertes en capital. N’investissez uniquement que l’argent que vous pouvez perdre. Enfin, les performances passées ne préjugent jamais des performances futures.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BforBank - Banque en ligne premium et plan Bourse intéressant
+
+
+
+
+
+
+
+
+
+
+
+
+
+					BforBank propose une plateforme boursière différente des plateformes Boursorama et Fortuneo, car vous avez accès à une actualité boursière moins développée - très focus et vraiment condensée. Elle est présente, mais moins développée que chez les deux autres banques en ligne.
+				
+
+					Cependant, le dashboard de passage d’ordre de BforBank est très visuel et ne manquera pas de plaire à tous les investisseurs qui savent sur quel fond investir leur capital.
+				
+
+					Pour ce qui est de la gestion de votre portefeuille d’ordre, on ne peut pas le retirer a BforBank, celui-ci est très ergonomique et donc très bien organisé.
+				
+
+					Si vous savez sur quoi vous investissez et que vous n’avez pas besoin d’un grand suivi d’actualité, BforBank Bourse fera très bien l’affaire. Néanmoins, il y a quand même « La synthèse du Jour » qui vous permet d’avoir une petite analyse rapide des informations à retenir et l’analyse « Kepler Cheuvreux » qui vous offre un retour d’analyse rapide. Enfin, vous avez accès à un consensus de recommandations Factset, à une analyse technique et au logiciel de bourse Live Market que vous pouvez personnaliser.
+				
+
+					Comme pour les autres banques en ligne, vous devez posséder un compte dans la banque en ligne BforBank pour commencer à investir en Bourse depuis leur plateforme de trading.
+        
+
+					Le compte BforBank est gratuit, mais accessible à ceux qui gagnent plus de 1600 €/mois - La carte bancaire est gratuite si vous l’utilisez au moins 1 fois par mois.
+				
+					Les Tarifs de l’offre Bourse chez BforBank :
+				
+
+
+						Jusqu’à 1 000 € : 2,5 €/ordre
+					
+
+						Entre 1 000 € et 3 000 € : 5 €/ordre
+					
+
+						Pour des ordres de 3 000 € et plus, vous payerez 0,13 % (minimum 10 €)
+					
+
+
+					En ce qui concerne les tarifs sur les marchés boursiers internationaux, ils varient, mais seront plus chers que ceux des marchés français (Euronext Paris, Bruxelles, Amsterdam).
+				
+
+					BforBank propose un plan bourse intéressant aux consommateurs qui ne sont pas nouveaux en bourse. De plus, comme pour toutes les banques en ligne qui proposent un site de trading, les tarifs pour les ordres à l'international sont moins intéressants.
+				
+
+Profiter de l’offre BforBank
+
+Mentions obligatoires BforBank
+Siège social : Tour Europlaza - 20 Avenue André Prothin, La Défense 4, 92927 Paris la Défense Cedex. Enregistré 509 560 272 RCS Nanterre.
+BforBank est agréée par L'Autorité de contrôle prudentiel et de résolution (ACPR) comme établissement de crédit et par l’AMF. En qualité de courtier en assurance, la société BforBank (et la plateforme de trading) sont inscrites sous le numéro d'immatriculation ORIAS 09050824. En savoir plus.
+Investir sur les machés financiers présente des risques de pertes en capital. N’investissez uniquement que l’argent que vous pouvez perdre. Enfin, les performances passées ne préjugent jamais des performances futures.
+
+
+
+
+
+
+
+
+Questions fréquentes sur le trading et l’investissement boursier
+
+
+
+
+
+
+
+
+
+
+Définir mon objectif de placement
+
+
+
+
+
+
+
+
+
+
+
+
+										Quel est votre objectif de placement ? Avez-vous un projet en vue ? Quel est votre horizon de placement ? Posez-vous les bonnes questions et définissez votre projet :
+									
+
+
+											Epargne,
+										
+
+											Investissement dans un projet,
+										
+
+											Faire fructifier un capital,
+										
+
+											Etc.
+										
+
+
+										C’est une question très importante qui vous orientera sans aucun doute sur l’enveloppe et le portefeuille à choisir pour investir en bourse.
+									
+
+
+
+
+
+
+
+
+
+
+Comment trouver la meilleure plateforme de trading ?
+
+
+
+
+
+
+
+
+
+    											Pour trouver la meilleure plateforme pour investir en bourse, vous devez vous poser les bonnes questions. Commencez par établir une liste de vos besoins :
+    										
+
+
+    												PEA ou Compte-titres ?
+    											
+
+    												Marché boursier européen et/ou international ?
+    											
+
+    												Compte en banque et plateforme ou plateforme de trading indépendante ?
+    											
+
+    												Besoin de suivre des exemples ?
+    											
+
+    												Néophyte ou expert de l’investissement ?
+    											
+
+
+    											Si en répondant à la plupart des questions, vous avez l’impression que vous pouvez investir seul et que vous ne passerez pas beaucoup d’ordres, et encore moins sur les actions internationales comme Amazon, Tesla, Microsoft, Apple, etc., alors tournez-vous vers la banque en ligne Boursorama ou BforBank.
+    										
+
+    											Si au contraire vous souhaitez boursicoter sans frais à l’international, suivre les meilleurs traders en bourse, copier les tops investisseurs, ne pas avoir le sentiment d’investir seul, profiter des meilleures actions américaines et européennes sans frais sur les investissements, alors choisissez la plateforme de trading indépendante eToro.
+    										
+
+
+
+
+
+
+
+
+
+
+
+
+
+Quels sont vos besoins en termes de fonds ?
+
+
+
+
+
+
+
+
+
+
+
+
+    											Avez-vous envie d’investir sur les marchés européens à moindre coût ? Dans ce cas, choisissez une banque en ligne et sa plateforme de trading dans le tableau comparatif ci-dessus (vous aurez aussi accès aux marchés boursiers Américains et Asiatiques, mais ce sera un peu plus cher de quelques euros par ordre passé- vous ne passerez donc pas des ordres d’achat ou de vente toute la journée).
+    										
+
+    											Ou avez-vous envie d’investir sur les marchés boursiers européens et américains (et internationaux en général) et faire parfois passer plusieurs ordres de vente dans la même journée, sur le même fonds ? Dans ce cas, profitez d’une plateforme de trading boursière indépendante et choisissez-la meilleure en termes de tarifs et de mouvements (eToro - cf tableau comparatif ci-dessus).
+    										
+
+
+
+
+
+
+
+
+
+
+Estimez vos investissements mensuels
+
+
+
+
+
+
+
+
+
+  										  Êtes-vous plutôt sur des petits mouvements et passages d’ordres ? ou êtes-vous plutôt sur des gros montants ?
+    									
+
+    										Si vous êtes sur des petits passages d’ordres (compris entre 100 €, 200 € et jusqu’à 500 €) vous devrez vous intéresser à des plateformes qui vous permettent d’investir de petites sommes pour peu de frais de courtage. Avec ce type d’investissement boursier, vous pouvez très bien vous en sortir et vous trouverez chaussure à votre pied chez Fortuneo, Boursorama ou chez eToro.
+    									
+
+    										Si vous êtes sur des investissements plus importants chaque mois (entre 2000 € et 10 000 €) les plateformes reliées aux banques sont toujours intéressantes pour vous. Au-dessus de ces investissements mensuels, nous vous conseillons de vous tourner vers un courtier en bourse indépendant ou encore de choisir un logiciel de trading payant - lequel vous apportera beaucoup plus d’outils. Pour tous ceux qui souhaitent investir avec les services des banques en ligne, sur des trades supérieurs à 10 000 € mensuels, allez-y sans hésiter, elles peuvent largement gérer ces investissements.
+    									
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ouvrir un PEA ou un compte-titre ?
+
+
+
+
+
+
+
+    								Le PEA est plafonné à 150.000 €. Vous pouvez y placer vos investissements en action uniquement, provenant des marchés européens uniquement. Il faudra aussi conserver ces fonds pendant plus de 5 ans pour bénéficier de la fiscalité avantageuse : pas d’imposition sur les plus-values après 5 ans de conservation (vous payez dans tous les cas les charges sociales (CSG, CRDS) de 17,20 %). Si vous retirez des fonds de votre PEA avant 5 ans (même une infime partie) votre PEA est cassé et vous payez les impôts sur les plus-values (12,8 %).
+    							
+
+    								Le Compte titres n’est pas plafonné. Vous pouvez y placer des investissements en actions, en obligations, en monétaires, en trackers ou ETF, en matière première, etc.
+                  
+
+    								Il n’y a pas de durée de conservation ou de limite de temps. Vous n’avez pas de fiscalité avantageuse et vous êtes soumis à la flat tax sur les plus-values.
+                  
+
+    								Fiscalement moins avantageux que le PEA, le compte titres ne connaît cependant aucune limite et reste un instrument financier très utilisé et de plus en plus en vogue auprès des investisseurs.
+    							
+
+    								Choisissez l’un ou l’autre en fonction de votre projet. Les PEA ne peuvent être ouverts qu'auprès des banques traditionnelles et des banques en ligne.
+    							
+
+
+
+
+
+
+
+
+Quand dois-je commencer à investir en bourse ?
+
+
+
+
+
+
+
+                    Une fois votre projet défini : objectif d’investissement, investissements mensuel/annuel prévu, enveloppe PEA ou Compte titres, plateforme de trading, formation et compréhension des risques encourus, etc. alors vous pouvez vous lancer en douceur.
+                  
+
+                    Testez avant de tout investir et prenez le temps de comprendre les mouvements et les fluctuations. N’oubliez pas qu’investir comporte des risques de perte en capital : vous pouvez perdre beaucoup autant que vous pouvez gagner.
+							    
+
+    								Ne mettez pas tout votre argent sur le même cheval et diversifiez vos investissements si vous le pouvez. Rappelez-vous des règles d’investissements et suivez l'actualité.
+    							
+
+
+
+
+
+
+
+
+Plateforme de trading ou banque en ligne avec accès aux marchés boursiers ?
+
+
+
+
+
+
+
+
+
+
+
+
+        								Naturellement, vous voudrez plutôt faire confiance à une banque traditionnelle ou à une banque en ligne pour gérer votre argent réel. Sauf que dans la situation d’un investissement en Bourse, c’est vous qui gérez les passages d’ordres. La banque ne vous donne que l’accès à sa plateforme de trading. De plus, investir avec une banque coûte généralement un peu plus cher que d’investir avec une plateforme boursière indépendante.
+        							
+
+        								Pour vous aider, demandez-vous simplement : ai-je besoin d’un compte en banque en ligne ? Si oui, vous pourrez commencer à faire du trading directement depuis la plateforme du compte en banque, et profiter du compte de démonstration. Par la suite passez sur une plateforme indépendante. Si vous n’avez pas besoin d’un nouveau compte en banque en ligne, alors préférez une plateforme performante et ergonomique comme eToro - numéro 1 en Europe. Il s’agit probablement du meilleur site si vous êtes un nouveau trader.
+        							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Le choix de Nouvelle Épargne
+
+
+				Nouvelle Épargne ne pourra que vous orienter vers des placements sûrs et sécurisés. La bourse étant un placement très risqué, nous ne pouvons pas vous conseiller - chacun est maître de ses investissements évoluant en fonction des fluctuations du marché boursier. Nous comprenons néanmoins votre intérêt pour le choix d’une plateforme de trading plutôt qu’une autre, alors nous vous donnons ci-dessous notre retour personnel.
+			
+
+
+					Pour des petits placements mensuels ou non réguliers – en tant que débutant sans une énorme expérience en Bourse (et après avoir pris le temps d’apprendre le trading tout en gardant en tête les grandes règles liées à l’investissement) - Préférez eToro qui vous permettra de suivre d’autres traders en bourse, de comprendre leurs analyses et la cohérence de leurs portefeuilles. S’ils gagnent de manière régulière, c’est qu’il y a une raison. Vous pourrez copier le portefeuille virtuel d’un trader pro et comprendre sa technique de trading afin de l’utiliser avec profit.
+				
+
+					Pour des placements de quelques centaines d’euros par mois (ou pour un placement en 1 fois de quelques milliers d’euros) et avec un objectif précis (acheter une maison, payer des études, s’offrir un voyage, épargner en vue d’un projet, etc.) préférez les placements encadrés par des courtiers comme l’assurance-vie, les livrets ou d’autres placements plus sécurisés que la Bourse - Et si vous tenez absolument à investir en bourse, tournez-vous vers un courtier en bourse indépendant.
+				
+
+					Pour les placements plus importants (au-dessus de 1000 €/mois et réguliers), tournez-vous soit vers eToro, soit vers une banque en ligne et son outil de trading gratuit. Notre choix s'orienterait plutôt vers la fiabilité du site Boursorama ou Fortuneo. Après, eToro fera très bien l’affaire pour tester quelques actions de boursicotage occasionnelles.
+				
+
+
+        Le fait d’avoir choisi ces plates-formes ne devrait, toutefois, pas trop vous influencer. Ne vous contentez pas du trading automatique effectué par un robot trader ou robot de trading. Ayez votre propre plan de trading en suivant une formation trading. Comprenez ainsi le marché interbancaire, les indices boursiers, le marché des devises ou encore le calendrier économique.
+      
+
+
+
+
+
+
+
+
+
+
+                    Nouvelle Épargne s'adresse à tous ceux qui veulent comprendre comment fonctionnent l'épargne et la finance d'aujourd'hui. Comment investir ? Comment choisir son plan d'épargne ? Faut-il souscrire en ligne ? Dois-je diversifier mes investissements ?   Bonne lecture sur Nouvelle Épargne
+                  
+
+
+
+
+Comparatif
+
+Les meilleures banques en ligne
+La meilleure banque pour jeunes mineurs
+→ Le comparateur de banques
+
+Epargne
+
+Assurances-vie en ligne (fonds en euros)
+Assurances-vie en ligne (unités de comptes)
+Les meilleures plateformes de trading en ligne
+Les meilleures SCPI
+
+
+
+
+
+Assurance
+
+Comparatif assurance auto jeune conducteur
+Comparatif assurance chien
+Comparatif assurance chat
+
+
+
+
+
+Les banques pro
+
+Banques pour les auto-entrepreneurs
+Banques Pro(s) pour les sociétés
+Banques Pro(s) - Associations
+
+
+
+
+
+
+
+Newsletter Mensuel
+E-mail
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+® Nouvelle-Épargne.fr 2023 tous droits réservés
+
+
+
+Mentions Légales
+Contact
+A propos
+Paramétrer les cookies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

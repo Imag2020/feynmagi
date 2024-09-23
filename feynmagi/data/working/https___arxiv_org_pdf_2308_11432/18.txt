@@ -1,0 +1,45 @@
+LeiWangetal. ASurveyonLargeLanguageModelbasedAutonomousAgents 19
+Parameter Learning Parameter Learning Parameter Learning
+Model
+Output Model
+Dataset Prompt Engineering
+Prompt Engineering
+Agent relevant Prompts Output
+Model
+Classify the text into
+neutral, negative or Output Mechanism Engineering
+positive. Text: I think
+Input the food was okay. Neutral Trial-and- Crowd-
+Sentiment: Error sourcing
+Model Parameters Capability Prompts Capability Capability
+The era of machine learning The era of large language model The era of agent
+Fig.4 Illustrationoftransitionsinstrategiesforacquiringmodelcapabilities.
+addition to building datasets based on human or (i.e., prompt engineer). In prompt engineer, one
+LLMannotation,directlyusingreal-worlddatasets needstowritevaluableinformationintotheprompts
+tofine-tunetheagentisalsoacommonstrategy. For toenhance themodelcapabilityor unleashexisting
+example,inMIND2WEB[89],theauthorscollecta LLM capabilities. In the era of agents, the model
+largeamountofreal-worlddatasetstoenhancethe capabilitycanbe acquiredbasedonthreestrategies:
+agent capability in the web domain. In contrast to (1)modelfine-tuning, (2)promptengineer and(3)
+priorstudies, thedatasetpresentedin thispaperen- designingproperagentevolutionmechanisms(we
+compassesdiverse tasks,real-worldscenarios, and called it as mechanism engineering). Mechanism
+comprehensive user interaction patterns. Specif- engineeringisabroadconceptthatinvolvesdevelop-
+ically, the authors collect over 2,000 open-ended ingspecializedmodules,introducingnovelworking
+tasks from 137 real-world websites spanning 31 rules, and other strategies to enhance agent capa-
+domains. Using this dataset, the authors fine-tune bilities. For clearlyunderstanding suchtransitions
+LLMstoenhancetheirperformanceonweb-related onthestrategyofmodelcapabilityacquisition,we
+tasks, including movie discovery and ticket book- illustrate them in Figure 4. In the following, we
+ing,amongothers. InSQL-PALM[90],researchers introduce prompting engineering and mechanism
+fine-tune PaLM-2 based on a cross-domain large- engineeringforagentcapabilityacquisition.
+scale text-to-SQL dataset called Spider. The ob-
+• Prompting Engineering. Due to the strong
+tained model can achieve significant performance
+languagecomprehensioncapabilities,peoplecandi-
+improvementontext-to-SQLtasks.
+rectlyinteractwithLLMsusingnaturallanguages.
+CapabilityAcquisitionwithoutFine-tuning: In Thisintroducesanovelstrategyforenhancingagent
+theera oftraditionmachine learning,the modelca- capabilities,that is,onecandescribethe desiredca-
+pabilityismainlyacquiredbylearningfromdatasets, pability using natural language and then use it as
+wheretheknowledgeisencoded intothemodelpa- promptstoinfluenceLLMactions. Forexample,in
+rameters. IntheeraofLLMs,themodelcapability CoT [45], in order to empower the agent with the
+can be acquired either by training/fine-tuning the capability forcomplex taskreasoning, the authors
+model parameters or designing delicate prompts presenttheintermediatereasoningstepsasfew-shot

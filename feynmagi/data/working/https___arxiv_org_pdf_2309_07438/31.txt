@@ -1,0 +1,91 @@
+32
+[476] W. Cui, K. Shen, and W. Yu, “Spatial deep learning for wireless [500] S. Kraijak and P. Tuwanut, “A survey on iot architectures, protocols,
+scheduling,”ieeejournalonselectedareasincommunications,vol.37, applications, security, privacy, real-world implementation and future
+no.6,pp.1248–1261,2019. trends,”in11thinternationalconferenceonwirelesscommunications,
+[477] V. Chandola, A. Banerjee, and V. Kumar, “Anomaly detection: A networkingandmobilecomputing(WiCOM2015),pp.1–6,IET,2015.
+survey,” ACM computing surveys (CSUR), vol. 41, no. 3, pp. 1–58, [501] B.RanaandY.Singh,“Internetofthingsanduav:Aninteroperability
+2009. perspective,” Unmanned Aerial Vehicles for Internet of Things (IoT)
+[478] M.Ahmed,A.N.Mahmood,andJ.Hu,“Asurveyofnetworkanomaly Concepts,Techniques,andApplications,pp.105–127,2021.
+detectiontechniques,”JournalofNetworkandComputerApplications, [502] P. Matta and B. Pant, “Internet of things: Genesis, challenges and
+vol.60,pp.19–31,2016. applications,”JournalofEngineeringScienceandTechnology,vol.14,
+[479] A. B. Nassif, M. A. Talib, Q. Nasir, and F. M. Dakalbab, “Machine no.3,pp.1717–1750,2019.
+learning for anomaly detection: A systematic review,” Ieee Access, [503] P. Dauvergne, AI in the Wild: Sustainability in the Age of Artificial
+vol.9,pp.78658–78700,2021. Intelligence. MITPress,2020.
+[504] U. Pagallo, M. Durante, and S. Monteleone, “What is new with the
+[480] R.Yu,F.DelNin,Y.Zhang,S.Huang,P.Kaliyar,S.Zakto,M.Conti,
+internetofthingsinprivacyanddataprotection?fourlegalchallenges
+G.Portokalidis,andJ.Xu,“Buildingembeddedsystemslikeit’s1996,”
+arXivpreprintarXiv:2203.06834,2022. on sharing and control in iot,” Data protection and privacy:(In)
+visibilitiesandinfrastructures,pp.59–78,2017.
+[481] J. A. Halderman, S. D. Schoen, N. Heninger, W. Clarkson, W. Paul,
+[505] G. Rosner and E. Kenneally, “Clearly opaque: Privacy risks of the
+J.A.Calandrino,A.J.Feldman,J.Appelbaum,andE.W.Felten,“Lest
+internet of things,” in Rosner, Gilad and Kenneally, Erin, Clearly
+weremember:cold-bootattacksonencryptionkeys,”Communications
+Opaque: Privacy Risks of the Internet of Things (May 1, 2018). IoT
+oftheACM,vol.52,no.5,pp.91–98,2009.
+PrivacyForum,2018.
+[482] Y.-S. Won, J.-Y. Park, D.-G. Han, and S. Bhasin, “Practical cold
+[506] S.Zheng,N.Apthorpe,M.Chetty,andN.Feamster,“Userperceptions
+boot attack on iot device-case study on raspberry pi,” in 2020 IEEE
+of smart home iot privacy,” Proceedings of the ACM on human-
+International Symposium on the Physical and Failure Analysis of
+computerinteraction,vol.2,no.CSCW,pp.1–20,2018.
+IntegratedCircuits(IPFA),pp.1–4,IEEE,2020.
+[507] Z.Liu,R.J.Crouser,andA.Ottley,“Surveyonindividualdifferences
+[483] B. Feng, A. Mera, and L. Lu, “P2IM: Scalable and Hardware-
+invisualization,”inComputerGraphicsForum,vol.39,pp.693–712,
+independentFirmwareTestingviaAutomaticPeripheralInterfaceMod-
+WileyOnlineLibrary,2020.
+eling,” in 29th USENIX Security Symposium (USENIX Security 20),
+[508] M. Bancilhon, Z. Liu, and A. Ottley, “Let’s gamble: How a poor
+(Boston,MA),USENIXAssociation,Aug.2020.
+visualization can elicit risky behavior,” in 2020 ieee visualization
+[484] W.Zhou,L.Guan,P.Liu,andY.Zhang,“Automaticfirmwareemula- conference(vis),pp.196–200,IEEE,2020.
+tionthroughinvalidity-guidedknowledgeinference,”in30thUSENIX [509] M. Bancilhon, Z. Liu, and A. Ottley, “Let’s gamble: Uncovering the
+Security Symposium (USENIX Security 21), USENIX Association, impactofvisualizationonriskperceptionanddecision-making,”arXiv
+2021. preprintarXiv:1910.09725,2019.
+[485] N.S.Almakhdhub,A.A.Clements,S.Bagchi,andM.Payer,“µrai: [510] A. Nathoo, G. Bekaroo, T. Gangabissoon, and A. Santokhee, “Using
+Securing embedded systems with return address integrity,” in 27th tangible user interfaces for teaching concepts of internet of things:
+Annual Network and Distributed System Security Symposium, NDSS Usabilityandlearningeffectiveness,”InteractiveTechnologyandSmart
+2020,SanDiego,California,USA,February23-26,2020. Education,vol.17,no.2,pp.133–158,2020.
+[486] Arm Ltd., “Arm TrustZone Technology.” https://developer.arm.com/ [511] S. Wachter, “Normative challenges of identification in the internet of
+ip-products/security-ip/trustzone/,Oct2021. things:Privacy,profiling,discrimination,andthegdpr,”Computerlaw
+[487] HexFiveSecurity,Inc,“TheFirstTEEForRISC-V.”https://hex-five. &securityreview,vol.34,no.3,pp.436–449,2018.
+com/multizone-security-sdk/,2021.
+[488] F. Mo, Z. Tarkhani, and H. Haddadi, “Sok: machine learning with
+confidentialcomputing,”arXivpreprintarXiv:2208.10134,2022.
+[489] E.Wallace,S.Feng,N.Kandpal,M.Gardner,andS.Singh,“Universal
+adversarial triggers for attacking and analyzing nlp,” arXiv preprint
+arXiv:1908.07125,2019.
+[490] G. Sun, Y. Cong, J. Dong, Q. Wang, L. Lyu, and J. Liu, “Data
+poisoning attacks on federated machine learning,” IEEE Internet of
+ThingsJournal,vol.9,no.13,pp.11365–11375,2021.
+[491] F.Trame`r,F.Zhang,A.Juels,M.K.Reiter,andT.Ristenpart,“Stealing
+machine learning models via prediction apis.,” in USENIX security
+symposium,vol.16,pp.601–618,2016.
+[492] B. Wang and N. Z. Gong, “Stealing hyperparameters in machine
+learning,” in 2018 IEEE symposium on security and privacy (SP),
+pp.36–52,IEEE,2018.
+[493] N. Carlini, F. Tramer, E. Wallace, M. Jagielski, A. Herbert-Voss,
+K. Lee, A. Roberts, T. B. Brown, D. Song, U. Erlingsson, et al.,
+“Extracting training data from large language models.,” in USENIX
+SecuritySymposium,vol.6,2021.
+[494] Z. Liu, X. Yu, L. Zhang, Z. Wu, C. Cao, H. Dai, L. Zhao,
+W. Liu, D. Shen, Q. Li, et al., “Deid-gpt: Zero-shot medical text de-
+identificationbygpt-4,”arXivpreprintarXiv:2303.11032,2023.
+[495] M.Abu-Elkheir,M.Hayajneh,andN.A.Ali,“Datamanagementfor
+theinternetofthings:Designprimitivesandsolution,”Sensors,vol.13,
+no.11,pp.15582–15612,2013.
+[496] R. Krishnamurthi, A. Kumar, D. Gopinathan, A. Nayyar, and
+B. Qureshi, “An overview of iot sensor data processing, fusion, and
+analysistechniques,”Sensors,vol.20,no.21,p.6076,2020.
+[497] A.Sehgal,V.Perelman,S.Kuryla,andJ.Schonwalder,“Management
+ofresourceconstraineddevicesintheinternetofthings,”IEEECom-
+municationsMagazine,vol.50,no.12,pp.144–149,2012.
+[498] L. Cui, C. Xu, S. Yang, J. Z. Huang, J. Li, X. Wang, Z. Ming,
+andN.Lu,“Jointoptimizationofenergyconsumptionandlatencyin
+mobileedgecomputingforinternetofthings,”IEEEInternetofThings
+Journal,vol.6,no.3,pp.4791–4803,2018.
+[499] H.F.AtlamandG.B.Wills,“Iotsecurity,privacy,safetyandethics,”
+Digitaltwintechnologiesandsmartcities,pp.123–149,2020.

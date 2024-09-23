@@ -1,0 +1,46 @@
+impacts of boarding and alighting patrons on bus dwell times and transfer delays are explicitly modeled.
+The optimal solution to (15a)–(15f) must satisfy the following analytical properties for any 𝑥 ∈
+[0,𝐿] and 𝑦 ∈ [0,𝑊]. The derivation of these properties can be found in Appendix B.
+−1
+𝐻∗ (𝑥)= 𝑚𝑖𝑑{𝐻 ,min{ 𝐾 ,𝐻 } ,√ 2𝛼(𝑥)(𝑆 𝐼∗(𝑥)) } (22a)
+𝐼𝑝 𝑚𝑖𝑛 Λ𝑝𝑥(𝑥)𝑆 𝐼∗(𝑥) 𝑚𝑎𝑥 Λ𝑝𝑥(𝑥)+𝛽𝑝(𝑥)𝑆 𝐼∗(𝑥)
+−1
+𝐻∗ (𝑥)= 𝑚𝑖𝑑{max{𝐻 ,𝐻 },min{ 𝐾 ,𝐻 },√ 2𝛼(𝑥)(𝑆 𝐼∗(𝑥)) } (22b)
+𝐼𝑑 𝑚𝑖𝑛 𝑡 Λ𝑑𝑥(𝑥)𝑆 𝐼∗(𝑥) 𝑚𝑎𝑥 Λ𝑑𝑥(𝑥)+𝛽𝑑(𝑥)𝑆 𝐼∗(𝑥)
+−1 −1
+2𝛼(𝑥)((𝐻∗ (𝑥)) +(𝐻∗ (𝑥)) )+2𝛾(𝑥)
+𝑆∗(𝑥)= min √ 𝐼𝑝 𝐼𝑑 , 𝐾 , 𝐾 (22c)
+𝐼 Λ𝑝𝑥(𝑥 2) 𝑣+ 𝑊Λ𝑑𝑥(𝑥) +𝜏𝑏[Λ𝑑𝑥(𝑥)]2𝐻𝑡+𝛽𝑝(𝑥)𝐻 𝐼∗ 𝑝(𝑥)+𝛽𝑑(𝑥)𝐻 𝐼∗ 𝑑(𝑥) Λ𝑝𝑥(𝑥)𝐻 𝐼∗ 𝑝(𝑥) Λ 𝑑𝑥(𝑥)𝐻 𝐼∗ 𝑑(𝑥)
+{ }
+𝐵∗(𝑥,𝑦) =
+√4𝑣𝑤[ 𝜇𝑆𝐼∗1 (𝑥)(𝜋𝑠+ 𝐻𝜋 𝐼∗𝑚 𝑝(𝜏 𝑥0 )+ 𝐻𝜋 𝐼∗𝑚 𝑑(𝜏 𝑥0 ))+𝜏0(Λ𝑝𝑥𝑦(𝑥,𝑦)+Λ𝑑𝑥𝑦(𝑥,𝑦))]
+(22d)
+𝜆𝑝(𝑥,𝑦)+𝜆𝑑(𝑥,𝑦)
+Eqs. (22a)–(22c) show that the optimal headways and line spacings are negatively correlated with
+demand and positively correlated with the agency cost rate, 𝛼(𝑥). In other words, lower demand (or
+higher agency cost rates) leads to larger bus service headways and line spacings. Note if the relationship
+between boarding and alighting patrons and bus dwell times is ignored, 𝜏 and 𝛼(𝑥) would be larger,
+0
+resulting in an overestimation of optimal headways and line spacings.
+Eq. (22d) reveals that the optimal stop spacing is positively correlated with the agency cost rates
+and the number of onboard patrons (represented by Λ (𝑥,𝑦)+Λ (𝑥,𝑦) ). But it is negatively
+𝑝𝑥𝑦 𝑑𝑥𝑦
+correlated with the local demand density 𝜆 (𝑥,𝑦)+𝜆 (𝑥,𝑦) since shorter stop spacings can reduce
+𝑝 𝑑
+access and egress costs. Notably, the optimal heterogeneous stop spacing is directly related to the local
+line spacing and headway, i.e., longer line spacing and headways result in shorter stop spacings. This
+highlights the importance of jointly and properly optimizing heterogeneous stop spacing. Eq. (22d) also
+shows that stop spacing would be overestimated if the impacts of boarding and alighting patrons on bus
+dwell times are ignored, thanks to the larger 𝜏 that would occur.
+0
+Based on the above properties, we propose the following iterative algorithm to heuristically solve
+the optimization problem.
+3.2 A heuristic iterative solution method
+The algorithm consists of two main stages (i.e., Stage 1 and 2 in the following algorithm) that iterate
+until convergence is reached. In the first stage, we develop 𝐵∗(𝑥,𝑦) using (22d) and given values of
+𝐻 (𝑥), 𝐻 (𝑥), and 𝑆 (𝑥) for a lattice of discrete points defined on Ω. In the second stage, 𝑆∗(𝑥),
+𝐼𝑝 𝐼𝑑 𝐼 𝐼
+𝐻 ∗(𝑥), and 𝐻 ∗(𝑥) are derived using (22a)–(22c) given the 𝐵∗(𝑥,𝑦) obtained in the first stage.
+𝐼𝑝 𝐼𝑑
+Stage 0: Initialization.
+13

@@ -1,0 +1,60 @@
+15
+[391], [392]. For instance, [389] investigated the feasi- nose the abnormal states of unknown artifacts without
+bility of transferring the process knowledge at various having prior knowledge on them [405]. The collection of
+manufacturing scales. [392] proposed a framework that manufacturing know-hows and building a reliable AGI
+consists of a data layer and a physics layer, to capture for diagnosis and troubleshooting is promising but needs
+the statistically-correlated temporal dynamics and im- tremendous effort.
+poses regularizations through system working principles 5) Manufacturing assistance and workforce training:
+and governing physics, respectively. More endeavors are ManufacturingworkforcetrainingintheIndustry4.0and
+needed to deal with the manufacturing heterogeneity and IoT era is of super importance to national security, and
+achieve generalizable models. there is a huge lack in the manufacturing talent pool
+2) Manufacturing data augmentation and labeling, and [407], [408]. AGI has the potential to revolutionize the
+learning with limited data: The manufacturing data way workers learn and interact with machines. For in-
+collection and labeling can be expensive. AGI has the stance, AGI can facilitate interactive question answering
+potential to deal with the challenge, by performing data andlearningandsmooththelearningcurve.AGIcanalso
+augmentation [393], [394], adaptive/interactive data la- help simplify the operation of machines by developing
+beling and annotation [395], [396], and learning with smart manufacturing assistants. These assistants could
+limiteddata[397],[398].GANhasbeenusedtogenerate optimize the recommendations based on real-time data
+useful samples for teeth aligner printing and point cloud from the machines and adapt to individual workers’
+characterization [393], and data augmentation for super- preferences.
+visedanomalydetectioninadditivemanufacturing[394].
+Generative models have been used in CAD software
+H. Smart Education
+for engineering designs [399]. Reinforcement learning
+and active learning can adaptively identify the important The potential of integrating AGI and IoT into education
+samples to annotate and achieve process characterization has prompted educators to reconsider traditional teaching
+with limited annotation efforts [395], [396]. [397] used a methods and embrace innovative approaches [409], [410].
+Siamese CNN based few-shot learning network to mea- When applied to education, AI and IoT can address various
+sure distances of input samples based on their optimized challenges and enhance the learning experience. Recent de-
+feature representations, which is helpful for achieving velopments in AGI technologies, such as OpenAI’s GPT-4,
+good anomaly detection performance with limited sam- have increased awareness about using digital resources in K-
+ples. 12 and higher education to equip students for 21st-century
+3) Multimodal manufacturing data analysis: Manufac- problem-solving[411]. AGI tools like ChatGPT and GPT-4
+turing system conditions can be measured and reflected enhancepersonalizedandinteractivelearningbyprovidingfor-
+with various data types and sources, such as IoT sensors, mativeassessmentprompts,feedback,andrelevantreferences.
+images, domain knowledge, and texts. How to make the They assist teachers with lesson planning, including content
+bestuseofmultimodalinformationandsupportdecision- knowledge and assessment strategies, offering a wider range
+making is attracting much attention. While data fusion of content to enrich teachers and help students gain diverse
+and multimodal analysis have been studied for decades perspectives.AGIfreesteachersfromtextbooklimitationsand
+[400], [401], [402], the solutions are generally tailored expands their content knowledge. For instance, using the 5Es
+for an application scenario and can be hard to general- model, ChatGPT designed a learner-centered teaching unit
+ize. AGI has the potential to overcome this challenge. on renewable and nonrenewable energy sources, generating a
+Recently, contrastive learning was studied to acquire rubric for student self-evaluation, exam questions, and a scor-
+effective data representations from multiple modalities ing key for teacher-led evaluation [412]. Key concepts arising
+for downstream tasks [403], [404]. For instance, Ai from discussions on AI and education include improving
+et al. integrated knowledge distillation to transfer the teachers’ content knowledge, facilitating individualized and
+information from handcrafted features to deep learning adaptive learning, differentiated instruction and assessment,
+and supervised contrastive learning to enhance feature and enhancing educational outcomes for students. As AGI
+discrimination [404]. technologiesprogress,furtherresearchwillexploretheirprac-
+4) Manufacturing diagnosis and troubleshooting: Diag- tical applications in the classroom. While the integration of
+nosis and troubleshooting is an important step in the AGI to bridge the gap between IoT and AGI within education
+manufacturing value chain, but was mainly done man- remains an ongoing endeavor, the following section explores
+ually by experts and workers in the past. With the the insights from diverse scholarly works to elucidate the
+advent of tools such as LLMs, AGI has been explored transformative potential of AGI and IoT within education.
+for the manufacturing process and system diagnosis and Educational Goals. The attainment of educational goals
+troubleshooting[405],[406],[354].Thishasthepotential within any learning environment is a critical endeavor, aimed
+tobridgehumanknowledgeandAImethodstotrainreli- at fulfilling designated learning objectives and desired student
+able decision-making tools. Power et al. studied artifacts outcomes. Despite resource constraints, shortages of skilled
+such as cars and circuit designs using Non-Axiomatic educators, and inadequate attention to diverse learning needs,
+Reasoning System (NARS), which demonstrated certain strideshavebeenmadewiththeintegrationofIoTtechnology.
+features of the generalized diagnostics. NARS can diag- This integration has the potential to reshape the educational

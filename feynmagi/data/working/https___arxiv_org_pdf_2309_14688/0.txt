@@ -1,0 +1,40 @@
+Feeder bus service design under spatially heterogeneous demand
+Li Zhen a, Weihua Gu a
+c Department of Electrical Engineering, The Hong Kong Polytechnic University, Hong Kong SAR, China
+Abstract
+In rapidly sprawling urban areas and booming intercity express rail networks, efficiently designed feeder
+bus systems are more essential than ever to transport passengers to and from trunk-line rail terminals.
+When the feeder service region is sufficiently large, the spatial heterogeneity in demand distribution
+must be considered. This paper develops continuous approximation models for optimizing a
+heterogeneous fixed-route feeder network in a rectangular service region next to a rail terminal. Our
+work enhances previous studies by: (i) optimizing heterogeneous stop spacings along with line spacings
+and headways; (ii) accounting for passenger boarding and alighting numbers on bus dwell times and
+patron transfer delays at the rail terminal; and (iii) examining the advantages of asymmetric coordination
+between trunk and feeder schedules in both service directions. To tackle the increased modeling
+complexity, we introduce a semi-analytical method that combines analytically derived properties of the
+optimal solution with an iterative search algorithm. Local transit agencies can readily utilize this
+approach to design a real fixed-route feeder system.
+This paper reveals many findings and insights not previously reported. For instance, integrating the
+heterogeneous stop spacing optimization further reduces the system cost (by 4% under specific operating
+conditions). The cost savings increase with demand heterogeneity but decrease with the demand rate
+and service region size. Choosing the layout of feeder lines where buses pick up and drop off passengers
+along the service region’s shorter side also significantly lowers the system cost (by 6% when the service
+region’s aspect ratio is 1 to 2). Furthermore, coordinating trunk and feeder schedules in both service
+directions yields an additional cost saving of up to 20%.
+Keywords: feeder bus, bus network, heterogeneous demand, continuous approximation, schedule
+coordination
+1. Introduction
+The global trend of urbanization has accelerated in recent decades (Mor et al., 2020), leading to the
+growing urban sprawl and the emergence of new mega-cities (Yu et al., 2019). In response, fast and
+efficient mass transit systems have been developed to accommodate the growing long-distance
+commuting demands between suburbs and central urban areas, as well as between neighboring cities.
+These transit lines often feature stations spaced several kilometers apart. One example is the Bay Area
+Rapid Transit (BART) system, which connects dozens of small cities in the East Bay and San Francisco
+Peninsula to the downtown areas of San Francisco and Oakland, with station spacings up to 8 km
+(https://www.bart.gov/; https://www.google.com/maps). Other examples include the rising number of
+satellite cities supported by China’s booming high-speed rail network (e.g., the city of Langfang,
+situated 60 km from Beijing and only a 20-minute ride by high-speed train). A station on these commuter
+rail lines serves a vast catchment area where most patrons live beyond walking distance from the rail
+station, and the demand is unevenly distributed. Consequently, designing efficient feeder service
+ Corresponding author. Email: weihua.gu@polyu.edu.hk
+1

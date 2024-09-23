@@ -1,0 +1,35 @@
+TAHAKOM
+Figure2: RetNet-basedVisionTransformer[6]
+2.3 RetNet
+TheRetentiveNetwork(RetNet)[3]emergesasafoundationalarchitectureforlargelanguagemodels,offeringaunique
+blendoftrainingparallelism,cost-effectiveinference,androbustperformance. Atitscoreliestheretentionmechanism
+tailoredforsequencemodeling,whichseamlesslyintegratesthreecomputationalparadigms: parallel,recurrent,and
+chunkwiserecurrent. Thismultifacetedapproachensuresthattheparallelrepresentationfosterstrainingparallelism,the
+recurrentrepresentationguaranteeslow-costinference,enhancingdecodingthroughput,latency,andGPUmemory
+efficiencywithoutcompromisingonperformance. Furthermore,thechunkwiserecurrentrepresentationisadeptat
+modelinglongsequenceswithlinearcomplexity,encodingeachchunkinparallelbutsummarizingtheminarecurrent
+manner. ThesedistinctivefeaturespositionRetNetasapotentialsuccessortotheTransformerarchitectureforlarge
+languagemodels. Theretentionmechanismtreatsan1Dinputsequenceinarecurrent,unidirectionalmannerasshown
+inEq1.
+n
+(cid:88)
+o = γn−m(Q einθ)(K eimθ)†v , (1)
+n n m m
+m=1
+where†istheconjugatetranspose. Toallowparalleltraining,theaboveequation1iswrittenasfollowsgivenaninput
+X:
+(cid:26) γn−m, ifn≥m
+Q=(XW )⊙Θ, K =(XW )⊙Θ¯, V =XW , Θ =einθ, D = , (2)
+Q K V n nm 0, ifn<m
+Retention(X)=(QKT ⊙D)V (3)
+where Θ¯ is the complex conjugate of Θ and D ∈ R|x|×|x| combines causal masking and exponential decay along
+relativedistanceasonematrix. TherecurrentandparallelrepresentationsoftheRetNetblockisshowninFig1.
+2.4 VisionTransformers
+ViTs[7]representasignificantshiftinthefieldofcomputervision. Traditionally,ConvolutionalNeuralNetworks
+(CNNs)[8]havebeenthedominantarchitectureforimage-relatedtasks, leveragingtheirabilitytoprocessspatial
+hierarchies in images. However, the success of the Transformer architecture in natural language processing led
+researcherstoexploreitspotentialinthedomainofvision. ViTsapproachimagetasksbydividinginputsintofixed-size
+patches,linearlyembeddingthem,andthenprocessingthemasasequenceusingtheTransformerarchitecture. The
+self-attentionmechanisminTransformers,whichhadbeenpivotalincapturinglong-rangedependenciesintext,proved
+equallyadeptathandlingspatialrelationshipsinimages.
+3

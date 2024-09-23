@@ -1,0 +1,55 @@
+7
+Fig.3. ExamplesofIoTapplications.
+drives,toaddresstheseconcernsandenhancethereliabilityof in a smart grid. In [176], an artificial intelligence-based
+intelligent power electronics systems. For IoT enabled power method is proposed for detection of DIAs in DC microgrids.
+electronicssystems,wefocusontwosub-applications:power- By exploiting the nonlinear mapping capability of nonlinear
+electronics-based smart grid and intelligent motor drives. autoregressive exogenous (NARX) neural networks, cyber-
+Power electronics converters play a crucial role in inte- attacks in DC microgrids could be identified. Although a
+grating distributed energy resources (DERs) with the power supervised learning method could generate a good estimation
+grid. The increasing use of industrial Internet of Things (IoT) or classification result to distinguish cyber-physical threats, it
+edge devices has led to the incorporation of various built- needs a large amount of data from the plant, either simulated
+in functionalities in power converters, such as remote control or actual, during the training phase. However, it is impossible
+and wireless communication with a central plant controller. to emulate all of the potential cyber-physical threats in real
+Recent literature highlights the use of such functionalities, in- applications. Specifically for a PV system, [177] proposed a
+cludingconverterremotecontrolandwirelesscommunication, multilayer LSTM-based diagnosis solution for DIAs in a two-
+to enhance power converter operation [166], [167], [168]. stagePVconverter.Byusingthecollectedelectricalwaveform,
+However,thelatestrevisionstoIEEE1547standardmandatea a supervised-learning-based classifier is trained for cyber-
+setofcontrolparametersforgrid-tiedDERconvertersthatre- attackdetection.In[178],anattemptismadetodetecttypical
+quireremotecontrolandadjustmentbyaSupervisoryControl cyber-attacks in PV systems by using micro phasor measure-
+and Data Acquisition (SCADA) system via a communication ment units (µPMU) data. Notice that the above two studies
+network [169], [170], [171]. With the increasing number of donotconsiderphysicalfaultsbecauseelectricwaveformsand
+DER equipment connected to the IoT infrastructure, power µPMUundercyber-attacksandphysicalfaultsshowverysim-
+electronics based smart grids are more susceptible to cyber ilarpatterns.Toovercomethedrawbackofsupervisedlearning
+attacks. methods, [179] proposed a binary matrix factorization-based
+cyber-attack diagnosis without a training process. The results
+Detection of cyber-attacks in smart grids has become an
+have shown that most cyber-attacks are clustered at different
+essential topic because more internet technologies are em-
+locations.Physics-informedneuralnetworksofferapromising
+ployedincommunicationbetweendistributedenergyresources
+avenue for addressing these concerns. This is achieved by
+and central locations [166], [167]. Smart grid cyber-physical
+seamlessly integrating principles rooted in physics (referred
+security studies have proposed many cyber-attack detection
+to as physics-informed) into the cutting-edge framework of
+and diagnosis methods using AI techniques. In [172], RNN is
+deep learning. These paradigms encompass diverse aspects,
+usedforfalsedatainjectionattackdetectioninaDCmicrogrid
+including the formulation of physics-informed loss functions,
+with dynamic loads. In [173], a novel cooperative mecha-
+the initialization of neural networks with physics-driven in-
+nism based on a secondary voltage controller is proposed to
+sights, the architectural design guided by physical principles,
+facilitate the detection and mitigation of stealth attacks on
+andtheamalgamationofphysics-derivenknowledgewithdeep
+DC microgrid. In [174], a measurement data authentication
+learningmodelsinahybridfashion[180].In[181],innovative
+algorithmbasedonFastFourierTransform(FFT)andmachine
+physics-guidedfeaturessuchasfrequency-domainmagnitude-
+learning methods is developed for smart grids to protect
+basedresidualstime-domainmeancurrentvector-basedfeature
+against data spoofing attacks. In [175], a novel optimization
+wereproposedtoaddressnovelcyber-attacksthatareexcluded
+technique is developed to train an Artificial Neural Network
+from the machine learning training process.
+(ANN) to classify and detect cyber-attacks and intrusions

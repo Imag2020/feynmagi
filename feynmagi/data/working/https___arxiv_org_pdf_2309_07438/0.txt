@@ -1,0 +1,69 @@
+1
+Towards Artificial General Intelligence (AGI) in the
+Internet of Things (IoT): Opportunities and
+Challenges
+Fei Dou1, Jin Ye2, Geng Yuan1, Qin Lu2, Wei Niu1, Haijian Sun2, Le Guan1, Guoyu Lu2, Gengchen Mai3,
+Ninghao Liu1, Jin Lu1, Zhengliang Liu1, Zihao Wu1, Chenjiao Tan4, Shaochen Xu1, Xianqiao Wang5, Guoming
+Li6, Lilong Chai6, Sheng Li7, Jin Sun1, Hongyue Sun5, Yunli Shao5, Changying Li4, Tianming Liu1, Wenzhan
+Song2
+Abstract—Artificial General Intelligence (AGI), possessing the I. INTRODUCTION
+capacity to comprehend, learn, and execute tasks with human
+cognitiveabilities,engenderssignificantanticipationandintrigue A. IoT Concept
+acrossscientific,commercial,andsocietalarenas.Thisfascination
+The Internet of Things (IoT) constitutes a transformative
+extends particularly to the Internet of Things (IoT), a landscape
+technological paradigm that envisions a world where physical characterized by the interconnection of countless devices, sen-
+sors, and systems, collectively gathering and sharing data to objects and digital systems harmoniously interact to enhance
+enableintelligentdecision-makingandautomation.Thisresearch the quality of human life and streamline various processes
+embarks on an exploration of the opportunities and challenges [1],[2],[3].Inasimplifiedconceptualframework,IoTcanbe
+towards achieving AGI in the context of the IoT. Specifically,
+represented as a basic formula [4]:
+it starts by outlining the fundamental principles of IoT and
+the critical role of Artificial Intelligence (AI) in IoT systems.
+Subsequently, it delves into AGI fundamentals, culminating in
+IoT =Humans+Physical Objects(comprising devices,
+the formulation of a conceptual framework for AGI’s seamless
+integrationwithinIoT.TheapplicationspectrumforAGI-infused sensors,controllers,storage,etc.)+Internet
+IoT is broad, encompassing domains ranging from smart grids, (1)
+residential environments, manufacturing, and transportation to
+environmental monitoring, agriculture, healthcare, and educa- This captures the essence of IoT’s interconnected nature,
+tion.However,adaptingAGItoresource-constrainedIoTsettings where human interactions, the physical world’s components,
+necessitates dedicated research efforts. Furthermore, the paper
+and the vast expanse of the internet converge.
+addresses constraints imposed by limited computing resources,
+intricaciesassociatedwithlarge-scaleIoTcommunication,aswell
+as the critical concerns pertaining to security and privacy.
+Index Terms—Artificial intelligence (AI), Artificial General
+Intelligence (AGI), Internet of Things (IoT), Machine Learning
+(ML),LargeLanguageModels(LLM),FoundationModels(FM)
+1FeiDou,GengYuan,WeiNiu,LeGuan,NinghaoLiu,JinLu,Zhengliang
+Liu, Zihao Wu, Shaochen Xu, Jin Sun, and Tianming Liu are with the
+School of Computing, University of Georgia, Athens, GA 30602, USA (e-
+mail:{fei.dou,geng.yuan,wniu,leguan,ninghao.liu,jin.lu,zl8864,zihao.wu1,
+shaochen.xu25,jinsun,tliu}@uga.edu).
+2Jin Ye, Qin Lu, Haijian Sun, Guoyu Lu, and Wenzhan Song are
+with the School of Electrical and Computer Engineering, University of
+Georgia, Athens, GA 30602, USA (e-mail: {jin.ye, qin.lu, hsun, guoyu.lu,
+wsong}@uga.edu)
+3Gengchen Mai is with the Department of Geography, University of
+Georgia,Athens,GA30602,USA(e-mail:gengchen.mai25@uga.edu)
+4 Chenjiao Tan and Changying Li are with Agricultural and Biological
+Fig.1. AnillustrationofIoTarchitectures.
+EngineeringDepartment,UniversityofFlorida,Gainesville,FL32611,USA
+(email:{c.tan,cli2}@ufl.edu)
+5Xianqiao Wang, Hongyue Sun, and Yunli Shao are with the School Fig. 1 illustrates a fundamental depiction of the IoT system
+of Environmental, Civil Agricultural and Mechanical Engineering, Univer- [5], [6]. Within this system, users and IoT devices are in-
+sity of Georgia, Athens, GA 30602, USA (e-mail: {xqwang, hongyuesun,
+terconnected via the Internet. Communication between users
+yunli.shao}@uga.edu)
+6Guoming Li and Lilong Chai are with the Department of Poultry and devices is facilitated by gateways and signals, which
+Science, University of Georgia, Athens, GA 30602, USA (e-mail: {gmli, are transmitted and routed through signal receiving towers.
+lchai}@uga.edu)
+Additionally,thedatasharedamongtheseinterconnectedusers
+7ShengLiiswiththetheSchoolofDataScience,UniversityofVirginia,
+Charlottesville,VA22903,USA(e-mail:vga8uf@virginia.edu) and devices can be archived on the public cloud for later
+3202
+peS
+41
+]IA.sc[
+1v83470.9032:viXra

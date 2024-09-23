@@ -1,0 +1,91 @@
+7
+In fact, only the real part needs to be estimated because Algorithm2
+the sum of all the imaginary parts of Tr{w q} vanishes Input:N,m,p i,U i,α,n
+after summation. Output:Tr{ρm}
+1: for iteration=1 to N do
+Xαk Xαk
+2: Set the initial state as |0⟩⊗n.
+Tr{w }= Re[Tr{w }]. (25)
+q q 3: Initialise d←0
+q=1 q=1 4: Initialise the subspace V q ←[ ].
+5: // Dimension of the subspace is determined.
+Next, we show how to estimate the real part of
+6: for i=1 to m do
+Tr{w }. Consider (w′) = (w ) ⊕ 1, where w′
+q q d+1 q d q 7: RandomlychooseGatewithprobability1/2(forG
+is the representation of G qk on the subspace V q′ : ) or 1/2 (for I ).
+span{|ψ q1⟩,|ψ q2⟩,··,|ψ qd⟩;|ϕ⟩}. 8: If it is a G gate, choose G i with probability p i.
+9: end for
+(cid:18) (cid:19)
+w′ = w q 0 , 10: // Select G qk with probability P q
+q 0 1 11: for i=1 to k do
+12: // Here k is the number of G in Gk.
+q
+where |ϕ⟩∈/ V q and |ϕ⟩ can be prepared through a varia- 13: Apply gate U[i] to prepare quantum state |ψ i⟩ =
+tional quantum circuit. It can be seen that V′ is also a U[i]|0⟩⊗n. U[i]istheunitarycorrespondingtoithGgate,
+q
+noninvariant subspace of Gk. It’s obvious that G[i]=U[i]G 0U[i]†.
+q 14: ComputetheGrammatrixg i inthesubspaceV ⊕
+Tr{w′}=Tr{w }+1, (26) |ψ i⟩.
+q q 15: CompareeigenvaluesofGrammatrixϵ g ofg i with
+and: threshold ϵ.
+16: // Perform linear correlation analysis on |ψ i⟩
+Tr{R w q′}=|Tr{w q′}|2 =|Tr{w q}+1|2 states.
+=|Re[Tr{w }]+i·Im[Tr{w }]+1|2 17: if ϵ g ≥ϵ then
+q q (27) 18: Update the dimension d←d+1.
+=(Re[Tr{w q}])2+2(Re[Tr{w q}]) 19: Update the subspace V q ←V q⊕|ψ i⟩.
+20: end if
++(Im[Tr{w }])2+1.
+q 21: end for
+Recall the relation 22: t 1 ← Subroutine(G qk, d, V q)
+23: t 2 ← Subroutine(G qk, d+1, V q⊕|ϕ⟩)
+Tr{R w}=|Tr{w q}|2 24: Tr{G qk}←2n−d+(t 1−t 2−1)/2.
+=(Re[Tr{w }])2+(Im[Tr{w }])2, 25: // Invoke the subroutine to calculate Tr{G qk}.
+q q 26: end for
+we can find that
+1
+2 27 8:
+:
+C //a plc ku =lat (cid:0)e
+1
+2T (cid:1)mr{ Cρm mk} a= ndT xr k(cid:8)(cid:0) =1 2 (I −− 1)1 2 kG T(cid:1) r{m G(cid:9) k=
+}
+Pm k=0p kx k
+Re[Tr{w }]= [Tr{R }−Tr{R }−1]. (28)
+q 2 w q′ wq
+The procedure to calculate Tr{R w′} follows a similar matrix g. In order to ensure that the eigenvalues of the
+q
+algorithmasforcomputingTr{R },withthedistinction Gram matrix are all greater than threshold ϵ, we start
+wq
+that in this case, (d+1)2 quantum states are required. from |ψ 2⟩ to select the quantum states that constitute
+the subspace. Here we default to |ψ ⟩ in the subspace,
+1
+Commencing from the iteration k = 2, the computa-
+B. Algorithm Process of Tomography tionoftheGrammatrixg k iscarriedout. Thismatrixis
+associated with four distinct eigenvectors, which can be
+The following is the procedure for calculating Tr{ρm} identified as follows:
+for the quantum state ρ = Pα p U |0⟩⟨0|U†.Algorithm
+i=1 i i i |Ψ 1⟩⟨Ψ 1|,|Ψ 1⟩⟨Ψ 2|,|Ψ 2⟩⟨Ψ 1|,|Ψ 2⟩⟨Ψ 2|. (29)
+2 serves as the main program for GST, while Algorithm
+3 functions as a subroutine called multiple times within where |Ψ ⟩=|ψ ⟩ and |Ψ ⟩ is defined from the Schmidt
+1 1 2
+GST, responsible for iteratively computing Tr{Gk}. orthogonalization.
+q
+1 x
+|Ψ ⟩= |ψ ⟩− 1,1|ψ ⟩. (30)
+IV. ERROR ANALYSIS 2 ∆ 2 2 ∆ 2 1
+Herex istheoverlap⟨ψ |ψ ⟩and|∆ |2 =1−|x |2 is
+1,1 1 2 2 1,1
+A. Eigenvalue Truncation of the simplest case a normalization factor. The eigenvalues are respectively
+given by
+To prevent the introduction of significant statistical
+errors during subsequent numerical computations, it be-
+1,
+|∆ 2|2
+,
+|∆ 2|2 ,(cid:12) (cid:12)
+(cid:12)
+|∆ 2|2 (cid:12) (cid:12) (cid:12)2
+. (31)
+comesimperativetotruncatetheeigenvaluesoftheGram 1+|x |2 1+|x |2 (cid:12)1+|x |2(cid:12)
+1,1 1,1 1,1

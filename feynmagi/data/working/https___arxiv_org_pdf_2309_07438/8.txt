@@ -1,0 +1,91 @@
+9
+[222] presented a solution for monitoring high-risk Maternal D. Environmental Monitoring
+and Fetal Health (MFH) using IoT sensors, data analysis
+1) Background of Environmental Monitoring with IoT:
+for feature extraction, and a Deep Convolutional Genera-
+IoT technologies have been widely used for monitoring envi-
+tive Adversarial Network (DCGAN) classifier. It continuously
+ronmental conditions such as air temperature, large-scale sea
+monitors clinical indicators like heart rate, oxygen saturation,
+surface temperature, soil moisture, air quality, etc. According
+blood pressure, and uterine tonus, and the proposed system
+to the nature of the sensor platform, real-time environmental
+effectively classifies MFH status into more than four possible
+observationdataisusuallycollectedbyvarioussensorsinclud-
+outcomes,showingthatIoT-basedmobilemonitoringofMFH
+ing satellite-based sensors, airborne sensors, temporal in situ
+for pregnancy care is practical.
+sensors,andlong-termsensorsinstalledatmonitoringstations.
+AGI’spotentialextendstowearablehealthdevices,enabling The data collected from various environmental monitoring
+real-time processing and analysis of data to detect anomalies methodshavetheirownadvantagesanddisadvantagesinterms
+in vital signs. The capacity for on-device data processing of spatial resolution, spatial coverage, temporal resolution,
+ensures timely alerts and recommendations. Wearable devices and temporal span. For example, accurate and real-time soil
+endowedwithAGIcapabilitiesexcelindetectingirregularities moisture (SM) estimates are useful to characterize trends in
+in patients’ essential indicators, such as heart rate, blood the global and local climate systems, and for predicting the
+pressure, and oxygen saturation, facilitating prompt interven- interactionsbetweenlandandatmosphere[232].SoilMoisture
+tions [223]. Kumar et al. [224] developed a Smart Healthcare Active Passive (SMAP)2 is an Earth satellite mission that
+System (SHS) by integrating the IoT with AGI. Millions of measures and maps Earth’s soil moisture by the National
+devices and sensors capture data for continuous patient health Aeronautics and Space Administration (NASA). SMAP data
+monitoring. This data is analyzed using machine learning and canprovideglobal-scalesoilmoistureradiometerdatabutwith
+deep learning algorithms to predict disease severity, and the a rather lower spatial resolution (36 km) and lower temporal
+insights are wirelessly shared with medical professionals for resolution(every2-3days).Incontrast,highspatial-resolution
+appropriate recommendations. soil moisture data can also be collected from airborne sensors
+(∼800 m),long-termin situsensors(3- 5km),andtemporal
+Telemedicine and telesurgery platforms equipped with AGI
+in situ sensors (∼ 5 − 10 cm) such as soil moisture data
+offer personalized, real-time feedback and support to patients.
+measured during the joint NASA-United States Department
+Virtual health assistants powered by AGI can interact with
+ofAgriculture(USDA)soilmoisturevalidationcampaignsfor
+patients in natural language, addressing queries, guiding them
+SMAP airborne scale (∼ 800 m), sub-pixel scale (3 - 5 km),
+through treatment plans, and providing information and rec-
+and point scale (∼ 5 − 10 cm) such as soil moisture data
+ommendations [225]. By integrating AGI, telemedicine plat-
+measured during the joint NASA-United States Department
+forms can also improve patient engagement and adherence
+of Agriculture (USDA) soil moisture validation campaigns
+to treatment plans [226]. Meanwhile, LLMs, a rising trend
+for SMAP [233], [234]. However, these observations can
+in AGI, will revolutionize how patients and clinicians access
+only be collected by request with small spatial coverage
+and obtain information. It is crucial for telehealth clinicians
+(e.g., airborne data, temporal in situ sensor data), or have
+to understand LLMs and recognize their potential and lim-
+rather sparse spatial distribution (e.g., data from long-term in
+itations [227]. With a telesurgery system powered by AGI
+situ monitoring stations). In order to provide real-time high-
+medical robotic systems, like the da Vinci Surgical System
+resolutionsoilmoistureobservationsoveralargespatialscale,
+from Intuitive Surgical (Sunnyvale, CA, USA), more complex
+the best approach is to integrate observation data collected
+surgeries can be performed remotely to reduce the imbalance
+from various sensors.
+in medical resources across geographical areas. AGI methods
+2) Foundation Models for Earth and Environmental Moni-
+like GANs are also pivotal in filling knowledge voids and
+toring: Recently,significanteffortshavebeenmadetodevelop
+speeding up the incorporation of telemedicine and telesurgery
+FMs for climate and weather forecasting based on various
+into clinical practice [228], especially for sim2real transfer
+environmental observation data. For example, ClimaX [235]
+learning to bridge the domain gap between simulated and real
+is a recently developed FM for weather and climate science
+data in the development of data-driven models for medical
+whicharetrainedusingheterogeneousclimate,environmental,
+segmentation and detection tasks that require human labeling
+and earth observation data including 6 atmospheric variables
+[229], [230].
+at 7 vertical levels, 3 surface variables, and 3 constant fields.
+AGI-integrated smart pill dispensers manage medication ClimaX shows promising performance on various weather
+for patients effectively. By learning from patient medication global/regional forecasting, sub-seasonal to seasonal predic-
+adherencepatterns,AGIcanalertpatientsortheircaregiversin tion,climateprojection,andclimatemodeldownscalingtasks.
+caseofmisseddosesandpredictpotentialhealthissuesdueto In addition, IBM recently released its newest geospatial
+non-compliance. Johnson et al. [231] explored the application foundation model on the open-source AI platform Hugging
+of AGI in medication management, highlighting its potential Face 3. This geospatial FM was first pre-trained on NASA’s
+to improve medication adherence. Harmonized Landsat Sentinel-2 satellite data (HLS) over one
+WithanyfutureadvancementsinAGI,thehealthcaresector
+2https://smap.jpl.nasa.gov/data/
+is poised for significant transformations that will benefit both
+3https://newsroom.ibm.com/2023-08-03-IBM-and-NASA-Open-Source-
+patients and healthcare providers. Largest-Geospatial-AI-Foundation-Model-on-Hugging-Face

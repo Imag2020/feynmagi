@@ -1,0 +1,89 @@
+9
+E. Sampling Error effectively eliminating the constituent |ϕ ⟩. To discard
+k
+|ϕ ⟩, a certain condition must be satisfied.
+k
+estI in mt ah tii ns gse tc ht eio tn r, acw ee oc fo ans qid ue ar ntt uh me s gt aa tt eis .ti Lca el te (r Rro wr y)w i,h je =n (cid:12) (cid:12) (cid:12) (cid:12)1+|∆ |k x|2 |2(cid:12) (cid:12) (cid:12) (cid:12)2 <ϵ. (41)
+⟨⟨ρ |G|ρ ⟩⟩. TheerrorincomputingTr{g−1R }isgiven k
+i j wy
+by: In other words, |∆ | can be at most ϵ1/4. Since there
+k
+is an error in estimating the eigenvalues of g, the maxi-
+Tr{∆(g−1)R wy}+Tr{g−1∆(R wy)}+Tr{∆(g−1)∆(R w (y 3) 8} ). mum value of |∆ k| is ϵ
+3
+= (cid:16) ϵ+O(√d2 )(cid:17)1/4 . Therefore,
+N
+The first term can be bounded as |Tr{G′} − Tr{G}| ∼ O(nϵ ), since we discard at most
+3
+(cid:12) (cid:12)
+Tr{∆(g−1)R wy}<d2Tr{g−1−(g+∆(g))−1}< 1−d4 dϵ 21
+ϵ
+1ϵ. n TLe hs t et na Gt we as en| d hϕ aj G v⟩. e′ |TcT o rh r {re Ren s w′p(cid:12) yo| }T nr −d{G Tto r′} {R| R2 w w− y y}| aT |nr ∼d{G R O} w′ (| dy2 n| ,(cid:12) ϵr 3∼ e )s .pO ec(n tid vϵ e3 ly) ..
+The second term is
+d2ϵ V. NUMERICAL SIMULATION
+Tr{g−1∆(R )}< 2,
+wy ϵ
+A. Quantum state preparation
+where we have used
+In the preceding text, we postulated that for the al-
+(cid:0) (cid:1)
+∆(R wy)
+i,j
+<ϵ 2, gorithm to be effective, knowledge of the random quan-
+tumstate’spreparationmethodisimperative. Toensure
+Where i,j =0,1,··· ,d−1. The last term is universality, we express any single-qubit gate through a
+combination of three fundamental rotation gates. Thus,
+Tr{∆(g−1)∆(R )}< d4ϵ 1ϵ 2 . in this paper, we opt for the U(θ,ϕ,λ) gate
+wy 1−d2ϵ 1ϵ (cid:18) cos(θ/2) −eiλsin(θ/2) (cid:19)
+U(θ,ϕ,λ)= (42)
+So all the terms must add up to less than
+eiϕsin(θ/2) eiλ+iϕcos(θ/2)
+as the random gate to prepare the random quantum
+d4ϵ d2ϵ d4ϵ ϵ
+1 + 2 + 1 2 . (39) state, allowing us to perform computations using both
+1−d2ϵ ϵ ϵ 1−d2ϵ ϵ
+1 1 methodsandsubsequentlycomparetheoutcomes,where
+θ, ϕ, and λ are real numbers, and i is the imaginary
+According to Hoeffding’s inequality, the probability
+unit. Byencodingthisgeneralparameterizedgateintoa
+that one of the terms in ∆(R ) is less than ϵ is
+wy 2 single-qubit quantum gate in the quantum circuit, an n-
+1−δ 2 > 1−2e−2N2ϵ2 2. Therefore, the probability that qubitgatecanbeobtainedthroughtensorproductopera-
+eachtermislessthanϵ 2 is(1−δ 2)d2 >1−d2δ 2 =1−δ˜ 2. tion: U⊗n. Differentquantumstatesarepreparedbyus-
+Therefore, The matrix elements of a quantum gate do ing various quantum gates, and then a random quantum
+not require more measurements than state is simulated by employing a probability-weighted
+method. Attention, our random gate can naturally ex-
+ 
+logd2 tendtothedirectproductofndistinctsingle-bitrandom
+N
+2
+=O
+ϵ2δ˜
+2 . (40) gates.
+2
+B. Processing of the calculation results of the
+Hadamard Test
+F. Truncation Error
+The random gates we need are denoted as U , where
+Unlike the error caused by statistical fluctuations, ys
+s = 1,2,...,k + 1, y ∈ {1,2,3,4}. The probabil-
+truncation error emerges from the omission of specific s
+ity of the random gate U is denoted by p . Let
+quantum states during the subspace construction. We ys ys
+U = U(θ ,ϕ ,λ ). To simulate the computation of
+analyze disparities between two quantum circuits: one ys ys ys ys
+Tr{ρk+1}, the circuit we construct is shown in Fig 5:
+denoted as G, representing the implemented circuit
+We iterate through y to obtain the corresponding
+within our setup, and the other denoted as G′, de- s
+P (0) for each set of U . Summing up all these cases
+rived by substituting a gate layer in G. Specifically, y ys
+yields the overall P(0):
+G = G G G ···G constitutes an n-layer gate circuit
+1 2 3 n
+corresponding to states |ψ 1⟩,|ψ 2⟩,··· ,|ψ n⟩. During sub- αk+1"k+1 #
+X Y
+s cp lua dc ee dc .on Is ntr tu hc etio cn a, sece or fta Gin ′,st |ψate ⟩s il sik re e| pψ lak c⟩ em di wgh itt hbe |ψe ′x ⟩-
+,
+P(0)= p ys P y(0). (43)
+k k y=1 s=1

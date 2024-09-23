@@ -1,0 +1,570 @@
+ [2305.11178] Vanishing Activations: A Symptom of Deep Capsule Networks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+Grab your spot at the free arXiv Accessibility Forum
+Forum Schedule
+
+We gratefully acknowledge support fromthe Simons Foundation, Stockholm University, and all contributors. Donate
+
+
+
+
+
+ > cs > arXiv:2305.11178
+  
+
+
+
+
+
+Help | Advanced Search
+
+
+
+
+All fields
+Title
+Author
+Abstract
+Comments
+Journal reference
+ACM classification
+MSC classification
+Report number
+arXiv identifier
+DOI
+ORCID
+arXiv author ID
+Help pages
+Full text
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+open search
+
+
+
+
+
+
+GO
+
+
+
+open navigation menu
+
+
+quick links
+
+Login
+Help Pages
+About
+
+
+
+
+
+
+
+
+
+
+
+
+Computer Science > Computer Vision and Pattern Recognition
+
+
+arXiv:2305.11178 (cs)
+    
+
+
+
+
+  [Submitted on 13 May 2023]
+Title:Vanishing Activations: A Symptom of Deep Capsule Networks
+Authors:Miles Everett, Mingjun Zhong, Georgios Leontidis View a PDF of the paper titled Vanishing Activations: A Symptom of Deep Capsule Networks, by Miles Everett and 1 other authors
+View PDF
+
+Abstract:Capsule Networks, an extension to Neural Networks utilizing vector or matrix representations instead of scalars, were initially developed to create a dynamic parse tree where visual concepts evolve from parts to complete objects. Early implementations of Capsule Networks achieved and maintain state-of-the-art results on various datasets. However, recent studies have revealed shortcomings in the original Capsule Network architecture, notably its failure to construct a parse tree and its susceptibility to vanishing gradients when deployed in deeper networks. This paper extends the investigation to a range of leading Capsule Network architectures, demonstrating that these issues are not confined to the original design. We argue that the majority of Capsule Network research has produced architectures that, while modestly divergent from the original Capsule Network, still retain a fundamentally similar structure. We posit that this inherent design similarity might be impeding the scalability of Capsule Networks. Our study contributes to the broader discussion on improving the robustness and scalability of Capsule Networks.
+    
+
+
+ 
+Comments:
+9 pages, 7 figures
+
+
+Subjects:
+
+Computer Vision and Pattern Recognition (cs.CV); Machine Learning (cs.LG)
+
+Cite as:
+arXiv:2305.11178 [cs.CV]
+
+
+ 
+(or 
+arXiv:2305.11178v1 [cs.CV] for this version)
+          
+ 
+ 
+
+https://doi.org/10.48550/arXiv.2305.11178
+
+
+
+Focus to learn more
+
+
+
+
+                arXiv-issued DOI via DataCite
+              
+
+
+
+
+
+
+
+Submission history From: Georgios Leontidis [view email]       [v1]
+        Sat, 13 May 2023 15:42:26 UTC (1,765 KB)
+
+
+
+ 
+
+Full-text links:
+Access Paper:
+
+
+View a PDF of the paper titled Vanishing Activations: A Symptom of Deep Capsule Networks, by Miles Everett and 1 other authorsView PDFTeX SourceOther Formats
+view license
+
+ 
+    Current browse context: cs.CV
+
+
+< prev
+
+  |   
+next >
+
+
+new
+ | 
+recent
+ | 2023-05
+
+    Change to browse by:
+    
+cs
+cs.LG
+
+
+
+
+References & Citations
+
+NASA ADSGoogle Scholar
+Semantic Scholar
+
+
+
+
+a
+export BibTeX citation
+Loading...
+
+
+
+
+BibTeX formatted citation
+×
+
+
+loading...
+
+
+Data provided by: 
+
+
+
+
+Bookmark
+
+
+
+
+
+ 
+
+
+
+
+Bibliographic Tools
+
+Bibliographic and Citation Tools
+
+
+
+
+
+
+Bibliographic Explorer Toggle
+
+
+
+Bibliographic Explorer (What is the Explorer?)
+
+
+
+
+
+
+
+Litmaps Toggle
+
+
+
+Litmaps (What is Litmaps?)
+
+
+
+
+
+
+
+scite.ai Toggle
+
+
+
+scite Smart Citations (What are Smart Citations?)
+
+
+
+
+
+
+
+
+Code, Data, Media
+
+Code, Data and Media Associated with this Article
+
+
+
+
+
+
+Links to Code Toggle
+
+
+
+CatalyzeX Code Finder for Papers (What is CatalyzeX?)
+
+
+
+
+
+
+
+DagsHub Toggle
+
+
+
+DagsHub (What is DagsHub?)
+
+
+
+
+
+
+
+GotitPub Toggle
+
+
+
+Gotit.pub (What is GotitPub?)
+
+
+
+
+
+
+
+Links to Code Toggle
+
+
+
+Papers with Code (What is Papers with Code?)
+
+
+
+
+
+
+
+ScienceCast Toggle
+
+
+
+ScienceCast (What is ScienceCast?)
+
+
+
+
+
+
+
+
+
+
+
+Demos
+
+Demos
+
+
+
+
+
+
+Replicate Toggle
+
+
+
+Replicate (What is Replicate?)
+
+
+
+
+
+
+
+Spaces Toggle
+
+
+
+Hugging Face Spaces (What is Spaces?)
+
+
+
+
+
+
+
+Spaces Toggle
+
+
+
+TXYZ.AI (What is TXYZ.AI?)
+
+
+
+
+
+
+
+
+Related Papers
+
+Recommenders and Search Tools
+
+
+
+
+
+
+Link to Influence Flower
+
+
+
+Influence Flower (What are Influence Flowers?)
+
+
+
+
+
+
+
+Connected Papers Toggle
+
+
+
+Connected Papers (What is Connected Papers?)
+
+
+
+
+
+
+
+Core recommender toggle
+
+
+
+CORE Recommender (What is CORE?)
+
+
+
+
+
+Author
+Venue
+Institution
+Topic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        About arXivLabs
+      
+
+
+
+arXivLabs: experimental projects with community collaborators
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.
+
+
+
+
+
+
+
+
+
+
+Which authors of this paper are endorsers? |
+    Disable MathJax (What is MathJax?)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+About
+Help
+
+
+
+
+
+contact arXivClick here to contact arXiv
+ Contact
+
+
+subscribe to arXiv mailingsClick here to subscribe
+ Subscribe
+
+
+
+
+
+
+
+
+
+
+
+Copyright
+Privacy Policy
+
+
+
+
+Web Accessibility Assistance
+
+
+arXiv Operational Status 
+                    Get status notifications via
+                    email
+                    or slack
+
+
+
+
+
+ 
+
+
+
+
+

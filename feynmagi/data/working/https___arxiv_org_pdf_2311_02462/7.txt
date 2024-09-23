@@ -1,0 +1,81 @@
+LevelsofAGI
+ployment measures should be taken at each level. Cur- asts(enjoyment),fordriver’slicensingexams(assessment),
+rent SOTA generativeAIs are classified as an ASL-2 risk. orinconditionswheresensorscannotberelieduponsuch
+Including items matched to ASL capabilities in any AGI as technology failures or extreme weather events (safety).
+benchmarkwouldconnectpointsin ourAGItaxonomyto While Level 5 Self-Driving (SAEInternational, 2021) ve-
+specificrisksandmitigations. hicles would likely be a Level 4 or 5 Narrow AI under
+our taxonomy, the same considerations regarding human
+6.2.Capabilitiesvs. Autonomy vs.computerautonomyapplytoAGIs.Wemaydevelopan
+AGI,butchoosenottodeployit autonomously,orchoose
+While capabilities provide prerequisites for AI risks, AI
+todeployitwithdifferentiatedautonomylevelsindistinct
+systems (including AGI systems) do not and will not op-
+circumstancesasdictatedbycontextualconsiderations.
+erate in a vacuum. Rather, AI systems are deployedwith
+particularinterfacesandusedtoachieveparticulartasksin Certainaspectsofgeneralitymayberequiredtomakepar-
+specific scenarios. These contextual attributes (interface, ticular interaction paradigms desirable. For example, the
+task,scenario,end-user)havesubstantialbearingonrisk. AutonomyLevels3,4,and5(“Collaborator,”“Expert,”and
+“Agent”)mayonlyworkwellifanAIsystemalsodemon-
+Consider,forinstance,theaffordancesofuserinterfacesfor
+strates strong performance on certain metacognitive abili-
+AGI systems. Increasing capabilities unlock new interac-
+ties(learningwhentoaskahumanforhelp,theoryofmind
+tionparadigms,butdonotdeterminethem. Rather,system
+modeling, social-emotional skills). Implicit in our defini-
+designers and end-users will settle on a mode of human-
+tionofAutonomyLevel5(“AIasanAgent”)isthatsucha
+AI interaction (Morrisetal., 2023) that balances a variety
+fullyautonomousAIcanactinanalignedfashionwithout
+ofconsiderations,includingsafety. We proposecharacter-
+continuoushumanoversight,butknowswhentoconsulthu-
+izing human-AI interaction paradigms with six Levels of
+mans(Shahetal.,2021).Interfacesthatsupporthuman-AI
+Autonomy,describedinTable2.
+alignmentthroughbettertaskspecification,thebridgingof
+TheseLevelsofAutonomyarecorrelatedwiththeLevelsof processgulfs,andevaluationofoutputs(Terryetal.,2023)
+AGI.Higherlevelsofautonomyare“unlocked”byAGIca- areavitalareaofresearch.
+pabilityprogression,thoughlowerlevelsofautonomymay
+be desirable for particular tasks and contexts even as we 6.3.Human-AIInteractionandRiskAssessment
+reach higher levels of AGI. Carefully considered choices
+Table2illustratestheinterplaybetweenAGILevel,Auton-
+aroundhuman-AIinteractionarevitaltosafeandresponsi-
+omyLevel,andrisk. Advancesinmodelperformanceand
+bledeploymentoffrontierAImodels.
+generality unlock additional interaction paradigm choices
+Unlike prior taxonomies of computer automation (including full autonomy). These interaction paradigms
+(Sheridanetal., 1978; Sheridan&Parasuraman, 2005; in turn introduce new classes of risk. The interplay of
+Parasuramanetal., 2000) that take a computer-centric modelcapabilitiesandinteractiondesignwillenablemore
+perspective (framing automation in terms of how much nuanced risk assessments and responsible deploymentde-
+control the designer relinquishes to computers), we char- cisionsthanconsideringmodelcapabilitiesalone.
+acterize the concept of autonomy through the lens of the
+Table2alsoprovidesconcreteexamplesofeachofoursix
+natureofhuman-AIinteractionstyle;further,ourontology
+proposed Levels of Autonomy. For each level of auton-
+considers how AI capabilities may enable particular
+omy,we indicatethecorrespondinglevelsofperformance
+interactionparadigmsandhowthecombinationoflevelof
+andgeneralitythat“unlock”thatinteractionparadigm(i.e.,
+autonomyandlevelofAGImayimpactrisk. Shneiderman
+the level of AGI at which it is possible or likely for that
+(Shneiderman, 2020) observes that automation is not a
+paradigmtobesuccessfullydeployedandadopted).
+zero-sum game, and that high levels of automation can
+co-exist with high levels of human control; this view is Our predictions regarding “unlocking” levels tend to re-
+compatiblewithourperspectiveofconsideringautomation quirehigherlevelsofperformanceforNarrowthanforGen-
+through the perspective of varying styles of human-AI eralAIsystems;forinstance,wepositthattheuseofAIas
+partnerships. a Consultantis likely with either an ExpertNarrow AI or
+anEmergingAGI.Thisdiscrepancyreflectsthefactthatfor
+Weemphasizetheimportanceofthe“NoAI”paradigmfor
+Generalsystems,capabilitydevelopmentislikelytobeun-
+manycontexts,includingforeducation,enjoyment,assess-
+even;forexample,aLevel1GeneralAI(“EmergingAGI”)
+ment,orsafetyreasons.Forexample,inthedomainofself-
+may have Level 2 or perhaps even Level 3 performance
+drivingvehicles,whenLevel5Self-Drivingtechnologyis
+acrosssomesubsetoftasks. Suchunevennessofcapability
+widely available, there may be reasons for using a Level
+forGeneralAIsmayunlockhigherautonomylevelsforpar-
+0 (No Automation)vehicle. These include for instructing
+ticulartasksthatarealignedwiththeirspecificstrengths.
+a new driver (education), for pleasure by driving enthusi-
+8

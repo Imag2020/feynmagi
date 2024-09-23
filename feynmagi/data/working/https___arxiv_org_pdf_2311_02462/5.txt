@@ -1,0 +1,77 @@
+LevelsofAGI
+manceandgeneralityisASI (ArtificialSuperintelligence). a benchmarkshould attempt to measure. We also discuss
+We define “Superhuman” performance as outperforming propertiesanAGIbenchmarkshouldpossess.
+100% of humans. For instance, we posit that AlphaFold
+OurintentisthatanAGIbenchmarkwouldincludeabroad
+(Jumperetal., 2021; Varadietal., 2021) is a Level 5 Nar-
+suite of cognitive and metacognitive tasks (per Principle
+rowAI(“SuperhumanNarrowAI”)sinceitperformsasin-
+3),measuringdiversepropertiesincluding(butnotlimited
+gletask(predictingaprotein’s3Dstructurefromanamino
+to) linguistic intelligence, mathematical and logical rea-
+acidsequence)abovetheleveloftheworld’stopscientists.
+soning(Webbetal.,2023),spatialreasoning,interpersonal
+ThisdefinitionmeansthatLevel5GeneralAI(“ASI”)sys-
+and intra-personalsocial intelligences, the ability to learn
+tems will be able to do a wide range of tasks at a level
+new skills (Chollet, 2019), and creativity. A benchmark
+that no humancan match. Additionally,this framingalso
+might include tests covering psychometric categories pro-
+impliesthat Superhumansystems may be able to perform
+posed by theories of intelligence from psychology, neuro-
+an even broader generality of tasks than lower levels of
+science, cognitive science, and education; however, such
+AGI,sincetheabilitytoexecutetasksthatqualitativelydif-
+tests must first be evaluatedfor suitability for benchmark-
+ferfromexistinghumanskillswouldbydefinitionoutper-
+ing computing systems, since many may lack ecological
+formallhumans(whofundamentallycannotdosuchtasks).
+andconstructvalidityinthiscontext(Serapio-Garc´ıaetal.,
+For example, non-human skills that an ASI might have
+2023).
+could include capabilities such as neural interfaces (per-
+hapsthroughmechanismssuch as analyzing brainsignals We emphasize the importance of metacognition, and sug-
+todecodethoughts(Tangetal.,2023;Bellieretal.,2023)), gestthatanAGIbenchmarkshouldincludemetacognitive
+oracularabilities(perhapsthroughmechanismssuchasan- taskssuchas(1)theabilitytolearnnewskills,(2)theabil-
+alyzinglargevolumesofdatatomakehigh-qualitypredic- ity to know when to ask for help, and (3) social metacog-
+tions (Schoenegger&Park, 2023)), or the ability to com- nitive abilities such as those relating to theory of mind.
+municatewithanimals(perhapsbymechanismssuchasan- The ability to learn new skills (Chollet, 2019) is essen-
+alyzingpatternsintheirvocalizations,brainwaves,orbody tial to generality, since it is infeasible for a system to be
+language(Goldwasseretal.,2023;Andreasetal.,2022)). optimized for all possible use cases a priori; this necessi-
+tatesrelatedsub-skillssuchastheabilitytoselectappropri-
+5. Testing forAGI atestrategiesforlearning(Pressleyetal.,1987). Knowing
+whentoaskforhelpisnecessarytosupportalignmentand
+TwoofoursixproposedprinciplesfordefiningAGI(Prin- appropriatehuman-AIinteraction(Terryetal., 2023), and
+ciple 2: Generality and Performance; Principle 6: Focus would include an awareness of the limits of the model’s
+on the Path to AGI) influenced our choice of a matrixed, own abilities (Demetriou&Kazi, 2006), which relates to
+leveledontologyforfacilitatingnuanceddiscussionsofthe the sub-skillofmodelcalibration(Liangetal., 2023), i.e.,
+breadth and depth of AI capabilities. Our remaining four the model’s ability to proactively anticipate and retroac-
+principles (Principle 1: Capabilities, not Processes; Prin- tively evaluate how well it would do/did on certain tasks.
+ciple 3: Cognitive and Metacognitive Tasks; Principle 4: Additionally, theory of mind tasks are sometimes con-
+Potential,notDeployment;andPrinciple5: EcologicalVa- sidered metacognitive (Tullis&Fraundorf, 2017), though
+lidity)relatetotheissueofmeasurement. are sometimes classified separately as social cognition
+(Gardner,2011);theabilityofsystemstoaccuratelymodel
+While our performance dimension specifies one aspect of
+end-usersis a necessarycomponentofalignmentfor AGI
+measurement(e.g.,percentilerangesfortaskperformance
+systems.
+relative to particular subsets of people), our generality di-
+mensionleavesopenimportantquestions: What is the set One open question for benchmark design is whether to
+of tasks that constitute the generality criteria? What pro- allow the use of tools, including potentially AI-powered
+portionofsuchtasksmustanAIsystemmastertoachieve tools, as an aid to human performance. This choice may
+agivenlevelofgeneralityinourschema? Aretheresome ultimately be task dependent and should account for eco-
+tasksthatmustalwaysbeperformedtomeetthecriteriafor logical validity in benchmark choice (per Principle 5).
+certaingeneralitylevels,suchasmetacognitivetasks? For example, in determining whether a self-driving car
+is sufficiently safe, benchmarking against a person driv-
+Operationalizing an AGI definition requires answering
+ing without the benefit of any modern AI-assisted safety
+thesequestions,aswellasdevelopingspecificdiverseand
+toolswouldnotbethemostinformativecomparison;since
+challengingtasks. Because oftheimmensecomplexityof
+therelevantcounterfactualinvolvessomedriver-assistance
+thisprocess,aswellastheimportanceofincludingawide
+technology,wemaypreferacomparisontothatbaseline.
+range of perspectives (including cross-organizational and
+multi-disciplinaryviewpoints),wedonotproposeabench- While an AGI benchmark might draw from some
+markinthispaper.Instead,weworktoclarifytheontology existing AI benchmarks (Lynch, 2023) (e.g., HELM
+6

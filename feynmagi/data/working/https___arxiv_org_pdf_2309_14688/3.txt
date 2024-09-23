@@ -1,0 +1,44 @@
+To summarize, despite the extensive history of literature on fixed-route feeder service design, the
+following research gaps have not yet been adequately addressed:
+(i) The optimization of heterogeneous stop spacings has been largely neglected in the literature.
+Most studies assume that the stop spacing is a constant or do not explicitly model stop locations
+and bus dwell times. Kuah and Perl (1988) is the only work that optimized heterogeneous stop
+spacings under heterogeneous demand, but their model also has its drawbacks, as discussed
+earlier in this paper. Note that real-world stop spacings vary significantly; for example, Texas
+Transportation Institute (1996) states that real-world stop spacings range from 200 m to 800 m.
+And they substantially affect passengers’ access distances and in-vehicle travel times (Daganzo
+and Ouyang, 2019). Therefore, stop spacings should be jointly optimized with line spacings
+and headways in a heterogeneous manner.
+(ii) Most studies assume constant dwell times and transfer times for feeder bus services,
+oversimplifying the impact of passenger boarding and alighting on dwell times. Su and Fan
+(2019) is the only exception, but it assumes uniform demand. Unlike rail transit, bus dwell time
+mainly depends on the number of passengers getting on and off at a stop (Daganzo and Ouyang,
+2019). Ignoring this relationship can render errors in estimating bus roundtrip times and in-
+vehicle travel times for passengers. Particularly, when bus size is jointly optimized, employing
+a fleet of smaller vehicles can result in lower operating costs, increased service frequencies,
+and reduced travel times and roundtrip durations due to the fewer passengers each vehicle
+carries. This trade-off and its impact on the overall system cost cannot be accurately
+represented if the relationship between the number of boarding and alighting passengers and
+the dwell times is not taken into account.
+(iii) While previous studies (e.g., Sivakumaran et al., 2012; Kim and Schonfeld, 2014; Yang et al.,
+2020) have investigated the advantages of coordinating schedules between trunk and feeder
+services, their conclusions are hindered by modeling limitations. These works, for instance,
+overlooked stop spacing and variable dwell times, assumed uniform line spacing and headway,
+or generated suboptimal solutions. In addition, these studies only focused on coordination in
+one direction (the patron collection direction), while the coordination effects in the patron
+distribution direction were ignored. As we will see soon, schedule coordination in the patron
+distribution direction provides a smaller yet noteworthy benefit. The overall benefit of schedule
+coordination is significantly greater than previously predicted in the literature.
+Besides, a simple but important question seems to be neglected in literature. Specifically, for a
+rectangular or approximately rectangular feeder service region (which is often found in grid trunk-line
+networks; see Chien and Schonfeld, 1997), which feeder line layout is more cost-effective: each line
+making stops along the shorter side of the rectangle and traveling nonstop along the longer side, or vice
+versa? In this paper, we will demonstrate that the difference between the two layout options is sizeable.
+In summary, existing models lack the comprehensive nature required for accurately designing a
+fixed-route feeder system and evaluating its cost-effectiveness. More inclusive models are essential for
+assisting decision-makers to select the most suitable feeder network design for a trunk-line rail system.
+Firstly, the models should reveal the full cost and benefit of fixed-route feeders, providing a sound basis
+for comparing against alternative feeder modes, such as flex-route feeder, ride-hailing, and shared bikes.
+Secondly, they need to offer detailed guidance on the optimal design of a fixed-route feeder network,
+including line layout, stop locations, and service headways. To this end, we formulate more
+4

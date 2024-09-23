@@ -1,0 +1,75 @@
+19
+REFERENCES
+Ackerman, A. S., & Marley, M. S. 2001, ApJ, 556, Hsu, C.-C., Burgasser, A. J., Theissen, C. A.,
+872, doi: 10.1086/321540 et al. 2021, ApJS, 257, 45,
+Allard, F. 2014, in Exploring the Formation and doi: 10.3847/1538-4365/ac1c7d
+Evolution of Planetary Systems, ed. M. Booth, Karalidi, T., Marley, M., Fortney, J. J., et al.
+B. C. Matthews, & J. R. Graham, Vol. 299, 2021, ApJ, 923, 269,
+271–272, doi: 10.1017/S1743921313008545 doi: 10.3847/1538-4357/ac3140
+Kirkpatrick, J. D., Gelino, C. R., Faherty, J. K.,
+Allard, F. 2016, in SF2A-2016: Proceedings of the
+et al. 2021, ApJS, 253, 7,
+Annual meeting of the French Society of
+doi: 10.3847/1538-4365/abd107
+Astronomy and Astrophysics, ed. C. Reyl´e,
+Lacy, B., & Burrows, A. 2023, ApJ, 950, 8,
+J. Richard, L. Cambr´esy, M. Deleuil,
+doi: 10.3847/1538-4357/acc8cb
+E. P´econtal, L. Tresse, & I. Vauglin, 223–227
+Leggett, S. K., Tremblin, P., Esplin, T. L.,
+Allard, F., Hauschildt, P. H., Alexander, D. R.,
+Luhman, K. L., & Morley, C. V. 2017, ApJ,
+Tamanai, A., & Schweitzer, A. 2001, ApJ, 556,
+842, 118, doi: 10.3847/1538-4357/aa6fb5
+357, doi: 10.1086/321547
+Leggett, S. K., Tremblin, P., Saumon, D., et al.
+Bains, W., Pasek, M. A., Ranjan, S., et al. 2023,
+2016, ApJ, 824, 2,
+ACS Earth and Space Chemistry, 7, 1219,
+doi: 10.3847/0004-637X/824/1/2
+doi: 10.1021/acsearthspacechem.3c00016
+Leggett, S. K., Cushing, M. C., Saumon, D., et al.
+Barnard, E. E. 1916, AJ, 29, 181,
+2009, ApJ, 695, 1517,
+doi: 10.1086/104156
+doi: 10.1088/0004-637X/695/2/1517
+Beiler, S., Cushing, M., Kirkpatrick, D., et al. Leggett, S. K., Tremblin, P., Phillips, M. W.,
+2023, arXiv e-prints, arXiv:2306.11807, et al. 2021, ApJ, 918, 11,
+doi: 10.48550/arXiv.2306.11807 doi: 10.3847/1538-4357/ac0cfe
+Burrows, A., & Liebert, J. 1993, Reviews of Lipatov, M., Brandt, T. D., & Batalha, N. E.
+Modern Physics, 65, 301, 2022, MNRAS, 517, 2942,
+doi: 10.1103/RevModPhys.65.301 doi: 10.1093/mnras/stac2838
+Calissendorff, P., De Furio, M., Meyer, M., et al. Lodders, K. 1999, ApJ, 519, 793,
+2023, ApJL, 947, L30, doi: 10.1086/307387
+doi: 10.3847/2041-8213/acc86d Luhman, K. L. 2013, ApJL, 767, L1,
+doi: 10.1088/2041-8205/767/1/L1
+Cushing, M. C., Roellig, T. L., Marley, M. S.,
+—. 2014, ApJL, 786, L18,
+et al. 2006, ApJ, 648, 614, doi: 10.1086/505637
+doi: 10.1088/2041-8205/786/2/L18
+De Furio, M., Lew, B., Beichman, C., et al. 2023,
+Marley, M., & Robinson, T. 2015, Annual Review
+ApJ, 948, 92, doi: 10.3847/1538-4357/acbf1e
+of Astronomy and Astrophysics, 53, 279,
+Fegley, Bruce, J., & Lodders, K. 1996, ApJL, 472,
+doi: 10.1146/annurev-astro-082214-122522
+L37, doi: 10.1086/310356
+Marley, M. S., & Leggett, S. K. 2009, in
+Griffith, C. A., & Yelle, R. V. 1999, ApJL, 519,
+Astrophysics and Space Science Proceedings,
+L85, doi: 10.1086/312103
+Vol. 10, Astrophysics in the Next Decade, 101,
+Hood, C. E., Fortney, J. J., Line, M. R., &
+doi: 10.1007/978-1-4020-9457-6 4
+Faherty, J. K. 2023, arXiv e-prints,
+Marley, M. S., Saumon, D., Visscher, C., et al.
+arXiv:2303.04885,
+2021, ApJ, 920, 85,
+doi: 10.48550/arXiv.2303.04885
+doi: 10.3847/1538-4357/ac141d
+Houck, J. R., Roellig, T. L., Van Cleve, J., et al. Meisner, A. M., Leggett, S. K., Logsdon, S. E.,
+2004, in Society of Photo-Optical et al. 2023, arXiv e-prints, arXiv:2301.09817,
+Instrumentation Engineers (SPIE) Conference doi: 10.48550/arXiv.2301.09817
+Series, Vol. 5487, Optical, Infrared, and Metchev, S. A., Heinze, A., Apai, D., et al. 2015,
+Millimeter Space Telescopes, ed. J. C. Mather, ApJ, 799, 154,
+62–76, doi: 10.1117/12.550517 doi: 10.1088/0004-637X/799/2/154

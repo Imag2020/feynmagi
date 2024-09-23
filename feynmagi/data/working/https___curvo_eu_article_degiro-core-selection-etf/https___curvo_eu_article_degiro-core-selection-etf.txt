@@ -1,0 +1,211 @@
+DEGIRO core selection of ETFs: all you need to know
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get appHow it worksNumbersPricingGet appGet appDEGIRO core selection of ETFs: all you need to know
+
+
+
+
+
+
+
+14 minutesLast updated on June 14, 2024DEGIRO is one of the most popular brokers in Europe and has thousands of ETFs to choose from. A few years ago it decided to offer 200 ETFs as part of a core selection, offering cheaper transaction fees when trading these. But how do you buy these ETFs and how do you benefit from the reduced pricing? We cover it all. We'll also look our top 5 ETFs in the core selection.What is the DEGIRO core selection of ETFs?How to buy an ETF in DEGIRO's core selectionBest ETFs in the core selectionThe drawbacks of the DEGIRO core selectionHow to pay less with DEGIROWhy ETF investing through DEGIRO is challengingCurvo: an easier alternative to DEGIRO for ETF investingSummaryWhat you should do nowQuestions you may haveWhat is the DEGIRO core selection of ETFs?The core selection at DEGIRO consists of a selection of ETFs. Under some conditions, you can buy these ETFs once per month for a €1 fee. This is instead of €3 for ETFs outside of the core selection. Among others, it includes ETFs from the biggest fund providers like BlackRock and Vanguard.How to buy an ETF in DEGIRO's core selectionWe'll walk you through buying VWCE, one of the most popular ETFs in DEGIRO's core selection. But first, you should know two things about investing in ETFs from the core selection:buy on the right exchangerespect the fair use policyBuy on the right exchangeETFs are traded on stock exchanges. Famous ones are the New York Stock Exchange (NYSE) or Nasdaq, or Xetra and Euronext Amsterdam in Europe.The most important thing when buying an ETF in the DEGIRO core selection is to buy it on the right exchange. If you don't, you'll pay €3 for that ETF instead of €1, even if the ETF is in the core selection. For instance, the iShares MSCI World Accumulating ETF (also known as IWDA) costs €1 only if you buy it on Euronext Amsterdam. If you buy it on the London Stock Exchange, DEGIRO will charge you €3.You may find content online saying that ETFs in the core selection are free. But these sources are likely outdated. ETFs in the core selection are no longer free since DEGIRO changed their fee structure in April 2023. Instead, you now pay a €1 handling fee.You can see the transaction cost for buying IWDA on DEGIRO on the different exchanges below:Transaction cost to buy €1,000Connectivity costExchange€1.00€0.00Euronext Amsterdam€3.00€2.50Borsa Italiana€3.00€2.50Stuttgart Stock Exchange€3.00€2.50XetraTo find out which exchange you need to buy an ETF on, you can use our tool below. Just type any ETF, and it'll show you the cheapest exchange to buy it on.Select your ETF:Search by name, ticker or ISIN…Alternatively, you can also see the list of ETFs in the core selection and their exchanges on DEGIRO's website.Note that DEGIRO also charges a connectivity cost. This is a yearly fee that you pay per exchange you trade on. You can learn all the details about DEGIRO's pricing in our piece on the costs of investing through DEGIRO.Respect the fair use policyWhen buying an ETF from the core selection, you also need to respect certain conditions, or risk paying the full price of €3. The conditions are explained in DEGIRO's fair use policy. In short, every month, the first transaction of the ETF on the right stock exchange will cost €1 instead of €3. Subsequent transactions that same month will also cost €1 provided:the transaction is in the same direction (that is buy/sell) as the first transactionthe value of the transaction is at least €1,000Make sure you keep these important rules in mind when buying your ETFs on DEGIRO!Example of buying VWCE on DEGIROThe VWCE ETF (IE00BK5BQT80) is one of the most popular ETFs in the core selection. Let's walk you through buying shares of VWCE with DEGIRO.If you don't have an account on DEGIRO, the first step is to open an account with them. If you're Belgian, bad news as degiro.be does not exist so you'll have to open an account with either degiro.nl (Dutch) or degiro.fr (French). This is slightly confusing for first-time investors.The next step is to deposit cash on your DEGIRO account. This can take a couple of days to arrive, depending on your bank.When the money arrives, you can buy the ETF. Search for VWCE by typing its ISIN code "IE00BK5BQT80" in the search bar. The second confusion is that you'll see several results. They all correspond to the same ETF, but on different exchanges. For instance, Vanguard trades on XETRA, Tradegate Exchange, Borsa Italiana... To pay €1 instead of €3, it's important with DEGIRO to buy VWCE on XETRA ("XET").Searching for VWCE on DEGIRONow we can buy VWCE. Select the number of shares you wish to buy. Note that you can only buy whole units of shares. So you'll need to calculate how many shares you can buy, based on how much you want to invest and the amount you deposited on your DEGIRO account.You also need to choose the type of order. The most common types are market orders and limit orders. A market order is an order to buy immediately at the best available current price. It prioritises execution speed over price, and it is typically filled quickly as long as there are enough sellers in the market. After all, remember that you're buying the ETF off of someone who wishes to sell his. Due to market fluctuations, the final execution price may be different from the price when the order was placed. A limit order, on the other hand, is an order to buy at a specific price or better. You can set a predetermined price at which you want to execute the transaction, offering you more control. Unlike market orders, limit orders are not guaranteed to be executed immediately or even at all, as they depend on the share price reaching the specified price.Once you’re ready, click “Place order”. Congrats, you just bought your ETF on DEGIRO!Choosing the amount of shares and the type of orderBest ETFs in the core selectionWith over 200 ETFs available in their core selection, it's difficult to know which ones to pick for your investment portfolio. We selected the best ETFs that we consider the best according to our criteria:Diversified across many sectors and countries. The basic idea behind diversification is to avoid having all your eggs in one basket. This way, the impact of a single negative event is reduced. For example, if you only holds stocks from one sector and that sector experiences a downturn, the entire investment portfolio will be negatively impacted. However, if you had invested in ETF that diversifies across different industries, the impact of the downturn on the portfolio would be less severe.Low-cost. Most ETFs are already low-cost compared to active funds. But when we have the choice between several ETFs tracking the same index, we prefer a cheaper one (all other things being equal).Domiciled in Ireland or Luxembourg. Both countries have special tax treaties with many countries around the world. This makes it fiscally advantageous to invest in ETFs domiciled in Ireland or Luxembourg. You can recognise these by their ISIN code that starts with "IE" (Ireland) or "LU" (Luxembourg).To illustrate the diversification of an ETF, we provide you with the number of companies in each ETF as well as all the countries it invests in. The cost of an ETF is measured through the "total expense ratio", or TER. It's the yearly cost that the fund provider charges for managing the fund, and it's a percentage on your total investment.The overviewBelow, find a table of the top ETFs in DEGIRO's core selection.
+
+
+ETF
+Index
+Total expense ratio
+
+
+
+
+iShares Core MSCI World Accumulating
+MSCI World
+0.20%
+
+
+Vanguard FTSE All-World Accumulating
+FTSE All-World
+0.22%
+
+
+Vanguard S&P 500 Distributing
+S&P 500
+0.07%
+
+
+iShares NASDAQ-100 Accumulating
+Nasdaq-100
+0.33%
+
+
+Read on for the full details!iShares Core MSCI World Accumulating (IWDA)
+
+
+Index
+MSCI World
+
+
+Number of companies
+1,510
+
+
+Number of countries
+23
+
+
+Total expense ratio (yearly cost)
+0.20%
+
+
+ISIN
+IE00B4L5Y983
+
+
+Ticker
+IWDA
+
+
+Exchange
+Euronext Amsterdam
+
+
+The iShares Core MSCI World ETF, offered by iShares (a brand of BlackRock), tracks the MSCI World index, an index that consists of about 1,500 stocks from 23 countries that economists qualify as "developed": United States, Germany, Japan, United Kingdom, Australia…It's also commonly known under its ticker IWDA. Investing through this ETF means you're investing in a wide segment of the global economy. Because it's so diversified, many investors choose to simply invest in this one ETF as their entire portfolio. This is also not surprising given that the MSCI World index has delivered a staggering 10.1% average yearly return since 1978:Vanguard FTSE All-World Accumulating (VWCE)
+
+
+Index
+FTSE All-World
+
+
+Number of companies
+3,372
+
+
+Number of countries
+49
+
+
+Total expense ratio (yearly cost)
+0.22%
+
+
+ISIN
+IE00BK5BQT80
+
+
+Ticker
+VWCE
+
+
+Exchange
+Xetra
+
+
+Most commonly known under its ticker VWCE, the Vanguard FTSE All-World ETF continues to be a popular ETF for European investors. We believe its inclusion in the DEGIRO core selection is the main reason for its popularity! The fund, launched by Vanguard in 2019 to track the performance of the FTSE All-World Index, currently holds more than €11 billion under management.It's composed of approximately 3,300 stocks. And because it's so diversified, investors can find in VWCE a great way to follow the market and hold a significant portion of the world's stocks. Stocks such as Apple, Microsoft, Amazon, etc… are represented in the fund. The FTSE All-World index has returned an average of about 8.4% per year since 2005:Vanguard S&P 500 Distributing (VUSA)
+
+
+Index
+S&P 500
+
+
+Number of companies
+503
+
+
+Number of countries
+1
+
+
+Total expense ratio (yearly cost)
+0.07%
+
+
+ISIN
+IE00B3XXRP09
+
+
+Ticker
+VUSA
+
+
+Exchange
+Euronext Amsterdam
+
+
+A trending ETF amongst DEGIRO investors is the Vanguard S&P 500 ETF. S&P 500 stands for the Standard & Poor’s 500 index and as the name suggests, it seeks to track the performance of an index composed of the 500 largest American companies (even though it holds 503 companies at the moment). Through the S&P 500, you get exposure to a large section of the US economy as it covers 80% of the total American market capitalisation.It's important to note that the ETF is distributing, meaning it pays out dividends to you in cash, usually every quarter. If you're saving for your future, we do prefer accumulating funds over distributing funds. In some countries, distributing funds are also fiscally less optimal than accumulating funds.As you can tell from the graph below, the S&P 500 has returned an average 10.5% per year since 1992. That’s quite a significant return on your investment if you began your investment journey in the early 90's. It outperformed both the MSCI World index and the FTSE All-World index that we saw earlier, which is a testament to the exceptional economic performance of the United States the last few decades. Naturally, the question is if that trend will persist the next decades!iShares NASDAQ-100 Accumulating (CNDX)
+
+
+Index
+Nasdaq-100
+
+
+Number of companies
+101
+
+
+Number of countries
+1
+
+
+Total expense ratio (yearly cost)
+0.33%
+
+
+ISIN
+IE00B53SZB19
+
+
+Ticker
+CNDX
+
+
+Exchange
+Euronext Amsterdam
+
+
+Shares also has a good ETF that tracks the Nasdaq-100 index. This index consists of 100 companies that are classified as technology companies. Industries such as hardware, software, telecommunications and biotechnology make up the index, and all major tech companies like Apple, Google, Microsoft and Tesla are in it.Note that an investment in the Nasdaq-100 lacks diversification. It focuses so heavily on the American tech industry. In fact, the Nasdaq-100 makes up only 15% of the global stock market. Tech stocks have seen incredible returns the last 20 years. But the past does not guarantee future returns. And it's a real possibility that this scenario won't repeat itself over the next 30 years.Having said that, a €10,000 investment in the Nasdaq-100 in 2007 would have resulted in almost €90,000 in 2022. That's a staggering 16.1% average annual return:The best ETFs not in the core selectionAlthough the core selection features many popular ETFs, there are plenty of others which didn't make the cut on DEGIRO, including:iShares MSCI ACWI (SSAC)SPDR Bloomberg Euro Government Bond (GOVA)Xtrackers II Global Government Bond (DBZB)We recommend you take a closer look at our guide of the best ETFs to invest, which doesn't just focus on DEGIRO.The drawbacks of the DEGIRO core selectionThe DEGIRO core selection is great for investors, because it allows you to buy ETFs cheaply. However, there are drawbacks.You can easily buy on the wrong exchangeThere's no visual indication in the DEGIRO app about which exchanges allow you to buy an ETF under the core selection conditions. We searched for IWDA in the screenshot below. There's no way to tell which of the two we should buy to get the cheaper price. The unclarity likely works to DEGIRO's revenue numbers as investors easily make mistakes.Which exchange do you buy the ETF from?The fair use policy is complicatedThe fair use policy can be difficult to understand and implement as a first-time investor.DEGIRO's app has a confusing interfaceIn general, there are also some other considerations when trading on DEGIRO. First of all, the interface of their app is intimidating to use if you're new to investing. As you can tell from the screenshots above, there's a lot going on within each screen. DEGIRO offers many types of securities: turbos, warrants, stocks, ETFs… And when you place an order, you also have to choose between a market order, a limit order, a stop-loss order, amongst others. All this technical terminology means that you need to know what you're doing.Price isn't the only criteria when choosing a brokerWe tend to focus just on price when comparing brokers and that's one of the reasons why DEGIRO has gained a lot of popularity. But safety, ease of use or convenience are also important criteria. For instance for Belgians, there are also considerations with DEGIRO when it comes to declaring your account or else having to declare and pay certain taxes.You can learn about these in our in-depth comparisons:DEGIRO review: read this before you startDEGIRO vs BoleroDEGIRO vs MEXEMDEGIRO vs LYNXDEGIRO vs eToroDEGIRO vs Interactive BrokersDEGIRO vs Trade RepublicDEGIRO vs BUXHow to pay less with DEGIROThere are some guidelines you can follow to pay less when investing with DEGIRO:Only select ETFs in DEGIRO's core selection. Make sure you buy them on right exchange!If you are investing monthly, bundle the investments for several months in a single transaction. The relative cost of the broker fee goes down as the transaction amount is higher.Why ETF investing through DEGIRO is challengingWhen managing your own investments through a broker like DEGIRO, you have to figure out what to buy, when to buy, understand the tax implications of your decisions, rebalance your investments and make sure they stay in line with your goals and risk tolerance. There are quite a few challenges:The allocation of your portfolio is in your hands: figure out how to build the right allocation that meets your long-term goals.You need to do your homework: figuring out how to start and understanding the intricacies of investing in ETFs takes an effort. Yet it's important, because in investing the details matter.It takes time: send money to your broker monthly and then make the purchases. Unfortunately you're unable to automate your investments on DEGIRO.Costly for monthly contributions: if you wish to invest on a monthly basis, you’ll have to pay a lot in broker fees. Also, as you buy units and can’t buy fractions, you’ll always be left with cash on your account.Learn how to rebalance your portfolio: if you have multiple funds in your portfolio, how will you rebalance? Quarterly or yearly? How do you decide?Keep track of your portfolio: you may have to set up a spreadsheet to stay on top of things!Understand taxes: this can be complicated and they also often change.Discipline: it requires self-confidence and discipline to stay the course.Brokers want you to trade: the majority of brokers make money on you trading so a “passive” approach isn’t in their best interest.Curvo: an easier alternative to DEGIRO for ETF investingChoosing an ETF is not the end of the story: it's a small part of building a portfolio that will give you success over the long term. Defining the right portfolio is probably the most important and most difficult task for every investor. The composition of your portfolio is dependent on goals, your appetite for risk, your age and your income. We understand this difficulty, along with the many other subtleties investors have to deal with in order to be successful over the long term. As we've seen, investing in ETFs through a broker is not always straightforward. We understand that this can be daunting, especially for someone who's just starting to invest. Curvo was built to take away all the complexities of investing in index funds. No need to search through thousands of ETFs or scour wikis in order to understand how to select a fund. Through Curvo:Invest in a portfolio tailored to you: based on a questionnaire, the right mix of funds is selected for you that correspond to your goals and appetite for risk.Invest securely: your investments are managed by NNEK, a Dutch investment firm that is overseen by the Dutch regulator (AFM).Set up a savings plan: put your savings on autopilot. Choose an amount and it will automatically be invested every single month.All your money is invested: in contrast with the majority of brokers, your investments through NNEK support fractional shares. This means that all your money is put to work. There will never be cash sitting on your account doing nothing.No entry or exit fees: there are no transaction fees, entry or withdrawal fees.Learn more about how Curvo works.You can create an account in a few seconds with itsmeHow Curvo compares to investing through DEGIROYou can follow the steps above and buy ETFs through DEGIRO. However, if:you're worried of making a mistake when investingyou don't want to handle the taxesyou don't want to spend time choosing a brokeryou don't want to spend time making the tradesyou don't want to figure out a rebalancing strategy and execute on ityou want fractional sharesyou want peace of mind that your investments are taken care of...then you're welcome to use Curvo! You can learn more on the differences with doing investments yourself through a broker.SummaryWe covered all the things you need to know about DEGIRO's core selection of ETFs and start investing in them. We hope our selection of top ETFs are helpful for your choice. Whichever ETF you end up choosing, you’ve already made the right choice of investing in an ETF in their core selection, as ETFs are a great investment that provide diversification at a fairly low cost. You simply need to double check you're following the rules in order to benefit from the lower costs: buying from the right exchange and adhering to their fair use policy.Being responsible for your investment portfolio on DEGIRO can be daunting, especially for first-time investors. If you're looking for an easier option to invest the right way, then do take a closer look at what we offer at Curvo.What you should do nowFigure out which ETF you want to buy from DEGIRO's core selection.Double-check you're buying it on the right exchange and also that you're adhering to their fair use policy.If you're a bit overwhelmed with DEGIRO, explore Curvo as a real alternative.Questions you may haveWhich ETF to buy for the long term?There are some important criteria for ETFs that are suitable for the long term:Diversification. A key to success is to have a lot of eggs in different baskets. Choose for ETFs that diversify across many countries and sectors.Low cost. Lower fees means you'll maximise your returns.Accumulating. No need to worry about dividends, the money is automatically re-invested for you. Compounding will work in your favour over the long run.Look at our selection of best ETFs on the market for options.Want to invest the easy way without hassle?Discover CurvoProductHow it worksPricingInvestment philosophyPortfoliosInvest monthly
+
+Sustainability SAFETYSafety of your assetsYour money's journeyAlternative ToDo-it-yourselfPicking stocksLearnAcademyHelp centreToolsBacktestBest brokers for ETFsBest savings accountsPension saving simulatorPension calculatorCompound interest calculatorCheapest brokerCompanyWhy CurvoThe numbersInside CurvoDocsReach out to us 👋EnglishNederlandsFrançaisItalianoFollow us
+
+
+
+
+
+
+
+
+
+
+
+
+Curvo is a trade name of NNEK (Noordnederlandse Effektenkantoor). NNEK is authorised and regulated by the Dutch regulator for the financial markets (AFM) (registration number: 14001587).By using this website, you agree to our cookie policy.OK

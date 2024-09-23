@@ -1,0 +1,60 @@
+Scalable Algorithms for calculating Power Function of Random Quantum States in
+NISQ Era
+Wencheng Zhao,1,∗ Tingting Chen,1,∗ and Ruyu Yang2,†
+1China University of Mining and Technology, College of Sciences, Beijing 100083, China
+2Graduate School of China Academy of Engineering Physics, Beijing 100193, China
+Thisarticlefocusesonthedevelopmentofscalableandquantumbit-efficientalgorithmsforcom-
+puting power functions of random quantum states. Two algorithms, based on Hadamard testing
+andGateSetTomography,areproposed. Weprovideacomparativeanalysisoftheircomputational
+outcomes, accompanied by a meticulous evaluation of inherent errors in the gate set tomography
+approach. Thesecondalgorithmexhibitsasignificantreductionintheutilizationoftwo-qubitgates
+compared to the first. As an illustration, we apply both methods to compute the Von Neumann
+entropy of randomly generated quantum states.
+I. INTRODUCTION like Tr{ρm}, there is no verified indication that these
+methods sustain an advantage over classical approaches.
+Random quantum states form the foundational ba- To more efficiently exploit quantum computers in the
+sis for our understanding of Quantum Information[1, 2], NISQ era, we aim to design algorithms that employ the
+Blackholes[3,4],andrelatedfields. Numerousimportant same number of qubits as ρ, and the circuit depth ex-
+functions, suchasRenyientropy, VonNeumannentropy, hibits polynomial growth with the order of nonlinear
+Quantum Fisher information, fidelity of random states, function. A technique for generating random states in-
+virtualdistillation,andseparationofdensitymatrices[5– volvesinitiatingfromaninitialstateandapplyingquan-
+11],playcrucialrolesinquantuminformation,condensed tum gates randomly based on a specific probability dis-
+matter physics, quantum chemistry, and beyond[12–17]. tribution. The resultant final states post the application
+Quantum computing holds a significant computational ofdiversequantumgatestotheinitialstatemightnotbe
+efficiency advantage over classical computing[18]. The orthogonal. We ascertain the presence of the algorithm
+current development of quantum devices is situated in wewant,assumingtheknowledgeabouthowtoconstruct
+theNoisyIntermediate-ScaleQuantum(NISQ)era,char- the intended random state by utilizing random circuits.
+acterized by the handling of qubits in the tens or hun- In this study, we introduce two distinct algorithms,
+dreds, accompanied by inevitable quantum noise[19–21]. both characterized by their shared utilization of the
+Exploiting the advantages and addressing the challenges Grover gate G = I − 2|0⟩⟨0|. The primary aim of
+of NISQ quantum computers, we tackle the fundamental both algorithms is to compute the power series expan-
+yetchallengingtaskofdevelopingalgorithmsforcomput- sion Tr{ρm} for a nonlinear function in the context of
+ing nonlinear functions of random quantum state. a multi-qubit quantum random state ρ. The first algo-
+Prior methodologies for nonlinear transformations re- rithm is based on the Hadamard Test(HT). It involves
+lied on simultaneously preparing multiple copies of a transforming an auxiliary qubit (usually |0⟩⟨0|) into a
+quantumstate[5,22–25]andcollectivemeasurements[23– superposition state using the Hadamard gate. After a
+25]. These approaches necessitated a large number of controlled gate operation, another Hadamard gate ex-
+qubits. For instance, when computing Tr{ρm}, with ρ tracts essential data, finalizing the calculation. Our al-
+representing the density matrix defined over n qubits, gorithm is Hadamard Test-based but introduces an in-
+thesemethodsrequirednmqubits. However,intheNISQ novative approach: we deploy a quantum pure state cir-
+era, the number of qubits is still insufficient, rendering it cuit to simulate Tr{Gm−1ρ} computation for a quantum
+inadequate to achieve quantum advantage within these random state, by employing weighted averages across
+algorithms[19]. Conversely, researchers have advocated multiple measurements. The second algorithm begins
+for constructing the classical shadow of ρ and subse- by mathematically converting the calculation of Tr{ρm}
+quently employing it to compute the purity Tr{ρ2}[26– for the desired quantum state into Tr{Gm}. A compre-
+32]. While this approach still entails exponential re- hensive understanding of Gm is acquired through Gate
+sourcesrelativetothenumberofqubits,itisperceivedas Set Tomography(GST)[34, 35] in a subspace, facilitat-
+an improvement over traditional State Tomography[33]. ing the calculation and estimation of Tr{Gm} through
+Nevertheless, ongoing exploration of such methods is de- mathematical processing. Compared to the Hadamard
+limited to purity, which corresponds to quadratic func- Test-based algorithm, this approach entails fewer qubits
+tions of the density matrix. For higher-order functions and two-qubit gates within the circuit. Moreover, this
+method introduces a novel result-processing technique
+rooted in reconstruction. Both of these algorithms are
+scalable, with their time complexity growing polynomi-
+∗ Theseauthorscontributedequallytothework. ally with the number of qubits.
+† yangruyu96@gmail.com The structure of this paper is outlined as follows. We
+3202
+ceD
+42
+]hp-tnauq[
+3v57641.8032:viXra

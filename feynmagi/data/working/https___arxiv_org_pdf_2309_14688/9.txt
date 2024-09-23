@@ -1,0 +1,69 @@
+(𝑊+𝑥)
+size 𝑑𝑥×𝑑𝑦 at (𝑥,𝑦), and 𝑑𝑥 is the bus line length contributed by a “vertical” swath of width
+𝑆𝐼(𝑥)
+𝑑𝑥 at 𝑥. The 𝑉 in (11) denotes the required bus fleet size, which comprises (i) the number of buses
+ℎ
+that are actively travelling between stops, 𝑉 ; and (ii) the number of buses that are dwelling at stops.
+ℎ1
+The latter component can be further divided into the number of buses needed due to deceleration,
+acceleration, door opening and closing at stops, 𝑉 , as well as the number of buses required for
+ℎ2
+passenger boarding and alighting, 𝑉 . The three components 𝑉 , 𝑉 , and 𝑉 are formulated in
+ℎ3 ℎ1 ℎ2 ℎ3
+(12)–(14), respectively:
+𝐿 (𝑊+𝑥) 1 1
+𝑉 = ∫ [ ( + )]𝑑𝑥 (12)
+ℎ1 𝑥=0 𝑆𝐼(𝑥)𝑣𝐼 𝐻𝐼𝑝(𝑥) 𝐻𝐼𝑑(𝑥)
+𝑉 =
+∫𝐿 ∫𝑊 𝜏0
+(
+1
++
+1
+)𝑑𝑥𝑑𝑦 (13)
+ℎ2 𝑥=0 𝑦=0𝑆𝐼(𝑥)𝐵(𝑥,𝑦) 𝐻𝐼𝑝(𝑥) 𝐻𝐼𝑑(𝑥)
+𝐿 𝑊
+𝑉 = (𝜏 +𝜏 )∫ ∫ [𝜆 (𝑥,𝑦)+𝜆 (𝑥,𝑦)]𝑑𝑦𝑑𝑥 (14)
+ℎ3 𝑎 𝑏 𝑥=0 𝑦=0 𝑝 𝑑
+Derivation of (12)–(14) is similar to those presented earlier in this section.
+2.4 Optimization model
+The generalized cost can be expressed as the sum of all the above cost components:
+𝐺𝐶 = 𝐶 +𝐶 +𝐶 +𝐶 +𝐶 +𝐶 (15a)
+𝑆 𝑣𝑘 𝑣ℎ 𝐴 𝑊 𝑇
+The optimization problem is formulated as follows:
+min𝐺𝐶 (15b)
+subject to:
+𝑊
+∫ 𝜆 (𝑥,𝑦)𝑑𝑦∙𝑆 (𝑥)𝐻 (𝑥)≤ 𝐾 (15c)
+𝑦=0 𝑝 𝐼 𝐼𝑝
+𝑊
+∫ 𝜆 (𝑥,𝑦)𝑑𝑦∙𝑆 (𝑥)𝐻 (𝑥)≤ 𝐾 (15d)
+𝑦=0 𝑑 𝐼 𝐼𝑑
+𝐻 ≤ 𝐻 (𝑥)≤ 𝐻 (15e)
+𝑚𝑖𝑛 𝐼𝑝 𝑚𝑎𝑥
+max{𝐻 ,𝐻 }≤ 𝐻 (𝑥) ≤ 𝐻 (15f)
+𝑚𝑖𝑛 𝑡 𝐼𝑑 𝑚𝑎𝑥
+where 𝐾 denotes a feeder bus’s patron-carrying capacity; and 𝐻 , 𝐻 the minimum and
+𝑚𝑖𝑛 𝑚𝑎𝑥
+maximum headways, respectively. Constraints (15c) and (15d) ensure that the feeder bus capacity is
+sufficient for carrying the patrons. Constraints (15e)–(15f) are boundary constraints. Note that the feeder
+headway in the distribution direction, 𝐻 (𝑥), must be greater than or equal to the trunk-line headway,
+𝐼𝑑
+𝐻 . Otherwise, some feeder buses would not have any passengers to collect at the terminal.
+𝑡
+2.5 Modeling schedule coordination
+Feeder and trunk-line schedules can be coordinated to minimize waiting times during transfers
+(Sivakumaran et al., 2012). Coordination in both patron-collection and distribution directions can
+effectively eliminate the waiting time components,
+𝐻𝑡
+in Eq. (3) and
+𝐻𝐼𝑑(𝑥)
+in Eq. (4). However, the
+2 2
+coordination schemes in the two directions are different. In the patron-collection direction, coordination
+necessitates that a trunk-line vehicle is dwelling at the terminal when patrons alighting from a feeder
+bus arrive at the trunk platform. This is only feasible if trunk-line vehicles bound for all destinations
+arrive at the terminal simultaneously. This may occur when a single trunk line serves the terminal and
+most transferring patrons travel in the same direction (e.g., during rush hour commuting). Meanwhile,
+coordination in the distribution direction merely requires a feeder bus to be ready for departure when
+10

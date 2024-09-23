@@ -1,0 +1,46 @@
+boarding or alighting; (ii) feeder buses on any specific line maintain regular headways; (iii) patrons
+arrive at the feeder stops randomly without consulting the service timetable; and (iv) all patrons waiting
+at the terminal or a feeder bus stop will be picked up by the next arriving bus (i.e., no patron will be left
+behind). These assumptions are commonly employed in the literature (e.g., Daganzo, 2010; Chen et al.,
+2015; Fan et al., 2018).
+The problem aims to minimize the generalized cost of the feeder system, consisting of the patrons’
+travel cost and the agency’s operating cost. All cost components are expressed in units of hours; in other
+words, the agency cost items originally expressed in monetary units are converted to hours to ensure
+they can be added together with the patron costs. The following two sections develop these cost terms
+incurred during one hour of bus operations.
+2.2 Patrons’ travel time cost
+The patrons’ travel time cost comprises three components: (i) the time spent accessing (for the patron-
+collection direction) and egressing (for the distribution direction) feeder stops; (ii) the waiting time at
+feeder stops and the transfer time at the terminal; and (iii) the in-vehicle travel time on feeder buses.
+They are formulated in Sections 2.2.1 to 2.2.3, respectively.4 Note that while bus fare is another
+component of patron cost, it is excluded from our generalized cost model. This exclusion is due to the
+fare constituting a monetary transfer from patrons to the transit agency, thereby representing a cost for
+patrons and a revenue source for the agency.
+2.2.1 Access and egress cost
+The total access and egress time per hour of bus operations, denoted by 𝐶 , is formulated as follows:
+𝐴
+𝐶 =
+∫𝐿 ∫𝑊 𝑆𝐼(𝑥)+𝐵(𝑥,𝑦)
+[𝜆 (𝑥,𝑦)+𝜆 (𝑥,𝑦)]𝑑𝑦𝑑𝑥 (1)
+𝐴 𝑥=0 𝑦=0 4𝑣𝑊 𝑝 𝑑
+where (𝑆 (𝑥)+𝐵(𝑥,𝑦))⁄4 represents the average access or egress distance per passenger originating
+𝐼
+from or destined for location (𝑥,𝑦); and 𝑣 denotes the walking speed.5 Note that the double integral
+𝑊
+part related to 𝐵(𝑥,𝑦) would not appear (i.e., the RHS of (1) would reduce to a single integral of
+decision function 𝑆 (𝑥)) if stop spacings are not jointly optimized.
+𝐼
+2.2.2 Waiting and transfer cost
+The total waiting and transfer time per hour of bus operations, denoted by 𝐶 , is formulated as:
+𝑊
+𝐶 = 𝐶 +𝐶 (2)
+𝑊 𝑊𝑝 𝑊𝑑
+4 In this paper, the total patron cost is formulated by summing the three patron travel time components. Alternatively, different
+weighting coefficients could be applied to these components to account for the varying values of time during different stages
+of travel.
+5 Eq. (1) is based upon the assumption that a patron always chooses the nearest feeder line and the nearest feeder stop on that
+line for boarding or alighting (see assumption (i) in Section 2.1). In a heterogeneous feeder network, a patron’s nearest stop
+might not be situated on the closest line. Nevertheless, incorporating the choice of the nearest stop would considerably
+complicate the modeling process, while only moderately improving model accuracy. Thus, we opt for this simple (and
+conservative) approach for modeling patrons’ stop selection.
+7

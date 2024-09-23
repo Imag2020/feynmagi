@@ -1,0 +1,62 @@
+feeder line layout, is presented. Lastly, the benefits of schedule coordination between the trunk line and
+feeder lines are discussed in Section 4.5.
+4.1 Experimental setup
+Our models are applicable to any continuous demand functions. For illustrative purposes, we use the
+following demand functions in our numerical case studies:
+𝜆 (𝑥,𝑦)= 𝑇𝑟𝑁(𝑥|𝜇 ,𝜎 ,0,𝐿)𝑇𝑟𝑁(𝑦|𝜇 ,𝜎 ,0,𝑊)Λ (23a)
+𝑝 𝑥𝑝 𝑥𝑝 𝑦𝑝 𝑦𝑝 𝑝
+𝜆 (𝑥,𝑦)= 𝑇𝑟𝑁(𝑥|𝜇 ,𝜎 ,0,𝐿)𝑇𝑟𝑁(𝑦|𝜇 ,𝜎 ,0,𝑊)Λ (23b)
+𝑑 𝑥𝑑 𝑥𝑑 𝑦𝑑 𝑦𝑑 𝑑
+where 𝑇𝑟𝑁(𝑥|𝜇,𝜎,𝑎,𝑏) indicates the probability density function of a truncated normal distribution
+with mean 𝜇 , standard deviation 𝜎 , and support [𝑎,𝑏] . Note that 𝜎 , 𝜎 , 𝜎 , and 𝜎 can be
+𝑥𝑝 𝑦𝑝 𝑥𝑑 𝑥𝑑
+viewed as proxies for demand heterogeneity. A larger value of 𝜎 , 𝜎 , 𝜎 , or 𝜎 signifies that
+𝑥𝑝 𝑦𝑝 𝑥𝑑 𝑥𝑑
+the spatial distribution of trip origins or destinations is “flatter.” Particularly, if 𝜎 = 𝜎 = 𝜎 =
+𝑥𝑝 𝑦𝑝 𝑥𝑑
+𝜎 = ∞, the demand is uniformly distributed over the service region.
+𝑥𝑑
+Additionally, note that patrons in close proximity to the terminal may prefer to walk rather than
+take feeder buses. To account for this preference, we assume that patrons with an origin or destination
+within 300 meters from the terminal, using the Manhattan distance measure, will not take the feeder
+buses.7
+Table 2. Parameter values
+Notation Description Value Unit
+𝐿 Length of the service region 3 km
+𝑊 Width of the service region 2 km
+𝜃 Value of time 20 $/h
+Amortized unit cost per feeder stop infrastructure per
+𝜋 0 $/stop/h
+𝑠 operation hour
+𝜋 Unit cost per bus-km traveled 0.0314+0.0039𝐾 $/vehicle⋅km
+𝑣
+𝜋 Unit cost per bus hour 2.068+0.108𝐾+2𝜃 $/vehicle⋅h
+𝑚
+𝜏 Bus dwell time per stop 12/3600 h/stop
+0
+𝜏 Alighting time per patron 2/3600 h/patron
+𝑎
+𝜏 Boarding time per patron 4/3600 h/patron
+𝑏
+𝑣 Walking speed 2 km/h
+𝑊
+𝑣 Bus cruise speed 25 km/h
+𝐼
+𝑡 Transfer delay from feeder to trunk transit per patron 3/60 h/patron
+𝑓−𝑡
+𝑡 Transfer delay from trunk transit to feeder per patron 3/60 h/patron
+𝑡−𝑓
+𝐻 Minimum feeder headway 3/60 h
+𝑚𝑖𝑛
+𝐻 Maximum feeder headway 30/60 h
+𝑚𝑎𝑥
+𝐻 Headway of the trunk line 5/60 h
+𝑡
+𝜀 error tolerance 0.0001 –
+Numerical instances in this section use the parameter values displayed in Table 2 (Jaiswal, 2010;
+Gu et al., 2016; Chen et al., 2017; Mei et al., 2021; Sangveraphunsiri et al., 2022) unless otherwise
+specified. The service region size (2×3 km2) is suitable for representing a quarter of a small town or
+7 Sensitivity analysis shows that our main findings remain valid when this distance threshold varies within a reasonable range.
+For instance, when the walking zone size increases from 300 m to 500 m, the change in generalized cost savings for our
+heterogeneous design is less than 0.1%.
+15

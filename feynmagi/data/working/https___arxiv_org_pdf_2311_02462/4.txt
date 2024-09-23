@@ -1,0 +1,65 @@
+LevelsofAGI
+Table1.Aleveled,matrixedapproachtowardclassifyingsystemsonthepathtoAGIbasedondepth(performance)andbreadth(gener-
+ality)ofcapabilities.Theassignmentofexamplesystemstocellsisapproximate.UnambiguousclassificationofAIsystemswillrequire
+astandardizedbenchmarkoftasks,aswediscussinSection5. NotethatgeneralsystemsthatbroadlyperformatalevelNmaybeable
+toperformanarrowsubsetoftasksathigherlevels.The“CompetentAGI”level,whichhasnotbeenachievedbyanypublicsystemsat
+thetimeofwriting,bestcorrespondstomanypriorconceptionsofAGI,andmayprecipitaterapidsocietalchangeonceachieved.
+Performance(rows)x Narrow General
+Generality(columns) clearlyscopedtaskorsetoftasks wide range of non-physical tasks, includ-
+ingmetacognitivetaskslikelearningnew
+skills
+Level0:NoAI NarrowNon-AI GeneralNon-AI
+calculatorsoftware;compiler human-in-the-loop computing, e.g.,Ama-
+zonMechanicalTurk
+Level1:Emerging EmergingNarrowAI EmergingAGI
+equal to or somewhat better than an un- GOFAI(Boden,2014);simplerule-based ChatGPT (OpenAI, 2023), Bard
+skilledhuman systems,e.g.,SHRDLU(Winograd,1971) (Aniletal., 2023), Llama 2
+(Touvronetal., 2023), Gemini
+(Pichai&Hassabis,2023)
+Level2:Competent CompetentNarrowAI CompetentAGI
+atleast50thpercentileofskilledadults toxicity detectors such as Jigsaw notyetachieved
+(Dasetal., 2022); Smart Speakers
+suchasSiri(Apple),Alexa(Amazon),or
+GoogleAssistant(Google);VQAsystems
+such as PaLI(Chenetal., 2023); Watson
+(IBM);SOTALLMsforasubsetoftasks
+(e.g.,shortessaywriting,simplecoding)
+Level3:Expert ExpertNarrowAI ExpertAGI
+atleast90thpercentileofskilledadults spelling & grammar checkers such as notyetachieved
+Grammarly (Grammarly, 2023); gen-
+erative image models such as Ima-
+gen (Sahariaetal., 2022) or Dall-E 2
+(Rameshetal.,2022)
+Level4:Virtuoso VirtuosoNarrowAI VirtuosoAGI
+atleast99thpercentileofskilledadults Deep Blue (Campbelletal., 2002), Al- notyetachieved
+phaGo(Silveretal.,2016;2017)
+Level5:Superhuman SuperhumanNarrowAI ArtificialSuperintelligence(ASI)
+outperforms100%ofhumans AlphaFold (Jumperetal., 2021; notyetachieved
+Varadietal., 2021), AlphaZero
+(Silveretal.,2018),StockFish(Stockfish,
+2023)
+safety (e.g., acquiring strong knowledge of chemical en- qualitythanmostpeopleareabletodraw;however,thesys-
+gineering before acquiring strong ethical reasoning skills tem has failuremodes(e.g., drawinghandswith incorrect
+maybe a dangerouscombination). Note also thatthe rate numbers of digits, rendering nonsensical or illegible text)
+of progressionbetween levels of performanceand/or gen- that prevent it from achieving a “Virtuoso” performance
+eralitymaybenonlinear. Acquiringthecapabilitytolearn designation. Whiletheoreticallyan“Expert”levelsystem,
+newskillsmayparticularlyaccelerateprogresstowardthe inpracticethesystemmayonlybe“Competent,”because
+nextlevel. prompting interfaces are too complex for most end-users
+toelicitoptimalperformance(asevidencedbyuserstudies
+While this taxonomyrates systems according to their per-
+(Zamfirescu-Pereiraetal., 2023) andthe existenceof mar-
+formance, systems that are capable of achieving a cer-
+ketplaces(e.g.,PromptBase)inwhichskilledpromptengi-
+tainlevelofperformance(e.g.,againstagivenbenchmark)
+neers sell prompts). This observation emphasizes the im-
+may not match this level in practice when deployed. For
+portanceofdesigningecologicallyvalidbenchmarks(that
+instance, user interface limitations may reduce deployed
+approximate deployed rather than idealized performance),
+performance. Consider DALLE-2 (Rameshetal., 2022),
+aswellastheimportanceofconsideringthehuman-AIin-
+which we estimate as a Level 3 Narrow AI (“Expert Nar-
+teractionparadigms.
+rowAI”)inourtaxonomy. Weestimatethe“Expert”level
+ofperformancesinceDALLE-2producesimagesofhigher Thehighestlevelinourmatrixintermsofcombinedperfor-
+5

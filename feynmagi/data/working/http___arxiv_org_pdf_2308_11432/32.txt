@@ -1,0 +1,62 @@
+LeiWangetal. ASurveyonLargeLanguageModelbasedAutonomousAgents 33
+agent should be able to align with diverse human autonomous agents. For instance, in [186], it was
+values. However, existing powerful LLMs includ- observed that when confronted with simplistic in-
+ing ChatGPT and GPT-4 are mostly aligned with structions during code generation tasks, the agent
+unified human values. Thus, an interesting direc- mayexhibithallucinatorybehavior. Hallucination
+tionis howto “realign”these modelsby designing canleadtoseriousconsequencessuchasincorrect
+properpromptingstrategies. or misleading code, security risks, and ethical is-
+sues [186]. To mitigate this issue, incorporating
+6.3 PromptRobustness
+human correction feedback directly into the itera-
+tive process of human-agent interaction presents
+To ensure rational behavior in agents, it’s a com-
+a viable approach [23]. More discussions on the
+mon practice for designers to embed supplemen-
+hallucinationproblemcanbeseenin[176].
+tary modules, such as memory and planning mod-
+ules, into LLMs. However, the inclusion of these
+6.5 KnowledgeBoundary
+modulesnecessitatesthedevelopmentofmorecom-
+plex prompts in order to facilitate consistent op-
+A pivotal application of LLM-based autonomous
+eration and effective communication. Previous re-
+agentsliesinsimulatingdiversereal-worldhuman
+search [184,185]has highlightedthe lackof robust-
+behaviors[20]. Thestudyofhumansimulationhas
+nessinpromptsforLLMs,asevenminoralterations
+a long history, and the recent surge in interest can
+canyieldsubstantiallydifferentoutcomes. Thisis-
+beattributedtotheremarkableadvancementsmade
+sue becomes more pronounced when constructing
+byLLMs,whichhavedemonstratedsignificantca-
+autonomous agents, as they encompass not a sin-
+pabilitiesinsimulatinghumanbehavior. However,
+gle promptbut a promptframeworkthat considers
+itisimportanttorecognizethatthepowerofLLMs
+all modules, wherein the prompt for one module
+may not always be advantageous. Specifically, an
+hasthepotentialtoinfluenceothers. Moreover,the
+idealsimulationshouldaccuratelyreplicatehuman
+promptframeworkscanvarysignificantlyacrossdif-
+knowledge. In this context, LLMs may display
+ferent LLMs. The development ofa unified and re-
+overwhelming capabilities,being trainedona vast
+silientpromptframeworkapplicableacrossdiverse
+corpus of web knowledge that far exceeds what
+LLMsremainsacriticalandunresolvedchallenge.
+an average individual might know. The immense
+There are two potential solutions to the aforemen-
+capabilities of LLMs can significantly impact the
+tionedproblems: (1)manuallycraftingtheessential effectiveness of simulations. For instance, when
+promptelementsthroughtrialanderror,or(2)auto-
+attemptingtosimulateuserselectionbehaviorsfor
+maticallygeneratingpromptsusingGPT.
+various movies, it is crucial to ensure that LLMs
+assume a position of having no prior knowledge
+6.4 Hallucination
+of these movies. However, there is a possibility
+Hallucination poses a fundamental challenge for thatLLMshavealreadyacquiredinformationabout
+LLMs, characterized by the models’ tendency to these movies. Without implementing appropriate
+producefalseinformationwithahighlevelofconfi- strategies, LLMs may make decisions based on
+dence. ThischallengeisnotlimitedtoLLMsalone theirextensiveknowledge,eventhoughreal-world
+but is also a significant concern in the domain of userswouldnothaveaccesstothecontentsofthese

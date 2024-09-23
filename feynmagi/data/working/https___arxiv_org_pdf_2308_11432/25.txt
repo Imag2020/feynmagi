@@ -1,0 +1,58 @@
+26 Front. Comput. Sci.,2024,0(0): 1–42
+code. Its features include providing detailed ex- abilities for planning, reasoning, and collaboration
+planationsoferrormessages,suggestingpotential in embodied environments. In specific, [140] pro-
+fixes,andensuringtheaccuracyofthecode. PEN- poses a unified agent system for embodied reason-
+TESTGPT[125]isapenetrationtestingtoolbased ingandtaskplanning. Inthissystem,theauthorsde-
+on LLMs, which can effectively identify common sign high-levelcommands to enable improvedplan-
+vulnerabilities,andinterpretsourcecodetodevelop ningwhileproposelow-levelcontrollerstotranslate
+exploits. DB-GPT [41] utilizes the capabilities of commandsintoactions. Additionally,onecanlever-
+LLMstosystematicallyassesspotentialrootcauses agedialoguestogatherinformation[141]toaccel-
+ofanomaliesindatabases. Throughtheimplementa- eratetheoptimizationprocess. [142,143]employ
+tionofatreeofthoughtapproach,DB-GPTenables autonomousagentsforembodieddecision-making
+LLMs to backtrack to previous steps in case the and exploration. To overcome the physical con-
+current step proves unsuccessful, thus enhancing straints, the agents can generate executable plans
+theaccuracyofthediagnosisprocess. andaccomplishlong-termtasksbyleveragingmulti-
+pleskills. Interms ofcontrolpolicies,SayCan [78]
+Industrial Automation: In the field of indus-
+focusesoninvestigatingawiderangeofmanipula-
+trialautomation,LLM-basedagentscanbeusedto
+tionandnavigationskillsutilizingamobilemanip-
+achieveintelligentplanningandcontrolofproduc-
+ulator robot. Takinginspiration from typical tasks
+tion processes. [129] proposes a novel framework
+encountered in a kitchen environment, it presents
+thatintegrateslargelanguagemodels(LLMs)with
+acomprehensiveset of551skillsthat coverseven
+digital twin systems to accommodate flexible pro-
+skill families and 17 objects. These skills encom-
+duction needs. The framework leverages prompt
+passvariousactionssuchaspicking,placing,pour-
+engineering techniques to create LLM agents that
+ing,grasping,andmanipulatingobjects,amongoth-
+can adapt to specific tasks based on the informa-
+ers. TidyBot[137]isanembodiedagentdesigned
+tion provided by digital twins. These agents can
+topersonalizehouseholdcleanuptasks. Itcanlearn
+coordinate a series of atomic functionalities and
+skillsto completeproduction tasksat differentlev- users’preferencesonobjectplacementandmanipu-
+lationmethodsthroughtextualexamples.
+els within the automation pyramid. This research
+demonstratesthepotentialofintegratingLLMsinto
+To promote the application of LLM-based au-
+industrialautomationsystems,providinginnovative
+tonomousagents,researchershavealsointroduced
+solutionsformoreagile,flexibleandadaptivepro-
+manyopen-sourcelibraries,basedonwhichthede-
+ductionprocesses. IELLM[130]showcasesacase
+veloperscanquicklyimplementandevaluateagents
+study on LLMs’ role in the oil and gas industry,
+according to their customized requirements [19,81,
+covering applications like rock physics, acoustic
+127,144–157]. Forexample,LangChain[149]isan
+reflectometry,andcoiledtubingcontrol.
+open-sourceframeworkthatautomatescoding,test-
+Robotics & Embodied Artificial Intelligence: ing,debugging,anddocumentationgenerationtasks.
+Recent works have developed more efficient rein- Byintegratinglanguagemodelswithdatasources
+forcementlearningagentsforroboticsandembod- and facilitating interaction with the environment,
+ied artificial intelligence [16,38,78,132–135,140– LangChainenablesefficientandcost-effectivesoft-
+143]. Thefocusisonenhancingautonomousagents’ ware development through natural language com-

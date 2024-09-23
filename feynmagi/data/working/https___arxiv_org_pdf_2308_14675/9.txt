@@ -1,0 +1,81 @@
+10
+… …
+TABLE II. The numerical value of the parameter
+…
+HadamardTest Tomography
+… Tr{ρ2} 0.650 0.650
+Tr{ρ3} 0.486 0.486
+…
+Tr{ρ4} 0.375 0.375
+*The computational results obtained using the two algorithms
+…
+inthisarticlearepresentedwiththreedecimalplaces.
+FIG. 5. n-qubits Quantum Circuit: The first line repre- andGSTareveryclose. Moredataconsideringshotnoise
+sents an ancillary circuit, with the initial state set to |0⟩ . can be found in Appendix B.
+a
+It then undergoes a Hadamard gate, resulting in a super- However, compared to HT, the GST method doesn’t
+position state. The three lines below represent the prepa- require an additional ancillary qubit, reducing the im-
+ration and measurement of the target quantum states, with
+plementation cost of the quantum circuit. This implies
+initial states all set to |0⟩. After applying the first random
+thatpracticalapplicationscouldbenefitfromusingfewer
+gate U , the target quantum state ρ = U |0⟩⟨0|U† is
+y1 y1 y1 y1 physical qubits and controlled gates, which is a critical
+obtained through tensor product. Next, controlled quan-
+factor to consider. Reducing the number of controlled
+tumgatesG ,G ···G areapplied,followedbyanother
+y2 y3 yk+1
+gates could lower the error rate of the quantum circuit,
+Hadamardgateontheancillarycircuit. Finally,measurement
+in the computational basis is performed on the ancillary cir- thereby enhancing the system’s reliability.
+cuit. Based on the obtained Tr{ρm}, it is possible to cal-
+culate Tr{ρlnρ}, Tr{eρt}, Tr{eiρt}, etc. For example
+Tr{ρlnρ}: theexpansionofρlnρwithrespecttoGyields
+Similarly,byfollowingthesameprocedurewecanobtain the following expression:
+α Xk+1"k Y+1 # ρlnρ≈−1 ln2(I−G)− 1 G+ 1 {(1− 1 )G2+
+P(1)= p P (1). (44) 2 2 2 2
+ys y
+1 1 1 1 1
+y=1 s=1 ( − )G3+···+( − )Gn+ Gn+1}.
+2 3 n−1 n n
+With Eq.(9) and Eq.(10), we can deduce Tr{Gkρ}, sub- (45)
+sequently leading us to the derivation of Tr{ρm+1}. For Tr{ρlnρ}, the theoretical value can be obtained
+using the method of matrix multiplication. After ex-
+pansion, it can be calculated using the two methods de-
+scribed in this paper.
+C. Obtaining the data and exploring potential
+applications As shown in Table III, it’s evident that as the power
+mincreases,thetheoreticalandexperimentalvaluescon-
+verge, yielding a diminishing relative error. Upon juxta-
+Inthisstudy,therandomgatesinthecircuitaresimu-
+posing Table II, one can discern the remarkable similar-
+latedbyselectingdifferentparametersforU(θ,ϕ,λ). For
+ity between the outcomes derived from both algorithms.
+generality, the parameter selection is based on random
+The code can be found in HT and GST.
+numbers. The parameters for the random gates used in
+thisstudyareshowninTableI. Theprobabilitiesforthe
+four random gates are 0.1, 0.2, 0.3, and 0.4. Based on
+VI. CONCLUSION
+the above content, the values of Tr{ρm} obtained using
+two different methods are shown in Table II.
+In this article, we present two algorithms for comput-
+From the analysis of the data above, we can see that
+ingthepowerfunctionofthedensitymatrixbyencoding
+the numerical values of Tr{ρm} obtained using the HT
+the quantum state into a quantum channel. The first al-
+gorithmisbasedontheHT. Intheabsenceofnoise, this
+algorithm provides an unbiased estimate of the power
+TABLE I. The values of the parameters
+function. However, it requires a significant number of
+θys ϕys λys control-G gates, which is not favorable for current hard-
+i=1 0.29π 0.07π 0.11π warelimitations. Therefore,weproposeanalternativeal-
+gorithmbasedonGST.TheoriginalGSTisnotscalable,
+i=2 0.46π 0.62π 0.82π
+but for our specific problem, we can perform GST only
+i=3 0.41π 0.59π 0.53π
+within the non-trivial subspace and extract the neces-
+i=4 0.55π 0.31π 0.60π
+saryinformation. Theadvantageofthisalgorithmliesin
+*Theparametersoftherandomgatesusedtogeneratetheabove significantly reducing the utilization of two-qubit gates.
+data. Nevertheless, due to the need to mitigate the impact of

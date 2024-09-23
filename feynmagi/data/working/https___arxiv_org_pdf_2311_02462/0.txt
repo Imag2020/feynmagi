@@ -1,0 +1,72 @@
+4202
+nuJ
+5
+]IA.sc[
+4v26420.1132:viXra
+Position: Levels of AGI for Operationalizing Progress on the Path to AGI
+MeredithRingelMorris1 JaschaSohl-Dickstein2 NoahFiedel2 TrisWarkentin2 AllanDafoe3
+AleksandraFaust2 ClementFarabet3 ShaneLegg3
+Abstract language models (LLMs); some predict AI will broadly
+outperform humans within about a decade (Bengioetal.,
+We propose a framework for classifying the ca-
+2023); some even assert that current LLMs are AGIs
+pabilities and behavior of Artificial General In-
+(Agu¨erayArcas&Norvig,2023).
+telligence (AGI) models and their precursors.
+This framework introduces levels of AGI per- TheconceptofAGIisimportantasitmapsontogoalsfor,
+formance, generality, and autonomy, providing predictionsabout,andrisksofAI:
+a common language to compare models, assess
+Goals:Achievinghuman-level“intelligence”isanimplicit
+risks, and measure progress along the path to
+or explicit north-star goal for many in our field, from the
+AGI.To developourframework,we analyzeex-
+1956 Dartmouth AI Conference (McCarthyetal., 1955)
+isting definitions of AGI, and distill six princi-
+thatkick-startedthemodernfieldofAI,totoday’sleading
+ples that a useful ontology for AGI should sat-
+AIresearchfirms,whosemissionstatementsincludegoals
+isfy. With these principlesin mind, we propose
+such as “ensure transformative AI helps people and soci-
+“Levels of AGI” based on depth (performance)
+ety” (Anthropic, 2023a) and“ensurethatartificialgeneral
+and breadth (generality) of capabilities, and re-
+intelligencebenefitsallofhumanity”(OpenAI,2023).
+flect on how current systems fit into this ontol-
+ogy. We discuss the challenging requirements Predictions: The concept of AGI is related to a predic-
+forfuturebenchmarksthatquantifythebehavior tion aboutprogressin AI,namelythatit is towardgreater
+andcapabilitiesofAGImodelsagainsttheselev- generality, approaching and exceeding human generality.
+els. Finally,wediscusshowtheselevelsofAGI Additionally, AGI is typically intertwined with a notion
+interactwith deploymentconsiderationssuch as of “emergent” properties (Weietal., 2022), i.e. capabili-
+autonomy and risk, and emphasize the impor- ties not explicitly anticipated by the developer. Such ca-
+tance of carefully selecting Human-AI Interac- pabilitiesofferpromise,perhapsincludingabilitiesthatare
+tion paradigms for responsible and safe deploy- complementarytotypicalhumanskills,enablingnewtypes
+mentofhighlycapableAIsystems. of interaction or novel industries. Such predictions about
+AGI’s capabilities in turn predict likely societal impacts;
+AGI may have significant economic implications, i.e.,
+1. Introduction
+reaching the necessary criteria for widespread labor sub-
+stitution (Ellingrudetal., 2023; Dell’Acquaetal., 2023;
+Artificial General Intelligence (AGI) is an important and
+Eloundouetal.,2023),aswellasgeo-politicalimplications
+sometimes controversial concept in computing research,
+relating not only to the economic advantages AGI may
+used to describe an AI system that is at least as capa-
+confer,butalsotomilitaryconsiderations(Kissingeretal.,
+ble as a human at most tasks. Given the rapid advance-
+2022).
+ment of Machine Learning (ML) models, the concept
+of AGI has grown from a subject of philosophical de- Risks: Lastly, AGI is viewed by some as a concept
+bate, to one which also has near-term practical relevance. for identifying the point when there are extreme risks
+Some expertsbelieve that “sparks” of AGI (Bubecketal., (Shevlaneetal., 2023; Bengioetal., 2023), as some spec-
+2023) are already present in the latest generation of large ulatethatAGIsystemsmightbeabletodeceiveandmanip-
+ulate, accumulate resources, advance goals, behave agen-
+1Google DeepMind, Seattle, WA, USA 2Google Deep-
+tically,outwithumansinbroaddomains,displacehumans
+Mind, Mountain View, CA, USA 3Google DeepMind, Lon-
+don, UK. Correspondence to: Meredith Ringel Morris <mer- fromkeyroles,and/orrecursivelyself-improve.
+rie@google.com>.
+Inthispositionpaper,wearguethatitiscriticalforthe
+Proceedings of the 41st International Conference on Machine AIresearchcommunitytoexplicitlyreflectonwhatwe
+Learning, Vienna, Austria. PMLR 235, 2024. Copyright 2024 mean by “AGI,” and aspire to quantify attributes like
+bytheauthor(s).
+1

@@ -1,0 +1,50 @@
+Appendix D. Transit agency cost rates
+The unit operating cost per bus-hour, 𝜋 , is primarily determined by the amortized vehicle price,
+𝑚
+maintenance costs, and staff wages. The vehicle purchase and maintenance costs can be assumed to be
+an affine function of bus capacity (Oldfield and Bly, 1985), while the staff wages are proportional to the
+value of time. In other words, we can express 𝜋 as:
+𝑚
+𝜋 = 𝑎 +𝑏 𝐾+𝑐 𝜃 (D1)
+𝑚 𝑚 𝑚 𝑚
+where 𝑎 , 𝑏 , and 𝑐 are the cost coefficients.
+𝑚 𝑚 𝑚
+The unit operating cost per bus-km traveled, 𝜋 , is mainly determined by the fuel costs, which are
+𝑣
+related to 𝐾 but not to 𝜃. Thus, we can assume an affine relationship between 𝜋 and 𝐾 as follows:
+𝑣
+𝜋 = 𝑎 +𝑏 𝐾 (D2)
+𝑣 𝑣 𝑣
+where 𝑎 and 𝑏 are the cost coefficients.
+𝑣 𝑣
+To calibrate the cost coefficients, we utilized data from two popular bus models: the Volvo 8900
+for a full-sized bus and the Ford Transit for a medium-sized one. Table D1 displays the capacities,
+purchase costs, fuel consumption rates, and service lives of these vehicle models.
+We assume two employees are assigned to each bus during operation hours, including one driver
+and one manpower for maintenance, management, administration, and support services combined.
+Therefore, we set 𝑐 = 2. To amortize the bus purchase costs, we assume that each bus operates for 16
+𝑚
+hours a day. Additionally, we inflate the bus purchase cost by 50% to account for other cost items
+associated with the bus fleet, such as maintenance, insurance, and facility rent. Based on these
+assumptions, we determine that 𝑎 = 2.068$/vehicle⋅h, and 𝑏 = 0.108$/h.
+𝑚 𝑚
+Table D1. Data of Volvo 8900 and Ford Transit11
+Models Capacity Price ($) Fuel consumption rate (liter/100 km) Service life (year)
+Volvo 8900 80 500,000 26 12
+Ford Transit 17 76,000 7.4 5
+For the bus-km-related cost coefficients, we assume a prevailing gasoline price of 1.1$/liter12. The
+bus-km-related costs are also inflated by 20% to cover the cost items other than fuel, such as mileage-
+related depreciation, vehicle deterioration, and toll. Based on these assumptions, we determine that
+𝑎 = 0.0314$/vehicle⋅km, and 𝑏 = 0.0039$/km.
+𝑣 𝑣
+11 The passenger-carrying capacity of a full-sized (single-deck, not articulated) bus like the Volvo 8900 may vary depending
+on the seat plan requested of the transit agency. For our analysis, we assume a capacity of 80 passengers, including standees.
+The purchase cost of Volvo 8900 was obtained from Horrox and Casale (2019). Its fuel consumption rate was extracted from
+the Volvo Buses Environmental Blog (https://volvobusesenvironmentblog.wordpress.com/). As for the Ford Transit, we
+obtained its seat capacity and purchase cost from the Ford Transit price list
+(https://www.ford.co.uk/content/dam/guxeu/uk/documents/price-list/commercial-vehicles/PL-Transit_Minibus.pdf), while its
+fuel consumption rate came from the Ford Media Center
+(https://media.ford.com/content/fordmedia/feu/nl/nl/news/2014/05/15/ford-launches-first-18-seat-transit-minibus--offers-
+improved-eff.html). We learned the service lives of both models from Laver et al. (2007).
+12 https://www.eia.gov/petroleum/gasdiesel/, accessed on June 15, 2022.
+28

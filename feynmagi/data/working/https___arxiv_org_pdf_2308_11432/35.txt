@@ -1,0 +1,52 @@
+36 Front. Comput. Sci.,2024,0(0): 1–42
+ings of the 36th Annual ACM Symposium on User language model powered agent for recommendation.
+InterfaceSoftwareandTechnology. 2023,1–3 arXivpreprintarXiv:2308.14296,2023
+38. WangG,XieY,JiangY,MandlekarA,XiaoC,Zhu 52. Besta M, Blach N, Kubicek A, Gerstenberger R,
+Y,FanL,AnandkumarA. Voyager: Anopen-ended Gianinazzi L, Gajda J, Lehmann T, Podstawski M,
+embodied agent with large language models. arXiv NiewiadomskiH,NyczykP,others.Graphofthoughts:
+preprintarXiv:2305.16291,2023 Solvingelaborateproblemswithlargelanguagemod-
+39. ZhongW,GuoL,GaoQ,WangY. Memorybank: En- els. arXivpreprintarXiv:2308.09687,2023
+hancinglargelanguagemodelswithlong-termmemory. 53. Sel B, Al-Tawaha A, Khattar V, Wang L, Jia R, Jin
+arXivpreprintarXiv:2305.10250,2023 M. Algorithm of thoughts: Enhancing exploration
+40. HuC,FuJ,DuC,LuoS,ZhaoJ,ZhaoH.Chatdb:Aug- of ideas in large language models. arXiv preprint
+mentingllmswithdatabasesastheirsymbolicmemory. arXiv:2308.10379,2023
+arXivpreprintarXiv:2306.03901,2023 54. HuangW,AbbeelP,PathakD,MordatchI. Language
+41. Zhou X, Li G, Liu Z. Llm as dba. arXiv preprint models as zero-shot planners: Extracting actionable
+arXiv:2308.05481,2023 knowledgeforembodiedagents. In: InternationalCon-
+42. Modarressi A, Imani A, Fayyaz M, Schütze H. Ret- ferenceonMachineLearning. 2022,9118–9147
+llm: Towardsageneralread-write memoryforlarge 55. GramopadhyeM,SzafirD. Generatingexecutableac-
+language models. arXiv preprint arXiv:2305.14322, tionplanswithenvironmentally-awarelanguagemod-
+2023 els. In: 2023IEEE/RSJInternationalConferenceon
+43. Schuurmans D. Memory augmented large language IntelligentRobotsandSystems(IROS). 2023,3568–
+modelsarecomputationallyuniversal. arXivpreprint 3575
+arXiv:2301.04589,2023 56. Hao S, Gu Y, Ma H, Hong J J, Wang Z, Wang D Z,
+44. Zhao A,Huang D,Xu Q, LinM, LiuY J, HuangG. HuZ.Reasoningwithlanguagemodelisplanningwith
+Expel: Llm agents are experiential learners. arXiv worldmodel. arXivpreprintarXiv:2305.14992,2023
+preprintarXiv:2308.10144,2023 57. LiuB,JiangY,ZhangX,LiuQ,ZhangS,BiswasJ,
+45. WeiJ,WangX,SchuurmansD,BosmaM,XiaF,ChiE, StoneP. LLM+P:Empoweringlargelanguagemod-
+LeQV,ZhouD,others. Chain-of-thoughtprompting elswithoptimalplanningproficiency. arXivpreprint
+elicitsreasoninginlargelanguagemodels. Advances arXiv:2304.11477,2023
+inNeuralInformationProcessingSystems,2022,35: 58. DaganG,KellerF,LascaridesA. Dynamicplanning
+24824–24837 withallm. arXivpreprintarXiv:2308.06391,2023
+46. KojimaT,GuSS,ReidM,MatsuoY,IwasawaY.Large 59. Yao S, Zhao J, Yu D, Du N, Shafran I, Narasimhan
+language models are zero-shot reasoners. Advances K, Cao Y. React: Synergizing reasoning and acting
+in neural information processing systems, 2022, 35: in language models. In: The Twelfth International
+22199–22213 ConferenceonLearningRepresentations. 2023
+47. Raman S S, Cohen V, Rosen E, Idrees I, Paulius D, 60. SongCH,WuJ,WashingtonC,SadlerBM,ChaoWL,
+Tellex S. Planning with large language models via SuY. Llm-planner: Few-shotgroundedplanningfor
+correctivere-prompting. In: NeurIPS2022Foundation embodiedagentswithlargelanguagemodels. In: Pro-
+ModelsforDecisionMakingWorkshop. 2022 ceedings of the IEEE/CVF International Conference
+48. XuB,PengZ,LeiB,MukherjeeS,LiuY,XuD. Re- onComputerVision. 2023,2998–3009
+woo: Decouplingreasoningfromobservationsforef- 61. Huang W, Xia F, Xiao T, Chan H, Liang J, Flo-
+ficient augmented language models. arXiv preprint rence P, Zeng A, Tompson J, Mordatch I, Chebotar
+arXiv:2305.18323,2023 Y, others . Inner monologue: Embodied reasoning
+49. WangX,WeiJ,SchuurmansD,LeQ,ChiE,Narang throughplanningwithlanguagemodels. arXivpreprint
+S,ChowdheryA,ZhouD. Self-consistencyimproves arXiv:2207.05608,2022
+chainofthoughtreasoninginlanguagemodels. arXiv 62. Madaan A, Tandon N, Gupta P, Hallinan S, Gao L,
+preprintarXiv:2203.11171,2022 Wiegreffe S, Alon U, Dziri N, Prabhumoye S, Yang
+50. Yao S, Yu D, Zhao J, Shafran I, Griffiths T, Cao Y, Y,others. Self-refine: Iterativerefinementwithself-
+NarasimhanK. Treeofthoughts: Deliberateproblem feedback. AdvancesinNeuralInformationProcessing
+solvingwithlargelanguagemodels. AdvancesinNeu- Systems,2024,36
+ralInformationProcessingSystems,2024,36 63. MiaoN,TehYW,RainforthT. Selfcheck: Usingllms
+51. Wang Y, Jiang Z, Chen Z, Yang F, Zhou Y, Cho E, to zero-shot check their own step-by-step reasoning.
+Fan X, Huang X, Lu Y, Yang Y. Recmind: Large In: TheTwelfthInternationalConferenceonLearning
